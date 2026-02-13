@@ -2,13 +2,16 @@ import React, { useState } from 'react';
 import Logo from './ui/Logo';
 import { Search, ChevronDown } from 'lucide-react';
 import { useLanguage } from './LanguageContext';
+import { useAuth } from '../contexts/AuthContext';
 
 interface HeroProps {
   onSearch: (source: string, target: string) => void;
+  onLoginClick: () => void;
 }
 
-const Hero: React.FC<HeroProps> = ({ onSearch }) => {
+const Hero: React.FC<HeroProps> = ({ onSearch, onLoginClick }) => {
   const { t } = useLanguage();
+  const { isAuthenticated } = useAuth();
   const [sourceLang, setSourceLang] = useState('');
   const [targetLang, setTargetLang] = useState('');
 
@@ -21,6 +24,10 @@ const Hero: React.FC<HeroProps> = ({ onSearch }) => {
   ];
 
   const handleSearchClick = () => {
+    if (!isAuthenticated) {
+      onLoginClick();
+      return;
+    }
     if (sourceLang && targetLang) {
       onSearch(sourceLang, targetLang);
     }
@@ -91,13 +98,13 @@ const Hero: React.FC<HeroProps> = ({ onSearch }) => {
               </div>
 
               {/* Search Button */}
-              <button 
+              <button
                   onClick={handleSearchClick}
                   className={`p-3 border rounded-lg shadow-sm transition-all flex items-center justify-center
-                  ${sourceLang && targetLang 
-                    ? 'bg-primary-600 border-primary-600 text-white hover:bg-primary-700 hover:shadow-md cursor-pointer' 
-                    : 'bg-white border-slate-200 text-slate-400 cursor-not-allowed'
-                  }`}
+                    ${sourceLang && targetLang
+                      ? 'bg-primary-600 border-primary-600 text-white hover:bg-primary-700 hover:shadow-md cursor-pointer'
+                      : 'bg-white border-slate-200 text-slate-400 cursor-not-allowed'
+                    }`}
                   disabled={!sourceLang || !targetLang}
               >
                 <Search size={20} />
