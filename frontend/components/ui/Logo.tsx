@@ -31,7 +31,7 @@ const Logo: React.FC<LogoProps> = ({ size = 'small' }) => {
       <div className="relative flex items-center justify-center w-26 h-12 rounded-lg mr-2 overflow-hidden">
         <img src="/1.png" alt="颜" className="w-28 h-14 object-contain" />
       </div>
-      <span className="text-lg font-bold tracking-tight text-slate-900">{t('title')}</span>
+      {/* <span className="text-lg font-bold tracking-tight text-slate-900">{t('title')}</span> */}
     </div>
   );
 };

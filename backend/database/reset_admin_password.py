@@ -2,23 +2,30 @@
 重置管理员密码
 """
 import asyncio
+import os
+from pathlib import Path
 from passlib.context import CryptContext
 from sqlalchemy import create_engine, select, text
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
 from sqlalchemy.orm import sessionmaker
 
-# 数据库配置
+# 加载环境变量
+from dotenv import load_dotenv
+env_path = Path(__file__).parent.parent / ".env"
+load_dotenv(env_path)
+
+# 数据库配置（从环境变量读取）
 DB_CONFIG = {
-    'host': '192.168.31.11',
-    'port': 3306,
-    'user': 'root',
-    'password': '123456',
+    'host': os.getenv('DB_HOST', 'localhost'),
+    'port': int(os.getenv('DB_PORT', '3306')),
+    'user': os.getenv('DB_USER', 'root'),
+    'password': os.getenv('DB_PASSWORD', ''),
     'charset': 'utf8mb4'
 }
 
-DB_NAME = 'corpus_management'
+DB_NAME = os.getenv('DB_NAME', 'corpus_management')
 USERNAME = 'admin'
-NEW_PASSWORD = 'Yanzhi2026.'
+NEW_PASSWORD = os.getenv('ADMIN_RESET_PASSWORD', 'Yanzhi2026.')
 
 
 def get_password_hash(password: str) -> str:

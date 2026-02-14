@@ -120,11 +120,16 @@ class LoginResponse(BaseModel):
         }
 
 
-class ApiResponse(BaseModel):
+from typing import Generic, TypeVar
+
+T = TypeVar('T')
+
+
+class ApiResponse(BaseModel, Generic[T]):
     """通用 API 响应"""
     success: bool
     message: str
-    data: Optional[dict] = None
+    data: Optional[T] = None
 
     class Config:
         json_schema_extra = {

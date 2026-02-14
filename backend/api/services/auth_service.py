@@ -1,7 +1,9 @@
 """
 认证服务 - 用户认证相关业务逻辑
 """
+import os
 from datetime import datetime, timedelta
+from pathlib import Path
 from typing import Optional
 from passlib.context import CryptContext
 from jose import JWTError, jwt
@@ -12,10 +14,15 @@ from api.models.user import User, UserRole
 from api.schemas.auth import LoginRequest, RegisterRequest, UserInfo
 
 
-# JWT 配置
-SECRET_KEY = "your-super-secret-key-change-this-in-production-min-32-chars-please!"
-ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 30
+# 加载环境变量
+from dotenv import load_dotenv
+env_path = Path(__file__).parent.parent.parent / ".env"
+load_dotenv(env_path)
+
+# JWT 配置（从环境变量读取）
+SECRET_KEY = os.getenv('SECRET_KEY', 'your-super-secret-key-change-this-in-production-min-32-chars')
+ALGORITHM = os.getenv('ALGORITHM', 'HS256')
+ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES', '30'))
 
 # 密码哈希配置
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")

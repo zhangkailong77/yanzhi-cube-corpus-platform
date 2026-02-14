@@ -81,7 +81,7 @@ const App: React.FC = () => {
             )}
 
             {view === 'preview' && (
-              <SamplePreview onBack={handleBackFromPreview} />
+              <SamplePreview corpusId={selectedCorpusId} onBack={handleBackFromPreview} />
             )}
 
             {view === 'dashboard' && (

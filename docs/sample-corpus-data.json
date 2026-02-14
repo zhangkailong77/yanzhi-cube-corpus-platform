@@ -1,0 +1,85 @@
+[{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-1056",
+		"timestamp": "2024-11-16T10:20:05Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "老板，这个是正品吗？我今天下单的话什么时候能发货？",
+		"raw_text_ms": "Boss, brg ni ori ke? Kalo sy order harini bila blh pos?",
+		"normalized_text_ms": "Boss, barang ini original ke? Kalau saya order hari ini bila boleh pos?",
+		"english_loanwords": ["original"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问真伪", "询问发货时间"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"brg": "barang",
+			"ni": "ini",
+			"kalo": "kalau",
+			"sy": "saya",
+			"harini": "hari ini",
+			"blh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-0892",
+		"timestamp": "2024-11-12T14:30:00Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "亲，这个还有现货吗？能便宜点吗？",
+		"raw_text_ms": "Hi sis, brg ni ready stock ke? Boleh murah sikit tak?",
+		"normalized_text_ms": "Hi kakak, barang ini ready stock ke? Boleh murah sedikit tak?",
+		"english_loanwords": ["ready stock"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问库存", "砍价"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"brg": "barang",
+			"ni": "ini",
+			"sikit": "sedikit"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-1055",
+		"timestamp": "2024-11-15T09:15:22Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我等了整整一个星期了，物流一直没更新，我要退款！",
+		"raw_text_ms": "Dah seminggu sy tunggu tracking x update pun! Nak refund skrg jgk!",
+		"normalized_text_ms": "Sudah seminggu saya tunggu tracking tak update pun! Nak refund sekarang juga!",
+		"english_loanwords": ["tracking", "update", "refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货", "退货退款"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"x": "tak",
+			"skrg": "sekarang",
+			"jgk": "juga"
+		}
+	}
+}]

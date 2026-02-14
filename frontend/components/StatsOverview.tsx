@@ -1,34 +1,32 @@
-import React from 'react';
-import { ArrowRight, ArrowUpRight } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { ArrowRight, ArrowUpRight, Loader2 } from 'lucide-react';
 import { useLanguage } from './LanguageContext';
+import { fetchOverviewStats, type DashboardOverviewResponse, type CategoryStat } from '../api/corpus';
 
 const StatsOverview: React.FC = () => {
   const { t } = useLanguage();
 
-  // Mock data to match the screenshot structure
-  const corporaData = [
-  // --- Pre-Sales (售前) ---
-  { name: 'Product Availability', sentences: '3,500', percent: '23.3' },   // 询问库存
-  { name: 'Price Negotiation', sentences: '1,800', percent: '12.0' },      // 议价/砍价
-  { name: 'Product Specifications', sentences: '1,100', percent: '7.3' },  // 商品规格咨询
-  
-  // --- Logistics (物流) ---
-  { name: 'Order Tracking', sentences: '2,800', percent: '18.7' },         // 物流追踪/催发货
-  { name: 'Shipping Address', sentences: '1,200', percent: '8.0' },        // 修改地址
-  
-  // --- After-Sales (售后) ---
-  { name: 'Returns & Refunds', sentences: '2,100', percent: '14.0' },      // 退换货/退款
-  { name: 'Damaged Goods Claims', sentences: '600', percent: '4.0' },      // 损坏索赔
-  
-  // --- Marketing & Others (营销与其他) ---
-  { name: 'Promotions & Vouchers', sentences: '900', percent: '6.0' },     // 优惠券/促销咨询
-  { name: 'Customer Complaints', sentences: '500', percent: '3.3' },       // 客户投诉
-  { name: 'Product Reviews', sentences: '300', percent: '2.0' },           // 评价管理
-  
-  // --- Special Features (特色数据) ---
-  { name: 'Rojak Language (Mixed)', sentences: '800', percent: '5.3' },    // 混合语/语码转换
-  { name: 'Chit-chat & Greetings', sentences: '400', percent: '2.7' },     // 闲聊/问候
-];
+  // 数据状态
+  const [stats, setStats] = useState<DashboardOverviewResponse | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  // 从 API 获取统计数据
+  useEffect(() => {
+    const loadStats = async () => {
+      try {
+        const data = await fetchOverviewStats();
+        setStats(data);
+      } catch (err) {
+        console.error('Failed to fetch overview stats:', err);
+        setError(err instanceof Error ? err.message : 'Failed to load stats');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadStats();
+  }, []);
 
   return (
     <div className="w-full bg-white py-16">
@@ -43,20 +41,31 @@ const StatsOverview: React.FC = () => {
             </h2>
 
             <div className="space-y-6">
+                {loading ? (
+                  <div className="flex items-center py-4">
+                    <Loader2 className="animate-spin text-primary-600 mr-2" size={20} />
+                    <span className="text-slate-500 font-mono">Loading...</span>
+                  </div>
+                ) : error ? (
+                  <div className="text-red-500 font-mono py-4">Error: {error}</div>
+                ) : (
+                  <>
                 <div>
-                    <div className="text-2xl font-bold text-primary-600 font-mono">10+</div>
+                    <div className="text-2xl font-bold text-primary-600 font-mono">{stats?.corpus_count || 0}</div>
                     <div className="text-sm font-bold text-primary-400 uppercase tracking-wider font-mono">{t('corpora')}</div>
                 </div>
 
                 <div>
-                    <div className="text-2xl font-bold text-primary-600 font-mono">1,291,203</div>
+                    <div className="text-2xl font-bold text-primary-600 font-mono">{stats?.total_pairs?.toLocaleString() || 0}</div>
                     <div className="text-sm font-bold text-slate-400 uppercase tracking-wider font-mono">{t('totalPairs')}</div>
                 </div>
 
                 <div>
-                    <div className="text-2xl font-bold text-primary-600 font-mono">5+</div>
+                    <div className="text-2xl font-bold text-primary-600 font-mono">{stats?.language_count || 0}</div>
                     <div className="text-sm font-bold text-slate-400 uppercase tracking-wider font-mono">{t('languagesAvailable')}</div>
                 </div>
+                  </>
+                )}
             </div>
 
             <div className="pt-4 max-w-md">
@@ -77,9 +86,10 @@ const StatsOverview: React.FC = () => {
 
             {/* Table Body - Scrollable */}
             <div className="overflow-y-auto flex-grow custom-scrollbar">
-                {corporaData.map((item, index) => (
-                    <div 
-                        key={item.name} 
+                {!loading && !error && stats?.categories ? (
+                  stats.categories.map((item, index) => (
+                    <div
+                        key={item.name}
                         className={`grid grid-cols-12 gap-4 px-6 py-3 border-b border-slate-50 items-center hover:bg-primary-50 transition-colors group cursor-default ${index % 2 === 0 ? 'bg-white' : 'bg-slate-50/50'}`}
                     >
                         <div className="col-span-6 font-mono text-sm font-medium text-primary-600 group-hover:text-primary-700 flex items-center">
@@ -90,10 +100,11 @@ const StatsOverview: React.FC = () => {
                             {item.sentences}
                         </div>
                         <div className="col-span-3 text-right font-mono text-sm text-slate-600">
-                            {item.percent}
+                            {item.percent}%
                         </div>
                     </div>
-                ))}
+                  ))
+                ) : null}
             </div>
             
             {/* Tiny decoration at bottom of table */}

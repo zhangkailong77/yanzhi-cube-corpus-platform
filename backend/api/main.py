@@ -1,12 +1,24 @@
 """
 语料库管理平台 - FastAPI 主应用入口
 """
+import os
+from pathlib import Path
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
 from api.api import api_router
 from database.connection import init_database
+
+# 加载环境变量
+from dotenv import load_dotenv
+env_path = Path(__file__).parent.parent / ".env"
+load_dotenv(env_path)
+
+# 从环境变量读取配置
+APP_NAME = os.getenv('APP_NAME', '语料库管理平台')
+DEBUG = os.getenv('DEBUG', 'True').lower() in ('true', '1', 'yes')
+ALLOWED_ORIGINS = os.getenv('ALLOWED_ORIGINS', 'http://localhost:3001').split(',')
 
 
 @asynccontextmanager
@@ -20,7 +32,7 @@ async def lifespan(app: FastAPI):
 
 # 创建 FastAPI 应用
 app = FastAPI(
-    title="语料库管理平台 API",
+    title=f"{APP_NAME} API",
     description="Yanzhi Cube Corpus Platform Backend API",
     version="1.0.0",
     lifespan=lifespan,
@@ -28,10 +40,10 @@ app = FastAPI(
     redoc_url="/redoc"
 )
 
-# CORS 中间件配置 - 直接添加到 FastAPI
+# CORS 中间件配置 - 从环境变量读取
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # 允许所有来源
+    allow_origins=ALLOWED_ORIGINS if not DEBUG else ["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

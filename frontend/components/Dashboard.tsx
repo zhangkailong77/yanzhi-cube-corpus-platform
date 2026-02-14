@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import { 
-  Database, 
-  Layers, 
-  Globe, 
-  Activity, 
-  AlertTriangle, 
-  MapPin, 
+import React, { useState, useEffect } from 'react';
+import {
+  Database,
+  Layers,
+  Globe,
+  Activity,
+  AlertTriangle,
+  MapPin,
   Download,
   ShoppingCart,
   MessageSquare,
@@ -18,21 +18,47 @@ import {
   Filter,
   BarChart3,
   Globe2,
-  Briefcase
+  Briefcase,
+  Loader2
 } from 'lucide-react';
 import { useLanguage } from './LanguageContext';
+import { fetchDashboardStats, type DashboardStatsResponse } from '../api/corpus';
 
 const Dashboard: React.FC = () => {
   const { t, language } = useLanguage();
-  
+
+  // 数据状态
+  const [stats, setStats] = useState<DashboardStatsResponse | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
   // View State (Replaces activeTab and selectedScenario)
   // Options: 'overview', 'language', 'consultation', 'transaction', 'support', 'operations', 'feedback'
   const [viewMode, setViewMode] = useState<string>('overview');
-  
+
   // Filter States
   const [filterSource, setFilterSource] = useState('all');
   const [filterDomain, setFilterDomain] = useState('ecommerce');
   const [searchQuery, setSearchQuery] = useState('');
+
+  // 从 API 获取仪表盘数据
+  useEffect(() => {
+    const loadStats = async () => {
+      setLoading(true);
+      setError(null);
+      try {
+        const data = await fetchDashboardStats();
+        setStats(data);
+      } catch (err) {
+        console.error('Failed to fetch dashboard stats:', err);
+        setError(err instanceof Error ? err.message : 'Failed to load data');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadStats();
+  }, []);
   
   // Language Pair States
   const [sourceLang, setSourceLang] = useState('zh');
@@ -203,7 +229,7 @@ const Dashboard: React.FC = () => {
       {/* 2. Main Content Area (Wide Layout) */}
       <div className="w-full max-w-[1800px] mx-auto px-4 md:px-8 py-8">
         
-        {viewMode === 'overview' && <OverviewView t={t} />}
+        {viewMode === 'overview' && <OverviewView t={t} stats={stats} loading={loading} error={error} />}
         {isBusinessScenario(viewMode) && <BusinessView t={t} selectedScenario={viewMode} />}
         {viewMode === 'language' && <LanguageView t={t} />}
         {/* Quality view is removed from navigation as requested */}
@@ -215,32 +241,43 @@ const Dashboard: React.FC = () => {
 
 // --- Sub-Views (No changes to content, just re-using) ---
 
-const OverviewView = ({ t }: { t: any }) => {
+const OverviewView = ({ t, stats, loading, error }: { t: any; stats: DashboardStatsResponse | null; loading: boolean; error: string | null }) => {
   return (
     <div className="space-y-6">
       {/* KPI Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <KpiCard 
+        {loading ? (
+          <div className="col-span-4 flex items-center justify-center py-12">
+            <Loader2 className="animate-spin text-primary-600 mr-2" size={24} />
+            <span className="text-slate-500 font-mono">Loading dashboard data...</span>
+          </div>
+        ) : error ? (
+          <div className="col-span-412 text-red- text-center py-500 font-mono">
+            Error: {error}
+          </div>
+        ) : (
+        <>
+        <KpiCard
           title={t('kpiRefinedPairs')}
-          value="10,024,500" 
-          subValue="+12.5% this week"
-          icon={<Database size={24} className="text-blue-600" />} 
+          value={stats?.total_sentences || '0'}
+          subValue={stats?.sentences_growth || '+0%'}
+          icon={<Database size={24} className="text-blue-600" />}
           bg="bg-blue-50"
           border="border-blue-100"
         />
-        <KpiCard 
+        <KpiCard
           title={t('kpiAvgDim')}
-          value="4.2" 
-          subValue="Target: 4.0"
-          icon={<Layers size={24} className="text-indigo-600" />} 
+          value={stats?.avg_quality_score || '0'}
+          subValue={`Target: ${stats?.quality_target || '0'}`}
+          icon={<Layers size={24} className="text-indigo-600" />}
           bg="bg-indigo-50"
           border="border-indigo-100"
         />
-        <KpiCard 
+        <KpiCard
           title={t('kpiRojak')}
-          value="68.4%" 
+          value={stats?.localization_value || '0%'}
           subValue="High localization value"
-          icon={<Globe size={24} className="text-amber-600" />} 
+          icon={<Globe size={24} className="text-amber-600" />}
           bg="bg-amber-50"
           border="border-amber-100"
         />
@@ -270,6 +307,8 @@ const OverviewView = ({ t }: { t: any }) => {
               </svg>
            </div>
         </div>
+        </>
+        )}
       </div>
 
       {/* Timeline Chart */}

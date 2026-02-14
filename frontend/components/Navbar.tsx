@@ -74,13 +74,13 @@ const Navbar: React.FC<NavbarProps> = ({ onLogoClick, onDashboardClick, onLoginC
           </div>
 
           {/* Theme Toggle (Simulated) */}
-          <button className="text-amber-500 hover:bg-amber-50 p-2 rounded-full transition-colors hidden sm:block">
+          {/* <button className="text-amber-500 hover:bg-amber-50 p-2 rounded-full transition-colors hidden sm:block">
             <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
               <circle cx="12" cy="12" r="4" />
               <path d="M12 2v2" />
               <path d="M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
             </svg>
-          </button>
+          </button> */}
 
           {/* Contribution Link */}
           {/* <a
@@ -99,12 +99,12 @@ const Navbar: React.FC<NavbarProps> = ({ onLogoClick, onDashboardClick, onLoginC
           </a> */}
 
           {/* Dashboard Button */}
-          <button
+          {/* <button
             onClick={onDashboardClick}
             className="hidden md:block px-4 py-1.5 text-sm font-semibold rounded-full border border-slate-200 text-slate-700 hover:bg-slate-50 transition-colors"
           >
             {t('dashboard')}
-          </button>
+          </button> */}
 
           {/* User Menu (Login/Profile/Logout) */}
           {isAuthenticated ? (
