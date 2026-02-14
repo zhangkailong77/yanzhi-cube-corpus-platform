@@ -9,12 +9,14 @@ import Dashboard from './components/Dashboard';
 import { LanguageProvider } from './components/LanguageContext';
 import { AuthProvider } from './contexts/AuthContext';
 import { LoginModal } from './components/auth/LoginModal';
+import { AlertCircle, X } from 'lucide-react';
 
 const App: React.FC = () => {
   const [view, setView] = useState<'home' | 'search' | 'preview' | 'dashboard'>('home');
   const [searchParams, setSearchParams] = useState({ source: '', target: '' });
   const [selectedCorpusId, setSelectedCorpusId] = useState<number | null>(null);
   const [loginModalOpen, setLoginModalOpen] = useState(false);
+  const [alertMessage, setAlertMessage] = useState<string | null>(null);
 
   const handleSearch = (source: string, target: string) => {
     setSearchParams({ source, target });
@@ -81,7 +83,14 @@ const App: React.FC = () => {
             )}
 
             {view === 'preview' && (
-              <SamplePreview corpusId={selectedCorpusId} onBack={handleBackFromPreview} />
+              <SamplePreview
+                corpusId={selectedCorpusId}
+                onBack={handleBackFromPreview}
+                onError={(error) => {
+                  setAlertMessage(error);
+                  setView('search');
+                }}
+              />
             )}
 
             {view === 'dashboard' && (
@@ -101,6 +110,65 @@ const App: React.FC = () => {
           onClose={handleLoginClose}
           onSuccess={handleLoginSuccess}
         />
+
+        {/* 错误提示弹窗 - 现代黑白色风格 */}
+        {alertMessage && (
+          <div
+            className="fixed inset-0 z-50 flex items-center justify-center p-4"
+            role="alert"
+            aria-modal="true"
+            aria-labelledby="error-title"
+          >
+            {/* 背景遮罩 */}
+            <div
+              className="absolute inset-0 bg-slate-900/50 backdrop-blur-sm animate-fade-in"
+              onClick={() => setAlertMessage(null)}
+            />
+
+            {/* 弹窗主体 - 黑白极简风格 */}
+            <div className="relative w-full max-w-sm bg-white dark:bg-slate-800 rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-700 overflow-hidden animate-scale-in">
+              {/* 关闭按钮 */}
+              <button
+                onClick={() => setAlertMessage(null)}
+                className="absolute top-4 right-4 p-1.5 rounded-full bg-slate-100 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-600 text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 transition-all duration-200 cursor-pointer"
+                aria-label="关闭"
+              >
+                <X size={18} />
+              </button>
+
+              {/* 内容区域 */}
+              <div className="p-8">
+                {/* 图标容器 */}
+                <div className="w-14 h-14 mx-auto mb-5 rounded-full bg-slate-100 dark:bg-slate-700 flex items-center justify-center">
+                  <div className="w-10 h-10 rounded-full bg-slate-900 dark:bg-white flex items-center justify-center">
+                    <AlertCircle className="text-white dark:text-slate-900" size={22} strokeWidth={2.5} />
+                  </div>
+                </div>
+
+                {/* 标题 */}
+                <h3
+                  id="error-title"
+                  className="text-xl font-bold text-slate-900 dark:text-white text-center mb-3"
+                >
+                  无权访问
+                </h3>
+
+                {/* 错误消息 */}
+                <p className="text-slate-500 dark:text-slate-400 text-center text-sm leading-relaxed mb-6">
+                  {alertMessage}
+                </p>
+
+                {/* 操作按钮 */}
+                <button
+                  onClick={() => setAlertMessage(null)}
+                  className="w-full px-5 py-3 bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-medium rounded-xl hover:bg-slate-800 dark:hover:bg-slate-100 transition-all duration-200 cursor-pointer"
+                >
+                  确定
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
       </LanguageProvider>
     </AuthProvider>
   );

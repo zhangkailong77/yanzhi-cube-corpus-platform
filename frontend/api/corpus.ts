@@ -120,13 +120,31 @@ async function apiRequest<T>(endpoint: string, options: RequestInit = {}): Promi
     (headers as Record<string, string>)['Authorization'] = `Bearer ${token}`;
   }
 
-  const response = await fetch(url, {
-    ...options,
-    headers,
-  });
+  let response;
+  try {
+    response = await fetch(url, {
+      ...options,
+      headers,
+    });
+  } catch (err) {
+    // 网络错误
+    throw new Error('无权访问此语料库');
+  }
 
   if (!response.ok) {
-    throw new Error(`API request failed: ${response.statusText}`);
+    // 尝试读取后端返回的错误信息
+    try {
+      const errorResult = await response.json();
+      const errorMessage = errorResult.detail || errorResult.message || response.statusText;
+      throw new Error(errorMessage);
+    } catch (err) {
+      // 如果已经是我们抛出的 Error，直接重新抛出
+      if (err instanceof Error && (err.message === '无权访问此语料库' || err.message.includes('403'))) {
+        throw err;
+      }
+      // 其他情况抛出通用错误
+      throw new Error(`请求失败: ${response.status}`);
+    }
   }
 
   const result: ApiResponse<T> = await response.json();

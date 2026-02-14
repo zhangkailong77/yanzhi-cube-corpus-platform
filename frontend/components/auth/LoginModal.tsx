@@ -186,7 +186,7 @@ export function LoginModal({ isOpen, onClose, onSuccess }: LoginModalProps) {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       className="w-full pl-10 pr-4 py-3 bg-slate-50/50 border border-slate-200/50 rounded-xl focus:ring-2 focus:ring-primary-500/50 focus:border-primary-500/50 transition-all placeholder:text-slate-400"
-                      placeholder="请输入邮箱（可选）"
+                      placeholder="请输入邮箱"
                       disabled={isLoading}
                       autoComplete="email"
                     />

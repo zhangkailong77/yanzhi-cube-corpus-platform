@@ -14,6 +14,7 @@ from api.schemas.corpus import (
     KWICResponse
 )
 from api.schemas import ApiResponse
+from api.utils import security
 
 router = APIRouter(prefix="/corpus", tags=["语料库"])
 
@@ -27,16 +28,20 @@ async def get_corpora(
     is_public: Optional[bool] = Query(None, description="是否公开"),
     page: int = Query(1, ge=1, description="页码"),
     limit: int = Query(20, ge=1, le=100, description="每页数量"),
-    db: AsyncSession = Depends(get_db)
+    db: AsyncSession = Depends(get_db),
+    current_user = Depends(security.get_current_user_optional)
 ):
     """获取语料库列表"""
+    # 所有人都能看到语料库列表（私有语料库会显示但无法访问）
+    is_public_filter = is_public
+
     result = await corpus_service.get_corpora_list(
         db=db,
         source_lang=source_lang,
         target_lang=target_lang,
         domain=domain,
         source_type=source_type,
-        is_public=is_public,
+        is_public=is_public_filter,
         page=page,
         limit=limit
     )
@@ -46,7 +51,8 @@ async def get_corpora(
 @router.get("/{corpus_id}", response_model=ApiResponse[dict])
 async def get_corpus_detail(
     corpus_id: int,
-    db: AsyncSession = Depends(get_db)
+    db: AsyncSession = Depends(get_db),
+    current_user = Depends(security.get_current_user_optional)
 ):
     """获取语料库详情"""
     from sqlalchemy import select
@@ -58,6 +64,20 @@ async def get_corpus_detail(
     if not corpus:
         from fastapi import HTTPException
         raise HTTPException(status_code=404, detail="语料库不存在")
+
+    # 普通成员只能访问公开语料库
+    # 获取用户角色，处理可能的枚举或字符串类型
+    user_role = None
+    if current_user and current_user.role:
+        if hasattr(current_user.role, 'value'):
+            user_role = current_user.role.value
+        else:
+            user_role = str(current_user.role)
+
+    if current_user is None or user_role == "member":
+        if not corpus.is_public:
+            from fastapi import HTTPException
+            raise HTTPException(status_code=403, detail="无权访问此语料库")
 
     return ApiResponse(
         success=True,
@@ -85,9 +105,35 @@ async def get_corpus_samples(
     corpus_id: int,
     page: int = Query(1, ge=1, description="页码"),
     limit: int = Query(10, ge=1, le=100, description="每页数量"),
-    db: AsyncSession = Depends(get_db)
+    db: AsyncSession = Depends(get_db),
+    current_user = Depends(security.get_current_user_optional)
 ):
     """获取语料样本列表"""
+    # 检查语料库访问权限
+    from sqlalchemy import select
+    from api.models.corpus import Corpus
+
+    result = await db.execute(select(Corpus).where(Corpus.id == corpus_id))
+    corpus = result.scalar_one_or_none()
+
+    if not corpus:
+        from fastapi import HTTPException
+        raise HTTPException(status_code=404, detail="语料库不存在")
+
+    # 普通成员只能访问公开语料库
+    # 获取用户角色，处理可能的枚举或字符串类型
+    user_role = None
+    if current_user and current_user.role:
+        if hasattr(current_user.role, 'value'):
+            user_role = current_user.role.value
+        else:
+            user_role = str(current_user.role)
+
+    if current_user is None or user_role == "member":
+        if not corpus.is_public:
+            from fastapi import HTTPException
+            raise HTTPException(status_code=403, detail="无权访问此语料库")
+
     result = await corpus_service.get_corpus_samples(
         db=db,
         corpus_id=corpus_id,

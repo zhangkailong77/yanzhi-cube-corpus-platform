@@ -47,8 +47,7 @@ CORPORA_DATA = [
         "target_token_count": 332218,
         "domain": "general",
         "source_type": "community",
-        "is_public": True,
-        "tags": ["General", "Open Data"]
+        "is_public": False,
     },
     {
         "name": "OpenSubtitles v2018",
@@ -62,8 +61,7 @@ CORPORA_DATA = [
         "target_token_count": 9120440,
         "domain": "general",
         "source_type": "official",
-        "is_public": True,
-        "tags": ["Movies", "TV Shows", "Entertainment"]
+        "is_public": False,
     },
     {
         "name": "Shopee E-commerce CS",
@@ -92,8 +90,7 @@ CORPORA_DATA = [
         "target_token_count": 210000,
         "domain": "tourism",
         "source_type": "official",
-        "is_public": True,
-        "tags": ["Tourism", "Travel", "Booking"]
+        "is_public": False,
     },
     {
         "name": "Grab Transport",
@@ -122,8 +119,7 @@ CORPORA_DATA = [
         "target_token_count": 480000,
         "domain": "business",
         "source_type": "official",
-        "is_public": True,
-        "tags": ["Business", "News", "Finance"]
+        "is_public": False,
     },
     {
         "name": "Shopee Reviews MY",
@@ -137,8 +133,7 @@ CORPORA_DATA = [
         "target_token_count": 620000,
         "domain": "ecommerce",
         "source_type": "community",
-        "is_public": True,
-        "tags": ["E-commerce", "Reviews", "Social"]
+        "is_public": False,
     },
     {
         "name": "Thai Hotel Booking",
@@ -152,8 +147,7 @@ CORPORA_DATA = [
         "target_token_count": 140000,
         "domain": "tourism",
         "source_type": "synthetic",
-        "is_public": True,
-        "tags": ["Tourism", "Hotels", "Booking"]
+        "is_public": False,
     },
     {
         "name": "Vietnamese Banking",
@@ -182,8 +176,7 @@ CORPORA_DATA = [
         "target_token_count": 310000,
         "domain": "economy",
         "source_type": "official",
-        "is_public": True,
-        "tags": ["Economy", "News", "Finance"]
+        "is_public": False,
     },
 ]
 

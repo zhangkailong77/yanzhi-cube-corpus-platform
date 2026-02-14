@@ -9,6 +9,7 @@ export type TabType = 'detail' | 'kwic' | 'statistics';
 interface SamplePreviewProps {
   corpusId: number | null;
   onBack: () => void;
+  onError?: (error: string) => void;
 }
 
 // 语料库详情接口（从 API 导入 CorpusItem 但这里我们只需要名称）
@@ -51,11 +52,13 @@ interface CorpusItem {
   style_layer: StyleLayer;
 }
 
-const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack }) => {
+const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError }) => {
   const { t } = useLanguage();
   const [showJson, setShowJson] = useState(false);
   const [samples, setSamples] = useState<CorpusItem[]>([]);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [hasPermission, setHasPermission] = useState<boolean | null>(null);
   const [corpusInfo, setCorpusInfo] = useState<CorpusInfo | null>(null);
 
   // 标签页导航状态
@@ -199,8 +202,19 @@ useEffect(() => {
       try {
         const info = await fetchCorpusDetail(corpusId);
         setCorpusInfo(info);
-      } catch (error) {
-        console.error('Failed to load corpus info:', error);
+        setHasPermission(true);
+      } catch (err) {
+        const errorMessage = err instanceof Error ? err.message : '加载语料库信息失败';
+        // 判断是否是 403 错误
+        if (errorMessage.includes('403') || errorMessage.includes('无权访问')) {
+          setHasPermission(false);
+        } else {
+          setError(errorMessage);
+        }
+        if (onError) {
+          onError(errorMessage);
+        }
+        console.error('Failed to load corpus info:', err);
       }
     };
     loadCorpusInfo();
@@ -209,18 +223,30 @@ useEffect(() => {
   useEffect(() => {
     const loadSamples = async () => {
       if (!corpusId) return;
+      if (hasPermission === false) return;
+
       setLoading(true);
+      setError(null);
       try {
         const response = await fetchCorpusSamples(corpusId, { page: 1, limit: 10 });
         setSamples(response.items as unknown as CorpusItem[]);
-      } catch (error) {
-        console.error('Failed to load samples:', error);
+      } catch (err) {
+        const errorMessage = err instanceof Error ? err.message : '加载样本失败';
+        if (errorMessage.includes('403') || errorMessage.includes('无权访问')) {
+          setHasPermission(false);
+        } else {
+          setError(errorMessage);
+        }
+        console.error('Failed to load samples:', err);
       } finally {
         setLoading(false);
       }
     };
-    loadSamples();
-  }, [corpusId]);
+
+    if (hasPermission !== false) {
+      loadSamples();
+    }
+  }, [corpusId, hasPermission]);
 
   // KWIC 数据加载
   useEffect(() => {
@@ -481,6 +507,29 @@ useEffect(() => {
     return (
       <div className="w-full bg-slate-50 min-h-screen flex items-center justify-center">
         <div className="text-slate-400">加载中...</div>
+      </div>
+    );
+  }
+
+  if (hasPermission === false) {
+    return (
+      <div className="w-full bg-slate-50 min-h-screen flex flex-col items-center justify-center p-4">
+        <div className="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 text-center max-w-md">
+          <div className="w-16 h-16 bg-red-50 rounded-full flex items-center justify-center mx-auto mb-4">
+            <AlertCircle size={32} className="text-red-500" />
+          </div>
+          <h3 className="text-xl font-bold text-slate-800 mb-2">无权访问</h3>
+          <p className="text-slate-500 mb-6">
+            您没有权限查看此语料库的详细内容。该语料库可能通过私有权限设置，或仅对特定成员开放。
+          </p>
+          <button
+            onClick={onBack}
+            className="px-6 py-2.5 bg-slate-900 text-white rounded-lg hover:bg-slate-800 transition-colors font-medium flex items-center justify-center mx-auto"
+          >
+            <ArrowLeft size={18} className="mr-2" />
+            返回列表
+          </button>
+        </div>
       </div>
     );
   }
