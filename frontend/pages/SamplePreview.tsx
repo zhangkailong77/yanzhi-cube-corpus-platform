@@ -14,5 +14,9 @@ export default function SamplePreviewPage() {
     navigate(-1);
   };
 
-  return <SamplePreview corpusId={corpusId} onBack={handleBack} />;
+  const handleError = (error: string) => {
+    navigate(-1, { state: { error } });
+  };
+
+  return <SamplePreview corpusId={corpusId} onBack={handleBack} onError={handleError} />;
 }
