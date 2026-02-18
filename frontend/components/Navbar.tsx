@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Logo from './ui/Logo';
 import User from 'lucide-react/dist/esm/icons/user';
 import LogOut from 'lucide-react/dist/esm/icons/log-out';
@@ -7,16 +8,19 @@ import Globe from 'lucide-react/dist/esm/icons/globe';
 import { useLanguage } from './LanguageContext';
 import { useAuth } from '../contexts/AuthContext';
 
-interface NavbarProps {
-  onLogoClick?: () => void;
-  onDashboardClick?: () => void;
-  onLoginClick?: () => void;
-}
-
-const Navbar: React.FC<NavbarProps> = ({ onLogoClick, onDashboardClick, onLoginClick }) => {
+const Navbar: React.FC = () => {
+  const navigate = useNavigate();
   const { t, language, setLanguage } = useLanguage();
   const { user, isAuthenticated, logout } = useAuth();
   const [showUserMenu, setShowUserMenu] = React.useState(false);
+
+  const handleLogoClick = () => {
+    navigate('/');
+  };
+
+  const handleLoginClick = () => {
+    navigate('/login');
+  };
 
   const handleLogout = () => {
     logout();
@@ -25,9 +29,9 @@ const Navbar: React.FC<NavbarProps> = ({ onLogoClick, onDashboardClick, onLoginC
 
   return (
     <nav className="w-full border-b border-slate-100 sticky top-0 bg-white/90 backdrop-blur-sm z-50">
-      <div className="w-full px-6 md:px-12 h-16 flex items-center justify-between">
+        <div className="w-full px-6 md:px-12 h-16 flex items-center justify-between">
         {/* Left: Logo */}
-        <div className="flex-shrink-0 cursor-pointer" onClick={onLogoClick}>
+        <div className="flex-shrink-0 cursor-pointer" onClick={handleLogoClick}>
           <Logo size="small" />
         </div>
 
@@ -42,31 +46,31 @@ const Navbar: React.FC<NavbarProps> = ({ onLogoClick, onDashboardClick, onLoginC
             <div className="absolute right-0 mt-0 w-32 bg-white rounded-lg shadow-lg border border-slate-100 py-1 hidden group-hover:block transition-all">
               <button
                 onClick={() => setLanguage('zh')}
-                className={`block w-full text-left px-4 py-2 text-sm hover:bg-slate-50 ${language === 'zh' ? 'text-primary-600 font-bold' : 'text-slate-700'}`}
+                className="block w-full text-left px-4 py-2 text-sm hover:bg-slate-50"
               >
                 中文
               </button>
               <button
                 onClick={() => setLanguage('en')}
-                className={`block w-full text-left px-4 py-2 text-sm hover:bg-slate-50 ${language === 'en' ? 'text-primary-600 font-bold' : 'text-slate-700'}`}
+                className="block w-full text-left px-4 py-2 text-sm hover:bg-slate-50"
               >
                 English
               </button>
               <button
                 onClick={() => setLanguage('th')}
-                className={`block w-full text-left px-4 py-2 text-sm hover:bg-slate-50 ${language === 'th' ? 'text-primary-600 font-bold' : 'text-slate-700'}`}
+                className="block w-full text-left px-4 py-2 text-sm hover:bg-slate-50"
               >
                 ไทย
               </button>
               <button
                 onClick={() => setLanguage('vi')}
-                className={`block w-full text-left px-4 py-2 text-sm hover:bg-slate-50 ${language === 'vi' ? 'text-primary-600 font-bold' : 'text-slate-700'}`}
+                className="block w-full text-left px-4 py-2 text-sm hover:bg-slate-50"
               >
                 Tiếng Việt
               </button>
               <button
                 onClick={() => setLanguage('ms')}
-                className={`block w-full text-left px-4 py-2 text-sm hover:bg-slate-50 ${language === 'ms' ? 'text-primary-600 font-bold' : 'text-slate-700'}`}
+                className="block w-full text-left px-4 py-2 text-sm hover:bg-slate-50"
               >
                 Melayu
               </button>
@@ -78,7 +82,7 @@ const Navbar: React.FC<NavbarProps> = ({ onLogoClick, onDashboardClick, onLoginC
             <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
               <circle cx="12" cy="12" r="4" />
               <path d="M12 2v2" />
-              <path d="M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
+              <path d="M12 2v2m6 4 4 4 4 4m2 4m4 4M12 21 12-8 0 2l2 12m1 22M12 24" />
             </svg>
           </button> */}
 
@@ -152,8 +156,8 @@ const Navbar: React.FC<NavbarProps> = ({ onLogoClick, onDashboardClick, onLoginC
             </div>
           ) : (
             <button
-              onClick={onLoginClick}
-              className="flex items-center space-x-2 px-4 py-1.5 text-sm font-semibold rounded-full bg-primary-600 text-white hover:bg-primary-700 shadow-sm transition-colors shadow-primary-200"
+              onClick={handleLoginClick}
+              className="flex items-center space-x-2 px-4 py-1.5 text-sm font-semibold rounded-full bg-primary-600 text-white hover:bg-primary-700 shadow-sm transition-colors"
             >
               <User size={18} />
               <span className="hidden md:inline">登录</span>
