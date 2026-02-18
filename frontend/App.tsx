@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import AppRoutes from './router';
 import { LanguageProvider } from './components/LanguageContext';
-import { AuthProvider } from './components/auth/LoginModal';
+import { AuthProvider } from './contexts/AuthContext';
 import { AlertCircle, X } from 'lucide-react';
 import { LoginModal } from './components/auth/LoginModal';
 
