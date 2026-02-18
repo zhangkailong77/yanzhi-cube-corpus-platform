@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import AppRoutes from './router';
@@ -11,24 +11,16 @@ const App: React.FC = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const [alertMessage, setAlertMessage] = useState<string | null>(null);
-  const [previousLocation, setPreviousLocation] = useState<string | null>(null);
 
   const isLoginRoute = location.pathname === '/login';
+  const fromPath = (location.state as any)?.from || '/';
 
   const handleLoginClose = () => {
-    if (previousLocation && previousLocation !== '/login') {
-      navigate(previousLocation);
-    } else {
-      navigate('/');
-    }
+    navigate(fromPath);
   };
 
   const handleLoginSuccess = () => {
-    if (previousLocation && previousLocation !== '/login') {
-      navigate(previousLocation);
-    } else {
-      navigate('/');
-    }
+    navigate(fromPath);
   };
 
   return (
