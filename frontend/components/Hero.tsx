@@ -3,15 +3,13 @@ import Logo from './ui/Logo';
 import { Search, ChevronDown } from 'lucide-react';
 import { useLanguage } from './LanguageContext';
 import { useAuth } from '../contexts/AuthContext';
+import { useNavigate, useLocation } from 'react-router-dom';
 
-interface HeroProps {
-  onSearch: (source: string, target: string) => void;
-  onLoginClick: () => void;
-}
-
-const Hero: React.FC<HeroProps> = ({ onSearch, onLoginClick }) => {
+const Hero: React.FC = () => {
   const { t } = useLanguage();
   const { isAuthenticated } = useAuth();
+  const navigate = useNavigate();
+  const location = useLocation();
   const [sourceLang, setSourceLang] = useState('');
   const [targetLang, setTargetLang] = useState('');
 
@@ -25,11 +23,11 @@ const Hero: React.FC<HeroProps> = ({ onSearch, onLoginClick }) => {
 
   const handleSearchClick = () => {
     if (!isAuthenticated) {
-      onLoginClick();
+      navigate('/login', { state: { from: location.pathname } });
       return;
     }
     if (sourceLang && targetLang) {
-      onSearch(sourceLang, targetLang);
+      navigate(`/search?source=${sourceLang}&target=${targetLang}`);
     }
   };
 
