@@ -1,5 +1,18 @@
 /**
  * Sample Preview Page Component
- * Re-exports the existing SamplePreview component with router integration
+ * Wraps SamplePreview component with router parameter extraction
  */
-export { default } from '@/components/SamplePreview';
+import { useParams, useNavigate } from 'react-router-dom';
+import SamplePreview from '@/components/SamplePreview';
+
+export default function SamplePreviewPage() {
+  const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate();
+  const corpusId = id ? parseInt(id) : null;
+
+  const handleBack = () => {
+    navigate(-1);
+  };
+
+  return <SamplePreview corpusId={corpusId} onBack={handleBack} />;
+}
