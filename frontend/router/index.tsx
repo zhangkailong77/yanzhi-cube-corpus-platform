@@ -12,7 +12,7 @@ export default function AppRoutes() {
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Home />} />
       <Route path="/search" element={<SearchResults />} />
-      <Route path="/preview/:id" element={<SamplePreview />} />
+      <Route path="/preview/:encodedId" element={<SamplePreview />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/unauthorized" element={<Unauthorized />} />
       <Route path="*" element={<NotFound />} />

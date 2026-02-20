@@ -5,12 +5,13 @@
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import SamplePreview from '@/components/SamplePreview';
 import { fetchCorpusDetail } from '@/api/corpus';
+import { decodeId } from '@/router/encoding';
 
 export default function SamplePreviewPage() {
-  const { id } = useParams<{ id: string }>();
+  const { encodedId } = useParams<{ encodedId: string }>();
   const navigate = useNavigate();
   const location = useLocation();
-  const corpusId = id ? parseInt(id) : null;
+  const corpusId = encodedId ? decodeId(encodedId) : null;
 
   const handleBack = async () => {
     // Try to use from state first, otherwise get corpus info and build search URL
