@@ -11,11 +11,11 @@ export default function SamplePreviewPage() {
   const corpusId = id ? parseInt(id) : null;
 
   const handleBack = () => {
-    navigate(-1);
+    navigate('/');
   };
 
   const handleError = (error: string) => {
-    navigate(-1, { state: { error } });
+    navigate('/', { state: { error } });
   };
 
   return <SamplePreview corpusId={corpusId} onBack={handleBack} onError={handleError} />;
