@@ -17,14 +17,20 @@ export function decodeId(encodedId: string): number | null {
       .replace(/-/g, '+')
       .replace(/_/g, '/');
 
-    const base64WithPadding = restored.padEnd(Math.ceil(restored.length / 4) * 4, '=');
+    const paddingLength = (4 - (restored.length % 4)) % 4;
+    const base64WithPadding = restored + '='.repeat(paddingLength);
     const decoded = atob(base64WithPadding);
+
+    console.log('Decoded string:', decoded);
 
     if (decoded.startsWith(SALT)) {
       const idStr = decoded.substring(SALT.length);
-      return parseInt(idStr, 10);
+      const id = parseInt(idStr, 10);
+      console.log('Extracted ID:', id);
+      return id;
     }
 
+    console.error('Decoded string does not start with salt');
     return null;
   } catch (err) {
     console.error('Failed to decode ID:', err);
