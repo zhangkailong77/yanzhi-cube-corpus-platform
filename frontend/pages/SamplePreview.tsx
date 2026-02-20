@@ -4,6 +4,7 @@
  */
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import SamplePreview from '@/components/SamplePreview';
+import { fetchCorpusDetail } from '@/api/corpus';
 
 export default function SamplePreviewPage() {
   const { id } = useParams<{ id: string }>();
@@ -11,14 +12,40 @@ export default function SamplePreviewPage() {
   const location = useLocation();
   const corpusId = id ? parseInt(id) : null;
 
-  const fromPath = (location.state as any)?.from || '/search';
-
-  const handleBack = () => {
-    navigate(fromPath);
+  const handleBack = async () => {
+    // Try to use from state first, otherwise get corpus info and build search URL
+    const fromPath = (location.state as any)?.from;
+    if (fromPath) {
+      navigate(fromPath);
+    } else if (corpusId) {
+      try {
+        const corpusInfo = await fetchCorpusDetail(corpusId);
+        const searchPath = `/search?source=${corpusInfo.source_lang}&target=${corpusInfo.target_lang}`;
+        navigate(searchPath);
+      } catch (err) {
+        navigate('/search');
+      }
+    } else {
+      navigate('/search');
+    }
   };
 
-  const handleError = (error: string) => {
-    navigate(fromPath, { state: { error } });
+  const handleError = async (error: string) => {
+    // Try to use from state first, otherwise get corpus info and build search URL
+    const fromPath = (location.state as any)?.from;
+    if (fromPath) {
+      navigate(fromPath, { state: { error } });
+    } else if (corpusId) {
+      try {
+        const corpusInfo = await fetchCorpusDetail(corpusId);
+        const searchPath = `/search?source=${corpusInfo.source_lang}&target=${corpusInfo.target_lang}`;
+        navigate(searchPath, { state: { error } });
+      } catch (err) {
+        navigate('/search', { state: { error } });
+      }
+    } else {
+      navigate('/search', { state: { error } });
+    }
   };
 
   return <SamplePreview corpusId={corpusId} onBack={handleBack} onError={handleError} />;
