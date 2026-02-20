@@ -1018,6 +1018,8 @@ useEffect(() => {
         <h4 className="text-sm font-bold text-slate-800">
           {t('kwicResultCount').replace('{count}', String(kwicResults.length))}
         </h4>
+      </div>
+
       {/* KWIC 结果表格 */}
       <div className="overflow-x-auto">
         <table className="w-full table-fixed"> {/* 使用 table-fixed 确保宽度比例严格执行 */}
