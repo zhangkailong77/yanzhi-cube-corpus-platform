@@ -1037,7 +1037,7 @@ useEffect(() => {
               <th className="px-4 py-3 text-left font-semibold w-[45%]">
                 {t('kwicRightContext')}
               </th>
-            </tr>
+                </tr>
           </thead>
           <tbody className="divide-y divide-slate-50">
             {kwicResults.map((result) => (
@@ -1053,14 +1053,12 @@ useEffect(() => {
                 <td className="px-4 py-3 text-right text-slate-500 font-mono text-sm truncate">
                   {result.left_context}
                 </td>
-                
                 {/* 关键词：中间对齐，突出显示 */}
                 <td className="px-2 py-3 text-center">
                   <span className="inline-block bg-primary-100 text-primary-700 px-2 py-0.5 rounded font-bold text-sm">
                     {result.keyword}
                   </span>
                 </td>
-                
                 {/* 右语境：文字向左靠拢 */}
                 <td className="px-4 py-3 text-left text-slate-500 font-mono text-sm truncate">
                   {result.right_context}
