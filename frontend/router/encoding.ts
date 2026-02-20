@@ -1,12 +1,15 @@
 export function encodeId(id: number): string {
-  const str = id.toString();
-  return btoa(str);
+  const hex = id.toString(16).padStart(2, '0');
+  return hex.toUpperCase();
 }
 
 export function decodeId(encodedId: string): number | null {
   try {
-    const decoded = atob(encodedId);
-    return parseInt(decoded, 10);
+    const parsed = parseInt(encodedId, 16);
+    if (isNaN(parsed)) {
+      return null;
+    }
+    return parsed;
   } catch (err) {
     console.error('Failed to decode ID:', err);
     return null;
