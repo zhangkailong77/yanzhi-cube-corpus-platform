@@ -13,14 +13,18 @@ export function encodeId(id: number): string {
 
 export function decodeId(encodedId: string): number | null {
   try {
-    const restored = encodedId
+    let restored = encodedId
       .replace(/-/g, '+')
       .replace(/_/g, '/');
 
-    const paddingLength = (4 - (restored.length % 4)) % 4;
-    const base64WithPadding = restored + '='.repeat(paddingLength);
-    const decoded = atob(base64WithPadding);
+    while (restored.length % 4 !== 0) {
+      restored += '=';
+    }
 
+    const decoded = atob(restored);
+
+    console.log('Encoded ID:', encodedId);
+    console.log('Restored with padding:', restored);
     console.log('Decoded string:', decoded);
 
     if (decoded.startsWith(SALT)) {
@@ -34,6 +38,7 @@ export function decodeId(encodedId: string): number | null {
     return null;
   } catch (err) {
     console.error('Failed to decode ID:', err);
+    console.error('Error details:', err);
     return null;
   }
 }
