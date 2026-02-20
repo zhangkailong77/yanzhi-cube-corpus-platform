@@ -205,14 +205,13 @@ useEffect(() => {
         setHasPermission(true);
       } catch (err) {
         const errorMessage = err instanceof Error ? err.message : '加载语料库信息失败';
-        // 判断是否是 403 错误
         if (errorMessage.includes('403') || errorMessage.includes('无权访问')) {
           setHasPermission(false);
+          if (onError) {
+            onError('无权访问此语料库');
+          }
         } else {
           setError(errorMessage);
-        }
-        if (onError) {
-          onError(errorMessage);
         }
         console.error('Failed to load corpus info:', err);
       }
@@ -234,6 +233,9 @@ useEffect(() => {
         const errorMessage = err instanceof Error ? err.message : '加载样本失败';
         if (errorMessage.includes('403') || errorMessage.includes('无权访问')) {
           setHasPermission(false);
+          if (onError) {
+            onError('无权访问此语料库');
+          }
         } else {
           setError(errorMessage);
         }
@@ -512,24 +514,12 @@ useEffect(() => {
   }
 
   if (hasPermission === false) {
+    if (onError) {
+      onError('无权访问此语料库');
+    }
     return (
       <div className="w-full bg-slate-50 min-h-screen flex flex-col items-center justify-center p-4">
-        <div className="bg-white p-8 rounded-2xl shadow-lg border border-slate-100 text-center max-w-md">
-          <div className="w-16 h-16 bg-red-50 rounded-full flex items-center justify-center mx-auto mb-4">
-            <AlertCircle size={32} className="text-red-500" />
-          </div>
-          <h3 className="text-xl font-bold text-slate-800 mb-2">无权访问</h3>
-          <p className="text-slate-500 mb-6">
-            您没有权限查看此语料库的详细内容。该语料库可能通过私有权限设置，或仅对特定成员开放。
-          </p>
-          <button
-            onClick={onBack}
-            className="px-6 py-2.5 bg-slate-900 text-white rounded-lg hover:bg-slate-800 transition-colors font-medium flex items-center justify-center mx-auto"
-          >
-            <ArrowLeft size={18} className="mr-2" />
-            返回列表
-          </button>
-        </div>
+        <div className="text-slate-400">返回中...</div>
       </div>
     );
   }
