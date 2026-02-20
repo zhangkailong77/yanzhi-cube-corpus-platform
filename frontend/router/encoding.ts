@@ -26,9 +26,11 @@ export function decodeId(encodedId: string): number | null {
     console.log('Encoded ID:', encodedId);
     console.log('Restored with padding:', restored);
     console.log('Decoded string:', decoded);
+    console.log('SALT length:', SALT.length);
+    console.log('String before extraction:', decoded);
 
     if (decoded.startsWith(SALT)) {
-      const idStr = decoded.substring(SALT.length);
+      const idStr = decoded.substring(0, decoded.length - SALT.length);
       const id = parseInt(idStr, 10);
       console.log('Extracted ID:', id);
       return id;
