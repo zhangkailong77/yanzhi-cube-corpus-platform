@@ -2,7 +2,7 @@ const SALT = 'corpus_preview_2024';
 
 export function encodeId(id: number): string {
   const str = id.toString();
-  const combined = str + SALT;
+  const combined = SALT + str;
   const encoded = btoa(combined);
 
   return encoded
@@ -22,15 +22,15 @@ export function decodeId(encodedId: string): number | null {
     }
 
     const decoded = atob(restored);
+    const saltLength = 'corpus_preview_2024'.length;
 
     console.log('Encoded ID:', encodedId);
     console.log('Restored with padding:', restored);
     console.log('Decoded string:', decoded);
-    console.log('SALT length:', SALT.length);
-    console.log('String before extraction:', decoded);
+    console.log('Salt length:', saltLength);
 
     if (decoded.startsWith(SALT)) {
-      const idStr = decoded.substring(0, decoded.length - SALT.length);
+      const idStr = decoded.substring(saltLength);
       const id = parseInt(idStr, 10);
       console.log('Extracted ID:', id);
       return id;
