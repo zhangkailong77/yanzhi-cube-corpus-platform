@@ -67,6 +67,9 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
   // 标签页导航状态
   const [activeTab, setActiveTab] = useState<TabType>('detail');
 
+  // 当前选中的句子 ID（从 KWIC 语境点击时设置）
+  const [selectedSentenceId, setSelectedSentenceId] = useState<string | null>(null);
+
   const [posChartAnimated, setPosChartAnimated] = useState(false);
 
 
@@ -737,8 +740,9 @@ useEffect(() => {
           <div className="p-6">
             {activeTab === 'detail' && (
               <div role="tabpanel" aria-labelledby="tab-detail" className="space-y-6">
-                {paginatedData.map((item, index) => (
-                  <div key={item.basic_layer.sentence_id} className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden group hover:shadow-md transition-all duration-300">
+                 {paginatedData.map((item, index) => (
+                  <div key={item.basic_layer.sentence_id} className={`bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden group hover:shadow-md transition-all duration-300 ${selectedSentenceId === item.basic_layer.sentence_id ? 'ring-2 ring-primary-500 ring-offset-2' : ''}`}>
+
             
             {/* Card Header: Metadata Row */}
             <div className="bg-slate-50 border-b border-slate-100 px-6 py-3 flex flex-wrap items-center justify-between gap-4">
@@ -1022,7 +1026,7 @@ useEffect(() => {
 
       {/* KWIC 结果表格 */}
       <div className="overflow-x-auto">
-        <table className="w-full table-fixed"> {/* 使用 table-fixed 确保宽度比例严格执行 */}
+        <table className="w-full table-fixed">
           <thead>
             <tr className="text-[11px] uppercase tracking-wider text-slate-400 bg-slate-50/50">
               {/* 左语境：右对齐 */}
@@ -1045,8 +1049,8 @@ useEffect(() => {
                 key={result.sentence_id}
                 className="hover:bg-primary-50/50 transition-colors cursor-pointer group"
                 onClick={() => {
+                  setSelectedSentenceId(result.sentence_id);
                   setActiveTab('detail');
-                  // 这里可以添加逻辑定位到具体样本
                 }}
               >
                 {/* 左语境：文字向右靠拢 */}
