@@ -20,6 +20,9 @@ interface CorpusInfo {
   source_lang: string;
   target_lang: string;
   domain: string;
+  sentence_count?: number;
+  source_token_count?: number;
+  target_token_count?: number;
 }
 
 // Interfaces based on the user's 4-layer structure
@@ -63,6 +66,7 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
   const [error, setError] = useState<string | null>(null);
   const [hasPermission, setHasPermission] = useState<boolean | null>(null);
   const [corpusInfo, setCorpusInfo] = useState<CorpusInfo | null>(null);
+  const [previousTab, setPreviousTab] = useState<TabType>('detail');
 
   // 标签页导航状态
   const [activeTab, setActiveTab] = useState<TabType>('detail');
@@ -245,6 +249,13 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
       setSource(corpusInfo.source_lang);
       setTarget(corpusInfo.target_lang);
       setDomain(corpusInfo.domain === 'ecommerce' ? 'ecommerce' : 'general');
+
+      if (corpusInfo.sentence_count && corpusInfo.source_token_count && corpusInfo.sentence_count > 0) {
+        const avgLength = corpusInfo.source_token_count / corpusInfo.sentence_count;
+        setAvgSentenceLength(parseFloat(avgLength.toFixed(2)));
+      } else {
+        setAvgSentenceLength(null);
+      }
     }
   }, [corpusInfo]);
 
@@ -303,56 +314,79 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
   }, [corpusId, kwicKeyword, kwicContextWindow, kwicPage, activeTab]);
 
   // 词频统计数据加载
-  const loadFrequencyData = async () => {
-    if (!corpusId || activeTab !== 'statistics') return;
-    setFreqLoading(true);
-    try {
-      // 从样本数据中计算词频和平均句长
-      if (samples.length > 0) {
-        const wordMap = new Map<string, { count: number; pos: string; }>();
-        let totalLength = 0;
-        let sentenceCount = 0;
+  useEffect(() => {
+    const loadFrequencyData = async () => {
+      if (!corpusId || activeTab !== 'statistics') return;
+      setFreqLoading(true);
+      try {
+        // 从样本数据中计算词频
+        if (samples.length > 0) {
+          const wordMap = new Map<string, {count: number; pos: string}>();
+          let totalCount = 0;
+          const posCounts = { noun: 0, verb: 0, adj: 0, other: 0 };
 
-        samples.forEach(sample => {
-          // 计算句长
-          const text = sample.language_layer.normalized_text_ms || sample.language_layer.raw_text_ms || '';
-          const length = text.trim().length;
-          totalLength += length;
-          sentenceCount++;
+          samples.forEach(sample => {
+            const text = sample.language_layer.normalized_text_ms || sample.language_layer.raw_text_ms || '';
+            const words = text.toLowerCase().split(/\s+/);
+            words.forEach(word => {
+              if (word.length > 1) {  // 忽略单字符
+                // 过滤停用词
+                if (freqFilterStopWords && stopWords.has(word)) return;
 
-          // 统计词频
-          const words = text.toLowerCase().split(/\s+/).filter(w => w.length > 0);
-          words.forEach(word => {
-            const current = wordMap.get(word) || { count: 0, pos: 'other' };
-            wordMap.set(word, { ...current, count: current.count + 1 });
+                const current = wordMap.get(word) || { count: 0, pos: 'other' };
+                wordMap.set(word, { count: current.count + 1, pos: current.pos });
+                totalCount++;
+              }
+            });
           });
-        });
 
-        const avgLength = (totalLength / sentenceCount).toFixed(1);
+          // 简化的词性判断（基于后缀）
+          Array.from(wordMap.entries()).forEach(([word, data]) => {
+            if (word.endsWith('nya') || word.endsWith('an')) {
+              data.pos = 'adj';
+              posCounts.adj += data.count;
+            } else if (word.endsWith('kan') || word.endsWith('i')) {
+              data.pos = 'verb';
+              posCounts.verb += data.count;
+            } else if (word.endsWith('nya')) {
+              data.pos = 'noun';
+              posCounts.noun += data.count;
+            } else {
+              posCounts.other += data.count;
+            }
+          });
 
-        const freqArray = Array.from(wordMap.entries()).map(([word, data]) => ({
-          word,
-          count: data.count,
-          percent: Math.round((data.count / totalWords) * 1000) / 10,
-          pos: data.pos
-        }));
+          // 转换为数组并排序
+          let freqArray = Array.from(wordMap.entries())
+            .filter(([_, data]) => {
+              // 词性筛选
+              if (freqFilter === 'all') return true;
+              return data.pos === freqFilter;
+            })
+            .filter(([word]) => {
+              // 搜索过滤
+              if (freqSearchKeyword && !word.toLowerCase().includes(freqSearchKeyword.toLowerCase())) return false;
+              return true;
+            })
+            .map(([word, data]) => ({
+              word,
+              count: data.count,
+              percent: Math.round((data.count / totalCount) * 1000) / 10,
+              pos: data.pos
+            }))
+            .sort((a, b) => freqSort === 'freq' ? b.count - a.count : a.word.localeCompare(b.word));
 
-        // 按频次排序（降序）
-        freqArray.sort((a, b) => b.count - a.count);
-
-        setFreqData(freqArray.slice(0, 100));
-        setFreqTotalWords(totalWords);
-        setFreqUniqueWords(wordMap.size);
-        setAvgSentenceLength(parseFloat(avgLength));
+          setFreqData(freqArray.slice(0, 100));  // 限制前 100 个
+          setFreqTotalWords(totalCount);
+          setFreqUniqueWords(wordMap.size);
+          setPosDistribution(posCounts);
+        }
+      } catch (error) {
+        console.error('Failed to load frequency data:', error);
+      } finally {
+        setFreqLoading(false);
       }
-
-      setFreqLoading(false);
-    } catch (error) {
-      console.error('Failed to load frequency data:', error);
-    } finally {
-      setFreqLoading(false);
-    }
-  };
+    };
     loadFrequencyData();
   }, [corpusId, activeTab, samples, freqSort, freqFilter, freqSearchKeyword, freqFilterStopWords]);
 
@@ -660,22 +694,33 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
              <div className="text-xs text-slate-400 font-mono hidden sm:block">
                 {t('lblDisplaying').replace('{current}', filteredData.length.toString()).replace('{total}', '3,150,000')}
              </div>
-             <div className="bg-slate-100 p-1 rounded-lg flex items-center border border-slate-200">
-                <button 
-                    onClick={() => setShowJson(false)}
-                    className={`p-1.5 rounded-md transition-all flex items-center space-x-2 ${!showJson ? 'bg-white shadow-sm text-primary-600 font-medium' : 'text-slate-400 hover:text-slate-600'}`}
-                >
-                    <LayoutList size={16} />
-                    <span className="text-xs hidden md:inline">{t('lblVisual')}</span>
-                </button>
-                <button 
-                    onClick={() => setShowJson(true)}
-                    className={`p-1.5 rounded-md transition-all flex items-center space-x-2 ${showJson ? 'bg-white shadow-sm text-primary-600 font-medium' : 'text-slate-400 hover:text-slate-600'}`}
-                >
-                    <Code size={16} />
-                     <span className="text-xs hidden md:inline">{t('lblJsonl')}</span>
-                </button>
-             </div>
+              <div className="bg-slate-100 p-1 rounded-lg flex items-center border border-slate-200">
+                 <button
+                     onClick={() => {
+                         if (showJson) {
+                             setActiveTab(previousTab);
+                         }
+                         setShowJson(false);
+                     }}
+                     className={`p-1.5 rounded-md transition-all flex items-center space-x-2 ${!showJson ? 'bg-white shadow-sm text-primary-600 font-medium' : 'text-slate-400 hover:text-slate-600'}`}
+                 >
+                     <LayoutList size={16} />
+                     <span className="text-xs hidden md:inline">{t('lblVisual')}</span>
+                 </button>
+                 <button
+                     onClick={() => {
+                         if (!showJson) {
+                             setPreviousTab(activeTab);
+                         }
+                         setShowJson(true);
+                         setActiveTab('detail');
+                     }}
+                     className={`p-1.5 rounded-md transition-all flex items-center space-x-2 ${showJson ? 'bg-white shadow-sm text-primary-600 font-medium' : 'text-slate-400 hover:text-slate-600'}`}
+                 >
+                     <Code size={16} />
+                      <span className="text-xs hidden md:inline">{t('lblJsonl')}</span>
+                 </button>
+              </div>
           </div>
         </div>
       </div>
@@ -1174,7 +1219,9 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
                           <div className="bg-amber-50/30 border border-amber-100/50 p-5 rounded-2xl hover:bg-white hover:shadow-md transition-all">
                             <div className="text-[10px] uppercase tracking-wider text-amber-500/70 font-bold mb-1">Avg. Sentence Length</div>
                             <div className="flex items-end gap-2">
-                              <span className="text-3xl font-black text-amber-600">{avgSentenceLength || '--'}</span>
+                              <span className="text-3xl font-black text-amber-600">
+                                {avgSentenceLength !== null ? avgSentenceLength : '--'}
+                              </span>
                               <span className="text-xs text-amber-400 mb-1.5 font-medium">词/句</span>
                             </div>
                           </div>
