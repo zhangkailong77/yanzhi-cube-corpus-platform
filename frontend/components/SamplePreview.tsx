@@ -415,11 +415,21 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
     );
   });
 
+  // 排序逻辑：如果有选中的句子，将其移到第一个位置
+  let data = filteredData;
+  if (selectedSentenceId) {
+    const selectedIndex = data.findIndex(item => item.basic_layer.sentence_id === selectedSentenceId);
+    if (selectedIndex > 0) {
+      const selectedItem = data[selectedIndex];
+      data = [selectedItem, ...data.slice(0, selectedIndex), ...data.slice(selectedIndex + 1)];
+    }
+  }
+
   // 分页逻辑
-  const totalPages = Math.ceil(filteredData.length / itemsPerPage);
+  const totalPages = Math.ceil(data.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
-  const paginatedData = filteredData.slice(startIndex, endIndex);
+  const paginatedData = data.slice(startIndex, endIndex);
 
   // 翻页处理函数
   const handlePrevPage = () => {
@@ -752,14 +762,261 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
           <div className="p-6">
             {activeTab === 'detail' && (
               <div role="tabpanel" aria-labelledby="tab-detail" className="space-y-6">
-                  {paginatedData.map((item, index) => {
-                    const isFirstSelectedMatch = index === 0 && selectedSentenceId === item.basic_layer.sentence_id;
-                    return (
-                  <div
-                    key={item.basic_layer.sentence_id}
-                    ref={isFirstSelectedMatch ? selectedCardRef : null}
-                    className={`bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden group hover:shadow-md transition-all duration-300 ${selectedSentenceId === item.basic_layer.sentence_id ? 'ring-2 ring-primary-500 ring-offset-2' : ''}`}
-                  >
+                 {paginatedData.map((item, index) => (
+                  <div key={item.basic_layer.sentence_id} className={`bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden group hover:shadow-md transition-all duration-300 ${selectedSentenceId === item.basic_layer.sentence_id ? 'ring-2 ring-primary-500 ring-offset-2' : ''}`}>
+
+            
+            {/* Card Header: Metadata Row */}
+            <div className="bg-slate-50 border-b border-slate-100 px-6 py-3 flex flex-wrap items-center justify-between gap-4">
+               <div className="flex items-center space-x-6 text-xs text-slate-500 font-mono">
+                  <div className="flex items-center bg-white border border-slate-200 px-2 py-1 rounded shadow-sm">
+                     <span className="font-bold text-slate-700 mr-2">UUID:</span>
+                     {item.basic_layer.sentence_id}
+                  </div>
+                  <div className="flex items-center hidden sm:flex">
+                    <Clock size={12} className="mr-1.5 text-slate-400" />
+                    {new Date(item.basic_layer.timestamp).toLocaleString()}
+                  </div>
+                  <div className="flex items-center hidden sm:flex">
+                    <Smartphone size={12} className="mr-1.5 text-slate-400" />
+                    {item.basic_layer.platform}
+                  </div>
+               </div>
+               
+               <div>
+                  {getScenarioBadge(item.pragmatic_layer.business_scenario)}
+               </div>
+            </div>
+
+            {showJson ? (
+                // JSON VIEW
+                <div className="p-0 bg-slate-900 overflow-x-auto">
+                    <pre className="p-6 text-xs md:text-sm font-mono text-green-400 leading-relaxed">
+                        {JSON.stringify(item, null, 2)}
+                    </pre>
+                </div>
+            ) : (
+                // VISUAL VIEW
+                <div className="flex flex-col lg:flex-row">
+                    
+                    {/* Main Content: Language & Linguistics (Expanded Left Side) */}
+                    <div className="flex-grow p-6 space-y-8 lg:border-r border-slate-100">
+                        
+                        {/* 1. Translation Pair */}
+                        <div className="space-y-6">
+                            {/* Source */}
+                            <div>
+                                <div className="flex items-center mb-2">
+                                    <span className="text-[10px] uppercase font-bold tracking-wider text-slate-400 bg-slate-100 px-1.5 py-0.5 rounded mr-2">ZH-CN</span>
+                                    <span className="text-xs font-medium text-slate-500">{t('lblSourceText')}</span>
+                                </div>
+                                <p className="text-xl text-slate-800 font-medium leading-relaxed p-4 rounded-lg bg-white border border-transparent hover:border-slate-100 transition-colors">
+                                    {item.language_layer.source_text_zh}
+                                </p>
+                            </div>
+
+                            {/* Divider with Label */}
+                            <div className="relative">
+                                <div className="absolute inset-0 flex items-center" aria-hidden="true">
+                                    <div className="w-full border-t border-slate-100"></div>
+                                </div>
+                                <div className="relative flex justify-center">
+                                    <span className="bg-white px-2 text-[10px] text-slate-300 font-mono uppercase tracking-widest">Translation & Normalization</span>
+                                </div>
+                            </div>
+
+                            {/* Target Comparison Grid */}
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                {/* Raw */}
+                                <div className="flex flex-col h-full">
+                                    <div className="flex items-center mb-2">
+                                        <span className="text-[10px] uppercase font-bold tracking-wider text-slate-400 bg-slate-100 px-1.5 py-0.5 rounded mr-2">MS-RAW</span>
+                                        <span className="text-xs font-medium text-slate-500">{t('lblRawInput')}</span>
+                                    </div>
+                                    <div className="flex-grow p-4 rounded-lg bg-slate-50 border border-slate-200 font-mono text-sm text-slate-600 leading-relaxed">
+                                        {item.language_layer.raw_text_ms}
+                                    </div>
+                                </div>
+
+                                {/* Normalized */}
+                                <div className="flex flex-col h-full">
+                                    <div className="flex items-center mb-2">
+                                        <span className="text-[10px] uppercase font-bold tracking-wider text-primary-100 bg-primary-600 text-white px-1.5 py-0.5 rounded mr-2">MS-NORM</span>
+                                        <span className="text-xs font-medium text-primary-600">{t('lblNormalized')}</span>
+                                    </div>
+                                    <div className="flex-grow p-4 rounded-lg bg-green-50/30 border border-green-100 text-base text-slate-800 leading-relaxed">
+                                        {item.language_layer.normalized_text_ms}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* 2. Linguistic Insights (Moved to Bottom to fill space) */}
+                        <div className="pt-2">
+                             <div className="flex items-center space-x-3 mb-5">
+                                <div className="h-px bg-slate-100 flex-grow"></div>
+                                <span className="text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center">
+                                    <Sparkles size={12} className="mr-1.5 text-amber-500" />
+                                    {t('lblLinguistic')}
+                                </span>
+                                <div className="h-px bg-slate-100 flex-grow"></div>
+                             </div>
+                             
+                             <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
+                                {/* Normalization Map Box */}
+                                {Object.keys(item.style_layer.abbreviations_handled).length > 0 ? (
+                                     <div className="bg-slate-50/50 rounded-xl p-5 border border-slate-100">
+                                        <div className="text-[11px] font-bold text-slate-400 mb-3 flex items-center uppercase tracking-wider">
+                                            <FileText size={12} className="mr-1.5"/> {t('lblNormMap')}
+                                        </div>
+                                        <div className="flex flex-wrap gap-2">
+                                             {Object.entries(item.style_layer.abbreviations_handled).map(([short, full]) => (
+                                                <div key={short} className="flex items-center bg-white border border-slate-200 rounded-md px-2.5 py-1.5 shadow-sm hover:shadow-md transition-shadow cursor-default">
+                                                    <span className="text-red-500 font-mono text-xs font-medium">{short}</span>
+                                                    <ArrowRight size={10} className="mx-2 text-slate-300" />
+                                                    <span className="text-green-600 font-mono text-xs font-bold">{full}</span>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
+                                ) : (
+                                    <div className="bg-slate-50/50 rounded-xl p-5 border border-slate-100 flex items-center justify-center text-slate-400 text-xs italic">
+                                        {t('lblNoNormNeeded')}
+                                    </div>
+                                )}
+
+                                 {/* Loanwords & Style Box */}
+                                 <div className="bg-slate-50/50 rounded-xl p-5 border border-slate-100 flex flex-col justify-between">
+                                    
+                                    {/* Loanwords */}
+                                    <div className="mb-4">
+                                        <div className="text-[11px] font-bold text-slate-400 mb-3 flex items-center uppercase tracking-wider">
+                                            <Globe size={12} className="mr-1.5"/> {t('lblLoanwords')}
+                                        </div>
+                                        {item.language_layer.english_loanwords.length > 0 ? (
+                                            <div className="flex flex-wrap gap-2">
+                                                {item.language_layer.english_loanwords.map(w => (
+                                                    <span key={w} className="px-2.5 py-1 bg-amber-50 text-amber-700 border border-amber-100 rounded-md text-xs font-mono font-medium">
+                                                        {w}
+                                                    </span>
+                                                ))}
+                                            </div>
+                                        ) : (
+                                            <span className="text-slate-400 text-xs italic">{t('lblNoneDetected')}</span>
+                                        )}
+                                    </div>
+
+                                    {/* Small Style Indicators */}
+                                    <div className="pt-4 border-t border-slate-200">
+                                         <div className="flex items-center justify-between text-xs">
+                                            <div className="flex items-center space-x-2">
+                                                <span className="text-slate-400 uppercase tracking-wider font-bold text-[10px]">{t('lblStyle')}</span>
+                                                <span className="bg-white border border-slate-200 px-2 py-0.5 rounded text-slate-600 font-medium">
+                                                    {item.style_layer.style}
+                                                </span>
+                                            </div>
+                                            <div className="flex items-center space-x-2">
+                                                <span className="text-slate-400 uppercase tracking-wider font-bold text-[10px]">{t('lblRojak')}</span>
+                                                <span className={`font-mono font-bold ${item.style_layer.contains_rojak ? 'text-blue-600' : 'text-slate-300'}`}>
+                                                    {item.style_layer.contains_rojak ? t('lblDetected') : t('lblNone')}
+                                                </span>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+
+                    </div>
+
+                    {/* Right Sidebar: High Level Analysis (Narrower, cleaner) */}
+                    <div className="w-full lg:w-72 bg-slate-50/30 p-6 flex-shrink-0 flex flex-col space-y-8">
+                        
+                        {/* Pragmatic Analysis */}
+                        <div>
+                            <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4 flex items-center border-b border-slate-200 pb-2">
+                                <MessageCircle size={12} className="mr-2" /> {t('lblPragmatic')}
+                            </h4>
+                            
+                            <div className="space-y-6">
+                                <div>
+                                    <div className="text-[10px] font-bold text-slate-400 mb-2 uppercase">{t('lblUserIntent')}</div>
+                                    <div className="flex flex-wrap gap-2">
+                                        {item.pragmatic_layer.intent.map(i => (
+                                            <span key={i} className="px-3 py-1.5 rounded-lg text-sm bg-white border border-slate-200 text-slate-700 shadow-sm font-medium w-full text-center">
+                                                {i}
+                                            </span>
+                                        ))}
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <div className="text-[10px] font-bold text-slate-400 mb-2 uppercase">{t('lblSentiment')}</div>
+                                    <div className={`flex items-center justify-center px-4 py-3 rounded-lg border ${getSentimentStyle(item.pragmatic_layer.sentiment)}`}>
+                                        {item.pragmatic_layer.sentiment === 'angry' && <AlertCircle size={16} className="mr-2" />}
+                                        <span className="text-sm font-bold uppercase tracking-wide">{getSentimentLabel(item.pragmatic_layer.sentiment)}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Extra Meta (Optional place for more tags) */}
+                        <div className="flex-grow"></div>
+                        
+                        <div className="text-[10px] text-slate-300 font-mono text-center">
+                            Analysis v3.0.1
+                        </div>
+
+                    </div>
+                </div>
+            )}
+          </div>
+        ))}
+
+        {/* Pagination */}
+        <Pagination />
+        </div>
+        )}
+
+        {/* End Detail Tab Panel */}
+
+            {activeTab === 'kwic' && (
+              <div role="tabpanel" aria-labelledby="tab-kwic" className="space-y-6">
+                {/* KWIC 搜索界面 */}
+                <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-6">
+                  <h3 className="text-lg font-bold text-slate-800 mb-4 flex items-center">
+                    <Search size={20} className="mr-2 text-primary-600" />
+                    {t('kwicTitle')}
+                  </h3>
+
+                  {/* 搜索表单 */}
+                  <div className="space-y-4">
+                    {/* 关键词输入 */}
+                    <div>
+                      <label className="block text-sm font-medium text-slate-700 mb-2">
+                        {t('kwicKeyword')}
+                      </label>
+                      <input
+                        type="text"
+                        value={kwicKeyword}
+                        onChange={(e) => setKwicKeyword(e.target.value)}
+                        placeholder={t('kwicKeywordPlaceholder')}
+                        className="w-full px-4 py-2.5 text-sm border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 bg-slate-50 hover:bg-white border transition-all text-slate-700 font-mono"
+                      />
+                    </div>
+
+                    {/* 语境窗口选择和搜索按钮 */}
+                    <div className="flex flex-wrap gap-4 items-end">
+                      {/* 语境窗口选择器 */}
+                      <div className="flex-grow">
+                        <label className="block text-sm font-medium text-slate-700 mb-2">
+                          {t('kwicContextWindow')}
+                        </label>
+                        <select
+                          value={kwicContextWindow}
+                          onChange={(e) => setKwicContextWindow(Number(e.target.value) as 3 | 5 | 7)}
+                          className="w-full px-4 py-2.5 text-sm border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 bg-slate-50 hover:bg-white border transition-all text-slate-700 font-mono"
+                        >
                           <option value={3}>{t('kwicContext3')}</option>
                           <option value={5}>{t('kwicContext5')}</option>
                           <option value={7}>{t('kwicContext7')}</option>
