@@ -17,6 +17,9 @@ interface CorpusInfo {
   id: number;
   name: string;
   description: string | null;
+  source_lang: string;
+  target_lang: string;
+  domain: string;
 }
 
 // Interfaces based on the user's 4-layer structure
@@ -219,6 +222,15 @@ useEffect(() => {
     loadCorpusInfo();
   }, [corpusId]);
 
+  // 当语料库信息加载完成后，更新搜索框状态
+  useEffect(() => {
+    if (corpusInfo) {
+      setSource(corpusInfo.source_lang);
+      setTarget(corpusInfo.target_lang);
+      setDomain(corpusInfo.domain === 'ecommerce' ? 'ecommerce' : 'general');
+    }
+  }, [corpusInfo]);
+
   useEffect(() => {
     const loadSamples = async () => {
       if (!corpusId) return;
@@ -358,9 +370,9 @@ useEffect(() => {
   };
 
   // Mock state for the persistent search bar
-  const [source, setSource] = useState('en');
-  const [target, setTarget] = useState('ms');
-  const [domain, setDomain] = useState('ecommerce');
+  const [source, setSource] = useState(corpusInfo?.source_lang || 'en');
+  const [target, setTarget] = useState(corpusInfo?.target_lang || 'ms');
+  const [domain, setDomain] = useState(corpusInfo?.domain === 'ecommerce' ? 'ecommerce' : 'general');
   const [keyword, setKeyword] = useState('');
 
   // 当关键词变化时重置到第一页
