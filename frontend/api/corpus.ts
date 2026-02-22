@@ -221,6 +221,23 @@ export async function fetchCorpusSamples(
 }
 
 /**
+ * 获取样本所在页码
+ */
+export async function fetchSamplePageNumber(
+  corpusId: number,
+  sentenceId: string,
+  limit: number = 10
+): Promise<{ page: number; found: boolean }> {
+  const searchParams = new URLSearchParams({
+    sentence_id: sentenceId,
+    limit: String(limit)
+  });
+
+  const endpoint = `/corpus/${corpusId}/samples/locate?${searchParams.toString()}`;
+  return apiRequest<{ page: number; found: boolean }>(endpoint);
+}
+
+/**
  * 获取首页统计概览
  */
 export async function fetchOverviewStats(): Promise<DashboardOverviewResponse> {
@@ -298,4 +315,29 @@ export async function fetchKWICAnalysis(
   const endpoint = `/corpus/${corpusId}/kwic/analysis?${query}`;
 
   return apiRequest<KWICResponse>(endpoint);
+}
+
+/**
+ * 词频统计结果接口
+ */
+export interface CorpusFrequencyStatsResponse {
+  total_words: number;
+  unique_words: number;
+  pos_distribution: Record<string, number>;
+  frequency_data: {
+    word: string;
+    count: number;
+    percent: number;
+    pos: string;
+  }[];
+}
+
+/**
+ * 获取全库词频统计数据
+ */
+export async function fetchCorpusFrequencyStats(
+  corpusId: number
+): Promise<CorpusFrequencyStatsResponse> {
+  const endpoint = `/corpus/${corpusId}/statistics/frequency`;
+  return apiRequest<CorpusFrequencyStatsResponse>(endpoint);
 }

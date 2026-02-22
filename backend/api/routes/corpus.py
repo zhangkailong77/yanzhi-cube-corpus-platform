@@ -11,7 +11,8 @@ from api.schemas.corpus import (
     SampleListResponse,
     DashboardOverviewResponse,
     DashboardStatsResponse,
-    KWICResponse
+    KWICResponse,
+    CorpusFrequencyStatsResponse
 )
 from api.schemas import ApiResponse
 from api.utils import security
@@ -143,6 +144,46 @@ async def get_corpus_samples(
     return ApiResponse(success=True, message="获取成功", data=result)
 
 
+# ===================== 样本定位路由 =====================
+@router.get("/{corpus_id}/samples/locate", response_model=ApiResponse[dict])
+async def locate_sample(
+    corpus_id: int,
+    sentence_id: str = Query(..., description="句子ID"),
+    limit: int = Query(10, ge=1, le=100, description="每页数量"),
+    db: AsyncSession = Depends(get_db),
+    current_user = Depends(security.get_current_user_optional)
+):
+    """根据 sentence_id 查找样本所在的页码"""
+    # 检查语料库访问权限
+    from sqlalchemy import select
+    from api.models.corpus import Corpus
+
+    result = await db.execute(select(Corpus).where(Corpus.id == corpus_id))
+    corpus = result.scalar_one_or_none()
+
+    if not corpus:
+        from fastapi import HTTPException
+        raise HTTPException(status_code=404, detail="语料库不存在")
+
+    # 普通成员只能访问公开语料库
+    user_role = None
+    if current_user and current_user.role:
+        user_role = current_user.role.value if hasattr(current_user.role, 'value') else str(current_user.role)
+
+    if current_user is None or user_role == "member":
+        if not corpus.is_public:
+            from fastapi import HTTPException
+            raise HTTPException(status_code=403, detail="无权访问此语料库")
+
+    result = await corpus_service.get_sample_page_number(
+        db=db,
+        corpus_id=corpus_id,
+        sentence_id=sentence_id,
+        limit=limit
+    )
+    return ApiResponse(success=True, message="定位成功", data=result)
+
+
 # ===================== 仪表盘和统计路由 =====================
 
 router_stat = APIRouter(prefix="/statistics", tags=["统计"])
@@ -190,4 +231,37 @@ async def get_kwic_analysis(
         page=page,
         limit=limit
     )
+    return ApiResponse(success=True, message="获取成功", data=result)
+
+
+# ===================== 词频统计路由 =====================
+@router.get("/{corpus_id}/statistics/frequency", response_model=ApiResponse[CorpusFrequencyStatsResponse])
+async def get_corpus_frequency(
+    corpus_id: int,
+    db: AsyncSession = Depends(get_db),
+    current_user = Depends(security.get_current_user_optional)
+):
+    """获取语料库全库词频统计"""
+    # 检查语料库访问权限
+    from sqlalchemy import select
+    from api.models.corpus import Corpus
+
+    result = await db.execute(select(Corpus).where(Corpus.id == corpus_id))
+    corpus = result.scalar_one_or_none()
+
+    if not corpus:
+        from fastapi import HTTPException
+        raise HTTPException(status_code=404, detail="语料库不存在")
+
+    # 普通成员只能访问公开语料库
+    user_role = None
+    if current_user and current_user.role:
+        user_role = current_user.role.value if hasattr(current_user.role, 'value') else str(current_user.role)
+
+    if current_user is None or user_role == "member":
+        if not corpus.is_public:
+            from fastapi import HTTPException
+            raise HTTPException(status_code=403, detail="无权访问此语料库")
+
+    result = await corpus_service.get_corpus_frequency_stats(db=db, corpus_id=corpus_id)
     return ApiResponse(success=True, message="获取成功", data=result)

@@ -51,4 +51,4 @@ No,Category,Guideline,Description,Do,Don't,Code Good,Code Bad,Severity,Docs URL
 50,TypeScript,Type props with interface,Explicit prop types,interface $$Props for types,Untyped props,interface $$Props { name: string },export let name,Medium,
 51,TypeScript,Type events with createEventDispatcher,Type-safe events,createEventDispatcher<Events>(),Untyped dispatch,createEventDispatcher<{ save: Data }>(),createEventDispatcher(),Medium,
 52,Accessibility,Use semantic elements,Proper HTML in templates,button nav main appropriately,div for everything,<button on:click>,<div on:click>,High,
-53,Accessibility,Add aria to dynamic content,Accessible state changes,aria-live for updates,Silent dynamic updates,"<div aria-live=""polite"">{message}</div>",<div>{message}</div>,Medium,
+53,Accessibility,Add aria to dynamic content,Accessible state changes,aria-live for updates,Silent dynamic updates,"<div aria-live=""positive"">{message}</div>",<div>{message}</div>,Medium,

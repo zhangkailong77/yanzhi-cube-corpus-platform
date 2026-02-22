@@ -177,8 +177,8 @@ class StatisticsCache(Base):
     id = Column(Integer, primary_key=True, autoincrement=True)
     stat_type = Column(String(50), nullable=False, comment="统计类型")
     stat_key = Column(String(100), nullable=False, comment="统计键")
-    stat_value = Column(String(255), nullable=False, comment="统计值")
-    extra_metadata = Column(JSON, nullable=True, comment="附加元数据")
+    stat_value = Column(Text, nullable=False, comment="统计值")
+    extra_metadata = Column("metadata", JSON, nullable=True, comment="附加元数据")
     updated_at = Column(TIMESTAMP, default=datetime.now, onupdate=datetime.now, nullable=False, comment="更新时间")
 
     def __repr__(self) -> str:

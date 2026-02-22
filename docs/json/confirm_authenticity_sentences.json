@@ -1,0 +1,2382 @@
+[
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9001",
+		"timestamp": "2024-11-21T09:00:00Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这是正品吗？",
+		"raw_text_ms": "Ini ori tak?",
+		"normalized_text_ms": "Ini ori tak?",
+		"english_loanwords": ["ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9002",
+		"timestamp": "2024-11-21T09:05:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保证是正品吗？",
+		"raw_text_ms": "Confirm ori tak?",
+		"normalized_text_ms": "Confirm ori tak?",
+		"english_loanwords": ["confirm", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9003",
+		"timestamp": "2024-11-21T09:10:30Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "老板，这是正品吗？",
+		"raw_text_ms": "Boss, ini ori ke?",
+		"normalized_text_ms": "Boss, ini ori ke?",
+		"english_loanwords": ["ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9004",
+		"timestamp": "2024-11-21T09:15:45Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "是正品吗？确保不是假货。",
+		"raw_text_ms": "Ori tak? Confirm bukan fake.",
+		"normalized_text_ms": "Ori tak? Confirm bukan fake.",
+		"english_loanwords": ["ori", "confirm", "fake"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9005",
+		"timestamp": "2024-11-21T09:20:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这是真品吗？",
+		"raw_text_ms": "Ini original tak?",
+		"normalized_text_ms": "Ini original tak?",
+		"english_loanwords": ["original"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9006",
+		"timestamp": "2024-11-21T09:25:30Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "有正品保证吗？",
+		"raw_text_ms": "Ada guarantee ori tak?",
+		"normalized_text_ms": "Ada guarantee ori tak?",
+		"english_loanwords": ["guarantee", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9007",
+		"timestamp": "2024-11-21T09:30:22Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "不是假货吧？",
+		"raw_text_ms": "Bukan fake kan?",
+		"normalized_text_ms": "Bukan fake kan?",
+		"english_loanwords": ["fake"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9008",
+		"timestamp": "2024-11-21T09:35:40Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个是正品吗？我想确认一下。",
+		"raw_text_ms": "Ni ori tak? Sy nak confirm.",
+		"normalized_text_ms": "Ni ori tak? Saya nak confirm.",
+		"english_loanwords": ["ori", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9009",
+		"timestamp": "2024-11-21T09:40:33Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "是原装正品吗？",
+		"raw_text_ms": "Ori asli tak?",
+		"normalized_text_ms": "Ori asli tak?",
+		"english_loanwords": ["ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9010",
+		"timestamp": "2024-11-21T09:45:56Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "质量有保证吗？",
+		"raw_text_ms": "Quality guarantee tak?",
+		"normalized_text_ms": "Quality guarantee tak?",
+		"english_loanwords": ["quality", "guarantee"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9011",
+		"timestamp": "2024-11-21T09:50:28Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保证不是假货吗？",
+		"raw_text_ms": "Confirm bukan fake?",
+		"normalized_text_ms": "Confirm bukan fake?",
+		"english_loanwords": ["confirm", "fake"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9012",
+		"timestamp": "2024-11-21T09:55:51Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这是真品还是假货？",
+		"raw_text_ms": "Ni original atau fake?",
+		"normalized_text_ms": "Ni original atau fake?",
+		"english_loanwords": ["original", "fake"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9013",
+		"timestamp": "2024-11-21T10:00:28Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "产品是正品吗？",
+		"raw_text_ms": "Product ni ori tak?",
+		"normalized_text_ms": "Product ni ori tak?",
+		"english_loanwords": ["product", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9014",
+		"timestamp": "2024-11-21T10:05:36Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保证是正品，我才会买。",
+		"raw_text_ms": "Confirm ori sy baru beli.",
+		"normalized_text_ms": "Confirm ori saya baru beli.",
+		"english_loanwords": ["confirm", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9015",
+		"timestamp": "2024-11-21T10:10:19Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个商品是正品吗？",
+		"raw_text_ms": "Item ni ori tak?",
+		"normalized_text_ms": "Item ni ori tak?",
+		"english_loanwords": ["item", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9016",
+		"timestamp": "2024-11-21T10:15:44Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "是正品吗？有保证吗？",
+		"raw_text_ms": "Ori tak? Ada warranty?",
+		"normalized_text_ms": "Ori tak? Ada warranty?",
+		"english_loanwords": ["ori", "warranty"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9017",
+		"timestamp": "2024-11-21T10:20:33Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这是原装的吗？",
+		"raw_text_ms": "Ni asli tak?",
+		"normalized_text_ms": "Ni asli tak?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9018",
+		"timestamp": "2024-11-21T10:25:07Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "可以确认是正品吗？",
+		"raw_text_ms": "Bleh confirm ori tak?",
+		"normalized_text_ms": "Boleh confirm ori tak?",
+		"english_loanwords": ["bleh", "confirm", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9019",
+		"timestamp": "2024-11-21T10:30:48Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "不是假货吧？我才买。",
+		"raw_text_ms": "Bukan fake kan? Sy baru beli.",
+		"normalized_text_ms": "Bukan fake kan? Saya baru beli.",
+		"english_loanwords": ["fake"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9020",
+		"timestamp": "2024-11-21T10:35:15Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "质量可靠吗？",
+		"raw_text_ms": "Quality boleh percaya?",
+		"normalized_text_ms": "Quality boleh percaya?",
+		"english_loanwords": ["quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9021",
+		"timestamp": "2024-11-21T10:40:55Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这是正品吗？有证书吗？",
+		"raw_text_ms": "Ori tak? Ada certificate?",
+		"normalized_text_ms": "Ori tak? Ada certificate?",
+		"english_loanwords": ["ori", "certificate"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9022",
+		"timestamp": "2024-11-21T10:45:27Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保证是正品，对吗？",
+		"raw_text_ms": "Guarantee ori kan?",
+		"normalized_text_ms": "Guarantee ori kan?",
+		"english_loanwords": ["guarantee", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9023",
+		"timestamp": "2024-11-21T10:50:41Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想确认是正品才买。",
+		"raw_text_ms": "Sy nak confirm ori baru beli.",
+		"normalized_text_ms": "Saya nak confirm ori baru beli.",
+		"english_loanwords": ["confirm", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9024",
+		"timestamp": "2024-11-21T10:55:51Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "是正品还是仿品？",
+		"raw_text_ms": "Ori atau tiruan?",
+		"normalized_text_ms": "Ori atau tiruan?",
+		"english_loanwords": ["ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9025",
+		"timestamp": "2024-11-21T11:00:24Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "正品有保证吗？",
+		"raw_text_ms": "Ori ada guarantee tak?",
+		"normalized_text_ms": "Ori ada guarantee tak?",
+		"english_loanwords": ["ori", "guarantee"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9026",
+		"timestamp": "2024-11-21T11:05:47Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个是真的吗？",
+		"raw_text_ms": "Ni betul tak?",
+		"normalized_text_ms": "Ni betul tak?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9027",
+		"timestamp": "2024-11-21T11:10:37Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保证是真品吗？",
+		"raw_text_ms": "Guarantee original?",
+		"normalized_text_ms": "Guarantee original?",
+		"english_loanwords": ["guarantee", "original"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9028",
+		"timestamp": "2024-11-21T11:15:57Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "不是假货吧？质量怎样？",
+		"raw_text_ms": "Bukan fake kan? Quality camne?",
+		"normalized_text_ms": "Bukan fake kan? Quality camne?",
+		"english_loanwords": ["fake", "quality", "camne"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9029",
+		"timestamp": "2024-11-21T11:20:33Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "是正品吗？请告诉我。",
+		"raw_text_ms": "Ori tak? Tolong bg tau.",
+		"normalized_text_ms": "Ori tak? Tolong beritahu.",
+		"english_loanwords": ["ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "positive",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bg": "beri"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9030",
+		"timestamp": "2024-11-21T11:25:46Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这是正品吗？我想确定一下。",
+		"raw_text_ms": "Ini ori tak? Sy nak confirm.",
+		"normalized_text_ms": "Ini ori tak? Saya nak confirm.",
+		"english_loanwords": ["ori", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9031",
+		"timestamp": "2024-11-21T11:30:16Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "有正品证明吗？",
+		"raw_text_ms": "Ada proof ori tak?",
+		"normalized_text_ms": "Ada proof ori tak?",
+		"english_loanwords": ["proof", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9032",
+		"timestamp": "2024-11-21T11:35:52Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保证不是假货吗？我才下单。",
+		"raw_text_ms": "Guarantee bukan fake? Sy baru order.",
+		"normalized_text_ms": "Guarantee bukan fake? Saya baru order.",
+		"english_loanwords": ["guarantee", "fake", "order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9033",
+		"timestamp": "2024-11-21T11:40:27Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个是原装的吗？",
+		"raw_text_ms": "Ni ori asli tak?",
+		"normalized_text_ms": "Ni ori asli tak?",
+		"english_loanwords": ["ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9034",
+		"timestamp": "2024-11-21T11:45:35Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "正品吗？质量好吗？",
+		"raw_text_ms": "Ori tak? Quality bagus?",
+		"normalized_text_ms": "Ori tak? Quality bagus?",
+		"english_loanwords": ["ori", "quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9035",
+		"timestamp": "2024-11-21T11:50:41Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "是正品吧？我才买。",
+		"raw_text_ms": "Ori kan? Sy baru beli.",
+		"normalized_text_ms": "Ori kan? Saya baru beli.",
+		"english_loanwords": ["ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9036",
+		"timestamp": "2024-11-21T11:55:54Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "可以保证是正品吗？",
+		"raw_text_ms": "Bleh guarantee ori tak?",
+		"normalized_text_ms": "Boleh guarantee ori tak?",
+		"english_loanwords": ["bleh", "guarantee", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9037",
+		"timestamp": "2024-11-21T12:00:25Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这是真品还是仿品？",
+		"raw_text_ms": "Ni original atau tiruan?",
+		"normalized_text_ms": "Ni original atau tiruan?",
+		"english_loanwords": ["original"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9038",
+		"timestamp": "2024-11-21T12:05:37Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "质量有保证吗？正品吗？",
+		"raw_text_ms": "Quality guarantee? Ori tak?",
+		"normalized_text_ms": "Quality guarantee? Ori tak?",
+		"english_loanwords": ["quality", "guarantee", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9039",
+		"timestamp": "2024-11-21T12:10:43Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我想确认一下是正品。",
+		"raw_text_ms": "Sy nak confirm ni ori.",
+		"normalized_text_ms": "Saya nak confirm ni ori.",
+		"english_loanwords": ["confirm", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9040",
+		"timestamp": "2024-11-21T12:15:46Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这不是假货吧？",
+		"raw_text_ms": "Ni bukan fake kan?",
+		"normalized_text_ms": "Ni bukan fake kan?",
+		"english_loanwords": ["fake"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9041",
+		"timestamp": "2024-11-21T12:20:33Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "是正品吗？有保修吗？",
+		"raw_text_ms": "Ori tak? Ada warranty?",
+		"normalized_text_ms": "Ori tak? Ada warranty?",
+		"english_loanwords": ["ori", "warranty"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9042",
+		"timestamp": "2024-11-21T12:25:07Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保证是正品吗？我才能放心。",
+		"raw_text_ms": "Guarantee ori? Sy baru senang.",
+		"normalized_text_ms": "Guarantee ori? Saya baru senang.",
+		"english_loanwords": ["guarantee", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9043",
+		"timestamp": "2024-11-21T12:30:16Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "是原装正品吗？",
+		"raw_text_ms": "Ori asli tak?",
+		"normalized_text_ms": "Ori asli tak?",
+		"english_loanwords": ["ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9044",
+		"timestamp": "2024-11-21T12:35:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想确认是正品才下单。",
+		"raw_text_ms": "Sy nak confirm ori baru order.",
+		"normalized_text_ms": "Saya nak confirm ori baru order.",
+		"english_loanwords": ["confirm", "ori", "order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9045",
+		"timestamp": "2024-11-21T12:40:55Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "有正品证书吗？",
+		"raw_text_ms": "Ada cert ori tak?",
+		"normalized_text_ms": "Ada cert ori tak?",
+		"english_loanwords": ["cert", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9046",
+		"timestamp": "2024-11-21T12:45:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这是正品吗？可靠吗？",
+		"raw_text_ms": "Ori tak? Boleh percaya?",
+		"normalized_text_ms": "Ori tak? Boleh percaya?",
+		"english_loanwords": ["ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9047",
+		"timestamp": "2024-11-21T12:50:26Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "老板，这是正品吗？",
+		"raw_text_ms": "Boss, ori tak?",
+		"normalized_text_ms": "Boss, ori tak?",
+		"english_loanwords": ["ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9048",
+		"timestamp": "2024-11-21T12:55:57Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "不是假货吧？质量好吗？",
+		"raw_text_ms": "Bukan fake kan? Quality bagus?",
+		"normalized_text_ms": "Bukan fake kan? Quality bagus?",
+		"english_loanwords": ["fake", "quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9049",
+		"timestamp": "2024-11-21T13:00:15Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "可以保证是正品吗？我才买。",
+		"raw_text_ms": "Bleh guarantee ori? Sy baru beli.",
+		"normalized_text_ms": "Boleh guarantee ori? Saya baru beli.",
+		"english_loanwords": ["bleh", "guarantee", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9050",
+		"timestamp": "2024-11-21T13:05:47Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "是正品吗？有保证吗？",
+		"raw_text_ms": "Ori tak? Ada guarantee?",
+		"normalized_text_ms": "Ori tak? Ada guarantee?",
+		"english_loanwords": ["ori", "guarantee"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9051",
+		"timestamp": "2024-11-21T13:10:23Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这是真品吗？我想确定。",
+		"raw_text_ms": "Ni original tak? Sy nak confirm.",
+		"normalized_text_ms": "Ni original tak? Saya nak confirm.",
+		"english_loanwords": ["original", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9052",
+		"timestamp": "2024-11-21T13:15:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "有正品证明吗？我想看。",
+		"raw_text_ms": "Ada proof ori? Sy nak tengok.",
+		"normalized_text_ms": "Ada proof ori? Saya nak tengok.",
+		"english_loanwords": ["proof", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9053",
+		"timestamp": "2024-11-21T13:20:56Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这是正品吗？请确认。",
+		"raw_text_ms": "Ori tak? Tolong confirm.",
+		"normalized_text_ms": "Ori tak? Tolong confirm.",
+		"english_loanwords": ["ori", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "positive",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9054",
+		"timestamp": "2024-11-21T13:25:14Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "不是假货吧？有保证吗？",
+		"raw_text_ms": "Bukan fake kan? Ada guarantee?",
+		"normalized_text_ms": "Bukan fake kan? Ada guarantee?",
+		"english_loanwords": ["fake", "guarantee"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9055",
+		"timestamp": "2024-11-21T13:30:48Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想确认是正品，我才买。",
+		"raw_text_ms": "Sy nak confirm ori baru beli.",
+		"normalized_text_ms": "Saya nak confirm ori baru beli.",
+		"english_loanwords": ["confirm", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9056",
+		"timestamp": "2024-11-21T13:35:29Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个商品是正品吗？",
+		"raw_text_ms": "Item ni ori tak?",
+		"normalized_text_ms": "Item ni ori tak?",
+		"english_loanwords": ["item", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9057",
+		"timestamp": "2024-11-21T13:40:55Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "有质量保证吗？正品吗？",
+		"raw_text_ms": "Ada quality guarantee? Ori tak?",
+		"normalized_text_ms": "Ada quality guarantee? Ori tak?",
+		"english_loanwords": ["quality", "guarantee", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9058",
+		"timestamp": "2024-11-21T13:45:39Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "是正品吗？可靠吗？",
+		"raw_text_ms": "Ori tak? Reliable?",
+		"normalized_text_ms": "Ori tak? Reliable?",
+		"english_loanwords": ["ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9059",
+		"timestamp": "2024-11-21T13:50:26Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这是真品吗？质量如何？",
+		"raw_text_ms": "Ni original tak? Quality camne?",
+		"normalized_text_ms": "Ni original tak? Quality camne?",
+		"english_loanwords": ["original", "quality", "camne"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9060",
+		"timestamp": "2024-11-21T13:55:41Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "不是假货吧？我想确认。",
+		"raw_text_ms": "Bukan fake kan? Sy nak confirm.",
+		"normalized_text_ms": "Bukan fake kan? Saya nak confirm.",
+		"english_loanwords": ["fake", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9061",
+		"timestamp": "2024-11-21T14:05:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "可以保证是正品吗？谢谢。",
+		"raw_text_ms": "Bleh guarantee ori? Thanks.",
+		"normalized_text_ms": "Boleh guarantee ori? Thanks.",
+		"english_loanwords": ["bleh", "guarantee", "ori", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "positive",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9062",
+		"timestamp": "2024-11-21T14:10:25Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "是正品吗？有证书吗？",
+		"raw_text_ms": "Ori tak? Ada certificate?",
+		"normalized_text_ms": "Ori tak? Ada certificate?",
+		"english_loanwords": ["ori", "certificate"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9063",
+		"timestamp": "2024-11-21T14:15:57Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想确认是正品，我才下单。",
+		"raw_text_ms": "Sy nak confirm ori baru order.",
+		"normalized_text_ms": "Saya nak confirm ori baru order.",
+		"english_loanwords": ["confirm", "ori", "order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9064",
+		"timestamp": "2024-11-21T14:20:56Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这是正品吗？有保修吗？",
+		"raw_text_ms": "Ori tak? Ada warranty?",
+		"normalized_text_ms": "Ori tak? Ada warranty?",
+		"english_loanwords": ["ori", "warranty"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9065",
+		"timestamp": "2024-11-21T14:25:43Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "不是假货吧？质量可靠吗？",
+		"raw_text_ms": "Bukan fake kan? Quality boleh percaya?",
+		"normalized_text_ms": "Bukan fake kan? Quality boleh percaya?",
+		"english_loanwords": ["fake", "quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9066",
+		"timestamp": "2024-11-21T14:35:18Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这是正品吗？我想确定一下。",
+		"raw_text_ms": "Ori tak? Sy nak confirm.",
+		"normalized_text_ms": "Ori tak? Saya nak confirm.",
+		"english_loanwords": ["ori", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9067",
+		"timestamp": "2024-11-21T14:40:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "有正品保证吗？我才买。",
+		"raw_text_ms": "Ada guarantee ori? Sy baru beli.",
+		"normalized_text_ms": "Ada guarantee ori? Saya baru beli.",
+		"english_loanwords": ["guarantee", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9068",
+		"timestamp": "2024-11-21T14:45:35Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个是原装的吗？有保证吗？",
+		"raw_text_ms": "Ni ori asli tak? Ada guarantee?",
+		"normalized_text_ms": "Ni ori asli tak? Ada guarantee?",
+		"english_loanwords": ["ori", "guarantee"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9069",
+		"timestamp": "2024-11-21T14:50:48Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "是正品吗？我想确认。",
+		"raw_text_ms": "Ori tak? Sy nak confirm.",
+		"normalized_text_ms": "Ori tak? Saya nak confirm.",
+		"english_loanwords": ["ori", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9070",
+		"timestamp": "2024-11-21T14:55:44Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这不是假货吧？有质量保证。",
+		"raw_text_ms": "Ni bukan fake kan? Quality guarantee.",
+		"normalized_text_ms": "Ni bukan fake kan? Quality guarantee.",
+		"english_loanwords": ["fake", "quality", "guarantee"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9071",
+		"timestamp": "2024-11-21T15:02:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这是正品吗？",
+		"raw_text_ms": "Ni ori tak?",
+		"normalized_text_ms": "Ni ori tak?",
+		"english_loanwords": ["ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9072",
+		"timestamp": "2024-11-21T15:07:00Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "可以保证是正品吗？",
+		"raw_text_ms": "Bleh guarantee ori tak?",
+		"normalized_text_ms": "Boleh guarantee ori tak?",
+		"english_loanwords": ["bleh", "guarantee", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9073",
+		"timestamp": "2024-11-21T15:12:33Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "是真品还是假货？",
+		"raw_text_ms": "Original atau fake?",
+		"normalized_text_ms": "Original atau fake?",
+		"english_loanwords": ["original", "fake"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9074",
+		"timestamp": "2024-11-21T15:17:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "有正品证明吗？",
+		"raw_text_ms": "Ada proof ori tak?",
+		"normalized_text_ms": "Ada proof ori tak?",
+		"english_loanwords": ["proof", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9075",
+		"timestamp": "2024-11-21T15:52:12Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我想确认一下是正品，谢谢。",
+		"raw_text_ms": "Sy nak confirm ori, thanks.",
+		"normalized_text_ms": "Saya nak confirm ori, thanks.",
+		"english_loanwords": ["confirm", "ori", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "positive",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9076",
+		"timestamp": "2024-11-21T16:00:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "是正品吗？有保证吗？",
+		"raw_text_ms": "Ori tak? Ada guarantee?",
+		"normalized_text_ms": "Ori tak? Ada guarantee?",
+		"english_loanwords": ["ori", "guarantee"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9077",
+		"timestamp": "2024-11-21T16:05:42Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个商品是正品吗？",
+		"raw_text_ms": "Item ni ori tak?",
+		"normalized_text_ms": "Item ni ori tak?",
+		"english_loanwords": ["item", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9078",
+		"timestamp": "2024-11-21T16:10:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "不是假货吧？我想确认。",
+		"raw_text_ms": "Bukan fake kan? Sy nak confirm.",
+		"normalized_text_ms": "Bukan fake kan? Saya nak confirm.",
+		"english_loanwords": ["fake", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9079",
+		"timestamp": "2024-11-21T16:15:57Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "有质量保证吗？是正品吗？",
+		"raw_text_ms": "Quality guarantee? Ori tak?",
+		"normalized_text_ms": "Quality guarantee? Ori tak?",
+		"english_loanwords": ["quality", "guarantee", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9080",
+		"timestamp": "2024-11-21T16:20:48Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这是真品吗？可靠吗？",
+		"raw_text_ms": "Ni original tak? Boleh percaya?",
+		"normalized_text_ms": "Ni original tak? Boleh percaya?",
+		"english_loanwords": ["original"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9081",
+		"timestamp": "2024-11-21T16:25:36Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想确认是正品才买，谢谢。",
+		"raw_text_ms": "Sy nak confirm ori baru beli, thanks.",
+		"normalized_text_ms": "Saya nak confirm ori baru beli, thanks.",
+		"english_loanwords": ["confirm", "ori", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "positive",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9082",
+		"timestamp": "2024-11-21T16:35:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这是正品吗？质量怎样？",
+		"raw_text_ms": "Ori tak? Quality camne?",
+		"normalized_text_ms": "Ori tak? Quality camne?",
+		"english_loanwords": ["ori", "quality", "camne"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9083",
+		"timestamp": "2024-11-21T16:42:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "有正品证书吗？我想看。",
+		"raw_text_ms": "Ada cert ori? Sy nak tengok.",
+		"normalized_text_ms": "Ada cert ori? Saya nak tengok.",
+		"english_loanwords": ["cert", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9084",
+		"timestamp": "2024-11-21T16:50:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这不是假货吧？有保证吗？",
+		"raw_text_ms": "Ni bukan fake kan? Ada guarantee?",
+		"normalized_text_ms": "Ni bukan fake kan? Ada guarantee?",
+		"english_loanwords": ["fake", "guarantee"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9085",
+		"timestamp": "2024-11-21T16:55:50Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "是正品吗？我想确定。",
+		"raw_text_ms": "Ori tak? Sy nak confirm.",
+		"normalized_text_ms": "Ori tak? Saya nak confirm.",
+		"english_loanwords": ["ori", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9086",
+		"timestamp": "2024-11-21T17:05:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "可以保证是正品吗？我才下单。",
+		"raw_text_ms": "Bleh guarantee ori? Sy baru order.",
+		"normalized_text_ms": "Boleh guarantee ori? Saya baru order.",
+		"english_loanwords": ["bleh", "guarantee", "ori", "order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9087",
+		"timestamp": "2024-11-21T17:10:30Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "是原装正品吗？有保证。",
+		"raw_text_ms": "Ori asli tak? Ada guarantee.",
+		"normalized_text_ms": "Ori asli tak? Ada guarantee.",
+		"english_loanwords": ["ori", "guarantee"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9088",
+		"timestamp": "2024-11-21T17:15:45Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个是正品吗？可靠吗？",
+		"raw_text_ms": "Ni ori tak? Boleh percaya?",
+		"normalized_text_ms": "Ni ori tak? Boleh percaya?",
+		"english_loanwords": ["ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9089",
+		"timestamp": "2024-11-21T17:20:20Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "不是假货吧？我想确认。",
+		"raw_text_ms": "Bukan fake kan? Sy nak confirm.",
+		"normalized_text_ms": "Bukan fake kan? Saya nak confirm.",
+		"english_loanwords": ["fake", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9090",
+		"timestamp": "2024-11-21T17:25:55Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这是正品吗？谢谢。",
+		"raw_text_ms": "Ori tak? Thanks.",
+		"normalized_text_ms": "Ori tak? Thanks.",
+		"english_loanwords": ["ori", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "positive",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9091",
+		"timestamp": "2024-11-21T17:30:40Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我想确认一下是正品，有证书吗？",
+		"raw_text_ms": "Sy nak confirm ori, ada cert?",
+		"normalized_text_ms": "Saya nak confirm ori, ada cert?",
+		"english_loanwords": ["confirm", "ori", "cert"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9092",
+		"timestamp": "2024-11-21T17:35:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "是正品吗？质量好吗？",
+		"raw_text_ms": "Ori tak? Quality bagus?",
+		"normalized_text_ms": "Ori tak? Quality bagus?",
+		"english_loanwords": ["ori", "quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9093",
+		"timestamp": "2024-11-21T17:40:50Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "可以保证是正品吗？谢谢。",
+		"raw_text_ms": "Bleh guarantee ori? Thanks.",
+		"normalized_text_ms": "Boleh guarantee ori? Thanks.",
+		"english_loanwords": ["bleh", "guarantee", "ori", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "positive",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9094",
+		"timestamp": "2024-11-21T17:45:30Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这是真品还是仿品？",
+		"raw_text_ms": "Ni original atau tiruan?",
+		"normalized_text_ms": "Ni original atau tiruan?",
+		"english_loanwords": ["original"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9095",
+		"timestamp": "2024-11-21T17:50:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "不是假货吧？我才买。",
+		"raw_text_ms": "Bukan fake kan? Sy baru beli.",
+		"normalized_text_ms": "Bukan fake kan? Saya baru beli.",
+		"english_loanwords": ["fake"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9096",
+		"timestamp": "2024-11-21T17:55:40Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这是正品吗？有保修吗？",
+		"raw_text_ms": "Ori tak? Ada warranty?",
+		"normalized_text_ms": "Ori tak? Ada warranty?",
+		"english_loanwords": ["ori", "warranty"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9097",
+		"timestamp": "2024-11-21T18:00:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想确认是正品，我才买。",
+		"raw_text_ms": "Sy nak confirm ori baru beli.",
+		"normalized_text_ms": "Saya nak confirm ori baru beli.",
+		"english_loanwords": ["confirm", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9098",
+		"timestamp": "2024-11-21T18:05:50Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "有质量保证吗？是正品吗？",
+		"raw_text_ms": "Quality guarantee? Ori tak?",
+		"normalized_text_ms": "Quality guarantee? Ori tak?",
+		"english_loanwords": ["quality", "guarantee", "ori"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9099",
+		"timestamp": "2024-11-21T18:10:35Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这不是假货吧？请确认。",
+		"raw_text_ms": "Ni bukan fake kan? Tolong confirm.",
+		"normalized_text_ms": "Ni bukan fake kan? Tolong confirm.",
+		"english_loanwords": ["fake", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "positive",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-9100",
+		"timestamp": "2024-11-21T18:15:20Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我想确认是正品，有证书吗？",
+		"raw_text_ms": "Sy nak confirm ori, ada cert?",
+		"normalized_text_ms": "Saya nak confirm ori, ada cert?",
+		"english_loanwords": ["confirm", "ori", "cert"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认正品"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+}
+]

@@ -405,3 +405,126 @@ async def get_kwic_analysis(
         limit=limit,
         domain=domain
     )
+
+async def get_sample_page_number(
+    db: AsyncSession,
+    corpus_id: int,
+    sentence_id: str,
+    limit: int = 10
+) -> dict:
+    """根据 sentence_id 查找该样本在列表中的页码"""
+    # 获取该语料库所有样本的 id 列表（按默认排序）
+    query = select(Sample.id, Sample.sentence_id).where(Sample.corpus_id == corpus_id)
+    result = await db.execute(query)
+    rows = result.all()
+
+    # 查找目标 sentence_id 的位置（0-indexed）
+    position = -1
+    for idx, row in enumerate(rows):
+        if row.sentence_id == sentence_id:
+            position = idx
+            break
+
+    if position == -1:
+        return {"page": 1, "found": False}
+
+    # 计算页码（1-indexed）
+    page = (position // limit) + 1
+    return {"page": page, "found": True}
+
+
+# ===================== 词频统计服务 =====================
+async def get_corpus_frequency_stats(db, corpus_id: int):
+    from sqlalchemy import select
+    from api.models.corpus import Sample, StatisticsCache
+    import json
+
+    # 1. 查询缓存
+    cache_query = select(StatisticsCache).where(
+        StatisticsCache.stat_type == 'corpus_freq',
+        StatisticsCache.stat_key == str(corpus_id)
+    )
+    cache_result = await db.execute(cache_query)
+    cache_record = cache_result.scalar_one_or_none()
+
+    if cache_record:
+        try:
+            return json.loads(cache_record.stat_value)
+        except json.JSONDecodeError:
+            pass
+
+    # 2. 从数据库加载所有样本计算频次 (耗时操作)
+    sample_query = select(Sample.normalized_text, Sample.raw_text).where(Sample.corpus_id == corpus_id)
+    samples_result = await db.execute(sample_query)
+    
+    word_map = {}
+    total_words = 0
+    pos_counts = {'noun': 0, 'verb': 0, 'adj': 0, 'other': 0}
+
+    stop_words = {'dan', 'yang', 'di', 'ke', 'dari', 'ini', 'itu', 'pada', 'untuk', 'dengan'}
+
+    for row in samples_result.all():
+        text = row.normalized_text or row.raw_text or ''
+        if not text:
+            continue
+        
+        import re
+        # 简单的分词，去标点
+        words = re.findall(r'\b[a-zA-Z-]+\b', text.lower())
+        for word in words:
+            if len(word) > 1:
+                total_words += 1
+                if word in stop_words:
+                    continue
+                if word not in word_map:
+                    word_map[word] = {'count': 0, 'pos': 'other'}
+                word_map[word]['count'] += 1
+
+    # 简易词性标注
+    for word, data in word_map.items():
+        if word.endswith('nya') or word.endswith('an'):
+            data['pos'] = 'adj'
+            pos_counts['adj'] += data['count']
+        elif word.endswith('kan') or word.endswith('i'):
+            data['pos'] = 'verb'
+            pos_counts['verb'] += data['count']
+        elif word.endswith('nya'):
+            data['pos'] = 'noun'
+            pos_counts['noun'] += data['count']
+        else:
+            pos_counts['other'] += data['count']
+
+    # 排序和取前100
+    sorted_words = sorted(word_map.items(), key=lambda x: x[1]['count'], reverse=True)[:100]
+    
+    frequency_data = []
+    for word, data in sorted_words:
+        percent = round((data['count'] / max(total_words, 1)) * 1000) / 10
+        frequency_data.append({
+            'word': word,
+            'count': data['count'],
+            'percent': percent,
+            'pos': data['pos']
+        })
+
+    result_dict = {
+        'total_words': total_words,
+        'unique_words': len(word_map),
+        'pos_distribution': pos_counts,
+        'frequency_data': frequency_data
+    }
+
+    # 3. 写入缓存
+    json_val = json.dumps(result_dict, ensure_ascii=False)
+    if cache_record:
+        cache_record.stat_value = json_val
+    else:
+        new_cache = StatisticsCache(
+            stat_type='corpus_freq',
+            stat_key=str(corpus_id),
+            stat_value=json_val
+        )
+        db.add(new_cache)
+    await db.commit()
+
+    return result_dict

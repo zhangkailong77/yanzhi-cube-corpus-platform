@@ -1,0 +1,2612 @@
+[{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2001",
+		"timestamp": "2024-11-20T09:15:30Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "老板，我的订单什么时候能发货？已经下单两天了。",
+		"raw_text_ms": "Boss, order sy bila blh pos? Dah 2 hari sy order.",
+		"normalized_text_ms": "Boss, order saya bila boleh pos? Dah 2 hari saya order.",
+		"english_loanwords": ["order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "negative",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"blh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2002",
+		"timestamp": "2024-11-20T09:20:45Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "能不能改一下收货地址？填错了。",
+		"raw_text_ms": "Bleh tukar address ke? Sy salah isi.",
+		"normalized_text_ms": "Boleh tukar address ke? Saya salah isi.",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2003",
+		"timestamp": "2024-11-20T09:25:10Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？怎么还没发货？",
+		"raw_text_ms": "Order dh confirm? Mcm mana x pos lg?",
+		"normalized_text_ms": "Order dah confirm? Macam mana tak pos lagi?",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货", "确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"mcm": "macam",
+			"x": "tak",
+			"lg": "lagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2004",
+		"timestamp": "2024-11-20T09:30:22Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我的订单什么时候发货？今天能发吗？",
+		"raw_text_ms": "Bila order sy pos? Hari ni boleh pos?",
+		"normalized_text_ms": "Bila order saya pos? Hari ini boleh pos?",
+		"english_loanwords": ["order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"ni": "ini"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2005",
+		"timestamp": "2024-11-20T09:35:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我可以改一下地址吗？搬家了。",
+		"raw_text_ms": "Bleh ubah address tak? Sy dah pindah.",
+		"normalized_text_ms": "Boleh ubah address tak? Saya dah pindah.",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh",
+			"sy": "saya",
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2006",
+		"timestamp": "2024-11-20T09:40:33Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？我需要确认一下。",
+		"raw_text_ms": "Order dh confirm? Sy nk confirm skit.",
+		"normalized_text_ms": "Order dah confirm? Saya nak confirm sedikit.",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"sy": "saya",
+			"nk": "nak",
+			"skit": "sedikit"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2007",
+		"timestamp": "2024-11-20T09:45:27Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "已经3天了还没发货！什么时候能发？",
+		"raw_text_ms": "Dah 3 hari x pos lg! Bila blh pos?",
+		"normalized_text_ms": "Dah 3 hari tak pos lagi! Bila boleh pos?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "angry",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah",
+			"x": "tak",
+			"lg": "lagi",
+			"blh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2008",
+		"timestamp": "2024-11-20T09:50:14Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我的订单地址写错了，可以修改吗？",
+		"raw_text_ms": "Address sy salah, bleh ubah ke?",
+		"normalized_text_ms": "Address saya salah, boleh ubah ke?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2009",
+		"timestamp": "2024-11-20T09:55:41Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "订单准备好了吗？今天能发吗？",
+		"raw_text_ms": "Order ready? Hari ni boleh pos?",
+		"normalized_text_ms": "Order ready? Hari ini boleh pos?",
+		"english_loanwords": ["order", "ready"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"ni": "ini"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2010",
+		"timestamp": "2024-11-20T10:00:28Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我要确认一下订单信息，麻烦看一下。",
+		"raw_text_ms": "Sy nk confirm order info, tolong tengok.",
+		"normalized_text_ms": "Saya nak confirm order info, tolong tengok.",
+		"english_loanwords": ["order", "info"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2011",
+		"timestamp": "2024-11-20T10:05:36Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "为什么还没发货？都好几天了！",
+		"raw_text_ms": "Kenapa x pos lg? Dah berapa hari!",
+		"normalized_text_ms": "Kenapa tak pos lagi? Dah berapa hari!",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "negative",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"lg": "lagi",
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2012",
+		"timestamp": "2024-11-20T10:10:19Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我改错了地址，能帮我改回来吗？",
+		"raw_text_ms": "Sy salah ubah address, bleh tukar balik?",
+		"normalized_text_ms": "Saya salah ubah address, boleh tukar balik?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2013",
+		"timestamp": "2024-11-20T10:15:44Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？我等一下就发货？",
+		"raw_text_ms": "Order dh confirm? Nnti pos?",
+		"normalized_text_ms": "Order dah confirm? Nanti pos?",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"nnti": "nanti"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2014",
+		"timestamp": "2024-11-20T10:20:53Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "订单什么时候发货？急用。",
+		"raw_text_ms": "Order bila pos? Sy urgent.",
+		"normalized_text_ms": "Order bila pos? Saya urgent.",
+		"english_loanwords": ["order", "urgent"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2015",
+		"timestamp": "2024-11-20T10:25:07Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "地址不对，可以改一下吗？",
+		"raw_text_ms": "Address salah, bleh ubah tak?",
+		"normalized_text_ms": "Address salah, boleh ubah tak?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2016",
+		"timestamp": "2024-11-20T10:30:16Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "已经下单了，能帮我确认一下吗？",
+		"raw_text_ms": "Dah order, bleh tolong confirm ke?",
+		"normalized_text_ms": "Dah order, boleh tolong confirm ke?",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah",
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2017",
+		"timestamp": "2024-11-20T10:35:29Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "怎么还没发货？我好急啊！",
+		"raw_text_ms": "Kenapa x pos lg? Sy gila urgent!",
+		"normalized_text_ms": "Kenapa tak pos lagi? Saya gila urgent!",
+		"english_loanwords": ["urgent"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "negative",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"lg": "lagi",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2018",
+		"timestamp": "2024-11-20T10:40:42Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我刚才改了地址，请帮我确认一下。",
+		"raw_text_ms": "Sy tadi ubah address, tolong confirm.",
+		"normalized_text_ms": "Saya tadi ubah address, tolong confirm.",
+		"english_loanwords": ["address", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2019",
+		"timestamp": "2024-11-20T10:45:35Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？我要确保信息正确。",
+		"raw_text_ms": "Order dh confirm? Sy nk ensure info betul.",
+		"normalized_text_ms": "Order dah confirm? Saya nak ensure info betul.",
+		"english_loanwords": ["order", "confirm", "ensure", "info"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2020",
+		"timestamp": "2024-11-20T10:50:18Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我的订单什么时候发货？今天能发吗？",
+		"raw_text_ms": "Order sy bila pos? Hari ni boleh?",
+		"normalized_text_ms": "Order saya bila pos? Hari ini boleh?",
+		"english_loanwords": ["order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"ni": "ini"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2021",
+		"timestamp": "2024-11-20T10:55:51Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我填的地址不对，能帮我改一下吗？",
+		"raw_text_ms": "Address sy salah, bleh tolong ubah?",
+		"normalized_text_ms": "Address saya salah, boleh tolong ubah?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2022",
+		"timestamp": "2024-11-20T11:00:24Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "订单什么时候发货？我要确认一下。",
+		"raw_text_ms": "Order bila pos? Sy nk confirm.",
+		"normalized_text_ms": "Order bila pos? Saya nak confirm.",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货", "确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2023",
+		"timestamp": "2024-11-20T11:05:37Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "都好几天了还不发货！怎么回事？",
+		"raw_text_ms": "Dah berapa hari x pos lg! Camne?",
+		"normalized_text_ms": "Dah berapa hari tak pos lagi! Macam mana?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "angry",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah",
+			"x": "tak",
+			"lg": "lagi",
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2024",
+		"timestamp": "2024-11-20T11:10:43Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我刚才下错了地址，请帮我改一下。",
+		"raw_text_ms": "Sy tadi salah isi address, tolong ubah.",
+		"normalized_text_ms": "Saya tadi salah isi address, tolong ubah.",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2025",
+		"timestamp": "2024-11-20T11:15:19Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？我还没收到确认信息。",
+		"raw_text_ms": "Order dh confirm? Sy x dpt notification.",
+		"normalized_text_ms": "Order dah confirm? Saya tak dapat notification.",
+		"english_loanwords": ["order", "confirm", "notification"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"sy": "saya",
+			"x": "tak",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2026",
+		"timestamp": "2024-11-20T11:20:56Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我的订单什么时候发货？着急。",
+		"raw_text_ms": "Order sy bila pos? Sy urgent.",
+		"normalized_text_ms": "Order saya bila pos? Saya urgent.",
+		"english_loanwords": ["order", "urgent"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2027",
+		"timestamp": "2024-11-20T11:25:32Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址要改一下，帮我改可以吗？",
+		"raw_text_ms": "Address nk ubah, bleh tlg ubah?",
+		"normalized_text_ms": "Address nak ubah, boleh tolong ubah?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"nk": "nak",
+			"bleh": "boleh",
+			"tlg": "tolong"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2028",
+		"timestamp": "2024-11-20T11:30:48Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？麻烦确认一下。",
+		"raw_text_ms": "Order dh confirm? Tolong confirm.",
+		"normalized_text_ms": "Order dah confirm? Tolong confirm.",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2029",
+		"timestamp": "2024-11-20T11:35:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "怎么还不发货？我等着用呢！",
+		"raw_text_ms": "Kenapa x pos lg? Sy tunggu nk guna!",
+		"normalized_text_ms": "Kenapa tak pos lagi? Saya tunggu nak guna!",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "negative",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"lg": "lagi",
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2030",
+		"timestamp": "2024-11-20T11:40:27Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "我的地址错了，能改吗？",
+		"raw_text_ms": "Address sy salah, bleh ubah?",
+		"normalized_text_ms": "Address saya salah, boleh ubah?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2031",
+		"timestamp": "2024-11-20T11:45:54Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "订单准备好了吗？什么时候发货？",
+		"raw_text_ms": "Order ready? Bila pos?",
+		"normalized_text_ms": "Order ready? Bila pos?",
+		"english_loanwords": ["order", "ready"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货", "确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2032",
+		"timestamp": "2024-11-20T11:50:41Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我要改地址，怎么改？",
+		"raw_text_ms": "Sy nk ubah address, camne ubah?",
+		"normalized_text_ms": "Saya nak ubah address, macam mana ubah?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak",
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2033",
+		"timestamp": "2024-11-20T11:55:33Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？我要确保是对的。",
+		"raw_text_ms": "Order dh confirm? Sy nk ensure betul.",
+		"normalized_text_ms": "Order dah confirm? Saya nak ensure betul.",
+		"english_loanwords": ["order", "confirm", "ensure"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2034",
+		"timestamp": "2024-11-20T12:00:19Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我的订单什么时候发货？今天能发吗？",
+		"raw_text_ms": "Order sy bila pos? Hari ni boleh?",
+		"normalized_text_ms": "Order saya bila pos? Hari ini boleh?",
+		"english_loanwords": ["order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"ni": "ini"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2035",
+		"timestamp": "2024-11-20T12:05:47Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，帮我改一下可以吗？",
+		"raw_text_ms": "Address salah isi, tolong ubah.",
+		"normalized_text_ms": "Address salah isi, tolong ubah.",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2036",
+		"timestamp": "2024-11-20T12:10:25Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？我还没看到。",
+		"raw_text_ms": "Order dh confirm? Sy x nampak.",
+		"normalized_text_ms": "Order dah confirm? Saya tak nampak.",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"sy": "saya",
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2037",
+		"timestamp": "2024-11-20T12:15:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "都两天了还不发货！能不能快一点？",
+		"raw_text_ms": "Dah 2 hari x pos lg! Boleh cpt skit?",
+		"normalized_text_ms": "Dah 2 hari tak pos lagi! Boleh cepat sedikit?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "negative",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah",
+			"x": "tak",
+			"lg": "lagi",
+			"sikit": "sedikit"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2038",
+		"timestamp": "2024-11-20T12:20:38Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我需要修改地址，怎么操作？",
+		"raw_text_ms": "Sy nk ubah address, camne?",
+		"normalized_text_ms": "Saya nak ubah address, macam mana?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak",
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2039",
+		"timestamp": "2024-11-20T12:25:14Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "订单什么时候发货？我想确认一下。",
+		"raw_text_ms": "Order bila pos? Sy nk confirm.",
+		"normalized_text_ms": "Order bila pos? Saya nak confirm.",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货", "确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2040",
+		"timestamp": "2024-11-20T12:30:46Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我的订单地址错了，能帮我改吗？",
+		"raw_text_ms": "Address order sy salah, bleh tukar?",
+		"normalized_text_ms": "Address order saya salah, boleh tukar?",
+		"english_loanwords": ["address", "order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2041",
+		"timestamp": "2024-11-20T12:35:29Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？麻烦确认一下。",
+		"raw_text_ms": "Order dh confirm? Tolong confirm.",
+		"normalized_text_ms": "Order dah confirm? Tolong confirm.",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2042",
+		"timestamp": "2024-11-20T12:40:55Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "为什么还没发货？已经下单好几天了。",
+		"raw_text_ms": "Kenapa x pos lg? Dah order berapa hari.",
+		"normalized_text_ms": "Kenapa tak pos lagi? Dah order berapa hari.",
+		"english_loanwords": ["order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "negative",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"lg": "lagi",
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2043",
+		"timestamp": "2024-11-20T12:45:23Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我要改地址，麻烦帮我改一下。",
+		"raw_text_ms": "Sy nk ubah address, tolong ubah.",
+		"normalized_text_ms": "Saya nak ubah address, tolong ubah.",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2044",
+		"timestamp": "2024-11-20T12:50:41Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？我想确认一下信息。",
+		"raw_text_ms": "Order dh confirm? Sy nk check info.",
+		"normalized_text_ms": "Order dah confirm? Saya nak check info.",
+		"english_loanwords": ["order", "confirm", "info"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2045",
+		"timestamp": "2024-11-20T12:55:37Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我的订单什么时候发货？急用。",
+		"raw_text_ms": "Order sy bila pos? Sy urgent.",
+		"normalized_text_ms": "Order saya bila pos? Saya urgent.",
+		"english_loanwords": ["order", "urgent"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2046",
+		"timestamp": "2024-11-20T13:00:18Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "地址错了，能帮我改一下吗？",
+		"raw_text_ms": "Address salah, bleh tlg ubah?",
+		"normalized_text_ms": "Address salah, boleh tolong ubah?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh",
+			"tlg": "tolong"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2047",
+		"timestamp": "2024-11-20T13:05:54Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "订单什么时候发货？我想确认。",
+		"raw_text_ms": "Order bila pos? Sy nk confirm.",
+		"normalized_text_ms": "Order bila pos? Saya nak confirm.",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货", "确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2048",
+		"timestamp": "2024-11-20T13:10:32Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我改错了地址，能改回来吗？",
+		"raw_text_ms": "Sy salah ubah address, bleh tukar balik?",
+		"normalized_text_ms": "Saya salah ubah address, boleh tukar balik?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2049",
+		"timestamp": "2024-11-20T13:15:46Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "订单准备好了吗？我想确认一下。",
+		"raw_text_ms": "Order ready? Sy nk confirm.",
+		"normalized_text_ms": "Order ready? Saya nak confirm.",
+		"english_loanwords": ["order", "ready", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2050",
+		"timestamp": "2024-11-20T13:20:28Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我的订单什么时候发货？都好几天了。",
+		"raw_text_ms": "Order sy bila pos? Dah berapa hari.",
+		"normalized_text_ms": "Order saya bila pos? Dah berapa hari.",
+		"english_loanwords": ["order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "negative",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2051",
+		"timestamp": "2024-11-20T13:25:43Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "地址不对，可以改吗？",
+		"raw_text_ms": "Address salah, bleh tukar?",
+		"normalized_text_ms": "Address salah, boleh tukar?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2052",
+		"timestamp": "2024-11-20T13:30:17Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？麻烦确认一下。",
+		"raw_text_ms": "Order dh confirm? Tolong confirm.",
+		"normalized_text_ms": "Order dah confirm? Tolong confirm.",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2053",
+		"timestamp": "2024-11-20T13:35:52Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "怎么还不发货？我急着用！",
+		"raw_text_ms": "Kenapa x pos lg? Sy urgent!",
+		"normalized_text_ms": "Kenapa tak pos lagi? Saya urgent!",
+		"english_loanwords": ["urgent"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "angry",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"lg": "lagi",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2054",
+		"timestamp": "2024-11-20T13:40:36Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我需要修改收货地址，可以吗？",
+		"raw_text_ms": "Sy nk ubah shipping address, bleh?",
+		"normalized_text_ms": "Saya nak ubah shipping address, boleh?",
+		"english_loanwords": ["shipping", "address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak",
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2055",
+		"timestamp": "2024-11-20T13:45:21Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？我还没收到确认。",
+		"raw_text_ms": "Order dh confirm? Sy x dpt info.",
+		"normalized_text_ms": "Order dah confirm? Saya tak dapat info.",
+		"english_loanwords": ["order", "confirm", "info"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"sy": "saya",
+			"x": "tak",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2056",
+		"timestamp": "2024-11-20T13:50:48Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "我的订单什么时候发货？",
+		"raw_text_ms": "Order sy bila pos?",
+		"normalized_text_ms": "Order saya bila pos?",
+		"english_loanwords": ["order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2057",
+		"timestamp": "2024-11-20T13:55:34Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，能帮我改一下吗？",
+		"raw_text_ms": "Address salah isi, bleh tlg ubah?",
+		"normalized_text_ms": "Address salah isi, boleh tolong ubah?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh",
+			"tlg": "tolong"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2058",
+		"timestamp": "2024-11-20T14:00:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "订单准备好了吗？什么时候发货？",
+		"raw_text_ms": "Order ready? Bila pos?",
+		"normalized_text_ms": "Order ready? Bila pos?",
+		"english_loanwords": ["order", "ready"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货", "确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2059",
+		"timestamp": "2024-11-20T14:05:42Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我已经改了地址，请确认一下。",
+		"raw_text_ms": "Sy dh ubah address, tolong confirm.",
+		"normalized_text_ms": "Saya dah ubah address, tolong confirm.",
+		"english_loanwords": ["address", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2060",
+		"timestamp": "2024-11-20T14:10:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我的订单确认了吗？",
+		"raw_text_ms": "Order sy dh confirm?",
+		"normalized_text_ms": "Order saya dah confirm?",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2061",
+		"timestamp": "2024-11-20T14:15:57Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "都3天了还不发货！怎么回事？",
+		"raw_text_ms": "Dah 3 hari x pos lg! Camne?",
+		"normalized_text_ms": "Dah 3 hari tak pos lagi! Macam mana?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "angry",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah",
+			"x": "tak",
+			"lg": "lagi",
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2062",
+		"timestamp": "2024-11-20T14:20:33Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "我的地址不对，可以改吗？",
+		"raw_text_ms": "Address sy salah, bleh ubah?",
+		"normalized_text_ms": "Address saya salah, boleh ubah?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2063",
+		"timestamp": "2024-11-20T14:25:46Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？我想确认一下。",
+		"raw_text_ms": "Order dh confirm? Sy nk confirm.",
+		"normalized_text_ms": "Order dah confirm? Saya nak confirm.",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2064",
+		"timestamp": "2024-11-20T14:30:24Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我的订单什么时候发货？急用。",
+		"raw_text_ms": "Order sy bila pos? Sy urgent.",
+		"normalized_text_ms": "Order saya bila pos? Saya urgent.",
+		"english_loanwords": ["order", "urgent"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2065",
+		"timestamp": "2024-11-20T14:35:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我要改地址，麻烦帮我。",
+		"raw_text_ms": "Sy nk ubah address, tolong.",
+		"normalized_text_ms": "Saya nak ubah address, tolong.",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2066",
+		"timestamp": "2024-11-20T14:40:52Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "订单准备好了吗？能今天发货吗？",
+		"raw_text_ms": "Order ready? Boleh pos hari ni?",
+		"normalized_text_ms": "Order ready? Boleh pos hari ini?",
+		"english_loanwords": ["order", "ready"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"ni": "ini"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2067",
+		"timestamp": "2024-11-20T14:45:39Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "我改错了地址，可以帮我改回来吗？",
+		"raw_text_ms": "Sy salah ubah address, bleh tukar balik?",
+		"normalized_text_ms": "Saya salah ubah address, boleh tukar balik?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2068",
+		"timestamp": "2024-11-20T14:50:26Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？我要确认一下。",
+		"raw_text_ms": "Order dh confirm? Sy nk confirm.",
+		"normalized_text_ms": "Order dah confirm? Saya nak confirm.",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2069",
+		"timestamp": "2024-11-20T14:55:44Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "为什么还不发货？我等着呢！",
+		"raw_text_ms": "Kenapa x pos lg? Sy tunggu!",
+		"normalized_text_ms": "Kenapa tak pos lagi? Saya tunggu!",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "negative",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"lg": "lagi",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2070",
+		"timestamp": "2024-11-20T15:00:31Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，能改吗？",
+		"raw_text_ms": "Address salah isi, bleh ubah?",
+		"normalized_text_ms": "Address salah isi, boleh ubah?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2071",
+		"timestamp": "2024-11-20T15:05:48Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "订单什么时候发货？我想确认。",
+		"raw_text_ms": "Order bila pos? Sy nk confirm.",
+		"normalized_text_ms": "Order bila pos? Saya nak confirm.",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货", "确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2072",
+		"timestamp": "2024-11-20T15:10:23Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我要改地址，帮我改一下。",
+		"raw_text_ms": "Sy nk ubah address, tolong ubah.",
+		"normalized_text_ms": "Saya nak ubah address, tolong ubah.",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2073",
+		"timestamp": "2024-11-20T15:15:56Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？我还没收到确认信息。",
+		"raw_text_ms": "Order dh confirm? Sy x dpt notification.",
+		"normalized_text_ms": "Order dah confirm? Saya tak dapat notification.",
+		"english_loanwords": ["order", "confirm", "notification"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"sy": "saya",
+			"x": "tak",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2074",
+		"timestamp": "2024-11-20T15:20:42Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我的订单什么时候发货？已经下单了。",
+		"raw_text_ms": "Order sy bila pos? Dah order.",
+		"normalized_text_ms": "Order saya bila pos? Dah order.",
+		"english_loanwords": ["order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2075",
+		"timestamp": "2024-11-20T15:25:18Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "地址不对，能帮我改一下吗？",
+		"raw_text_ms": "Address salah, bleh tukar?",
+		"normalized_text_ms": "Address salah, boleh tukar?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2076",
+		"timestamp": "2024-11-20T15:30:35Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "订单准备好了吗？我想确认一下。",
+		"raw_text_ms": "Order ready? Sy nk confirm.",
+		"normalized_text_ms": "Order ready? Saya nak confirm.",
+		"english_loanwords": ["order", "ready", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2077",
+		"timestamp": "2024-11-20T15:35:52Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "都两天了还不发货！能不能快点？",
+		"raw_text_ms": "Dah 2 hari x pos lg! Boleh cpt?",
+		"normalized_text_ms": "Dah 2 hari tak pos lagi! Boleh cepat?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "negative",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah",
+			"x": "tak",
+			"lg": "lagi",
+			"bleh": "boleh",
+			"cpt": "cepat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2078",
+		"timestamp": "2024-11-20T15:40:29Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我要改地址，怎么改？",
+		"raw_text_ms": "Sy nk ubah address, camne?",
+		"normalized_text_ms": "Saya nak ubah address, macam mana?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak",
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2079",
+		"timestamp": "2024-11-20T15:45:47Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？麻烦确认一下。",
+		"raw_text_ms": "Order dh confirm? Tolong confirm.",
+		"normalized_text_ms": "Order dah confirm? Tolong confirm.",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2080",
+		"timestamp": "2024-11-20T15:50:13Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "我的订单什么时候发货？",
+		"raw_text_ms": "Order sy bila pos?",
+		"normalized_text_ms": "Order saya bila pos?",
+		"english_loanwords": ["order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2081",
+		"timestamp": "2024-11-20T15:55:41Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址错了，可以改吗？",
+		"raw_text_ms": "Address salah, bleh ubah?",
+		"normalized_text_ms": "Address salah, boleh ubah?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2082",
+		"timestamp": "2024-11-20T16:00:25Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？我想确认一下。",
+		"raw_text_ms": "Order dh confirm? Sy nk confirm.",
+		"normalized_text_ms": "Order dah confirm? Saya nak confirm.",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2083",
+		"timestamp": "2024-11-20T16:05:38Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我的订单什么时候发货？急用啊。",
+		"raw_text_ms": "Order sy bila pos? Sy urgent!",
+		"normalized_text_ms": "Order saya bila pos? Saya urgent!",
+		"english_loanwords": ["order", "urgent"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2084",
+		"timestamp": "2024-11-20T16:10:54Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我需要改地址，能帮我吗？",
+		"raw_text_ms": "Sy perlukan ubah address, bleh tlg?",
+		"normalized_text_ms": "Saya perlukan ubah address, boleh tolong?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bleh": "boleh",
+			"tlg": "tolong"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2085",
+		"timestamp": "2024-11-20T16:15:32Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "订单准备好了吗？什么时候发货？",
+		"raw_text_ms": "Order ready? Bila pos?",
+		"normalized_text_ms": "Order ready? Bila pos?",
+		"english_loanwords": ["order", "ready"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货", "确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2086",
+		"timestamp": "2024-11-20T16:20:46Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，能改吗？",
+		"raw_text_ms": "Address salah isi, bleh ubah?",
+		"normalized_text_ms": "Address salah isi, boleh ubah?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2087",
+		"timestamp": "2024-11-20T16:25:19Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？麻烦看一下。",
+		"raw_text_ms": "Order dh confirm? Tolong tengok.",
+		"normalized_text_ms": "Order dah confirm? Tolong tengok.",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2088",
+		"timestamp": "2024-11-20T16:30:57Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "为什么还不发货？都好几天了！",
+		"raw_text_ms": "Kenapa x pos lg? Dah berapa hari!",
+		"normalized_text_ms": "Kenapa tak pos lagi? Dah berapa hari!",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "angry",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"lg": "lagi",
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2089",
+		"timestamp": "2024-11-20T16:35:23Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我要改地址，帮我改可以吗？",
+		"raw_text_ms": "Sy nk ubah address, tolong ubah.",
+		"normalized_text_ms": "Saya nak ubah address, tolong ubah.",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2090",
+		"timestamp": "2024-11-20T16:40:41Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？我想确认一下。",
+		"raw_text_ms": "Order dh confirm? Sy nk confirm.",
+		"normalized_text_ms": "Order dah confirm? Saya nak confirm.",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2091",
+		"timestamp": "2024-11-20T16:45:36Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我的订单什么时候发货？已经3天了。",
+		"raw_text_ms": "Order sy bila pos? Dah 3 hari.",
+		"normalized_text_ms": "Order saya bila pos? Dah 3 hari.",
+		"english_loanwords": ["order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "negative",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2092",
+		"timestamp": "2024-11-20T16:50:28Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "地址不对，能帮我改一下吗？",
+		"raw_text_ms": "Address salah, bleh tukar?",
+		"normalized_text_ms": "Address salah, boleh tukar?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2093",
+		"timestamp": "2024-11-20T16:55:52Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "订单准备好了吗？今天能发货吗？",
+		"raw_text_ms": "Order ready? Boleh pos hari ni?",
+		"normalized_text_ms": "Order ready? Boleh pos hari ini?",
+		"english_loanwords": ["order", "ready"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"ni": "ini"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2094",
+		"timestamp": "2024-11-20T17:00:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我改了地址，请帮我确认一下。",
+		"raw_text_ms": "Sy dh ubah address, tolong confirm.",
+		"normalized_text_ms": "Saya dah ubah address, tolong confirm.",
+		"english_loanwords": ["address", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2095",
+		"timestamp": "2024-11-20T17:05:44Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？我想确认一下。",
+		"raw_text_ms": "Order dh confirm? Sy nk confirm.",
+		"normalized_text_ms": "Order dah confirm? Saya nak confirm.",
+		"english_loanwords": ["order", "confirm"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2096",
+		"timestamp": "2024-11-20T17:10:37Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "怎么还不发货？我等着用呢！",
+		"raw_text_ms": "Kenapa x pos lg? Sy tunggu nk guna!",
+		"normalized_text_ms": "Kenapa tak pos lagi? Saya tunggu nak guna!",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "negative",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"lg": "lagi",
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2097",
+		"timestamp": "2024-11-20T17:15:29Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "地址错了，能改吗？",
+		"raw_text_ms": "Address salah, bleh ubah?",
+		"normalized_text_ms": "Address salah, boleh ubah?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2098",
+		"timestamp": "2024-11-20T17:20:53Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "订单确认了吗？我还没收到信息。",
+		"raw_text_ms": "Order dh confirm? Sy x dpt info.",
+		"normalized_text_ms": "Order dah confirm? Saya tak dapat info.",
+		"english_loanwords": ["order", "confirm", "info"]
+	},
+	"pragmatic_layer": {
+		"intent": ["确认订单"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"sy": "saya",
+			"x": "tak",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2099",
+		"timestamp": "2024-11-20T17:25:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我的订单什么时候发货？急用！",
+		"raw_text_ms": "Order sy bila pos? Sy urgent!",
+		"normalized_text_ms": "Order saya bila pos? Saya urgent!",
+		"english_loanwords": ["order", "urgent"]
+	},
+	"pragmatic_layer": {
+		"intent": ["催发货"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-2100",
+		"timestamp": "2024-11-20T17:30:45Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "我需要改地址，能帮我吗？",
+		"raw_text_ms": "Sy perlukan ubah address, bleh tlg?",
+		"normalized_text_ms": "Saya perlukan ubah address, boleh tolong?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bleh": "boleh",
+			"tlg": "tolong"
+		}
+	}
+}]

@@ -1,0 +1,2490 @@
+[{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5001",
+		"timestamp": "2024-11-20T12:15:30Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "质量很好，我会给五星好评！",
+		"raw_text_ms": "Quality bagus, sy bg 5 star!",
+		"normalized_text_ms": "Quality bagus, saya bagi 5 star!",
+		"english_loanwords": ["quality", "star"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bg": "bagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5002",
+		"timestamp": "2024-11-20T12:20:45Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "物流很快，第二天就收到了。",
+		"raw_text_ms": "Shipping cepat, esok dh sampai.",
+		"normalized_text_ms": "Shipping cepat, esok dah sampai.",
+		"english_loanwords": ["shipping"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5003",
+		"timestamp": "2024-11-20T12:25:10Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "和图片一样，很满意！",
+		"raw_text_ms": "Sama mcm dlm pic, sangat puas!",
+		"normalized_text_ms": "Sama macam dalam picture, sangat puas!",
+		"english_loanwords": ["pic", "picture"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"mcm": "macam",
+			"dlm": "dalam"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5004",
+		"timestamp": "2024-11-20T12:30:22Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "性价比很高，推荐购买！",
+		"raw_text_ms": "Value for money sangat baik, recommend!",
+		"normalized_text_ms": "Value for money sangat baik, recommend!",
+		"english_loanwords": ["value", "for", "money", "recommend"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5005",
+		"timestamp": "2024-11-20T12:35:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "包装很仔细，没有损坏。",
+		"raw_text_ms": "Packaging teliti, x rosak.",
+		"normalized_text_ms": "Packaging teliti, tak rosak.",
+		"english_loanwords": ["packaging"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5006",
+		"timestamp": "2024-11-20T12:40:33Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "质量不行，和描述不符。",
+		"raw_text_ms": "Quality x ok, x sama mcm description.",
+		"normalized_text_ms": "Quality tak ok, tak sama macam description.",
+		"english_loanwords": ["quality", "description"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"mcm": "macam"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5007",
+		"timestamp": "2024-11-20T12:45:27Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "物流太慢了，等了一个星期。",
+		"raw_text_ms": "Shipping lambat sangat, tunggu seminggu.",
+		"normalized_text_ms": "Shipping lambat sangat, tunggu seminggu.",
+		"english_loanwords": ["shipping"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5008",
+		"timestamp": "2024-11-20T12:50:14Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "东西和图片不一样，很失望。",
+		"raw_text_ms": "Barang x sama mcm pic, sangat kecewa.",
+		"normalized_text_ms": "Barang tak sama macam picture, sangat kecewa.",
+		"english_loanwords": ["pic", "picture"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"mcm": "macam"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5009",
+		"timestamp": "2024-11-20T12:55:41Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "质量还可以，物流一般般。",
+		"raw_text_ms": "Quality ok, biasa2 je.",
+		"normalized_text_ms": "Quality ok, biasa-biasa je.",
+		"english_loanwords": ["quality", "ok"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5010",
+		"timestamp": "2024-11-20T13:00:28Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我可以用文字和图片评价吗？",
+		"raw_text_ms": "Sy boleh bg review dgn gambar tak?",
+		"normalized_text_ms": "Saya boleh bagi review dengan gambar tak?",
+		"english_loanwords": ["review"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问评价方法"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bleh": "boleh",
+			"bg": "bagi",
+			"dgn": "dengan"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5011",
+		"timestamp": "2024-11-20T13:05:36Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "服务态度很好，谢谢卖家！",
+		"raw_text_ms": "Service attitude bagus, terima kasih seller!",
+		"normalized_text_ms": "Service attitude bagus, terima kasih seller!",
+		"english_loanwords": ["service", "attitude", "seller"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5012",
+		"timestamp": "2024-11-20T13:10:19Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "东西坏了，包装也不好。",
+		"raw_text_ms": "Barang rosak, packaging x bagus.",
+		"normalized_text_ms": "Barang rosak, packaging tak bagus.",
+		"english_loanwords": ["packaging"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5013",
+		"timestamp": "2024-11-20T13:15:44Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "用了一段时间了，质量还是很好。",
+		"raw_text_ms": "Dah guna beberapa hari, quality masih bagus.",
+		"normalized_text_ms": "Dah guna beberapa hari, quality masih bagus.",
+		"english_loanwords": ["quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["追加评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5014",
+		"timestamp": "2024-11-20T13:20:53Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "价格合理，质量也不错。",
+		"raw_text_ms": "Price reasonable, quality pun ok.",
+		"normalized_text_ms": "Price reasonable, quality pun ok.",
+		"english_loanwords": ["price", "reasonable", "quality", "ok"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"pun": "pun"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5015",
+		"timestamp": "2024-11-20T13:25:07Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "颜色和图片不一样，很失望！",
+		"raw_text_ms": "Colour x sama mcm pic, sangat kecewa!",
+		"normalized_text_ms": "Colour tak sama macam picture, sangat kecewa!",
+		"english_loanwords": ["colour", "pic", "picture"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"mcm": "macam"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5016",
+		"timestamp": "2024-11-20T13:30:16Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我很满意，会回购的！",
+		"raw_text_ms": "Sy sangat puas, akan repeat order!",
+		"normalized_text_ms": "Saya sangat puas, akan repeat order!",
+		"english_loanwords": ["repeat", "order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5017",
+		"timestamp": "2024-11-20T13:35:29Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "我想修改一下评价，可以吗？",
+		"raw_text_ms": "Sy nk edit review, bleh ke?",
+		"normalized_text_ms": "Saya nak edit review, boleh ke?",
+		"english_loanwords": ["edit", "review"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak",
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5018",
+		"timestamp": "2024-11-20T13:40:42Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "质量太差了，根本不值这个价！",
+		"raw_text_ms": "Quality teruk sangat, x worth harga ni!",
+		"normalized_text_ms": "Quality teruk sangat, tak worth harga ini!",
+		"english_loanwords": ["quality", "worth"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"ni": "ini"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5019",
+		"timestamp": "2024-11-20T13:45:35Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "整体还可以，有小瑕疵但能接受。",
+		"raw_text_ms": "Overall ok, ada sikit defect tapi boleh terima.",
+		"normalized_text_ms": "Overall ok, ada sedikit defect tapi boleh terima.",
+		"english_loanwords": ["overall", "ok", "defect"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sikit": "sedikit"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5020",
+		"timestamp": "2024-11-20T13:50:18Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "发货很快，态度也很好！",
+		"raw_text_ms": "Delivery cepat, attitude pun bagus!",
+		"normalized_text_ms": "Delivery cepat, attitude pun bagus!",
+		"english_loanwords": ["delivery", "attitude"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"pun": "pun"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5021",
+		"timestamp": "2024-11-20T13:55:51Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我要写个评价，在哪里写？",
+		"raw_text_ms": "Sy nk bg review, kat mana?",
+		"normalized_text_ms": "Saya nak bagi review, kat mana?",
+		"english_loanwords": ["review"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问评价方法"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak",
+			"bg": "bagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5022",
+		"timestamp": "2024-11-20T14:00:24Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "用了一个月，质量还不错。",
+		"raw_text_ms": "Dah guna sebulan, quality masih ok.",
+		"normalized_text_ms": "Dah guna sebulan, quality masih ok.",
+		"english_loanwords": ["quality", "ok"]
+	},
+	"pragmatic_layer": {
+		"intent": ["追加评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5023",
+		"timestamp": "2024-11-20T14:05:37Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "物流太慢，客服也不回复！",
+		"raw_text_ms": "Shipping lambat, CS x reply pun!",
+		"normalized_text_ms": "Shipping lambat, CS tak reply pun!",
+		"english_loanwords": ["shipping", "CS", "reply"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"pun": "pun"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5024",
+		"timestamp": "2024-11-20T14:10:43Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "东西不错，会推荐给朋友的。",
+		"raw_text_ms": "Barang ok, sy recommend kwn.",
+		"normalized_text_ms": "Barang ok, saya recommend kawan.",
+		"english_loanwords": ["ok", "recommend"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"kwn": "kawan"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5025",
+		"timestamp": "2024-11-20T14:15:19Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "质量一般，价格也不算便宜。",
+		"raw_text_ms": "Quality biasa, price pun x murah.",
+		"normalized_text_ms": "Quality biasa, price pun tak murah.",
+		"english_loanwords": ["quality", "price"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"pun": "pun",
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5026",
+		"timestamp": "2024-11-20T14:20:56Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "包装很漂亮，打开很惊喜！",
+		"raw_text_ms": "Packaging cantik, bukak sangat happy!",
+		"normalized_text_ms": "Packaging cantik, bukak sangat happy!",
+		"english_loanwords": ["packaging", "happy"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5027",
+		"timestamp": "2024-11-20T14:25:32Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我发错评价了，能修改吗？",
+		"raw_text_ms": "Sy salah bg review, bleh edit ke?",
+		"normalized_text_ms": "Saya salah bagi review, boleh edit ke?",
+		"english_loanwords": ["review"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bg": "bagi",
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5028",
+		"timestamp": "2024-11-20T14:30:48Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "尺寸不对，买小了。",
+		"raw_text_ms": "Size salah, sy beli kecil.",
+		"normalized_text_ms": "Size salah, saya beli kecil.",
+		"english_loanwords": ["size"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5029",
+		"timestamp": "2024-11-20T14:35:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "和描述的一样，很满意！",
+		"raw_text_ms": "Sama mcm description, sangat puas!",
+		"normalized_text_ms": "Sama macam description, sangat puas!",
+		"english_loanwords": ["description"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"mcm": "macam"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5030",
+		"timestamp": "2024-11-20T14:40:27Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "材质不好，摸起来很廉价。",
+		"raw_text_ms": "Material x bagus, rasa macam cheap.",
+		"normalized_text_ms": "Material tak bagus, rasa macam cheap.",
+		"english_loanwords": ["material", "cheap"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"mcm": "macam"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5031",
+		"timestamp": "2024-11-20T14:45:54Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "用了一周，质量保持得很好。",
+		"raw_text_ms": "Dah guna seminggu, quality masih maintain.",
+		"normalized_text_ms": "Dah guna seminggu, quality masih maintain.",
+		"english_loanwords": ["quality", "maintain"]
+	},
+	"pragmatic_layer": {
+		"intent": ["追加评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5032",
+		"timestamp": "2024-11-20T14:50:41Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "物流很快，两天就到了。",
+		"raw_text_ms": "Shipping cepat, 2 hari dah sampai.",
+		"normalized_text_ms": "Shipping cepat, 2 hari dah sampai.",
+		"english_loanwords": ["shipping"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5033",
+		"timestamp": "2024-11-20T14:55:33Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "有异味，用了几天还有味道。",
+		"raw_text_ms": "Ada bau, dah beberapa hari masih ada bau.",
+		"normalized_text_ms": "Ada bau, dah beberapa hari masih ada bau.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5034",
+		"timestamp": "2024-11-20T15:00:19Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "可以上传图片评价吗？",
+		"raw_text_ms": "Bleh upload gambar utk review ke?",
+		"normalized_text_ms": "Boleh upload gambar untuk review ke?",
+		"english_loanwords": ["upload", "review"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问评价方法"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh",
+			"utk": "untuk"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5035",
+		"timestamp": "2024-11-20T15:05:47Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "和图片有点差别，但还能接受。",
+		"raw_text_ms": "Ada sikit difference dgn pic, tapi ok.",
+		"normalized_text_ms": "Ada sedikit difference dengan picture, tapi ok.",
+		"english_loanwords": ["difference", "dgn", "pic", "picture", "ok"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sikit": "sedikit",
+			"dgn": "dengan"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5036",
+		"timestamp": "2024-11-20T15:10:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "质量很好，物超所值！",
+		"raw_text_ms": "Quality bagus, sangat worth it!",
+		"normalized_text_ms": "Quality bagus, sangat worth it!",
+		"english_loanwords": ["quality", "worth"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5037",
+		"timestamp": "2024-11-20T15:15:52Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "包装破了，东西也坏了！",
+		"raw_text_ms": "Packaging pecah, barang pun rosak!",
+		"normalized_text_ms": "Packaging pecah, barang pun rosak!",
+		"english_loanwords": ["packaging"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"pun": "pun"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5038",
+		"timestamp": "2024-11-20T15:20:38Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "客服回复很快，解决了我的问题。",
+		"raw_text_ms": "CS reply cepat, solve problem sy.",
+		"normalized_text_ms": "CS reply cepat, solve problem saya.",
+		"english_loanwords": ["CS", "reply", "solve", "problem"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5039",
+		"timestamp": "2024-11-20T15:25:14Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我已经写完评价了，还能修改吗？",
+		"raw_text_ms": "Sy dh siap review, masih boleh edit ke?",
+		"normalized_text_ms": "Saya dah siap review, masih boleh edit ke?",
+		"english_loanwords": ["review"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5040",
+		"timestamp": "2024-11-20T15:30:46Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "东西还可以，但物流太慢。",
+		"raw_text_ms": "Barang ok tapi shipping lambat.",
+		"normalized_text_ms": "Barang ok tapi shipping lambat.",
+		"english_loanwords": ["ok", "shipping"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5041",
+		"timestamp": "2024-11-20T15:35:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "用了一段时间，质量依然很好！",
+		"raw_text_ms": "Dah guna seketika, quality masih sangat bagus!",
+		"normalized_text_ms": "Dah guna seketika, quality masih sangat bagus!",
+		"english_loanwords": ["quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["追加评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5042",
+		"timestamp": "2024-11-20T15:40:55Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "和描述完全一样，很惊喜！",
+		"raw_text_ms": "Sama mcm description, sangat happy!",
+		"normalized_text_ms": "Sama macam description, sangat happy!",
+		"english_loanwords": ["description", "happy"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"mcm": "macam"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5043",
+		"timestamp": "2024-11-20T15:45:23Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "质量很差，用了一次就坏了。",
+		"raw_text_ms": "Quality teruk, guna sekali dh rosak.",
+		"normalized_text_ms": "Quality teruk, guna sekali dah rosak.",
+		"english_loanwords": ["quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5044",
+		"timestamp": "2024-11-20T15:50:41Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "怎么评价？能给我发个链接吗？",
+		"raw_text_ms": "Camne nak review? Boleh bg link?",
+		"normalized_text_ms": "Macam mana nak review? Boleh bagi link?",
+		"english_loanwords": ["review", "link"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问评价方法"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana",
+			"bg": "bagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5045",
+		"timestamp": "2024-11-20T15:55:37Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "质量还可以，价格也合理。",
+		"raw_text_ms": "Quality ok, price reasonable.",
+		"normalized_text_ms": "Quality ok, price reasonable.",
+		"english_loanwords": ["quality", "ok", "price", "reasonable"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5046",
+		"timestamp": "2024-11-20T16:00:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "发货快，态度好，五星好评！",
+		"raw_text_ms": "Delivery cepat, attitude bagus, 5 star!",
+		"normalized_text_ms": "Delivery cepat, attitude bagus, 5 star!",
+		"english_loanwords": ["delivery", "attitude", "star"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5047",
+		"timestamp": "2024-11-20T16:05:54Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "图片和实物差太远了！",
+		"raw_text_ms": "Pic dgn real barang jauh sangat!",
+		"normalized_text_ms": "Picture dengan real barang jauh sangat!",
+		"english_loanwords": ["pic", "picture", "dgn", "real"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dgn": "dengan"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5048",
+		"timestamp": "2024-11-20T16:10:32Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "用了一个月了，质量依旧很好。",
+		"raw_text_ms": "Dah guna sebulan, quality masih sangat bagus.",
+		"normalized_text_ms": "Dah guna sebulan, quality masih sangat bagus.",
+		"english_loanwords": ["quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["追加评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5049",
+		"timestamp": "2024-11-20T16:15:46Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "东西还可以，有优点也有缺点。",
+		"raw_text_ms": "Barang ok, ada kelebihan & kekurangan.",
+		"normalized_text_ms": "Barang ok, ada kelebihan & kekurangan.",
+		"english_loanwords": ["ok"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"&": "dan"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5050",
+		"timestamp": "2024-11-20T16:20:28Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "评价要写多少字？",
+		"raw_text_ms": "Review perlukan berapa word?",
+		"normalized_text_ms": "Review perlukan berapa word?",
+		"english_loanwords": ["review", "word"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问评价方法"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5051",
+		"timestamp": "2024-11-20T16:25:43Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "很好用，推荐大家购买！",
+		"raw_text_ms": "Sangat guna, recommend semua!",
+		"normalized_text_ms": "Sangat guna, recommend semua!",
+		"english_loanwords": ["recommend"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5052",
+		"timestamp": "2024-11-20T16:30:17Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我发错评价了，能删除重写吗？",
+		"raw_text_ms": "Sy salah review, bleh delete & bg baru?",
+		"normalized_text_ms": "Saya salah review, boleh delete & bagi baru?",
+		"english_loanwords": ["review", "delete"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bleh": "boleh",
+			"bg": "bagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5053",
+		"timestamp": "2024-11-20T16:35:52Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "质量很差，完全不值这个价！",
+		"raw_text_ms": "Quality teruk, x worth harga ni!",
+		"normalized_text_ms": "Quality teruk, tak worth harga ini!",
+		"english_loanwords": ["quality", "worth"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"ni": "ini"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5054",
+		"timestamp": "2024-11-20T16:40:36Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "包装很精美，收到很感动。",
+		"raw_text_ms": "Packaging cantik, sangat terharu.",
+		"normalized_text_ms": "Packaging cantik, sangat terharu.",
+		"english_loanwords": ["packaging"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5055",
+		"timestamp": "2024-11-20T16:45:21Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "和图片差不多，基本满意。",
+		"raw_text_ms": "Hampir sama mcm pic, puas.",
+		"normalized_text_ms": "Hampir sama macam picture, puas.",
+		"english_loanwords": ["pic", "picture"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"mcm": "macam"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5056",
+		"timestamp": "2024-11-20T16:50:48Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "物流很慢，但东西还不错。",
+		"raw_text_ms": "Shipping lambat tapi barang ok.",
+		"normalized_text_ms": "Shipping lambat tapi barang ok.",
+		"english_loanwords": ["shipping", "ok"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5057",
+		"timestamp": "2024-11-20T16:55:34Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "用了两周了，质量还是很好！",
+		"raw_text_ms": "Dah guna 2 minggu, quality masih bagus!",
+		"normalized_text_ms": "Dah guna 2 minggu, quality masih bagus!",
+		"english_loanwords": ["quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["追加评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5058",
+		"timestamp": "2024-11-20T17:00:15Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "客服不回消息，态度很差！",
+		"raw_text_ms": "CS x reply, attitude teruk!",
+		"normalized_text_ms": "CS tak reply, attitude teruk!",
+		"english_loanwords": ["CS", "reply", "attitude"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5059",
+		"timestamp": "2024-11-20T17:05:42Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "质量非常好，会继续购买的！",
+		"raw_text_ms": "Quality sangat bagus, akan continue purchase!",
+		"normalized_text_ms": "Quality sangat bagus, akan continue purchase!",
+		"english_loanwords": ["quality", "continue", "purchase"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5060",
+		"timestamp": "2024-11-20T17:10:29Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "我要追评，在哪里操作？",
+		"raw_text_ms": "Sy nk add review, kat mana?",
+		"normalized_text_ms": "Saya nak add review, kat mana?",
+		"english_loanwords": ["add", "review"]
+	},
+	"pragmatic_layer": {
+		"intent": ["追加评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5061",
+		"timestamp": "2024-11-20T17:15:57Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "和描述一致，很满意！",
+		"raw_text_ms": "Sama mcm description, sangat puas!",
+		"normalized_text_ms": "Sama macam description, sangat puas!",
+		"english_loanwords": ["description"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"mcm": "macam"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5062",
+		"timestamp": "2024-11-20T17:20:33Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "颜色和图片不一样，很失望。",
+		"raw_text_ms": "Colour x sama mcm pic, sangat kecewa.",
+		"normalized_text_ms": "Colour tak sama macam picture, sangat kecewa.",
+		"english_loanwords": ["colour", "pic", "picture"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"mcm": "macam"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5063",
+		"timestamp": "2024-11-20T17:25:46Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "用了一段时间，质量保持得很好。",
+		"raw_text_ms": "Dah guna seketika, quality masih maintain.",
+		"normalized_text_ms": "Dah guna seketika, quality masih maintain.",
+		"english_loanwords": ["quality", "maintain"]
+	},
+	"pragmatic_layer": {
+		"intent": ["追加评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5064",
+		"timestamp": "2024-11-20T17:30:24Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "可以给视频评价吗？",
+		"raw_text_ms": "Bleh bg video review ke?",
+		"normalized_text_ms": "Boleh bagi video review ke?",
+		"english_loanwords": ["video", "review"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问评价方法"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh",
+			"bg": "bagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5065",
+		"timestamp": "2024-11-20T17:35:18Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "质量还可以，但价格有点高。",
+		"raw_text_ms": "Quality ok tapi price sikit mahal.",
+		"normalized_text_ms": "Quality ok tapi price sedikit mahal.",
+		"english_loanwords": ["quality", "ok", "price"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sikit": "sedikit"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5066",
+		"timestamp": "2024-11-20T17:40:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "发货很快，两天就到了！",
+		"raw_text_ms": "Delivery cepat, 2 hari dh sampai!",
+		"normalized_text_ms": "Delivery cepat, 2 hari dah sampai!",
+		"english_loanwords": ["delivery"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5067",
+		"timestamp": "2024-11-20T17:45:39Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "质量很差，根本不能用！",
+		"raw_text_ms": "Quality teruk, x boleh guna!",
+		"normalized_text_ms": "Quality teruk, tak boleh guna!",
+		"english_loanwords": ["quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5068",
+		"timestamp": "2024-11-20T17:50:26Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "包装很仔细，东西保护得很好。",
+		"raw_text_ms": "Packaging teliti, barang well protected.",
+		"normalized_text_ms": "Packaging teliti, barang well protected.",
+		"english_loanwords": ["packaging", "well", "protected"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5069",
+		"timestamp": "2024-11-20T17:55:44Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我忘了评价了，还能写吗？",
+		"raw_text_ms": "Sy lupa review, masih boleh bg ke?",
+		"normalized_text_ms": "Saya lupa review, masih boleh bagi ke?",
+		"english_loanwords": ["review"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问评价方法"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bg": "bagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5070",
+		"timestamp": "2024-11-20T18:00:31Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "整体还不错，有小问题但可以接受。",
+		"raw_text_ms": "Overall ok, ada sikit issue tapi boleh accept.",
+		"normalized_text_ms": "Overall ok, ada sedikit issue tapi boleh accept.",
+		"english_loanwords": ["overall", "ok", "issue", "accept"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sikit": "sedikit"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5071",
+		"timestamp": "2024-11-20T18:05:48Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "用了一段时间，质量还是很好！",
+		"raw_text_ms": "Dah guna seketika, quality masih bagus!",
+		"normalized_text_ms": "Dah guna seketika, quality masih bagus!",
+		"english_loanwords": ["quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["追加评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5072",
+		"timestamp": "2024-11-20T18:10:23Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "和图片不一样，实物差很多！",
+		"raw_text_ms": "X sama mcm pic, real barang jauh!",
+		"normalized_text_ms": "Tak sama macam picture, real barang jauh!",
+		"english_loanwords": ["pic", "picture", "real"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"mcm": "macam"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5073",
+		"timestamp": "2024-11-20T18:15:56Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "质量很好，性价比很高！",
+		"raw_text_ms": "Quality bagus, sangat value for money!",
+		"normalized_text_ms": "Quality bagus, sangat value for money!",
+		"english_loanwords": ["quality", "value", "for", "money"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5074",
+		"timestamp": "2024-11-20T18:20:42Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我写错了评价，能改一下吗？",
+		"raw_text_ms": "Sy salah review, bleh edit ke?",
+		"normalized_text_ms": "Saya salah review, boleh edit ke?",
+		"english_loanwords": ["review"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5075",
+		"timestamp": "2024-11-20T18:25:18Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "质量一般，价格也一般。",
+		"raw_text_ms": "Quality biasa, price pun biasa.",
+		"normalized_text_ms": "Quality biasa, price pun biasa.",
+		"english_loanwords": ["quality", "price"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"pun": "pun"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5076",
+		"timestamp": "2024-11-20T18:30:35Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "物流很快，东西也很好！",
+		"raw_text_ms": "Shipping cepat, barang pun bagus!",
+		"normalized_text_ms": "Shipping cepat, barang pun bagus!",
+		"english_loanwords": ["shipping"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"pun": "pun"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5077",
+		"timestamp": "2024-11-20T18:35:52Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "包装破了，东西也坏了，很生气！",
+		"raw_text_ms": "Packaging pecah, barang rosak, sangat marah!",
+		"normalized_text_ms": "Packaging pecah, barang rosak, sangat marah!",
+		"english_loanwords": ["packaging"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5078",
+		"timestamp": "2024-11-20T18:40:29Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "用了一个月了，质量还不错。",
+		"raw_text_ms": "Dah guna sebulan, quality masih ok.",
+		"normalized_text_ms": "Dah guna sebulan, quality masih ok.",
+		"english_loanwords": ["quality", "ok"]
+	},
+	"pragmatic_layer": {
+		"intent": ["追加评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5079",
+		"timestamp": "2024-11-20T18:45:47Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "和图片一样，很满意！",
+		"raw_text_ms": "Sama mcm pic, sangat puas!",
+		"normalized_text_ms": "Sama macam picture, sangat puas!",
+		"english_loanwords": ["pic", "picture"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"mcm": "macam"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5080",
+		"timestamp": "2024-11-20T18:50:13Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "我追评怎么写？在哪里追评？",
+		"raw_text_ms": "Camne nak add review? Kat mana?",
+		"normalized_text_ms": "Macam mana nak add review? Kat mana?",
+		"english_loanwords": ["add", "review"]
+	},
+	"pragmatic_layer": {
+		"intent": ["追加评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5081",
+		"timestamp": "2024-11-20T18:55:41Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "质量很好，会推荐给大家的！",
+		"raw_text_ms": "Quality bagus, sy recommend kwn!",
+		"normalized_text_ms": "Quality bagus, saya recommend kawan!",
+		"english_loanwords": ["quality", "recommend"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"kwn": "kawan"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5082",
+		"timestamp": "2024-11-20T19:00:25Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "物流太慢了，等了很久！",
+		"raw_text_ms": "Shipping lambat sangat, tunggu lama!",
+		"normalized_text_ms": "Shipping lambat sangat, tunggu lama!",
+		"english_loanwords": ["shipping"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5083",
+		"timestamp": "2024-11-20T19:05:38Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "用了一段时间，质量保持得很好！",
+		"raw_text_ms": "Dah guna seketika, quality masih maintain!",
+		"normalized_text_ms": "Dah guna seketika, quality masih maintain!",
+		"english_loanwords": ["quality", "maintain"]
+	},
+	"pragmatic_layer": {
+		"intent": ["追加评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5084",
+		"timestamp": "2024-11-20T19:10:54Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "可以评价吗？在哪里评价？",
+		"raw_text_ms": "Bleh review ke? Kat mana?",
+		"normalized_text_ms": "Boleh review ke? Kat mana?",
+		"english_loanwords": ["review"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问评价方法"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5085",
+		"timestamp": "2024-11-20T19:15:32Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "和图片有差别，但还能接受。",
+		"raw_text_ms": "Ada difference dgn pic, tapi boleh accept.",
+		"normalized_text_ms": "Ada difference dengan picture, tapi boleh accept.",
+		"english_loanwords": ["difference", "dgn", "pic", "picture", "accept"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dgn": "dengan"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5086",
+		"timestamp": "2024-11-20T19:20:46Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "质量很好，物流也很快！",
+		"raw_text_ms": "Quality bagus, shipping pun cepat!",
+		"normalized_text_ms": "Quality bagus, shipping pun cepat!",
+		"english_loanwords": ["quality", "shipping"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"pun": "pun"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5087",
+		"timestamp": "2024-11-20T19:25:19Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "材质不好，感觉很容易坏。",
+		"raw_text_ms": "Material x bagus, rasa senang rosak.",
+		"normalized_text_ms": "Material tak bagus, rasa senang rosak.",
+		"english_loanwords": ["material"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5088",
+		"timestamp": "2024-11-20T19:30:57Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "包装很漂亮，收到了很开心！",
+		"raw_text_ms": "Packaging cantik, sangat happy!",
+		"normalized_text_ms": "Packaging cantik, sangat happy!",
+		"english_loanwords": ["packaging", "happy"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5089",
+		"timestamp": "2024-11-20T19:35:23Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我已经评价过了，还能追评吗？",
+		"raw_text_ms": "Sy dh review, masih boleh add review?",
+		"normalized_text_ms": "Saya dah review, masih boleh add review?",
+		"english_loanwords": ["review", "add"]
+	},
+	"pragmatic_layer": {
+		"intent": ["追加评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5090",
+		"timestamp": "2024-11-20T19:40:41Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "整体还可以，有优点也有缺点。",
+		"raw_text_ms": "Overall ok, ada pro & con.",
+		"normalized_text_ms": "Overall ok, ada pro & con.",
+		"english_loanwords": ["overall", "ok", "pro", "con"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5091",
+		"timestamp": "2024-11-20T19:45:36Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "用了两周，质量依旧很好！",
+		"raw_text_ms": "Dah guna 2 minggu, quality masih bagus!",
+		"normalized_text_ms": "Dah guna 2 minggu, quality masih bagus!",
+		"english_loanwords": ["quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["追加评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5092",
+		"timestamp": "2024-11-20T19:50:28Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "客服态度很差，不推荐！",
+		"raw_text_ms": "CS attitude teruk, x recommend!",
+		"normalized_text_ms": "CS attitude teruk, tak recommend!",
+		"english_loanwords": ["CS", "attitude", "recommend"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5093",
+		"timestamp": "2024-11-20T19:55:52Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "和描述完全一样，非常满意！",
+		"raw_text_ms": "Sama mcm description, sangat puas!",
+		"normalized_text_ms": "Sama macam description, sangat puas!",
+		"english_loanwords": ["description"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"mcm": "macam"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5094",
+		"timestamp": "2024-11-20T20:00:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "评价要写什么内容？",
+		"raw_text_ms": "Review perlukan tulis apa?",
+		"normalized_text_ms": "Review perlukan tulis apa?",
+		"english_loanwords": ["review"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问评价方法"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5095",
+		"timestamp": "2024-11-20T20:05:44Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "质量还可以，但物流有点慢。",
+		"raw_text_ms": "Quality ok tapi shipping sikit lambat.",
+		"normalized_text_ms": "Quality ok tapi shipping sedikit lambat.",
+		"english_loanwords": ["quality", "ok", "shipping"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sikit": "sedikit"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5096",
+		"timestamp": "2024-11-20T20:10:37Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "质量非常好，五星好评！",
+		"raw_text_ms": "Quality sangat bagus, 5 star!",
+		"normalized_text_ms": "Quality sangat bagus, 5 star!",
+		"english_loanwords": ["quality", "star"]
+	},
+	"pragmatic_layer": {
+		"intent": ["正面评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5097",
+		"timestamp": "2024-11-20T20:15:29Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "图片和实物差太远了，不推荐！",
+		"raw_text_ms": "Pic & real barang jauh sangat, x recommend!",
+		"normalized_text_ms": "Picture & real barang jauh sangat, tak recommend!",
+		"english_loanwords": ["pic", "picture", "real", "recommend"]
+	},
+	"pragmatic_layer": {
+		"intent": ["负面评价"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5098",
+		"timestamp": "2024-11-20T20:20:53Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "用了一个月了，质量依然很好！",
+		"raw_text_ms": "Dah guna sebulan, quality masih sangat bagus!",
+		"normalized_text_ms": "Dah guna sebulan, quality masih sangat bagus!",
+		"english_loanwords": ["quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["追加评价"],
+		"sentiment": "positive",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5099",
+		"timestamp": "2024-11-20T20:25:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想修改一下之前的评价。",
+		"raw_text_ms": "Sy nk edit review yg lalu.",
+		"normalized_text_ms": "Saya nak edit review yang lalu.",
+		"english_loanwords": ["edit", "review"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak",
+			"yg": "yang"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-5100",
+		"timestamp": "2024-11-20T20:30:45Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "整体还不错，会继续关注。",
+		"raw_text_ms": "Overall ok, akan terus follow.",
+		"normalized_text_ms": "Overall ok, akan terus follow.",
+		"english_loanwords": ["overall", "ok", "follow"]
+	},
+	"pragmatic_layer": {
+		"intent": ["中性评价"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+}]

@@ -187,3 +187,15 @@ class KWICResponse(BaseModel):
     page: int = Field(..., description="当前页码")
     limit: int = Field(..., description="每页数量")
     domain: Optional[str] = Field(None, description="过滤域")
+
+class FrequencyWordItem(BaseModel):
+    word: str = Field(..., description="词汇")
+    count: int = Field(..., description="频次")
+    percent: float = Field(..., description="占比")
+    pos: str = Field(..., description="词性")
+
+class CorpusFrequencyStatsResponse(BaseModel):
+    total_words: int = Field(..., description="总词数")
+    unique_words: int = Field(..., description="去重词数")
+    pos_distribution: dict = Field(..., description="词性分布比例")
+    frequency_data: List[FrequencyWordItem] = Field(..., description="高频词列表")

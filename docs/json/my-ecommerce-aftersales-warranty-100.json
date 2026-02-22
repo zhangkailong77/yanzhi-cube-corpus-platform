@@ -1,0 +1,2343 @@
+[{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6001",
+		"timestamp": "2024-11-20T13:15:30Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个有保修吗？保修多久？",
+		"raw_text_ms": "Ada warranty ke? Warranty berapa lama?",
+		"normalized_text_ms": "Ada warranty ke? Warranty berapa lama?",
+		"english_loanwords": ["warranty"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修期"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6002",
+		"timestamp": "2024-11-20T13:20:45Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "产品坏了，可以保修吗？",
+		"raw_text_ms": "Barang rosak, bleh claim warranty tak?",
+		"normalized_text_ms": "Barang rosak, boleh claim warranty tak?",
+		"english_loanwords": ["claim", "warranty"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修服务"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6003",
+		"timestamp": "2024-11-20T13:25:10Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修期是多久？有1年吗？",
+		"raw_text_ms": "Warranty period berapa? Ada 1 tahun ke?",
+		"normalized_text_ms": "Warranty period berapa? Ada 1 tahun ke?",
+		"english_loanwords": ["warranty", "period", "tahun"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修期"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6004",
+		"timestamp": "2024-11-20T13:30:22Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "怎么申请保修？需要什么证明？",
+		"raw_text_ms": "Camne nak claim warranty? Perlukan apa bukti?",
+		"normalized_text_ms": "Macam mana nak claim warranty? Perlukan apa bukti?",
+		"english_loanwords": ["claim", "warranty"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修流程"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana",
+			"nak": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6005",
+		"timestamp": "2024-11-20T13:35:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修要钱吗？还是免费的？",
+		"raw_text_ms": "Warranty perlu bayar ke? Free ke?",
+		"normalized_text_ms": "Warranty perlukan bayar ke? Free ke?",
+		"english_loanwords": ["warranty", "free"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修费用"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6006",
+		"timestamp": "2024-11-20T13:40:33Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修范围是什么？都包括吗？",
+		"raw_text_ms": "Warranty coverage apa? Sume termasuk?",
+		"normalized_text_ms": "Warranty coverage apa? Semua termasuk?",
+		"english_loanwords": ["warranty", "coverage"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sume": "semua"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6007",
+		"timestamp": "2024-11-20T13:45:27Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "产品坏了，要寄回去保修吗？",
+		"raw_text_ms": "Barang rosak, kena pos balik claim warranty?",
+		"normalized_text_ms": "Barang rosak, kena pos balik claim warranty?",
+		"english_loanwords": ["claim", "warranty"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修方式"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6008",
+		"timestamp": "2024-11-20T13:50:14Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修地址在哪里？我要寄回去。",
+		"raw_text_ms": "Warranty address kat mana? Sy nak pos balik.",
+		"normalized_text_ms": "Warranty address kat mana? Saya nak pos balik.",
+		"english_loanwords": ["warranty", "address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修地址"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nak": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6009",
+		"timestamp": "2024-11-20T13:55:41Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修要多久才能完成？",
+		"raw_text_ms": "Warranty process brapa lama siap?",
+		"normalized_text_ms": "Warranty process berapa lama siap?",
+		"english_loanwords": ["warranty", "process"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修时间"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"brapa": "berapa"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6010",
+		"timestamp": "2024-11-20T14:00:28Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个有官方保修吗？",
+		"raw_text_ms": "Ada official warranty ke?",
+		"normalized_text_ms": "Ada official warranty ke?",
+		"english_loanwords": ["official", "warranty"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修类型"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6011",
+		"timestamp": "2024-11-20T14:05:36Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "买的时候有保修卡吗？",
+		"raw_text_ms": "Ada warranty card bila beli ke?",
+		"normalized_text_ms": "Ada warranty card bila beli ke?",
+		"english_loanwords": ["warranty", "card", "bela"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修凭证"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6012",
+		"timestamp": "2024-11-20T14:10:19Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "用了一个月坏了，可以保修吗？",
+		"raw_text_ms": "Guna sebulan dh rosak, bleh warranty ke?",
+		"normalized_text_ms": "Guna sebulan dah rosak, boleh warranty ke?",
+		"english_loanwords": ["warranty"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修服务"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6013",
+		"timestamp": "2024-11-20T14:15:44Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修期从什么时候开始算？",
+		"raw_text_ms": "Warranty start dari bila kira?",
+		"normalized_text_ms": "Warranty start dari bila kira?",
+		"english_loanwords": ["warranty", "start"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修期起算"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6014",
+		"timestamp": "2024-11-20T14:20:53Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修要提供什么资料？",
+		"raw_text_ms": "Warranty perlukan apa documents?",
+		"normalized_text_ms": "Warranty perlukan apa documents?",
+		"english_loanwords": ["warranty", "documents"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6015",
+		"timestamp": "2024-11-20T14:25:07Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修运费谁出？",
+		"raw_text_ms": "Warranty postage siapa bayar?",
+		"normalized_text_ms": "Warranty postage siapa bayar?",
+		"english_loanwords": ["warranty", "postage"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修运费"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6016",
+		"timestamp": "2024-11-20T14:30:16Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "有保修证书吗？",
+		"raw_text_ms": "Ada warranty cert ke?",
+		"normalized_text_ms": "Ada warranty certificate ke?",
+		"english_loanwords": ["warranty", "cert", "certificate"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修凭证"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6017",
+		"timestamp": "2024-11-20T14:35:29Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修可以换新吗？",
+		"raw_text_ms": "Warranty bleh tukar baru ke?",
+		"normalized_text_ms": "Warranty boleh tukar baru ke?",
+		"english_loanwords": ["warranty"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修方式"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6018",
+		"timestamp": "2024-11-20T14:40:42Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个有保修卡吗？我找不到。",
+		"raw_text_ms": "Ada warranty card ke? Sy x jumpa.",
+		"normalized_text_ms": "Ada warranty card ke? Saya tak jumpa.",
+		"english_loanwords": ["warranty", "card"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修凭证"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6019",
+		"timestamp": "2024-11-20T14:45:35Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修期还剩多久？",
+		"raw_text_ms": "Warranty period berapa lagi?",
+		"normalized_text_ms": "Warranty period berapa lagi?",
+		"english_loanwords": ["warranty", "period"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修期"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6020",
+		"timestamp": "2024-11-20T14:50:18Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修后可以换新的吗？",
+		"raw_text_ms": "Selepas warranty bleh tukar baru?",
+		"normalized_text_ms": "Selepas warranty boleh tukar baru?",
+		"english_loanwords": ["selepas", "warranty"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修方式"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6021",
+		"timestamp": "2024-11-20T14:55:51Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我找不到保修卡，怎么办？",
+		"raw_text_ms": "Sy x jumpa warranty card, camne?",
+		"normalized_text_ms": "Saya tak jumpa warranty card, macam mana?",
+		"english_loanwords": ["warranty", "card"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修凭证"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"x": "tak",
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6022",
+		"timestamp": "2024-11-20T15:00:24Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修可以上门服务吗？",
+		"raw_text_ms": "Warranty bleh onsite service ke?",
+		"normalized_text_ms": "Warranty boleh onsite service ke?",
+		"english_loanwords": ["warranty", "onsite", "service"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修方式"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6023",
+		"timestamp": "2024-11-20T15:05:37Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括运输损坏吗？",
+		"raw_text_ms": "Warranty termasuk shipping damage ke?",
+		"normalized_text_ms": "Warranty termasuk shipping damage ke?",
+		"english_loanwords": ["warranty", "shipping", "damage"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6024",
+		"timestamp": "2024-11-20T15:10:43Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要发票吗？",
+		"raw_text_ms": "Warranty perlukan invoice ke?",
+		"normalized_text_ms": "Warranty perlukan invoice ke?",
+		"english_loanwords": ["warranty", "invoice"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6025",
+		"timestamp": "2024-11-20T15:15:19Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修期到了，还能保修吗？",
+		"raw_text_ms": "Warranty dh habis, masih boleh claim?",
+		"normalized_text_ms": "Warranty dah habis, masih boleh claim?",
+		"english_loanwords": ["warranty", "claim"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修服务"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6026",
+		"timestamp": "2024-11-20T15:20:56Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括人为损坏吗？",
+		"raw_text_ms": "Warranty termasuk user error ke?",
+		"normalized_text_ms": "Warranty termasuk user error ke?",
+		"english_loanwords": ["warranty", "user", "error"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6027",
+		"timestamp": "2024-11-20T15:25:32Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修联系方式是什么？",
+		"raw_text_ms": "Warranty contact apa?",
+		"normalized_text_ms": "Warranty contact apa?",
+		"english_loanwords": ["warranty", "contact"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修联系方式"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6028",
+		"timestamp": "2024-11-20T15:30:48Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修可以换同样的吗？",
+		"raw_text_ms": "Warranty bleh tukar sama je?",
+		"normalized_text_ms": "Warranty boleh tukar sama je?",
+		"english_loanwords": ["warranty"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修方式"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh",
+			"je": "je"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6029",
+		"timestamp": "2024-11-20T15:35:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要收据吗？",
+		"raw_text_ms": "Warranty perlukan receipt ke?",
+		"normalized_text_ms": "Warranty perlukan receipt ke?",
+		"english_loanwords": ["warranty", "receipt"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6030",
+		"timestamp": "2024-11-20T15:40:27Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括配件损坏吗？",
+		"raw_text_ms": "Warranty termasuk sparepart rosak ke?",
+		"normalized_text_ms": "Warranty termasuk sparepart rosak ke?",
+		"english_loanwords": ["warranty", "sparepart"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6031",
+		"timestamp": "2024-11-20T15:45:54Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修可以维修吗？",
+		"raw_text_ms": "Warranty bleh repair ke?",
+		"normalized_text_ms": "Warranty boleh repair ke?",
+		"english_loanwords": ["warranty", "repair"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修方式"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6032",
+		"timestamp": "2024-11-20T15:50:41Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括软件问题吗？",
+		"raw_text_ms": "Warranty termasuk software issue ke?",
+		"normalized_text_ms": "Warranty termasuk software issue ke?",
+		"english_loanwords": ["warranty", "software", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6033",
+		"timestamp": "2024-11-20T15:55:33Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "需要提供保修卡的照片吗？",
+		"raw_text_ms": "Perlukan gambar warranty card ke?",
+		"normalized_text_ms": "Perlukan gambar warranty card ke?",
+		"english_loanwords": ["warranty", "card"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6034",
+		"timestamp": "2024-11-20T16:00:19Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修可以退款吗？",
+		"raw_text_ms": "Warranty bleh refund ke?",
+		"normalized_text_ms": "Warranty boleh refund ke?",
+		"english_loanwords": ["warranty", "refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修方式"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6035",
+		"timestamp": "2024-11-20T16:05:47Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括正常磨损吗？",
+		"raw_text_ms": "Warranty termasuk normal wear ke?",
+		"normalized_text_ms": "Warranty termasuk normal wear ke?",
+		"english_loanwords": ["warranty", "normal", "wear"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6036",
+		"timestamp": "2024-11-20T16:10:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修证书在哪里下载？",
+		"raw_text_ms": "Warranty cert kat mana download?",
+		"normalized_text_ms": "Warranty certificate kat mana download?",
+		"english_loanwords": ["warranty", "cert", "certificate", "download"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修凭证"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6037",
+		"timestamp": "2024-11-20T16:15:52Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括屏幕损坏吗？",
+		"raw_text_ms": "Warranty termasuk screen damage ke?",
+		"normalized_text_ms": "Warranty termasuk screen damage ke?",
+		"english_loanwords": ["warranty", "screen", "damage"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6038",
+		"timestamp": "2024-11-20T16:20:38Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要购买凭证吗？",
+		"raw_text_ms": "Warranty perlukan proof of purchase ke?",
+		"normalized_text_ms": "Warranty perlukan proof of purchase ke?",
+		"english_loanwords": ["warranty", "proof", "of", "purchase"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6039",
+		"timestamp": "2024-11-20T16:25:14Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括电池问题吗？",
+		"raw_text_ms": "Warranty termasuk battery issue ke?",
+		"normalized_text_ms": "Warranty termasuk battery issue ke?",
+		"english_loanwords": ["warranty", "battery", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6040",
+		"timestamp": "2024-11-20T16:30:46Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括充电器吗？",
+		"raw_text_ms": "Warranty termasuk charger ke?",
+		"normalized_text_ms": "Warranty termasuk charger ke?",
+		"english_loanwords": ["warranty", "charger"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6041",
+		"timestamp": "2024-11-20T16:35:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括保修卡本身吗？",
+		"raw_text_ms": "Warranty termasuk warranty card sendiri ke?",
+		"normalized_text_ms": "Warranty termasuk warranty card sendiri ke?",
+		"english_loanwords": ["warranty", "card"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6042",
+		"timestamp": "2024-11-20T16:40:55Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要提供照片吗？",
+		"raw_text_ms": "Warranty perlukan photo ke?",
+		"normalized_text_ms": "Warranty perlukan photo ke?",
+		"english_loanwords": ["warranty", "photo"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6043",
+		"timestamp": "2024-11-20T16:45:23Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括说明书吗？",
+		"raw_text_ms": "Warranty termasuk manual ke?",
+		"normalized_text_ms": "Warranty termasuk manual ke?",
+		"english_loanwords": ["warranty", "manual"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6044",
+		"timestamp": "2024-11-20T16:50:41Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修可以寄到海外吗？",
+		"raw_text_ms": "Warranty bleh pos ke oversea?",
+		"normalized_text_ms": "Warranty boleh pos ke oversea?",
+		"english_loanwords": ["warranty", "pos", "oversea"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修方式"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6045",
+		"timestamp": "2024-11-20T16:55:37Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括包装损坏吗？",
+		"raw_text_ms": "Warranty termasuk packaging damage ke?",
+		"normalized_text_ms": "Warranty termasuk packaging damage ke?",
+		"english_loanwords": ["warranty", "packaging", "damage"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6046",
+		"timestamp": "2024-11-20T17:00:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要序列号吗？",
+		"raw_text_ms": "Warranty perlukan serial number ke?",
+		"normalized_text_ms": "Warranty perlukan serial number ke?",
+		"english_loanwords": ["warranty", "serial", "number"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6047",
+		"timestamp": "2024-11-20T17:05:54Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括水损吗？",
+		"raw_text_ms": "Warranty termasuk water damage ke?",
+		"normalized_text_ms": "Warranty termasuk water damage ke?",
+		"english_loanwords": ["warranty", "water", "damage"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6048",
+		"timestamp": "2024-11-20T17:10:32Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括使用损坏吗？",
+		"raw_text_ms": "Warranty termasuk usage damage ke?",
+		"normalized_text_ms": "Warranty termasuk usage damage ke?",
+		"english_loanwords": ["warranty", "usage", "damage"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6049",
+		"timestamp": "2024-11-20T17:15:46Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括数据丢失吗？",
+		"raw_text_ms": "Warranty termasuk data loss ke?",
+		"normalized_text_ms": "Warranty termasuk data loss ke?",
+		"english_loanwords": ["warranty", "data", "loss"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6050",
+		"timestamp": "2024-11-20T17:20:28Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括保修盒吗？",
+		"raw_text_ms": "Warranty termasuk warranty box ke?",
+		"normalized_text_ms": "Warranty termasuk warranty box ke?",
+		"english_loanwords": ["warranty", "box"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6051",
+		"timestamp": "2024-11-20T17:25:43Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要提供视频吗？",
+		"raw_text_ms": "Warranty perlukan video ke?",
+		"normalized_text_ms": "Warranty perlukan video ke?",
+		"english_loanwords": ["warranty", "video"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6052",
+		"timestamp": "2024-11-20T17:30:17Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括功能失效吗？",
+		"raw_text_ms": "Warranty termasuk function failure ke?",
+		"normalized_text_ms": "Warranty termasuk function failure ke?",
+		"english_loanwords": ["warranty", "function", "failure"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6053",
+		"timestamp": "2024-11-20T17:35:52Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括颜色问题吗？",
+		"raw_text_ms": "Warranty termasuk colour issue ke?",
+		"normalized_text_ms": "Warranty termasuk colour issue ke?",
+		"english_loanwords": ["warranty", "colour", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6054",
+		"timestamp": "2024-11-20T17:40:36Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括尺寸问题吗？",
+		"raw_text_ms": "Warranty termasuk size issue ke?",
+		"normalized_text_ms": "Warranty termasuk size issue ke?",
+		"english_loanwords": ["warranty", "size", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6055",
+		"timestamp": "2024-11-20T17:45:21Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括重量问题吗？",
+		"raw_text_ms": "Warranty termasuk weight issue ke?",
+		"normalized_text_ms": "Warranty termasuk weight issue ke?",
+		"english_loanwords": ["warranty", "weight", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6056",
+		"timestamp": "2024-11-20T17:50:48Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括材质问题吗？",
+		"raw_text_ms": "Warranty termasuk material issue ke?",
+		"normalized_text_ms": "Warranty termasuk material issue ke?",
+		"english_loanwords": ["warranty", "material", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6057",
+		"timestamp": "2024-11-20T17:55:34Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括设计问题吗？",
+		"raw_text_ms": "Warranty termasuk design issue ke?",
+		"normalized_text_ms": "Warranty termasuk design issue ke?",
+		"english_loanwords": ["warranty", "design", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6058",
+		"timestamp": "2024-11-20T18:00:15Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要提供订单号吗？",
+		"raw_text_ms": "Warranty perlukan order number ke?",
+		"normalized_text_ms": "Warranty perlukan order number ke?",
+		"english_loanwords": ["warranty", "order", "number"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6059",
+		"timestamp": "2024-11-20T18:05:42Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括所有配件吗？",
+		"raw_text_ms": "Warranty termasuk sume accessories?",
+		"normalized_text_ms": "Warranty termasuk semua accessories?",
+		"english_loanwords": ["warranty", "accessories"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sume": "semua"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6060",
+		"timestamp": "2024-11-20T18:10:29Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括电线吗？",
+		"raw_text_ms": "Warranty termasuk cable ke?",
+		"normalized_text_ms": "Warranty termasuk cable ke?",
+		"english_loanwords": ["warranty", "cable"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6061",
+		"timestamp": "2024-11-20T18:15:57Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要提供购买记录吗？",
+		"raw_text_ms": "Warranty perlukan purchase history ke?",
+		"normalized_text_ms": "Warranty perlukan purchase history ke?",
+		"english_loanwords": ["warranty", "purchase", "history"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6062",
+		"timestamp": "2024-11-20T18:20:33Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括电源问题吗？",
+		"raw_text_ms": "Warranty termasuk power issue ke?",
+		"normalized_text_ms": "Warranty termasuk power issue ke?",
+		"english_loanwords": ["warranty", "power", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6063",
+		"timestamp": "2024-11-20T18:25:46Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括声音问题吗？",
+		"raw_text_ms": "Warranty termasuk sound issue ke?",
+		"normalized_text_ms": "Warranty termasuk sound issue ke?",
+		"english_loanwords": ["warranty", "sound", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6064",
+		"timestamp": "2024-11-20T18:30:24Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括连接问题吗？",
+		"raw_text_ms": "Warranty termasuk connection issue ke?",
+		"normalized_text_ms": "Warranty termasuk connection issue ke?",
+		"english_loanwords": ["warranty", "connection", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6065",
+		"timestamp": "2024-11-20T18:35:18Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括按键问题吗？",
+		"raw_text_ms": "Warranty termasuk button issue ke?",
+		"normalized_text_ms": "Warranty termasuk button issue ke?",
+		"english_loanwords": ["warranty", "button", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6066",
+		"timestamp": "2024-11-20T18:40:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要提供用户ID吗？",
+		"raw_text_ms": "Warranty perlukan user ID ke?",
+		"normalized_text_ms": "Warranty perlukan user ID ke?",
+		"english_loanwords": ["warranty", "user", "ID"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6067",
+		"timestamp": "2024-11-20T18:45:39Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括显示问题吗？",
+		"raw_text_ms": "Warranty termasuk display issue ke?",
+		"normalized_text_ms": "Warranty termasuk display issue ke?",
+		"english_loanwords": ["warranty", "display", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6068",
+		"timestamp": "2024-11-20T18:50:26Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括存储问题吗？",
+		"raw_text_ms": "Warranty termasuk storage issue ke?",
+		"normalized_text_ms": "Warranty termasuk storage issue ke?",
+		"english_loanwords": ["warranty", "storage", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6069",
+		"timestamp": "2024-11-20T18:55:44Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要提供购买日期吗？",
+		"raw_text_ms": "Warranty perlukan purchase date ke?",
+		"normalized_text_ms": "Warranty perlukan purchase date ke?",
+		"english_loanwords": ["warranty", "purchase", "date"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6070",
+		"timestamp": "2024-11-20T19:00:31Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括热损吗？",
+		"raw_text_ms": "Warranty termasuk heat damage ke?",
+		"normalized_text_ms": "Warranty termasuk heat damage ke?",
+		"english_loanwords": ["warranty", "heat", "damage"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6071",
+		"timestamp": "2024-11-20T19:05:48Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括冷损吗？",
+		"raw_text_ms": "Warranty termasuk cold damage ke?",
+		"normalized_text_ms": "Warranty termasuk cold damage ke?",
+		"english_loanwords": ["warranty", "cold", "damage"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6072",
+		"timestamp": "2024-11-20T19:10:23Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要提供产品照片吗？",
+		"raw_text_ms": "Warranty perlukan product photo ke?",
+		"normalized_text_ms": "Warranty perlukan product photo ke?",
+		"english_loanwords": ["warranty", "product", "photo"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6073",
+		"timestamp": "2024-11-20T19:15:56Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括震动问题吗？",
+		"raw_text_ms": "Warranty termasuk vibration issue ke?",
+		"normalized_text_ms": "Warranty termasuk vibration issue ke?",
+		"english_loanwords": ["warranty", "vibration", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6074",
+		"timestamp": "2024-11-20T19:20:42Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括网络问题吗？",
+		"raw_text_ms": "Warranty termasuk network issue ke?",
+		"normalized_text_ms": "Warranty termasuk network issue ke?",
+		"english_loanwords": ["warranty", "network", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6075",
+		"timestamp": "2024-11-20T19:25:18Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括安全吗？",
+		"raw_text_ms": "Warranty termasuk safety ke?",
+		"normalized_text_ms": "Warranty termasuk safety ke?",
+		"english_loanwords": ["warranty", "safety"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6076",
+		"timestamp": "2024-11-20T19:30:35Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要提供收货照片吗？",
+		"raw_text_ms": "Warranty perlukan delivery photo ke?",
+		"normalized_text_ms": "Warranty perlukan delivery photo ke?",
+		"english_loanwords": ["warranty", "delivery", "photo"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6077",
+		"timestamp": "2024-11-20T19:35:52Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括接口问题吗？",
+		"raw_text_ms": "Warranty termasuk port issue ke?",
+		"normalized_text_ms": "Warranty termasuk port issue ke?",
+		"english_loanwords": ["warranty", "port", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6078",
+		"timestamp": "2024-11-20T19:40:29Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括噪音问题吗？",
+		"raw_text_ms": "Warranty termasuk noise issue ke?",
+		"normalized_text_ms": "Warranty termasuk noise issue ke?",
+		"english_loanwords": ["warranty", "noise", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6079",
+		"timestamp": "2024-11-20T19:45:47Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要提供问题描述吗？",
+		"raw_text_ms": "Warranty perlukan issue description ke?",
+		"normalized_text_ms": "Warranty perlukan issue description ke?",
+		"english_loanwords": ["warranty", "issue", "description"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6080",
+		"timestamp": "2024-11-20T19:50:13Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括防水吗？",
+		"raw_text_ms": "Warranty termasuk waterproof ke?",
+		"normalized_text_ms": "Warranty termasuk waterproof ke?",
+		"english_loanwords": ["warranty", "waterproof"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6081",
+		"timestamp": "2024-11-20T19:55:41Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要提供联系方式吗？",
+		"raw_text_ms": "Warranty perlukan contact number ke?",
+		"normalized_text_ms": "Warranty perlukan contact number ke?",
+		"english_loanwords": ["warranty", "contact", "number"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6082",
+		"timestamp": "2024-11-20T20:00:25Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括充电问题吗？",
+		"raw_text_ms": "Warranty termasuk charging issue ke?",
+		"normalized_text_ms": "Warranty termasuk charging issue ke?",
+		"english_loanwords": ["warranty", "charging", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6083",
+		"timestamp": "2024-11-20T20:05:38Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括内存问题吗？",
+		"raw_text_ms": "Warranty termasuk memory issue ke?",
+		"normalized_text_ms": "Warranty termasuk memory issue ke?",
+		"english_loanwords": ["warranty", "memory", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6084",
+		"timestamp": "2024-11-20T20:10:54Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要提供产品型号吗？",
+		"raw_text_ms": "Warranty perlukan model ke?",
+		"normalized_text_ms": "Warranty perlukan model ke?",
+		"english_loanwords": ["warranty", "model"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6085",
+		"timestamp": "2024-11-20T20:15:32Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括软件更新吗？",
+		"raw_text_ms": "Warranty termasuk software update ke?",
+		"normalized_text_ms": "Warranty termasuk software update ke?",
+		"english_loanwords": ["warranty", "software", "update"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6086",
+		"timestamp": "2024-11-20T20:20:46Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括驱动问题吗？",
+		"raw_text_ms": "Warranty termasuk driver issue ke?",
+		"normalized_text_ms": "Warranty termasuk driver issue ke?",
+		"english_loanwords": ["warranty", "driver", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6087",
+		"timestamp": "2024-11-20T20:25:19Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要提供用户名吗？",
+		"raw_text_ms": "Warranty perlukan username ke?",
+		"normalized_text_ms": "Warranty perlukan username ke?",
+		"english_loanwords": ["warranty", "username"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6088",
+		"timestamp": "2024-11-20T20:30:57Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括兼容性问题吗？",
+		"raw_text_ms": "Warranty termasuk compatibility issue ke?",
+		"normalized_text_ms": "Warranty termasuk compatibility issue ke?",
+		"english_loanwords": ["warranty", "compatibility", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6089",
+		"timestamp": "2024-11-20T20:35:23Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括性能问题吗？",
+		"raw_text_ms": "Warranty termasuk performance issue ke?",
+		"normalized_text_ms": "Warranty termasuk performance issue ke?",
+		"english_loanwords": ["warranty", "performance", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6090",
+		"timestamp": "2024-11-20T20:40:41Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要提供保修卡照片吗？",
+		"raw_text_ms": "Warranty perlukan warranty card photo?",
+		"normalized_text_ms": "Warranty perlukan warranty card photo?",
+		"english_loanwords": ["warranty", "card", "photo"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6091",
+		"timestamp": "2024-11-20T20:45:36Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括固件问题吗？",
+		"raw_text_ms": "Warranty termasuk firmware issue ke?",
+		"normalized_text_ms": "Warranty termasuk firmware issue ke?",
+	"english_loanwords": ["warranty", "firmware", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6092",
+		"timestamp": "2024-11-20T20:50:28Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要提供地址吗？",
+		"raw_text_ms": "Warranty perlukan address ke?",
+		"normalized_text_ms": "Warranty perlukan address ke?",
+		"english_loanwords": ["warranty", "address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6093",
+		"timestamp": "2024-11-20T20:55:52Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括质量问题吗？",
+		"raw_text_ms": "Warranty termasuk quality issue ke?",
+		"normalized_text_ms": "Warranty termasuk quality issue ke?",
+		"english_loanwords": ["warranty", "quality", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6094",
+		"timestamp": "2024-11-20T21:00:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要提供手机号吗？",
+		"raw_text_ms": "Warranty perlukan phone number?",
+		"normalized_text_ms": "Warranty perlukan phone number?",
+		"english_loanwords": ["warranty", "phone", "number"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6095",
+		"timestamp": "2024-11-20T21:05:44Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括工艺问题吗？",
+		"raw_text_ms": "Warranty termasuk workmanship issue?",
+		"normalized_text_ms": "Warranty termasuk workmanship issue?",
+		"english_loanwords": ["warranty", "workmanship", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6096",
+		"timestamp": "2024-11-20T21:10:37Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括功能损坏吗？",
+		"raw_text_ms": "Warranty termasuk function damage?",
+		"normalized_text_ms": "Warranty termasuk function damage?",
+		"english_loanwords": ["warranty", "function", "damage"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6097",
+		"timestamp": "2024-11-20T21:15:29Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要提供故障照片吗？",
+		"raw_text_ms": "Warranty perlukan fault photo?",
+		"normalized_text_ms": "Warranty perlukan fault photo?",
+		"english_loanwords": ["warranty", "fault", "photo"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6098",
+		"timestamp": "2024-11-20T21:20:53Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括外观问题吗？",
+		"raw_text_ms": "Warranty termasuk appearance issue?",
+		"normalized_text_ms": "Warranty termasuk appearance issue?",
+		"english_loanwords": ["warranty", "appearance", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6099",
+		"timestamp": "2024-11-20T21:25:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "保修需要提供问题视频吗？",
+		"raw_text_ms": "Warranty perlukan issue video?",
+		"normalized_text_ms": "Warranty perlukan issue video?",
+		"english_loanwords": ["warranty", "issue", "video"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修资料"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-6100",
+		"timestamp": "2024-11-20T21:30:45Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "保修包括所有问题吗？",
+		"raw_text_ms": "Warranty termasuk sume issue?",
+		"normalized_text_ms": "Warranty termasuk semua issue?",
+		"english_loanwords": ["warranty", "issue"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问保修范围"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sume": "semua"
+		}
+	}
+}]

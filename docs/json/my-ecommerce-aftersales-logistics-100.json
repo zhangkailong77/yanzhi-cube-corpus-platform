@@ -1,0 +1,2583 @@
+[{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4001",
+		"timestamp": "2024-11-20T11:15:30Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我的物流一直没更新，都好几天了！",
+		"raw_text_ms": "Tracking sy x update lg! Dah berapa hari.",
+		"normalized_text_ms": "Tracking saya tak update lagi! Dah berapa hari.",
+		"english_loanwords": ["tracking", "update"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"x": "tak",
+			"lg": "lagi",
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4002",
+		"timestamp": "2024-11-20T11:20:45Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "等了一个星期了，物流怎么还没到？",
+		"raw_text_ms": "Dah seminggu tunggu, shipment x sampai lg.",
+		"normalized_text_ms": "Dah seminggu tunggu, shipment tak sampai lagi.",
+		"english_loanwords": ["shipment"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流延迟"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah",
+			"x": "tak",
+			"lg": "lagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4003",
+		"timestamp": "2024-11-20T11:25:10Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我的快递好像丢了！物流显示已经签收，但我没收到。",
+		"raw_text_ms": "Parcel sy mcm hilang! Tracking show delivered tapi sy x dpt.",
+		"normalized_text_ms": "Parcel saya macam hilang! Tracking show delivered tapi saya tak dapat.",
+		"english_loanwords": ["parcel", "tracking", "show", "delivered"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉丢件"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"mcm": "macam",
+			"x": "tak",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4004",
+		"timestamp": "2024-11-20T11:30:22Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "快递寄到错误的地址了！",
+		"raw_text_ms": "Parcel hantar ke salah address!",
+		"normalized_text_ms": "Parcel hantar ke salah address!",
+		"english_loanwords": ["parcel", "address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉送错地址"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4005",
+		"timestamp": "2024-11-20T11:35:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我的货坏了！包装都破了。",
+		"raw_text_ms": "Barang sy rosak! Box pecah.",
+		"normalized_text_ms": "Barang saya rosak! Box pecah.",
+		"english_loanwords": ["box"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉货损"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4006",
+		"timestamp": "2024-11-20T11:40:33Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员态度很差，不给我打电话。",
+		"raw_text_ms": "Courier attitude teruk, x call sy.",
+		"normalized_text_ms": "Courier attitude teruk, tak call saya.",
+		"english_loanwords": ["courier", "attitude", "call"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员态度"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4007",
+		"timestamp": "2024-11-20T11:45:27Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我的快递卡在一个地方好几天了，都不动！",
+		"raw_text_ms": "Tracking stuck kat satu tempat berapa hari, x bergerak!",
+		"normalized_text_ms": "Tracking stuck kat satu tempat berapa hari, tak bergerak!",
+		"english_loanwords": ["tracking", "stuck"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流停滞"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4008",
+		"timestamp": "2024-11-20T11:50:14Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "物流显示派送中，但我今天一直在家都没收到。",
+		"raw_text_ms": "Tracking show out for delivery tapi sy kat umah x dpt.",
+		"normalized_text_ms": "Tracking show out for delivery tapi saya kat rumah tak dapat.",
+		"english_loanwords": ["tracking", "show", "out", "for", "delivery"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉虚假派送"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"x": "tak",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4009",
+		"timestamp": "2024-11-20T11:55:41Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员说送到楼下就走了，根本没送上楼！",
+		"raw_text_ms": "Courier kata hantar depan je, x naik atas!",
+		"normalized_text_ms": "Courier kata hantar depan je, tak naik atas!",
+		"english_loanwords": ["courier"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4010",
+		"timestamp": "2024-11-20T12:00:28Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我的快递丢了！已经一个多星期了。",
+		"raw_text_ms": "Parcel sy hilang! Dah lebih seminggu.",
+		"normalized_text_ms": "Parcel saya hilang! Dah lebih seminggu.",
+		"english_loanwords": ["parcel"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉丢件"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4011",
+		"timestamp": "2024-11-20T12:05:36Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员不打电话就放在门卫那里，东西被偷了！",
+		"raw_text_ms": "Courier x call terus letak guardhouse, barang curi!",
+		"normalized_text_ms": "Courier tak call terus letak guardhouse, barang curi!",
+		"english_loanwords": ["courier", "call", "guardhouse"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4012",
+		"timestamp": "2024-11-20T12:10:19Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "物流一直显示正在处理，都好几天了！",
+		"raw_text_ms": "Tracking kekal show processing, dah berapa hari!",
+		"normalized_text_ms": "Tracking kekal show processing, dah berapa hari!",
+		"english_loanwords": ["tracking", "show", "processing"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流停滞"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4013",
+		"timestamp": "2024-11-20T12:15:44Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西是坏的，包装都被压扁了！",
+		"raw_text_ms": "Barang yg dpt rosak, box dah remuk!",
+		"normalized_text_ms": "Barang yang dapat rosak, box dah remuk!",
+		"english_loanwords": ["box"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉货损"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"yg": "yang",
+			"dpt": "dapat",
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4014",
+		"timestamp": "2024-11-20T12:20:53Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "快递寄到错误的地址了，怎么办？",
+		"raw_text_ms": "Parcel hantar salah address, camne?",
+		"normalized_text_ms": "Parcel hantar salah address, macam mana?",
+		"english_loanwords": ["parcel", "address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉送错地址"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4015",
+		"timestamp": "2024-11-20T12:25:07Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员态度很差，说话很粗鲁。",
+		"raw_text_ms": "Courier attitude teruk, sangat kasar.",
+		"normalized_text_ms": "Courier attitude teruk, sangat kasar.",
+		"english_loanwords": ["courier", "attitude"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员态度"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4016",
+		"timestamp": "2024-11-20T12:30:16Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我的物流信息都不更新，不知道快递到哪里了！",
+		"raw_text_ms": "Tracking info sy x update, x tahu parcel kat mana!",
+		"normalized_text_ms": "Tracking info saya tak update, tak tahu parcel kat mana!",
+		"english_loanwords": ["tracking", "info", "update", "parcel"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4017",
+		"timestamp": "2024-11-20T12:35:29Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员说联系不上我，但我电话一直开机啊！",
+		"raw_text_ms": "Courier kata x boleh contact sy tapi phone sy on je!",
+		"normalized_text_ms": "Courier kata tak boleh contact saya tapi phone saya on je!",
+		"english_loanwords": ["courier", "contact", "phone", "on"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4018",
+		"timestamp": "2024-11-20T12:40:42Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我等了5天了，快递还在派送中！",
+		"raw_text_ms": "Dah tunggu 5 hari, shipment masih out for delivery!",
+		"normalized_text_ms": "Dah tunggu 5 hari, shipment masih out for delivery!",
+		"english_loanwords": ["shipment", "out", "for", "delivery"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流延迟"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4019",
+		"timestamp": "2024-11-20T12:45:35Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我的货好像被偷了，物流显示签收但我没收到！",
+		"raw_text_ms": "Barang sy mcm curi, tracking show delivered tapi x dpt!",
+		"normalized_text_ms": "Barang saya macam curi, tracking show delivered tapi tak dapat!",
+		"english_loanwords": ["tracking", "show", "delivered"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉丢件"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"mcm": "macam",
+			"x": "tak",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4020",
+		"timestamp": "2024-11-20T12:50:18Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "快递放在门口被偷了！快递员也不打电话！",
+		"raw_text_ms": "Parcel letak depan pintu curi! Courier x call pun!",
+		"normalized_text_ms": "Parcel letak depan pintu curi! Courier tak call pun!",
+		"english_loanwords": ["parcel", "courier", "call"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4021",
+		"timestamp": "2024-11-20T12:55:51Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员态度太差了，说什么都要投诉他！",
+		"raw_text_ms": "Courier attitude teruk sangat, mesti complaint!",
+		"normalized_text_ms": "Courier attitude teruk sangat, mesti complaint!",
+		"english_loanwords": ["courier", "attitude", "complaint"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员态度"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4022",
+		"timestamp": "2024-11-20T13:00:24Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "物流一直不动，已经3天了！",
+		"raw_text_ms": "Tracking x bergerak lg! Dah 3 hari.",
+		"normalized_text_ms": "Tracking tak bergerak lagi! Dah 3 hari.",
+		"english_loanwords": ["tracking"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流停滞"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"lg": "lagi",
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4023",
+		"timestamp": "2024-11-20T13:05:37Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我的快递送到错的地方了，怎么找回？",
+		"raw_text_ms": "Parcel hantar salah tempat, camne nak dpt balik?",
+		"normalized_text_ms": "Parcel hantar salah tempat, macam mana nak dapat balik?",
+		"english_loanwords": ["parcel"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉送错地址"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana",
+			"nk": "nak",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4024",
+		"timestamp": "2024-11-20T13:10:43Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的货都是破的！怎么搞的？",
+		"raw_text_ms": "Barang yg dpt sume pecah! Camne ni?",
+		"normalized_text_ms": "Barang yang dapat semua pecah! Macam mana ini?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉货损"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"yg": "yang",
+			"dpt": "dapat",
+			"sume": "semua",
+			"camne": "cam mana",
+			"ni": "ini"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4025",
+		"timestamp": "2024-11-20T13:15:19Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员说找不到我家，但导航很清楚啊！",
+		"raw_text_ms": "Courier kata x jumpa umah sy, tapi navigation jelas!",
+		"normalized_text_ms": "Courier kata tak jumpa rumah saya, tapi navigation jelas!",
+		"english_loanwords": ["courier", "navigation"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4026",
+		"timestamp": "2024-11-20T13:20:56Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "快递显示签收，但我什么都没收到！",
+		"raw_text_ms": "Tracking show delivered tapi sy x dpt apa2!",
+		"normalized_text_ms": "Tracking show delivered tapi saya tak dapat apa-apa!",
+		"english_loanwords": ["tracking", "show", "delivered"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉虚假签收"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"x": "tak",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4027",
+		"timestamp": "2024-11-20T13:25:32Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员态度超级差，我要投诉！",
+		"raw_text_ms": "Courier attitude super teruk, nak complaint!",
+		"normalized_text_ms": "Courier attitude super teruk, nak complaint!",
+		"english_loanwords": ["courier", "attitude", "super", "complaint"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员态度"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4028",
+		"timestamp": "2024-11-20T13:30:48Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "等了一个多星期，快递还没到！",
+		"raw_text_ms": "Dah tunggu lebih seminggu, parcel x sampai lagi!",
+		"normalized_text_ms": "Dah tunggu lebih seminggu, parcel tak sampai lagi!",
+		"english_loanwords": ["parcel"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流延迟"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah",
+			"x": "tak",
+			"lg": "lagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4029",
+		"timestamp": "2024-11-20T13:35:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "物流信息卡住了，好几天都不更新。",
+		"raw_text_ms": "Tracking info stuck, berapa hari x update.",
+		"normalized_text_ms": "Tracking info stuck, berapa hari tak update.",
+		"english_loanwords": ["tracking", "info", "stuck", "update"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流停滞"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4030",
+		"timestamp": "2024-11-20T13:40:27Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员把东西扔在门口，包装都破了！",
+		"raw_text_ms": "Courier campak barang depan pintu, box pecah!",
+		"normalized_text_ms": "Courier campak barang depan pintu, box pecah!",
+		"english_loanwords": ["courier", "box"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4031",
+		"timestamp": "2024-11-20T13:45:54Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我的快递寄到错误地址了，怎么处理？",
+		"raw_text_ms": "Parcel sy hantar salah address, camne settle?",
+		"normalized_text_ms": "Parcel saya hantar salah address, macam mana settle?",
+		"english_loanwords": ["parcel", "address", "settle"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉送错地址"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4032",
+		"timestamp": "2024-11-20T13:50:41Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西坏了，都是碎的！",
+		"raw_text_ms": "Barang yg dpt rosak, sume hancur!",
+		"normalized_text_ms": "Barang yang dapat rosak, semua hancur!",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉货损"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"yg": "yang",
+			"dpt": "dapat",
+			"sume": "semua"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4033",
+		"timestamp": "2024-11-20T13:55:33Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员态度很差，根本不尊重人！",
+		"raw_text_ms": "Courier attitude teruk, x hormat pun!",
+		"normalized_text_ms": "Courier attitude teruk, tak hormat pun!",
+		"english_loanwords": ["courier", "attitude"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员态度"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4034",
+		"timestamp": "2024-11-20T14:00:19Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "物流一直显示准备中，都不发货！",
+		"raw_text_ms": "Tracking kekal show preparing, x pos pun!",
+		"normalized_text_ms": "Tracking kekal show preparing, tak pos pun!",
+		"english_loanwords": ["tracking", "show", "preparing", "pos"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流停滞"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4035",
+		"timestamp": "2024-11-20T14:05:47Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我的快递丢了，怎么办？",
+		"raw_text_ms": "Parcel sy hilang, camne?",
+		"normalized_text_ms": "Parcel saya hilang, macam mana?",
+		"english_loanwords": ["parcel"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉丢件"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4036",
+		"timestamp": "2024-11-20T14:10:25Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员说我电话打不通，但我一直都在等啊！",
+		"raw_text_ms": "Courier kata x boleh call sy tapi sy tunggu je!",
+		"normalized_text_ms": "Courier kata tak boleh call saya tapi saya tunggu je!",
+		"english_loanwords": ["courier", "call"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4037",
+		"timestamp": "2024-11-20T14:15:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西都坏了，包装都被压坏了！",
+		"raw_text_ms": "Barang sume rosak, packaging dh hancur!",
+		"normalized_text_ms": "Barang semua rosak, packaging dah hancur!",
+		"english_loanwords": ["packaging"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉货损"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sume": "semua",
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4038",
+		"timestamp": "2024-11-20T14:20:38Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "快递送到错误的地址了，怎么找回我的东西？",
+		"raw_text_ms": "Parcel hantar salah address, camne nak dpt barang sy?",
+		"normalized_text_ms": "Parcel hantar salah address, macam mana nak dapat barang saya?",
+		"english_loanwords": ["parcel", "address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉送错地址"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana",
+			"nk": "nak",
+			"dpt": "dapat",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4039",
+		"timestamp": "2024-11-20T14:25:14Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员态度恶劣，我要投诉！",
+		"raw_text_ms": "Courier attitude buruk, nak complaint!",
+		"normalized_text_ms": "Courier attitude buruk, nak complaint!",
+		"english_loanwords": ["courier", "attitude", "complaint"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员态度"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4040",
+		"timestamp": "2024-11-20T14:30:46Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "等了一个星期，快递还没到！这是什么物流？",
+		"raw_text_ms": "Dah tunggu seminggu, parcel x sampai! Ni courier apa?",
+		"normalized_text_ms": "Dah tunggu seminggu, parcel tak sampai! Ini courier apa?",
+		"english_loanwords": ["parcel", "courier"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流延迟"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah",
+			"x": "tak",
+			"ni": "ini"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4041",
+		"timestamp": "2024-11-20T14:35:29Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "物流显示已经签收，但我什么都没收到！",
+		"raw_text_ms": "Tracking show delivered tapi sy x dpt apa!",
+		"normalized_text_ms": "Tracking show delivered tapi saya tak dapat apa!",
+		"english_loanwords": ["tracking", "show", "delivered"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉虚假签收"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"x": "tak",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4042",
+		"timestamp": "2024-11-20T14:40:55Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员把东西扔在地上，包装都脏了！",
+		"raw_text_ms": "Courier letak barang atas tanah, box kotor!",
+		"normalized_text_ms": "Courier letak barang atas tanah, box kotor!",
+		"english_loanwords": ["courier", "box"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4043",
+		"timestamp": "2024-11-20T14:45:23Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我的物流信息都不更新，快递到哪里了？",
+		"raw_text_ms": "Tracking info sy x update, parcel kat mana?",
+		"normalized_text_ms": "Tracking info saya tak update, parcel kat mana?",
+		"english_loanwords": ["tracking", "info", "update", "parcel"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4044",
+		"timestamp": "2024-11-20T14:50:41Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员说联系不上，但我的电话一直畅通！",
+		"raw_text_ms": "Courier kata x boleh contact tapi phone sy on!",
+		"normalized_text_ms": "Courier kata tak boleh contact tapi phone saya on!",
+		"english_loanwords": ["courier", "contact", "phone", "on"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4045",
+		"timestamp": "2024-11-20T14:55:37Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西是坏的，全部都碎了！",
+		"raw_text_ms": "Barang yg dpt rosak, sume hancur!",
+		"normalized_text_ms": "Barang yang dapat rosak, semua hancur!",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉货损"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"yg": "yang",
+			"dpt": "dapat",
+			"sume": "semua"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4046",
+		"timestamp": "2024-11-20T15:00:18Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "快递送到错的地方了，能帮我找回吗？",
+		"raw_text_ms": "Parcel hantar salah tempat, bleh tolong cari?",
+		"normalized_text_ms": "Parcel hantar salah tempat, boleh tolong cari?",
+		"english_loanwords": ["parcel"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉送错地址"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4047",
+		"timestamp": "2024-11-20T15:05:54Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员态度非常差，必须要投诉！",
+		"raw_text_ms": "Courier attitude sangat teruk, wajib complaint!",
+		"normalized_text_ms": "Courier attitude sangat teruk, wajib complaint!",
+		"english_loanwords": ["courier", "attitude", "complaint"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员态度"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4048",
+		"timestamp": "2024-11-20T15:10:32Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "物流卡住了，好几天不更新！",
+		"raw_text_ms": "Tracking stuck, berapa hari x update!",
+		"normalized_text_ms": "Tracking stuck, berapa hari tak update!",
+		"english_loanwords": ["tracking", "stuck", "update"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流停滞"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4049",
+		"timestamp": "2024-11-20T15:15:46Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "等了好几天了，快递还没发货！",
+		"raw_text_ms": "Dah tunggu berapa hari, parcel x pos lagi!",
+		"normalized_text_ms": "Dah tunggu berapa hari, parcel tak pos lagi!",
+		"english_loanwords": ["parcel", "pos"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流延迟"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah",
+			"x": "tak",
+			"lg": "lagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4050",
+		"timestamp": "2024-11-20T15:20:28Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我的快递好像丢了，怎么办？",
+		"raw_text_ms": "Parcel sy mcm hilang, camne?",
+		"normalized_text_ms": "Parcel saya macam hilang, macam mana?",
+		"english_loanwords": ["parcel"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉丢件"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"mcm": "macam",
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4051",
+		"timestamp": "2024-11-20T15:25:43Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员把东西扔在门口，包装都破了！",
+		"raw_text_ms": "Courier campak barang depan pintu, box pecah!",
+		"normalized_text_ms": "Courier campak barang depan pintu, box pecah!",
+		"english_loanwords": ["courier", "box"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4052",
+		"timestamp": "2024-11-20T15:30:17Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "快递送到错误的地址了，怎么处理？",
+		"raw_text_ms": "Parcel hantar salah address, camne settle?",
+		"normalized_text_ms": "Parcel hantar salah address, macam mana settle?",
+		"english_loanwords": ["parcel", "address", "settle"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉送错地址"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4053",
+		"timestamp": "2024-11-20T15:35:52Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西是坏的，都摔碎了！",
+		"raw_text_ms": "Barang yg dpt rosak, sume pecah!",
+		"normalized_text_ms": "Barang yang dapat rosak, semua pecah!",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉货损"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"yg": "yang",
+			"dpt": "dapat",
+			"sume": "semua"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4054",
+		"timestamp": "2024-11-20T15:40:36Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员态度很差，说话很不好听！",
+		"raw_text_ms": "Courier attitude teruk, sangat x baik!",
+		"normalized_text_ms": "Courier attitude teruk, sangat tak baik!",
+		"english_loanwords": ["courier", "attitude"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员态度"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4055",
+		"timestamp": "2024-11-20T15:45:21Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "物流一直不更新，都好几天了！",
+		"raw_text_ms": "Tracking x update lg! Dah berapa hari.",
+		"normalized_text_ms": "Tracking tak update lagi! Dah berapa hari.",
+		"english_loanwords": ["tracking", "update"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"lg": "lagi",
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4056",
+		"timestamp": "2024-11-20T15:50:48Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "快递显示签收，但我什么都没收到！",
+		"raw_text_ms": "Tracking show delivered tapi sy x dpt apa!",
+		"normalized_text_ms": "Tracking show delivered tapi saya tak dapat apa!",
+		"english_loanwords": ["tracking", "show", "delivered"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉虚假签收"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"x": "tak",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4057",
+		"timestamp": "2024-11-20T15:55:34Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员说联系不上我，但我电话一直开机！",
+		"raw_text_ms": "Courier kata x boleh contact sy tapi phone sy on!",
+		"normalized_text_ms": "Courier kata tak boleh contact saya tapi phone saya on!",
+		"english_loanwords": ["courier", "contact", "phone", "on"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4058",
+		"timestamp": "2024-11-20T16:00:15Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "等了一个多星期，快递还没到！",
+		"raw_text_ms": "Dah tunggu lebih seminggu, parcel x sampai!",
+		"normalized_text_ms": "Dah tunggu lebih seminggu, parcel tak sampai!",
+		"english_loanwords": ["parcel"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流延迟"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah",
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4059",
+		"timestamp": "2024-11-20T16:05:42Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我的快递寄到错误的地址了，怎么办？",
+		"raw_text_ms": "Parcel sy hantar salah address, camne?",
+		"normalized_text_ms": "Parcel saya hantar salah address, macam mana?",
+		"english_loanwords": ["parcel", "address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉送错地址"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4060",
+		"timestamp": "2024-11-20T16:10:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员态度太差了，必须投诉！",
+		"raw_text_ms": "Courier attitude teruk sangat, wajib complaint!",
+		"normalized_text_ms": "Courier attitude teruk sangat, wajib complaint!",
+		"english_loanwords": ["courier", "attitude", "complaint"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员态度"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4061",
+		"timestamp": "2024-11-20T16:15:57Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西坏了，包装都破了！",
+		"raw_text_ms": "Barang yg dpt rosak, box pecah!",
+		"normalized_text_ms": "Barang yang dapat rosak, box pecah!",
+		"english_loanwords": ["box"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉货损"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"yg": "yang",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4062",
+		"timestamp": "2024-11-20T16:20:33Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "物流一直显示派送中，都不发货！",
+		"raw_text_ms": "Tracking kekal show out for delivery, x pos!",
+		"normalized_text_ms": "Tracking kekal show out for delivery, tak pos!",
+		"english_loanwords": ["tracking", "show", "out", "for", "delivery", "pos"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流停滞"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4063",
+		"timestamp": "2024-11-20T16:25:46Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我的快递丢了，能帮我找吗？",
+		"raw_text_ms": "Parcel sy hilang, bleh tolong cari?",
+		"normalized_text_ms": "Parcel saya hilang, boleh tolong cari?",
+		"english_loanwords": ["parcel"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉丢件"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4064",
+		"timestamp": "2024-11-20T16:30:24Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员说找不到我家，但地址很清楚！",
+		"raw_text_ms": "Courier kata x jumpa umah sy tapi address jelas!",
+		"normalized_text_ms": "Courier kata tak jumpa rumah saya tapi address jelas!",
+		"english_loanwords": ["courier", "address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4065",
+		"timestamp": "2024-11-20T16:35:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "快递送到错误的地址了，能帮我找回吗？",
+		"raw_text_ms": "Parcel hantar salah address, bleh tolong cari?",
+		"normalized_text_ms": "Parcel hantar salah address, boleh tolong cari?",
+		"english_loanwords": ["parcel", "address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉送错地址"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4066",
+		"timestamp": "2024-11-20T16:40:52Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员态度恶劣，我要投诉他！",
+		"raw_text_ms": "Courier attitude buruk, nak complaint!",
+		"normalized_text_ms": "Courier attitude buruk, nak complaint!",
+		"english_loanwords": ["courier", "attitude", "complaint"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员态度"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4067",
+		"timestamp": "2024-11-20T16:45:39Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "物流信息一直不更新，快递去哪里了？",
+		"raw_text_ms": "Tracking info x update lg, parcel kat mana?",
+		"normalized_text_ms": "Tracking info tak update lagi, parcel kat mana?",
+		"english_loanwords": ["tracking", "info", "update", "parcel"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"lg": "lagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4068",
+		"timestamp": "2024-11-20T16:50:26Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西是坏的，包装都碎了！",
+		"raw_text_ms": "Barang yg dpt rosak, box hancur!",
+		"normalized_text_ms": "Barang yang dapat rosak, box hancur!",
+		"english_loanwords": ["box"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉货损"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"yg": "yang",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4069",
+		"timestamp": "2024-11-20T16:55:44Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "快递显示已经签收，但我什么都没收到！",
+		"raw_text_ms": "Tracking show delivered tapi sy x dpt apa!",
+		"normalized_text_ms": "Tracking show delivered tapi saya tak dapat apa!",
+		"english_loanwords": ["tracking", "show", "delivered"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉虚假签收"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"x": "tak",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4070",
+		"timestamp": "2024-11-20T17:00:31Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员把我电话挂了，态度很差！",
+		"raw_text_ms": "Courier hangup phone sy, attitude teruk!",
+		"normalized_text_ms": "Courier hangup phone saya, attitude teruk!",
+		"english_loanwords": ["courier", "hangup", "phone", "attitude"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员态度"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4071",
+		"timestamp": "2024-11-20T17:05:48Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "等了一个星期，快递还没到！",
+		"raw_text_ms": "Dah tunggu seminggu, parcel x sampai!",
+		"normalized_text_ms": "Dah tunggu seminggu, parcel tak sampai!",
+		"english_loanwords": ["parcel"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流延迟"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah",
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4072",
+		"timestamp": "2024-11-20T17:10:23Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "物流卡住了，好几天都不动！",
+		"raw_text_ms": "Tracking stuck, berapa hari x bergerak!",
+		"normalized_text_ms": "Tracking stuck, berapa hari tak bergerak!",
+		"english_loanwords": ["tracking", "stuck"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流停滞"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4073",
+		"timestamp": "2024-11-20T17:15:56Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "快递送到错误的地址了，怎么办？",
+		"raw_text_ms": "Parcel hantar salah address, camne?",
+		"normalized_text_ms": "Parcel hantar salah address, macam mana?",
+		"english_loanwords": ["parcel", "address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉送错地址"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4074",
+		"timestamp": "2024-11-20T17:20:42Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西是坏的，全部都碎了！",
+		"raw_text_ms": "Barang yg dpt rosak, sume hancur!",
+		"normalized_text_ms": "Barang yang dapat rosak, semua hancur!",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉货损"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"yg": "yang",
+			"dpt": "dapat",
+			"sume": "semua"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4075",
+		"timestamp": "2024-11-20T17:25:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员态度太差了，说话很不客气！",
+		"raw_text_ms": "Courier attitude teruk sangat, sangat x baik!",
+		"normalized_text_ms": "Courier attitude teruk sangat, sangat tak baik!",
+		"english_loanwords": ["courier", "attitude"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员态度"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4076",
+		"timestamp": "2024-11-20T17:30:35Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "我的快递好像丢了，能帮我找回吗？",
+		"raw_text_ms": "Parcel sy mcm hilang, bleh tolong cari?",
+		"normalized_text_ms": "Parcel saya macam hilang, boleh tolong cari?",
+		"english_loanwords": ["parcel"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉丢件"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"mcm": "macam",
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4077",
+		"timestamp": "2024-11-20T17:35:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "物流一直不更新，都好几天了！",
+		"raw_text_ms": "Tracking x update lg! Dah berapa hari.",
+		"normalized_text_ms": "Tracking tak update lagi! Dah berapa hari.",
+		"english_loanwords": ["tracking", "update"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"lg": "lagi",
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4078",
+		"timestamp": "2024-11-20T17:40:29Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员说找不到我家，但地址很清楚！",
+		"raw_text_ms": "Courier kata x jumpa umah sy tapi address jelas!",
+		"normalized_text_ms": "Courier kata tak jumpa rumah saya tapi address jelas!",
+		"english_loanwords": ["courier", "address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4079",
+		"timestamp": "2024-11-20T17:45:47Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西坏了，包装都被压坏了！",
+		"raw_text_ms": "Barang yg dpt rosak, box dh remuk!",
+		"normalized_text_ms": "Barang yang dapat rosak, box dah remuk!",
+		"english_loanwords": ["box"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉货损"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"yg": "yang",
+			"dpt": "dapat",
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4080",
+		"timestamp": "2024-11-20T17:50:13Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员态度恶劣，我要投诉！",
+		"raw_text_ms": "Courier attitude buruk, nak complaint!",
+		"normalized_text_ms": "Courier attitude buruk, nak complaint!",
+		"english_loanwords": ["courier", "attitude", "complaint"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员态度"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4081",
+		"timestamp": "2024-11-20T17:55:41Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "等了好几天了，快递还没发货！",
+		"raw_text_ms": "Dah tunggu berapa hari, parcel x pos lagi!",
+		"normalized_text_ms": "Dah tunggu berapa hari, parcel tak pos lagi!",
+		"english_loanwords": ["parcel", "pos"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流延迟"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah",
+			"x": "tak",
+			"lg": "lagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4082",
+		"timestamp": "2024-11-20T18:00:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "快递显示签收，但我什么都没收到！",
+		"raw_text_ms": "Tracking show delivered tapi sy x dpt apa!",
+		"normalized_text_ms": "Tracking show delivered tapi saya tak dapat apa!",
+		"english_loanwords": ["tracking", "show", "delivered"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉虚假签收"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"x": "tak",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4083",
+		"timestamp": "2024-11-20T18:05:38Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "快递送到错误的地址了，怎么处理？",
+		"raw_text_ms": "Parcel hantar salah address, camne settle?",
+		"normalized_text_ms": "Parcel hantar salah address, macam mana settle?",
+		"english_loanwords": ["parcel", "address", "settle"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉送错地址"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4084",
+		"timestamp": "2024-11-20T18:10:54Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西是坏的，都摔碎了！",
+		"raw_text_ms": "Barang yg dpt rosak, sume pecah!",
+		"normalized_text_ms": "Barang yang dapat rosak, semua pecah!",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉货损"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"yg": "yang",
+			"dpt": "dapat",
+			"sume": "semua"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4085",
+		"timestamp": "2024-11-20T18:15:32Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "物流信息一直不更新，快递去哪里了？",
+		"raw_text_ms": "Tracking info x update lg, parcel kat mana?",
+		"normalized_text_ms": "Tracking info tak update lagi, parcel kat mana?",
+		"english_loanwords": ["tracking", "info", "update", "parcel"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"lg": "lagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4086",
+		"timestamp": "2024-11-20T18:20:46Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员说联系不上我，但我电话一直开机！",
+		"raw_text_ms": "Courier kata x boleh contact sy tapi phone sy on!",
+		"normalized_text_ms": "Courier kata tak boleh contact saya tapi phone saya on!",
+		"english_loanwords": ["courier", "contact", "phone", "on"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4087",
+		"timestamp": "2024-11-20T18:25:19Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我的快递丢了，能帮我找回吗？",
+		"raw_text_ms": "Parcel sy hilang, bleh tolong cari?",
+		"normalized_text_ms": "Parcel saya hilang, boleh tolong cari?",
+		"english_loanwords": ["parcel"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉丢件"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4088",
+		"timestamp": "2024-11-20T18:30:57Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员态度太差了，必须要投诉！",
+		"raw_text_ms": "Courier attitude teruk sangat, wajib complaint!",
+		"normalized_text_ms": "Courier attitude teruk sangat, wajib complaint!",
+		"english_loanwords": ["courier", "attitude", "complaint"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员态度"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4089",
+		"timestamp": "2024-11-20T18:35:23Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "等了一个多星期，快递还没到！",
+		"raw_text_ms": "Dah tunggu lebih seminggu, parcel x sampai!",
+		"normalized_text_ms": "Dah tunggu lebih seminggu, parcel tak sampai!",
+		"english_loanwords": ["parcel"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流延迟"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah",
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4090",
+		"timestamp": "2024-11-20T18:40:41Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "物流卡住了，好几天都不动！",
+		"raw_text_ms": "Tracking stuck, berapa hari x bergerak!",
+		"normalized_text_ms": "Tracking stuck, berapa hari tak bergerak!",
+		"english_loanwords": ["tracking", "stuck"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流停滞"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4091",
+		"timestamp": "2024-11-20T18:45:36Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员说找不到我家，但导航很清楚！",
+		"raw_text_ms": "Courier kata x jumpa umah sy tapi navigation jelas!",
+		"normalized_text_ms": "Courier kata tak jumpa rumah saya tapi navigation jelas!",
+		"english_loanwords": ["courier", "navigation"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4092",
+		"timestamp": "2024-11-20T18:50:28Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西坏了，包装都破了！",
+		"raw_text_ms": "Barang yg dpt rosak, box pecah!",
+		"normalized_text_ms": "Barang yang dapat rosak, box pecah!",
+		"english_loanwords": ["box"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉货损"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"yg": "yang",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4093",
+		"timestamp": "2024-11-20T18:55:52Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员态度很差，我要投诉他！",
+		"raw_text_ms": "Courier attitude teruk, nak complaint!",
+		"normalized_text_ms": "Courier attitude teruk, nak complaint!",
+		"english_loanwords": ["courier", "attitude", "complaint"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员态度"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4094",
+		"timestamp": "2024-11-20T19:00:15Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "快递显示已经签收，但我什么都没收到！",
+		"raw_text_ms": "Tracking show delivered tapi sy x dpt apa!",
+		"normalized_text_ms": "Tracking show delivered tapi saya tak dapat apa!",
+		"english_loanwords": ["tracking", "show", "delivered"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉虚假签收"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"x": "tak",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4095",
+		"timestamp": "2024-11-20T19:05:44Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我的物流一直没更新，都好几天了！",
+		"raw_text_ms": "Tracking sy x update lg! Dah berapa hari.",
+		"normalized_text_ms": "Tracking saya tak update lagi! Dah berapa hari.",
+		"english_loanwords": ["tracking", "update"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"x": "tak",
+			"lg": "lagi",
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4096",
+		"timestamp": "2024-11-20T19:10:37Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "等了好几天了，快递还没发货！",
+		"raw_text_ms": "Dah tunggu berapa hari, parcel x pos lagi!",
+		"normalized_text_ms": "Dah tunggu berapa hari, parcel tak pos lagi!",
+		"english_loanwords": ["parcel", "pos"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉物流延迟"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah",
+			"x": "tak",
+			"lg": "lagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4097",
+		"timestamp": "2024-11-20T19:15:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "快递送到错误的地址了，怎么处理？",
+		"raw_text_ms": "Parcel hantar salah address, camne settle?",
+		"normalized_text_ms": "Parcel hantar salah address, macam mana settle?",
+		"english_loanwords": ["parcel", "address", "settle"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉送错地址"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4098",
+		"timestamp": "2024-11-20T19:20:53Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西是坏的，包装都碎了！",
+		"raw_text_ms": "Barang yg dpt rosak, box hancur!",
+		"normalized_text_ms": "Barang yang dapat rosak, box hancur!",
+		"english_loanwords": ["box"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉货损"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"yg": "yang",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4099",
+		"timestamp": "2024-11-20T19:25:18Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "快递员态度很差，说话很不好听！",
+		"raw_text_ms": "Courier attitude teruk, sangat x baik!",
+		"normalized_text_ms": "Courier attitude teruk, sangat tak baik!",
+		"english_loanwords": ["courier", "attitude"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉快递员态度"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-4100",
+		"timestamp": "2024-11-20T19:30:45Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我的快递好像丢了，怎么办？",
+		"raw_text_ms": "Parcel sy mcm hilang, camne?",
+		"normalized_text_ms": "Parcel saya macam hilang, macam mana?",
+		"english_loanwords": ["parcel"]
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉丢件"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"mcm": "macam",
+			"camne": "cam mana"
+		}
+	}
+}]

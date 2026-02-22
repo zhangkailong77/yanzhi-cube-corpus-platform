@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { fetchCorpusSamples, fetchCorpusDetail, fetchKWICAnalysis, type CorpusItem as CorpusDetailItem, type KWICSearchParams, type KWICResponse } from '../api/corpus';
+import { fetchCorpusSamples, fetchCorpusDetail, fetchKWICAnalysis, fetchSamplePageNumber, fetchCorpusFrequencyStats, type CorpusItem as CorpusDetailItem, type KWICSearchParams, type KWICResponse } from '../api/corpus';
 import { ArrowLeft, Code, LayoutList, Clock, Hash, Smartphone, Tag, MessageCircle, AlertCircle, Globe, ChevronDown, Search, Filter, Sparkles, ArrowRight, FileText, Zap, BarChart3, Cloud, PieChart } from 'lucide-react';
 import { useLanguage } from './LanguageContext';
 
@@ -62,6 +62,7 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
   const { t } = useLanguage();
   const [showJson, setShowJson] = useState(false);
   const [samples, setSamples] = useState<CorpusItem[]>([]);
+  const [totalSamples, setTotalSamples] = useState(0);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [hasPermission, setHasPermission] = useState<boolean | null>(null);
@@ -94,7 +95,8 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
   const [kwicTotal, setKwicTotal] = useState(0);
 
   // 词频统计状态
-  const [freqData, setFreqData] = useState<{word: string; count: number; percent: number; pos?: string}[]>([]);
+  const [fullFreqData, setFullFreqData] = useState<{ word: string; count: number; percent: number; pos?: string }[]>([]);
+  const [freqData, setFreqData] = useState<{ word: string; count: number; percent: number; pos?: string }[]>([]);
   const [freqLoading, setFreqLoading] = useState(false);
   const [freqTotalWords, setFreqTotalWords] = useState(0);
   const [freqUniqueWords, setFreqUniqueWords] = useState(0);
@@ -104,7 +106,7 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
 
   const [avgSentenceLength, setAvgSentenceLength] = useState<number | null>(null);
   const [freqFilterStopWords, setFreqFilterStopWords] = useState(true);
-  const [posDistribution, setPosDistribution] = useState<{noun: number; verb: number; adj: number; other: number}>({noun: 0, verb: 0, adj: 0, other: 0});
+  const [posDistribution, setPosDistribution] = useState<{ noun: number; verb: number; adj: number; other: number }>({ noun: 0, verb: 0, adj: 0, other: 0 });
   const [hoveredWord, setHoveredWord] = useState<string | null>(null);
 
   // 当切换到统计 Tab 且数据加载完成时，触发动画
@@ -137,7 +139,7 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
   ]);
 
   // 词云图布局算法 - 螺旋布局
-  const calculateWordCloudLayout = (words: {word: string; count: number}[]) => {
+  const calculateWordCloudLayout = (words: { word: string; count: number }[]) => {
     const layout = [];
     const centerX = 150; // 容器中心 X
     const centerY = 150; // 容器中心 Y
@@ -168,9 +170,9 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
         fontWeight,
         opacity: Math.max(0.4, 1 - (index * 0.015)), // 渐变透明度
         color: index < 5 ? 'text-blue-700' :
-                index < 15 ? 'text-emerald-600' :
-                index < 30 ? 'text-amber-600' :
-                'text-slate-500'
+          index < 15 ? 'text-emerald-600' :
+            index < 30 ? 'text-amber-600' :
+              'text-slate-500'
       });
 
       // 更新角度和半径（螺旋向外）
@@ -267,8 +269,9 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
       setLoading(true);
       setError(null);
       try {
-        const response = await fetchCorpusSamples(corpusId, { page: 1, limit: 10 });
+        const response = await fetchCorpusSamples(corpusId, { page: currentPage, limit: itemsPerPage });
         setSamples(response.items as unknown as CorpusItem[]);
+        setTotalSamples(response.total || 0);
       } catch (err) {
         const errorMessage = err instanceof Error ? err.message : '加载样本失败';
         if (errorMessage.includes('403') || errorMessage.includes('无权访问')) {
@@ -288,7 +291,7 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
     if (hasPermission !== false) {
       loadSamples();
     }
-  }, [corpusId, hasPermission]);
+  }, [corpusId, hasPermission, currentPage]);
 
   // KWIC 数据加载
   useEffect(() => {
@@ -313,74 +316,17 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
     loadKWICData();
   }, [corpusId, kwicKeyword, kwicContextWindow, kwicPage, activeTab]);
 
-  // 词频统计数据加载
+  // 词频统计数据加载 (由于后端已经支持，只需初次加载或切换语料时获取)
   useEffect(() => {
     const loadFrequencyData = async () => {
-      if (!corpusId || activeTab !== 'statistics') return;
+      if (!corpusId || activeTab !== 'statistics' || fullFreqData.length > 0) return;
       setFreqLoading(true);
       try {
-        // 从样本数据中计算词频
-        if (samples.length > 0) {
-          const wordMap = new Map<string, {count: number; pos: string}>();
-          let totalCount = 0;
-          const posCounts = { noun: 0, verb: 0, adj: 0, other: 0 };
-
-          samples.forEach(sample => {
-            const text = sample.language_layer.normalized_text_ms || sample.language_layer.raw_text_ms || '';
-            const words = text.toLowerCase().split(/\s+/);
-            words.forEach(word => {
-              if (word.length > 1) {  // 忽略单字符
-                // 过滤停用词
-                if (freqFilterStopWords && stopWords.has(word)) return;
-
-                const current = wordMap.get(word) || { count: 0, pos: 'other' };
-                wordMap.set(word, { count: current.count + 1, pos: current.pos });
-                totalCount++;
-              }
-            });
-          });
-
-          // 简化的词性判断（基于后缀）
-          Array.from(wordMap.entries()).forEach(([word, data]) => {
-            if (word.endsWith('nya') || word.endsWith('an')) {
-              data.pos = 'adj';
-              posCounts.adj += data.count;
-            } else if (word.endsWith('kan') || word.endsWith('i')) {
-              data.pos = 'verb';
-              posCounts.verb += data.count;
-            } else if (word.endsWith('nya')) {
-              data.pos = 'noun';
-              posCounts.noun += data.count;
-            } else {
-              posCounts.other += data.count;
-            }
-          });
-
-          // 转换为数组并排序
-          let freqArray = Array.from(wordMap.entries())
-            .filter(([_, data]) => {
-              // 词性筛选
-              if (freqFilter === 'all') return true;
-              return data.pos === freqFilter;
-            })
-            .filter(([word]) => {
-              // 搜索过滤
-              if (freqSearchKeyword && !word.toLowerCase().includes(freqSearchKeyword.toLowerCase())) return false;
-              return true;
-            })
-            .map(([word, data]) => ({
-              word,
-              count: data.count,
-              percent: Math.round((data.count / totalCount) * 1000) / 10,
-              pos: data.pos
-            }))
-            .sort((a, b) => freqSort === 'freq' ? b.count - a.count : a.word.localeCompare(b.word));
-
-          setFreqData(freqArray.slice(0, 100));  // 限制前 100 个
-          setFreqTotalWords(totalCount);
-          setFreqUniqueWords(wordMap.size);
-          setPosDistribution(posCounts);
-        }
+        const stats = await fetchCorpusFrequencyStats(corpusId);
+        setFreqTotalWords(stats.total_words);
+        setFreqUniqueWords(stats.unique_words);
+        setPosDistribution(stats.pos_distribution as any);
+        setFullFreqData(stats.frequency_data);
       } catch (error) {
         console.error('Failed to load frequency data:', error);
       } finally {
@@ -388,7 +334,25 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
       }
     };
     loadFrequencyData();
-  }, [corpusId, activeTab, samples, freqSort, freqFilter, freqSearchKeyword, freqFilterStopWords]);
+  }, [corpusId, activeTab]);
+
+  // 当筛选或者搜索条件改变时，只过滤内存中的 fullFreqData
+  useEffect(() => {
+    if (fullFreqData.length === 0) return;
+
+    let filtered = fullFreqData
+      .filter((data: any) => {
+        if (freqFilter === 'all') return true;
+        return data.pos === freqFilter;
+      })
+      .filter((data: any) => {
+        if (freqSearchKeyword && !data.word.toLowerCase().includes(freqSearchKeyword.toLowerCase())) return false;
+        return true;
+      })
+      .sort((a: any, b: any) => freqSort === 'freq' ? b.count - a.count : a.word.localeCompare(b.word));
+
+    setFreqData(filtered.slice(0, 100)); // 显示前100个
+  }, [fullFreqData, freqSort, freqFilter, freqSearchKeyword]);
 
   // 点击词频词汇跳转到 KWIC 搜索
   const handleWordClick = (word: string) => {
@@ -416,7 +380,7 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
     { code: 'ms', label: t('langMalay') },
   ];
 
-  // Filtering Logic
+  // 客户端过滤逻辑
   const filteredData = samples.filter(item => {
     const q = keyword.toLowerCase();
     if (!q) return true;
@@ -429,20 +393,30 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
   });
 
   // 排序逻辑：如果有选中的句子，将其移到第一个位置
-  let data = filteredData;
+  let sortedData = filteredData;
   if (selectedSentenceId) {
-    const selectedIndex = data.findIndex(item => item.basic_layer.sentence_id === selectedSentenceId);
+    const selectedIndex = sortedData.findIndex(item => item.basic_layer.sentence_id === selectedSentenceId);
     if (selectedIndex > 0) {
-      const selectedItem = data[selectedIndex];
-      data = [selectedItem, ...data.slice(0, selectedIndex), ...data.slice(selectedIndex + 1)];
+      const selectedItem = sortedData[selectedIndex];
+      sortedData = [selectedItem, ...sortedData.slice(0, selectedIndex), ...sortedData.slice(selectedIndex + 1)];
     }
   }
 
-  // 分页逻辑
-  const totalPages = Math.ceil(data.length / itemsPerPage);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const endIndex = startIndex + itemsPerPage;
-  const paginatedData = data.slice(startIndex, endIndex);
+  // 总页数（基于服务端返回的总数计算，因为 API 已做了分页）
+  const totalPages = keyword
+    ? Math.ceil(sortedData.length / itemsPerPage)
+    : Math.ceil(totalSamples / itemsPerPage);
+
+  // 分页逻辑：API 已返回当前页数据，仅在本地搜索时需要再次切片
+  const displayData = keyword
+    ? sortedData.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
+    : sortedData;
+
+  // 清除搜索
+  const handleClearSearch = () => {
+    setKeyword('');
+    setCurrentPage(1);
+  };
 
   // 翻页处理函数
   const handlePrevPage = () => {
@@ -466,7 +440,24 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
 
   // Pagination Component
   const Pagination = () => {
-    if (paginatedData.length === 0 || totalPages <= 1) return null;
+    if (sortedData.length === 0 || totalPages <= 1) return null;
+
+    const [jumpToPage, setJumpToPage] = useState<string>('');
+
+    const handleJumpToPage = () => {
+      const page = parseInt(jumpToPage);
+      if (page >= 1 && page <= totalPages) {
+        setCurrentPage(page);
+        setJumpToPage('');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    };
+
+    const handleKeyPress = (e: React.KeyboardEvent) => {
+      if (e.key === 'Enter') {
+        handleJumpToPage();
+      }
+    };
 
     // Helper function for button className
     const getButtonClass = (isActive: boolean, isDisabled: boolean) => {
@@ -477,15 +468,26 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
 
     // Helper to determine page numbers to show
     const getPageNumbers = () => {
-      const pages: number[] = [];
-      if (totalPages <= 5) {
+      const pages: (number | string)[] = [];
+
+      if (totalPages <= 7) {
         for (let i = 1; i <= totalPages; i++) pages.push(i);
-      } else if (currentPage <= 3) {
-        for (let i = 1; i <= 5; i++) pages.push(i);
-      } else if (currentPage >= totalPages - 2) {
-        for (let i = totalPages - 4; i <= totalPages; i++) pages.push(i);
       } else {
-        for (let i = currentPage - 2; i <= currentPage + 2; i++) pages.push(i);
+        pages.push(1);
+
+        if (currentPage <= 4) {
+          for (let i = 2; i <= 5; i++) pages.push(i);
+          pages.push('...');
+          pages.push(totalPages);
+        } else if (currentPage >= totalPages - 3) {
+          pages.push('...');
+          for (let i = totalPages - 4; i <= totalPages; i++) pages.push(i);
+        } else {
+          pages.push('...');
+          for (let i = currentPage - 1; i <= currentPage + 1; i++) pages.push(i);
+          pages.push('...');
+          pages.push(totalPages);
+        }
       }
       return pages;
     };
@@ -503,14 +505,20 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
           </button>
 
           {/* Page Numbers */}
-          {getPageNumbers().map((pageNum) => (
-            <button
-              key={pageNum}
-              onClick={() => handlePageClick(pageNum)}
-              className={getButtonClass(pageNum === currentPage, false)}
-            >
-              {pageNum}
-            </button>
+          {getPageNumbers().map((pageNum, index) => (
+            pageNum === '...' ? (
+              <span key={`ellipsis-${index}`} className="px-4 py-2 text-sm font-medium text-slate-400 select-none">
+                {pageNum}
+              </span>
+            ) : (
+              <button
+                key={pageNum}
+                onClick={() => handlePageClick(pageNum as number)}
+                className={getButtonClass(pageNum === currentPage, false)}
+              >
+                {pageNum}
+              </button>
+            )
           ))}
 
           {/* Next Button */}
@@ -521,6 +529,28 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
           >
             {t('paginationNext')}
           </button>
+
+          {/* Jump to Page Input */}
+          <div className="flex items-center ml-4 gap-2">
+            <input
+              type="number"
+              min={1}
+              max={totalPages}
+              value={jumpToPage}
+              onChange={(e) => setJumpToPage(e.target.value)}
+              onKeyPress={handleKeyPress}
+              placeholder="页码"
+              className="w-20 px-3 py-2 text-sm border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 bg-slate-50 hover:bg-white transition-all text-slate-700 font-mono"
+            />
+            <span className="text-sm text-slate-400">/ {totalPages}</span>
+            <button
+              onClick={handleJumpToPage}
+              disabled={!jumpToPage || parseInt(jumpToPage) < 1 || parseInt(jumpToPage) > totalPages}
+              className="px-4 py-2 text-sm font-medium border rounded-lg transition-colors bg-primary-600 text-white border-primary-600 hover:bg-primary-700 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-primary-600"
+            >
+              跳转
+            </button>
+          </div>
         </div>
       </div>
     );
@@ -528,7 +558,7 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
 
   // Helper to get sentiment color
   const getSentimentStyle = (sentiment: string) => {
-    switch(sentiment) {
+    switch (sentiment) {
       case 'angry': return 'bg-red-50 text-red-700 border-red-200 ring-1 ring-red-100';
       case 'positive': return 'bg-green-50 text-green-700 border-green-200 ring-1 ring-green-100';
       default: return 'bg-slate-50 text-slate-700 border-slate-200 ring-1 ring-slate-100';
@@ -537,7 +567,7 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
 
   // Helper for scenario badge (using translated labels)
   const getScenarioBadge = (scenario: string) => {
-    switch(scenario) {
+    switch (scenario) {
       case 'pre-sales': return <span className="px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-100">Pre-sales / {t('tabPresales')}</span>;
       case 'in-sales': return <span className="px-3 py-1 rounded-full text-xs font-semibold bg-indigo-50 text-indigo-700 border border-indigo-100">In-sales / {t('tabInsales')}</span>;
       case 'after-sales': return <span className="px-3 py-1 rounded-full text-xs font-semibold bg-orange-50 text-orange-700 border border-orange-100">After-sales / {t('tabAftersales')}</span>;
@@ -546,13 +576,13 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
   };
 
   const getSentimentLabel = (s: string) => {
-      switch(s) {
-          case 'neutral': return t('labelNeutral');
-          case 'positive': return t('labelPositive');
-          case 'negative': return t('labelNegative');
-          case 'angry': return t('labelAngry');
-          default: return s;
-      }
+    switch (s) {
+      case 'neutral': return t('labelNeutral');
+      case 'positive': return t('labelPositive');
+      case 'negative': return t('labelNegative');
+      case 'angry': return t('labelAngry');
+      default: return s;
+    }
   };
 
   if (loading) {
@@ -584,98 +614,107 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
 
   return (
     <div className="w-full bg-slate-50 min-h-screen pb-20">
-      
+
       {/* 1. Persistent Search Bar Section */}
       <div className="w-full bg-white border-b border-slate-100 py-6 px-6 md:px-12 sticky top-0 z-30 shadow-sm/50 backdrop-blur-md bg-white/95">
         <div className="max-w-3xl">
-            <div className="flex flex-col sm:flex-row gap-3">
-              {/* Select Source Language */}
-              <div className="relative flex-1 group">
-                <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-slate-400 group-hover:text-primary-600">
-                    <ChevronDown size={16} />
-                </div>
-                <select 
-                    className="block w-full pl-4 pr-10 py-2.5 text-sm border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-lg bg-slate-50 hover:bg-white border transition-all appearance-none text-slate-700 font-mono shadow-sm"
-                    value={source}
-                    onChange={(e) => setSource(e.target.value)}
-                >
-                  <option value="" disabled>{t('selectSource')}</option>
-                  {languages.map(lang => (
-                    <option key={`source-${lang.code}`} value={lang.code}>{lang.label}</option>
-                  ))}
-                </select>
+          <div className="flex flex-col sm:flex-row gap-3">
+            {/* Select Source Language */}
+            <div className="relative flex-1 group">
+              <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-slate-400 group-hover:text-primary-600">
+                <ChevronDown size={16} />
               </div>
-
-              {/* Select Target Language */}
-              <div className="relative flex-1 group">
-                <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-slate-400 group-hover:text-primary-600">
-                    <ChevronDown size={16} />
-                </div>
-                 <select 
-                    className="block w-full pl-4 pr-10 py-2.5 text-sm border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-lg bg-slate-50 hover:bg-white border transition-all appearance-none text-slate-700 font-mono shadow-sm cursor-pointer"
-                    value={target}
-                    onChange={(e) => setTarget(e.target.value)}
-                >
-                  <option value="" disabled>{t('selectTarget')}</option>
-                  {languages.map(lang => (
-                    <option key={`target-${lang.code}`} value={lang.code}>{lang.label}</option>
-                  ))}
-                </select>
-              </div>
-
-               {/* Keyword Search Input */}
-               <div className="relative flex-grow max-w-md">
-                    <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400">
-                        <Search size={16} />
-                    </div>
-                    <input 
-                        type="text" 
-                        value={keyword}
-                        onChange={(e) => setKeyword(e.target.value)}
-                        placeholder={t('labelKeyword')}
-                        className="block w-full pl-10 pr-4 py-2.5 text-sm border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-lg bg-slate-50 hover:bg-white border transition-all text-slate-700 font-mono shadow-sm"
-                    />
-               </div>
-
-              {/* Search Button */}
-              <button 
-                  className="p-2.5 border rounded-lg shadow-sm transition-all flex items-center justify-center min-w-[3rem] bg-primary-600 border-primary-600 text-white hover:bg-primary-700 hover:shadow-md cursor-pointer"
+              <select
+                className="block w-full pl-4 pr-10 py-2.5 text-sm border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-lg bg-slate-50 hover:bg-white border transition-all appearance-none text-slate-700 font-mono shadow-sm"
+                value={source}
+                onChange={(e) => setSource(e.target.value)}
               >
-                <Search size={18} />
-              </button>
+                <option value="" disabled>{t('selectSource')}</option>
+                {languages.map(lang => (
+                  <option key={`source-${lang.code}`} value={lang.code}>{lang.label}</option>
+                ))}
+              </select>
             </div>
 
-            {/* Domain Selector Row */}
-            <div className="mt-3">
-                 <div className="relative group w-full">
-                    <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400">
-                        <Filter size={16} />
-                    </div>
-                    <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-slate-400 group-hover:text-primary-600">
-                        <ChevronDown size={16} />
-                    </div>
-                    <select
-                        className="block w-full pl-10 pr-10 py-2.5 text-sm border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-lg bg-slate-50 hover:bg-white border transition-all appearance-none text-slate-700 font-mono shadow-sm"
-                        value={domain}
-                        onChange={(e) => setDomain(e.target.value)}
-                    >
-                        <option value="">{t('domainAll')}</option>
-                        <option value="ecommerce">{t('domainEcommerce')}</option>
-                        <option value="tourism">{t('domainTourism')}</option>
-                        <option value="business">{t('domainBusiness')}</option>
-                        <option value="economy">{t('domainEconomy')}</option>
-                        <option value="general">{t('domainGeneral')}</option>
-                    </select>
-                 </div>
+            {/* Select Target Language */}
+            <div className="relative flex-1 group">
+              <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-slate-400 group-hover:text-primary-600">
+                <ChevronDown size={16} />
+              </div>
+              <select
+                className="block w-full pl-4 pr-10 py-2.5 text-sm border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-lg bg-slate-50 hover:bg-white border transition-all appearance-none text-slate-700 font-mono shadow-sm cursor-pointer"
+                value={target}
+                onChange={(e) => setTarget(e.target.value)}
+              >
+                <option value="" disabled>{t('selectTarget')}</option>
+                {languages.map(lang => (
+                  <option key={`target-${lang.code}`} value={lang.code}>{lang.label}</option>
+                ))}
+              </select>
             </div>
+
+            {/* Keyword Search Input */}
+            <div className="relative flex-grow max-w-md">
+              <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400">
+                <Search size={16} />
+              </div>
+              <input
+                type="text"
+                value={keyword}
+                onChange={(e) => setKeyword(e.target.value)}
+                placeholder={t('labelKeyword')}
+                className="block w-full pl-10 pr-4 py-2.5 text-sm border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-lg bg-slate-50 hover:bg-white border transition-all text-slate-700 font-mono shadow-sm"
+              />
+            </div>
+
+            {/* Search Button */}
+            <button
+              onClick={keyword ? handleClearSearch : undefined}
+              className={`p-2.5 border rounded-lg shadow-sm transition-all flex items-center justify-center min-w-[3rem] ${keyword ? 'bg-orange-500 border-orange-500 text-white hover:bg-orange-600 hover:shadow-md cursor-pointer' : 'bg-primary-600 border-primary-600 text-white hover:bg-primary-700 hover:shadow-md'}`}
+              title={keyword ? "清除搜索" : "搜索"}
+            >
+              {keyword ? '×' : <Search size={18} />}
+            </button>
+          </div>
+
+          {/* Search Tip */}
+          {keyword && (
+            <div className="mt-2 text-xs text-orange-600 bg-orange-50 px-3 py-1.5 rounded-lg border border-orange-100">
+              <span className="font-medium">提示：</span>搜索仅在当前已加载的 {samples.length} 条样本中进行。如需搜索全部样本，请使用 KWIC 分析标签页。
+            </div>
+          )}
+
+          {/* Domain Selector Row */}
+          <div className="mt-3">
+            <div className="relative group w-full">
+              <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400">
+                <Filter size={16} />
+              </div>
+              <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-slate-400 group-hover:text-primary-600">
+                <ChevronDown size={16} />
+              </div>
+              <select
+                className="block w-full pl-10 pr-10 py-2.5 text-sm border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-lg bg-slate-50 hover:bg-white border transition-all appearance-none text-slate-700 font-mono shadow-sm"
+                value={domain}
+                onChange={(e) => setDomain(e.target.value)}
+              >
+                <option value="">{t('domainAll')}</option>
+                <option value="ecommerce">{t('domainEcommerce')}</option>
+                <option value="tourism">{t('domainTourism')}</option>
+                <option value="business">{t('domainBusiness')}</option>
+                <option value="economy">{t('domainEconomy')}</option>
+                <option value="general">{t('domainGeneral')}</option>
+              </select>
+            </div>
+          </div>
         </div>
       </div>
-      
+
       {/* 2. Corpus Header */}
       <div className="w-full bg-white border-b border-slate-200 shadow-sm z-20">
         <div className="w-full px-6 md:px-12 py-4 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
           <div className="flex items-center space-x-4">
-            <button 
+            <button
               onClick={onBack}
               className="p-2 rounded-full hover:bg-slate-100 text-slate-500 transition-colors flex items-center group"
             >
@@ -683,44 +722,47 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
             </button>
             <div>
               <h1 className="text-xl font-bold text-slate-800 font-mono flex items-center">
-                  {corpusInfo?.name || 'Loading...'}
-                  <span className="ml-3 px-2 py-0.5 rounded text-[10px] bg-slate-100 text-slate-500 border border-slate-200 font-normal uppercase tracking-wider">{t('samplePreview')}</span>
+                {corpusInfo?.name || 'Loading...'}
+                <span className="ml-3 px-2 py-0.5 rounded text-[10px] bg-slate-100 text-slate-500 border border-slate-200 font-normal uppercase tracking-wider">{t('samplePreview')}</span>
               </h1>
               <p className="text-xs text-slate-500 mt-0.5">语料样本预览</p>
             </div>
           </div>
-          
+
           <div className="flex items-center space-x-4">
-             <div className="text-xs text-slate-400 font-mono hidden sm:block">
-                {t('lblDisplaying').replace('{current}', filteredData.length.toString()).replace('{total}', '3,150,000')}
-             </div>
-              <div className="bg-slate-100 p-1 rounded-lg flex items-center border border-slate-200">
-                 <button
-                     onClick={() => {
-                         if (showJson) {
-                             setActiveTab(previousTab);
-                         }
-                         setShowJson(false);
-                     }}
-                     className={`p-1.5 rounded-md transition-all flex items-center space-x-2 ${!showJson ? 'bg-white shadow-sm text-primary-600 font-medium' : 'text-slate-400 hover:text-slate-600'}`}
-                 >
-                     <LayoutList size={16} />
-                     <span className="text-xs hidden md:inline">{t('lblVisual')}</span>
-                 </button>
-                 <button
-                     onClick={() => {
-                         if (!showJson) {
-                             setPreviousTab(activeTab);
-                         }
-                         setShowJson(true);
-                         setActiveTab('detail');
-                     }}
-                     className={`p-1.5 rounded-md transition-all flex items-center space-x-2 ${showJson ? 'bg-white shadow-sm text-primary-600 font-medium' : 'text-slate-400 hover:text-slate-600'}`}
-                 >
-                     <Code size={16} />
-                      <span className="text-xs hidden md:inline">{t('lblJsonl')}</span>
-                 </button>
-              </div>
+            <div className="text-xs text-slate-400 font-mono hidden sm:block">
+              {keyword
+                ? `搜索结果：${sortedData.length} 条`
+                : t('lblDisplaying').replace('{current}', displayData.length.toString()).replace('{total}', totalSamples.toLocaleString())
+              }
+            </div>
+            <div className="bg-slate-100 p-1 rounded-lg flex items-center border border-slate-200">
+              <button
+                onClick={() => {
+                  if (showJson) {
+                    setActiveTab(previousTab);
+                  }
+                  setShowJson(false);
+                }}
+                className={`p-1.5 rounded-md transition-all flex items-center space-x-2 ${!showJson ? 'bg-white shadow-sm text-primary-600 font-medium' : 'text-slate-400 hover:text-slate-600'}`}
+              >
+                <LayoutList size={16} />
+                <span className="text-xs hidden md:inline">{t('lblVisual')}</span>
+              </button>
+              <button
+                onClick={() => {
+                  if (!showJson) {
+                    setPreviousTab(activeTab);
+                  }
+                  setShowJson(true);
+                  setActiveTab('detail');
+                }}
+                className={`p-1.5 rounded-md transition-all flex items-center space-x-2 ${showJson ? 'bg-white shadow-sm text-primary-600 font-medium' : 'text-slate-400 hover:text-slate-600'}`}
+              >
+                <Code size={16} />
+                <span className="text-xs hidden md:inline">{t('lblJsonl')}</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -735,11 +777,10 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
               {/* Tab 1: 样本详情 */}
               <button
                 onClick={() => setActiveTab('detail')}
-                className={`flex-1 flex items-center justify-center gap-2 px-6 py-4 text-sm font-medium transition-all duration-200 border-b-2 cursor-pointer ${
-                  activeTab === 'detail'
-                    ? 'border-primary-600 text-primary-700 bg-primary-50/50'
-                    : 'border-transparent text-slate-500 hover:text-slate-700 hover:bg-slate-50'
-                }`}
+                className={`flex-1 flex items-center justify-center gap-2 px-6 py-4 text-sm font-medium transition-all duration-200 border-b-2 cursor-pointer ${activeTab === 'detail'
+                  ? 'border-primary-600 text-primary-700 bg-primary-50/50'
+                  : 'border-transparent text-slate-500 hover:text-slate-700 hover:bg-slate-50'
+                  }`}
                 role="tab"
                 aria-selected={activeTab === 'detail'}
                 tabIndex={activeTab === 'detail' ? 0 : -1}
@@ -751,11 +792,10 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
               {/* Tab 2: KWIC 分析 */}
               <button
                 onClick={() => setActiveTab('kwic')}
-                className={`flex-1 flex items-center justify-center gap-2 px-6 py-4 text-sm font-medium transition-all duration-200 border-b-2 cursor-pointer ${
-                  activeTab === 'kwic'
-                    ? 'border-primary-600 text-primary-700 bg-primary-50/50'
-                    : 'border-transparent text-slate-500 hover:text-slate-700 hover:bg-slate-50'
-                }`}
+                className={`flex-1 flex items-center justify-center gap-2 px-6 py-4 text-sm font-medium transition-all duration-200 border-b-2 cursor-pointer ${activeTab === 'kwic'
+                  ? 'border-primary-600 text-primary-700 bg-primary-50/50'
+                  : 'border-transparent text-slate-500 hover:text-slate-700 hover:bg-slate-50'
+                  }`}
                 role="tab"
                 aria-selected={activeTab === 'kwic'}
                 tabIndex={activeTab === 'kwic' ? 0 : -1}
@@ -767,11 +807,10 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
               {/* Tab 3: 词频统计 */}
               <button
                 onClick={() => setActiveTab('statistics')}
-                className={`flex-1 flex items-center justify-center gap-2 px-6 py-4 text-sm font-medium transition-all duration-200 border-b-2 cursor-pointer ${
-                  activeTab === 'statistics'
-                    ? 'border-primary-600 text-primary-700 bg-primary-50/50'
-                    : 'border-transparent text-slate-500 hover:text-slate-700 hover:bg-slate-50'
-                }`}
+                className={`flex-1 flex items-center justify-center gap-2 px-6 py-4 text-sm font-medium transition-all duration-200 border-b-2 cursor-pointer ${activeTab === 'statistics'
+                  ? 'border-primary-600 text-primary-700 bg-primary-50/50'
+                  : 'border-transparent text-slate-500 hover:text-slate-700 hover:bg-slate-50'
+                  }`}
                 role="tab"
                 aria-selected={activeTab === 'statistics'}
                 tabIndex={activeTab === 'statistics' ? 0 : -1}
@@ -786,223 +825,246 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
           <div className="p-6">
             {activeTab === 'detail' && (
               <div role="tabpanel" aria-labelledby="tab-detail" className="space-y-6">
-                 {paginatedData.map((item, index) => (
-                  <div key={item.basic_layer.sentence_id} className={`bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden group hover:shadow-md transition-all duration-300 ${selectedSentenceId === item.basic_layer.sentence_id ? 'ring-2 ring-primary-500 ring-offset-2' : ''}`}>
+                {displayData.length === 0 ? (
+                  <div className="bg-white rounded-xl border border-slate-200 p-12 text-center">
+                    <div className="flex flex-col items-center justify-center space-y-4">
+                      <Search size={48} className="text-slate-300" />
+                      <h3 className="text-lg font-semibold text-slate-700">未找到匹配的结果</h3>
+                      <p className="text-sm text-slate-500">
+                        {keyword
+                          ? `在当前加载的 ${samples.length} 条样本中没有找到包含 "${keyword}" 的内容`
+                          : '当前页面没有样本数据'
+                        }
+                      </p>
+                      {keyword && (
+                        <button
+                          onClick={handleClearSearch}
+                          className="mt-4 px-6 py-2.5 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors font-medium"
+                        >
+                          清除搜索条件
+                        </button>
+                      )}
+                    </div>
+                  </div>
+                ) : (
+                  displayData.map((item, index) => (
+                    <div key={item.basic_layer.sentence_id} className={`bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden group hover:shadow-md transition-all duration-300 ${selectedSentenceId === item.basic_layer.sentence_id ? 'ring-2 ring-primary-500 ring-offset-2' : ''}`}>
 
-            
-            {/* Card Header: Metadata Row */}
-            <div className="bg-slate-50 border-b border-slate-100 px-6 py-3 flex flex-wrap items-center justify-between gap-4">
-               <div className="flex items-center space-x-6 text-xs text-slate-500 font-mono">
-                  <div className="flex items-center bg-white border border-slate-200 px-2 py-1 rounded shadow-sm">
-                     <span className="font-bold text-slate-700 mr-2">UUID:</span>
-                     {item.basic_layer.sentence_id}
-                  </div>
-                  <div className="flex items-center hidden sm:flex">
-                    <Clock size={12} className="mr-1.5 text-slate-400" />
-                    {new Date(item.basic_layer.timestamp).toLocaleString()}
-                  </div>
-                  <div className="flex items-center hidden sm:flex">
-                    <Smartphone size={12} className="mr-1.5 text-slate-400" />
-                    {item.basic_layer.platform}
-                  </div>
-               </div>
-               
-               <div>
-                  {getScenarioBadge(item.pragmatic_layer.business_scenario)}
-               </div>
-            </div>
 
-            {showJson ? (
-                // JSON VIEW
-                <div className="p-0 bg-slate-900 overflow-x-auto">
-                    <pre className="p-6 text-xs md:text-sm font-mono text-green-400 leading-relaxed">
-                        {JSON.stringify(item, null, 2)}
-                    </pre>
-                </div>
-            ) : (
-                // VISUAL VIEW
-                <div className="flex flex-col lg:flex-row">
-                    
-                    {/* Main Content: Language & Linguistics (Expanded Left Side) */}
-                    <div className="flex-grow p-6 space-y-8 lg:border-r border-slate-100">
-                        
-                        {/* 1. Translation Pair */}
-                        <div className="space-y-6">
-                            {/* Source */}
-                            <div>
+                      {/* Card Header: Metadata Row */}
+                      <div className="bg-slate-50 border-b border-slate-100 px-6 py-3 flex flex-wrap items-center justify-between gap-4">
+                        <div className="flex items-center space-x-6 text-xs text-slate-500 font-mono">
+                          <div className="flex items-center bg-white border border-slate-200 px-2 py-1 rounded shadow-sm">
+                            <span className="font-bold text-slate-700 mr-2">UUID:</span>
+                            {item.basic_layer.sentence_id}
+                          </div>
+                          <div className="flex items-center hidden sm:flex">
+                            <Clock size={12} className="mr-1.5 text-slate-400" />
+                            {new Date(item.basic_layer.timestamp).toLocaleString()}
+                          </div>
+                          <div className="flex items-center hidden sm:flex">
+                            <Smartphone size={12} className="mr-1.5 text-slate-400" />
+                            {item.basic_layer.platform}
+                          </div>
+                        </div>
+
+                        <div>
+                          {getScenarioBadge(item.pragmatic_layer.business_scenario)}
+                        </div>
+                      </div>
+
+                      {showJson ? (
+                        // JSON VIEW
+                        <div className="p-0 bg-slate-900 overflow-x-auto">
+                          <pre className="p-6 text-xs md:text-sm font-mono text-green-400 leading-relaxed">
+                            {JSON.stringify(item, null, 2)}
+                          </pre>
+                        </div>
+                      ) : (
+                        // VISUAL VIEW
+                        <div className="flex flex-col lg:flex-row">
+
+                          {/* Main Content: Language & Linguistics (Expanded Left Side) */}
+                          <div className="flex-grow p-6 space-y-8 lg:border-r border-slate-100">
+
+                            {/* 1. Translation Pair */}
+                            <div className="space-y-6">
+                              {/* Source */}
+                              <div>
                                 <div className="flex items-center mb-2">
-                                    <span className="text-[10px] uppercase font-bold tracking-wider text-slate-400 bg-slate-100 px-1.5 py-0.5 rounded mr-2">ZH-CN</span>
-                                    <span className="text-xs font-medium text-slate-500">{t('lblSourceText')}</span>
+                                  <span className="text-[10px] uppercase font-bold tracking-wider text-slate-400 bg-slate-100 px-1.5 py-0.5 rounded mr-2">ZH-CN</span>
+                                  <span className="text-xs font-medium text-slate-500">{t('lblSourceText')}</span>
                                 </div>
                                 <p className="text-xl text-slate-800 font-medium leading-relaxed p-4 rounded-lg bg-white border border-transparent hover:border-slate-100 transition-colors">
-                                    {item.language_layer.source_text_zh}
+                                  {item.language_layer.source_text_zh}
                                 </p>
-                            </div>
+                              </div>
 
-                            {/* Divider with Label */}
-                            <div className="relative">
+                              {/* Divider with Label */}
+                              <div className="relative">
                                 <div className="absolute inset-0 flex items-center" aria-hidden="true">
-                                    <div className="w-full border-t border-slate-100"></div>
+                                  <div className="w-full border-t border-slate-100"></div>
                                 </div>
                                 <div className="relative flex justify-center">
-                                    <span className="bg-white px-2 text-[10px] text-slate-300 font-mono uppercase tracking-widest">Translation & Normalization</span>
+                                  <span className="bg-white px-2 text-[10px] text-slate-300 font-mono uppercase tracking-widest">Translation & Normalization</span>
                                 </div>
-                            </div>
+                              </div>
 
-                            {/* Target Comparison Grid */}
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                              {/* Target Comparison Grid */}
+                              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 {/* Raw */}
                                 <div className="flex flex-col h-full">
-                                    <div className="flex items-center mb-2">
-                                        <span className="text-[10px] uppercase font-bold tracking-wider text-slate-400 bg-slate-100 px-1.5 py-0.5 rounded mr-2">MS-RAW</span>
-                                        <span className="text-xs font-medium text-slate-500">{t('lblRawInput')}</span>
-                                    </div>
-                                    <div className="flex-grow p-4 rounded-lg bg-slate-50 border border-slate-200 font-mono text-sm text-slate-600 leading-relaxed">
-                                        {item.language_layer.raw_text_ms}
-                                    </div>
+                                  <div className="flex items-center mb-2">
+                                    <span className="text-[10px] uppercase font-bold tracking-wider text-slate-400 bg-slate-100 px-1.5 py-0.5 rounded mr-2">MS-RAW</span>
+                                    <span className="text-xs font-medium text-slate-500">{t('lblRawInput')}</span>
+                                  </div>
+                                  <div className="flex-grow p-4 rounded-lg bg-slate-50 border border-slate-200 font-mono text-sm text-slate-600 leading-relaxed">
+                                    {item.language_layer.raw_text_ms}
+                                  </div>
                                 </div>
 
                                 {/* Normalized */}
                                 <div className="flex flex-col h-full">
-                                    <div className="flex items-center mb-2">
-                                        <span className="text-[10px] uppercase font-bold tracking-wider text-primary-100 bg-primary-600 text-white px-1.5 py-0.5 rounded mr-2">MS-NORM</span>
-                                        <span className="text-xs font-medium text-primary-600">{t('lblNormalized')}</span>
-                                    </div>
-                                    <div className="flex-grow p-4 rounded-lg bg-green-50/30 border border-green-100 text-base text-slate-800 leading-relaxed">
-                                        {item.language_layer.normalized_text_ms}
-                                    </div>
+                                  <div className="flex items-center mb-2">
+                                    <span className="text-[10px] uppercase font-bold tracking-wider text-primary-100 bg-primary-600 text-white px-1.5 py-0.5 rounded mr-2">MS-NORM</span>
+                                    <span className="text-xs font-medium text-primary-600">{t('lblNormalized')}</span>
+                                  </div>
+                                  <div className="flex-grow p-4 rounded-lg bg-green-50/30 border border-green-100 text-base text-slate-800 leading-relaxed">
+                                    {item.language_layer.normalized_text_ms}
+                                  </div>
                                 </div>
+                              </div>
                             </div>
-                        </div>
 
-                        {/* 2. Linguistic Insights (Moved to Bottom to fill space) */}
-                        <div className="pt-2">
-                             <div className="flex items-center space-x-3 mb-5">
+                            {/* 2. Linguistic Insights (Moved to Bottom to fill space) */}
+                            <div className="pt-2">
+                              <div className="flex items-center space-x-3 mb-5">
                                 <div className="h-px bg-slate-100 flex-grow"></div>
                                 <span className="text-xs font-bold text-slate-400 uppercase tracking-widest flex items-center">
-                                    <Sparkles size={12} className="mr-1.5 text-amber-500" />
-                                    {t('lblLinguistic')}
+                                  <Sparkles size={12} className="mr-1.5 text-amber-500" />
+                                  {t('lblLinguistic')}
                                 </span>
                                 <div className="h-px bg-slate-100 flex-grow"></div>
-                             </div>
-                             
-                             <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
+                              </div>
+
+                              <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
                                 {/* Normalization Map Box */}
                                 {Object.keys(item.style_layer.abbreviations_handled).length > 0 ? (
-                                     <div className="bg-slate-50/50 rounded-xl p-5 border border-slate-100">
-                                        <div className="text-[11px] font-bold text-slate-400 mb-3 flex items-center uppercase tracking-wider">
-                                            <FileText size={12} className="mr-1.5"/> {t('lblNormMap')}
-                                        </div>
-                                        <div className="flex flex-wrap gap-2">
-                                             {Object.entries(item.style_layer.abbreviations_handled).map(([short, full]) => (
-                                                <div key={short} className="flex items-center bg-white border border-slate-200 rounded-md px-2.5 py-1.5 shadow-sm hover:shadow-md transition-shadow cursor-default">
-                                                    <span className="text-red-500 font-mono text-xs font-medium">{short}</span>
-                                                    <ArrowRight size={10} className="mx-2 text-slate-300" />
-                                                    <span className="text-green-600 font-mono text-xs font-bold">{full}</span>
-                                                </div>
-                                            ))}
-                                        </div>
+                                  <div className="bg-slate-50/50 rounded-xl p-5 border border-slate-100">
+                                    <div className="text-[11px] font-bold text-slate-400 mb-3 flex items-center uppercase tracking-wider">
+                                      <FileText size={12} className="mr-1.5" /> {t('lblNormMap')}
                                     </div>
+                                    <div className="flex flex-wrap gap-2">
+                                      {Object.entries(item.style_layer.abbreviations_handled).map(([short, full]) => (
+                                        <div key={short} className="flex items-center bg-white border border-slate-200 rounded-md px-2.5 py-1.5 shadow-sm hover:shadow-md transition-shadow cursor-default">
+                                          <span className="text-red-500 font-mono text-xs font-medium">{short}</span>
+                                          <ArrowRight size={10} className="mx-2 text-slate-300" />
+                                          <span className="text-green-600 font-mono text-xs font-bold">{full}</span>
+                                        </div>
+                                      ))}
+                                    </div>
+                                  </div>
                                 ) : (
-                                    <div className="bg-slate-50/50 rounded-xl p-5 border border-slate-100 flex items-center justify-center text-slate-400 text-xs italic">
-                                        {t('lblNoNormNeeded')}
-                                    </div>
+                                  <div className="bg-slate-50/50 rounded-xl p-5 border border-slate-100 flex items-center justify-center text-slate-400 text-xs italic">
+                                    {t('lblNoNormNeeded')}
+                                  </div>
                                 )}
 
-                                 {/* Loanwords & Style Box */}
-                                 <div className="bg-slate-50/50 rounded-xl p-5 border border-slate-100 flex flex-col justify-between">
-                                    
-                                    {/* Loanwords */}
-                                    <div className="mb-4">
-                                        <div className="text-[11px] font-bold text-slate-400 mb-3 flex items-center uppercase tracking-wider">
-                                            <Globe size={12} className="mr-1.5"/> {t('lblLoanwords')}
-                                        </div>
-                                        {item.language_layer.english_loanwords.length > 0 ? (
-                                            <div className="flex flex-wrap gap-2">
-                                                {item.language_layer.english_loanwords.map(w => (
-                                                    <span key={w} className="px-2.5 py-1 bg-amber-50 text-amber-700 border border-amber-100 rounded-md text-xs font-mono font-medium">
-                                                        {w}
-                                                    </span>
-                                                ))}
-                                            </div>
-                                        ) : (
-                                            <span className="text-slate-400 text-xs italic">{t('lblNoneDetected')}</span>
-                                        )}
+                                {/* Loanwords & Style Box */}
+                                <div className="bg-slate-50/50 rounded-xl p-5 border border-slate-100 flex flex-col justify-between">
+
+                                  {/* Loanwords */}
+                                  <div className="mb-4">
+                                    <div className="text-[11px] font-bold text-slate-400 mb-3 flex items-center uppercase tracking-wider">
+                                      <Globe size={12} className="mr-1.5" /> {t('lblLoanwords')}
                                     </div>
-
-                                    {/* Small Style Indicators */}
-                                    <div className="pt-4 border-t border-slate-200">
-                                         <div className="flex items-center justify-between text-xs">
-                                            <div className="flex items-center space-x-2">
-                                                <span className="text-slate-400 uppercase tracking-wider font-bold text-[10px]">{t('lblStyle')}</span>
-                                                <span className="bg-white border border-slate-200 px-2 py-0.5 rounded text-slate-600 font-medium">
-                                                    {item.style_layer.style}
-                                                </span>
-                                            </div>
-                                            <div className="flex items-center space-x-2">
-                                                <span className="text-slate-400 uppercase tracking-wider font-bold text-[10px]">{t('lblRojak')}</span>
-                                                <span className={`font-mono font-bold ${item.style_layer.contains_rojak ? 'text-blue-600' : 'text-slate-300'}`}>
-                                                    {item.style_layer.contains_rojak ? t('lblDetected') : t('lblNone')}
-                                                </span>
-                                            </div>
-                                         </div>
-                                    </div>
-                                </div>
-                             </div>
-                        </div>
-
-                    </div>
-
-                    {/* Right Sidebar: High Level Analysis (Narrower, cleaner) */}
-                    <div className="w-full lg:w-72 bg-slate-50/30 p-6 flex-shrink-0 flex flex-col space-y-8">
-                        
-                        {/* Pragmatic Analysis */}
-                        <div>
-                            <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4 flex items-center border-b border-slate-200 pb-2">
-                                <MessageCircle size={12} className="mr-2" /> {t('lblPragmatic')}
-                            </h4>
-                            
-                            <div className="space-y-6">
-                                <div>
-                                    <div className="text-[10px] font-bold text-slate-400 mb-2 uppercase">{t('lblUserIntent')}</div>
-                                    <div className="flex flex-wrap gap-2">
-                                        {item.pragmatic_layer.intent.map(i => (
-                                            <span key={i} className="px-3 py-1.5 rounded-lg text-sm bg-white border border-slate-200 text-slate-700 shadow-sm font-medium w-full text-center">
-                                                {i}
-                                            </span>
+                                    {item.language_layer.english_loanwords.length > 0 ? (
+                                      <div className="flex flex-wrap gap-2">
+                                        {item.language_layer.english_loanwords.map(w => (
+                                          <span key={w} className="px-2.5 py-1 bg-amber-50 text-amber-700 border border-amber-100 rounded-md text-xs font-mono font-medium">
+                                            {w}
+                                          </span>
                                         ))}
+                                      </div>
+                                    ) : (
+                                      <span className="text-slate-400 text-xs italic">{t('lblNoneDetected')}</span>
+                                    )}
+                                  </div>
+
+                                  {/* Small Style Indicators */}
+                                  <div className="pt-4 border-t border-slate-200">
+                                    <div className="flex items-center justify-between text-xs">
+                                      <div className="flex items-center space-x-2">
+                                        <span className="text-slate-400 uppercase tracking-wider font-bold text-[10px]">{t('lblStyle')}</span>
+                                        <span className="bg-white border border-slate-200 px-2 py-0.5 rounded text-slate-600 font-medium">
+                                          {item.style_layer.style}
+                                        </span>
+                                      </div>
+                                      <div className="flex items-center space-x-2">
+                                        <span className="text-slate-400 uppercase tracking-wider font-bold text-[10px]">{t('lblRojak')}</span>
+                                        <span className={`font-mono font-bold ${item.style_layer.contains_rojak ? 'text-blue-600' : 'text-slate-300'}`}>
+                                          {item.style_layer.contains_rojak ? t('lblDetected') : t('lblNone')}
+                                        </span>
+                                      </div>
                                     </div>
+                                  </div>
                                 </div>
-                                
-                                <div>
-                                    <div className="text-[10px] font-bold text-slate-400 mb-2 uppercase">{t('lblSentiment')}</div>
-                                    <div className={`flex items-center justify-center px-4 py-3 rounded-lg border ${getSentimentStyle(item.pragmatic_layer.sentiment)}`}>
-                                        {item.pragmatic_layer.sentiment === 'angry' && <AlertCircle size={16} className="mr-2" />}
-                                        <span className="text-sm font-bold uppercase tracking-wide">{getSentimentLabel(item.pragmatic_layer.sentiment)}</span>
-                                    </div>
-                                </div>
+                              </div>
                             </div>
-                        </div>
 
-                        {/* Extra Meta (Optional place for more tags) */}
-                        <div className="flex-grow"></div>
-                        
-                        <div className="text-[10px] text-slate-300 font-mono text-center">
-                            Analysis v3.0.1
-                        </div>
+                          </div>
 
+                          {/* Right Sidebar: High Level Analysis (Narrower, cleaner) */}
+                          <div className="w-full lg:w-72 bg-slate-50/30 p-6 flex-shrink-0 flex flex-col space-y-8">
+
+                            {/* Pragmatic Analysis */}
+                            <div>
+                              <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4 flex items-center border-b border-slate-200 pb-2">
+                                <MessageCircle size={12} className="mr-2" /> {t('lblPragmatic')}
+                              </h4>
+
+                              <div className="space-y-6">
+                                <div>
+                                  <div className="text-[10px] font-bold text-slate-400 mb-2 uppercase">{t('lblUserIntent')}</div>
+                                  <div className="flex flex-wrap gap-2">
+                                    {item.pragmatic_layer.intent.map(i => (
+                                      <span key={i} className="px-3 py-1.5 rounded-lg text-sm bg-white border border-slate-200 text-slate-700 shadow-sm font-medium w-full text-center">
+                                        {i}
+                                      </span>
+                                    ))}
+                                  </div>
+                                </div>
+
+                                <div>
+                                  <div className="text-[10px] font-bold text-slate-400 mb-2 uppercase">{t('lblSentiment')}</div>
+                                  <div className={`flex items-center justify-center px-4 py-3 rounded-lg border ${getSentimentStyle(item.pragmatic_layer.sentiment)}`}>
+                                    {item.pragmatic_layer.sentiment === 'angry' && <AlertCircle size={16} className="mr-2" />}
+                                    <span className="text-sm font-bold uppercase tracking-wide">{getSentimentLabel(item.pragmatic_layer.sentiment)}</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            {/* Extra Meta (Optional place for more tags) */}
+                            <div className="flex-grow"></div>
+
+                            <div className="text-[10px] text-slate-300 font-mono text-center">
+                              Analysis v3.0.1
+                            </div>
+
+                          </div>
+                        </div>
+                      )}
                     </div>
-                </div>
+                  )))}
+
+
+                {/* Pagination */}
+                <Pagination />
+              </div>
             )}
-          </div>
-        ))}
 
-        {/* Pagination */}
-        <Pagination />
-        </div>
-        )}
-
-        {/* End Detail Tab Panel */}
+            {/* End Detail Tab Panel */}
 
             {activeTab === 'kwic' && (
               <div role="tabpanel" aria-labelledby="tab-kwic" className="space-y-6">
@@ -1061,75 +1123,87 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
                 </div>
 
                 {/* KWIC 结果显示 */}
-{(kwicLoading || kwicResults.length > 0) && (
-  <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
-    <div className="p-6">
-      <div className="flex items-center justify-between mb-4 border-b border-slate-100 pb-4">
-        <h4 className="text-sm font-bold text-slate-800">
-          {t('kwicResultCount').replace('{count}', String(kwicResults.length))}
-        </h4>
-      </div>
+                {(kwicLoading || kwicResults.length > 0) && (
+                  <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+                    <div className="p-6">
+                      <div className="flex items-center justify-between mb-4 border-b border-slate-100 pb-4">
+                        <h4 className="text-sm font-bold text-slate-800">
+                          {t('kwicResultCount').replace('{count}', String(kwicResults.length))}
+                        </h4>
+                      </div>
 
-      {/* KWIC 结果表格 */}
-      <div className="overflow-x-auto">
-        <table className="w-full table-fixed">
-          <thead>
-            <tr className="text-[11px] uppercase tracking-wider text-slate-400 bg-slate-50/50">
-              {/* 左语境：右对齐 */}
-              <th className="px-4 py-3 text-right font-semibold w-[45%]">
-                {t('kwicLeftContext')}
-              </th>
-              {/* 关键词：居中 */}
-              <th className="px-2 py-3 text-center font-bold text-primary-600 w-[10%]">
-                {t('kwicKeyword')}
-              </th>
-              {/* 右语境：左对齐 */}
-              <th className="px-4 py-3 text-left font-semibold w-[45%]">
-                {t('kwicRightContext')}
-              </th>
-                </tr>
-          </thead>
-          <tbody className="divide-y divide-slate-50">
-            {kwicResults.map((result) => (
-              <tr
-                key={result.sentence_id}
-                className="hover:bg-primary-50/50 transition-colors cursor-pointer group"
-                onClick={() => {
-                  setSelectedSentenceId(result.sentence_id);
-                  setActiveTab('detail');
-                }}
-              >
-                {/* 左语境：文字向右靠拢 */}
-                <td className="px-4 py-3 text-right text-slate-500 font-mono text-sm truncate">
-                  {result.left_context}
-                </td>
-                {/* 关键词：中间对齐，突出显示 */}
-                <td className="px-2 py-3 text-center">
-                  <span className="inline-block bg-primary-100 text-primary-700 px-2 py-0.5 rounded font-bold text-sm">
-                    {result.keyword}
-                  </span>
-                </td>
-                {/* 右语境：文字向左靠拢 */}
-                <td className="px-4 py-3 text-left text-slate-500 font-mono text-sm truncate">
-                  {result.right_context}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+                      {/* KWIC 结果表格 */}
+                      <div className="overflow-x-auto">
+                        <table className="w-full table-fixed">
+                          <thead>
+                            <tr className="text-[11px] uppercase tracking-wider text-slate-400 bg-slate-50/50">
+                              {/* 左语境：右对齐 */}
+                              <th className="px-4 py-3 text-right font-semibold w-[45%]">
+                                {t('kwicLeftContext')}
+                              </th>
+                              {/* 关键词：居中 */}
+                              <th className="px-2 py-3 text-center font-bold text-primary-600 w-[10%]">
+                                {t('kwicKeyword')}
+                              </th>
+                              {/* 右语境：左对齐 */}
+                              <th className="px-4 py-3 text-left font-semibold w-[45%]">
+                                {t('kwicRightContext')}
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody className="divide-y divide-slate-50">
+                            {kwicResults.map((result) => (
+                              <tr
+                                key={result.sentence_id}
+                                className="hover:bg-primary-50/50 transition-colors cursor-pointer group"
+                                onClick={async () => {
+                                  try {
+                                    // 查找该样本在哪一页
+                                    if (corpusId) {
+                                      const loc = await fetchSamplePageNumber(corpusId, result.sentence_id, itemsPerPage);
+                                      if (loc.found && loc.page !== currentPage) {
+                                        setCurrentPage(loc.page);
+                                      }
+                                    }
+                                  } catch (error) {
+                                    console.error('Failed to locate sample page:', error);
+                                  } finally {
+                                    setSelectedSentenceId(result.sentence_id);
+                                    setActiveTab('detail');
+                                  }
+                                }}
+                              >
+                                {/* 左语境：文字向右靠拢 */}
+                                <td className="px-4 py-3 text-right text-slate-500 font-mono text-sm truncate">
+                                  {result.left_context}
+                                </td>
+                                {/* 关键词：中间对齐，突出显示 */}
+                                <td className="px-2 py-3 text-center">
+                                  <span className="inline-block bg-primary-100 text-primary-700 px-2 py-0.5 rounded font-bold text-sm">
+                                    {result.keyword}
+                                  </span>
+                                </td>
+                                {/* 右语境：文字向左靠拢 */}
+                                <td className="px-4 py-3 text-left text-slate-500 font-mono text-sm truncate">
+                                  {result.right_context}
+                                </td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
 
-      {kwicLoading && (
-        <div className="text-center py-12 text-slate-400">
-          <div className="animate-spin mb-3 inline-block">
-            <Search size={24} className="text-primary-600" />
-          </div>
-          <p className="text-sm">正在检索语料库...</p>
-        </div>
-      )}
-    </div>
-  </div>
-)}
+                      {kwicLoading && (
+                        <div className="text-center py-12 text-slate-400">
+                          <div className="animate-spin mb-3 inline-block">
+                            <Search size={24} className="text-primary-600" />
+                          </div>
+                          <p className="text-sm">正在检索语料库...</p>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                )}
 
                 {/* KWIC 无结果提示 */}
                 {!kwicLoading && kwicResults.length === 0 && kwicKeyword && (
@@ -1149,270 +1223,270 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
               <div role="tabpanel" aria-labelledby="tab-statistics" className="space-y-4">
                 {/* 可视化图表区 */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                {/* 左侧：词性分布 - 完全重构版 (Modern Data Card) */}
-                <div className="bg-white rounded-2xl border border-slate-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] p-8 h-full flex flex-col justify-between">
-                  
-                  {/* 1. 标题栏 - 极简风格 */}
-                  <div className="flex items-center justify-between mb-8">
-                    <div className="flex items-center gap-2">
-                      <div className="p-2 bg-indigo-50 rounded-lg text-indigo-600">
-                        <PieChart size={18} />
-                      </div>
-                      <div>
-                        <h4 className="text-sm font-bold text-slate-800">{t('freqPosDistribution')}</h4>
-                        <p className="text-[10px] text-slate-400 font-medium mt-0.5">Distribution Analysis</p>
-                      </div>
-                    </div>
-                    {/* 右上角显示总数小标签 */}
-                    <div className="px-3 py-1 bg-slate-50 border border-slate-100 rounded-full text-xs font-mono text-slate-500">
-                      Total: {freqTotalWords || 0}
-                    </div>
-                  </div>
+                  {/* 左侧：词性分布 - 完全重构版 (Modern Data Card) */}
+                  <div className="bg-white rounded-2xl border border-slate-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] p-8 h-full flex flex-col justify-between">
 
-                  {freqLoading ? (
-                    <div className="flex-1 flex flex-col items-center justify-center min-h-[240px]">
-                      <div className="w-8 h-8 border-2 border-indigo-100 border-t-indigo-600 rounded-full animate-spin mb-4"></div>
-                      <p className="text-xs text-slate-400 font-medium animate-pulse">{t('freqLoading')}</p>
+                    {/* 1. 标题栏 - 极简风格 */}
+                    <div className="flex items-center justify-between mb-8">
+                      <div className="flex items-center gap-2">
+                        <div className="p-2 bg-indigo-50 rounded-lg text-indigo-600">
+                          <PieChart size={18} />
+                        </div>
+                        <div>
+                          <h4 className="text-sm font-bold text-slate-800">{t('freqPosDistribution')}</h4>
+                          <p className="text-[10px] text-slate-400 font-medium mt-0.5">Distribution Analysis</p>
+                        </div>
+                      </div>
+                      {/* 右上角显示总数小标签 */}
+                      <div className="px-3 py-1 bg-slate-50 border border-slate-100 rounded-full text-xs font-mono text-slate-500">
+                        Total: {freqTotalWords || 0}
+                      </div>
                     </div>
-                  ) : (
-                    <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12 flex-1">
-                      
-                      {/* 左侧：语料核心指标区域 */}
-                      <div className="flex-1 w-full flex flex-col justify-center">
-                        <div className="grid grid-cols-2 gap-4">
-                          {/* 指标卡 1: 总词数 */}
-                          <div className="bg-slate-50/50 border border-slate-100 p-5 rounded-2xl hover:bg-white hover:shadow-md transition-all group">
-                            <div className="text-[10px] uppercase tracking-wider text-slate-400 font-bold mb-1">Total Tokens</div>
-                            <div className="flex items-end gap-2">
-                              <span className="text-3xl font-black text-slate-800">{freqTotalWords}</span>
-                              <span className="text-xs text-slate-400 mb-1.5 font-medium">词</span>
-                            </div>
-                            <div className="w-full h-1 bg-slate-100 rounded-full mt-3 overflow-hidden">
-                              <div className="h-full bg-blue-500 w-full opacity-60"></div>
-                            </div>
-                          </div>
 
-                          {/* 指标卡 2: 词汇丰富度 (TTR) */}
-                          {(() => {
-                            const ttr = ((freqUniqueWords / (freqTotalWords || 1)) * 100).toFixed(1);
-                            return (
-                              <div className="bg-indigo-50/30 border border-indigo-100/50 p-5 rounded-2xl hover:bg-white hover:shadow-md transition-all group">
-                                <div className="text-[10px] uppercase tracking-wider text-indigo-400 font-bold mb-1">Lexical Richness</div>
-                                <div className="flex items-end gap-2">
-                                  <span className="text-3xl font-black text-indigo-600">{ttr}%</span>
-                                </div>
-                                <div className="text-[10px] text-indigo-300 mt-2 font-medium">TTR (词表比) 指标</div>
+                    {freqLoading ? (
+                      <div className="flex-1 flex flex-col items-center justify-center min-h-[240px]">
+                        <div className="w-8 h-8 border-2 border-indigo-100 border-t-indigo-600 rounded-full animate-spin mb-4"></div>
+                        <p className="text-xs text-slate-400 font-medium animate-pulse">{t('freqLoading')}</p>
+                      </div>
+                    ) : (
+                      <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12 flex-1">
+
+                        {/* 左侧：语料核心指标区域 */}
+                        <div className="flex-1 w-full flex flex-col justify-center">
+                          <div className="grid grid-cols-2 gap-4">
+                            {/* 指标卡 1: 总词数 */}
+                            <div className="bg-slate-50/50 border border-slate-100 p-5 rounded-2xl hover:bg-white hover:shadow-md transition-all group">
+                              <div className="text-[10px] uppercase tracking-wider text-slate-400 font-bold mb-1">Total Tokens</div>
+                              <div className="flex items-end gap-2">
+                                <span className="text-3xl font-black text-slate-800">{freqTotalWords}</span>
+                                <span className="text-xs text-slate-400 mb-1.5 font-medium">词</span>
                               </div>
-                            );
-                          })()}
-
-                          {/* 指标卡 3: 去重词数 */}
-                          <div className="bg-slate-50/50 border border-slate-100 p-5 rounded-2xl hover:bg-white hover:shadow-md transition-all">
-                            <div className="text-[10px] uppercase tracking-wider text-slate-400 font-bold mb-1">Unique Types</div>
-                            <div className="flex items-end gap-2">
-                              <span className="text-3xl font-black text-slate-700">{freqUniqueWords}</span>
-                              <span className="text-xs text-slate-400 mb-1.5 font-medium">项</span>
+                              <div className="w-full h-1 bg-slate-100 rounded-full mt-3 overflow-hidden">
+                                <div className="h-full bg-blue-500 w-full opacity-60"></div>
+                              </div>
                             </div>
-                          </div>
 
-                          {/* 指标卡 4: 平均句长 */}
-                          <div className="bg-amber-50/30 border border-amber-100/50 p-5 rounded-2xl hover:bg-white hover:shadow-md transition-all">
-                            <div className="text-[10px] uppercase tracking-wider text-amber-500/70 font-bold mb-1">Avg. Sentence Length</div>
-                            <div className="flex items-end gap-2">
-                              <span className="text-3xl font-black text-amber-600">
-                                {avgSentenceLength !== null ? avgSentenceLength : '--'}
-                              </span>
-                              <span className="text-xs text-amber-400 mb-1.5 font-medium">词/句</span>
+                            {/* 指标卡 2: 词汇丰富度 (TTR) */}
+                            {(() => {
+                              const ttr = ((freqUniqueWords / (freqTotalWords || 1)) * 100).toFixed(1);
+                              return (
+                                <div className="bg-indigo-50/30 border border-indigo-100/50 p-5 rounded-2xl hover:bg-white hover:shadow-md transition-all group">
+                                  <div className="text-[10px] uppercase tracking-wider text-indigo-400 font-bold mb-1">Lexical Richness</div>
+                                  <div className="flex items-end gap-2">
+                                    <span className="text-3xl font-black text-indigo-600">{ttr}%</span>
+                                  </div>
+                                  <div className="text-[10px] text-indigo-300 mt-2 font-medium">TTR (词表比) 指标</div>
+                                </div>
+                              );
+                            })()}
+
+                            {/* 指标卡 3: 去重词数 */}
+                            <div className="bg-slate-50/50 border border-slate-100 p-5 rounded-2xl hover:bg-white hover:shadow-md transition-all">
+                              <div className="text-[10px] uppercase tracking-wider text-slate-400 font-bold mb-1">Unique Types</div>
+                              <div className="flex items-end gap-2">
+                                <span className="text-3xl font-black text-slate-700">{freqUniqueWords}</span>
+                                <span className="text-xs text-slate-400 mb-1.5 font-medium">项</span>
+                              </div>
+                            </div>
+
+                            {/* 指标卡 4: 平均句长 */}
+                            <div className="bg-amber-50/30 border border-amber-100/50 p-5 rounded-2xl hover:bg-white hover:shadow-md transition-all">
+                              <div className="text-[10px] uppercase tracking-wider text-amber-500/70 font-bold mb-1">Avg. Sentence Length</div>
+                              <div className="flex items-end gap-2">
+                                <span className="text-3xl font-black text-amber-600">
+                                  {avgSentenceLength !== null ? avgSentenceLength : '--'}
+                                </span>
+                                <span className="text-xs text-amber-400 mb-1.5 font-medium">词/句</span>
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
 
-                    </div>
-                  )}
-                </div>
+                      </div>
+                    )}
+                  </div>
 
                   {/* 词云图 - 螺旋布局 */}
-                <div className="relative w-full h-full flex items-center justify-center">
-                  {(() => {
-                    // --- 1. 配置区域：在这里调整艺术风格 ---
-                    const containerWidth = 400; // 容器估算宽度
-                    const containerHeight = 320; // 容器估算高度
-                    const maxFontSize = 48; // 最大字号 (高频词)
-                    const minFontSize = 12; // 最小字号 (背景词)
-                    
-                    // 高级配色方案：深蓝 -> 蓝紫 -> 浅灰 (品牌渐变感)
-                    const colorPalette = [
-                      'text-slate-900', // Top 1-3: 极致深色，强调核心
-                      'text-primary-600', // Top 4-8: 品牌主色
-                      'text-indigo-500', // Top 9-15: 辅助色
-                      'text-slate-400', // Top 16-30: 中性灰
-                      'text-slate-300', // Tail: 背景纹理
-                    ];
+                  <div className="relative w-full h-full flex items-center justify-center">
+                    {(() => {
+                      // --- 1. 配置区域：在这里调整艺术风格 ---
+                      const containerWidth = 400; // 容器估算宽度
+                      const containerHeight = 320; // 容器估算高度
+                      const maxFontSize = 48; // 最大字号 (高频词)
+                      const minFontSize = 12; // 最小字号 (背景词)
 
-                    // --- 2. 核心算法：中心螺旋布局 ---
-                    const placedItems: any[] = [];
-                    // 预处理数据：按频率降序，并计算样式
-                    const dataToProcess = freqData.slice(0, 40).map((item, index) => {
-                      // 对数缩放尺寸：让头尾差异更平滑但明显
-                      const count = item.count;
-                      const maxCount = freqData[0]?.count || 1;
-                      const minCount = freqData[freqData.length - 1]?.count || 1;
-                      const normalize = (count - minCount) / (maxCount - minCount || 1);
-                      // Logarithmic scale approach
-                      const fontSize = minFontSize + (maxFontSize - minFontSize) * Math.pow(normalize, 0.8);
-                      
-                      // 字重映射
-                      let fontWeight = '400';
-                      if (index < 3) fontWeight = '900'; // Black
-                      else if (index < 10) fontWeight = '700'; // Bold
-                      else if (index < 20) fontWeight = '500'; // Medium
+                      // 高级配色方案：深蓝 -> 蓝紫 -> 浅灰 (品牌渐变感)
+                      const colorPalette = [
+                        'text-slate-900', // Top 1-3: 极致深色，强调核心
+                        'text-primary-600', // Top 4-8: 品牌主色
+                        'text-indigo-500', // Top 9-15: 辅助色
+                        'text-slate-400', // Top 16-30: 中性灰
+                        'text-slate-300', // Tail: 背景纹理
+                      ];
 
-                      // 颜色映射
-                      let colorClass = colorPalette[4];
-                      if (index < 3) colorClass = colorPalette[0];
-                      else if (index < 8) colorClass = colorPalette[1];
-                      else if (index < 15) colorClass = colorPalette[2];
-                      else if (index < 30) colorClass = colorPalette[3];
+                      // --- 2. 核心算法：中心螺旋布局 ---
+                      const placedItems: any[] = [];
+                      // 预处理数据：按频率降序，并计算样式
+                      const dataToProcess = freqData.slice(0, 40).map((item, index) => {
+                        // 对数缩放尺寸：让头尾差异更平滑但明显
+                        const count = item.count;
+                        const maxCount = freqData[0]?.count || 1;
+                        const minCount = freqData[freqData.length - 1]?.count || 1;
+                        const normalize = (count - minCount) / (maxCount - minCount || 1);
+                        // Logarithmic scale approach
+                        const fontSize = minFontSize + (maxFontSize - minFontSize) * Math.pow(normalize, 0.8);
 
-                      return { ...item, fontSize, fontWeight, colorClass, x: 0, y: 0, width: 0, height: 0 };
-                    });
+                        // 字重映射
+                        let fontWeight = '400';
+                        if (index < 3) fontWeight = '900'; // Black
+                        else if (index < 10) fontWeight = '700'; // Bold
+                        else if (index < 20) fontWeight = '500'; // Medium
 
-                    // 简单的碰撞检测器
-                    const isIntersecting = (rect1: any, rect2: any) => {
-                      return !(
-                        rect1.right < rect2.left ||
-                        rect1.left > rect2.right ||
-                        rect1.bottom < rect2.top ||
-                        rect1.top > rect2.bottom
-                      );
-                    };
+                        // 颜色映射
+                        let colorClass = colorPalette[4];
+                        if (index < 3) colorClass = colorPalette[0];
+                        else if (index < 8) colorClass = colorPalette[1];
+                        else if (index < 15) colorClass = colorPalette[2];
+                        else if (index < 30) colorClass = colorPalette[3];
 
-                    // 螺旋放置逻辑
-                    dataToProcess.forEach((item, i) => {
-                      // 估算文字宽高 (近似值，用于碰撞检测)
-                      // 汉字宽高比约 1:1，英文约 0.6:1，这里做一个简单的估算
-                      const charWidth = item.fontSize * (item.word.match(/[\u4e00-\u9fa5]/) ? 1 : 0.6);
-                      const width = item.word.length * charWidth + 10; // +10 padding
-                      const height = item.fontSize * 1.2;
+                        return { ...item, fontSize, fontWeight, colorClass, x: 0, y: 0, width: 0, height: 0 };
+                      });
 
-                      let angle = 0;
-                      let radius = 0;
-                      let spiralStep = 0.5; // 螺旋步进
-                      let angleStep = 0.2; // 角度步进
-                      let x = 0;
-                      let y = 0;
-                      let collision = true;
-                      let attempt = 0;
+                      // 简单的碰撞检测器
+                      const isIntersecting = (rect1: any, rect2: any) => {
+                        return !(
+                          rect1.right < rect2.left ||
+                          rect1.left > rect2.right ||
+                          rect1.bottom < rect2.top ||
+                          rect1.top > rect2.bottom
+                        );
+                      };
 
-                      // 第一个词直接放中间
-                      if (i === 0) {
-                        x = 0; 
-                        y = 0;
-                        collision = false;
-                      }
+                      // 螺旋放置逻辑
+                      dataToProcess.forEach((item, i) => {
+                        // 估算文字宽高 (近似值，用于碰撞检测)
+                        // 汉字宽高比约 1:1，英文约 0.6:1，这里做一个简单的估算
+                        const charWidth = item.fontSize * (item.word.match(/[\u4e00-\u9fa5]/) ? 1 : 0.6);
+                        const width = item.word.length * charWidth + 10; // +10 padding
+                        const height = item.fontSize * 1.2;
 
-                      while (collision && attempt < 500) {
-                        // 阿基米德螺旋公式
-                        x = radius * Math.cos(angle);
-                        y = radius * Math.sin(angle);
+                        let angle = 0;
+                        let radius = 0;
+                        let spiralStep = 0.5; // 螺旋步进
+                        let angleStep = 0.2; // 角度步进
+                        let x = 0;
+                        let y = 0;
+                        let collision = true;
+                        let attempt = 0;
 
-                        const currentRect = {
-                          left: x - width / 2,
-                          right: x + width / 2,
-                          top: y - height / 2,
-                          bottom: y + height / 2
-                        };
+                        // 第一个词直接放中间
+                        if (i === 0) {
+                          x = 0;
+                          y = 0;
+                          collision = false;
+                        }
 
-                        // 检查是否与已放置的词碰撞
-                        let hasOverlap = false;
-                        for (const placed of placedItems) {
-                          if (isIntersecting(currentRect, placed.rect)) {
-                            hasOverlap = true;
-                            break;
+                        while (collision && attempt < 500) {
+                          // 阿基米德螺旋公式
+                          x = radius * Math.cos(angle);
+                          y = radius * Math.sin(angle);
+
+                          const currentRect = {
+                            left: x - width / 2,
+                            right: x + width / 2,
+                            top: y - height / 2,
+                            bottom: y + height / 2
+                          };
+
+                          // 检查是否与已放置的词碰撞
+                          let hasOverlap = false;
+                          for (const placed of placedItems) {
+                            if (isIntersecting(currentRect, placed.rect)) {
+                              hasOverlap = true;
+                              break;
+                            }
+                          }
+
+                          if (!hasOverlap) {
+                            collision = false;
+                          } else {
+                            angle += angleStep;
+                            radius += spiralStep;
+                            attempt++;
                           }
                         }
 
-                        if (!hasOverlap) {
-                          collision = false;
-                        } else {
-                          angle += angleStep;
-                          radius += spiralStep;
-                          attempt++;
-                        }
-                      }
-
-                      placedItems.push({
-                        ...item,
-                        x,
-                        y,
-                        rect: {
-                          left: x - width / 2,
-                          right: x + width / 2,
-                          top: y - height / 2,
-                          bottom: y + height / 2
-                        }
+                        placedItems.push({
+                          ...item,
+                          x,
+                          y,
+                          rect: {
+                            left: x - width / 2,
+                            right: x + width / 2,
+                            top: y - height / 2,
+                            bottom: y + height / 2
+                          }
+                        });
                       });
-                    });
 
-                    // --- 3. 渲染部分 ---
-                    return placedItems.map((item) => {
-                      const isHovered = hoveredWord === item.word;
-                      // 动态计算 z-index 和透明度，保持 hover 时的聚焦感
-                      const zIndex = isHovered ? 50 : (50 - Math.round(item.fontSize)); 
-                      
-                      return (
-                        <div
-                          key={item.word}
-                          className="absolute flex items-center justify-center cursor-pointer select-none"
-                          style={{
-                            left: '50%', // 基准点在容器中心
-                            top: '50%',
-                            transform: `translate(calc(-50% + ${item.x}px), calc(-50% + ${item.y}px)) scale(${isHovered ? 1.2 : 1})`,
-                            zIndex: zIndex,
-                            transition: 'transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease', // 弹性动画
-                            opacity: isHovered ? 1 : (hoveredWord ? 0.3 : 1), // 这里实现聚焦效果：hover时其他人变淡
-                          }}
-                          onClick={() => handleWordClick(item.word)}
-                          onMouseEnter={() => setHoveredWord(item.word)}
-                          onMouseLeave={() => setHoveredWord(null)}
-                        >
-                          <span
-                            className={`${item.colorClass}`}
+                      // --- 3. 渲染部分 ---
+                      return placedItems.map((item) => {
+                        const isHovered = hoveredWord === item.word;
+                        // 动态计算 z-index 和透明度，保持 hover 时的聚焦感
+                        const zIndex = isHovered ? 50 : (50 - Math.round(item.fontSize));
+
+                        return (
+                          <div
+                            key={item.word}
+                            className="absolute flex items-center justify-center cursor-pointer select-none"
                             style={{
-                              fontSize: `${item.fontSize}px`,
-                              fontWeight: item.fontWeight,
-                              lineHeight: 1,
-                              whiteSpace: 'nowrap',
-                              // 高级感光影：给大词加一点点文字阴影
-                              textShadow: item.fontSize > 24 ? '0 2px 10px rgba(0,0,0,0.05)' : 'none',
-                              filter: isHovered ? 'brightness(1.1)' : 'none'
+                              left: '50%', // 基准点在容器中心
+                              top: '50%',
+                              transform: `translate(calc(-50% + ${item.x}px), calc(-50% + ${item.y}px)) scale(${isHovered ? 1.2 : 1})`,
+                              zIndex: zIndex,
+                              transition: 'transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease', // 弹性动画
+                              opacity: isHovered ? 1 : (hoveredWord ? 0.3 : 1), // 这里实现聚焦效果：hover时其他人变淡
                             }}
+                            onClick={() => handleWordClick(item.word)}
+                            onMouseEnter={() => setHoveredWord(item.word)}
+                            onMouseLeave={() => setHoveredWord(null)}
                           >
-                            {item.word}
-                          </span>
+                            <span
+                              className={`${item.colorClass}`}
+                              style={{
+                                fontSize: `${item.fontSize}px`,
+                                fontWeight: item.fontWeight,
+                                lineHeight: 1,
+                                whiteSpace: 'nowrap',
+                                // 高级感光影：给大词加一点点文字阴影
+                                textShadow: item.fontSize > 24 ? '0 2px 10px rgba(0,0,0,0.05)' : 'none',
+                                filter: isHovered ? 'brightness(1.1)' : 'none'
+                              }}
+                            >
+                              {item.word}
+                            </span>
 
-                          {/* 悬浮 Tooltip - 仅在 hover 时显示 */}
-                          <div 
-                            className={`
+                            {/* 悬浮 Tooltip - 仅在 hover 时显示 */}
+                            <div
+                              className={`
                               absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-3 py-1.5 
                               bg-slate-800/90 backdrop-blur-sm text-white text-xs rounded-lg shadow-xl 
                               whitespace-nowrap z-50 pointer-events-none transition-all duration-200
                               ${isHovered ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-2 scale-90'}
                             `}
-                          >
-                            <div className="flex items-center gap-2">
-                              <span className="font-bold text-white">{item.word}</span>
-                              <span className="text-primary-300 font-mono">{item.count}</span>
+                            >
+                              <div className="flex items-center gap-2">
+                                <span className="font-bold text-white">{item.word}</span>
+                                <span className="text-primary-300 font-mono">{item.count}</span>
+                              </div>
+                              {/* 小三角 */}
+                              <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-slate-800/90"></div>
                             </div>
-                            {/* 小三角 */}
-                            <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-slate-800/90"></div>
                           </div>
-                        </div>
-                      );
-                    });
-                  })()}
-                </div>
+                        );
+                      });
+                    })()}
+                  </div>
                 </div>
 
                 {/* 控制栏：过滤器和搜索 */}
@@ -1431,11 +1505,10 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
                           <button
                             key={filter.value}
                             onClick={() => setFreqFilter(filter.value as any)}
-                            className={`px-2.5 py-1 rounded text-xs font-medium transition-all ${
-                              freqFilter === filter.value
-                                ? 'bg-white text-slate-800 shadow-sm'
-                                : 'text-slate-600 hover:bg-white/50'
-                            }`}
+                            className={`px-2.5 py-1 rounded text-xs font-medium transition-all ${freqFilter === filter.value
+                              ? 'bg-white text-slate-800 shadow-sm'
+                              : 'text-slate-600 hover:bg-white/50'
+                              }`}
                           >
                             {filter.label}
                           </button>
@@ -1457,11 +1530,10 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
                     {/* 过滤停用词开关 */}
                     <button
                       onClick={() => setFreqFilterStopWords(!freqFilterStopWords)}
-                      className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
-                        freqFilterStopWords
-                          ? 'bg-primary-100 text-primary-700 border border-primary-200'
-                          : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-                      }`}
+                      className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${freqFilterStopWords
+                        ? 'bg-primary-100 text-primary-700 border border-primary-200'
+                        : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                        }`}
                     >
                       <Filter size={14} />
                       {t('freqToggleStopWords')}
@@ -1505,9 +1577,8 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
                           {freqData.slice(0, 50).map((item, index) => (
                             <tr
                               key={item.word}
-                              className={`hover:bg-primary-50/50 transition-colors cursor-pointer ${
-                                index < 3 ? 'bg-amber-50/30 font-medium' : ''
-                              }`}
+                              className={`hover:bg-primary-50/50 transition-colors cursor-pointer ${index < 3 ? 'bg-amber-50/30 font-medium' : ''
+                                }`}
                               onClick={() => handleWordClick(item.word)}
                             >
                               <td className="px-4 py-2.5 text-slate-500 text-xs">{index + 1}</td>

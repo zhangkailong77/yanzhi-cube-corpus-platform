@@ -1,0 +1,2383 @@
+[
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8001",
+		"timestamp": "2024-11-20T09:00:00Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想修改收货地址，可以吗？",
+		"raw_text_ms": "Nak tukar alamat boleh tak?",
+		"normalized_text_ms": "Nak tukar alamat boleh tak?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8002",
+		"timestamp": "2024-11-20T09:05:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，能帮我改一下吗？",
+		"raw_text_ms": "Alamat salah, boleh tukar tak?",
+		"normalized_text_ms": "Alamat salah, boleh tukar tak?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8003",
+		"timestamp": "2024-11-20T09:10:30Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "老板，可以修改地址吗？我填错了。",
+		"raw_text_ms": "Boss, boleh tukar alamat tak? Sy salah isi.",
+		"normalized_text_ms": "Boss, boleh tukar alamat tak? Saya salah isi.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8004",
+		"timestamp": "2024-11-20T09:15:45Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "已经下单了，但地址错了，能改吗？",
+		"raw_text_ms": "Dah order tapi alamat salah, boleh tukar?",
+		"normalized_text_ms": "Dah order tapi alamat salah, boleh tukar?",
+		"english_loanwords": ["order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8005",
+		"timestamp": "2024-11-20T09:20:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想换个地址寄送，可以吗？",
+		"raw_text_ms": "Nak tukar address lain boleh tak?",
+		"normalized_text_ms": "Nak tukar address lain boleh tak?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8006",
+		"timestamp": "2024-11-20T09:25:30Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址不对，能改一下吗？",
+		"raw_text_ms": "Alamat tak betul, boleh tukar?",
+		"normalized_text_ms": "Alamat tak betul, boleh tukar?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"tak": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8007",
+		"timestamp": "2024-11-20T09:30:22Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我订单地址写错了，能改吗？",
+		"raw_text_ms": "Order alamat sy salah, boleh tukar?",
+		"normalized_text_ms": "Order alamat saya salah, boleh tukar?",
+		"english_loanwords": ["order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8008",
+		"timestamp": "2024-11-20T09:35:40Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我改个地址吗？麻烦了。",
+		"raw_text_ms": "Bleh tolong tukar alamat tak? Thanks.",
+		"normalized_text_ms": "Boleh tolong tukar alamat tak? Thanks.",
+		"english_loanwords": ["bleh", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8009",
+		"timestamp": "2024-11-20T09:40:33Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改送到别的地址，可以吗？",
+		"raw_text_ms": "Nak ubah hantar ke address lain boleh?",
+		"normalized_text_ms": "Nak ubah hantar ke address lain boleh?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8010",
+		"timestamp": "2024-11-20T09:45:56Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "订单地址填错了，能修改吗？",
+		"raw_text_ms": "Order alamat salah, boleh edit?",
+		"normalized_text_ms": "Order alamat salah, boleh edit?",
+		"english_loanwords": ["order", "edit"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8011",
+		"timestamp": "2024-11-20T09:50:28Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "可以修改收货地址吗？我填错了。",
+		"raw_text_ms": "Boleh tukar alamat tak? Sy salah.",
+		"normalized_text_ms": "Boleh tukar alamat tak? Saya salah.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8012",
+		"timestamp": "2024-11-20T09:55:51Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "地址搞错了，能帮我改吗？",
+		"raw_text_ms": "Alamat salah, bleh tukar?",
+		"normalized_text_ms": "Alamat salah, boleh tukar?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8013",
+		"timestamp": "2024-11-20T10:00:28Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改地址，还没发货呢。",
+		"raw_text_ms": "Nak tukar alamat, belum pos lagi.",
+		"normalized_text_ms": "Nak tukar alamat, belum pos lagi.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8014",
+		"timestamp": "2024-11-20T10:05:36Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "地址写错了，可以改吗？谢谢。",
+		"raw_text_ms": "Alamat salah, boleh tukar? Thanks.",
+		"normalized_text_ms": "Alamat salah, boleh tukar? Thanks.",
+		"english_loanwords": ["thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8015",
+		"timestamp": "2024-11-20T10:10:19Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我修改一下地址吗？",
+		"raw_text_ms": "Bleh tolong edit alamat tak?",
+		"normalized_text_ms": "Boleh tolong edit alamat tak?",
+		"english_loanwords": ["bleh", "edit"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8016",
+		"timestamp": "2024-11-20T10:15:44Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我想把地址改一下，可以吗？",
+		"raw_text_ms": "Nak ubah address, boleh tak?",
+		"normalized_text_ms": "Nak ubah address, boleh tak?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8017",
+		"timestamp": "2024-11-20T10:20:33Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "订单地址错了，能改吗？",
+		"raw_text_ms": "Order alamat salah, boleh tukar?",
+		"normalized_text_ms": "Order alamat salah, boleh tukar?",
+		"english_loanwords": ["order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8018",
+		"timestamp": "2024-11-20T10:25:07Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "可以修改送货地址吗？我填错了。",
+		"raw_text_ms": "Boleh tukar address hantar tak? Sy salah.",
+		"normalized_text_ms": "Boleh tukar address hantar tak? Saya salah.",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8019",
+		"timestamp": "2024-11-20T10:30:48Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，能帮我改一下吗？",
+		"raw_text_ms": "Alamat salah, bleh tukar tak?",
+		"normalized_text_ms": "Alamat salah, boleh tukar tak?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8020",
+		"timestamp": "2024-11-20T10:35:15Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改到另一个地址，可以吗？",
+		"raw_text_ms": "Nak tukar ke alamat lain boleh tak?",
+		"normalized_text_ms": "Nak tukar ke alamat lain boleh tak?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8021",
+		"timestamp": "2024-11-20T10:40:55Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址错了，能改一下吗？还没发货。",
+		"raw_text_ms": "Alamat salah, boleh tukar? Belum pos.",
+		"normalized_text_ms": "Alamat salah, boleh tukar? Belum pos.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8022",
+		"timestamp": "2024-11-20T10:45:27Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我修改收货地址吗？谢谢。",
+		"raw_text_ms": "Bleh tolong tukar alamat? Thanks.",
+		"normalized_text_ms": "Boleh tolong tukar alamat? Thanks.",
+		"english_loanwords": ["bleh", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8023",
+		"timestamp": "2024-11-20T10:50:41Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改一下地址，可以帮我吗？",
+		"raw_text_ms": "Nak tukar alamat, bleh tolong?",
+		"normalized_text_ms": "Nak tukar alamat, boleh tolong?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8024",
+		"timestamp": "2024-11-20T10:55:51Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "订单地址错了，能改吗？还没发货。",
+		"raw_text_ms": "Order alamat salah, boleh tukar? Belum pos.",
+		"normalized_text_ms": "Order alamat salah, boleh tukar? Belum pos.",
+		"english_loanwords": ["order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8025",
+		"timestamp": "2024-11-20T11:00:24Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "可以帮我修改地址吗？麻烦了。",
+		"raw_text_ms": "Boleh tukar alamat tak? Thanks.",
+		"normalized_text_ms": "Boleh tukar alamat tak? Thanks.",
+		"english_loanwords": ["thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8026",
+		"timestamp": "2024-11-20T11:05:47Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，能改吗？",
+		"raw_text_ms": "Alamat salah, bleh tukar?",
+		"normalized_text_ms": "Alamat salah, boleh tukar?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8027",
+		"timestamp": "2024-11-20T11:10:37Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改地址，还没发货呢。",
+		"raw_text_ms": "Nak tukar alamat, belum pos.",
+		"normalized_text_ms": "Nak tukar alamat, belum pos.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8028",
+		"timestamp": "2024-11-20T11:15:57Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我改一下地址吗？",
+		"raw_text_ms": "Bleh tolong tukar alamat tak?",
+		"normalized_text_ms": "Boleh tolong tukar alamat tak?",
+		"english_loanwords": ["bleh"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8029",
+		"timestamp": "2024-11-20T11:20:33Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想修改收货地址，可以吗？",
+		"raw_text_ms": "Nak tukar alamat penghantaran boleh tak?",
+		"normalized_text_ms": "Nak tukar alamat penghantaran boleh tak?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8030",
+		"timestamp": "2024-11-20T11:25:46Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "订单地址错了，能改吗？还没发货。",
+		"raw_text_ms": "Order alamat salah, boleh tukar? Belum pos.",
+		"normalized_text_ms": "Order alamat salah, boleh tukar? Belum pos.",
+		"english_loanwords": ["order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8031",
+		"timestamp": "2024-11-20T11:30:16Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "可以修改地址吗？我填错了。",
+		"raw_text_ms": "Boleh tukar alamat tak? Sy salah isi.",
+		"normalized_text_ms": "Boleh tukar alamat tak? Saya salah isi.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8032",
+		"timestamp": "2024-11-20T11:35:52Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改到另一个地址，可以吗？",
+		"raw_text_ms": "Nak tukar ke alamat lain boleh tak?",
+		"normalized_text_ms": "Nak tukar ke alamat lain boleh tak?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8033",
+		"timestamp": "2024-11-20T11:40:27Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址搞错了，能帮我改一下吗？",
+		"raw_text_ms": "Alamat salah, bleh tolong tukar?",
+		"normalized_text_ms": "Alamat salah, boleh tolong tukar?",
+		"english_loanwords": ["bleh"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8034",
+		"timestamp": "2024-11-20T11:45:35Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "能修改收货地址吗？谢谢。",
+		"raw_text_ms": "Boleh tukar alamat tak? Thanks.",
+		"normalized_text_ms": "Boleh tukar alamat tak? Thanks.",
+		"english_loanwords": ["thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8035",
+		"timestamp": "2024-11-20T11:50:41Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "地址不对，能改吗？还没发货。",
+		"raw_text_ms": "Alamat tak betul, boleh tukar? Belum pos.",
+		"normalized_text_ms": "Alamat tak betul, boleh tukar? Belum pos.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8036",
+		"timestamp": "2024-11-20T11:55:54Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改地址，能帮我看一下吗？",
+		"raw_text_ms": "Nak tukar alamat, bleh check?",
+		"normalized_text_ms": "Nak tukar alamat, boleh check?",
+		"english_loanwords": ["bleh", "check"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8037",
+		"timestamp": "2024-11-20T12:00:25Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，能改吗？麻烦了。",
+		"raw_text_ms": "Alamat salah, boleh tukar? Thanks.",
+		"normalized_text_ms": "Alamat salah, boleh tukar? Thanks.",
+		"english_loanwords": ["thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8038",
+		"timestamp": "2024-11-20T12:05:37Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想换个地址寄送，可以吗？谢谢。",
+		"raw_text_ms": "Nak tukar address lain boleh? Thanks.",
+		"normalized_text_ms": "Nak tukar address lain boleh? Thanks.",
+		"english_loanwords": ["address", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8039",
+		"timestamp": "2024-11-20T12:10:43Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我修改地址吗？我填错了。",
+		"raw_text_ms": "Bleh tolong tukar alamat tak? Sy salah.",
+		"normalized_text_ms": "Boleh tolong tukar alamat tak? Saya salah.",
+		"english_loanwords": ["bleh"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8040",
+		"timestamp": "2024-11-20T12:15:46Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改到别的地址，可以吗？",
+		"raw_text_ms": "Nak tukar ke address lain boleh?",
+		"normalized_text_ms": "Nak tukar ke address lain boleh?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8041",
+		"timestamp": "2024-11-20T12:20:33Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "地址错了，能改吗？还没发货呢。",
+		"raw_text_ms": "Alamat salah, boleh tukar? Belum pos.",
+		"normalized_text_ms": "Alamat salah, boleh tukar? Belum pos.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8042",
+		"timestamp": "2024-11-20T12:25:07Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我改个地址吗？谢谢。",
+		"raw_text_ms": "Bleh tukar alamat lain tak? Thanks.",
+		"normalized_text_ms": "Boleh tukar alamat lain tak? Thanks.",
+		"english_loanwords": ["bleh", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8043",
+		"timestamp": "2024-11-20T12:30:16Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "订单地址错了，能改吗？",
+		"raw_text_ms": "Order alamat salah, boleh tukar?",
+		"normalized_text_ms": "Order alamat salah, boleh tukar?",
+		"english_loanwords": ["order"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8044",
+		"timestamp": "2024-11-20T12:35:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想修改地址，可以帮我吗？",
+		"raw_text_ms": "Nak tukar alamat, bleh tolong?",
+		"normalized_text_ms": "Nak tukar alamat, boleh tolong?",
+		"english_loanwords": ["bleh"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8045",
+		"timestamp": "2024-11-20T12:40:55Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，能改一下吗？",
+		"raw_text_ms": "Alamat salah, boleh edit tak?",
+		"normalized_text_ms": "Alamat salah, boleh edit tak?",
+		"english_loanwords": ["edit"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8046",
+		"timestamp": "2024-11-20T12:45:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "可以修改送货地址吗？谢谢。",
+		"raw_text_ms": "Boleh tukar alamat hantar? Thanks.",
+		"normalized_text_ms": "Boleh tukar alamat hantar? Thanks.",
+		"english_loanwords": ["thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8047",
+		"timestamp": "2024-11-20T12:50:26Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改地址，还没发货呢，能改吗？",
+		"raw_text_ms": "Nak tukar alamat, belum pos, boleh?",
+		"normalized_text_ms": "Nak tukar alamat, belum pos, boleh?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8048",
+		"timestamp": "2024-11-20T12:55:57Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址不对，能改吗？",
+		"raw_text_ms": "Alamat tak betul, boleh tukar?",
+		"normalized_text_ms": "Alamat tak betul, boleh tukar?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8049",
+		"timestamp": "2024-11-20T13:00:15Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我修改收货地址吗？还没发货。",
+		"raw_text_ms": "Bleh tukar alamat tak? Belum pos.",
+		"normalized_text_ms": "Boleh tukar alamat tak? Belum pos.",
+		"english_loanwords": ["bleh"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8050",
+		"timestamp": "2024-11-20T13:05:47Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，能改一下吗？谢谢。",
+		"raw_text_ms": "Alamat salah, boleh tukar? Thanks.",
+		"normalized_text_ms": "Alamat salah, boleh tukar? Thanks.",
+		"english_loanwords": ["thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8051",
+		"timestamp": "2024-11-20T13:10:23Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改到另一个地址，可以吗？还没发货。",
+		"raw_text_ms": "Nak tukar alamat lain boleh? Belum pos.",
+		"normalized_text_ms": "Nak tukar alamat lain boleh? Belum pos.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8052",
+		"timestamp": "2024-11-20T13:15:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我修改地址吗？我填错了。",
+		"raw_text_ms": "Bleh tolong tukar alamat tak? Sy salah.",
+		"normalized_text_ms": "Boleh tolong tukar alamat tak? Saya salah.",
+		"english_loanwords": ["bleh"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8053",
+		"timestamp": "2024-11-20T13:20:56Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改地址，能帮我看一下吗？",
+		"raw_text_ms": "Nak tukar alamat, bleh check?",
+		"normalized_text_ms": "Nak tukar alamat, boleh check?",
+		"english_loanwords": ["bleh", "check"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8054",
+		"timestamp": "2024-11-20T13:25:14Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "地址错了，能改吗？谢谢。",
+		"raw_text_ms": "Alamat salah, boleh tukar? Thanks.",
+		"normalized_text_ms": "Alamat salah, boleh tukar? Thanks.",
+		"english_loanwords": ["thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8055",
+		"timestamp": "2024-11-20T13:30:48Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我改个地址吗？还没发货。",
+		"raw_text_ms": "Bleh tukar alamat tak? Belum pos.",
+		"normalized_text_ms": "Boleh tukar alamat tak? Belum pos.",
+		"english_loanwords": ["bleh"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8056",
+		"timestamp": "2024-11-20T13:35:29Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我想修改收货地址，可以吗？",
+		"raw_text_ms": "Nak tukar alamat boleh tak?",
+		"normalized_text_ms": "Nak tukar alamat boleh tak?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8057",
+		"timestamp": "2024-11-20T13:40:55Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，能改吗？谢谢。",
+		"raw_text_ms": "Alamat salah, boleh tukar? Thanks.",
+		"normalized_text_ms": "Alamat salah, boleh tukar? Thanks.",
+		"english_loanwords": ["thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8058",
+		"timestamp": "2024-11-20T13:45:39Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改到另一个地址，可以吗？",
+		"raw_text_ms": "Nak tukar ke alamat lain boleh?",
+		"normalized_text_ms": "Nak tukar ke alamat lain boleh?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8059",
+		"timestamp": "2024-11-20T13:50:26Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址搞错了，能帮我改吗？",
+		"raw_text_ms": "Alamat salah, bleh tolong tukar?",
+		"normalized_text_ms": "Alamat salah, boleh tolong tukar?",
+		"english_loanwords": ["bleh"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8060",
+		"timestamp": "2024-11-20T13:55:41Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "能修改地址吗？还没发货。",
+		"raw_text_ms": "Boleh tukar alamat? Belum pos.",
+		"normalized_text_ms": "Boleh tukar alamat? Belum pos.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8061",
+		"timestamp": "2024-11-20T14:05:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改地址，能帮我看一下吗？谢谢。",
+		"raw_text_ms": "Nak tukar alamat, bleh check? Thanks.",
+		"normalized_text_ms": "Nak tukar alamat, boleh check? Thanks.",
+		"english_loanwords": ["bleh", "check", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8062",
+		"timestamp": "2024-11-20T14:10:25Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，能改吗？还没发货。",
+		"raw_text_ms": "Alamat salah, boleh tukar? Belum pos.",
+		"normalized_text_ms": "Alamat salah, boleh tukar? Belum pos.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8063",
+		"timestamp": "2024-11-20T14:15:57Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我修改收货地址吗？谢谢。",
+		"raw_text_ms": "Bleh tukar alamat tak? Thanks.",
+		"normalized_text_ms": "Boleh tukar alamat tak? Thanks.",
+		"english_loanwords": ["bleh", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8064",
+		"timestamp": "2024-11-20T14:20:56Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改到另一个地址，可以吗？",
+		"raw_text_ms": "Nak tukar ke address lain boleh?",
+		"normalized_text_ms": "Nak tukar ke address lain boleh?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8065",
+		"timestamp": "2024-11-20T14:25:43Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址不对，能改吗？",
+		"raw_text_ms": "Alamat tak betul, boleh tukar?",
+		"normalized_text_ms": "Alamat tak betul, boleh tukar?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8066",
+		"timestamp": "2024-11-20T14:35:18Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我改个地址吗？谢谢。",
+		"raw_text_ms": "Bleh tukar alamat tak? Thanks.",
+		"normalized_text_ms": "Boleh tukar alamat tak? Thanks.",
+		"english_loanwords": ["bleh", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8067",
+		"timestamp": "2024-11-20T14:40:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想修改地址，可以吗？还没发货。",
+		"raw_text_ms": "Nak tukar alamat boleh? Belum pos.",
+		"normalized_text_ms": "Nak tukar alamat boleh? Belum pos.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8068",
+		"timestamp": "2024-11-20T14:45:35Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，能改一下吗？",
+		"raw_text_ms": "Alamat salah, boleh edit tak?",
+		"normalized_text_ms": "Alamat salah, boleh edit tak?",
+		"english_loanwords": ["edit"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8069",
+		"timestamp": "2024-11-20T14:50:48Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我修改送货地址吗？谢谢。",
+		"raw_text_ms": "Bleh tukar alamat hantar? Thanks.",
+		"normalized_text_ms": "Boleh tukar alamat hantar? Thanks.",
+		"english_loanwords": ["bleh", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8070",
+		"timestamp": "2024-11-20T14:55:44Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改地址，还没发货呢，能改吗？",
+		"raw_text_ms": "Nak tukar alamat, belum pos, boleh?",
+		"normalized_text_ms": "Nak tukar alamat, belum pos, boleh?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8071",
+		"timestamp": "2024-11-20T15:02:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址错了，能改吗？",
+		"raw_text_ms": "Alamat salah, boleh tukar?",
+		"normalized_text_ms": "Alamat salah, boleh tukar?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8072",
+		"timestamp": "2024-11-20T15:07:00Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我修改地址吗？我填错了。",
+		"raw_text_ms": "Bleh tolong tukar alamat tak? Sy salah.",
+		"normalized_text_ms": "Boleh tolong tukar alamat tak? Saya salah.",
+		"english_loanwords": ["bleh"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8073",
+		"timestamp": "2024-11-20T15:12:33Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改到另一个地址，可以吗？",
+		"raw_text_ms": "Nak tukar ke alamat lain boleh?",
+		"normalized_text_ms": "Nak tukar ke alamat lain boleh?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8074",
+		"timestamp": "2024-11-20T15:17:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，能改一下吗？",
+		"raw_text_ms": "Alamat salah, boleh edit?",
+		"normalized_text_ms": "Alamat salah, boleh edit?",
+		"english_loanwords": ["edit"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8075",
+		"timestamp": "2024-11-20T15:52:12Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我改个地址吗？谢谢。",
+		"raw_text_ms": "Bleh tukar alamat tak? Thanks.",
+		"normalized_text_ms": "Boleh tukar alamat tak? Thanks.",
+		"english_loanwords": ["bleh", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8076",
+		"timestamp": "2024-11-20T16:00:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想修改收货地址，可以吗？",
+		"raw_text_ms": "Nak tukar alamat boleh tak?",
+		"normalized_text_ms": "Nak tukar alamat boleh tak?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8077",
+		"timestamp": "2024-11-20T16:05:42Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "地址不对，能改吗？还没发货。",
+		"raw_text_ms": "Alamat tak betul, boleh tukar? Belum pos.",
+		"normalized_text_ms": "Alamat tak betul, boleh tukar? Belum pos.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8078",
+		"timestamp": "2024-11-20T16:10:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我修改地址吗？谢谢。",
+		"raw_text_ms": "Bleh tolong tukar alamat? Thanks.",
+		"normalized_text_ms": "Boleh tolong tukar alamat? Thanks.",
+		"english_loanwords": ["bleh", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8079",
+		"timestamp": "2024-11-20T16:15:57Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改地址，还没发货呢。",
+		"raw_text_ms": "Nak tukar alamat, belum pos.",
+		"normalized_text_ms": "Nak tukar alamat, belum pos.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8080",
+		"timestamp": "2024-11-20T16:20:48Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "地址搞错了，能改吗？谢谢。",
+		"raw_text_ms": "Alamat salah, boleh tukar? Thanks.",
+		"normalized_text_ms": "Alamat salah, boleh tukar? Thanks.",
+		"english_loanwords": ["thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8081",
+		"timestamp": "2024-11-20T16:25:36Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想换个地址寄送，可以吗？",
+		"raw_text_ms": "Nak tukar address lain boleh?",
+		"normalized_text_ms": "Nak tukar address lain boleh?",
+		"english_loanwords": ["address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8082",
+		"timestamp": "2024-11-20T16:35:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，能改吗？",
+		"raw_text_ms": "Alamat salah, boleh tukar?",
+		"normalized_text_ms": "Alamat salah, boleh tukar?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8083",
+		"timestamp": "2024-11-20T16:42:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我改一下地址吗？还没发货。",
+		"raw_text_ms": "Bleh tolong tukar alamat tak? Belum pos.",
+		"normalized_text_ms": "Boleh tolong tukar alamat tak? Belum pos.",
+		"english_loanwords": ["bleh"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8084",
+		"timestamp": "2024-11-20T16:50:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改到另一个地址，可以吗？谢谢。",
+		"raw_text_ms": "Nak tukar ke alamat lain boleh? Thanks.",
+		"normalized_text_ms": "Nak tukar ke alamat lain boleh? Thanks.",
+		"english_loanwords": ["thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8085",
+		"timestamp": "2024-11-20T16:55:50Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "地址不对，能改吗？",
+		"raw_text_ms": "Alamat tak betul, boleh tukar?",
+		"normalized_text_ms": "Alamat tak betul, boleh tukar?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8086",
+		"timestamp": "2024-11-20T17:05:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我修改收货地址吗？还没发货。",
+		"raw_text_ms": "Bleh tukar alamat tak? Belum pos.",
+		"normalized_text_ms": "Boleh tukar alamat tak? Belum pos.",
+		"english_loanwords": ["bleh"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8087",
+		"timestamp": "2024-11-20T17:10:30Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，能改一下吗？谢谢。",
+		"raw_text_ms": "Alamat salah, boleh tukar? Thanks.",
+		"normalized_text_ms": "Alamat salah, boleh tukar? Thanks.",
+		"english_loanwords": ["thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8088",
+		"timestamp": "2024-11-20T17:15:45Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改地址，能帮我看一下吗？",
+		"raw_text_ms": "Nak tukar alamat, bleh check?",
+		"normalized_text_ms": "Nak tukar alamat, boleh check?",
+		"english_loanwords": ["bleh", "check"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8089",
+		"timestamp": "2024-11-20T17:20:20Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址错了，能改吗？还没发货。",
+		"raw_text_ms": "Alamat salah, boleh tukar? Belum pos.",
+		"normalized_text_ms": "Alamat salah, boleh tukar? Belum pos.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8090",
+		"timestamp": "2024-11-20T17:25:55Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我改个地址吗？谢谢。",
+		"raw_text_ms": "Bleh tukar alamat tak? Thanks.",
+		"normalized_text_ms": "Boleh tukar alamat tak? Thanks.",
+		"english_loanwords": ["bleh", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8091",
+		"timestamp": "2024-11-20T17:30:40Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我想修改收货地址，可以吗？",
+		"raw_text_ms": "Nak tukar alamat boleh tak?",
+		"normalized_text_ms": "Nak tukar alamat boleh tak?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8092",
+		"timestamp": "2024-11-20T17:35:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，能改吗？",
+		"raw_text_ms": "Alamat salah, boleh tukar?",
+		"normalized_text_ms": "Alamat salah, boleh tukar?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8093",
+		"timestamp": "2024-11-20T17:40:50Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我修改地址吗？谢谢。",
+		"raw_text_ms": "Bleh tolong tukar alamat? Thanks.",
+		"normalized_text_ms": "Boleh tolong tukar alamat? Thanks.",
+		"english_loanwords": ["bleh", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8094",
+		"timestamp": "2024-11-20T17:45:30Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改到另一个地址，可以吗？",
+		"raw_text_ms": "Nak tukar ke alamat lain boleh?",
+		"normalized_text_ms": "Nak tukar ke alamat lain boleh?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8095",
+		"timestamp": "2024-11-20T17:50:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "地址不对，能改吗？还没发货。",
+		"raw_text_ms": "Alamat tak betul, boleh tukar? Belum pos.",
+		"normalized_text_ms": "Alamat tak betul, boleh tukar? Belum pos.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8096",
+		"timestamp": "2024-11-20T17:55:40Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我改一下地址吗？谢谢。",
+		"raw_text_ms": "Bleh tukar alamat tak? Thanks.",
+		"normalized_text_ms": "Boleh tukar alamat tak? Thanks.",
+		"english_loanwords": ["bleh", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "positive",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8097",
+		"timestamp": "2024-11-20T18:00:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想修改地址，还没发货呢。",
+		"raw_text_ms": "Nak tukar alamat, belum pos.",
+		"normalized_text_ms": "Nak tukar alamat, belum pos.",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8098",
+		"timestamp": "2024-11-20T18:05:50Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "地址填错了，能改一下吗？",
+		"raw_text_ms": "Alamat salah, boleh edit?",
+		"normalized_text_ms": "Alamat salah, boleh edit?",
+		"english_loanwords": ["edit"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8099",
+		"timestamp": "2024-11-20T18:10:35Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我修改送货地址吗？还没发货。",
+		"raw_text_ms": "Bleh tukar alamat hantar tak? Belum pos.",
+		"normalized_text_ms": "Boleh tukar alamat hantar tak? Belum pos.",
+		"english_loanwords": ["bleh"]
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-8100",
+		"timestamp": "2024-11-20T18:15:20Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我想改地址，还没发货呢，能改吗？",
+		"raw_text_ms": "Nak tukar alamat, belum pos, boleh?",
+		"normalized_text_ms": "Nak tukar alamat, belum pos, boleh?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["修改地址"],
+		"sentiment": "neutral",
+		"business_scenario": "in-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+}
+]

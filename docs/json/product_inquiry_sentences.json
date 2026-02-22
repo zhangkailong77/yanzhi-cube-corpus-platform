@@ -1,0 +1,2337 @@
+[
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10001",
+		"timestamp": "2024-11-22T09:00:00Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有什么规格？",
+		"raw_text_ms": "Product ni ada spec tak?",
+		"normalized_text_ms": "Product ni ada spec tak?",
+		"english_loanwords": ["product", "spec"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10002",
+		"timestamp": "2024-11-22T09:05:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个尺寸有多大？",
+		"raw_text_ms": "Size ni besar mana?",
+		"normalized_text_ms": "Size ni besar mana?",
+		"english_loanwords": ["size"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10003",
+		"timestamp": "2024-11-22T09:10:30Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "老板，这个产品有哪些颜色？",
+		"raw_text_ms": "Boss, product ni ada color apa?",
+		"normalized_text_ms": "Boss, product ni ada color apa?",
+		"english_loanwords": ["product", "color"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10004",
+		"timestamp": "2024-11-22T09:15:45Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品是什么材质的？",
+		"raw_text_ms": "Product ni material apa?",
+		"normalized_text_ms": "Product ni material apa?",
+		"english_loanwords": ["product", "material"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10005",
+		"timestamp": "2024-11-22T09:20:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品怎么用？",
+		"raw_text_ms": "Product ni macam mana guna?",
+		"normalized_text_ms": "Product ni macam mana guna?",
+		"english_loanwords": ["product"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10006",
+		"timestamp": "2024-11-22T09:25:30Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品适合什么人用？",
+		"raw_text_ms": "Product ni sesuai untuk siapa?",
+		"normalized_text_ms": "Product ni sesuai untuk siapa?",
+		"english_loanwords": ["product"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10007",
+		"timestamp": "2024-11-22T09:30:22Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有配套吗？",
+		"raw_text_ms": "Product ni ada set tak?",
+		"normalized_text_ms": "Product ni ada set tak?",
+		"english_loanwords": ["product", "set"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10008",
+		"timestamp": "2024-11-22T09:35:40Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想了解一下这个产品，麻烦了。",
+		"raw_text_ms": "Sy nak tahu pasal product ni, thanks.",
+		"normalized_text_ms": "Saya nak tahu pasal product ni, thanks.",
+		"english_loanwords": ["product", "thanks"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "positive",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10009",
+		"timestamp": "2024-11-22T09:40:33Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有什么特点？",
+		"raw_text_ms": "Product ni ada feature apa?",
+		"normalized_text_ms": "Product ni ada feature apa?",
+		"english_loanwords": ["product", "feature"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10010",
+		"timestamp": "2024-11-22T09:45:56Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品质量怎么样？",
+		"raw_text_ms": "Quality product ni camne?",
+		"normalized_text_ms": "Quality product ni camne?",
+		"english_loanwords": ["quality", "product", "camne"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10011",
+		"timestamp": "2024-11-22T09:50:28Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品耐用吗？",
+		"raw_text_ms": "Product ni tahan lama tak?",
+		"normalized_text_ms": "Product ni tahan lama tak?",
+		"english_loanwords": ["product"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10012",
+		"timestamp": "2024-11-22T09:55:51Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品和别的有什么不同？",
+		"raw_text_ms": "Product ni lain dr yg lain apa?",
+		"normalized_text_ms": "Product ni lain dari yang lain apa?",
+		"english_loanwords": ["product"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dr": "dari",
+			"yg": "yang"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10013",
+		"timestamp": "2024-11-22T10:00:28Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有保修吗？",
+		"raw_text_ms": "Product ni ada warranty tak?",
+		"normalized_text_ms": "Product ni ada warranty tak?",
+		"english_loanwords": ["product", "warranty"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10014",
+		"timestamp": "2024-11-22T10:05:36Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我想买这个产品，有现货吗？",
+		"raw_text_ms": "Sy nak beli product ni, ada stock?",
+		"normalized_text_ms": "Saya nak beli product ni, ada stock?",
+		"english_loanwords": ["product", "stock"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10015",
+		"timestamp": "2024-11-22T10:10:19Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品可以退货吗？",
+		"raw_text_ms": "Product ni boleh return tak?",
+		"normalized_text_ms": "Product ni boleh return tak?",
+		"english_loanwords": ["product", "return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10016",
+		"timestamp": "2024-11-22T10:15:44Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品怎么安装？",
+		"raw_text_ms": "Product ni macam mana install?",
+		"normalized_text_ms": "Product ni macam mana install?",
+		"english_loanwords": ["product", "install"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10017",
+		"timestamp": "2024-11-22T10:20:33Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能送货上门吗？",
+		"raw_text_ms": "Product ni bleh hantar ke rumah tak?",
+		"normalized_text_ms": "Product ni boleh hantar ke rumah tak?",
+		"english_loanwords": ["product", "bleh"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10018",
+		"timestamp": "2024-11-22T10:25:07Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有库存吗？",
+		"raw_text_ms": "Product ni ada stock tak?",
+		"normalized_text_ms": "Product ni ada stock tak?",
+		"english_loanwords": ["product", "stock"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10019",
+		"timestamp": "2024-11-22T10:30:48Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有什么功能？",
+		"raw_text_ms": "Product ni ada function apa?",
+		"normalized_text_ms": "Product ni ada function apa?",
+		"english_loanwords": ["product", "function"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10020",
+		"timestamp": "2024-11-22T10:35:15Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能用于什么地方？",
+		"raw_text_ms": "Product ni boleh guna di mana?",
+		"normalized_text_ms": "Product ni boleh guna di mana?",
+		"english_loanwords": ["product"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10021",
+		"timestamp": "2024-11-22T10:40:55Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有其他款式吗？",
+		"raw_text_ms": "Product ni ada style lain tak?",
+		"normalized_text_ms": "Product ni ada style lain tak?",
+		"english_loanwords": ["product", "style"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10022",
+		"timestamp": "2024-11-22T10:45:27Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品需要电池吗？",
+		"raw_text_ms": "Product ni perlukan battery tak?",
+		"normalized_text_ms": "Product ni perlukan battery tak?",
+		"english_loanwords": ["product", "battery"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10023",
+		"timestamp": "2024-11-22T10:50:41Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想问一下这个产品的信息。",
+		"raw_text_ms": "Sy nak tahu info product ni.",
+		"normalized_text_ms": "Saya nak tahu info product ni.",
+		"english_loanwords": ["info", "product"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10024",
+		"timestamp": "2024-11-22T10:55:51Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品包装怎么样？",
+		"raw_text_ms": "Packaging product ni camne?",
+		"normalized_text_ms": "Packaging product ni camne?",
+		"english_loanwords": ["packaging", "product", "camne"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10025",
+		"timestamp": "2024-11-22T11:00:24Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有使用说明吗？",
+		"raw_text_ms": "Product ni ada instruction tak?",
+		"normalized_text_ms": "Product ni ada instruction tak?",
+		"english_loanwords": ["product", "instruction"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10026",
+		"timestamp": "2024-11-22T11:05:47Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品容易使用吗？",
+		"raw_text_ms": "Product ni senang guna tak?",
+		"normalized_text_ms": "Product ni senang guna tak?",
+		"english_loanwords": ["product"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10027",
+		"timestamp": "2024-11-22T11:10:37Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有什么优点？",
+		"raw_text_ms": "Product ni ada benefit apa?",
+		"normalized_text_ms": "Product ni ada benefit apa?",
+		"english_loanwords": ["product", "benefit"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10028",
+		"timestamp": "2024-11-22T11:15:57Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品适合什么场合用？",
+		"raw_text_ms": "Product ni sesuai utk apa?",
+		"normalized_text_ms": "Product ni sesuai untuk apa?",
+		"english_loanwords": ["product"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"utk": "untuk"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10029",
+		"timestamp": "2024-11-22T11:20:33Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能防水吗？",
+		"raw_text_ms": "Product ni waterproof tak?",
+		"normalized_text_ms": "Product ni waterproof tak?",
+		"english_loanwords": ["product", "waterproof"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10030",
+		"timestamp": "2024-11-22T11:25:46Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有赠品吗？",
+		"raw_text_ms": "Product ni ada free gift tak?",
+		"normalized_text_ms": "Product ni ada free gift tak?",
+		"english_loanwords": ["product", "free", "gift"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10031",
+		"timestamp": "2024-11-22T11:30:16Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品重量是多少？",
+		"raw_text_ms": "Berat product ni berapa?",
+		"normalized_text_ms": "Berat product ni berapa?",
+		"english_loanwords": ["product"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10032",
+		"timestamp": "2024-11-22T11:35:52Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品需要保养吗？",
+		"raw_text_ms": "Product ni perlukan maintenance tak?",
+		"normalized_text_ms": "Product ni perlukan maintenance tak?",
+		"english_loanwords": ["product", "maintenance"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10033",
+		"timestamp": "2024-11-22T11:40:27Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品适合儿童使用吗？",
+		"raw_text_ms": "Product ni sesuai utk kanak-kanak tak?",
+		"normalized_text_ms": "Product ni sesuai untuk kanak-kanak tak?",
+		"english_loanwords": ["product"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"utk": "untuk"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10034",
+		"timestamp": "2024-11-22T11:45:35Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有什么配件？",
+		"raw_text_ms": "Product ni ada apa配件?",
+		"normalized_text_ms": "Product ni ada apa配件?",
+		"english_loanwords": ["product"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10035",
+		"timestamp": "2024-11-22T11:50:41Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品可以用多久？",
+		"raw_text_ms": "Product ni boleh guna berapa lama?",
+		"normalized_text_ms": "Product ni boleh guna berapa lama?",
+		"english_loanwords": ["product"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10036",
+		"timestamp": "2024-11-22T11:55:54Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能充电吗？",
+		"raw_text_ms": "Product ni bleh charge tak?",
+		"normalized_text_ms": "Product ni boleh charge tak?",
+		"english_loanwords": ["product", "bleh", "charge"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10037",
+		"timestamp": "2024-11-22T12:00:25Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有多个尺寸吗？",
+		"raw_text_ms": "Product ni ada banyak size tak?",
+		"normalized_text_ms": "Product ni ada banyak size tak?",
+		"english_loanwords": ["product", "size"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10038",
+		"timestamp": "2024-11-22T12:05:37Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品价格合理吗？",
+		"raw_text_ms": "Harga product ni reasonable tak?",
+		"normalized_text_ms": "Harga product ni reasonable tak?",
+		"english_loanwords": ["product", "reasonable"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10039",
+		"timestamp": "2024-11-22T12:10:43Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有什么评价？",
+		"raw_text_ms": "Product ni ada review apa?",
+		"normalized_text_ms": "Product ni ada review apa?",
+		"english_loanwords": ["product", "review"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10040",
+		"timestamp": "2024-11-22T12:15:46Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有视频介绍吗？",
+		"raw_text_ms": "Product ni ada video intro tak?",
+		"normalized_text_ms": "Product ni ada video intro tak?",
+		"english_loanwords": ["product", "video", "intro"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10041",
+		"timestamp": "2024-11-22T12:20:33Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品安全吗？",
+		"raw_text_ms": "Product ni safe tak?",
+		"normalized_text_ms": "Product ni safe tak?",
+		"english_loanwords": ["product", "safe"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10042",
+		"timestamp": "2024-11-22T12:25:07Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有现货吗？",
+		"raw_text_ms": "Product ni ada ready stock tak?",
+		"normalized_text_ms": "Product ni ada ready stock tak?",
+		"english_loanwords": ["product", "ready", "stock"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10043",
+		"timestamp": "2024-11-22T12:30:16Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能定制吗？",
+		"raw_text_ms": "Product ni bleh customize tak?",
+		"normalized_text_ms": "Product ni boleh customize tak?",
+		"english_loanwords": ["product", "bleh", "customize"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10044",
+		"timestamp": "2024-11-22T12:35:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能出口吗？",
+		"raw_text_ms": "Product ni bleh export tak?",
+		"normalized_text_ms": "Product ni boleh export tak?",
+		"english_loanwords": ["product", "bleh", "export"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10045",
+		"timestamp": "2024-11-22T12:40:55Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品支持什么语言？",
+		"raw_text_ms": "Product ni support bahasa apa?",
+		"normalized_text_ms": "Product ni support bahasa apa?",
+		"english_loanwords": ["product", "support"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10046",
+		"timestamp": "2024-11-22T12:45:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有证书吗？",
+		"raw_text_ms": "Product ni ada cert tak?",
+		"normalized_text_ms": "Product ni ada cert tak?",
+		"english_loanwords": ["product", "cert"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10047",
+		"timestamp": "2024-11-22T12:50:26Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品可以批量购买吗？",
+		"raw_text_ms": "Product ni boleh beli bulk tak?",
+		"normalized_text_ms": "Product ni boleh beli bulk tak?",
+		"english_loanwords": ["product", "bulk"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10048",
+		"timestamp": "2024-11-22T12:55:57Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有折扣吗？",
+		"raw_text_ms": "Product ni ada diskaun tak?",
+		"normalized_text_ms": "Product ni ada diskaun tak?",
+		"english_loanwords": ["product", "diskaun"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10049",
+		"timestamp": "2024-11-22T13:00:15Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品适合送礼吗？",
+		"raw_text_ms": "Product ni sesuai utk gift tak?",
+		"normalized_text_ms": "Product ni sesuai untuk gift tak?",
+		"english_loanwords": ["product", "gift"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"utk": "untuk"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10050",
+		"timestamp": "2024-11-22T13:05:47Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有其他颜色吗？",
+		"raw_text_ms": "Product ni ada color lain tak?",
+		"normalized_text_ms": "Product ni ada color lain tak?",
+		"english_loanwords": ["product", "color"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10051",
+		"timestamp": "2024-11-22T13:10:23Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有什么材质可选？",
+		"raw_text_ms": "Product ni ada material apa boleh pilih?",
+		"normalized_text_ms": "Product ni ada material apa boleh pilih?",
+		"english_loanwords": ["product", "material"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10052",
+		"timestamp": "2024-11-22T13:15:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品需要组装吗？",
+		"raw_text_ms": "Product ni perlukan assembly tak?",
+		"normalized_text_ms": "Product ni perlukan assembly tak?",
+		"english_loanwords": ["product", "assembly"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10053",
+		"timestamp": "2024-11-22T13:20:56Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能连接蓝牙吗？",
+		"raw_text_ms": "Product ni bleh connect bluetooth tak?",
+		"normalized_text_ms": "Product ni boleh connect bluetooth tak?",
+		"english_loanwords": ["product", "bleh", "connect", "bluetooth"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10054",
+		"timestamp": "2024-11-22T13:25:14Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有保修期吗？",
+		"raw_text_ms": "Product ni ada warranty period tak?",
+		"normalized_text_ms": "Product ni ada warranty period tak?",
+		"english_loanwords": ["product", "warranty", "period"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10055",
+		"timestamp": "2024-11-22T13:30:48Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能在线支付吗？",
+		"raw_text_ms": "Product ni bleh bayar online tak?",
+		"normalized_text_ms": "Product ni boleh bayar online tak?",
+		"english_loanwords": ["product", "bleh", "online"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10056",
+		"timestamp": "2024-11-22T13:35:29Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有什么品牌？",
+		"raw_text_ms": "Product ni brand apa?",
+		"normalized_text_ms": "Product ni brand apa?",
+		"english_loanwords": ["product", "brand"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10057",
+		"timestamp": "2024-11-22T13:40:55Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品需要APP吗？",
+		"raw_text_ms": "Product ni perlukan app tak?",
+		"normalized_text_ms": "Product ni perlukan app tak?",
+		"english_loanwords": ["product", "app"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10058",
+		"timestamp": "2024-11-22T13:45:39Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能送货多远？",
+		"raw_text_ms": "Product ni bleh hantar sejauh mana?",
+		"normalized_text_ms": "Product ni boleh hantar sejauh mana?",
+		"english_loanwords": ["product", "bleh"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10059",
+		"timestamp": "2024-11-22T13:50:26Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有什么规格可选？",
+		"raw_text_ms": "Product ni ada spec apa boleh pilih?",
+		"normalized_text_ms": "Product ni ada spec apa boleh pilih?",
+		"english_loanwords": ["product", "spec"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10060",
+		"timestamp": "2024-11-22T13:55:41Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能自提吗？",
+		"raw_text_ms": "Product ni bleh pick up sendiri tak?",
+		"normalized_text_ms": "Product ni boleh pick up sendiri tak?",
+		"english_loanwords": ["product", "bleh", "pick"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10061",
+		"timestamp": "2024-11-22T14:05:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有售后服务吗？",
+		"raw_text_ms": "Product ni ada after sales tak?",
+		"normalized_text_ms": "Product ni ada after sales tak?",
+		"english_loanwords": ["product", "after", "sales"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10062",
+		"timestamp": "2024-11-22T14:10:25Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有什么限制吗？",
+		"raw_text_ms": "Product ni ada limit apa?",
+		"normalized_text_ms": "Product ni ada limit apa?",
+		"english_loanwords": ["product", "limit"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10063",
+		"timestamp": "2024-11-22T14:15:57Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能退款吗？",
+		"raw_text_ms": "Product ni boleh refund tak?",
+		"normalized_text_ms": "Product ni boleh refund tak?",
+		"english_loanwords": ["product", "refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10064",
+		"timestamp": "2024-11-22T14:20:56Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有其他功能吗？",
+		"raw_text_ms": "Product ni ada function lain tak?",
+		"normalized_text_ms": "Product ni ada function lain tak?",
+		"english_loanwords": ["product", "function"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10065",
+		"timestamp": "2024-11-22T14:25:43Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能换货吗？",
+		"raw_text_ms": "Product ni boleh exchange tak?",
+		"normalized_text_ms": "Product ni boleh exchange tak?",
+		"english_loanwords": ["product", "exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10066",
+		"timestamp": "2024-11-22T14:35:18Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品需要定期保养吗？",
+		"raw_text_ms": "Product ni perlukan regular maintenance tak?",
+		"normalized_text_ms": "Product ni perlukan regular maintenance tak?",
+		"english_loanwords": ["product", "regular", "maintenance"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10067",
+		"timestamp": "2024-11-22T14:40:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有什么特殊功能？",
+		"raw_text_ms": "Product ni ada special function apa?",
+		"normalized_text_ms": "Product ni ada special function apa?",
+		"english_loanwords": ["product", "special", "function"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10068",
+		"timestamp": "2024-11-22T14:45:35Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有优惠券吗？",
+		"raw_text_ms": "Product ni ada voucher tak?",
+		"normalized_text_ms": "Product ni ada voucher tak?",
+		"english_loanwords": ["product", "voucher"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10069",
+		"timestamp": "2024-11-22T14:50:48Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品支持分期付款吗？",
+		"raw_text_ms": "Product ni support installment tak?",
+		"normalized_text_ms": "Product ni support installment tak?",
+		"english_loanwords": ["product", "support", "installment"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10070",
+		"timestamp": "2024-11-22T14:55:44Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品可以加急吗？",
+		"raw_text_ms": "Product ni boleh express tak?",
+		"normalized_text_ms": "Product ni boleh express tak?",
+		"english_loanwords": ["product", "express"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10071",
+		"timestamp": "2024-11-22T15:02:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能保存多久？",
+		"raw_text_ms": "Product ni boleh simpan berapa lama?",
+		"normalized_text_ms": "Product ni boleh simpan berapa lama?",
+		"english_loanwords": ["product"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10072",
+		"timestamp": "2024-11-22T15:07:00Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有促销吗？",
+		"raw_text_ms": "Product ni ada promotion tak?",
+		"normalized_text_ms": "Product ni ada promotion tak?",
+		"english_loanwords": ["product", "promotion"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10073",
+		"timestamp": "2024-11-22T15:12:33Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能送货吗？",
+		"raw_text_ms": "Product ni boleh hantar tak?",
+		"normalized_text_ms": "Product ni boleh hantar tak?",
+		"english_loanwords": ["product"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10074",
+		"timestamp": "2024-11-22T15:17:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有什么规格？",
+		"raw_text_ms": "Product ni ada spec apa?",
+		"normalized_text_ms": "Product ni ada spec apa?",
+		"english_loanwords": ["product", "spec"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10075",
+		"timestamp": "2024-11-22T15:52:12Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能批量订货吗？",
+		"raw_text_ms": "Product ni boleh order bulk tak?",
+		"normalized_text_ms": "Product ni boleh order bulk tak?",
+		"english_loanwords": ["product", "order", "bulk"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10076",
+		"timestamp": "2024-11-22T16:00:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有保质期吗？",
+		"raw_text_ms": "Product ni ada expiry date tak?",
+		"normalized_text_ms": "Product ni ada expiry date tak?",
+		"english_loanwords": ["product", "expiry", "date"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10077",
+		"timestamp": "2024-11-22T16:05:42Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能定制尺寸吗？",
+		"raw_text_ms": "Product ni boleh custom size tak?",
+		"normalized_text_ms": "Product ni boleh custom size tak?",
+		"english_loanwords": ["product", "custom", "size"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10078",
+		"timestamp": "2024-11-22T16:10:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有样品吗？",
+		"raw_text_ms": "Product ni ada sample tak?",
+		"normalized_text_ms": "Product ni ada sample tak?",
+		"english_loanwords": ["product", "sample"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10079",
+		"timestamp": "2024-11-22T16:15:57Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有配送范围吗？",
+		"raw_text_ms": "Product ni ada coverage area tak?",
+		"normalized_text_ms": "Product ni ada coverage area tak?",
+		"english_loanwords": ["product", "coverage", "area"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10080",
+		"timestamp": "2024-11-22T16:20:48Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能在线预订吗？",
+		"raw_text_ms": "Product ni boleh book online tak?",
+		"normalized_text_ms": "Product ni boleh book online tak?",
+		"english_loanwords": ["product", "book", "online"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10081",
+		"timestamp": "2024-11-22T16:25:36Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有组合套餐吗？",
+		"raw_text_ms": "Product ni ada package set tak?",
+		"normalized_text_ms": "Product ni ada package set tak?",
+		"english_loanwords": ["product", "package", "set"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10082",
+		"timestamp": "2024-11-22T16:35:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有什么颜色？",
+		"raw_text_ms": "Product ni ada color apa?",
+		"normalized_text_ms": "Product ni ada color apa?",
+		"english_loanwords": ["product", "color"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10083",
+		"timestamp": "2024-11-22T16:42:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品需要额外费用吗？",
+		"raw_text_ms": "Product ni perlukan extra charge tak?",
+		"normalized_text_ms": "Product ni perlukan extra charge tak?",
+		"english_loanwords": ["product", "extra", "charge"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10084",
+		"timestamp": "2024-11-22T16:50:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有用户评价吗？",
+		"raw_text_ms": "Product ni ada user review tak?",
+		"normalized_text_ms": "Product ni ada user review tak?",
+		"english_loanwords": ["product", "user", "review"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10085",
+		"timestamp": "2024-11-22T16:55:50Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能退换吗？",
+		"raw_text_ms": "Product ni boleh return exchange tak?",
+		"normalized_text_ms": "Product ni boleh return exchange tak?",
+		"english_loanwords": ["product", "return", "exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10086",
+		"timestamp": "2024-11-22T17:05:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有限量吗？",
+		"raw_text_ms": "Product ni ada limited edition tak?",
+		"normalized_text_ms": "Product ni ada limited edition tak?",
+		"english_loanwords": ["product", "limited", "edition"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10087",
+		"timestamp": "2024-11-22T17:10:30Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有礼品包装吗？",
+		"raw_text_ms": "Product ni ada gift wrap tak?",
+		"normalized_text_ms": "Product ni ada gift wrap tak?",
+		"english_loanwords": ["product", "gift", "wrap"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10088",
+		"timestamp": "2024-11-22T17:15:45Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能快速发货吗？",
+		"raw_text_ms": "Product ni boleh express shipping tak?",
+		"normalized_text_ms": "Product ni boleh express shipping tak?",
+		"english_loanwords": ["product", "express", "shipping"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10089",
+		"timestamp": "2024-11-22T17:20:20Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品需要特殊安装吗？",
+		"raw_text_ms": "Product ni perlukan special install tak?",
+		"normalized_text_ms": "Product ni perlukan special install tak?",
+		"english_loanwords": ["product", "special", "install"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10090",
+		"timestamp": "2024-11-22T17:25:55Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有保修卡吗？",
+		"raw_text_ms": "Product ni ada warranty card tak?",
+		"normalized_text_ms": "Product ni ada warranty card tak?",
+		"english_loanwords": ["product", "warranty", "card"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10091",
+		"timestamp": "2024-11-22T17:30:40Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有什么特点吗？",
+		"raw_text_ms": "Product ni ada feature apa?",
+		"normalized_text_ms": "Product ni ada feature apa?",
+		"english_loanwords": ["product", "feature"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10092",
+		"timestamp": "2024-11-22T17:35:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有其他版本吗？",
+		"raw_text_ms": "Product ni ada version lain tak?",
+		"normalized_text_ms": "Product ni ada version lain tak?",
+		"english_loanwords": ["product", "version"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10093",
+		"timestamp": "2024-11-22T17:40:50Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有库存预警吗？",
+		"raw_text_ms": "Product ni ada stock alert tak?",
+		"normalized_text_ms": "Product ni ada stock alert tak?",
+		"english_loanwords": ["product", "stock", "alert"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10094",
+		"timestamp": "2024-11-22T17:45:30Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能在线客服吗？",
+		"raw_text_ms": "Product ni boleh online support tak?",
+		"normalized_text_ms": "Product ni boleh online support tak?",
+		"english_loanwords": ["product", "online", "support"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10095",
+		"timestamp": "2024-11-22T17:50:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有季节性吗？",
+		"raw_text_ms": "Product ni ada seasonal tak?",
+		"normalized_text_ms": "Product ni ada seasonal tak?",
+		"english_loanwords": ["product", "seasonal"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10096",
+		"timestamp": "2024-11-22T17:55:40Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有会员价吗？",
+		"raw_text_ms": "Product ni ada member price tak?",
+		"normalized_text_ms": "Product ni ada member price tak?",
+		"english_loanwords": ["product", "member", "price"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10097",
+		"timestamp": "2024-11-22T18:00:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能支持几种语言？",
+		"raw_text_ms": "Product ni support berapa bahasa?",
+		"normalized_text_ms": "Product ni support berapa bahasa?",
+		"english_loanwords": ["product", "support"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10098",
+		"timestamp": "2024-11-22T18:05:50Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有实物图吗？",
+		"raw_text_ms": "Product ni ada actual photo tak?",
+		"normalized_text_ms": "Product ni ada actual photo tak?",
+		"english_loanwords": ["product", "actual", "photo"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10099",
+		"timestamp": "2024-11-22T18:10:35Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品能开票吗？",
+		"raw_text_ms": "Product ni boleh issue invoice tak?",
+		"normalized_text_ms": "Product ni boleh issue invoice tak?",
+		"english_loanwords": ["product", "issue", "invoice"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-10100",
+		"timestamp": "2024-11-22T18:15:20Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "这个产品有详细介绍吗？",
+		"raw_text_ms": "Product ni ada detail description tak?",
+		"normalized_text_ms": "Product ni ada detail description tak?",
+		"english_loanwords": ["product", "detail", "description"]
+	},
+	"pragmatic_layer": {
+		"intent": ["产品咨询"],
+		"sentiment": "neutral",
+		"business_scenario": "pre-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+}
+]

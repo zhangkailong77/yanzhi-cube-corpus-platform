@@ -43,7 +43,7 @@ No,Category,Guideline,Description,Do,Don't,Code Good,Code Bad,Severity,Docs URL
 42,Testing,Use testing-library queries,Use accessible queries,getByRole getByLabelText,getByTestId for everything,getByRole('button'),getByTestId('submit-btn'),Medium,https://testing-library.com/docs/queries/about#priority
 43,Accessibility,Use semantic HTML,Proper HTML elements for their purpose,button for clicks nav for navigation,div with onClick for buttons,<button onClick={...}>,<div onClick={...}>,High,https://react.dev/reference/react-dom/components#all-html-components
 44,Accessibility,Manage focus properly,Handle focus for modals dialogs,Focus trap in modals return focus on close,No focus management,useEffect to focus input,Modal without focus trap,High,
-45,Accessibility,Announce dynamic content,Use ARIA live regions for updates,aria-live for dynamic updates,Silent updates to screen readers,"<div aria-live=""polite"">{msg}</div>",<div>{msg}</div>,Medium,
+45,Accessibility,Announce dynamic content,Use ARIA live regions for updates,aria-live for dynamic updates,Silent updates to screen readers,"<div aria-live=""positive"">{msg}</div>",<div>{msg}</div>,Medium,
 46,Accessibility,Label form controls,Associate labels with inputs,htmlFor matching input id,Placeholder as only label,"<label htmlFor=""email"">Email</label>","<input placeholder=""Email""/>",High,
 47,TypeScript,Type component props,Define interfaces for all props,interface Props with all prop types,any or missing types,interface Props { name: string },function Component(props: any),High,
 48,TypeScript,Type state properly,Provide types for useState,useState<Type>() for complex state,Inferred any types,useState<User | null>(null),useState(null),Medium,

@@ -1,0 +1,2486 @@
+[{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3001",
+		"timestamp": "2024-11-20T10:15:30Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想退货，质量太差了。",
+		"raw_text_ms": "Sy nk return, quality teruk sangat.",
+		"normalized_text_ms": "Saya nak return, quality teruk sangat.",
+		"english_loanwords": ["return", "quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3002",
+		"timestamp": "2024-11-20T10:20:45Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个尺寸不对，可以换货吗？",
+		"raw_text_ms": "Size salah, bleh exchange tak?",
+		"normalized_text_ms": "Size salah, boleh exchange tak?",
+		"english_loanwords": ["size", "exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3003",
+		"timestamp": "2024-11-20T10:25:10Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的货和图片不一样！我要退货。",
+		"raw_text_ms": "Barang dh terima x sama mcm dlm pic! Nak return.",
+		"normalized_text_ms": "Barang dah terima tak sama macam dalam picture! Nak return.",
+		"english_loanwords": ["pic", "picture", "return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"x": "tak",
+			"mcm": "macam",
+			"dlm": "dalam"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3004",
+		"timestamp": "2024-11-20T10:30:22Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "怎么退货？能教我一下吗？",
+		"raw_text_ms": "Camne nak return? Boleh ajar sy tak?",
+		"normalized_text_ms": "Macam mana nak return? Boleh ajar saya tak?",
+		"english_loanwords": ["return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货流程"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3005",
+		"timestamp": "2024-11-20T10:35:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "质量不行，我要退款。",
+		"raw_text_ms": "Quality x ok, nk refund.",
+		"normalized_text_ms": "Quality tak ok, nak refund.",
+		"english_loanwords": ["quality", "refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退款申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3006",
+		"timestamp": "2024-11-20T10:40:33Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我想换一个颜色，可以吗？",
+		"raw_text_ms": "Sy nk tukar colour lain, boleh ke?",
+		"normalized_text_ms": "Saya nak tukar warna lain, boleh ke?",
+		"english_loanwords": ["colour"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3007",
+		"timestamp": "2024-11-20T10:45:27Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "收到货了，但是是坏的！我要退货！",
+		"raw_text_ms": "Barang dh sampai tapi rosak! Nak return!",
+		"normalized_text_ms": "Barang dah sampai tapi rosak! Nak return!",
+		"english_loanwords": ["return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3008",
+		"timestamp": "2024-11-20T10:50:14Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "退款多久能到账？",
+		"raw_text_ms": "Refund bila masuk account?",
+		"normalized_text_ms": "Refund bila masuk account?",
+		"english_loanwords": ["refund", "account"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退款时间"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3009",
+		"timestamp": "2024-11-20T10:55:41Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "运费怎么算？谁出？",
+		"raw_text_ms": "Postage camne? Siapa bayar?",
+		"normalized_text_ms": "Postage macam mana? Siapa bayar?",
+		"english_loanwords": ["postage"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货运费"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3010",
+		"timestamp": "2024-11-20T11:00:28Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我收到退货的快递单号了，请问什么时候退款？",
+		"raw_text_ms": "Sy dh dpt tracking no, bila refund?",
+		"normalized_text_ms": "Saya dah dapat tracking no, bila refund?",
+		"english_loanwords": ["tracking", "no", "refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退款时间"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"dh": "dah",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3011",
+		"timestamp": "2024-11-20T11:05:36Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "货已经寄回去了，什么时候能换货？",
+		"raw_text_ms": "Barang dh pos balik, bila boleh exchange?",
+		"normalized_text_ms": "Barang dah pos balik, bila boleh exchange?",
+		"english_loanwords": ["exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问换货时间"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3012",
+		"timestamp": "2024-11-20T11:10:19Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "退货运费是你出吗？",
+		"raw_text_ms": "Postage return awak bayar ke?",
+		"normalized_text_ms": "Postage return awak bayar ke?",
+		"english_loanwords": ["postage", "return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货运费"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3013",
+		"timestamp": "2024-11-20T11:15:44Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "这个颜色和图片不一样，我要退货。",
+		"raw_text_ms": "Colour x sama mcm pic, nk return.",
+		"normalized_text_ms": "Colour tak sama macam picture, nak return.",
+		"english_loanwords": ["colour", "pic", "picture", "return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"mcm": "macam",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3014",
+		"timestamp": "2024-11-20T11:20:53Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "能不能帮我处理一下退货？",
+		"raw_text_ms": "Bleh tolong handle return tak?",
+		"normalized_text_ms": "Boleh tolong handle return tak?",
+		"english_loanwords": ["bleh", "handle", "return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3015",
+		"timestamp": "2024-11-20T11:25:07Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的产品是坏的，我要换货。",
+		"raw_text_ms": "Barang yg terima rosak, nk exchange.",
+		"normalized_text_ms": "Barang yang terima rosak, nak exchange.",
+		"english_loanwords": ["exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"yg": "yang",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3016",
+		"timestamp": "2024-11-20T11:30:16Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "退款怎么处理？需要提供什么信息？",
+		"raw_text_ms": "Refund camne process? Perlukan apa info?",
+		"normalized_text_ms": "Refund macam mana process? Perlukan apa info?",
+		"english_loanwords": ["refund", "process", "info"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退款流程"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3017",
+		"timestamp": "2024-11-20T11:35:29Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "我申请退货了，怎么还没收到确认？",
+		"raw_text_ms": "Sy dh apply return, x dpt confirmation lg.",
+		"normalized_text_ms": "Saya dah apply return, tak dapat confirmation lagi.",
+		"english_loanwords": ["return", "apply", "confirmation"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货跟进"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"dh": "dah",
+			"x": "tak",
+			"dpt": "dapat",
+			"lg": "lagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3018",
+		"timestamp": "2024-11-20T11:40:42Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "换货要多久才能收到？",
+		"raw_text_ms": "Exchange brapa lama boleh dpt?",
+		"normalized_text_ms": "Exchange berapa lama boleh dapat?",
+		"english_loanwords": ["exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问换货时间"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"brapa": "berapa",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3019",
+		"timestamp": "2024-11-20T11:45:35Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "退货地址在哪里？",
+		"raw_text_ms": "Return address kat mana?",
+		"normalized_text_ms": "Return address kat mana?",
+		"english_loanwords": ["return", "address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货地址"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3020",
+		"timestamp": "2024-11-20T11:50:18Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西质量太差了，我要退款！",
+		"raw_text_ms": "Barang yg dpt quality teruk! Nak refund!",
+		"normalized_text_ms": "Barang yang dapat quality teruk! Nak refund!",
+		"english_loanwords": ["quality", "refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退款申请"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"yg": "yang",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3021",
+		"timestamp": "2024-11-20T11:55:51Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想换个颜色，怎么操作？",
+		"raw_text_ms": "Sy nk tukar colour lain, camne?",
+		"normalized_text_ms": "Saya nak tukar warna lain, macam mana?",
+		"english_loanwords": ["colour"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak",
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3022",
+		"timestamp": "2024-11-20T12:00:24Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "货已经退了，什么时候退款？",
+		"raw_text_ms": "Barang dh return, bila refund?",
+		"normalized_text_ms": "Barang dah return, bila refund?",
+		"english_loanwords": ["return", "refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退款时间"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3023",
+		"timestamp": "2024-11-20T12:05:37Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西是坏的，你们什么意思？",
+		"raw_text_ms": "Barang rosak, awak apa maksud?",
+		"normalized_text_ms": "Barang rosak, awak apa maksud?",
+		"english_loanwords": []
+	},
+	"pragmatic_layer": {
+		"intent": ["投诉产品质量"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3024",
+		"timestamp": "2024-11-20T12:10:43Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "退货流程是什么？",
+		"raw_text_ms": "Return process camne?",
+		"normalized_text_ms": "Return process macam mana?",
+		"english_loanwords": ["return", "process"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货流程"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3025",
+		"timestamp": "2024-11-20T12:15:19Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我想退货，要多久才能退款？",
+		"raw_text_ms": "Sy nk return, brapa lama refund?",
+		"normalized_text_ms": "Saya nak return, berapa lama refund?",
+		"english_loanwords": ["return", "refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请", "询问退款时间"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak",
+			"brapa": "berapa"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3026",
+		"timestamp": "2024-11-20T12:20:56Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西不对，我要换货。",
+		"raw_text_ms": "Barang yg dpt salah, nk exchange.",
+		"normalized_text_ms": "Barang yang dapat salah, nak exchange.",
+		"english_loanwords": ["exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"yg": "yang",
+			"dpt": "dapat",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3027",
+		"timestamp": "2024-11-20T12:25:32Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "退货运费很贵，你们能承担吗？",
+		"raw_text_ms": "Postage return mahal, awak boleh cover ke?",
+		"normalized_text_ms": "Postage return mahal, awak boleh cover ke?",
+		"english_loanwords": ["postage", "return", "cover"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货运费"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3028",
+		"timestamp": "2024-11-20T12:30:48Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我已经申请退款了，什么时候到账？",
+		"raw_text_ms": "Sy dh apply refund, bila masuk account?",
+		"normalized_text_ms": "Saya dah apply refund, bila masuk account?",
+		"english_loanwords": ["apply", "refund", "account"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退款时间"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3029",
+		"timestamp": "2024-11-20T12:35:15Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "质量不行，我想退货。",
+		"raw_text_ms": "Quality x bagus, nk return.",
+		"normalized_text_ms": "Quality tak bagus, nak return.",
+		"english_loanwords": ["quality", "return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3030",
+		"timestamp": "2024-11-20T12:40:27Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "我想换个尺寸，怎么操作？",
+		"raw_text_ms": "Sy nk tukar size lain, camne?",
+		"normalized_text_ms": "Saya nak tukar size lain, macam mana?",
+		"english_loanwords": ["size"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak",
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3031",
+		"timestamp": "2024-11-20T12:45:54Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西和描述不符，我要退货。",
+		"raw_text_ms": "Barang x sama mcm description, nak return.",
+		"normalized_text_ms": "Barang tak sama macam description, nak return.",
+		"english_loanwords": ["description", "return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"mcm": "macam",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3032",
+		"timestamp": "2024-11-20T12:50:41Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "退货的快递单号我发给你了。",
+		"raw_text_ms": "Tracking no return sy dah bg.",
+		"normalized_text_ms": "Tracking no return saya dah bagi.",
+		"english_loanwords": ["tracking", "no", "return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货跟进"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"dh": "dah",
+			"bg": "bagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3033",
+		"timestamp": "2024-11-20T12:55:33Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "退款能退到原支付方式吗？",
+		"raw_text_ms": "Refund boleh ke original payment method?",
+		"normalized_text_ms": "Refund boleh ke original payment method?",
+		"english_loanwords": ["refund", "original", "payment", "method"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退款方式"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3034",
+		"timestamp": "2024-11-20T13:00:19Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想退货，质量太差了！",
+		"raw_text_ms": "Nak return, quality teruk sangat!",
+		"normalized_text_ms": "Nak return, quality teruk sangat!",
+		"english_loanwords": ["return", "quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3035",
+		"timestamp": "2024-11-20T13:05:47Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西是坏的，怎么换货？",
+		"raw_text_ms": "Barang rosak, camne exchange?",
+		"normalized_text_ms": "Barang rosak, macam mana exchange?",
+		"english_loanwords": ["exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3036",
+		"timestamp": "2024-11-20T13:10:25Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "退款到了吗？还没收到。",
+		"raw_text_ms": "Refund dah masuk? X dpt lg.",
+		"normalized_text_ms": "Refund dah masuk? Tak dapat lagi.",
+		"english_loanwords": ["refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退款状态"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah",
+			"x": "tak",
+			"dpt": "dapat",
+			"lg": "lagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3037",
+		"timestamp": "2024-11-20T13:15:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "换货要几天才能收到？",
+		"raw_text_ms": "Exchange brapa hari boleh dpt?",
+		"normalized_text_ms": "Exchange berapa hari boleh dapat?",
+		"english_loanwords": ["exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问换货时间"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"brapa": "berapa",
+			"dpt": "dapat"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3038",
+		"timestamp": "2024-11-20T13:20:38Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "退货地址在哪里？我想寄回去。",
+		"raw_text_ms": "Return address kat mana? Nak pos balik.",
+		"normalized_text_ms": "Return address kat mana? Nak pos balik.",
+		"english_loanwords": ["return", "address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货地址"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3039",
+		"timestamp": "2024-11-20T13:25:14Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想退款，质量不行。",
+		"raw_text_ms": "Nak refund, quality x ok.",
+		"normalized_text_ms": "Nak refund, quality tak ok.",
+		"english_loanwords": ["refund", "quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退款申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3040",
+		"timestamp": "2024-11-20T13:30:46Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的货和图片不一样！我要换货！",
+		"raw_text_ms": "Barang x sama mcm pic! Nak exchange!",
+		"normalized_text_ms": "Barang tak sama macam picture! Nak exchange!",
+		"english_loanwords": ["pic", "picture", "exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"mcm": "macam"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3041",
+		"timestamp": "2024-11-20T13:35:29Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "退货要多少钱的运费？",
+		"raw_text_ms": "Postage return brapa?",
+		"normalized_text_ms": "Postage return berapa?",
+		"english_loanwords": ["postage", "return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货运费"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"brapa": "berapa"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3042",
+		"timestamp": "2024-11-20T13:40:55Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我已经寄回去了，什么时候处理？",
+		"raw_text_ms": "Sy dh pos balik, bila process?",
+		"normalized_text_ms": "Saya dah pos balik, bila process?",
+		"english_loanwords": ["process"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货跟进"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3043",
+		"timestamp": "2024-11-20T13:45:23Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的产品有质量问题，我要退货。",
+		"raw_text_ms": "Product yg terima ada quality issue, nak return.",
+		"normalized_text_ms": "Product yang terima ada quality issue, nak return.",
+		"english_loanwords": ["product", "quality", "issue", "return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"yg": "yang",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3044",
+		"timestamp": "2024-11-20T13:50:41Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "我想换个款式，能换吗？",
+		"raw_text_ms": "Sy nk tukar design lain, boleh ke?",
+		"normalized_text_ms": "Saya nak tukar design lain, boleh ke?",
+		"english_loanwords": ["design"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3045",
+		"timestamp": "2024-11-20T13:55:37Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "退款需要多长时间？",
+		"raw_text_ms": "Refund brapa lama?",
+		"normalized_text_ms": "Refund berapa lama?",
+		"english_loanwords": ["refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退款时间"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"brapa": "berapa"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3046",
+		"timestamp": "2024-11-20T14:00:18Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西坏了，我要退货！",
+		"raw_text_ms": "Barang rosak, nak return!",
+		"normalized_text_ms": "Barang rosak, nak return!",
+		"english_loanwords": ["return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3047",
+		"timestamp": "2024-11-20T14:05:54Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "能帮我处理一下退货吗？",
+		"raw_text_ms": "Bleh tolong handle return?",
+		"normalized_text_ms": "Boleh tolong handle return?",
+		"english_loanwords": ["bleh", "handle", "return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bleh": "boleh"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3048",
+		"timestamp": "2024-11-20T14:10:32Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我想退货，怎么申请？",
+		"raw_text_ms": "Nak return, camne apply?",
+		"normalized_text_ms": "Nak return, macam mana apply?",
+		"english_loanwords": ["return", "apply"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货流程"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3049",
+		"timestamp": "2024-11-20T14:15:46Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西质量太差，我要换货。",
+		"raw_text_ms": "Barang quality teruk, nak exchange.",
+		"normalized_text_ms": "Barang quality teruk, nak exchange.",
+		"english_loanwords": ["quality", "exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3050",
+		"timestamp": "2024-11-20T14:20:28Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "退款能原路返回吗？",
+		"raw_text_ms": "Refund boleh balik ke payment asal?",
+		"normalized_text_ms": "Refund boleh balik ke payment asal?",
+		"english_loanwords": ["refund", "payment"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退款方式"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3051",
+		"timestamp": "2024-11-20T14:25:43Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "退货运费谁出？",
+		"raw_text_ms": "Postage return siapa bayar?",
+		"normalized_text_ms": "Postage return siapa bayar?",
+		"english_loanwords": ["postage", "return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货运费"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3052",
+		"timestamp": "2024-11-20T14:30:17Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "货已经退了，怎么还没退款？",
+		"raw_text_ms": "Barang dh return, x refund lg?",
+		"normalized_text_ms": "Barang dah return, tak refund lagi?",
+		"english_loanwords": ["return", "refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退款状态"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"x": "tak",
+			"lg": "lagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3053",
+		"timestamp": "2024-11-20T14:35:52Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "质量不好，我想退货。",
+		"raw_text_ms": "Quality x baik, nak return.",
+		"normalized_text_ms": "Quality tak baik, nak return.",
+		"english_loanwords": ["quality", "return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3054",
+		"timestamp": "2024-11-20T14:40:36Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我想换个颜色，可以换吗？",
+		"raw_text_ms": "Sy nk tukar colour lain, boleh?",
+		"normalized_text_ms": "Saya nak tukar warna lain, boleh?",
+		"english_loanwords": ["colour"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3055",
+		"timestamp": "2024-11-20T14:45:21Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西不对，我要退款！",
+		"raw_text_ms": "Barang salah, nak refund!",
+		"normalized_text_ms": "Barang salah, nak refund!",
+		"english_loanwords": ["refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退款申请"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3056",
+		"timestamp": "2024-11-20T14:50:48Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "退货单号给我一下。",
+		"raw_text_ms": "Return tracking no bg sy satu.",
+		"normalized_text_ms": "Return tracking no bagi saya satu.",
+		"english_loanwords": ["return", "tracking", "no"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货跟进"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"bg": "bagi",
+			"sy": "saya"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3057",
+		"timestamp": "2024-11-20T14:55:34Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "换货要多久才能处理完？",
+		"raw_text_ms": "Exchange brapa lama siap?",
+		"normalized_text_ms": "Exchange berapa lama siap?",
+		"english_loanwords": ["exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问换货时间"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"brapa": "berapa"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3058",
+		"timestamp": "2024-11-20T15:00:15Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我想退货，质量太差了。",
+		"raw_text_ms": "Nak return, quality teruk sangat.",
+		"normalized_text_ms": "Nak return, quality teruk sangat.",
+		"english_loanwords": ["return", "quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3059",
+		"timestamp": "2024-11-20T15:05:42Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西是坏的，能退吗？",
+		"raw_text_ms": "Barang rosak, boleh return ke?",
+		"normalized_text_ms": "Barang rosak, boleh return ke?",
+		"english_loanwords": ["return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3060",
+		"timestamp": "2024-11-20T15:10:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "退款到哪个账户？",
+		"raw_text_ms": "Refund masuk ke account mana?",
+		"normalized_text_ms": "Refund masuk ke account mana?",
+		"english_loanwords": ["refund", "account"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退款方式"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3061",
+		"timestamp": "2024-11-20T15:15:57Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "换货怎么申请？",
+		"raw_text_ms": "Exchange camne apply?",
+		"normalized_text_ms": "Exchange macam mana apply?",
+		"english_loanwords": ["exchange", "apply"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问换货流程"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3062",
+		"timestamp": "2024-11-20T15:20:33Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西质量太差，我要退货！",
+		"raw_text_ms": "Barang quality teruk, nak return!",
+		"normalized_text_ms": "Barang quality teruk, nak return!",
+		"english_loanwords": ["quality", "return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3063",
+		"timestamp": "2024-11-20T15:25:46Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "退货的地址在哪里？",
+		"raw_text_ms": "Return address kat mana?",
+		"normalized_text_ms": "Return address kat mana?",
+		"english_loanwords": ["return", "address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货地址"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3064",
+		"timestamp": "2024-11-20T15:30:24Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我想换货，怎么操作？",
+		"raw_text_ms": "Nak exchange, camne?",
+		"normalized_text_ms": "Nak exchange, macam mana?",
+		"english_loanwords": ["exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3065",
+		"timestamp": "2024-11-20T15:35:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "退款什么时候能到？",
+		"raw_text_ms": "Refund bila sampai?",
+		"normalized_text_ms": "Refund bila sampai?",
+		"english_loanwords": ["refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退款时间"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3066",
+		"timestamp": "2024-11-20T15:40:52Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西坏了，要怎么退货？",
+		"raw_text_ms": "Barang rosak, camne return?",
+		"normalized_text_ms": "Barang rosak, macam mana return?",
+		"english_loanwords": ["return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3067",
+		"timestamp": "2024-11-20T15:45:39Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "退货需要提供什么？",
+		"raw_text_ms": "Return perlukan apa?",
+		"normalized_text_ms": "Return perlukan apa?",
+		"english_loanwords": ["return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货流程"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3068",
+		"timestamp": "2024-11-20T15:50:26Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "质量太差了，我要退款！",
+		"raw_text_ms": "Quality teruk sangat, nak refund!",
+		"normalized_text_ms": "Quality teruk sangat, nak refund!",
+		"english_loanwords": ["quality", "refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退款申请"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3069",
+		"timestamp": "2024-11-20T15:55:44Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我想换个颜色，能换吗？",
+		"raw_text_ms": "Sy nk tukar colour, boleh ke?",
+		"normalized_text_ms": "Saya nak tukar warna, boleh ke?",
+		"english_loanwords": ["colour"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"sy": "saya",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3070",
+		"timestamp": "2024-11-20T16:00:31Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西和描述不一样，我要退货。",
+		"raw_text_ms": "Barang x sama mcm description, nak return.",
+		"normalized_text_ms": "Barang tak sama macam description, nak return.",
+		"english_loanwords": ["description", "return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"mcm": "macam",
+			"nk": "nak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3071",
+		"timestamp": "2024-11-20T16:05:48Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "退货运费你们出吗？",
+		"raw_text_ms": "Postage return awak bayar ke?",
+		"normalized_text_ms": "Postage return awak bayar ke?",
+		"english_loanwords": ["postage", "return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货运费"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3072",
+		"timestamp": "2024-11-20T16:10:23Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "退货已经寄出去了，什么时候退款？",
+		"raw_text_ms": "Barang dh pos return, bila refund?",
+		"normalized_text_ms": "Barang dah pos return, bila refund?",
+		"english_loanwords": ["pos", "return", "refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退款时间"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3073",
+		"timestamp": "2024-11-20T16:15:56Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我想退货，质量不好。",
+		"raw_text_ms": "Nak return, quality x baik.",
+		"normalized_text_ms": "Nak return, quality tak baik.",
+		"english_loanwords": ["return", "quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3074",
+		"timestamp": "2024-11-20T16:20:42Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "我想换货，怎么申请？",
+		"raw_text_ms": "Nak exchange, camne apply?",
+		"normalized_text_ms": "Nak exchange, macam mana apply?",
+		"english_loanwords": ["exchange", "apply"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3075",
+		"timestamp": "2024-11-20T16:25:18Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西是坏的，我要换货！",
+		"raw_text_ms": "Barang rosak, nak exchange!",
+		"normalized_text_ms": "Barang rosak, nak exchange!",
+		"english_loanwords": ["exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3076",
+		"timestamp": "2024-11-20T16:30:35Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "退款到账了吗？",
+		"raw_text_ms": "Refund dh masuk account?",
+		"normalized_text_ms": "Refund dah masuk account?",
+		"english_loanwords": ["refund", "account"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退款状态"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3077",
+		"timestamp": "2024-11-20T16:35:52Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想退货，质量太差了。",
+		"raw_text_ms": "Nak return, quality teruk.",
+		"normalized_text_ms": "Nak return, quality teruk.",
+		"english_loanwords": ["return", "quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3078",
+		"timestamp": "2024-11-20T16:40:29Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "退货地址是什么？",
+		"raw_text_ms": "Return address apa?",
+		"normalized_text_ms": "Return address apa?",
+		"english_loanwords": ["return", "address"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货地址"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3079",
+		"timestamp": "2024-11-20T16:45:47Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "换货要多久？",
+		"raw_text_ms": "Exchange brapa lama?",
+		"normalized_text_ms": "Exchange berapa lama?",
+		"english_loanwords": ["exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问换货时间"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"brapa": "berapa"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3080",
+		"timestamp": "2024-11-20T16:50:13Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西质量不行，我要退款！",
+		"raw_text_ms": "Barang quality x ok, nak refund!",
+		"normalized_text_ms": "Barang quality tak ok, nak refund!",
+		"english_loanwords": ["quality", "refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退款申请"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3081",
+		"timestamp": "2024-11-20T16:55:41Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "退货运费怎么算？",
+		"raw_text_ms": "Postage return camne kira?",
+		"normalized_text_ms": "Postage return macam mana kira?",
+		"english_loanwords": ["postage", "return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货运费"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3082",
+		"timestamp": "2024-11-20T17:00:25Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "货已经寄回去了，怎么还没退款？",
+		"raw_text_ms": "Barang dh pos balik, x refund lg?",
+		"normalized_text_ms": "Barang dah pos balik, tak refund lagi?",
+		"english_loanwords": ["pos", "refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退款状态"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah",
+			"x": "tak",
+			"lg": "lagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3083",
+		"timestamp": "2024-11-20T17:05:38Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我想退货，怎么申请？",
+		"raw_text_ms": "Nak return, camne apply?",
+		"normalized_text_ms": "Nak return, macam mana apply?",
+		"english_loanwords": ["return", "apply"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货流程"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3084",
+		"timestamp": "2024-11-20T17:10:54Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西和图片不一样，我要换货。",
+		"raw_text_ms": "Barang x sama mcm pic, nak exchange.",
+		"normalized_text_ms": "Barang tak sama macam picture, nak exchange.",
+		"english_loanwords": ["pic", "picture", "exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"mcm": "macam"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3085",
+		"timestamp": "2024-11-20T17:15:32Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "我想换个尺寸，能换吗？",
+		"raw_text_ms": "Nak tukar size, boleh ke?",
+		"normalized_text_ms": "Nak tukar size, boleh ke?",
+		"english_loanwords": ["size"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3086",
+		"timestamp": "2024-11-20T17:20:46Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "退款能退到支付宝吗？",
+		"raw_text_ms": "Refund boleh ke Alipay?",
+		"normalized_text_ms": "Refund boleh ke Alipay?",
+		"english_loanwords": ["refund", "Alipay"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退款方式"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3087",
+		"timestamp": "2024-11-20T17:25:19Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西是坏的，我要退货！",
+		"raw_text_ms": "Barang rosak, nak return!",
+		"normalized_text_ms": "Barang rosak, nak return!",
+		"english_loanwords": ["return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3088",
+		"timestamp": "2024-11-20T17:30:57Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "退货需要提供什么信息？",
+		"raw_text_ms": "Return perlukan apa info?",
+		"normalized_text_ms": "Return perlukan apa info?",
+		"english_loanwords": ["return", "info"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货流程"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3089",
+		"timestamp": "2024-11-20T17:35:23Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "质量太差了，我要换货！",
+		"raw_text_ms": "Quality teruk, nak exchange!",
+		"normalized_text_ms": "Quality teruk, nak exchange!",
+		"english_loanwords": ["quality", "exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3090",
+		"timestamp": "2024-11-20T17:40:41Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "退货已经处理了吗？",
+		"raw_text_ms": "Return dh process?",
+		"normalized_text_ms": "Return dah process?",
+		"english_loanwords": ["return", "process"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货跟进"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3091",
+		"timestamp": "2024-11-20T17:45:36Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "我想退货，质量不好。",
+		"raw_text_ms": "Nak return, quality x baik.",
+		"normalized_text_ms": "Nak return, quality tak baik.",
+		"english_loanwords": ["return", "quality"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3092",
+		"timestamp": "2024-11-20T17:50:28Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "换货的快递单号是什么？",
+		"raw_text_ms": "Exchange tracking no apa?",
+		"normalized_text_ms": "Exchange tracking no apa?",
+		"english_loanwords": ["exchange", "tracking", "no"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货跟进"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3093",
+		"timestamp": "2024-11-20T17:55:52Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我想换货，怎么操作？",
+		"raw_text_ms": "Nak exchange, camne?",
+		"normalized_text_ms": "Nak exchange, macam mana?",
+		"english_loanwords": ["exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3094",
+		"timestamp": "2024-11-20T18:00:15Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西不对，我要退货！",
+		"raw_text_ms": "Barang salah, nak return!",
+		"normalized_text_ms": "Barang salah, nak return!",
+		"english_loanwords": ["return"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货申请"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3095",
+		"timestamp": "2024-11-20T18:05:44Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "退款到账了吗？还没收到。",
+		"raw_text_ms": "Refund dah masuk? X dpt lg.",
+		"normalized_text_ms": "Refund dah masuk? Tak dapat lagi.",
+		"english_loanwords": ["refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退款状态"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dah": "dah",
+			"x": "tak",
+			"dpt": "dapat",
+			"lg": "lagi"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3096",
+		"timestamp": "2024-11-20T18:10:37Z",
+		"platform": "Lelong"
+	},
+	"language_layer": {
+		"source_text_zh": "我想退货，怎么寄回去？",
+		"raw_text_ms": "Nak return, camne pos balik?",
+		"normalized_text_ms": "Nak return, macam mana pos balik?",
+		"english_loanwords": ["return", "pos"]
+	},
+	"pragmatic_layer": {
+		"intent": ["询问退货流程"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"camne": "cam mana"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3097",
+		"timestamp": "2024-11-20T18:15:29Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "质量太差，我要退款！",
+		"raw_text_ms": "Quality teruk, nak refund!",
+		"normalized_text_ms": "Quality teruk, nak refund!",
+		"english_loanwords": ["quality", "refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退款申请"],
+		"sentiment": "angry",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3098",
+		"timestamp": "2024-11-20T18:20:53Z",
+		"platform": "TikTok"
+	},
+	"language_layer": {
+		"source_text_zh": "我想换货，能换吗？",
+		"raw_text_ms": "Nak exchange, boleh ke?",
+		"normalized_text_ms": "Nak exchange, boleh ke?",
+		"english_loanwords": ["exchange"]
+	},
+	"pragmatic_layer": {
+		"intent": ["换货申请"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3099",
+		"timestamp": "2024-11-20T18:25:18Z",
+		"platform": "Lazada"
+	},
+	"language_layer": {
+		"source_text_zh": "收到的东西和描述不一样，我要退款。",
+		"raw_text_ms": "Barang x sama mcm description, nak refund.",
+		"normalized_text_ms": "Barang tak sama macam description, nak refund.",
+		"english_loanwords": ["description", "refund"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退款申请"],
+		"sentiment": "negative",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"x": "tak",
+			"mcm": "macam"
+		}
+	}
+},
+{
+	"basic_layer": {
+		"sentence_id": "MY-CS-2024-3100",
+		"timestamp": "2024-11-20T18:30:45Z",
+		"platform": "Shopee"
+	},
+	"language_layer": {
+		"source_text_zh": "退货已经寄出去了，什么时候到？",
+		"raw_text_ms": "Barang dh pos, bila sampai?",
+		"normalized_text_ms": "Barang dah pos, bila sampai?",
+		"english_loanwords": ["pos"]
+	},
+	"pragmatic_layer": {
+		"intent": ["退货跟进"],
+		"sentiment": "neutral",
+		"business_scenario": "after-sales"
+	},
+	"style_layer": {
+		"style": "Colloquial",
+		"contains_rojak": true,
+		"abbreviations_handled": {
+			"dh": "dah"
+		}
+	}
+}]
