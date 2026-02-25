@@ -1,0 +1,7341 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "terminology",
+    "language": "zh",
+    "domain": "trade",
+    "created_by": "自动化生成脚本",
+    "created_at": "2026-02-25T05:55:48Z",
+    "description": "跨境贸易术语库 - 中文（300条）"
+  },
+  "data": [
+    {
+      "term_id": "TERM-001",
+      "term": "原产地证书",
+      "category": "贸易单证",
+      "definition": "证明货物原产地的官方文件，用于确定关税优惠和贸易限制",
+      "examples": [
+        "出口货物需要提供原产地证书才能享受关税优惠"
+      ],
+      "related_terms": [
+        "产地证",
+        "Certificate of Origin"
+      ],
+      "translations": {
+        "en": "Certificate of Origin",
+        "th": "ใบรับรองถิ่นกำเนิด",
+        "ms": "Sijil Asal",
+        "vi": "Giấy chứng nhận xuất xứ"
+      },
+      "tags": [
+        "单证",
+        "清关",
+        "关税"
+      ],
+      "abbreviation": "CO"
+    },
+    {
+      "term_id": "TERM-002",
+      "term": "提单",
+      "category": "贸易单证",
+      "definition": "承运人签发的货物收据，也是物权凭证，用于货物运输和提货",
+      "examples": [
+        "电放提单可以加快货物清关速度"
+      ],
+      "related_terms": [
+        "Bill of Lading",
+        "海运提单"
+      ],
+      "translations": {
+        "en": "Bill of Lading",
+        "th": "ใบตราส่งสินค้า",
+        "ms": "Bil Pemuatan",
+        "vi": "Vận đơn"
+      },
+      "tags": [
+        "单证",
+        "物流",
+        "海运"
+      ],
+      "abbreviation": "B/L"
+    },
+    {
+      "term_id": "TERM-003",
+      "term": "商业发票",
+      "category": "贸易单证",
+      "definition": "卖方开具的详列货名、数量、价格的清单，是报关和结算的核心单据",
+      "examples": [
+        "商业发票上的金额必须与合同金额一致"
+      ],
+      "related_terms": [
+        "Commercial Invoice",
+        "发票"
+      ],
+      "translations": {
+        "en": "Commercial Invoice",
+        "th": "ใบแจ้งหนี้การค้า",
+        "ms": "Invois Komersial",
+        "vi": "Hóa đơn thương mại"
+      },
+      "tags": [
+        "单证",
+        "支付",
+        "结算"
+      ],
+      "abbreviation": "CI"
+    },
+    {
+      "term_id": "TERM-004",
+      "term": "装箱单",
+      "category": "贸易单证",
+      "definition": "描述货物包装细节的清单，包括重量、体积、件数等",
+      "examples": [
+        "海关查验时会核对装箱单上的实物数量"
+      ],
+      "related_terms": [
+        "Packing List",
+        "包装单"
+      ],
+      "translations": {
+        "en": "Packing List",
+        "th": "รายการบรรจุสินค้า",
+        "ms": "Senarai Pembungkusan",
+        "vi": "Phiếu đóng gói"
+      },
+      "tags": [
+        "单证",
+        "物流"
+      ],
+      "abbreviation": "PL"
+    },
+    {
+      "term_id": "TERM-005",
+      "term": "形式发票",
+      "category": "贸易单证",
+      "definition": "非正式发票，用于进口商申请外汇、进口许可证或作为报价单",
+      "examples": [
+        "买方需要形式发票来申请开立信用证"
+      ],
+      "related_terms": [
+        "Proforma Invoice"
+      ],
+      "translations": {
+        "en": "Proforma Invoice",
+        "th": "ใบแจ้งหนี้ชั่วคราว",
+        "ms": "Invois Proforma",
+        "vi": "Hóa đơn chiếu lệ"
+      },
+      "tags": [
+        "单证",
+        "支付"
+      ],
+      "abbreviation": "PI"
+    },
+    {
+      "term_id": "TERM-006",
+      "term": "海关编码",
+      "category": "海关术语",
+      "definition": "全球统一的商品分类编码体系，用于确定关税及贸易统计",
+      "examples": [
+        "请确保填写的HS编码与货物描述匹配"
+      ],
+      "related_terms": [
+        "商品编码",
+        "Harmonized System Code"
+      ],
+      "translations": {
+        "en": "HS Code",
+        "th": "รหัส HS",
+        "ms": "Kod HS",
+        "vi": "Mã HS"
+      },
+      "tags": [
+        "海关",
+        "关税",
+        "编码"
+      ],
+      "abbreviation": "HS Code"
+    },
+    {
+      "term_id": "TERM-007",
+      "term": "报关单",
+      "category": "海关术语",
+      "definition": "向海关办理货物进出口手续时填报的法定表格",
+      "examples": [
+        "出口报关单是申请退税的重要凭证"
+      ],
+      "related_terms": [
+        "Customs Declaration",
+        "进出口报关"
+      ],
+      "translations": {
+        "en": "Customs Declaration",
+        "th": "ใบขนสินค้า",
+        "ms": "Borang Deklarasi Kastam",
+        "vi": "Tờ khai hải quan"
+      },
+      "tags": [
+        "海关",
+        "清关"
+      ],
+      "abbreviation": "CD"
+    },
+    {
+      "term_id": "TERM-008",
+      "term": "空运单",
+      "category": "贸易单证",
+      "definition": "航空货运代理或承运人签发的不可转让的运输单据",
+      "examples": [
+        "空运单是收货人在目的地提取货物的凭证之一"
+      ],
+      "related_terms": [
+        "Air Waybill",
+        "航空面单"
+      ],
+      "translations": {
+        "en": "Air Waybill",
+        "th": "ใบตราส่งสินค้าทางอากาศ",
+        "ms": "Bil Muatan Udara",
+        "vi": "Vận đơn hàng không"
+      },
+      "tags": [
+        "单证",
+        "物流",
+        "空运"
+      ],
+      "abbreviation": "AWB"
+    },
+    {
+      "term_id": "TERM-009",
+      "term": "卫生证书",
+      "category": "贸易单证",
+      "definition": "证明出口食品、动植物产品符合卫生标准的官方文件",
+      "examples": [
+        "进口冷冻肉类必须附带原产国的卫生证书"
+      ],
+      "related_terms": [
+        "Sanitary Certificate",
+        "健康证书"
+      ],
+      "translations": {
+        "en": "Sanitary Certificate",
+        "th": "ใบรับรองสุขอนามัย",
+        "ms": "Sijil Sanitari",
+        "vi": "Giấy chứng nhận vệ sinh"
+      },
+      "tags": [
+        "单证",
+        "合规",
+        "食品安全"
+      ],
+      "abbreviation": "SC"
+    },
+    {
+      "term_id": "TERM-010",
+      "term": "植物检疫证书",
+      "category": "贸易单证",
+      "definition": "证明植物或其产品不带有危险性病虫害的官方证明",
+      "examples": [
+        "出口木质家具通常需要提供植物检疫证书"
+      ],
+      "related_terms": [
+        "Phytosanitary Certificate"
+      ],
+      "translations": {
+        "en": "Phytosanitary Certificate",
+        "th": "ใบรับรองสุขอนามัยพืช",
+        "ms": "Sijil Fitopsanitari",
+        "vi": "Giấy chứng nhận kiểm dịch thực vật"
+      },
+      "tags": [
+        "单证",
+        "海关",
+        "检验"
+      ],
+      "abbreviation": "PC"
+    },
+    {
+      "term_id": "TERM-011",
+      "term": "海关估价",
+      "category": "海关术语",
+      "definition": "海关为了征收关税而确定进口货物完税价格的过程",
+      "examples": [
+        "若发票金额远低于市场价，海关将启动海关估价程序"
+      ],
+      "related_terms": [
+        "完税价格",
+        "Customs Valuation"
+      ],
+      "translations": {
+        "en": "Customs Valuation",
+        "th": "การประเมินราคาศุลกากร",
+        "ms": "Penilaian Kastam",
+        "vi": "Trị giá hải quan"
+      },
+      "tags": [
+        "海关",
+        "关税",
+        "合规"
+      ],
+      "abbreviation": "CV"
+    },
+    {
+      "term_id": "TERM-012",
+      "term": "反倾销税",
+      "category": "海关术语",
+      "definition": "对以低于正常价值的价格倾销的进口商品征收的惩罚性关税",
+      "examples": [
+        "该类不锈钢管被征收了高达30%的反倾销税"
+      ],
+      "related_terms": [
+        "Anti-dumping Duty",
+        "贸易救济"
+      ],
+      "translations": {
+        "en": "Anti-dumping Duty",
+        "th": "ภาษีตอบโต้การทุ่มตลาด",
+        "ms": "Duti Anti-lambakan",
+        "vi": "Thuế chống bán phá giá"
+      },
+      "tags": [
+        "关税",
+        "海关",
+        "贸易摩擦"
+      ],
+      "abbreviation": "AD Duty"
+    },
+    {
+      "term_id": "TERM-013",
+      "term": "保税仓库",
+      "category": "海关术语",
+      "definition": "经海关批准，暂缓缴纳关税并受海关监管存放货物的场所",
+      "examples": [
+        "进口货物可以先存放在保税仓库，待销售后再办理清关"
+      ],
+      "related_terms": [
+        "Bonded Warehouse",
+        "保税仓"
+      ],
+      "translations": {
+        "en": "Bonded Warehouse",
+        "th": "คลังสินค้าทัณฑ์บน",
+        "ms": "Gudang Berikat",
+        "vi": "Kho ngoại quan"
+      },
+      "tags": [
+        "海关",
+        "物流",
+        "仓储"
+      ],
+      "abbreviation": "BW"
+    },
+    {
+      "term_id": "TERM-014",
+      "term": "报关行",
+      "category": "海关术语",
+      "definition": "经海关准予注册，代理进出口企业办理报关业务的专业中介机构",
+      "examples": [
+        "新手卖家建议寻找经验丰富的报关行代办业务"
+      ],
+      "related_terms": [
+        "Customs Broker",
+        "报关代理"
+      ],
+      "translations": {
+        "en": "Customs Broker",
+        "th": "ตัวแทนออกของ",
+        "ms": "Ejen Kastam",
+        "vi": "Đại lý làm thủ tục hải quan"
+      },
+      "tags": [
+        "海关",
+        "服务",
+        "清关"
+      ],
+      "abbreviation": "Broker"
+    },
+    {
+      "term_id": "TERM-015",
+      "term": "完税价格",
+      "category": "海关术语",
+      "definition": "海关据以计算应征税额的货物价值，通常为CIF价格",
+      "examples": [
+        "关税计算公式为：完税价格乘以适用税率"
+      ],
+      "related_terms": [
+        "Duty Paid Value",
+        "完税价"
+      ],
+      "translations": {
+        "en": "Duty Paid Value",
+        "th": "ราคา完稅",
+        "ms": "Nilai Dibayar Duti",
+        "vi": "Giá tính thuế"
+      },
+      "tags": [
+        "海关",
+        "关税",
+        "金融"
+      ],
+      "abbreviation": "DPV"
+    },
+    {
+      "term_id": "TERM-016",
+      "term": "查验",
+      "category": "海关术语",
+      "definition": "海关为确定货物的性质、状态、数量等是否符合申报内容而进行的核对",
+      "examples": [
+        "这批货物被抽中海关查验，清关时间可能延长"
+      ],
+      "related_terms": [
+        "Customs Inspection",
+        "开箱检查"
+      ],
+      "translations": {
+        "en": "Customs Inspection",
+        "th": "การตรวจปล่อยสินค้า",
+        "ms": "Pemeriksaan Kastam",
+        "vi": "Kiểm tra hải quan"
+      },
+      "tags": [
+        "海关",
+        "风险管理"
+      ],
+      "abbreviation": "Inspection"
+    },
+    {
+      "term_id": "TERM-017",
+      "term": "免税额度",
+      "category": "海关术语",
+      "definition": "海关规定的免予征收关税的微小货物价值限额",
+      "examples": [
+        "东南亚各国的免税额度不尽相同，会影响B2C包裹的成本"
+      ],
+      "related_terms": [
+        "De Minimis Value",
+        "起征点"
+      ],
+      "translations": {
+        "en": "De Minimis Value",
+        "th": "เกณฑ์ราคาสินค้าที่ได้รับยกเว้นภาษี",
+        "ms": "Nilai De Minimis",
+        "vi": "Mức miễn thuế tối thiểu"
+      },
+      "tags": [
+        "海关",
+        "跨境电商",
+        "关税"
+      ],
+      "abbreviation": "De Minimis"
+    },
+    {
+      "term_id": "TERM-018",
+      "term": "电子口岸",
+      "category": "海关术语",
+      "definition": "利用信息技术将海关、商检、外汇、税务等部门连接的电子政务平台",
+      "examples": [
+        "企业可以通过电子口岸平台在线提交出口报关信息"
+      ],
+      "related_terms": [
+        "单一窗口",
+        "Single Window"
+      ],
+      "translations": {
+        "en": "E-Port",
+        "th": "พอร์ตอิเล็กทรอนิกส์",
+        "ms": "Pelabuhan Elektronik",
+        "vi": "Cổng thông tin điện tử hải quan"
+      },
+      "tags": [
+        "海关",
+        "数字化",
+        "贸易合规"
+      ],
+      "abbreviation": "E-Port"
+    },
+    {
+      "term_id": "TERM-019",
+      "term": "进口许可证",
+      "category": "贸易单证",
+      "definition": "国家准许特定商品进口的法律证明文件",
+      "examples": [
+        "属于限制进口目录的机械设备需要申请进口许可证"
+      ],
+      "related_terms": [
+        "Import License",
+        "进口证"
+      ],
+      "translations": {
+        "en": "Import License",
+        "th": "ใบอนุญาตนำเข้า",
+        "ms": "Lesen Import",
+        "vi": "Giấy phép nhập khẩu"
+      },
+      "tags": [
+        "单证",
+        "合规",
+        "海关"
+      ],
+      "abbreviation": "IL"
+    },
+    {
+      "term_id": "TERM-020",
+      "term": "检验检疫证书",
+      "category": "贸易单证",
+      "definition": "检验检疫机构对进出口货物的品质、规格、数量等检验后签发的证书",
+      "examples": [
+        "法检货物必须获得CIQ证书后方可放行"
+      ],
+      "related_terms": [
+        "商检证书",
+        "Certificate of Inspection"
+      ],
+      "translations": {
+        "en": "Certificate of Inspection and Quarantine",
+        "th": "ใบรับรองการตรวจสอบและกักกัน",
+        "ms": "Sijil Pemeriksaan dan Kuarantin",
+        "vi": "Giấy chứng nhận kiểm tra và kiểm dịch"
+      },
+      "tags": [
+        "单证",
+        "检验",
+        "质量标准"
+      ],
+      "abbreviation": "CIQ"
+    },
+    {
+      "term_id": "TERM-021",
+      "term": "AEO高级认证",
+      "category": "海关术语",
+      "definition": "经认证的经营者，旨在通过海关与企业的合作，提高供应链安全和效率",
+      "examples": [
+        "获得AEO认证的企业可以享受极低的查验率和优先通关待遇"
+      ],
+      "related_terms": [
+        "Authorized Economic Operator",
+        "诚信企业"
+      ],
+      "translations": {
+        "en": "Authorized Economic Operator",
+        "th": "ผู้ประกอบการระดับมาตรฐานเออีโอ",
+        "ms": "Operator Ekonomi Beriktiraf",
+        "vi": "Doanh nghiệp ưu tiên"
+      },
+      "tags": [
+        "海关",
+        "信用管理",
+        "贸易安全"
+      ],
+      "abbreviation": "AEO"
+    },
+    {
+      "term_id": "TERM-022",
+      "term": "通关单",
+      "category": "海关术语",
+      "definition": "货物已办理完毕报关手续，海关准予放行的凭证",
+      "examples": [
+        "拿到通关单后，货柜才能装船离港"
+      ],
+      "related_terms": [
+        "放行条",
+        "Customs Clearance Certificate"
+      ],
+      "translations": {
+        "en": "Customs Clearance Slip",
+        "th": "ใบปล่อยสินค้า",
+        "ms": "Slip Pelepasan Kastam",
+        "vi": "Phiếu thông quan"
+      },
+      "tags": [
+        "海关",
+        "清关",
+        "物流"
+      ],
+      "abbreviation": "Clearance Slip"
+    },
+    {
+      "term_id": "TERM-023",
+      "term": "转关运输",
+      "category": "海关术语",
+      "definition": "进出口货物在海关监管下，由一个口岸运往另一个口岸办理海关手续的模式",
+      "examples": [
+        "这批货物在广州清关后转关运输至长沙"
+      ],
+      "related_terms": [
+        "Customs Transit",
+        "境内转关"
+      ],
+      "translations": {
+        "en": "Customs Transit",
+        "th": "การผ่านแดนศุลกากร",
+        "ms": "Transit Kastam",
+        "vi": "Quá cảnh hải quan"
+      },
+      "tags": [
+        "海关",
+        "物流",
+        "监管"
+      ],
+      "abbreviation": "Transshipment"
+    },
+    {
+      "term_id": "TERM-024",
+      "term": "重量单",
+      "category": "贸易单证",
+      "definition": "证明货物重量的详细清单，常用于散装货物或大宗物资",
+      "examples": [
+        "散装铁矿石交易以第三方机构出具的重量单为准"
+      ],
+      "related_terms": [
+        "Weight Certificate",
+        "磅单"
+      ],
+      "translations": {
+        "en": "Weight List",
+        "th": "รายการน้ำหนักสินค้า",
+        "ms": "Senarai Berat",
+        "vi": "Phiếu chi tiết trọng lượng"
+      },
+      "tags": [
+        "单证",
+        "物流"
+      ],
+      "abbreviation": "Weight List"
+    },
+    {
+      "term_id": "TERM-025",
+      "term": "熏蒸证书",
+      "category": "贸易单证",
+      "definition": "证明木质包装已按规定进行熏蒸处理以消灭有害生物的证明",
+      "examples": [
+        "发往澳大利亚的木托盘必须随附熏蒸证书"
+      ],
+      "related_terms": [
+        "Fumigation Certificate",
+        "除害处理证"
+      ],
+      "translations": {
+        "en": "Fumigation Certificate",
+        "th": "ใบรับรองการรมยา",
+        "ms": "Sijil Pewasapan",
+        "vi": "Giấy chứng nhận khử trùng"
+      },
+      "tags": [
+        "单证",
+        "环保",
+        "物流"
+      ],
+      "abbreviation": "FUM"
+    },
+    {
+      "term_id": "TERM-026",
+      "term": "自由贸易协定原产地证",
+      "category": "贸易单证",
+      "definition": "根据双边或多边自由贸易协定签发的，用于享受减免关税待遇的原产地证明",
+      "examples": [
+        "出口泰国需办理中国-东盟原产地证（FORM E）以减免关税"
+      ],
+      "related_terms": [
+        "FORM E",
+        "FORM RCEP",
+        "优惠原产地证"
+      ],
+      "translations": {
+        "en": "FTA Certificate of Origin",
+        "th": "ใบรับรองถิ่นกำเนิดสินค้า FTA",
+        "ms": "Sijil Asal FTA",
+        "vi": "Giấy chứng nhận xuất xứ ưu đãi"
+      },
+      "tags": [
+        "单证",
+        "关税",
+        "贸易协定"
+      ],
+      "abbreviation": "FTA CO"
+    },
+    {
+      "term_id": "TERM-027",
+      "term": "报关委托书",
+      "category": "贸易单证",
+      "definition": "进出口货物收发货人委托报关企业办理报关手续的法律凭证",
+      "examples": [
+        "企业需在电子口岸系统在线签署报关委托书"
+      ],
+      "related_terms": [
+        "Power of Attorney",
+        "代理报关协议"
+      ],
+      "translations": {
+        "en": "Power of Attorney for Customs",
+        "th": "หนังสือมอบอำนาจศุลกากร",
+        "ms": "Surat Kuasa Kastam",
+        "vi": "Giấy ủy quyền làm thủ tục hải quan"
+      },
+      "tags": [
+        "单证",
+        "海关",
+        "合规"
+      ],
+      "abbreviation": "POA"
+    },
+    {
+      "term_id": "TERM-028",
+      "term": "关税税率",
+      "category": "海关术语",
+      "definition": "海关对进出口货物征收关税的百分比或定额标准",
+      "examples": [
+        "RCEP生效后，该项产品的关税税率将逐年降低至零"
+      ],
+      "related_terms": [
+        "Duty Rate",
+        "税率"
+      ],
+      "translations": {
+        "en": "Tariff Rate",
+        "th": "อัตราภาษีศุลกากร",
+        "ms": "Kadar Tarif",
+        "vi": "Thuế suất"
+      },
+      "tags": [
+        "关税",
+        "海关",
+        "金融"
+      ],
+      "abbreviation": "Tariff Rate"
+    },
+    {
+      "term_id": "TERM-029",
+      "term": "强制性产品认证",
+      "category": "海关术语",
+      "definition": "中国政府为保护消费者人身安全、加强产品质量管理而实施的一种产品合格评定制度",
+      "examples": [
+        "进口电子产品必须获得CCC认证方可在国内销售"
+      ],
+      "related_terms": [
+        "3C认证",
+        "China Compulsory Certification"
+      ],
+      "translations": {
+        "en": "China Compulsory Certification",
+        "th": "การรับรองผลิตภัณฑ์ภาคบังคับของจีน",
+        "ms": "Pensijilan Wajib China",
+        "vi": "Chứng nhận bắt buộc Trung Quốc"
+      },
+      "tags": [
+        "海关",
+        "检验",
+        "合规"
+      ],
+      "abbreviation": "CCC"
+    },
+    {
+      "term_id": "TERM-030",
+      "term": "暂准进口",
+      "category": "海关术语",
+      "definition": "针对展览品、样机等在规定期限内原样复出口，可暂免关税的制度",
+      "examples": [
+        "参展设备可以通过ATA单证册办理暂准进口手续"
+      ],
+      "related_terms": [
+        "ATA单证册",
+        "Temporary Admission"
+      ],
+      "translations": {
+        "en": "Temporary Admission",
+        "th": "การนำเข้าชั่วคราว",
+        "ms": "Kemasukan Sementara",
+        "vi": "Tạm nhập tái xuất"
+      },
+      "tags": [
+        "海关",
+        "关税",
+        "单证"
+      ],
+      "abbreviation": "ATA"
+    },
+    {
+      "term_id": "TERM-031",
+      "term": "海关放行",
+      "category": "海关术语",
+      "definition": "海关对已办结报关手续的进出口货物准予离开监管场所的行为",
+      "examples": [
+        "收到放行指令后，物流公司即可安排拖车领柜"
+      ],
+      "related_terms": [
+        "Customs Release",
+        "结关"
+      ],
+      "translations": {
+        "en": "Customs Release",
+        "th": "การปล่อยสินค้าโดยศุลกากร",
+        "ms": "Pelepasan Kastam",
+        "vi": "Thông quan hàng hóa"
+      },
+      "tags": [
+        "海关",
+        "物流",
+        "清关"
+      ],
+      "abbreviation": "Release"
+    },
+    {
+      "term_id": "TERM-032",
+      "term": "出口退税",
+      "category": "海关术语",
+      "definition": "国家将出口货物在国内各生产、流转环节已缴纳的间接税退还给出口企业的制度",
+      "examples": [
+        "高新技术产品出口可享受全额退税优惠政策"
+      ],
+      "related_terms": [
+        "Export Tax Rebate",
+        "退税"
+      ],
+      "translations": {
+        "en": "Export Tax Rebate",
+        "th": "การคืนภาษีส่งออก",
+        "ms": "Rebat Cukai Eksport",
+        "vi": "Hoàn thuế xuất khẩu"
+      },
+      "tags": [
+        "关税",
+        "合规",
+        "金融"
+      ],
+      "abbreviation": "Tax Rebate"
+    },
+    {
+      "term_id": "TERM-033",
+      "term": "禁止进出口货物",
+      "category": "海关术语",
+      "definition": "出于安全、环保、伦理等原因，国家明令禁止买卖和运输的货物",
+      "examples": [
+        "象牙、洋垃圾等属于国家明确禁止进出口的货物"
+      ],
+      "related_terms": [
+        "禁运品",
+        "Banned Goods"
+      ],
+      "translations": {
+        "en": "Prohibited Goods",
+        "th": "สินค้าต้องห้าม",
+        "ms": "Barangan Larangan",
+        "vi": "Hàng hóa cấm xuất nhập khẩu"
+      },
+      "tags": [
+        "海关",
+        "合规",
+        "风险管理"
+      ],
+      "abbreviation": "Prohibited Goods"
+    },
+    {
+      "term_id": "TERM-034",
+      "term": "预录入",
+      "category": "海关术语",
+      "definition": "在正式申报前，将单证数据录入海关信息系统进行初步逻辑检查的过程",
+      "examples": [
+        "报关员完成预录入后，需仔细核对系统反馈的信息"
+      ],
+      "related_terms": [
+        "Pre-declaration",
+        "预申报"
+      ],
+      "translations": {
+        "en": "Pre-entry Declaration",
+        "th": "การบันทึกข้อมูลล่วงหน้า",
+        "ms": "Deklarasi Pra-kemasukan",
+        "vi": "Khai báo trước"
+      },
+      "tags": [
+        "海关",
+        "数字化"
+      ],
+      "abbreviation": "Pre-entry"
+    },
+    {
+      "term_id": "TERM-035",
+      "term": "船期表",
+      "category": "物流术语",
+      "definition": "船公司公布的船名、航次、靠港日期及启航日期的时间表",
+      "examples": [
+        "近期海运拥堵，请密切关注船期表的实时更新"
+      ],
+      "related_terms": [
+        "Sailing Schedule",
+        "航次表"
+      ],
+      "translations": {
+        "en": "Shipping Schedule",
+        "th": "ตารางเดินเรือ",
+        "ms": "Jadual Penghantaran",
+        "vi": "Lịch tàu"
+      },
+      "tags": [
+        "物流",
+        "海运"
+      ],
+      "abbreviation": "Shipping Schedule"
+    },
+    {
+      "term_id": "TERM-036",
+      "term": "海运费",
+      "category": "物流术语",
+      "definition": "承运人收取的将货物从装运港运往目的港的运输报酬",
+      "examples": [
+        "旺季期间，从宁波港到林查班港的海运费有所上涨"
+      ],
+      "related_terms": [
+        "Sea Freight",
+        "运费"
+      ],
+      "translations": {
+        "en": "Ocean Freight",
+        "th": "ค่าระวางเรือ",
+        "ms": "Tambang Laut",
+        "vi": "Cước vận tải biển"
+      },
+      "tags": [
+        "物流",
+        "海运",
+        "支付"
+      ],
+      "abbreviation": "Ocean Freight"
+    },
+    {
+      "term_id": "TERM-037",
+      "term": "船务证明",
+      "category": "贸易单证",
+      "definition": "船公司或代理出具的证明货物已装船或证明船舶状况的单据",
+      "examples": [
+        "信用证条款要求提供证明船龄不超过15年的船务证明"
+      ],
+      "related_terms": [
+        "船东证明",
+        "Certificate of Shipping"
+      ],
+      "translations": {
+        "en": "Shipping Certificate",
+        "th": "ใบรับรองการขนส่ง",
+        "ms": "Sijil Penghantaran",
+        "vi": "Chứng nhận vận chuyển"
+      },
+      "tags": [
+        "单证",
+        "海运"
+      ],
+      "abbreviation": "Shipping Certificate"
+    },
+    {
+      "term_id": "TERM-038",
+      "term": "领事发票",
+      "category": "贸易单证",
+      "definition": "由进口国驻出口国领事馆签证的发票，用于核实货物价格及原产地",
+      "examples": [
+        "部分中东或东南亚国家在特定情况下仍要求提供领事发票"
+      ],
+      "related_terms": [
+        "Consular Visa",
+        "领事认证发票"
+      ],
+      "translations": {
+        "en": "Consular Invoice",
+        "th": "ใบแจ้งหนี้รับรองโดยกงสุล",
+        "ms": "Invois Konsular",
+        "vi": "Hóa đơn lãnh sự"
+      },
+      "tags": [
+        "单证",
+        "合规"
+      ],
+      "abbreviation": "Consular Invoice"
+    },
+    {
+      "term_id": "TERM-039",
+      "term": "保险单",
+      "category": "保险术语",
+      "definition": "保险人与投保人之间订立保险合同的正式凭证，载明承保险别及赔付条款",
+      "examples": [
+        "CIF条件下，卖方有义务办理保险单并将权利转让给买方"
+      ],
+      "related_terms": [
+        "保单",
+        "Marine Insurance Policy"
+      ],
+      "translations": {
+        "en": "Insurance Policy",
+        "th": "กรมธรรม์ประกันภัย",
+        "ms": "Polisi Insurans",
+        "vi": "Đơn bảo hiểm"
+      },
+      "tags": [
+        "保险",
+        "风险管理",
+        "单证"
+      ],
+      "abbreviation": "Insurance Policy"
+    },
+    {
+      "term_id": "TERM-040",
+      "term": "关税配额",
+      "category": "海关术语",
+      "definition": "对特定商品进口数量设定的限额，限额内适用低税率，超过则适用高税率",
+      "examples": [
+        "粮食、食糖等大宗农产品通常受关税配额管理"
+      ],
+      "related_terms": [
+        "Tariff Rate Quota",
+        "配额管理"
+      ],
+      "translations": {
+        "en": "Tariff Rate Quota",
+        "th": "โควตาภาษีศุลกากร",
+        "ms": "Kuota Kadar Tarif",
+        "vi": "Hạn ngạch thuế quan"
+      },
+      "tags": [
+        "海关",
+        "关税",
+        "贸易政策"
+      ],
+      "abbreviation": "TRQ"
+    },
+    {
+      "term_id": "TERM-041",
+      "term": "仓储费",
+      "category": "物流术语",
+      "definition": "在港口、仓库存放货物所产生的费用",
+      "examples": [
+        "货物因清关延迟积压在码头，产生了巨额仓储费"
+      ],
+      "related_terms": [
+        "Warehousing Fee",
+        "堆存费"
+      ],
+      "translations": {
+        "en": "Storage Charge",
+        "th": "ค่าเช่าคลังสินค้า",
+        "ms": "Yuran Storan",
+        "vi": "Phí lưu kho"
+      },
+      "tags": [
+        "物流",
+        "仓储",
+        "支付"
+      ],
+      "abbreviation": "Storage Fee"
+    },
+    {
+      "term_id": "TERM-042",
+      "term": "电子数据交换",
+      "category": "其他",
+      "definition": "标准化的商业文件在不同计算机系统之间的电子传输",
+      "examples": [
+        "EDI技术的应用极大提高了跨境物流单据的处理效率"
+      ],
+      "related_terms": [
+        "Electronic Data Interchange",
+        "无纸化贸易"
+      ],
+      "translations": {
+        "en": "Electronic Data Interchange",
+        "th": "การแลกเปลี่ยนข้อมูลอิเล็กทรอนิกส์",
+        "ms": "Pertukaran Data Elektronik",
+        "vi": "Trao đổi dữ liệu điện tử"
+      },
+      "tags": [
+        "数字化",
+        "数字化贸易",
+        "合规"
+      ],
+      "abbreviation": "EDI"
+    },
+    {
+      "term_id": "TERM-043",
+      "term": "报关委托协议",
+      "category": "海关术语",
+      "definition": "书面确立发货人与报关行之间权利义务的合同",
+      "examples": [
+        "签订报关委托协议是规范代理报关行为的基础"
+      ],
+      "related_terms": [
+        "代理协议",
+        "Customs Brokerage Agreement"
+      ],
+      "translations": {
+        "en": "Customs Brokerage Agreement",
+        "th": "ข้อตกลงตัวแทนศุลกากร",
+        "ms": "Perjanjian Broker Kastam",
+        "vi": "Thỏa thuận đại lý hải quan"
+      },
+      "tags": [
+        "海关",
+        "合规"
+      ],
+      "abbreviation": "Customs Agreement"
+    },
+    {
+      "term_id": "TERM-044",
+      "term": "增值税发票",
+      "category": "贸易单证",
+      "definition": "包含增值税额的税务票据，在中国用于进项税抵扣和出口退税",
+      "examples": [
+        "申请出口退税必须提供工厂开具的增值税专用发票"
+      ],
+      "related_terms": [
+        "增值税票",
+        "Tax Invoice"
+      ],
+      "translations": {
+        "en": "VAT Invoice",
+        "th": "ใบกำกับภาษีมูลค่าเพิ่ม",
+        "ms": "Invois VAT",
+        "vi": "Hóa đơn GTGT"
+      },
+      "tags": [
+        "单证",
+        "关税",
+        "合规"
+      ],
+      "abbreviation": "VAT Invoice"
+    },
+    {
+      "term_id": "TERM-045",
+      "term": "海关保证金",
+      "category": "海关术语",
+      "definition": "为担保履行海关法定义务而向海关缴纳的一定数额的款项",
+      "examples": [
+        "暂时进口货物通常需要向海关缴纳相当于关税数额的保证金"
+      ],
+      "related_terms": [
+        "Customs Deposit",
+        "押金"
+      ],
+      "translations": {
+        "en": "Customs Deposit",
+        "th": "เงินมัดจำศุลกากร",
+        "ms": "Deposit Kastam",
+        "vi": "Tiền ký quỹ hải quan"
+      },
+      "tags": [
+        "海关",
+        "金融",
+        "风险管理"
+      ],
+      "abbreviation": "Deposit"
+    },
+    {
+      "term_id": "TERM-046",
+      "term": "溢短装条款",
+      "category": "贸易术语",
+      "definition": "允许卖方交货的数量在一定百分比内多于或少于合同规定数量的条款",
+      "examples": [
+        "大宗散货交易通常包含5%的溢短装条款"
+      ],
+      "related_terms": [
+        "More or Less Clause",
+        "数量容差"
+      ],
+      "translations": {
+        "en": "More or Less Clause",
+        "th": "เงื่อนไขการส่งเกินหรือขาด",
+        "ms": "Fasal Lebih atau Kurang",
+        "vi": "Điều khoản dung sai"
+      },
+      "tags": [
+        "贸易术语",
+        "合同",
+        "物流"
+      ],
+      "abbreviation": "M/L"
+    },
+    {
+      "term_id": "TERM-047",
+      "term": "国际商会",
+      "category": "贸易协定",
+      "definition": "制定国际贸易规则（如Incoterms、UCP600）的全球商业组织",
+      "examples": [
+        "Incoterms 2020由国际商会正式发布"
+      ],
+      "related_terms": [
+        "International Chamber of Commerce"
+      ],
+      "translations": {
+        "en": "International Chamber of Commerce",
+        "th": "สภาหอการค้านานาชาติ",
+        "ms": "Dewan Perniagaan Antarabangsa",
+        "vi": "Phòng Thương mại Quốc tế"
+      },
+      "tags": [
+        "贸易协定",
+        "机构"
+      ],
+      "abbreviation": "ICC"
+    },
+    {
+      "term_id": "TERM-048",
+      "term": "海运提单副本",
+      "category": "贸易单证",
+      "definition": "不具备物权凭证效力的提单复印件或副本，仅用于信息参考",
+      "examples": [
+        "卖方在发货后会将提单副本通过邮件发送给买方"
+      ],
+      "related_terms": [
+        "Non-negotiable Copy"
+      ],
+      "translations": {
+        "en": "Copy of Bill of Lading",
+        "th": "สำเนาใบตราส่งสินค้า",
+        "ms": "Salinan Bil Pemuatan",
+        "vi": "Bản sao vận đơn"
+      },
+      "tags": [
+        "单证",
+        "物流"
+      ],
+      "abbreviation": "B/L Copy"
+    },
+    {
+      "term_id": "TERM-049",
+      "term": "进境备案清单",
+      "category": "海关术语",
+      "definition": "保税区内企业在货物进出境时向海关办理备案手续的单证",
+      "examples": [
+        "保税物流园区的进出货物需提交进境备案清单"
+      ],
+      "related_terms": [
+        "备案清单",
+        "Inward Manifest"
+      ],
+      "translations": {
+        "en": "Entry Manifest",
+        "th": "บัญชีสินค้าเข้า",
+        "ms": "Manifes Kemasukan",
+        "vi": "Bảng kê hàng hóa nhập cảnh"
+      },
+      "tags": [
+        "海关",
+        "监管",
+        "单证"
+      ],
+      "abbreviation": "Manifest"
+    },
+    {
+      "term_id": "TERM-050",
+      "term": "滞报金",
+      "category": "海关术语",
+      "definition": "因进口货物收货人未在规定期限内申报而由海关征收的款项",
+      "examples": [
+        "超过14天未申报将产生滞报金，请注意申报时效"
+      ],
+      "related_terms": [
+        "Late Declaration Fee",
+        "申报延迟费"
+      ],
+      "translations": {
+        "en": "Late Declaration Fee",
+        "th": "ค่าปรับการสำแดงล่าช้า",
+        "ms": "Yuran Lewat Deklarasi",
+        "vi": "Phí chậm nộp tờ khai"
+      },
+      "tags": [
+        "海关",
+        "清关",
+        "风险管理"
+      ],
+      "abbreviation": "Late Fee"
+    },
+    {
+      "term_id": "TERM-051",
+      "term": "质量证明书",
+      "category": "贸易单证",
+      "definition": "由生产商或第三方检验机构出具的证明货物品质符合合同要求的证明",
+      "examples": [
+        "客户要求在装运前提供每批产品的质量证明书"
+      ],
+      "related_terms": [
+        "品质证明",
+        "Certificate of Quality"
+      ],
+      "translations": {
+        "en": "Certificate of Quality",
+        "th": "ใบรับรองคุณภาพ",
+        "ms": "Sijil Kualiti",
+        "vi": "Giấy chứng nhận chất lượng"
+      },
+      "tags": [
+        "单证",
+        "检验",
+        "质量"
+      ],
+      "abbreviation": "QC"
+    },
+    {
+      "term_id": "TERM-052",
+      "term": "分析报告单",
+      "category": "贸易单证",
+      "definition": "对化学品或原材料成分进行测试后得出的详细分析报告",
+      "examples": [
+        "这批化工原料必须附带最新的COA报告方能入库"
+      ],
+      "related_terms": [
+        "成分表",
+        "Certificate of Analysis"
+      ],
+      "translations": {
+        "en": "Certificate of Analysis",
+        "th": "ใบรายงานการวิเคราะห์",
+        "ms": "Sijil Analisis",
+        "vi": "Phiếu phân tích thành phần"
+      },
+      "tags": [
+        "单证",
+        "化工",
+        "合规"
+      ],
+      "abbreviation": "COA"
+    },
+    {
+      "term_id": "TERM-053",
+      "term": "提货单",
+      "category": "物流术语",
+      "definition": "收货人凭借提单向船公司换取的，用于向港口仓库提取货物的凭证",
+      "examples": [
+        "进口商需要先支付本地费用才能换取D/O提货单"
+      ],
+      "related_terms": [
+        "换单",
+        "Delivery Order"
+      ],
+      "translations": {
+        "en": "Delivery Order",
+        "th": "ใบสั่งปล่อยสินค้า",
+        "ms": "Arahan Penghantaran",
+        "vi": "Lệnh giao hàng"
+      },
+      "tags": [
+        "物流",
+        "单证",
+        "清关"
+      ],
+      "abbreviation": "D/O"
+    },
+    {
+      "term_id": "TERM-054",
+      "term": "唛头",
+      "category": "物流术语",
+      "definition": "在货物外包装上刷写的符号、数字及收货人缩写，以便于识别和核对",
+      "examples": [
+        "请在唛头上注明订单号和箱号"
+      ],
+      "related_terms": [
+        "装运标记",
+        "唛码"
+      ],
+      "translations": {
+        "en": "Shipping Mark",
+        "th": "เครื่องหมายหีบห่อ",
+        "ms": "Tanda Penghantaran",
+        "vi": "Ký mã hiệu"
+      },
+      "tags": [
+        "物流",
+        "包装"
+      ],
+      "abbreviation": "Shipping Mark"
+    },
+    {
+      "term_id": "TERM-055",
+      "term": "装运前检验",
+      "category": "海关术语",
+      "definition": "应进口国要求，在货物启运前由指定的检验机构进行的质量和价格检查",
+      "examples": [
+        "根据目的地法规，这批出口到印尼的货物需要做PSI检验"
+      ],
+      "related_terms": [
+        "监装",
+        "Pre-shipment Inspection"
+      ],
+      "translations": {
+        "en": "Pre-shipment Inspection",
+        "th": "การตรวจสอบก่อนส่งออก",
+        "ms": "Pemeriksaan Pra-penghantaran",
+        "vi": "Kiểm định trước khi giao hàng"
+      },
+      "tags": [
+        "检验",
+        "合规",
+        "海关"
+      ],
+      "abbreviation": "PSI"
+    },
+    {
+      "term_id": "TERM-056",
+      "term": "自由贸易区",
+      "category": "贸易协定",
+      "definition": "在一国境内划出的，在关税和贸易监管方面实施特殊优惠政策的特定区域",
+      "examples": [
+        "该工厂位于自贸区内，可以享受免征进口关税的政策"
+      ],
+      "related_terms": [
+        "自贸区",
+        "Free Trade Zone"
+      ],
+      "translations": {
+        "en": "Free Trade Zone",
+        "th": "เขตการค้าเสรี",
+        "ms": "Zon Perdagangan Bebas",
+        "vi": "Khu vực thương mại tự do"
+      },
+      "tags": [
+        "贸易政策",
+        "海关",
+        "关税"
+      ],
+      "abbreviation": "FTZ"
+    },
+    {
+      "term_id": "TERM-057",
+      "term": "出口许可证",
+      "category": "贸易单证",
+      "definition": "国家主管机构颁发的准许特定商品出口的法律凭证",
+      "examples": [
+        "战略物资或配额管理商品必须申领出口许可证"
+      ],
+      "related_terms": [
+        "出口证",
+        "Export License"
+      ],
+      "translations": {
+        "en": "Export License",
+        "th": "ใบอนุญาตส่งออก",
+        "ms": "Lesen Eksport",
+        "vi": "Giấy phép xuất khẩu"
+      },
+      "tags": [
+        "单证",
+        "合规",
+        "海关"
+      ],
+      "abbreviation": "EL"
+    },
+    {
+      "term_id": "TERM-058",
+      "term": "从价税",
+      "category": "海关术语",
+      "definition": "以货物的价格作为计税依据而征收的关税",
+      "examples": [
+        "大多数电子产品的关税是以从价税方式征收的"
+      ],
+      "related_terms": [
+        "从价计征",
+        "Value-based Duty"
+      ],
+      "translations": {
+        "en": "Ad Valorem Duty",
+        "th": "ภาษีตามราคา",
+        "ms": "Duti Ad Valorem",
+        "vi": "Thuế theo giá trị"
+      },
+      "tags": [
+        "关税",
+        "海关",
+        "金融"
+      ],
+      "abbreviation": "Ad Valorem Duty"
+    },
+    {
+      "term_id": "TERM-059",
+      "term": "从量税",
+      "category": "海关术语",
+      "definition": "以货物的重量、体积或数量作为计税依据而征收的关税",
+      "examples": [
+        "原油和成品油的进口常被征收从量税"
+      ],
+      "related_terms": [
+        "从量计征"
+      ],
+      "translations": {
+        "en": "Specific Duty",
+        "th": "ภาษีตามสภาพ",
+        "ms": "Duti Spesifik",
+        "vi": "Thuế tuyệt đối"
+      },
+      "tags": [
+        "关税",
+        "海关",
+        "金融"
+      ],
+      "abbreviation": "Specific Duty"
+    },
+    {
+      "term_id": "TERM-060",
+      "term": "复合税",
+      "category": "海关术语",
+      "definition": "同时采用从价和从量两种标准计征的一种关税形式",
+      "examples": [
+        "某些高端钟表的关税计算采用了复合税"
+      ],
+      "related_terms": [
+        "混合税",
+        "Mixed Duty"
+      ],
+      "translations": {
+        "en": "Compound Duty",
+        "th": "ภาษีแบบผสม",
+        "ms": "Duti Kompaun",
+        "vi": "Thuế hỗn hợp"
+      },
+      "tags": [
+        "关税",
+        "海关",
+        "金融"
+      ],
+      "abbreviation": "Compound Duty"
+    },
+    {
+      "term_id": "TERM-061",
+      "term": "转口贸易",
+      "category": "其他",
+      "definition": "货物由生产国运往消费国，但经过第三国进行买卖或转运的贸易行为",
+      "examples": [
+        "新加坡是东南亚重要的转口贸易中心"
+      ],
+      "related_terms": [
+        "中转贸易",
+        "Entrepôt Trade"
+      ],
+      "translations": {
+        "en": "Re-export Trade",
+        "th": "การค้าผ่านแดน",
+        "ms": "Perdagangan Transit",
+        "vi": "Thương mại chuyển khẩu"
+      },
+      "tags": [
+        "商业模式",
+        "物流"
+      ],
+      "abbreviation": "Transit Trade"
+    },
+    {
+      "term_id": "TERM-062",
+      "term": "一般贸易",
+      "category": "海关术语",
+      "definition": "指中国境内有进出口经营权的企业单边进口或单边出口的贸易形式",
+      "examples": [
+        "一般贸易出口可以正常申请退税"
+      ],
+      "related_terms": [
+        "General Trade"
+      ],
+      "translations": {
+        "en": "General Trade",
+        "th": "การค้าทั่วไป",
+        "ms": "Perdagangan Am",
+        "vi": "Thương mại thông thường"
+      },
+      "tags": [
+        "海关",
+        "贸易方式"
+      ],
+      "abbreviation": "GT"
+    },
+    {
+      "term_id": "TERM-063",
+      "term": "加工贸易",
+      "category": "海关术语",
+      "definition": "进口全部或部分原辅材料，经加工装配后再将成品复出口的贸易形式",
+      "examples": [
+        "加工贸易项下进口料件可以申请保税"
+      ],
+      "related_terms": [
+        "来料加工",
+        "进料加工"
+      ],
+      "translations": {
+        "en": "Processing Trade",
+        "th": "การค้าเพื่อการแปรรูป",
+        "ms": "Perdagangan Pemprosesan",
+        "vi": "Thương mại gia công"
+      },
+      "tags": [
+        "海关",
+        "贸易方式",
+        "制造业"
+      ],
+      "abbreviation": "Processing Trade"
+    },
+    {
+      "term_id": "TERM-064",
+      "term": "保税物流园区",
+      "category": "海关术语",
+      "definition": "在港口附近划出的专门从事保税仓储、配送和国际中转的监管区域",
+      "examples": [
+        "货物进入保税物流园区即视同出口"
+      ],
+      "related_terms": [
+        "区港联动",
+        "Bonded Logistics Park"
+      ],
+      "translations": {
+        "en": "Bonded Logistics Park",
+        "th": "เขตคลังสินค้าทัณฑ์บน",
+        "ms": "Taman Logistik Berikat",
+        "vi": "Khu logistics ngoại quan"
+      },
+      "tags": [
+        "海关",
+        "物流",
+        "仓储"
+      ],
+      "abbreviation": "BLP"
+    },
+    {
+      "term_id": "TERM-065",
+      "term": "红色通道",
+      "category": "海关术语",
+      "definition": "海关查验通道，适用于有申报事项或高风险等级的货物及旅客",
+      "examples": [
+        "携带应税商品必须走红色通道主动申报"
+      ],
+      "related_terms": [
+        "申报通道"
+      ],
+      "translations": {
+        "en": "Red Channel",
+        "th": "ช่องแดง",
+        "ms": "Saluran Merah",
+        "vi": "Luồng đỏ"
+      },
+      "tags": [
+        "海关",
+        "清关",
+        "风险管理"
+      ],
+      "abbreviation": "Red Channel"
+    },
+    {
+      "term_id": "TERM-066",
+      "term": "绿色通道",
+      "category": "海关术语",
+      "definition": "海关免验通道，适用于无申报事项或低风险等级的货物及旅客",
+      "examples": [
+        "低风险企业可以享受海关绿色通道快速通关"
+      ],
+      "related_terms": [
+        "无申报通道"
+      ],
+      "translations": {
+        "en": "Green Channel",
+        "th": "ช่องเขียว",
+        "ms": "Saluran Hijau",
+        "vi": "Luồng xanh"
+      },
+      "tags": [
+        "海关",
+        "清关",
+        "效率"
+      ],
+      "abbreviation": "Green Channel"
+    },
+    {
+      "term_id": "TERM-067",
+      "term": "走私",
+      "category": "海关术语",
+      "definition": "逃避海关监管，非法运输禁止、限制进出境货物或逃避关税的行为",
+      "examples": [
+        "严厉打击各类跨国走私犯罪活动"
+      ],
+      "related_terms": [
+        "偷税",
+        "非法入境"
+      ],
+      "translations": {
+        "en": "Smuggling",
+        "th": "การลักลอบหนีศุลกากร",
+        "ms": "Penyelundupan",
+        "vi": "Buôn lậu"
+      },
+      "tags": [
+        "海关",
+        "合规",
+        "风险管理"
+      ],
+      "abbreviation": "Smuggling"
+    },
+    {
+      "term_id": "TERM-068",
+      "term": "知识产权海关保护",
+      "category": "海关术语",
+      "definition": "海关对与进出口货物有关的商标权、著作权、专利权等进行的监管保护",
+      "examples": [
+        "企业可以在海关总署进行知识产权备案"
+      ],
+      "related_terms": [
+        "海关备案",
+        "知识产权"
+      ],
+      "translations": {
+        "en": "Customs IPR Protection",
+        "th": "การคุ้มครองสิทธิในทรัพย์สินทางปัญญาของศุลกากร",
+        "ms": "Perlindungan IPR Kastam",
+        "vi": "Bảo hộ quyền sở hữu trí tuệ tại hải quan"
+      },
+      "tags": [
+        "海关",
+        "合规",
+        "法律"
+      ],
+      "abbreviation": "IPR Protection"
+    },
+    {
+      "term_id": "TERM-069",
+      "term": "产地标记",
+      "category": "海关术语",
+      "definition": "在货物或包装上标明的货物制造、生产、加工的地名，如“Made in China”",
+      "examples": [
+        "进口产品必须具有清晰且符合规定的产地标记"
+      ],
+      "related_terms": [
+        "Made in",
+        "原产地标识"
+      ],
+      "translations": {
+        "en": "Country of Origin Mark",
+        "th": "เครื่องหมายแสดงถิ่นกำเนิด",
+        "ms": "Tanda Negara Asal",
+        "vi": "Nhãn xuất xứ"
+      },
+      "tags": [
+        "海关",
+        "单证",
+        "合规"
+      ],
+      "abbreviation": "Country of Origin Mark"
+    },
+    {
+      "term_id": "TERM-070",
+      "term": "汇票",
+      "category": "支付方式",
+      "definition": "由一人向另一人签发的，要求在见票时或定期支付一定金额给特定人的书面指令",
+      "examples": [
+        "在信用证支付下，出口商需提交汇票要求银行付款"
+      ],
+      "related_terms": [
+        "Bill of Exchange",
+        "Bill"
+      ],
+      "translations": {
+        "en": "Bill of Exchange",
+        "th": "ตั๋วแลกเงิน",
+        "ms": "Bil Pertukaran",
+        "vi": "Hối phiếu"
+      },
+      "tags": [
+        "支付",
+        "单证",
+        "金融"
+      ],
+      "abbreviation": "Draft"
+    },
+    {
+      "term_id": "TERM-071",
+      "term": "信托收据",
+      "category": "支付方式",
+      "definition": "进口商在未付款前，借出单据提货销售并承诺将销货款归还银行的凭证",
+      "examples": [
+        "银行向进口商提供信托收据融资"
+      ],
+      "related_terms": [
+        "Trust Receipt"
+      ],
+      "translations": {
+        "en": "Trust Receipt",
+        "th": "ใบรับสินค้าโดยใช้สิทธิ์ของธนาคาร",
+        "ms": "Resit Amanah",
+        "vi": "Biên lai tín thác"
+      },
+      "tags": [
+        "支付",
+        "金融",
+        "银行"
+      ],
+      "abbreviation": "T/R"
+    },
+    {
+      "term_id": "TERM-072",
+      "term": "非关税壁垒",
+      "category": "贸易协定",
+      "definition": "关税以外的一切限制进口的措施，如进口配额、技术标准、检验检疫要求等",
+      "examples": [
+        "复杂的技术认证往往成为一种隐形的非关税壁垒"
+      ],
+      "related_terms": [
+        "贸易限制",
+        "Non-tariff Barriers"
+      ],
+      "translations": {
+        "en": "Non-tariff Barriers",
+        "th": "มาตรการกีดกันทางการค้าที่ไม่ใช่ภาษี",
+        "ms": "Hambatan Bukan Tarif",
+        "vi": "Hàng rào phi thuế quan"
+      },
+      "tags": [
+        "贸易政策",
+        "合规"
+      ],
+      "abbreviation": "NTB"
+    },
+    {
+      "term_id": "TERM-073",
+      "term": "卫生与植物卫生措施",
+      "category": "贸易协定",
+      "definition": "为保护人类、动物或植物免受病虫害、毒素或污染物伤害而采取的措施",
+      "examples": [
+        "SPS协定要求各国的检疫标准应当透明且有科学依据"
+      ],
+      "related_terms": [
+        "SPS协议",
+        "检疫标准"
+      ],
+      "translations": {
+        "en": "Sanitary and Phytosanitary Measures",
+        "th": "มาตรการสุขอนามัยและสุขอนามัยพืช",
+        "ms": "Langkah-langkah Sanitari dan Fitopsanitari",
+        "vi": "Biện pháp vệ sinh và kiểm dịch động thực vật"
+      },
+      "tags": [
+        "贸易政策",
+        "检验",
+        "合规"
+      ],
+      "abbreviation": "SPS"
+    },
+    {
+      "term_id": "TERM-074",
+      "term": "技术性贸易壁垒",
+      "category": "贸易协定",
+      "definition": "通过强制性技术法规、标准和合格评定程序对贸易造成的阻碍",
+      "examples": [
+        "电子产品的能效标准是常见的技术性贸易壁垒"
+      ],
+      "related_terms": [
+        "Technical Barriers to Trade"
+      ],
+      "translations": {
+        "en": "Technical Barriers to Trade",
+        "th": "อุปสรรคทางเทคนิคต่อการค้า",
+        "ms": "Hambatan Teknis Perdagangan",
+        "vi": "Rào cản kỹ thuật trong thương mại"
+      },
+      "tags": [
+        "贸易政策",
+        "合规",
+        "标准"
+      ],
+      "abbreviation": "TBT"
+    },
+    {
+      "term_id": "TERM-075",
+      "term": "国家单一窗口",
+      "category": "海关术语",
+      "definition": "允许贸易参与方通过一个窗口提交标准化的信息和单证，以办理进出口手续",
+      "examples": [
+        "东盟各国正致力于实现成员国之间的国家单一窗口互联"
+      ],
+      "related_terms": [
+        "单一窗口",
+        "Single Window"
+      ],
+      "translations": {
+        "en": "National Single Window",
+        "th": "ระบบหน้าต่างเดี่ยวแห่งชาติ",
+        "ms": "Tetingkap Tunggal Kebangsaan",
+        "vi": "Cơ chế một cửa quốc gia"
+      },
+      "tags": [
+        "海关",
+        "数字化",
+        "贸易便利化"
+      ],
+      "abbreviation": "NSW"
+    },
+    {
+      "term_id": "TERM-076",
+      "term": "东盟产品原产地证",
+      "category": "贸易单证",
+      "definition": "东盟自由贸易协定项下特有的原产地证，用于东盟成员国间减免关税",
+      "examples": [
+        "在东盟内部贸易中，使用FORM D可以享受零关税"
+      ],
+      "related_terms": [
+        "ATIGA",
+        "东盟协定证"
+      ],
+      "translations": {
+        "en": "Form D",
+        "th": "ฟอร์ม ดี (Form D)",
+        "ms": "Borang D",
+        "vi": "Mẫu D"
+      },
+      "tags": [
+        "单证",
+        "东盟",
+        "关税"
+      ],
+      "abbreviation": "FORM D"
+    },
+    {
+      "term_id": "TERM-077",
+      "term": "直运",
+      "category": "物流术语",
+      "definition": "货物不经过任何中转直接从启运港运往目的港的运输方式",
+      "examples": [
+        "为了享受FTA优惠，通常要求货物必须直运"
+      ],
+      "related_terms": [
+        "直接运输",
+        "非中转"
+      ],
+      "translations": {
+        "en": "Direct Shipment",
+        "th": "การขนส่งตรง",
+        "ms": "Penghantaran Terus",
+        "vi": "Vận chuyển trực tiếp"
+      },
+      "tags": [
+        "物流",
+        "海运"
+      ],
+      "abbreviation": "Direct Shipment"
+    },
+    {
+      "term_id": "TERM-078",
+      "term": "背对背提单",
+      "category": "贸易单证",
+      "definition": "由中间商签发的提单，其内容与原提单一致但变更了发货人和收货人",
+      "examples": [
+        "在三角贸易中，背对背提单被广泛使用"
+      ],
+      "related_terms": [
+        "分提单",
+        "B2B B/L"
+      ],
+      "translations": {
+        "en": "Back-to-Back Bill of Lading",
+        "th": "ใบตราส่งสินค้าแบบแบ็คทูแบ็ค",
+        "ms": "Bil Pemuatan Belakang-ke-Belakang",
+        "vi": "Vận đơn giáp lưng"
+      },
+      "tags": [
+        "单证",
+        "物流",
+        "中转贸易"
+      ],
+      "abbreviation": "Back-to-Back B/L"
+    },
+    {
+      "term_id": "TERM-079",
+      "term": "清洁提单",
+      "category": "贸易单证",
+      "definition": "承运人未在提单上对货物或包装状况添加任何不良批注的提单",
+      "examples": [
+        "银行通常只接受清洁提单作为信用证项下的单据"
+      ],
+      "related_terms": [
+        "无损提单"
+      ],
+      "translations": {
+        "en": "Clean Bill of Lading",
+        "th": "ใบตราส่งสินค้าที่ไม่มีข้อโต้แย้ง",
+        "ms": "Bil Pemuatan Bersih",
+        "vi": "Vận đơn sạch"
+      },
+      "tags": [
+        "单证",
+        "物流",
+        "海运"
+      ],
+      "abbreviation": "Clean B/L"
+    },
+    {
+      "term_id": "TERM-080",
+      "term": "不洁提单",
+      "category": "贸易单证",
+      "definition": "承运人注明货物包装破损或数量受损等批注的提单",
+      "examples": [
+        "如果拿到不洁提单，买方有权拒绝付款"
+      ],
+      "related_terms": [
+        "批注提单",
+        "Claused B/L"
+      ],
+      "translations": {
+        "en": "Claused Bill of Lading",
+        "th": "ใบตราส่งสินค้าที่มีข้อโต้แย้ง",
+        "ms": "Bil Pemuatan Berfasal",
+        "vi": "Vận đơn không sạch"
+      },
+      "tags": [
+        "单证",
+        "物流",
+        "风险管理"
+      ],
+      "abbreviation": "Foul B/L"
+    },
+    {
+      "term_id": "TERM-081",
+      "term": "联运提单",
+      "category": "贸易单证",
+      "definition": "涵盖两种或以上运输方式，由第一承运人签发的全程提单",
+      "examples": [
+        "联运提单简化了多段运输的单据交割流程"
+      ],
+      "related_terms": [
+        "全程提单",
+        "多式联运提单"
+      ],
+      "translations": {
+        "en": "Through Bill of Lading",
+        "th": "ใบตราส่งสินค้าตลอดทาง",
+        "ms": "Bil Pemuatan Melalui",
+        "vi": "Vận đơn suốt"
+      },
+      "tags": [
+        "单证",
+        "物流",
+        "多式联运"
+      ],
+      "abbreviation": "Through B/L"
+    },
+    {
+      "term_id": "TERM-082",
+      "term": "货运代理人",
+      "category": "物流术语",
+      "definition": "受发货人或收货人委托，办理货物运输及其相关业务的企业",
+      "examples": [
+        "货运代理人可以提供订舱、报关、保险等一站式服务"
+      ],
+      "related_terms": [
+        "货代",
+        "Freight Forwarder"
+      ],
+      "translations": {
+        "en": "Freight Forwarder",
+        "th": "ตัวแทนรับจัดการขนส่งสินค้า",
+        "ms": "Penghantar Mel",
+        "vi": "Đại lý giao nhận"
+      },
+      "tags": [
+        "物流",
+        "服务"
+      ],
+      "abbreviation": "Forwarder"
+    },
+    {
+      "term_id": "TERM-083",
+      "term": "船务代理",
+      "category": "物流术语",
+      "definition": "受船公司委托，在港口办理船舶进出港及货物装卸、单证业务的企业",
+      "examples": [
+        "船务代理负责协助船长办理海关入港申报"
+      ],
+      "related_terms": [
+        "船代"
+      ],
+      "translations": {
+        "en": "Shipping Agent",
+        "th": "ตัวแทนเรือ",
+        "ms": "Ejen Penghantaran",
+        "vi": "Đại lý tàu biển"
+      },
+      "tags": [
+        "物流",
+        "海运"
+      ],
+      "abbreviation": "Shipping Agent"
+    },
+    {
+      "term_id": "TERM-084",
+      "term": "集装箱堆场",
+      "category": "物流术语",
+      "definition": "用于交接和保管重箱及空箱的港口场所",
+      "examples": [
+        "重箱必须在截关日期前返回指定的集装箱堆场"
+      ],
+      "related_terms": [
+        "堆场",
+        "Container Yard"
+      ],
+      "translations": {
+        "en": "Container Yard",
+        "th": "ลานตู้คอนเทนเนอร์",
+        "ms": "Depot Kontena",
+        "vi": "Bãi container"
+      },
+      "tags": [
+        "物流",
+        "海运",
+        "仓储"
+      ],
+      "abbreviation": "CY"
+    },
+    {
+      "term_id": "TERM-085",
+      "term": "集装箱货运站",
+      "category": "物流术语",
+      "definition": "专门办理拼箱货（LCL）装箱、拆箱、理货和保管的场所",
+      "examples": [
+        "拼箱货发货人需要将货物送至货代指定的CFS"
+      ],
+      "related_terms": [
+        "拼箱站",
+        "Container Freight Station"
+      ],
+      "translations": {
+        "en": "Container Freight Station",
+        "th": "สถานีบรรจุสินค้าในตู้คอนเทนเนอร์",
+        "ms": "Stesen Tambang Kontena",
+        "vi": "Kho khai thác hàng lẻ"
+      },
+      "tags": [
+        "物流",
+        "海运",
+        "仓储"
+      ],
+      "abbreviation": "CFS"
+    },
+    {
+      "term_id": "TERM-086",
+      "term": "预计到达时间",
+      "category": "物流术语",
+      "definition": "船舶、飞机等运输工具预计抵达目的地港口或机场的时间",
+      "examples": [
+        "请密切关注货船的ETA，以便提前准备清关"
+      ],
+      "related_terms": [
+        "到港时间"
+      ],
+      "translations": {
+        "en": "Estimated Time of Arrival",
+        "th": "กำหนดถึงโดยประมาณ",
+        "ms": "Anggaran Masa Ketibaan",
+        "vi": "Thời gian dự kiến đến"
+      },
+      "tags": [
+        "物流",
+        "效率"
+      ],
+      "abbreviation": "ETA"
+    },
+    {
+      "term_id": "TERM-087",
+      "term": "预计离港时间",
+      "category": "物流术语",
+      "definition": "船舶、飞机等运输工具预计离开起运地港口或机场的时间",
+      "examples": [
+        "由于天气原因，ETD可能会推迟24小时"
+      ],
+      "related_terms": [
+        "开航时间"
+      ],
+      "translations": {
+        "en": "Estimated Time of Departure",
+        "th": "กำหนดออกโดยประมาณ",
+        "ms": "Anggaran Masa Berlepas",
+        "vi": "Thời gian dự kiến đi"
+      },
+      "tags": [
+        "物流",
+        "效率"
+      ],
+      "abbreviation": "ETD"
+    },
+    {
+      "term_id": "TERM-088",
+      "term": "滞期费",
+      "category": "物流术语",
+      "definition": "由于收货人未能在免费期内提走集装箱，而由船公司收取的费用",
+      "examples": [
+        "码头工人罢工导致清关缓慢，产生了大额滞期费"
+      ],
+      "related_terms": [
+        "超期费",
+        "仓租"
+      ],
+      "translations": {
+        "en": "Demurrage",
+        "th": "ค่าเสียเวลา",
+        "ms": "Caj Demuraj",
+        "vi": "Phí lưu bãi"
+      },
+      "tags": [
+        "物流",
+        "风险管理",
+        "支付"
+      ],
+      "abbreviation": "Demurrage"
+    },
+    {
+      "term_id": "TERM-089",
+      "term": "滞箱费",
+      "category": "物流术语",
+      "definition": "由于收货人未能在规定时间内将空集装箱归还至指定堆场而产生的费用",
+      "examples": [
+        "在还空箱前，请务必核对是否有Detention费用产生"
+      ],
+      "related_terms": [
+        "延扣费"
+      ],
+      "translations": {
+        "en": "Detention Charge",
+        "th": "ค่าหน่วงเวลาตู้สินค้า",
+        "ms": "Caj Tahanan",
+        "vi": "Phí lưu container"
+      },
+      "tags": [
+        "物流",
+        "风险管理",
+        "支付"
+      ],
+      "abbreviation": "Detention"
+    },
+    {
+      "term_id": "TERM-090",
+      "term": "港建费",
+      "category": "物流术语",
+      "definition": "港口当局向进出港货物的货主收取的用于港口设施建设与维护的费用",
+      "examples": [
+        "港建费通常计入港口操作杂费中"
+      ],
+      "related_terms": [
+        "码头建设费"
+      ],
+      "translations": {
+        "en": "Wharfage",
+        "th": "ค่าภาระท่าเรือ",
+        "ms": "Caj Dermaga",
+        "vi": "Phí bến bãi"
+      },
+      "tags": [
+        "物流",
+        "支付"
+      ],
+      "abbreviation": "Wharfage"
+    },
+    {
+      "term_id": "TERM-091",
+      "term": "理货",
+      "category": "物流术语",
+      "definition": "在货物装卸时，由理货员进行计数、核对唛头及检查残损的过程",
+      "examples": [
+        "理货报告是解决货损货差索赔的重要原始依据"
+      ],
+      "related_terms": [
+        "理货服务",
+        "Tallying"
+      ],
+      "translations": {
+        "en": "Tally",
+        "th": "การนับสินค้า",
+        "ms": "Tally",
+        "vi": "Kiểm đếm"
+      },
+      "tags": [
+        "物流",
+        "风险管理"
+      ],
+      "abbreviation": "Tally"
+    },
+    {
+      "term_id": "TERM-092",
+      "term": "货物舱单",
+      "category": "海关术语",
+      "definition": "承运人向海关申报的列明全船/机所载货物的清单",
+      "examples": [
+        "舱单信息必须与报关单信息完全吻合方可结关"
+      ],
+      "related_terms": [
+        "载货清单",
+        "Cargo Manifest"
+      ],
+      "translations": {
+        "en": "Cargo Manifest",
+        "th": "บัญชีสินค้า",
+        "ms": "Manifes Kargo",
+        "vi": "Bản kê khai hàng hóa"
+      },
+      "tags": [
+        "海关",
+        "单证",
+        "物流"
+      ],
+      "abbreviation": "Manifest"
+    },
+    {
+      "term_id": "TERM-093",
+      "term": "单证对齐",
+      "category": "贸易单证",
+      "definition": "确保合同、发票、装箱单、提单等所有单据中的关键数据完全一致",
+      "examples": [
+        "单证对齐是降低清关受阻风险的核心步骤"
+      ],
+      "related_terms": [
+        "单证一致",
+        "单单相符"
+      ],
+      "translations": {
+        "en": "Document Alignment",
+        "th": "การสอดคล้องของเอกสาร",
+        "ms": "Penyelarasan Dokumen",
+        "vi": "Sự nhất quán chứng từ"
+      },
+      "tags": [
+        "单证",
+        "清关",
+        "合规"
+      ],
+      "abbreviation": "Document Alignment"
+    },
+    {
+      "term_id": "TERM-094",
+      "term": "分批装运",
+      "category": "物流术语",
+      "definition": "同一合同下的货物分成若干批次，分别通过不同的运输工具装运",
+      "examples": [
+        "信用证条款中应当注明是否允许分批装运"
+      ],
+      "related_terms": [
+        "分装",
+        "分批交货"
+      ],
+      "translations": {
+        "en": "Partial Shipment",
+        "th": "การทยอยส่งสินค้า",
+        "ms": "Penghantaran Separa",
+        "vi": "Giao hàng từng phần"
+      },
+      "tags": [
+        "物流",
+        "合同"
+      ],
+      "abbreviation": "Partial Shipment"
+    },
+    {
+      "term_id": "TERM-095",
+      "term": "转运",
+      "category": "物流术语",
+      "definition": "货物在运输途中从一种运输工具卸下，装上另一种运输工具以继续运往目的地",
+      "examples": [
+        "该航线没有直达，必须在胡志明市进行转运"
+      ],
+      "related_terms": [
+        "中转",
+        "换装"
+      ],
+      "translations": {
+        "en": "Transshipment",
+        "th": "การถ่ายลำสินค้า",
+        "ms": "Pemindahan Kapal",
+        "vi": "Chuyển tải"
+      },
+      "tags": [
+        "物流",
+        "海运"
+      ],
+      "abbreviation": "Transshipment"
+    },
+    {
+      "term_id": "TERM-096",
+      "term": "不可抗力",
+      "category": "贸易术语",
+      "definition": "不能预见、不能避免且不能克服的客观情况，如地震、战争等，可免除违约责任",
+      "examples": [
+        "合同中应包含明确的不可抗力条款以规避违约风险"
+      ],
+      "related_terms": [
+        "人力不可抗拒"
+      ],
+      "translations": {
+        "en": "Force Majeure",
+        "th": "เหตุสุดวิสัย",
+        "ms": "Force Majeure",
+        "vi": "Bất khả kháng"
+      },
+      "tags": [
+        "合同",
+        "风险管理"
+      ],
+      "abbreviation": "Force Majeure"
+    },
+    {
+      "term_id": "TERM-097",
+      "term": "仲裁条款",
+      "category": "贸易术语",
+      "definition": "贸易合同中约定当发生争议时，提交特定仲裁机构进行裁决的协议",
+      "examples": [
+        "双方约定如有纠纷，提交中国国际经济贸易仲裁委员会仲裁"
+      ],
+      "related_terms": [
+        "争议解决",
+        "Dispute Resolution"
+      ],
+      "translations": {
+        "en": "Arbitration Clause",
+        "th": "ข้อกำหนดอนุญาโตตุลาการ",
+        "ms": "Fasal Timbang Tara",
+        "vi": "Điều khoản trọng tài"
+      },
+      "tags": [
+        "合同",
+        "合规"
+      ],
+      "abbreviation": "Arbitration Clause"
+    },
+    {
+      "term_id": "TERM-098",
+      "term": "法定检验",
+      "category": "海关术语",
+      "definition": "根据国家法律规定，某些进出口商品必须经检验检疫机构检验后方能放行",
+      "examples": [
+        "法检目录内的商品未获合格证书不得出口"
+      ],
+      "related_terms": [
+        "法检",
+        "Compulsory Inspection"
+      ],
+      "translations": {
+        "en": "Mandatory Inspection",
+        "th": "การตรวจสอบตามกฎหมาย",
+        "ms": "Pemeriksaan Mandatori",
+        "vi": "Kiểm tra chuyên ngành"
+      },
+      "tags": [
+        "海关",
+        "检验",
+        "合规"
+      ],
+      "abbreviation": "Mandatory Inspection"
+    },
+    {
+      "term_id": "TERM-099",
+      "term": "贸易救济",
+      "category": "贸易协定",
+      "definition": "一国政府为保护国内产业不受不公平贸易行为损害而采取的措施",
+      "examples": [
+        "反补贴和保障措施都属于常见的贸易救济手段"
+      ],
+      "related_terms": [
+        "贸易壁垒",
+        "Trade Defense"
+      ],
+      "translations": {
+        "en": "Trade Remedies",
+        "th": "การเยียวยาทางการค้า",
+        "ms": "Remedi Perdagangan",
+        "vi": "Biện pháp phòng vệ thương mại"
+      },
+      "tags": [
+        "贸易政策",
+        "风险管理"
+      ],
+      "abbreviation": "Trade Remedies"
+    },
+    {
+      "term_id": "TERM-100",
+      "term": "电子通关",
+      "category": "海关术语",
+      "definition": "通过互联网和电子技术实现报关、缴税、审单和放行的全程无纸化操作",
+      "examples": [
+        "电子通关将原来的清关周期缩短了50%以上"
+      ],
+      "related_terms": [
+        "无纸化报关",
+        "Paperless Clearance"
+      ],
+      "translations": {
+        "en": "Electronic Customs Clearance",
+        "th": "การพิธีการศุลกากรทางอิเล็กทรอนิกส์",
+        "ms": "Pelepasan Kastam Elektronik",
+        "vi": "Thông quan điện tử"
+      },
+      "tags": [
+        "海关",
+        "数字化",
+        "效率"
+      ],
+      "abbreviation": "E-clearance"
+    },
+    {
+      "term_id": "TERM-101",
+      "term": "海外仓",
+      "category": "物流术语",
+      "definition": "跨境电商企业在境外设立或租赁的，用于存储、分拣、包装及配送货物的仓库",
+      "examples": [
+        "利用海外仓可以实现当地发货，缩短派送时间"
+      ],
+      "related_terms": [
+        "境外仓",
+        "Overseas Warehouse",
+        "FBA仓"
+      ],
+      "translations": {
+        "en": "Overseas Warehouse",
+        "th": "คลังสินค้าต่างประเทศ",
+        "ms": "Gudang Luar Negara",
+        "vi": "Kho nước ngoài"
+      },
+      "tags": [
+        "物流",
+        "仓储",
+        "跨境电商"
+      ],
+      "abbreviation": "OW"
+    },
+    {
+      "term_id": "TERM-102",
+      "term": "尾程派送",
+      "category": "物流术语",
+      "definition": "物流链条中最后一个环节，即将货物从配送中心送到最终消费者手中的过程",
+      "examples": [
+        "在印尼，地理环境复杂导致尾程派送成本较高"
+      ],
+      "related_terms": [
+        "末端配送",
+        "最后公里"
+      ],
+      "translations": {
+        "en": "Last-mile Delivery",
+        "th": "การจัดส่งช่วงสุดท้าย",
+        "ms": "Penghantaran Perbatuan Terakhir",
+        "vi": "Giao hàng chặng cuối"
+      },
+      "tags": [
+        "物流",
+        "配送",
+        "B2C"
+      ],
+      "abbreviation": "Last-mile"
+    },
+    {
+      "term_id": "TERM-103",
+      "term": "头程物流",
+      "category": "物流术语",
+      "definition": "货物从国内起运地运送到境外第一站（如海外仓或中转港）的运输过程",
+      "examples": [
+        "头程物流可以选择海运、空运或中欧班列"
+      ],
+      "related_terms": [
+        "头程运输",
+        "First-leg Logistics"
+      ],
+      "translations": {
+        "en": "First-leg Logistics",
+        "th": "การขนส่งช่วงแรก",
+        "ms": "Logistik Peringkat Awal",
+        "vi": "Vận chuyển chặng đầu"
+      },
+      "tags": [
+        "物流",
+        "运输"
+      ],
+      "abbreviation": "First-leg"
+    },
+    {
+      "term_id": "TERM-104",
+      "term": "整箱",
+      "category": "物流术语",
+      "definition": "货主托运的货物足以装满一个整集装箱的运输方式",
+      "examples": [
+        "大宗货物通常选择FCL整箱运输以获得更低的单位运费"
+      ],
+      "related_terms": [
+        "整柜",
+        "Full Container Load"
+      ],
+      "translations": {
+        "en": "Full Container Load",
+        "th": "การขนส่งแบบเต็มตู้",
+        "ms": "Muatan Kontena Penuh",
+        "vi": "Hàng nguyên container"
+      },
+      "tags": [
+        "物流",
+        "海运"
+      ],
+      "abbreviation": "FCL"
+    },
+    {
+      "term_id": "TERM-105",
+      "term": "拼箱",
+      "category": "物流术语",
+      "definition": "货主托运的货物不足以装满一个整箱，需与其他货主的货物拼装在同一个集装箱内",
+      "examples": [
+        "样品或小批量货物适合走LCL拼箱"
+      ],
+      "related_terms": [
+        "散货拼箱",
+        "Less than Container Load"
+      ],
+      "translations": {
+        "en": "Less than Container Load",
+        "th": "การขนส่งแบบไม่เต็มตู้",
+        "ms": "Muatan Kurang dari Kontena",
+        "vi": "Hàng lẻ"
+      },
+      "tags": [
+        "物流",
+        "海运"
+      ],
+      "abbreviation": "LCL"
+    },
+    {
+      "term_id": "TERM-106",
+      "term": "一件代发",
+      "category": "其他",
+      "definition": "零售商不需储备库存，在收到订单后直接由供应商或海外仓代为发货的商业模式",
+      "examples": [
+        "通过海外仓实现的一件代发极大降低了卖家的库存压力"
+      ],
+      "related_terms": [
+        "直运",
+        "无库存模式"
+      ],
+      "translations": {
+        "en": "Dropshipping",
+        "th": "การส่งสินค้าในนาม",
+        "ms": "Dropshipping",
+        "vi": "Bán hàng bỏ qua khâu vận chuyển"
+      },
+      "tags": [
+        "跨境电商",
+        "商业模式",
+        "物流"
+      ],
+      "abbreviation": "Dropshipping"
+    },
+    {
+      "term_id": "TERM-107",
+      "term": "集运",
+      "category": "物流术语",
+      "definition": "将来自不同供应商或发货人的多件小包裹集中存放并统一打包发往目的地的服务",
+      "examples": [
+        "很多东南亚买家喜欢在中国电商平台购物后使用集运服务"
+      ],
+      "related_terms": [
+        "货物集中",
+        "集货"
+      ],
+      "translations": {
+        "en": "Logistics Consolidation",
+        "th": "การรวมสินค้า",
+        "ms": "Konsolidasi Logistik",
+        "vi": "Gom hàng"
+      },
+      "tags": [
+        "物流",
+        "跨境电商",
+        "B2C"
+      ],
+      "abbreviation": "Consolidation"
+    },
+    {
+      "term_id": "TERM-108",
+      "term": "冷链物流",
+      "category": "物流术语",
+      "definition": "为保持新鲜食品、医药产品品质，在生产、贮藏、运输过程中始终处于低温环境的系统",
+      "examples": [
+        "泰国榴莲出口至中国需要全程冷链物流保障"
+      ],
+      "related_terms": [
+        "冷库",
+        "冷藏运输"
+      ],
+      "translations": {
+        "en": "Cold Chain Logistics",
+        "th": "โลจิสติกส์โซ่ความเย็น",
+        "ms": "Logistik Rangkaian Sejuk",
+        "vi": "Logistics chuỗi lạnh"
+      },
+      "tags": [
+        "物流",
+        "食品安全",
+        "特殊运输"
+      ],
+      "abbreviation": "Cold Chain"
+    },
+    {
+      "term_id": "TERM-109",
+      "term": "仓储管理系统",
+      "category": "物流术语",
+      "definition": "通过入库、出库、调拨、盘点等功能，对仓库业务进行精细化管理的软件系统",
+      "examples": [
+        "高效的WMS系统能实时同步库存数据，防止电商超卖"
+      ],
+      "related_terms": [
+        "库存系统",
+        "Warehouse Management System"
+      ],
+      "translations": {
+        "en": "Warehouse Management System",
+        "th": "ระบบบริหารจัดการคลังสินค้า",
+        "ms": "Sistem Pengurusan Gudang",
+        "vi": "Hệ thống quản lý kho hàng"
+      },
+      "tags": [
+        "数字化",
+        "仓储",
+        "技术"
+      ],
+      "abbreviation": "WMS"
+    },
+    {
+      "term_id": "TERM-110",
+      "term": "多式联运",
+      "category": "物流术语",
+      "definition": "由两种及以上的运输方式（如海、陆、空）相互衔接完成的全程运输",
+      "examples": [
+        "中老铁路开通后，跨境多式联运变得更加便捷"
+      ],
+      "related_terms": [
+        "联合运输",
+        "Multimodal Transport"
+      ],
+      "translations": {
+        "en": "Multimodal Transport",
+        "th": "การขนส่งต่อเนื่องหลายรูปแบบ",
+        "ms": "Pengangkutan Multimodal",
+        "vi": "Vận tải đa phương thức"
+      },
+      "tags": [
+        "物流",
+        "运输"
+      ],
+      "abbreviation": "Multimodal"
+    },
+    {
+      "term_id": "TERM-111",
+      "term": "标准箱",
+      "category": "物流术语",
+      "definition": "以20英尺集装箱作为换算单位的标准计量单位",
+      "examples": [
+        "该货轮的最大载箱量为18000个TEU"
+      ],
+      "related_terms": [
+        "二十英尺等量单位",
+        "Standard Container"
+      ],
+      "translations": {
+        "en": "Twenty-foot Equivalent Unit",
+        "th": "หน่วยนับตู้คอนเทนเนอร์ยาว 20 ฟุต",
+        "ms": "Unit Persamaan Dua Puluh Kaki",
+        "vi": "Đơn vị tương đương 20 foot"
+      },
+      "tags": [
+        "物流",
+        "海运",
+        "统计"
+      ],
+      "abbreviation": "TEU"
+    },
+    {
+      "term_id": "TERM-112",
+      "term": "库存保有单位",
+      "category": "其他",
+      "definition": "库存管理的最小可用单元，通常对应一种特定规格、颜色、尺寸的商品",
+      "examples": [
+        "该产品共有5个SKU，涵盖了不同的颜色选项"
+      ],
+      "related_terms": [
+        "商品编码",
+        "Stock Keeping Unit"
+      ],
+      "translations": {
+        "en": "Stock Keeping Unit",
+        "th": "หน่วยเก็บสินค้า",
+        "ms": "Unit Simpanan Stok",
+        "vi": "Đơn vị phân loại hàng tồn kho"
+      },
+      "tags": [
+        "跨境电商",
+        "仓储",
+        "零售"
+      ],
+      "abbreviation": "SKU"
+    },
+    {
+      "term_id": "TERM-113",
+      "term": "燃油附加费",
+      "category": "物流术语",
+      "definition": "由于燃油价格波动而由承运人向货主额外收取的费用",
+      "examples": [
+        "由于油价上涨，本月的燃油附加费标准上调了5%"
+      ],
+      "related_terms": [
+        "燃油费",
+        "Bunker Adjustment Factor"
+      ],
+      "translations": {
+        "en": "Bunker Adjustment Factor",
+        "th": "ค่าธรรมเนียมราคาน้ำมัน",
+        "ms": "Faktor Pelarasan Bunker",
+        "vi": "Phụ phí nhiên liệu"
+      },
+      "tags": [
+        "物流",
+        "价格",
+        "支付"
+      ],
+      "abbreviation": "BAF"
+    },
+    {
+      "term_id": "TERM-114",
+      "term": "货币贬值附加费",
+      "category": "物流术语",
+      "definition": "由于国际结算货币汇率波动而收取的补偿费",
+      "examples": [
+        "出口至某些汇率不稳的国家，需关注CAF附加费的变化"
+      ],
+      "related_terms": [
+        "汇率附加费",
+        "Currency Adjustment Factor"
+      ],
+      "translations": {
+        "en": "Currency Adjustment Factor",
+        "th": "ค่าธรรมเนียมความเสี่ยงจากอัตราแลกเปลี่ยน",
+        "ms": "Faktor Pelarasan Mata Wang",
+        "vi": "Phụ phí biến động tỷ giá"
+      },
+      "tags": [
+        "物流",
+        "风险管理",
+        "支付"
+      ],
+      "abbreviation": "CAF"
+    },
+    {
+      "term_id": "TERM-115",
+      "term": "抛货",
+      "category": "物流术语",
+      "definition": "体积大但重量轻的货物，通常按体积重量计算运费",
+      "examples": [
+        "毛绒玩具是典型的抛货，计算空运费时需核算体积重"
+      ],
+      "related_terms": [
+        "轻泡货",
+        "Volume Cargo"
+      ],
+      "translations": {
+        "en": "Volumetric Cargo",
+        "th": "สินค้าที่มีน้ำหนักเบาแต่กินที่",
+        "ms": "Kargo Ringan",
+        "vi": "Hàng cồng kềnh"
+      },
+      "tags": [
+        "物流",
+        "运费计算"
+      ],
+      "abbreviation": "Light Cargo"
+    },
+    {
+      "term_id": "TERM-116",
+      "term": "计费重量",
+      "category": "物流术语",
+      "definition": "取实际毛重与体积重量中的较大者，作为计算运费的依据",
+      "examples": [
+        "该包裹实重2kg，体积重3.5kg，因此计费重量为3.5kg"
+      ],
+      "related_terms": [
+        "计费重"
+      ],
+      "translations": {
+        "en": "Chargeable Weight",
+        "th": "น้ำหนักที่ใช้คิดค่าบริการ",
+        "ms": "Berat Cas",
+        "vi": "Trọng lượng tính cước"
+      },
+      "tags": [
+        "物流",
+        "运费计算"
+      ],
+      "abbreviation": "Chargeable Weight"
+    },
+    {
+      "term_id": "TERM-117",
+      "term": "体积重量系数",
+      "category": "物流术语",
+      "definition": "用于将体积转换为重量的固定比率（如空运通常为1:6000或1:5000）",
+      "examples": [
+        "不同的货代提供的体积重量系数可能不同，需提前确认"
+      ],
+      "related_terms": [
+        "体积重比例"
+      ],
+      "translations": {
+        "en": "Dimensional Factor",
+        "th": "ตัวคูณปริมาตร",
+        "ms": "Faktor Dimensi",
+        "vi": "Hệ số thể tích"
+      },
+      "tags": [
+        "物流",
+        "运费计算"
+      ],
+      "abbreviation": "Dim Factor"
+    },
+    {
+      "term_id": "TERM-118",
+      "term": "东南亚专线",
+      "category": "物流术语",
+      "definition": "专门针对东南亚国家（如新马泰）开发的特定点对点物流线路，通常含清关服务",
+      "examples": [
+        "通过马来西亚物流专线，包裹最快3天可送达"
+      ],
+      "related_terms": [
+        "双清专线",
+        "Dedicated Line"
+      ],
+      "translations": {
+        "en": "Southeast Asia Dedicated Line",
+        "th": "สายขนส่งเฉพาะเอเชียตะวันออกเฉียงใต้",
+        "ms": "Talian Dedikasi Asia Tenggara",
+        "vi": "Tuyến chuyên tuyến Đông Nam Á"
+      },
+      "tags": [
+        "物流",
+        "东南亚",
+        "跨境电商"
+      ],
+      "abbreviation": "SEA Line"
+    },
+    {
+      "term_id": "TERM-119",
+      "term": "双清包税",
+      "category": "物流术语",
+      "definition": "物流商负责起运国报关、目的国清关并代缴关税的服务，货主只需送货和收货",
+      "examples": [
+        "对于没有进口权的卖家，双清包税渠道非常方便"
+      ],
+      "related_terms": [
+        "全包服务",
+        "Inclusive Service"
+      ],
+      "translations": {
+        "en": "Double Clearance with Tax Included",
+        "th": "บริการเคลียร์ภาษีสองทาง",
+        "ms": "Pelepasan Ganda Termasuk Cukai",
+        "vi": "Thông quan hai đầu bao thuế"
+      },
+      "tags": [
+        "物流",
+        "清关",
+        "关税"
+      ],
+      "abbreviation": "DDP Service"
+    },
+    {
+      "term_id": "TERM-120",
+      "term": "跨境陆运",
+      "category": "物流术语",
+      "definition": "利用重型货车通过边境口岸进行的国际货物运输，常见于中国与中南半岛国家间",
+      "examples": [
+        "跨境陆运相比海运更快，相比空运更便宜"
+      ],
+      "related_terms": [
+        "卡车航班",
+        "Road Freight"
+      ],
+      "translations": {
+        "en": "Cross-border Road Freight",
+        "th": "การขนส่งทางบกข้ามพรมแดน",
+        "ms": "Pengangkutan Jalan Merentas Sempadan",
+        "vi": "Vận tải đường bộ xuyên biên giới"
+      },
+      "tags": [
+        "物流",
+        "运输",
+        "东南亚"
+      ],
+      "abbreviation": "Cross-border Trucking"
+    },
+    {
+      "term_id": "TERM-121",
+      "term": "拣货",
+      "category": "物流术语",
+      "definition": "根据订单要求，在仓库中从指定的存放位置提取正确数量货物的操作",
+      "examples": [
+        "采用语音拣货系统可以有效降低人工操作的错误率"
+      ],
+      "related_terms": [
+        "摘果式拣货",
+        "播种式拣货"
+      ],
+      "translations": {
+        "en": "Picking",
+        "th": "การหยิบสินค้า",
+        "ms": "Memetik Barang",
+        "vi": "Nhặt hàng"
+      },
+      "tags": [
+        "仓储",
+        "作业"
+      ],
+      "abbreviation": "Picking"
+    },
+    {
+      "term_id": "TERM-122",
+      "term": "入库单",
+      "category": "物流术语",
+      "definition": "记录货物到达仓库并核对入库的凭证",
+      "examples": [
+        "仓库管理员在收到货物后必须签发入库单"
+      ],
+      "related_terms": [
+        "Goods Received Note",
+        "收货单"
+      ],
+      "translations": {
+        "en": "Goods Received Note",
+        "th": "ใบรับสินค้า",
+        "ms": "Nota Penerimaan Barang",
+        "vi": "Phiếu nhập kho"
+      },
+      "tags": [
+        "仓储",
+        "单证"
+      ],
+      "abbreviation": "GRN"
+    },
+    {
+      "term_id": "TERM-123",
+      "term": "出库单",
+      "category": "物流术语",
+      "definition": "记录货物离开仓库的明细凭证，用于库存冲减及与承运商交接",
+      "examples": [
+        "出库单上必须有提货人的签字确认"
+      ],
+      "related_terms": [
+        "发货单",
+        "Stock-out Note"
+      ],
+      "translations": {
+        "en": "Stock-out Note",
+        "th": "ใบเบิกสินค้า",
+        "ms": "Nota Keluar Stok",
+        "vi": "Phiếu xuất kho"
+      },
+      "tags": [
+        "仓储",
+        "单证"
+      ],
+      "abbreviation": "Delivery Order"
+    },
+    {
+      "term_id": "TERM-124",
+      "term": "安全库存",
+      "category": "物流术语",
+      "definition": "为应对由于需求波动或供应延迟而准备的缓冲库存水平",
+      "examples": [
+        "大促前夕，商家通常会增加海外仓的安全库存"
+      ],
+      "related_terms": [
+        "缓冲库存",
+        "Buffer Stock"
+      ],
+      "translations": {
+        "en": "Safety Stock",
+        "th": "สินค้าคงคลังสำรอง",
+        "ms": "Stok Keselamatan",
+        "vi": "Tồn kho an toàn"
+      },
+      "tags": [
+        "仓储",
+        "供应链"
+      ],
+      "abbreviation": "Safety Stock"
+    },
+    {
+      "term_id": "TERM-125",
+      "term": "盘点",
+      "category": "物流术语",
+      "definition": "对仓库实际库存进行核对清点，以确保账实相符的过程",
+      "examples": [
+        "每季度进行一次大盘点有助于发现破损或丢失的库存"
+      ],
+      "related_terms": [
+        "循环盘点",
+        "Inventory Audit"
+      ],
+      "translations": {
+        "en": "Inventory Stocktake",
+        "th": "การตรวจนับสต็อก",
+        "ms": "Semakan Stok",
+        "vi": "Kiểm kê kho"
+      },
+      "tags": [
+        "仓储",
+        "作业"
+      ],
+      "abbreviation": "Stocktake"
+    },
+    {
+      "term_id": "TERM-126",
+      "term": "超长附加费",
+      "category": "物流术语",
+      "definition": "对单件货物的长度或体积超过承运人规定标准的货物加收的费用",
+      "examples": [
+        "如果包裹长度超过120cm，通常会被加收超长附加费"
+      ],
+      "related_terms": [
+        "超规费",
+        "Large Package Surcharge"
+      ],
+      "translations": {
+        "en": "Oversize Surcharge",
+        "th": "ค่าธรรมเนียมสินค้าขนาดใหญ่พิเศษ",
+        "ms": "Surcharge Saiz Besar",
+        "vi": "Phụ phí quá khổ"
+      },
+      "tags": [
+        "物流",
+        "价格"
+      ],
+      "abbreviation": "Oversize Charge"
+    },
+    {
+      "term_id": "TERM-127",
+      "term": "超重附加费",
+      "category": "物流术语",
+      "definition": "对单件货物的重量超过标准（通常为30kg或70kg）而额外收取的费用",
+      "examples": [
+        "由于涉及人工搬运安全，快递公司对超重包裹收费较高"
+      ],
+      "related_terms": [
+        "重货费",
+        "Heavy Weight Surcharge"
+      ],
+      "translations": {
+        "en": "Overweight Surcharge",
+        "th": "ค่าธรรมเนียมน้ำหนักเกิน",
+        "ms": "Surcharge Berat Berlebihan",
+        "vi": "Phụ phí quá tải"
+      },
+      "tags": [
+        "物流",
+        "价格"
+      ],
+      "abbreviation": "Overweight Charge"
+    },
+    {
+      "term_id": "TERM-128",
+      "term": "退货换标",
+      "category": "物流术语",
+      "definition": "针对海外退货，在仓库内撕掉旧标签并更换新标签以便再次上架销售的服务",
+      "examples": [
+        "退货换标是海外仓为亚马逊卖家提供的核心增值服务之一"
+      ],
+      "related_terms": [
+        "重贴标签",
+        "Labeling Service"
+      ],
+      "translations": {
+        "en": "Relabelling Service",
+        "th": "บริการติดฉลากใหม่",
+        "ms": "Perkhidmatan Label Semula",
+        "vi": "Dịch vụ dán nhãn lại"
+      },
+      "tags": [
+        "仓储",
+        "跨境电商",
+        "售后"
+      ],
+      "abbreviation": "Relabelling"
+    },
+    {
+      "term_id": "TERM-129",
+      "term": "分拨中心",
+      "category": "物流术语",
+      "definition": "对各处汇集的快件进行分拣、中转及发往下一站的物流节点",
+      "examples": [
+        "顺丰在曼谷的分拨中心已实现自动化分拣"
+      ],
+      "related_terms": [
+        "中转场",
+        "Distribution Center"
+      ],
+      "translations": {
+        "en": "Sorting Center",
+        "th": "ศูนย์คัดแยกสินค้า",
+        "ms": "Pusat Isihan",
+        "vi": "Trung tâm phân loại"
+      },
+      "tags": [
+        "物流",
+        "基础设施"
+      ],
+      "abbreviation": "Sorting Center"
+    },
+    {
+      "term_id": "TERM-130",
+      "term": "库位",
+      "category": "物流术语",
+      "definition": "仓库中存放货物的具体最小地理单元，通常有编号以便查找",
+      "examples": [
+        "拣货员通过库位编码快速定位商品位置"
+      ],
+      "related_terms": [
+        "货位",
+        "Storage Location"
+      ],
+      "translations": {
+        "en": "Bin Location",
+        "th": "ตำแหน่งที่เก็บสินค้า",
+        "ms": "Lokasi Bin",
+        "vi": "Vị trí lưu kho"
+      },
+      "tags": [
+        "仓储",
+        "作业"
+      ],
+      "abbreviation": "Bin Location"
+    },
+    {
+      "term_id": "TERM-131",
+      "term": "货物追踪",
+      "category": "物流术语",
+      "definition": "通过运单号实时查询包裹所处位置和运输状态的服务",
+      "examples": [
+        "买家可以通过APP实时进行货物追踪，查看预计到达时间"
+      ],
+      "related_terms": [
+        "物流轨迹",
+        "Traceability"
+      ],
+      "translations": {
+        "en": "Tracking and Tracing",
+        "th": "การติดตามพัสดุ",
+        "ms": "Tracking Barangan",
+        "vi": "Theo dõi đơn hàng"
+      },
+      "tags": [
+        "物流",
+        "服务",
+        "数字化"
+      ],
+      "abbreviation": "Tracking"
+    },
+    {
+      "term_id": "TERM-132",
+      "term": "签收证明",
+      "category": "物流术语",
+      "definition": "证明货物已被收货人收妥的凭证，包含签收人姓名、时间等信息",
+      "examples": [
+        "在物流纠纷中，POD是判断责任归属的关键证据"
+      ],
+      "related_terms": [
+        "签收单",
+        "Proof of Delivery"
+      ],
+      "translations": {
+        "en": "Proof of Delivery",
+        "th": "หลักฐานการส่งสินค้า",
+        "ms": "Bukti Penghantaran",
+        "vi": "Bằng chứng giao hàng"
+      },
+      "tags": [
+        "物流",
+        "单证"
+      ],
+      "abbreviation": "POD"
+    },
+    {
+      "term_id": "TERM-133",
+      "term": "运单",
+      "category": "物流术语",
+      "definition": "由托运人填写的，用于记录货物信息、起止地点及费用计算的运输合同证明",
+      "examples": [
+        "请务必将运单牢固粘贴在包裹表面"
+      ],
+      "related_terms": [
+        "面单",
+        "Shipping Label"
+      ],
+      "translations": {
+        "en": "Waybill",
+        "th": "ใบตราส่งสินค้า",
+        "ms": "Waybil",
+        "vi": "Vận đơn"
+      },
+      "tags": [
+        "物流",
+        "单证"
+      ],
+      "abbreviation": "Waybill"
+    },
+    {
+      "term_id": "TERM-134",
+      "term": "托盘",
+      "category": "物流术语",
+      "definition": "用于集装、堆放、搬运货物的水平平台装置，便于叉车作业",
+      "examples": [
+        "标准托盘运输可以大幅提升仓库装卸效率"
+      ],
+      "related_terms": [
+        "栈板",
+        "卡板"
+      ],
+      "translations": {
+        "en": "Pallet",
+        "th": "พาเลท",
+        "ms": "Palet",
+        "vi": "Pallet"
+      },
+      "tags": [
+        "物流",
+        "包装",
+        "装卸"
+      ],
+      "abbreviation": "Pallet"
+    },
+    {
+      "term_id": "TERM-135",
+      "term": "打托",
+      "category": "物流术语",
+      "definition": "将散件货物按一定规则摆放在托盘上并加固（如缠绕膜）的操作",
+      "examples": [
+        "海运散货入仓前通常需要进行打托处理"
+      ],
+      "related_terms": [
+        "托盘化",
+        "装托"
+      ],
+      "translations": {
+        "en": "Palletizing",
+        "th": "การวางสินค้าบนพาเลท",
+        "ms": "Memallet",
+        "vi": "Đóng pallet"
+      },
+      "tags": [
+        "物流",
+        "作业"
+      ],
+      "abbreviation": "Palletizing"
+    },
+    {
+      "term_id": "TERM-136",
+      "term": "叉车",
+      "category": "物流术语",
+      "definition": "仓库中用于装卸、堆垛和短距离搬运托盘货物的各种轮式搬运车辆",
+      "examples": [
+        "电动叉车因其环保特性被广泛用于室内海外仓"
+      ],
+      "related_terms": [
+        "搬运车",
+        "堆高车"
+      ],
+      "translations": {
+        "en": "Forklift",
+        "th": "รถยก",
+        "ms": "Forklif",
+        "vi": "Xe nâng"
+      },
+      "tags": [
+        "仓储",
+        "基础设施"
+      ],
+      "abbreviation": "Forklift"
+    },
+    {
+      "term_id": "TERM-137",
+      "term": "高架货架",
+      "category": "物流术语",
+      "definition": "仓库中多层存储货物的钢结构架子，旨在充分利用垂直空间",
+      "examples": [
+        "安装高架货架后，仓库的库容量提升了三倍"
+      ],
+      "related_terms": [
+        "重型货架",
+        "Warehouse Racking"
+      ],
+      "translations": {
+        "en": "Warehouse Racking",
+        "th": "ชั้นวาในคลังสินค้า",
+        "ms": "Rak Gudang",
+        "vi": "Kệ kho cao tầng"
+      },
+      "tags": [
+        "仓储",
+        "基础设施"
+      ],
+      "abbreviation": "Racking"
+    },
+    {
+      "term_id": "TERM-138",
+      "term": "库容",
+      "category": "物流术语",
+      "definition": "仓库在特定时间内能够存放货物的最大容量（通常以体积或库位计）",
+      "examples": [
+        "由于旺季来临，该海外仓的库容已接近饱和"
+      ],
+      "related_terms": [
+        "仓库容量",
+        "Capacity"
+      ],
+      "translations": {
+        "en": "Storage Capacity",
+        "th": "ความจุคลังสินค้า",
+        "ms": "Kapasiti Storan",
+        "vi": "Dung lượng kho"
+      },
+      "tags": [
+        "仓储",
+        "供应链"
+      ],
+      "abbreviation": "Storage Capacity"
+    },
+    {
+      "term_id": "TERM-139",
+      "term": "周转率",
+      "category": "物流术语",
+      "definition": "反映库存更新速度的指标，通常指一定时期内出库总量与平均库存之比",
+      "examples": [
+        "提高周转率有助于降低仓储成本和资金占用"
+      ],
+      "related_terms": [
+        "库存周转",
+        "Inventory Turnover"
+      ],
+      "translations": {
+        "en": "Inventory Turnover Rate",
+        "th": "อัตราการหมุนเวียนสินค้า",
+        "ms": "Kadar Pusing Ganti Stok",
+        "vi": "Tỷ lệ vòng quay hàng tồn kho"
+      },
+      "tags": [
+        "仓储",
+        "供应链",
+        "金融"
+      ],
+      "abbreviation": "Turnover Rate"
+    },
+    {
+      "term_id": "TERM-140",
+      "term": "死库存",
+      "category": "物流术语",
+      "definition": "长期没有销售记录且难以处理的积压库存",
+      "examples": [
+        "卖家应定期清理死库存以节省海外仓仓储费"
+      ],
+      "related_terms": [
+        "呆滞货",
+        "积压库存"
+      ],
+      "translations": {
+        "en": "Dead Stock",
+        "th": "สินค้าค้างสต็อกนาน",
+        "ms": "Stok Mati",
+        "vi": "Hàng tồn kho chết"
+      },
+      "tags": [
+        "仓储",
+        "风险管理"
+      ],
+      "abbreviation": "Dead Stock"
+    },
+    {
+      "term_id": "TERM-141",
+      "term": "偏远地区附加费",
+      "category": "物流术语",
+      "definition": "承运人向收发货地址位于交通不便或偏僻地区的货物加收的派送费用",
+      "examples": [
+        "在马来西亚东马地区派送常会产生偏远地区附加费"
+      ],
+      "related_terms": [
+        "Remote Area Surcharge"
+      ],
+      "translations": {
+        "en": "Remote Area Surcharge",
+        "th": "ค่าบริการพื้นที่ห่างไกล",
+        "ms": "Surcharge Kawasan Luar Bandar",
+        "vi": "Phụ phí vùng sâu vùng xa"
+      },
+      "tags": [
+        "物流",
+        "价格"
+      ],
+      "abbreviation": "RAS"
+    },
+    {
+      "term_id": "TERM-142",
+      "term": "住宅派送附加费",
+      "category": "物流术语",
+      "definition": "快运公司向非商业区（个人住宅）地址递送包裹时收取的额外费用",
+      "examples": [
+        "B2C包裹几乎都会产生住宅派送附加费"
+      ],
+      "related_terms": [
+        "私人地址费"
+      ],
+      "translations": {
+        "en": "Residential Surcharge",
+        "th": "ค่าบริการส่งถึงที่พัก处",
+        "ms": "Surcharge Penghantaran Kediaman",
+        "vi": "Phụ phí giao hàng địa chỉ nhà riêng"
+      },
+      "tags": [
+        "物流",
+        "价格",
+        "B2C"
+      ],
+      "abbreviation": "Residential Surcharge"
+    },
+    {
+      "term_id": "TERM-143",
+      "term": "燃油附加费率",
+      "category": "物流术语",
+      "definition": "燃油附加费占基础运费的百分比，通常随国际油价每周或每月调整",
+      "examples": [
+        "本周DHL的燃油附加费率为28.5%"
+      ],
+      "related_terms": [
+        "Fuel Surcharge Percentage"
+      ],
+      "translations": {
+        "en": "Fuel Surcharge Rate",
+        "th": "อัตราค่าธรรมเนียมน้ำมัน",
+        "ms": "Kadar Surcharge Bahan Api",
+        "vi": "Tỷ lệ phụ phí nhiên liệu"
+      },
+      "tags": [
+        "物流",
+        "价格"
+      ],
+      "abbreviation": "FSC Rate"
+    },
+    {
+      "term_id": "TERM-144",
+      "term": "截关日期",
+      "category": "物流术语",
+      "definition": "船公司规定的接受出口报关信息及货物的截止最后时限",
+      "examples": [
+        "务必在截关日期前完成报关，否则货物会“掉载”"
+      ],
+      "related_terms": [
+        "Cut-off Time",
+        "截单时间"
+      ],
+      "translations": {
+        "en": "Closing Date",
+        "th": "วันปิดรับสินค้า",
+        "ms": "Tarikh Tutup",
+        "vi": "Ngày cắt máng"
+      },
+      "tags": [
+        "物流",
+        "海运",
+        "海关"
+      ],
+      "abbreviation": "Closing Date"
+    },
+    {
+      "term_id": "TERM-145",
+      "term": "开航日",
+      "category": "物流术语",
+      "definition": "运输工具（船舶或飞机）正式启程离开起运地的日期",
+      "examples": [
+        "根据目前的船期表，开航日定于本周五"
+      ],
+      "related_terms": [
+        "Departure Date"
+      ],
+      "translations": {
+        "en": "Departure Date",
+        "th": "วันที่ออกเดินทาง",
+        "ms": "Tarikh Berlepas",
+        "vi": "Ngày khởi hành"
+      },
+      "tags": [
+        "物流",
+        "效率"
+      ],
+      "abbreviation": "ETD"
+    },
+    {
+      "term_id": "TERM-146",
+      "term": "分拣机器人",
+      "category": "物流术语",
+      "definition": "自动化搬运设备，用于在仓库内自动识别路径并搬运货架或包裹",
+      "examples": [
+        "菜鸟在东南亚的现代化仓库大量使用了AGV分拣机器人"
+      ],
+      "related_terms": [
+        "自动引导车",
+        "Sorting Robot"
+      ],
+      "translations": {
+        "en": "Automated Guided Vehicle",
+        "th": "รถลำเลียงสินค้าอัตโนมัติ",
+        "ms": "Kenderaan Berpandu Automatik",
+        "vi": "Xe tự hành AGV"
+      },
+      "tags": [
+        "数字化",
+        "仓储",
+        "技术"
+      ],
+      "abbreviation": "AGV"
+    },
+    {
+      "term_id": "TERM-147",
+      "term": "越库作业",
+      "category": "物流术语",
+      "definition": "货物到仓后不入库长期储存，直接进行分拣并装车发出的快速中转模式",
+      "examples": [
+        "越库作业可以大幅减少仓储时间并降低搬运成本"
+      ],
+      "related_terms": [
+        "直拨",
+        "Cross-dock"
+      ],
+      "translations": {
+        "en": "Cross-docking",
+        "th": "การถ่ายลำเปลี่ยนถ่ายสินค้าในคลัง",
+        "ms": "Cross-docking",
+        "vi": "Chuyển kho ngang"
+      },
+      "tags": [
+        "仓储",
+        "作业",
+        "效率"
+      ],
+      "abbreviation": "Cross-docking"
+    },
+    {
+      "term_id": "TERM-148",
+      "term": "保税物流",
+      "category": "物流术语",
+      "definition": "在海关特殊监管区域内开展的仓储、运输、装卸、配送等物流活动",
+      "examples": [
+        "保税物流支持企业进行境外采购货物的暂缓交税"
+      ],
+      "related_terms": [
+        "海关监管物流"
+      ],
+      "translations": {
+        "en": "Bonded Logistics",
+        "th": "โลจิสติกส์แบบทัณฑ์บน",
+        "ms": "Logistik Berikat",
+        "vi": "Logistics bảo税"
+      },
+      "tags": [
+        "海关",
+        "物流",
+        "仓储"
+      ],
+      "abbreviation": "Bonded Logistics"
+    },
+    {
+      "term_id": "TERM-149",
+      "term": "快件",
+      "category": "物流术语",
+      "definition": "通过快递公司进行的快速门到门运输的小件物品或包裹",
+      "examples": [
+        "对于高价值小件商品，首选国际快件服务"
+      ],
+      "related_terms": [
+        "快递",
+        "Express Delivery"
+      ],
+      "translations": {
+        "en": "Express Delivery",
+        "th": "จัดส่งด่วน",
+        "ms": "Penghantaran Ekspres",
+        "vi": "Chuyển phát nhanh"
+      },
+      "tags": [
+        "物流",
+        "B2C"
+      ],
+      "abbreviation": "Express"
+    },
+    {
+      "term_id": "TERM-150",
+      "term": "海关监管车",
+      "category": "物流术语",
+      "definition": "经海关批准，具有承运保税货物或海关监管货物资格的特种车辆",
+      "examples": [
+        "从机场转运至保税区必须使用海关监管车"
+      ],
+      "related_terms": [
+        "监管卡车",
+        "白卡车"
+      ],
+      "translations": {
+        "en": "Customs Bonded Truck",
+        "th": "รถขนส่งควบคุมโดยศุลกากร",
+        "ms": "Lori Berikat Kastam",
+        "vi": "Xe tải kẹp chì hải quan"
+      },
+      "tags": [
+        "海关",
+        "运输",
+        "物流"
+      ],
+      "abbreviation": "Bonded Truck"
+    },
+    {
+      "term_id": "TERM-151",
+      "term": "集装箱封条",
+      "category": "物流术语",
+      "definition": "集装箱装满后在箱门处施加的一次性锁闭装置，用于防止中途开箱",
+      "examples": [
+        "封条编号必须与提单及报关单上的记录一致"
+      ],
+      "related_terms": [
+        "铅封",
+        "Container Seal"
+      ],
+      "translations": {
+        "en": "Container Seal",
+        "th": "ซีลตู้คอนเทนเนอร์",
+        "ms": "Meterai Kontena",
+        "vi": "Chì container"
+      },
+      "tags": [
+        "物流",
+        "海运",
+        "安全"
+      ],
+      "abbreviation": "Seal"
+    },
+    {
+      "term_id": "TERM-152",
+      "term": "主航空运单",
+      "category": "贸易单证",
+      "definition": "由航空公司签发给货运代理人的运输凭证，涵盖一整架飞机中该货代的全部货物",
+      "examples": [
+        "MAWB是航空公司与货代之间的契约证明"
+      ],
+      "related_terms": [
+        "主单",
+        "Master Air Waybill"
+      ],
+      "translations": {
+        "en": "Master Air Waybill",
+        "th": "ใบตราส่งสินค้าทางอากาศฉบับหลัก",
+        "ms": "Bil Muatan Udara Induk",
+        "vi": "Vận đơn主 (MAWB)"
+      },
+      "tags": [
+        "单证",
+        "空运",
+        "物流"
+      ],
+      "abbreviation": "MAWB"
+    },
+    {
+      "term_id": "TERM-153",
+      "term": "分航空运单",
+      "category": "贸易单证",
+      "definition": "由货运代理人签发给实际发货人的运输凭证，用于单笔货物的提取",
+      "examples": [
+        "收货人在目的地凭借HAWB向货代换取提货权"
+      ],
+      "related_terms": [
+        "分单",
+        "House Air Waybill"
+      ],
+      "translations": {
+        "en": "House Air Waybill",
+        "th": "ใบตราส่งสินค้าทางอากาศฉบับย่อย",
+        "ms": "Bil Muatan Udara Rumah",
+        "vi": "Vận đơn phụ (HAWB)"
+      },
+      "tags": [
+        "单证",
+        "空运",
+        "物流"
+      ],
+      "abbreviation": "HAWB"
+    },
+    {
+      "term_id": "TERM-154",
+      "term": "低硫附加费",
+      "category": "物流术语",
+      "definition": "为应对国际海事组织限硫令，船公司收取的用于抵消低硫燃油高成本的费用",
+      "examples": [
+        "由于环保要求提高，本月所有航线的LSS有所上调"
+      ],
+      "related_terms": [
+        "环保附加费",
+        "Low Sulphur Surcharge"
+      ],
+      "translations": {
+        "en": "Low Sulphur Surcharge",
+        "th": "ค่าธรรมเนียมน้ำมันกำมะถันต่ำ",
+        "ms": "Surcharge Sulfur Rendah",
+        "vi": "Phụ phí giảm thải lưu huỳnh"
+      },
+      "tags": [
+        "物流",
+        "海运",
+        "价格"
+      ],
+      "abbreviation": "LSS"
+    },
+    {
+      "term_id": "TERM-155",
+      "term": "码头操作费",
+      "category": "物流术语",
+      "definition": "港口码头收取的集装箱装卸及在港区内搬运的费用",
+      "examples": [
+        "起运港和目的港都会产生相应的THC费用"
+      ],
+      "related_terms": [
+        "码头费",
+        "Terminal Handling Charge"
+      ],
+      "translations": {
+        "en": "Terminal Handling Charge",
+        "th": "ค่าภาระยกขนสินค้าที่สถานี",
+        "ms": "Caj Pengendalian Terminal",
+        "vi": "Phí bốc xếp tại cảng"
+      },
+      "tags": [
+        "物流",
+        "海运",
+        "价格"
+      ],
+      "abbreviation": "THC"
+    },
+    {
+      "term_id": "TERM-156",
+      "term": "旺季附加费",
+      "category": "物流术语",
+      "definition": "在货运繁忙季节（如圣诞前夕），船公司临时加收的费用",
+      "examples": [
+        "每年下半年是跨境电商旺季，PSS收费会显著增加"
+      ],
+      "related_terms": [
+        "高峰期费用",
+        "Peak Season Surcharge"
+      ],
+      "translations": {
+        "en": "Peak Season Surcharge",
+        "th": "ค่าธรรมเนียมช่วงฤดูกาลหนาแน่น",
+        "ms": "Surcharge Musim Kemuncak",
+        "vi": "Phụ phí mùa cao điểm"
+      },
+      "tags": [
+        "物流",
+        "价格"
+      ],
+      "abbreviation": "PSS"
+    },
+    {
+      "term_id": "TERM-157",
+      "term": "逆向物流",
+      "category": "物流术语",
+      "definition": "从消费者端流向生产/分销端的过程，主要涉及退货、维修和回收",
+      "examples": [
+        "建立高效的逆向物流体系可以提升消费者的购物满意度"
+      ],
+      "related_terms": [
+        "退货物流",
+        "Reverse Logistics"
+      ],
+      "translations": {
+        "en": "Reverse Logistics",
+        "th": "โลจิสติกส์ย้อนกลับ",
+        "ms": "Logistik Balikan",
+        "vi": "Logistics ngược"
+      },
+      "tags": [
+        "物流",
+        "售后",
+        "跨境电商"
+      ],
+      "abbreviation": "RL"
+    },
+    {
+      "term_id": "TERM-158",
+      "term": "共同海损",
+      "category": "保险术语",
+      "definition": "在航程中为维护共同安全而有意采取牺牲或支付费用所造成的损失，由受益方分摊",
+      "examples": [
+        "货轮因触礁丢弃部分集装箱以保全整船，这属于共同海损"
+      ],
+      "related_terms": [
+        "General Average",
+        "海损分摊"
+      ],
+      "translations": {
+        "en": "General Average",
+        "th": "ความเสียหายร่วม",
+        "ms": "Purata Umum",
+        "vi": "Tổn thất chung"
+      },
+      "tags": [
+        "保险",
+        "海运",
+        "风险管理"
+      ],
+      "abbreviation": "G.A."
+    },
+    {
+      "term_id": "TERM-159",
+      "term": "危险品附加费",
+      "category": "物流术语",
+      "definition": "由于危险品需要特殊装卸、隔离和安全处理而额外收取的费用",
+      "examples": [
+        "含锂电池的电子产品被归类为危险品，需加收DG费用"
+      ],
+      "related_terms": [
+        "危险品费",
+        "Dangerous Goods Surcharge"
+      ],
+      "translations": {
+        "en": "Dangerous Goods Surcharge",
+        "th": "ค่าธรรมเนียมสินค้าอันตราย",
+        "ms": "Surcharge Barangan Berbahaya",
+        "vi": "Phụ phí hàng nguy hiểm"
+      },
+      "tags": [
+        "物流",
+        "价格",
+        "安全"
+      ],
+      "abbreviation": "DG Surcharge"
+    },
+    {
+      "term_id": "TERM-160",
+      "term": "40尺高柜",
+      "category": "物流术语",
+      "definition": "长度为40英尺，高度比普通标准柜高出1英尺的集装箱，容积约76立方米",
+      "examples": [
+        "对于体积较大的轻工产品，使用40HQ更具经济效益"
+      ],
+      "related_terms": [
+        "High Cube Container",
+        "高柜"
+      ],
+      "translations": {
+        "en": "40ft High Cube Container",
+        "th": "ตู้คอนเทนเนอร์ 40 ฟุต ไฮคิว",
+        "ms": "Kontena Kiub Tinggi 40 kaki",
+        "vi": "Container 40 cao (40HC)"
+      },
+      "tags": [
+        "物流",
+        "海运",
+        "标准规格"
+      ],
+      "abbreviation": "40HQ"
+    },
+    {
+      "term_id": "TERM-161",
+      "term": "订舱确认书",
+      "category": "贸易单证",
+      "definition": "船公司接受订舱后发送给托运人的确认文件，包含船名、航次及提箱指示",
+      "examples": [
+        "收到S/O后，车队即可前往码头堆场提取空箱"
+      ],
+      "related_terms": [
+        "装货单",
+        "Shipping Order"
+      ],
+      "translations": {
+        "en": "Shipping Order",
+        "th": "ใบสั่งจองระวางเรือ",
+        "ms": "Arahan Penghantaran",
+        "vi": "Lệnh giao hàng (S/O)"
+      },
+      "tags": [
+        "单证",
+        "物流",
+        "海运"
+      ],
+      "abbreviation": "S/O"
+    },
+    {
+      "term_id": "TERM-162",
+      "term": "入库预报",
+      "category": "物流术语",
+      "definition": "发货方在货物到达仓库前，提前发送给仓库的关于到货种类、数量等信息的电子通知",
+      "examples": [
+        "海外仓要求卖家在发货后及时上传ASN，以便仓库准备收货"
+      ],
+      "related_terms": [
+        "发货通知",
+        "Advanced Shipping Notice"
+      ],
+      "translations": {
+        "en": "Advanced Shipping Notice",
+        "th": "การแจ้งการส่งสินค้าล่วงหน้า",
+        "ms": "Notis Penghantaran Terlanjur",
+        "vi": "Thông báo gửi hàng trước"
+      },
+      "tags": [
+        "数字化",
+        "仓储",
+        "供应链"
+      ],
+      "abbreviation": "ASN"
+    },
+    {
+      "term_id": "TERM-163",
+      "term": "交货期",
+      "category": "物流术语",
+      "definition": "从下单到最终收到货物所经历的总时间",
+      "examples": [
+        "缩短物流交货期是跨境电商提升竞争力的关键"
+      ],
+      "related_terms": [
+        "前置时间",
+        "交付周期"
+      ],
+      "translations": {
+        "en": "Lead Time",
+        "th": "ระยะเวลาในการดำเนินการ",
+        "ms": "Masa Mendahului",
+        "vi": "Thời gian hoàn ứng"
+      },
+      "tags": [
+        "物流",
+        "供应链",
+        "效率"
+      ],
+      "abbreviation": "Lead Time"
+    },
+    {
+      "term_id": "TERM-164",
+      "term": "航空箱",
+      "category": "物流术语",
+      "definition": "用于航空运输的集装设备，如航空集装箱或集装板",
+      "examples": [
+        "ULD的设计是为了最大限度适配飞机的机舱空间"
+      ],
+      "related_terms": [
+        "航空集装器",
+        "Unit Load Device"
+      ],
+      "translations": {
+        "en": "Unit Load Device",
+        "th": "ตู้คอนเทนเนอร์สำหรับเครื่องบิน",
+        "ms": "Peranti Beban Unit",
+        "vi": "Thiết bị tải đơn vị"
+      },
+      "tags": [
+        "物流",
+        "空运"
+      ],
+      "abbreviation": "ULD"
+    },
+    {
+      "term_id": "TERM-165",
+      "term": "落地配",
+      "category": "物流术语",
+      "definition": "货物通过干线运输抵达目的城市后，由当地配送团队接手送货上门的服务",
+      "examples": [
+        "在泰国二线城市，通过落地配可以解决最后一公里的服务痛点"
+      ],
+      "related_terms": [
+        "本地派送"
+      ],
+      "translations": {
+        "en": "Local Delivery",
+        "th": "การจัดส่งในพื้นที่",
+        "ms": "Penghantaran Tempatan",
+        "vi": "Phân phối địa phương"
+      },
+      "tags": [
+        "物流",
+        "配送",
+        "东南亚"
+      ],
+      "abbreviation": "Local Distribution"
+    },
+    {
+      "term_id": "TERM-166",
+      "term": "班轮",
+      "category": "物流术语",
+      "definition": "在固定航线上，按照预定的船期表定期往返于固定港口的船舶",
+      "examples": [
+        "大部分集装箱运输都采用班轮模式"
+      ],
+      "related_terms": [
+        "定期船",
+        "Liner Shipping"
+      ],
+      "translations": {
+        "en": "Liner",
+        "th": "เรือประจำทาง",
+        "ms": "Kapal Laluan Tetap",
+        "vi": "Tàu chuyên tuyến"
+      },
+      "tags": [
+        "物流",
+        "海运"
+      ],
+      "abbreviation": "Liner"
+    },
+    {
+      "term_id": "TERM-167",
+      "term": "滚装船",
+      "category": "物流术语",
+      "definition": "通过跳板让轮式货运工具（如卡车、轿车）直接上下船的运输船舶",
+      "examples": [
+        "成品车出口通常使用滚装船进行运输"
+      ],
+      "related_terms": [
+        "Roll-on/roll-off",
+        "汽车船"
+      ],
+      "translations": {
+        "en": "Roll-on/roll-off Ship",
+        "th": "เรือบรรทุกสินค้าแบบมีสะพานทอด",
+        "ms": "Kapal Ro-Ro",
+        "vi": "Tàu Ro-Ro"
+      },
+      "tags": [
+        "物流",
+        "海运",
+        "特殊运输"
+      ],
+      "abbreviation": "Ro-Ro"
+    },
+    {
+      "term_id": "TERM-168",
+      "term": "开顶柜",
+      "category": "物流术语",
+      "definition": "顶部敞开、可用吊车从上方装卸超高或大型机械设备的特殊集装箱",
+      "examples": [
+        "超高的挖掘机出口通常需要订购开顶柜"
+      ],
+      "related_terms": [
+        "Open Top Container"
+      ],
+      "translations": {
+        "en": "Open Top Container",
+        "th": "ตู้คอนเทนเนอร์แบบเปิดหลังคา",
+        "ms": "Kontena Buka Atas",
+        "vi": "Container mở nóc"
+      },
+      "tags": [
+        "物流",
+        "海运",
+        "标准规格"
+      ],
+      "abbreviation": "OT"
+    },
+    {
+      "term_id": "TERM-169",
+      "term": "框架柜",
+      "category": "物流术语",
+      "definition": "没有箱顶和侧壁，仅有底板和四个角柱的集装箱，用于装载超宽超重货物",
+      "examples": [
+        "大型游艇的跨国运输通常使用框架柜"
+      ],
+      "related_terms": [
+        "Flat Rack Container"
+      ],
+      "translations": {
+        "en": "Flat Rack Container",
+        "th": "ตู้คอนเทนเนอร์แบบแฟลตแร็ค",
+        "ms": "Kontena Rak Rata",
+        "vi": "Container phẳng (Flat Rack)"
+      },
+      "tags": [
+        "物流",
+        "海运",
+        "标准规格"
+      ],
+      "abbreviation": "FR"
+    },
+    {
+      "term_id": "TERM-170",
+      "term": "运费预付",
+      "category": "物流术语",
+      "definition": "托运人在启运港向承运人支付所有运费的付款方式",
+      "examples": [
+        "CIF条款下，通常在提单上显示‘Freight Prepaid’"
+      ],
+      "related_terms": [
+        "Prepaid",
+        "预付运费"
+      ],
+      "translations": {
+        "en": "Freight Prepaid",
+        "th": "ชำระค่าระวางล่วงหน้า",
+        "ms": "Tambang Prabayar",
+        "vi": "Cước trả trước"
+      },
+      "tags": [
+        "物流",
+        "支付"
+      ],
+      "abbreviation": "PP"
+    },
+    {
+      "term_id": "TERM-171",
+      "term": "运费到付",
+      "category": "物流术语",
+      "definition": "承运人在目的港交付货物时，向收货人收取的运费",
+      "examples": [
+        "FOB贸易项下，运费通常由买方到付"
+      ],
+      "related_terms": [
+        "Freight Collect",
+        "到付运费"
+      ],
+      "translations": {
+        "en": "Freight Collect",
+        "th": "เก็บค่าระวางที่ปลายทาง",
+        "ms": "Tambang Bayar Kemudian",
+        "vi": "Cước trả sau"
+      },
+      "tags": [
+        "物流",
+        "支付"
+      ],
+      "abbreviation": "CC"
+    },
+    {
+      "term_id": "TERM-172",
+      "term": "紧急燃油附加费",
+      "category": "物流术语",
+      "definition": "船公司由于国际油价剧烈波动而临时加收的一项应急费用",
+      "examples": [
+        "东南亚航线在燃油成本飙升时常会征收EBS"
+      ],
+      "related_terms": [
+        "Emergency Bunker Surcharge"
+      ],
+      "translations": {
+        "en": "Emergency Bunker Surcharge",
+        "th": "ค่าธรรมเนียมน้ำมันฉุกเฉิน",
+        "ms": "Surcharge Bahan Api Kecemasan",
+        "vi": "Phụ phí nhiên liệu khẩn cấp"
+      },
+      "tags": [
+        "物流",
+        "海运",
+        "价格"
+      ],
+      "abbreviation": "EBS"
+    },
+    {
+      "term_id": "TERM-173",
+      "term": "绕航附加费",
+      "category": "物流术语",
+      "definition": "因运河关闭、战争或安全原因，航船被迫绕行更长路径时收取的额外费用",
+      "examples": [
+        "受红海局势影响，绕道好望角的船舶普遍征收绕航附加费"
+      ],
+      "related_terms": [
+        "绕路费"
+      ],
+      "translations": {
+        "en": "Deviation Surcharge",
+        "th": "ค่าธรรมเนียมการเดินเรืออ้อม",
+        "ms": "Surcharge Lencongan",
+        "vi": "Phụ phí chệch lộ trình"
+      },
+      "tags": [
+        "物流",
+        "海运",
+        "风险管理"
+      ],
+      "abbreviation": "Deviation Surcharge"
+    },
+    {
+      "term_id": "TERM-174",
+      "term": "拆箱费",
+      "category": "物流术语",
+      "definition": "在目的港或仓库将货物从集装箱中卸下的操作费用",
+      "examples": [
+        "拼箱货的拆箱费由所有收货人按比例分摊"
+      ],
+      "related_terms": [
+        "卸箱费",
+        "Unstuffing Charge"
+      ],
+      "translations": {
+        "en": "Devanning Charge",
+        "th": "ค่าธรรมเนียมการถอนตู้คอนเทนเนอร์",
+        "ms": "Caj Memunggah Kontena",
+        "vi": "Phí rút hàng"
+      },
+      "tags": [
+        "物流",
+        "装卸"
+      ],
+      "abbreviation": "Devanning Charge"
+    },
+    {
+      "term_id": "TERM-175",
+      "term": "装箱费",
+      "category": "物流术语",
+      "definition": "在堆场或工厂将货物装入集装箱内并加固的操作费用",
+      "examples": [
+        "装箱费已包含在货代提供的内陆包干价中"
+      ],
+      "related_terms": [
+        "入箱费"
+      ],
+      "translations": {
+        "en": "Stuffing Charge",
+        "th": "ค่าธรรมเนียมการบรรจุตู้คอนเทนเนอร์",
+        "ms": "Caj Mengisi Kontena",
+        "vi": "Phí đóng hàng"
+      },
+      "tags": [
+        "物流",
+        "装卸"
+      ],
+      "abbreviation": "Stuffing Charge"
+    },
+    {
+      "term_id": "TERM-176",
+      "term": "物流可视化",
+      "category": "其他",
+      "definition": "利用传感器和信息系统实时监控供应链中货物的位置、状态和环境信息",
+      "examples": [
+        "通过可视化管理，企业能更精准地预测到货时间"
+      ],
+      "related_terms": [
+        "透明供应链",
+        "Logistics Visibility"
+      ],
+      "translations": {
+        "en": "Logistics Visibility",
+        "th": "การมองเห็นภาพรวมโลจิสติกส์",
+        "ms": "Keterlihatan Logistik",
+        "vi": "Tầm nhìn logistics"
+      },
+      "tags": [
+        "数字化",
+        "技术",
+        "供应链"
+      ],
+      "abbreviation": "Visibility"
+    },
+    {
+      "term_id": "TERM-177",
+      "term": "智能仓储",
+      "category": "物流术语",
+      "definition": "结合机器人、人工智能和物联网技术，实现高度自动化的仓库运作模式",
+      "examples": [
+        "智能仓储显著降低了东南亚电商大促期间的爆仓风险"
+      ],
+      "related_terms": [
+        "无人仓",
+        "自动化仓库"
+      ],
+      "translations": {
+        "en": "Smart Warehousing",
+        "th": "คลังสินค้าอัจฉริยะ",
+        "ms": "Gudang Pintar",
+        "vi": "Kho thông minh"
+      },
+      "tags": [
+        "数字化",
+        "仓储",
+        "技术"
+      ],
+      "abbreviation": "Smart Warehousing"
+    },
+    {
+      "term_id": "TERM-178",
+      "term": "冷藏集装箱",
+      "category": "物流术语",
+      "definition": "装有冷冻机组、能维持特定低温度的集装箱，用于运输新鲜水果、冷冻品等",
+      "examples": [
+        "越南出口冷冻虾到中国通常使用冷藏集装箱"
+      ],
+      "related_terms": [
+        "Reefer",
+        "冷柜"
+      ],
+      "translations": {
+        "en": "Reefer Container",
+        "th": "ตู้คอนเทนเนอร์เก็บความเย็น",
+        "ms": "Kontena Sejuk Beku",
+        "vi": "Container lạnh (RF)"
+      },
+      "tags": [
+        "物流",
+        "海运",
+        "冷链"
+      ],
+      "abbreviation": "RF"
+    },
+    {
+      "term_id": "TERM-179",
+      "term": "干柜",
+      "category": "物流术语",
+      "definition": "最普通的通用集装箱，用于装载无需控温的普通件杂货",
+      "examples": [
+        "服装、杂货一般使用20GP或40GP干柜运输"
+      ],
+      "related_terms": [
+        "标准柜",
+        "General Purpose Container"
+      ],
+      "translations": {
+        "en": "General Purpose Container",
+        "th": "ตู้คอนเทนเนอร์ทั่วไป",
+        "ms": "Kontena Kegunaan Am",
+        "vi": "Container thường (GP)"
+      },
+      "tags": [
+        "物流",
+        "海运",
+        "标准规格"
+      ],
+      "abbreviation": "GP"
+    },
+    {
+      "term_id": "TERM-180",
+      "term": "仓库租金",
+      "category": "物流术语",
+      "definition": "租用仓库空间而支付的费用，通常按面积、容积或托盘位计算",
+      "examples": [
+        "曼谷近郊的仓库租金近期因需求增加而上涨"
+      ],
+      "related_terms": [
+        "仓租"
+      ],
+      "translations": {
+        "en": "Warehouse Rent",
+        "th": "ค่าเช่าคลังสินค้า",
+        "ms": "Sewa Gudang",
+        "vi": "Tiền thuê kho"
+      },
+      "tags": [
+        "仓储",
+        "支付"
+      ],
+      "abbreviation": "Warehouse Rent"
+    },
+    {
+      "term_id": "TERM-181",
+      "term": "库内移位",
+      "category": "物流术语",
+      "definition": "在同一个仓库内根据管理需要将货物从一个位置搬移到另一个位置的操作",
+      "examples": [
+        "为了优化拣货动线，仓库需要进行库内移位"
+      ],
+      "related_terms": [
+        "移仓"
+      ],
+      "translations": {
+        "en": "Internal Relocation",
+        "th": "การเคลื่อนย้ายภายในคลังสินค้า",
+        "ms": "Pemindahan Dalaman",
+        "vi": "Chuyển vị trí trong kho"
+      },
+      "tags": [
+        "仓储",
+        "作业"
+      ],
+      "abbreviation": "Internal Transfer"
+    },
+    {
+      "term_id": "TERM-182",
+      "term": "缺货",
+      "category": "其他",
+      "definition": "当客户下单时，由于库存耗尽而导致无法履行订单的状态",
+      "examples": [
+        "频繁的缺货会导致跨境电商平台的店铺权重下降"
+      ],
+      "related_terms": [
+        "Out of Stock",
+        "断货"
+      ],
+      "translations": {
+        "en": "Out of Stock",
+        "th": "สินค้าหมดสต็อก",
+        "ms": "Kehabisan Stok",
+        "vi": "Hết hàng"
+      },
+      "tags": [
+        "仓储",
+        "零售",
+        "跨境电商"
+      ],
+      "abbreviation": "OOS"
+    },
+    {
+      "term_id": "TERM-183",
+      "term": "超长附加费",
+      "category": "物流术语",
+      "definition": "因单件货物长度超过规定限制（如超过6米）而加收的费用",
+      "examples": [
+        "出口工业铝型材时需注意核算超长附加费"
+      ],
+      "related_terms": [
+        "Long Surcharge"
+      ],
+      "translations": {
+        "en": "Length Surcharge",
+        "th": "ค่าธรรมเนียมความยาวเกิน",
+        "ms": "Surcharge Panjang",
+        "vi": "Phụ phí hàng quá dài"
+      },
+      "tags": [
+        "物流",
+        "价格"
+      ],
+      "abbreviation": "LS"
+    },
+    {
+      "term_id": "TERM-184",
+      "term": "超重附加费",
+      "category": "物流术语",
+      "definition": "针对单件重量超过船公司或快递公司规定标准的货物加收的额外运费",
+      "examples": [
+        "每箱超过22kg的包裹在欧美派送常有超重附加费"
+      ],
+      "related_terms": [
+        "Overweight Surcharge"
+      ],
+      "translations": {
+        "en": "Overweight Surcharge",
+        "th": "ค่าธรรมเนียมน้ำหนักเกิน",
+        "ms": "Surcharge Berat",
+        "vi": "Phụ phí hàng quá nặng"
+      },
+      "tags": [
+        "物流",
+        "价格"
+      ],
+      "abbreviation": "OWS"
+    },
+    {
+      "term_id": "TERM-185",
+      "term": "进出口收发货人注册登记",
+      "category": "海关术语",
+      "definition": "中国海关要求进出口商必须办理的注册登记编码，用于报关申报",
+      "examples": [
+        "所有在华从事贸易的企业必须拥有有效的CR Code"
+      ],
+      "related_terms": [
+        "海关注册码"
+      ],
+      "translations": {
+        "en": "Customs Registration Code",
+        "th": "รหัสทะเบียนศุลกากร",
+        "ms": "Kod Pendaftaran Kastam",
+        "vi": "Mã đăng ký hải quan"
+      },
+      "tags": [
+        "海关",
+        "合规"
+      ],
+      "abbreviation": "CR Code"
+    },
+    {
+      "term_id": "TERM-186",
+      "term": "货到付款",
+      "category": "支付方式",
+      "definition": "物流配送人员在交付货物的同时，向收货人收取货款的支付模式",
+      "examples": [
+        "COD是东南亚跨境电商中最为流行的支付方式之一"
+      ],
+      "related_terms": [
+        "Cash on Delivery",
+        "现款买卖"
+      ],
+      "translations": {
+        "en": "Cash on Delivery",
+        "th": "เก็บเงินปลายทาง",
+        "ms": "Tunai semasa Penghantaran",
+        "vi": "Giao hàng thu tiền hộ (COD)"
+      },
+      "tags": [
+        "支付",
+        "配送",
+        "东南亚"
+      ],
+      "abbreviation": "COD"
+    },
+    {
+      "term_id": "TERM-187",
+      "term": "货运代理协议",
+      "category": "其他",
+      "definition": "托运人与货代之间签署的明确运输责任、服务范围及费用标准的合同",
+      "examples": [
+        "长期合作的出口商通常与货代签订年度货运代理协议"
+      ],
+      "related_terms": [
+        "物流协议",
+        "Freight Forwarding Agreement"
+      ],
+      "translations": {
+        "en": "Freight Forwarding Agreement",
+        "th": "ข้อตกลงตัวแทนรับจัดการขนส่ง",
+        "ms": "Perjanjian Penghantaran Mel",
+        "vi": "Hợp đồng giao nhận vận tải"
+      },
+      "tags": [
+        "合同",
+        "物流",
+        "合规"
+      ],
+      "abbreviation": "FFA"
+    },
+    {
+      "term_id": "TERM-188",
+      "term": "装货时间",
+      "category": "物流术语",
+      "definition": "货物开始装载入运输工具到装载完毕所耗用的时间",
+      "examples": [
+        "提高叉车司机的作业熟练度可以有效缩短装货时间"
+      ],
+      "related_terms": [
+        "装车时间"
+      ],
+      "translations": {
+        "en": "Loading Time",
+        "th": "เวลาในการโหลดสินค้า",
+        "ms": "Masa Memuat",
+        "vi": "Thời gian xếp hàng"
+      },
+      "tags": [
+        "物流",
+        "作业",
+        "效率"
+      ],
+      "abbreviation": "Loading Time"
+    },
+    {
+      "term_id": "TERM-189",
+      "term": "驳船",
+      "category": "物流术语",
+      "definition": "由于大船无法直接靠岸，在河道或近海用于将货物从中转港运往内陆港的小型船舶",
+      "examples": [
+        "珠三角的货物通常先通过驳船运至香港或蛇口再转大船"
+      ],
+      "related_terms": [
+        "平底船",
+        "Feeder Barge"
+      ],
+      "translations": {
+        "en": "Barge",
+        "th": "เรือโป๊ะ",
+        "ms": "Baj",
+        "vi": "Sà lan"
+      },
+      "tags": [
+        "物流",
+        "海运"
+      ],
+      "abbreviation": "Barge"
+    },
+    {
+      "term_id": "TERM-190",
+      "term": "中转费",
+      "category": "物流术语",
+      "definition": "货物在运输途中经过中转港进行换装、存储及管理产生的费用",
+      "examples": [
+        "非直达航线通常涉及一定的中转费支出"
+      ],
+      "related_terms": [
+        "转运费"
+      ],
+      "translations": {
+        "en": "Transshipment Charge",
+        "th": "ค่าธรรมเนียมการเปลี่ยนถ่ายสินค้า",
+        "ms": "Caj Pemindahan Kapal",
+        "vi": "Phí chuyển tải"
+      },
+      "tags": [
+        "物流",
+        "价格"
+      ],
+      "abbreviation": "Transshipment Charge"
+    },
+    {
+      "term_id": "TERM-191",
+      "term": "货物破损率",
+      "category": "物流术语",
+      "definition": "物流过程中损坏货物数量占运输总量的百分比，是评价物流质量的核心指标",
+      "examples": [
+        "优化包装方案可以显著降低海外仓的货物破损率"
+      ],
+      "related_terms": [
+        "损货率",
+        "Damage Percentage"
+      ],
+      "translations": {
+        "en": "Damage Rate",
+        "th": "อัตราสินค้าชำรุด",
+        "ms": "Kadar Kerosakan",
+        "vi": "Tỷ lệ hư hỏng hàng hóa"
+      },
+      "tags": [
+        "物流",
+        "风险管理",
+        "质量"
+      ],
+      "abbreviation": "Damage Rate"
+    },
+    {
+      "term_id": "TERM-192",
+      "term": "物流节点",
+      "category": "物流术语",
+      "definition": "物流网络中连接不同运输线路、进行货物集散和处理的场所，如港口、中转站",
+      "examples": [
+        "新加坡是全球最重要的海运物流节点之一"
+      ],
+      "related_terms": [
+        "集散中心",
+        "Distribution Hub"
+      ],
+      "translations": {
+        "en": "Logistics Node",
+        "th": "จุดเชื่อมต่อโลจิสติกส์",
+        "ms": "Nod Logistik",
+        "vi": "Nút logistics"
+      },
+      "tags": [
+        "物流",
+        "基础设施"
+      ],
+      "abbreviation": "Logistics Node"
+    },
+    {
+      "term_id": "TERM-193",
+      "term": "配送路线优化",
+      "category": "其他",
+      "definition": "通过算法计算出成本最低、时间最快或路程最短的运输路径",
+      "examples": [
+        "通过配送路线优化，物流公司减少了20%的燃油消耗"
+      ],
+      "related_terms": [
+        "路径规划"
+      ],
+      "translations": {
+        "en": "Route Optimization",
+        "th": "การปรับปรุงเส้นทางการจัดส่งให้เหมาะสม",
+        "ms": "Pengoptimuman Laluan",
+        "vi": "Tối ưu hóa tuyến đường"
+      },
+      "tags": [
+        "数字化",
+        "技术",
+        "效率"
+      ],
+      "abbreviation": "Route Optimization"
+    },
+    {
+      "term_id": "TERM-194",
+      "term": "货物索赔",
+      "category": "保险术语",
+      "definition": "货主因货物在运输中发生遗失、损坏或延迟而向承运人或保险公司提出的赔偿要求",
+      "examples": [
+        "发生货损后，应在规定时间内提交照片证据进行货物索赔"
+      ],
+      "related_terms": [
+        "理赔"
+      ],
+      "translations": {
+        "en": "Cargo Claim",
+        "th": "การเรียกร้องค่าเสียหายของสินค้า",
+        "ms": "Tuntutan Kargo",
+        "vi": "Khiếu nại hàng hóa"
+      },
+      "tags": [
+        "保险",
+        "风险管理",
+        "法律"
+      ],
+      "abbreviation": "Cargo Claim"
+    },
+    {
+      "term_id": "TERM-195",
+      "term": "运费率",
+      "category": "物流术语",
+      "definition": "承运人对单位货物收取的运输价格标准",
+      "examples": [
+        "空运运费率通常受航空燃油价格和舱位供需关系影响"
+      ],
+      "related_terms": [
+        "运价表"
+      ],
+      "translations": {
+        "en": "Freight Rate",
+        "th": "อัตราค่าระวาง",
+        "ms": "Kadar Tambang",
+        "vi": "Giá cước vận chuyển"
+      },
+      "tags": [
+        "物流",
+        "价格"
+      ],
+      "abbreviation": "Freight Rate"
+    },
+    {
+      "term_id": "TERM-196",
+      "term": "散货船",
+      "category": "物流术语",
+      "definition": "专门用于运送不加包袋的散装矿石、煤炭、粮食等大宗物资的船舶",
+      "examples": [
+        "印尼的煤炭出口主要通过散货船运往中国"
+      ],
+      "related_terms": [
+        "散装船"
+      ],
+      "translations": {
+        "en": "Bulk Carrier",
+        "th": "เรือขนส่งสินค้าเทกอง",
+        "ms": "Kapal Kargo Pukal",
+        "vi": "Tàu hàng rời"
+      },
+      "tags": [
+        "物流",
+        "海运"
+      ],
+      "abbreviation": "Bulk Carrier"
+    },
+    {
+      "term_id": "TERM-197",
+      "term": "航空货运站",
+      "category": "物流术语",
+      "definition": "机场内进行空运货物收运、分拣、理货及装卸作业的专业场所",
+      "examples": [
+        "跨境电商小包在起运前需进入航空货运站进行安检和打板"
+      ],
+      "related_terms": [
+        "机场货库"
+      ],
+      "translations": {
+        "en": "Air Cargo Terminal",
+        "th": "อาคารคลังสินค้าทางอากาศ",
+        "ms": "Terminal Kargo Udara",
+        "vi": "Ga hàng không"
+      },
+      "tags": [
+        "物流",
+        "空运",
+        "基础设施"
+      ],
+      "abbreviation": "Cargo Terminal"
+    },
+    {
+      "term_id": "TERM-198",
+      "term": "多式联运提单",
+      "category": "贸易单证",
+      "definition": "由多式联运经营者签发的，证明全程由多种运输方式衔接完成的契约凭证",
+      "examples": [
+        "多式联运提单可以作为向银行议付的物权凭证"
+      ],
+      "related_terms": [
+        "Multimodal B/L"
+      ],
+      "translations": {
+        "en": "Multimodal Bill of Lading",
+        "th": "ใบตราส่งสินค้าต่อเนื่องหลายรูปแบบ",
+        "ms": "Bil Pemuatan Multimodal",
+        "vi": "Vận đơn đa phương thức"
+      },
+      "tags": [
+        "单证",
+        "物流",
+        "多式联运"
+      ],
+      "abbreviation": "MTBL"
+    },
+    {
+      "term_id": "TERM-199",
+      "term": "物流全链路",
+      "category": "物流术语",
+      "definition": "从原材料供应到最终产品交付给消费者的整个流程",
+      "examples": [
+        "跨境电商致力于打造物流全链路的闭环管理"
+      ],
+      "related_terms": [
+        "端到端",
+        "Whole Process"
+      ],
+      "translations": {
+        "en": "End-to-End Logistics",
+        "th": "โลจิสติกส์แบบครบวงจร",
+        "ms": "Logistik Hujung-ke-Hujung",
+        "vi": "Logistics toàn trình"
+      },
+      "tags": [
+        "物流",
+        "供应链"
+      ],
+      "abbreviation": "End-to-End"
+    },
+    {
+      "term_id": "TERM-200",
+      "term": "配送中心",
+      "category": "物流术语",
+      "definition": "主要从事配送业务的物流节点，通过分拣、包装及组货将商品及时送到目的地",
+      "examples": [
+        "该跨境平台在胡志明市设立了大型区域配送中心"
+      ],
+      "related_terms": [
+        "Distribution Center",
+        "分发中心"
+      ],
+      "translations": {
+        "en": "Distribution Center",
+        "th": "ศูนย์กระจายสินค้า",
+        "ms": "Pusat Pengedaran",
+        "vi": "Trung tâm phân phối"
+      },
+      "tags": [
+        "物流",
+        "仓储",
+        "配送"
+      ],
+      "abbreviation": "DC"
+    },
+    {
+      "term_id": "TERM-201",
+      "term": "结汇",
+      "category": "支付方式",
+      "definition": "外汇收入持有人将其外汇收入按银行汇率卖给银行，银行付给等值本币的行为",
+      "examples": [
+        "出口企业收到货款后需及时办理结汇以获得人民币流动资金"
+      ],
+      "related_terms": [
+        "收汇",
+        "结售汇"
+      ],
+      "translations": {
+        "en": "Foreign Exchange Settlement",
+        "th": "การแลกเปลี่ยนเงินตราต่างประเทศเป็นเงินท้องถิ่น",
+        "ms": "Penyelesaian Pertukaran Asing",
+        "vi": "Kết hối"
+      },
+      "tags": [
+        "支付",
+        "外汇",
+        "金融"
+      ],
+      "abbreviation": "Forex Settlement"
+    },
+    {
+      "term_id": "TERM-202",
+      "term": "购汇",
+      "category": "支付方式",
+      "definition": "境内机构或个人使用本币向银行购买外汇并汇出境外或支付的过程",
+      "examples": [
+        "进口商在支付货款前需要向银行申请购汇"
+      ],
+      "related_terms": [
+        "售汇",
+        "买汇"
+      ],
+      "translations": {
+        "en": "Foreign Exchange Purchase",
+        "th": "การซื้อเงินตราต่างประเทศ",
+        "ms": "Pembelian Mata Wang Asing",
+        "vi": "Mua ngoại tệ"
+      },
+      "tags": [
+        "支付",
+        "外汇",
+        "金融"
+      ],
+      "abbreviation": "Forex Purchase"
+    },
+    {
+      "term_id": "TERM-203",
+      "term": "电汇",
+      "category": "支付方式",
+      "definition": "汇款人委托银行通过电报、电传或SWIFT将款项汇交收款人的结算方式",
+      "examples": [
+        "跨境电商中，30% T/T预付是常见的支付条款"
+      ],
+      "related_terms": [
+        "Telegraphic Transfer",
+        "汇票"
+      ],
+      "translations": {
+        "en": "Telegraphic Transfer",
+        "th": "การโอนเงินทางโทรเลข",
+        "ms": "Transfer Telegrafik",
+        "vi": "Chuyển tiền bằng điện (T/T)"
+      },
+      "tags": [
+        "支付",
+        "结算"
+      ],
+      "abbreviation": "T/T"
+    },
+    {
+      "term_id": "TERM-204",
+      "term": "信用证",
+      "category": "支付方式",
+      "definition": "银行应进口商申请开立的有条件的付款承诺书，只要出口商提交符合条款的单据，银行即保证付款",
+      "examples": [
+        "大宗商品交易通常使用不可撤销信用证以降低收汇风险"
+      ],
+      "related_terms": [
+        "跟单信用证",
+        "Letter of Credit"
+      ],
+      "translations": {
+        "en": "Letter of Credit",
+        "th": "เล็ตเตอร์ออฟเครดิต",
+        "ms": "Surat Kredit",
+        "vi": "Thư tín dụng (L/C)"
+      },
+      "tags": [
+        "支付",
+        "金融",
+        "风险管理"
+      ],
+      "abbreviation": "L/C"
+    },
+    {
+      "term_id": "TERM-205",
+      "term": "付款交单",
+      "category": "支付方式",
+      "definition": "代收行在进口商付清货款后，才将商业单据交给进口商的一种结算方式",
+      "examples": [
+        "D/P是一种典型的跟单托收业务，风险高于信用证"
+      ],
+      "related_terms": [
+        "Documents against Payment",
+        "托收"
+      ],
+      "translations": {
+        "en": "Documents against Payment",
+        "th": "การชำระเงินเมื่อส่งมอบเอกสาร",
+        "ms": "Dokumen terhadap Pembayaran",
+        "vi": "Nhờ thu trả tiền đổi chứng từ"
+      },
+      "tags": [
+        "支付",
+        "结算"
+      ],
+      "abbreviation": "D/P"
+    },
+    {
+      "term_id": "TERM-206",
+      "term": "承兑交单",
+      "category": "支付方式",
+      "definition": "进口商在承兑汇票后即可领回商业单据，待汇票到期后再行付款的结算方式",
+      "examples": [
+        "D/A条款对进口商非常有利，但对出口商而言收汇风险较大"
+      ],
+      "related_terms": [
+        "Documents against Acceptance"
+      ],
+      "translations": {
+        "en": "Documents against Acceptance",
+        "th": "การยอมรับตั๋วแลกเงินเพื่อรับเอกสาร",
+        "ms": "Dokumen terhadap Penerimaan",
+        "vi": "Nhờ thu chấp nhận chứng từ"
+      },
+      "tags": [
+        "支付",
+        "结算"
+      ],
+      "abbreviation": "D/A"
+    },
+    {
+      "term_id": "TERM-207",
+      "term": "SWIFT系统",
+      "category": "其他",
+      "definition": "全球性银行间金融电信协会，提供安全、标准的金融信息传输服务",
+      "examples": [
+        "办理国际汇款时必须填写接收银行的SWIFT代码"
+      ],
+      "related_terms": [
+        "银行识别码",
+        "BIC"
+      ],
+      "translations": {
+        "en": "SWIFT System",
+        "th": "ระบบ SWIFT",
+        "ms": "Sistem SWIFT",
+        "vi": "Hệ thống SWIFT"
+      },
+      "tags": [
+        "金融",
+        "数字化",
+        "基础设施"
+      ],
+      "abbreviation": "SWIFT"
+    },
+    {
+      "term_id": "TERM-208",
+      "term": "跨境支付网关",
+      "category": "支付方式",
+      "definition": "连接电商平台与金融机构的通道，负责支付指令的加密传输和授权",
+      "examples": [
+        "该平台集成了多种支付网关以支持东南亚本地电子钱包"
+      ],
+      "related_terms": [
+        "支付接口",
+        "PSP"
+      ],
+      "translations": {
+        "en": "Cross-border Payment Gateway",
+        "th": "ช่องทางการชำระเงินข้ามพรมแดน",
+        "ms": "Gerbang Pembayaran Merentas Sempadan",
+        "vi": "Cổng thanh toán xuyên biên giới"
+      },
+      "tags": [
+        "支付",
+        "数字化",
+        "跨境电商"
+      ],
+      "abbreviation": "Payment Gateway"
+    },
+    {
+      "term_id": "TERM-209",
+      "term": "离岸人民币",
+      "category": "其他",
+      "definition": "在中国境外存放并进行交易的人民币，主要中心包括香港、新加坡等",
+      "examples": [
+        "CNH汇率与境内的人民币汇率（CNY）存在一定的价差"
+      ],
+      "related_terms": [
+        "人民币国际化",
+        "Offshore RMB"
+      ],
+      "translations": {
+        "en": "Offshore Renminbi",
+        "th": "เงินหยวนนอกประเทศ",
+        "ms": "Renminbi Luar Pesisir",
+        "vi": "Nhân dân tệ hải ngoại"
+      },
+      "tags": [
+        "金融",
+        "外汇"
+      ],
+      "abbreviation": "CNH"
+    },
+    {
+      "term_id": "TERM-210",
+      "term": "反洗钱",
+      "category": "其他",
+      "definition": "预防和打击非法资金进入金融系统并掩盖其来源的行为",
+      "examples": [
+        "支付机构必须严格执行AML审查，防止异常资金跨境流动"
+      ],
+      "related_terms": [
+        "反恐融资",
+        "合规审查"
+      ],
+      "translations": {
+        "en": "Anti-Money Laundering",
+        "th": "การป้องกันและปราบปรามการฟอกเงิน",
+        "ms": "Anti-Pengubahan Wang Haram",
+        "vi": "Chống rửa tiền"
+      },
+      "tags": [
+        "合规",
+        "金融",
+        "风险管理"
+      ],
+      "abbreviation": "AML"
+    },
+    {
+      "term_id": "TERM-211",
+      "term": "了解你的客户",
+      "category": "其他",
+      "definition": "银行或支付机构对客户身份真实性进行验证和背景核实的过程",
+      "examples": [
+        "在开通跨境收款账户前，必须提交企业法人身份信息以完成KYC"
+      ],
+      "related_terms": [
+        "身份验证",
+        "合规确认"
+      ],
+      "translations": {
+        "en": "Know Your Customer",
+        "th": "ทำความรู้จักลูกค้า",
+        "ms": "Kenali Pelanggan Anda",
+        "vi": "Xác minh danh tính khách hàng"
+      },
+      "tags": [
+        "合规",
+        "数字化",
+        "风险管理"
+      ],
+      "abbreviation": "KYC"
+    },
+    {
+      "term_id": "TERM-212",
+      "term": "跨境汇款",
+      "category": "支付方式",
+      "definition": "资金从一个国家的银行账户向另一个国家的账户转移的行为",
+      "examples": [
+        "跨境电商卖家的资金回笼依赖于稳定且低成本的跨境汇款渠道"
+      ],
+      "related_terms": [
+        "国际转账",
+        "Wire Transfer"
+      ],
+      "translations": {
+        "en": "Cross-border Remittance",
+        "th": "การโอนเงินระหว่างประเทศ",
+        "ms": "Remitans Merentas Sempadan",
+        "vi": "Chuyển tiền xuyên biên giới"
+      },
+      "tags": [
+        "支付",
+        "金融"
+      ],
+      "abbreviation": "Remittance"
+    },
+    {
+      "term_id": "TERM-213",
+      "term": "汇率对冲",
+      "category": "其他",
+      "definition": "通过远期合约、期权等工具，抵消因汇率波动带来的财务损益的操作",
+      "examples": [
+        "为了应对泰铢汇率的不确定性，企业采取了汇率对冲策略"
+      ],
+      "related_terms": [
+        "外汇套期保值",
+        "对冲合约"
+      ],
+      "translations": {
+        "en": "Exchange Rate Hedging",
+        "th": "การป้องกันความเสี่ยงจากอัตราแลกเปลี่ยน",
+        "ms": "Lindung Nilai Kadar Pertukaran",
+        "vi": "Phòng ngừa rủi ro tỷ giá"
+      },
+      "tags": [
+        "金融",
+        "风险管理"
+      ],
+      "abbreviation": "Forex Hedging"
+    },
+    {
+      "term_id": "TERM-214",
+      "term": "第三方支付服务商",
+      "category": "支付方式",
+      "definition": "为电商提供支付处理服务，使商户能接受多种付款方式的中介机构",
+      "examples": [
+        "像Paypal或蚂蚁国际都是典型的跨境PSP"
+      ],
+      "related_terms": [
+        "收单行",
+        "Payment Service Provider"
+      ],
+      "translations": {
+        "en": "Payment Service Provider",
+        "th": "ผู้ให้บริการชำระเงินรายอื่น",
+        "ms": "Penyedia Perkhidmatan Pembayaran",
+        "vi": "Nhà cung cấp dịch vụ thanh toán"
+      },
+      "tags": [
+        "支付",
+        "跨境电商",
+        "数字化"
+      ],
+      "abbreviation": "PSP"
+    },
+    {
+      "term_id": "TERM-215",
+      "term": "中间行费",
+      "category": "支付方式",
+      "definition": "在电汇过程中，因汇款行与接收行无直接账户关系而通过中转行所产生的费用",
+      "examples": [
+        "国际电汇时，实收金额往往因扣除中间行费而少于汇出金额"
+      ],
+      "related_terms": [
+        "代理行费",
+        "中转费"
+      ],
+      "translations": {
+        "en": "Intermediary Bank Fee",
+        "th": "ค่าธรรมเนียมธนาคารกลาง",
+        "ms": "Yuran Bank Perantara",
+        "vi": "Phí ngân hàng trung gian"
+      },
+      "tags": [
+        "支付",
+        "金融"
+      ],
+      "abbreviation": "Intermediary Fee"
+    },
+    {
+      "term_id": "TERM-216",
+      "term": "银行间汇率",
+      "category": "其他",
+      "definition": "大型商业银行之间进行大宗外汇交易所适用的汇率，通常是最优惠的汇率",
+      "examples": [
+        "跨境支付机构通常在银行间汇率的基础上加上一定基点后提供给卖家"
+      ],
+      "related_terms": [
+        "中间价",
+        "市场价"
+      ],
+      "translations": {
+        "en": "Interbank Exchange Rate",
+        "th": "อัตราแลกเปลี่ยนระหว่างธนาคาร",
+        "ms": "Kadar Pertukaran Antara Bank",
+        "vi": "Tỷ giá liên ngân hàng"
+      },
+      "tags": [
+        "外汇",
+        "金融"
+      ],
+      "abbreviation": "Interbank Rate"
+    },
+    {
+      "term_id": "TERM-217",
+      "term": "拒付",
+      "category": "支付方式",
+      "definition": "持卡人要求发卡行撤销一笔已支付的交易，并将款项从商户账户中扣除的过程",
+      "examples": [
+        "跨境电商卖家需极力避免高拒付率，否则可能面临封店风险"
+      ],
+      "related_terms": [
+        "退单",
+        "退款纠纷"
+      ],
+      "translations": {
+        "en": "Chargeback",
+        "th": "การคืนเงินกลับ",
+        "ms": "Caj Balik",
+        "vi": "Hoàn trả tiền (Chargeback)"
+      },
+      "tags": [
+        "支付",
+        "风险管理",
+        "跨境电商"
+      ],
+      "abbreviation": "Chargeback"
+    },
+    {
+      "term_id": "TERM-218",
+      "term": "收单服务",
+      "category": "支付方式",
+      "definition": "银行为商户提供的处理信用卡、借记卡交易并将资金存入商户账户的服务",
+      "examples": [
+        "该跨境平台在越南本地寻找了具有牌照的收单合作伙伴"
+      ],
+      "related_terms": [
+        "收单行",
+        "Merchant Acquiring"
+      ],
+      "translations": {
+        "en": "Acquiring Service",
+        "th": "บริการรับชำระเงิน",
+        "ms": "Perkhidmatan Pemerolehan",
+        "vi": "Dịch vụ thanh toán thẻ (Acquiring)"
+      },
+      "tags": [
+        "支付",
+        "金融"
+      ],
+      "abbreviation": "Acquiring"
+    },
+    {
+      "term_id": "TERM-219",
+      "term": "清算",
+      "category": "支付方式",
+      "definition": "在支付过程中的中间环节，包括指令的核对、轧差计算及确定最终应付金额",
+      "examples": [
+        "各国央行通常负责管理本国货币的清算系统"
+      ],
+      "related_terms": [
+        "结算",
+        "网间清算"
+      ],
+      "translations": {
+        "en": "Clearing",
+        "th": "การหักบัญชี",
+        "ms": "Penjelasan",
+        "vi": "Thanh toán bù trừ"
+      },
+      "tags": [
+        "金融",
+        "基础设施"
+      ],
+      "abbreviation": "Clearing"
+    },
+    {
+      "term_id": "TERM-220",
+      "term": "多币种账户",
+      "category": "其他",
+      "definition": "允许在同一个账户名下持有并管理多种不同国家货币的金融账户",
+      "examples": [
+        "使用多币种账户可以有效节省跨境交易的货币兑换手续费"
+      ],
+      "related_terms": [
+        "外币账户",
+        "Multi-currency Account"
+      ],
+      "translations": {
+        "en": "Multi-currency Account",
+        "th": "บัญชีหลายสกุลเงิน",
+        "ms": "Akaun Berbilang Mata Wang",
+        "vi": "Tài khoản đa tiền tệ"
+      },
+      "tags": [
+        "支付",
+        "金融"
+      ],
+      "abbreviation": "MCA"
+    },
+    {
+      "term_id": "TERM-221",
+      "term": "数字钱包",
+      "category": "支付方式",
+      "definition": "通过移动端应用存储资金并进行在线及线下交易的电子支付工具",
+      "examples": [
+        "TrueMoney是泰国使用最广泛的数字钱包之一"
+      ],
+      "related_terms": [
+        "电子钱包",
+        "移动支付"
+      ],
+      "translations": {
+        "en": "Digital Wallet",
+        "th": "กระเป๋าเงินดิจิทัล",
+        "ms": "Dompet Digital",
+        "vi": "Ví điện tử"
+      },
+      "tags": [
+        "支付",
+        "数字化",
+        "跨境电商"
+      ],
+      "abbreviation": "E-wallet"
+    },
+    {
+      "term_id": "TERM-222",
+      "term": "远期合同",
+      "category": "其他",
+      "definition": "买卖双方约定在未来某一特定日期按约定的价格交易外汇的协议",
+      "examples": [
+        "为了规避未来三个月汇率下跌风险，外贸公司签署了远期合同"
+      ],
+      "related_terms": [
+        "外汇远期"
+      ],
+      "translations": {
+        "en": "Forward Contract",
+        "th": "สัญญาซื้อขายล่วงหน้า",
+        "ms": "Kontrak Hadapan",
+        "vi": "Hợp đồng kỳ hạn"
+      },
+      "tags": [
+        "金融",
+        "风险管理"
+      ],
+      "abbreviation": "Forward Contract"
+    },
+    {
+      "term_id": "TERM-223",
+      "term": "反恐怖融资",
+      "category": "其他",
+      "definition": "防止和拦截非法资金流向恐怖主义活动的法律和行政监管措施",
+      "examples": [
+        "合规官需定期核查制裁名单，以履行CFT职责"
+      ],
+      "related_terms": [
+        "打击资恐",
+        "制裁核查"
+      ],
+      "translations": {
+        "en": "Countering the Financing of Terrorism",
+        "th": "การต่อต้านการสนับสนุนทางการเงินแก่การก่อการร้าย",
+        "ms": "Membanteras Pembiayaan Keganasan",
+        "vi": "Chống tài trợ khủng bố"
+      },
+      "tags": [
+        "合规",
+        "金融",
+        "风险管理"
+      ],
+      "abbreviation": "CFT"
+    },
+    {
+      "term_id": "TERM-224",
+      "term": "自动清算所",
+      "category": "支付方式",
+      "definition": "处理大批量电子转账请求的集中式金融系统，常用于工资发放或账单支付",
+      "examples": [
+        "ACH转账通常比电汇费用更低，但到账时间略慢"
+      ],
+      "related_terms": [
+        "自动清算",
+        "批次结算"
+      ],
+      "translations": {
+        "en": "Automated Clearing House",
+        "th": "สำนักหักบัญชีอัตโนมัติ",
+        "ms": "Rumah Penjelasan Automatik",
+        "vi": "Hệ thống thanh toán tự động (ACH)"
+      },
+      "tags": [
+        "支付",
+        "金融",
+        "基础设施"
+      ],
+      "abbreviation": "ACH"
+    },
+    {
+      "term_id": "TERM-225",
+      "term": "实时余额",
+      "category": "其他",
+      "definition": "账户内资金状态的即时显示，反映了所有已授权但未结算的交易",
+      "examples": [
+        "卖家后台应能实时查看待结算余额"
+      ],
+      "related_terms": [
+        "即时余额"
+      ],
+      "translations": {
+        "en": "Real-time Balance",
+        "th": "ยอดเงินคงเหลือแบบเรียลไทม์",
+        "ms": "Baki Masa Nyata",
+        "vi": "Số dư thời gian thực"
+      },
+      "tags": [
+        "金融",
+        "数字化"
+      ],
+      "abbreviation": "Real-time Balance"
+    },
+    {
+      "term_id": "TERM-226",
+      "term": "虚拟卡",
+      "category": "支付方式",
+      "definition": "无实体物理形式、仅有卡号和验证码的卡片，主要用于保障在线支付安全",
+      "examples": [
+        "跨境电商卖家常用虚拟卡支付广告费和订阅费"
+      ],
+      "related_terms": [
+        "电子信用卡"
+      ],
+      "translations": {
+        "en": "Virtual Card",
+        "th": "บัตรเสมือน",
+        "ms": "Kad Maya",
+        "vi": "Thẻ ảo"
+      },
+      "tags": [
+        "支付",
+        "安全",
+        "数字化"
+      ],
+      "abbreviation": "Virtual Card"
+    },
+    {
+      "term_id": "TERM-227",
+      "term": "分账服务",
+      "category": "支付方式",
+      "definition": "将一笔订单的支付款项按比例自动分配给不同收款方（如卖家、服务商）的功能",
+      "examples": [
+        "平台需要强大的分账系统来处理数万个卖家的即时提现"
+      ],
+      "related_terms": [
+        "自动分润"
+      ],
+      "translations": {
+        "en": "Split Payment",
+        "th": "การแยกชำระเงิน",
+        "ms": "Pembayaran Berasingan",
+        "vi": "Tách thanh toán"
+      },
+      "tags": [
+        "支付",
+        "跨境电商"
+      ],
+      "abbreviation": "Split Payment"
+    },
+    {
+      "term_id": "TERM-228",
+      "term": "欺诈检测",
+      "category": "其他",
+      "definition": "利用AI和规则引擎识别并拦截盗刷卡等非法交易的过程",
+      "examples": [
+        "该支付系统集成了先进的欺诈检测模型"
+      ],
+      "related_terms": [
+        "风控识别"
+      ],
+      "translations": {
+        "en": "Fraud Detection",
+        "th": "การตรวจจับการทุจริต",
+        "ms": "Pengesanan Penipuan",
+        "vi": "Phát hiện gian lận"
+      },
+      "tags": [
+        "风险管理",
+        "安全",
+        "技术"
+      ],
+      "abbreviation": "Fraud Detection"
+    },
+    {
+      "term_id": "TERM-229",
+      "term": "本地化支付",
+      "category": "支付方式",
+      "definition": "针对特定市场提供的当地主流支付方式，如泰国的PromptPay或印尼的DANA",
+      "examples": [
+        "在越南运营网站必须支持本地化支付才能提高转化率"
+      ],
+      "related_terms": [
+        "本地支付方式",
+        "Local Payment Methods"
+      ],
+      "translations": {
+        "en": "Local Payment Methods",
+        "th": "วิธีการชำระเงินในท้องถิ่น",
+        "ms": "Kaedah Pembayaran Tempatan",
+        "vi": "Phương thức thanh toán địa phương"
+      },
+      "tags": [
+        "支付",
+        "东南亚",
+        "跨境电商"
+      ],
+      "abbreviation": "LPM"
+    },
+    {
+      "term_id": "TERM-230",
+      "term": "银行对账单",
+      "category": "其他",
+      "definition": "银行定期提供的反映客户账户内所有存款、支取和交易明细的清单",
+      "examples": [
+        "申请支付平台账号通常需要上传最近三个月的银行对账单"
+      ],
+      "related_terms": [
+        "流水单"
+      ],
+      "translations": {
+        "en": "Bank Statement",
+        "th": "รายการเดินบัญชีธนาคาร",
+        "ms": "Penyata Bank",
+        "vi": "Sao kê ngân hàng"
+      },
+      "tags": [
+        "金融",
+        "合规"
+      ],
+      "abbreviation": "Bank Statement"
+    },
+    {
+      "term_id": "TERM-231",
+      "term": "经常项目",
+      "category": "其他",
+      "definition": "国际收支平衡表中最基本项目，包括贸易、劳务及单方面转移收支",
+      "examples": [
+        "跨境电商的收汇通常属于经常项目下的货物贸易"
+      ],
+      "related_terms": [
+        "国际收支"
+      ],
+      "translations": {
+        "en": "Current Account",
+        "th": "บัญชีเดินสะพัด",
+        "ms": "Akaun Semasa",
+        "vi": "Cán cân vãng lai"
+      },
+      "tags": [
+        "外汇",
+        "贸易政策"
+      ],
+      "abbreviation": "Current Account"
+    },
+    {
+      "term_id": "TERM-232",
+      "term": "资本项目",
+      "category": "其他",
+      "definition": "指由于资本的国际流动而引起的国家间债权、债务权益的变化项目",
+      "examples": [
+        "外国投资者直接投资（FDI）通常记录在资本项目下"
+      ],
+      "related_terms": [
+        "资本往来"
+      ],
+      "translations": {
+        "en": "Capital Account",
+        "th": "บัญชีทุน",
+        "ms": "Akaun Modal",
+        "vi": "Cán cân vốn"
+      },
+      "tags": [
+        "外汇",
+        "金融"
+      ],
+      "abbreviation": "Capital Account"
+    },
+    {
+      "term_id": "TERM-233",
+      "term": "跨境结算货币",
+      "category": "支付方式",
+      "definition": "在国际贸易合同中约定用于支付和清算的特定币种",
+      "examples": [
+        "虽然交易以美元计价，但最终可以选择人民币作为结算货币"
+      ],
+      "related_terms": [
+        "计价货币"
+      ],
+      "translations": {
+        "en": "Settlement Currency",
+        "th": "สกุลเงินที่ใช้ชำระเงิน",
+        "ms": "Mata Wang Penyelesaian",
+        "vi": "Đồng tiền quyết toán"
+      },
+      "tags": [
+        "支付",
+        "金融"
+      ],
+      "abbreviation": "Settlement Currency"
+    },
+    {
+      "term_id": "TERM-234",
+      "term": "增信服务",
+      "category": "其他",
+      "definition": "通过第三方担保或抵押，提高贸易项下债务人信用等级的融资手段",
+      "examples": [
+        "银行通过为中小卖家提供增信服务来降低贷款风险"
+      ],
+      "related_terms": [
+        "信用加强"
+      ],
+      "translations": {
+        "en": "Credit Enhancement",
+        "th": "การเสริมสร้างเครดิต",
+        "ms": "Peningkatan Kredit",
+        "vi": "Tăng cường tín dụng"
+      },
+      "tags": [
+        "金融",
+        "风险管理"
+      ],
+      "abbreviation": "Credit Enhancement"
+    },
+    {
+      "term_id": "TERM-235",
+      "term": "离岸金融中心",
+      "category": "其他",
+      "definition": "提供低税率、极少外汇管制且主要服务于非居民的金融运营地",
+      "examples": [
+        "开曼群岛是著名的离岸金融中心"
+      ],
+      "related_terms": [
+        "避税天堂"
+      ],
+      "translations": {
+        "en": "Offshore Financial Center",
+        "th": "ศูนย์กลางการเงินนอกประเทศ",
+        "ms": "Pusat Kewangan Luar Pesisir",
+        "vi": "Trung tâm tài chính hải ngoại"
+      },
+      "tags": [
+        "金融",
+        "贸易政策"
+      ],
+      "abbreviation": "OFC"
+    },
+    {
+      "term_id": "TERM-236",
+      "term": "汇兑损益",
+      "category": "其他",
+      "definition": "由于交易日与结算日之间汇率变动而产生的账面或实际盈亏",
+      "examples": [
+        "由于马来西亚令吉走强，本月的汇兑损益表现为净盈利"
+      ],
+      "related_terms": [
+        "外汇波动损益"
+      ],
+      "translations": {
+        "en": "Exchange Gain or Loss",
+        "th": "กำไรหรือขาดทุนจากอัตราแลกเปลี่ยน",
+        "ms": "Untung atau Rugi Pertukaran",
+        "vi": "Chênh lệch tỷ giá"
+      },
+      "tags": [
+        "金融",
+        "财务"
+      ],
+      "abbreviation": "FX Gain/Loss"
+    },
+    {
+      "term_id": "TERM-237",
+      "term": "预付款",
+      "category": "支付方式",
+      "definition": "在收到货物前，买方先向卖方支付的部分或全部款项",
+      "examples": [
+        "供应商要求支付30%的预付款后才开始排单生产"
+      ],
+      "related_terms": [
+        "定金",
+        "Down Payment"
+      ],
+      "translations": {
+        "en": "Advance Payment",
+        "th": "การชำระเงินล่วงหน้า",
+        "ms": "Bayaran Pendahuluan",
+        "vi": "Thanh toán trả trước"
+      },
+      "tags": [
+        "支付",
+        "结算"
+      ],
+      "abbreviation": "Advance Payment"
+    },
+    {
+      "term_id": "TERM-238",
+      "term": "最终收款人",
+      "category": "支付方式",
+      "definition": "汇款、信用证等金融业务中最终获得款项权利的个人或企业",
+      "examples": [
+        "请确保填写的受益人名称与其银行账户开户名完全一致"
+      ],
+      "related_terms": [
+        "收款人",
+        "受益人"
+      ],
+      "translations": {
+        "en": "Beneficiary",
+        "th": "ผู้รับผลประโยชน์",
+        "ms": "Penerima",
+        "vi": "Người thụ hưởng"
+      },
+      "tags": [
+        "支付",
+        "金融"
+      ],
+      "abbreviation": "Beneficiary"
+    },
+    {
+      "term_id": "TERM-239",
+      "term": "保付代代金",
+      "category": "支付方式",
+      "definition": "由独立的第三方（如电商平台）暂管款项，直到买方确认收到货物后才放款给卖方",
+      "examples": [
+        "托管模式有效解决了跨境贸易中买卖双方的互信问题"
+      ],
+      "related_terms": [
+        "托管账户",
+        "第三方资金存管"
+      ],
+      "translations": {
+        "en": "Escrow Service",
+        "th": "บริการคนกลางรับชำระเงิน",
+        "ms": "Perkhidmatan Eskrow",
+        "vi": "Dịch vụ ký quỹ (Escrow)"
+      },
+      "tags": [
+        "支付",
+        "风险管理",
+        "跨境电商"
+      ],
+      "abbreviation": "Escrow"
+    },
+    {
+      "term_id": "TERM-240",
+      "term": "支付风险控制",
+      "category": "其他",
+      "definition": "通过限额设置、指纹识别、IP监测等手段防范交易风险的系统性措施",
+      "examples": [
+        "加强支付风险控制可以有效预防大规模的信用卡盗刷"
+      ],
+      "related_terms": [
+        "风控引擎",
+        "Payment Risk"
+      ],
+      "translations": {
+        "en": "Payment Risk Control",
+        "th": "การควบคุมความเสี่ยงในการชำระเงิน",
+        "ms": "Kawalan Risiko Pembayaran",
+        "vi": "Kiểm soát rủi ro thanh toán"
+      },
+      "tags": [
+        "风险管理",
+        "安全"
+      ],
+      "abbreviation": "Risk Control"
+    },
+    {
+      "term_id": "TERM-241",
+      "term": "聚合支付",
+      "category": "支付方式",
+      "definition": "整合多种电子支付、二维码、钱包、刷卡等支付渠道的统一支付解决方案",
+      "examples": [
+        "商户只需接入一个聚合支付SDK即可支持整个东南亚的主流钱包"
+      ],
+      "related_terms": [
+        "全渠道支付"
+      ],
+      "translations": {
+        "en": "Aggregated Payment",
+        "th": "การชำระเงินแบบรวบรวม",
+        "ms": "Pembayaran Agregat",
+        "vi": "Thanh toán tổng hợp"
+      },
+      "tags": [
+        "支付",
+        "数字化",
+        "跨境电商"
+      ],
+      "abbreviation": "Aggregate Payment"
+    },
+    {
+      "term_id": "TERM-242",
+      "term": "汇款单",
+      "category": "贸易单证",
+      "definition": "汇款人发送给收款人的通知文件，告知款项已汇出及其对应的订单明细",
+      "examples": [
+        "财务收到汇款单后会立即进行入账处理"
+      ],
+      "related_terms": [
+        "付款凭证",
+        "水单"
+      ],
+      "translations": {
+        "en": "Remittance Advice",
+        "th": "ใบแจ้งการโอนเงิน",
+        "ms": "Nasihat Remitans",
+        "vi": "Báo cáo chuyển tiền"
+      },
+      "tags": [
+        "单证",
+        "支付"
+      ],
+      "abbreviation": "Remittance Advice"
+    },
+    {
+      "term_id": "TERM-243",
+      "term": "结算价",
+      "category": "支付方式",
+      "definition": "在外汇交易或衍生品交易中，用于确定当日盈亏和资金交割的参考价格",
+      "examples": [
+        "该平台的结算价定在每日中午12点的市场汇率基础上"
+      ],
+      "related_terms": [
+        "清算价"
+      ],
+      "translations": {
+        "en": "Settlement Price",
+        "th": "ราคาชำระบัญชี",
+        "ms": "Harga Penyelesaian",
+        "vi": "Giá quyết toán"
+      },
+      "tags": [
+        "金融",
+        "价格"
+      ],
+      "abbreviation": "Settlement Price"
+    },
+    {
+      "term_id": "TERM-244",
+      "term": "对等账户",
+      "category": "其他",
+      "definition": "指本国银行在外国代理行开立的、以外币计价的往来账户",
+      "examples": [
+        "通过Nostro账户，银行可以实现即时的跨境资金清算"
+      ],
+      "related_terms": [
+        "往来账户",
+        "Vostro Account"
+      ],
+      "translations": {
+        "en": "Nostro Account",
+        "th": "บัญชีเงินฝากในต่างประเทศ",
+        "ms": "Akaun Nostro",
+        "vi": "Tài khoản Nostro"
+      },
+      "tags": [
+        "金融",
+        "银行"
+      ],
+      "abbreviation": "Nostro Account"
+    },
+    {
+      "term_id": "TERM-245",
+      "term": "实时清算系统",
+      "category": "其他",
+      "definition": "针对大额支付提供的、逐笔实时进行且不可撤销的资金结算系统",
+      "examples": [
+        "中国的大额实时支付系统（HVPS）属于典型的RTGS系统"
+      ],
+      "related_terms": [
+        "实时结算",
+        "Real-time Gross Settlement"
+      ],
+      "translations": {
+        "en": "Real-time Gross Settlement",
+        "th": "ระบบการชำระเงินแบบเรียลไทม์",
+        "ms": "Penyelesaian Kasar Masa Nyata",
+        "vi": "Hệ thống thanh toán thời gian thực (RTGS)"
+      },
+      "tags": [
+        "金融",
+        "基础设施"
+      ],
+      "abbreviation": "RTGS"
+    },
+    {
+      "term_id": "TERM-246",
+      "term": "单点登录支付",
+      "category": "支付方式",
+      "definition": "用户只需登录一个账号即可在关联的多个电商子平台上进行无缝支付的技术",
+      "examples": [
+        "SSO支付极大优化了跨平台购物的结账体验"
+      ],
+      "related_terms": [
+        "一键支付"
+      ],
+      "translations": {
+        "en": "Single Sign-on Payment",
+        "th": "การชำระเงินแบบเข้าสู่ระบบครั้งเดียว",
+        "ms": "Pembayaran Log Masuk Tunggal",
+        "vi": "Thanh toán đăng nhập một lần"
+      },
+      "tags": [
+        "支付",
+        "数字化",
+        "技术"
+      ],
+      "abbreviation": "SSO Payment"
+    },
+    {
+      "term_id": "TERM-247",
+      "term": "跨境资金归集",
+      "category": "其他",
+      "definition": "跨国企业集团将其分布在世界各地的子公司盈余资金集中起来进行统一调配",
+      "examples": [
+        "跨境资金归集有助于提高企业集团内部的资金使用效率"
+      ],
+      "related_terms": [
+        "现金池",
+        "资金运营中心"
+      ],
+      "translations": {
+        "en": "Cross-border Cash Pooling",
+        "th": "การรวบรวมเงินทุนข้ามพรมแดน",
+        "ms": "Pengumpulan Tunai Merentas Sempadan",
+        "vi": "Tập trung vốn xuyên biên giới"
+      },
+      "tags": [
+        "金融",
+        "财务"
+      ],
+      "abbreviation": "Cash Pooling"
+    },
+    {
+      "term_id": "TERM-248",
+      "term": "动态货币转换",
+      "category": "支付方式",
+      "definition": "持卡人在境外消费时，由收单机构直接将当地货币金额转换为持卡人本国货币的一种金融服务",
+      "examples": [
+        "虽然DCC更直观，但其汇率往往包含较高的服务费用"
+      ],
+      "related_terms": [
+        "Dynamic Currency Conversion"
+      ],
+      "translations": {
+        "en": "Dynamic Currency Conversion",
+        "th": "การแปลงสกุลเงินแบบเรียลไทม์",
+        "ms": "Pertukaran Mata Wang Dinamik",
+        "vi": "Chuyển đổi tiền tệ động (DCC)"
+      },
+      "tags": [
+        "支付",
+        "外汇"
+      ],
+      "abbreviation": "DCC"
+    },
+    {
+      "term_id": "TERM-249",
+      "term": "欺诈拒付率",
+      "category": "其他",
+      "definition": "指发生的欺诈性拒付交易金额在总交易额中所占的比例",
+      "examples": [
+        "如果欺诈拒付率超过1%，商户可能会面临卡组织的处罚"
+      ],
+      "related_terms": [
+        "风控指标"
+      ],
+      "translations": {
+        "en": "Fraud Chargeback Rate",
+        "th": "อัตราการเรียกเงินคืนที่ทุจริต",
+        "ms": "Kadar Caj Balik Penipuan",
+        "vi": "Tỷ lệ gian lận thanh toán"
+      },
+      "tags": [
+        "风险管理",
+        "财务"
+      ],
+      "abbreviation": "Fraud Rate"
+    },
+    {
+      "term_id": "TERM-250",
+      "term": "贸易信贷",
+      "category": "其他",
+      "definition": "买卖双方在商品交易过程中，通过延期付款或预付货款而形成的借贷关系",
+      "examples": [
+        "赊销（O/A）是贸易信贷中最典型的一种形式"
+      ],
+      "related_terms": [
+        "商业信贷",
+        "延迟付款"
+      ],
+      "translations": {
+        "en": "Trade Credit",
+        "th": "สินเชื่อเพื่อการค้า",
+        "ms": "Kredit Perdagangan",
+        "vi": "Tín dụng thương mại"
+      },
+      "tags": [
+        "金融",
+        "贸易政策"
+      ],
+      "abbreviation": "Trade Credit"
+    },
+    {
+      "term_id": "TERM-251",
+      "term": "虚拟账户",
+      "category": "支付方式",
+      "definition": "为每个客户生成的唯一临时银行账号，用于自动识别付款人并简化对账流程",
+      "examples": [
+        "在印尼，VA虚拟账户是B2B转账中最常用的收款方式"
+      ],
+      "related_terms": [
+        "虚拟银行卡",
+        "识别码"
+      ],
+      "translations": {
+        "en": "Virtual Account",
+        "th": "บัญชีเสมือน",
+        "ms": "Akaun Maya",
+        "vi": "Tài khoản ảo"
+      },
+      "tags": [
+        "支付",
+        "金融",
+        "数字化"
+      ],
+      "abbreviation": "VA"
+    },
+    {
+      "term_id": "TERM-252",
+      "term": "支付链接",
+      "category": "支付方式",
+      "definition": "由商户生成的包含金额信息的URL，买家点击后即可进入支付页面完成付款",
+      "examples": [
+        "社交平台卖家常通过发送支付链接给客户来完成收款"
+      ],
+      "related_terms": [
+        "链接支付",
+        "扫码支付"
+      ],
+      "translations": {
+        "en": "Payment Link",
+        "th": "ลิงก์การชำระเงิน",
+        "ms": "Pautan Pembayaran",
+        "vi": "Liên kết thanh toán"
+      },
+      "tags": [
+        "支付",
+        "跨境电商",
+        "数字化"
+      ],
+      "abbreviation": "Payment Link"
+    },
+    {
+      "term_id": "TERM-253",
+      "term": "SWIFT全球支付确认",
+      "category": "其他",
+      "definition": "一种提高跨境支付速度、透明度和端到端追踪能力的全球标准",
+      "examples": [
+        "通过SWIFT gpi，企业可以实时追踪资金在国际中转行中的状态"
+      ],
+      "related_terms": [
+        "支付追踪",
+        "实时确认"
+      ],
+      "translations": {
+        "en": "SWIFT Global Payment Innovation",
+        "th": "นวัตกรรมการชำระเงินระดับโลกของ SWIFT",
+        "ms": "Inovasi Pembayaran Global SWIFT",
+        "vi": "Đổi mới thanh toán toàn cầu SWIFT"
+      },
+      "tags": [
+        "金融",
+        "基础设施",
+        "数字化"
+      ],
+      "abbreviation": "SWIFT gpi"
+    },
+    {
+      "term_id": "TERM-254",
+      "term": "银行识别码",
+      "category": "其他",
+      "definition": "用于在国际金融交易中唯一识别特定银行及其分支机构的代码",
+      "examples": [
+        "进行跨境汇款时，BIC代码与SWIFT代码通常可以通用"
+      ],
+      "related_terms": [
+        "SWIFT代码",
+        "Bank Identifier Code"
+      ],
+      "translations": {
+        "en": "Bank Identifier Code",
+        "th": "รหัสระบุธนาคาร",
+        "ms": "Kod Pengenalan Bank",
+        "vi": "Mã định danh ngân hàng"
+      },
+      "tags": [
+        "金融",
+        "基础设施"
+      ],
+      "abbreviation": "BIC"
+    },
+    {
+      "term_id": "TERM-255",
+      "term": "国际银行账号",
+      "category": "其他",
+      "definition": "一种标准化的银行账号格式，主要在欧洲及部分中东国家用于简化跨境汇款",
+      "examples": [
+        "向欧洲供应商付汇时，必须填写正确的IBAN号码"
+      ],
+      "related_terms": [
+        "银行账号",
+        "International Bank Account Number"
+      ],
+      "translations": {
+        "en": "International Bank Account Number",
+        "th": "เลขบัญชีธนาคารสากล",
+        "ms": "Nombor Akaun Bank Antarabangsa",
+        "vi": "Số tài khoản ngân hàng quốc tế"
+      },
+      "tags": [
+        "金融",
+        "基础设施"
+      ],
+      "abbreviation": "IBAN"
+    },
+    {
+      "term_id": "TERM-256",
+      "term": "代理行",
+      "category": "其他",
+      "definition": "受另一家银行委托，为其提供跨境清关、外汇交易及资金划转服务的金融机构",
+      "examples": [
+        "当两家银行没有直接往来关系时，汇款需要通过代理行中转"
+      ],
+      "related_terms": [
+        "中转行",
+        "往来行"
+      ],
+      "translations": {
+        "en": "Correspondent Bank",
+        "th": "ธนาคารตัวแทน",
+        "ms": "Bank Koresponden",
+        "vi": "Ngân hàng đại lý"
+      },
+      "tags": [
+        "金融",
+        "银行"
+      ],
+      "abbreviation": "Correspondent Bank"
+    },
+    {
+      "term_id": "TERM-257",
+      "term": "汇率点差",
+      "category": "其他",
+      "definition": "银行或支付平台买入价与卖出价之间的差额，通常作为其服务费收益",
+      "examples": [
+        "跨境支付平台的竞争焦点之一就是提供更窄的汇率点差"
+      ],
+      "related_terms": [
+        "汇差",
+        "Exchange Margin"
+      ],
+      "translations": {
+        "en": "Exchange Rate Spread",
+        "th": "ส่วนต่างอัตราแลกเปลี่ยน",
+        "ms": "Spread Kadar Pertukaran",
+        "vi": "Chênh lệch tỷ giá"
+      },
+      "tags": [
+        "金融",
+        "外汇"
+      ],
+      "abbreviation": "FX Spread"
+    },
+    {
+      "term_id": "TERM-258",
+      "term": "实时汇率",
+      "category": "其他",
+      "definition": "外汇市场中根据供需关系即时变动的最新货币兑换价格",
+      "examples": [
+        "我们的系统每分钟更新一次实时汇率，以确保交易的公平性"
+      ],
+      "related_terms": [
+        "市场价",
+        "即期汇率"
+      ],
+      "translations": {
+        "en": "Real-time Exchange Rate",
+        "th": "อัตราแลกเปลี่ยนแบบเรียลไทม์",
+        "ms": "Kadar Pertukaran Masa Nyata",
+        "vi": "Tỷ giá hối đoái thực tế"
+      },
+      "tags": [
+        "金融",
+        "外汇",
+        "数字化"
+      ],
+      "abbreviation": "Live FX Rate"
+    },
+    {
+      "term_id": "TERM-259",
+      "term": "本地收款",
+      "category": "支付方式",
+      "definition": "通过买家所在国家的本地清关网络进行资金收取，避免产生高额国际电汇费",
+      "examples": [
+        "通过本地收款账户，卖家可以像在当地生活一样收取泰铢或令吉"
+      ],
+      "related_terms": [
+        "本地结算",
+        "本地支付"
+      ],
+      "translations": {
+        "en": "Local Collection",
+        "th": "การเรียกเก็บเงินในท้องถิ่น",
+        "ms": "Kutipan Tempatan",
+        "vi": "Thu tiền địa phương"
+      },
+      "tags": [
+        "支付",
+        "金融",
+        "东南亚"
+      ],
+      "abbreviation": "Local Collection"
+    },
+    {
+      "term_id": "TERM-260",
+      "term": "全球收款账户",
+      "category": "支付方式",
+      "definition": "支付机构为跨境卖家开立的用于接收全球各大电商平台货款的银行账户",
+      "examples": [
+        "拥有一个全球收款账户是进行多平台运营的基础"
+      ],
+      "related_terms": [
+        "海外账户",
+        "虚拟收款号"
+      ],
+      "translations": {
+        "en": "Global Receiving Account",
+        "th": "บัญชีรับเงินทั่วโลก",
+        "ms": "Akaun Penerimaan Global",
+        "vi": "Tài khoản nhận tiền toàn cầu"
+      },
+      "tags": [
+        "支付",
+        "跨境电商",
+        "金融"
+      ],
+      "abbreviation": "GRA"
+    },
+    {
+      "term_id": "TERM-261",
+      "term": "东南亚支付接口",
+      "category": "其他",
+      "definition": "专门集成东南亚各国主流钱包及银行转账功能的应用程序接口",
+      "examples": [
+        "该API支持泰国PromptPay、印尼DANA和马来西亚TNG的无缝接入"
+      ],
+      "related_terms": [
+        "支付SDK",
+        "接口集成"
+      ],
+      "translations": {
+        "en": "SEA Payment API",
+        "th": "API การชำระเงินเอเชียตะวันออกเฉียงใต้",
+        "ms": "API Pembayaran Asia Tenggara",
+        "vi": "API thanh toán Đông Nam Á"
+      },
+      "tags": [
+        "数字化",
+        "支付",
+        "技术"
+      ],
+      "abbreviation": "SEA Payment API"
+    },
+    {
+      "term_id": "TERM-262",
+      "term": "PromptPay",
+      "category": "支付方式",
+      "definition": "泰国政府推出的全国性实时电子支付系统，允许通过手机号或身份证号转账",
+      "examples": [
+        "PromptPay的二维码收款在泰国的电商及线下场景已极度普及"
+      ],
+      "related_terms": [
+        "泰国实时支付",
+        "泰国二维码"
+      ],
+      "translations": {
+        "en": "PromptPay",
+        "th": "พร้อมเพย์ (PromptPay)",
+        "ms": "PromptPay",
+        "vi": "PromptPay (Thái Lan)"
+      },
+      "tags": [
+        "支付",
+        "东南亚",
+        "泰国"
+      ],
+      "abbreviation": "PromptPay"
+    },
+    {
+      "term_id": "TERM-263",
+      "term": "印尼通用扫描码",
+      "category": "支付方式",
+      "definition": "印尼央行推出的统一二维码标准，支持所有本地电子钱包和银行应用的扫描",
+      "examples": [
+        "QRIS的普及打破了印尼不同电子钱包之间的支付壁垒"
+      ],
+      "related_terms": [
+        "印尼二维码",
+        "通用二维码"
+      ],
+      "translations": {
+        "en": "QRIS",
+        "th": "QRIS (อินโดนีเซีย)",
+        "ms": "QRIS",
+        "vi": "QRIS (Indonesia)"
+      },
+      "tags": [
+        "支付",
+        "东南亚",
+        "印尼"
+      ],
+      "abbreviation": "QRIS"
+    },
+    {
+      "term_id": "TERM-264",
+      "term": "Touch 'n Go 电子钱包",
+      "category": "支付方式",
+      "definition": "马来西亚领先的电子钱包服务商，广泛应用于交通、零售及在线购物",
+      "examples": [
+        "跨境卖家接入TNG eWallet能覆盖马来西亚绝大部分数字消费者"
+      ],
+      "related_terms": [
+        "TNG钱包"
+      ],
+      "translations": {
+        "en": "Touch 'n Go eWallet",
+        "th": "ทัช แอนด์ โก (Touch 'n Go)",
+        "ms": "E-dompet Touch 'n Go",
+        "vi": "Ví điện tử Touch 'n Go"
+      },
+      "tags": [
+        "支付",
+        "东南亚",
+        "马来西亚"
+      ],
+      "abbreviation": "TNG eWallet"
+    },
+    {
+      "term_id": "TERM-265",
+      "term": "GCash",
+      "category": "支付方式",
+      "definition": "菲律宾主流数字钱包，提供转账、缴费、储蓄及保险服务",
+      "examples": [
+        "在菲律宾市场，GCash是线上支付的首选渠道"
+      ],
+      "related_terms": [
+        "菲律宾钱包"
+      ],
+      "translations": {
+        "en": "GCash",
+        "th": "จีแคช (GCash)",
+        "ms": "GCash",
+        "vi": "GCash (Philippines)"
+      },
+      "tags": [
+        "支付",
+        "东南亚",
+        "菲律宾"
+      ],
+      "abbreviation": "GCash"
+    },
+    {
+      "term_id": "TERM-266",
+      "term": "MoMo",
+      "category": "支付方式",
+      "definition": "越南最大的电子钱包，涵盖了从话费充值到电影购票的各种场景",
+      "examples": [
+        "接入MoMo支付是进入越南电商市场的必要步骤"
+      ],
+      "related_terms": [
+        "越南电子钱包"
+      ],
+      "translations": {
+        "en": "MoMo",
+        "th": "โมโม่ (MoMo)",
+        "ms": "MoMo",
+        "vi": "Ví MoMo (Việt Nam)"
+      },
+      "tags": [
+        "支付",
+        "东南亚",
+        "越南"
+      ],
+      "abbreviation": "MoMo"
+    },
+    {
+      "term_id": "TERM-267",
+      "term": "DANA",
+      "category": "支付方式",
+      "definition": "印尼流行的开放平台式数字钱包，强调移动生活方式的便捷支付",
+      "examples": [
+        "DANA通过其强大的API能力与多个电商平台实现了深度集成"
+      ],
+      "related_terms": [
+        "印尼电子钱包"
+      ],
+      "translations": {
+        "en": "DANA",
+        "th": "ดาน่า (DANA)",
+        "ms": "DANA",
+        "vi": "Ví DANA (Indonesia)"
+      },
+      "tags": [
+        "支付",
+        "东南亚",
+        "印尼"
+      ],
+      "abbreviation": "DANA"
+    },
+    {
+      "term_id": "TERM-268",
+      "term": "ShopeePay",
+      "category": "支付方式",
+      "definition": "东南亚电商巨头Shopee推出的原生支付钱包，提供多种返现优惠",
+      "examples": [
+        "ShopeePay在平台促销期间常有大幅度的满减补贴"
+      ],
+      "related_terms": [
+        "虾皮支付"
+      ],
+      "translations": {
+        "en": "ShopeePay",
+        "th": "ช้อปปี้เพย์ (ShopeePay)",
+        "ms": "ShopeePay",
+        "vi": "ShopeePay"
+      },
+      "tags": [
+        "支付",
+        "跨境电商",
+        "东南亚"
+      ],
+      "abbreviation": "ShopeePay"
+    },
+    {
+      "term_id": "TERM-269",
+      "term": "GrabPay",
+      "category": "支付方式",
+      "definition": "超级APP Grab旗下的金融支付板块，支持东南亚多国出行及配送支付",
+      "examples": [
+        "GrabPay的用户积分系统（GrabRewards）拥有极高的忠诚度"
+      ],
+      "related_terms": [
+        "Grab钱包"
+      ],
+      "translations": {
+        "en": "GrabPay",
+        "th": "แกร็บเพย์ (GrabPay)",
+        "ms": "GrabPay",
+        "vi": "GrabPay"
+      },
+      "tags": [
+        "支付",
+        "东南亚",
+        "数字化"
+      ],
+      "abbreviation": "GrabPay"
+    },
+    {
+      "term_id": "TERM-270",
+      "term": "3D验证",
+      "category": "其他",
+      "definition": "在线信用卡交易中的一种身份验证协议，通过验证短信验证码等方式防止盗刷",
+      "examples": [
+        "开启3D验证可以显著降低商户遭遇信用卡欺诈的风险"
+      ],
+      "related_terms": [
+        "Verified by Visa",
+        "支付确认"
+      ],
+      "translations": {
+        "en": "3D Secure",
+        "th": "ระบบความปลอดภัย 3D",
+        "ms": "3D Secure",
+        "vi": "Xác thực 3D Secure"
+      },
+      "tags": [
+        "安全",
+        "支付",
+        "风险管理"
+      ],
+      "abbreviation": "3DS"
+    },
+    {
+      "term_id": "TERM-271",
+      "term": "令牌化",
+      "category": "其他",
+      "definition": "将敏感的支付信息（如卡号）替换为随机生成的非敏感字符串（令牌）的技术",
+      "examples": [
+        "支付机构通过令牌化技术确保存储的用户信用卡信息即使泄露也无法被利用"
+      ],
+      "related_terms": [
+        "数据脱敏",
+        "安全令牌"
+      ],
+      "translations": {
+        "en": "Tokenization",
+        "th": "การแปลงเป็นโทเค็น",
+        "ms": "Tokenisasi",
+        "vi": "Token hóa"
+      },
+      "tags": [
+        "安全",
+        "技术",
+        "数字化"
+      ],
+      "abbreviation": "Tokenization"
+    },
+    {
+      "term_id": "TERM-272",
+      "term": "分拨付款",
+      "category": "支付方式",
+      "definition": "用于向大量收款人（如分销商、KOL）进行资金批量发放的技术接口",
+      "examples": [
+        "社交电商平台利用分拨付款API向全球博主即时结算佣金"
+      ],
+      "related_terms": [
+        "代付",
+        "批量打款"
+      ],
+      "translations": {
+        "en": "Payout API",
+        "th": "API การจ่ายเงิน",
+        "ms": "API Pembayaran Keluar",
+        "vi": "API giải ngân"
+      },
+      "tags": [
+        "支付",
+        "数字化",
+        "跨境电商"
+      ],
+      "abbreviation": "Payout API"
+    },
+    {
+      "term_id": "TERM-273",
+      "term": "提现",
+      "category": "支付方式",
+      "definition": "将支付平台账户内的电子余额转账至绑定的实名银行账户的行为",
+      "examples": [
+        "卖家提交提现申请后，资金通常在1-2个工作日内到账"
+      ],
+      "related_terms": [
+        "转出",
+        "账户提取"
+      ],
+      "translations": {
+        "en": "Withdrawal",
+        "th": "การถอนเงิน",
+        "ms": "Pengeluaran Wang",
+        "vi": "Rút tiền"
+      },
+      "tags": [
+        "支付",
+        "金融"
+      ],
+      "abbreviation": "Withdrawal"
+    },
+    {
+      "term_id": "TERM-274",
+      "term": "充值",
+      "category": "支付方式",
+      "definition": "从银行账户或通过现金方式向电子钱包、预付卡内存入资金的过程",
+      "examples": [
+        "东南亚许多用户习惯通过便利店或线下网点进行电子钱包充值"
+      ],
+      "related_terms": [
+        "加值",
+        "Account Funding"
+      ],
+      "translations": {
+        "en": "Top-up",
+        "th": "เติมเงิน",
+        "ms": "Tambah Nilai",
+        "vi": "Nạp tiền"
+      },
+      "tags": [
+        "支付",
+        "数字化"
+      ],
+      "abbreviation": "Top-up"
+    },
+    {
+      "term_id": "TERM-275",
+      "term": "批量代付",
+      "category": "支付方式",
+      "definition": "企业一次性向多个收款方发起打款的财务管理功能",
+      "examples": [
+        "跨境电商公司使用批量代付功能统一支付物流服务商的运费"
+      ],
+      "related_terms": [
+        "批量结算",
+        "Batch Payment"
+      ],
+      "translations": {
+        "en": "Mass Payout",
+        "th": "การจ่ายเงินจำนวนมาก",
+        "ms": "Pembayaran Pukal",
+        "vi": "Thanh toán hàng loạt"
+      },
+      "tags": [
+        "支付",
+        "金融",
+        "效率"
+      ],
+      "abbreviation": "Mass Payout"
+    },
+    {
+      "term_id": "TERM-276",
+      "term": "制裁名单",
+      "category": "其他",
+      "definition": "由政府或国际组织发布的，严禁与其进行金融交易或商贸往来的个人或组织清单",
+      "examples": [
+        "银行在处理每笔跨境汇款前都会核对OFAC制裁名单"
+      ],
+      "related_terms": [
+        "黑名单",
+        "SDN名单"
+      ],
+      "translations": {
+        "en": "Sanction List",
+        "th": "รายชื่อผู้ถูกคว่ำบาตร",
+        "ms": "Senarai Sekatan",
+        "vi": "Danh sách trừng phạt"
+      },
+      "tags": [
+        "合规",
+        "风险管理",
+        "金融"
+      ],
+      "abbreviation": "Sanction List"
+    },
+    {
+      "term_id": "TERM-277",
+      "term": "政治敏感人物",
+      "category": "其他",
+      "definition": "担任重要公共职位的个人及其近亲，因其身份可能带来较高的洗钱风险而受到更严格审计",
+      "examples": [
+        "金融机构开户流程中必须询问申请人是否属于政治敏感人物"
+      ],
+      "related_terms": [
+        "政要",
+        "Politically Exposed Person"
+      ],
+      "translations": {
+        "en": "Politically Exposed Person",
+        "th": "บุคคลที่มีสถานภาพทางการเมือง",
+        "ms": "Orang Terdedah Politik",
+        "vi": "Người có tầm ảnh hưởng chính trị (PEP)"
+      },
+      "tags": [
+        "合规",
+        "风险管理",
+        "金融"
+      ],
+      "abbreviation": "PEP"
+    },
+    {
+      "term_id": "TERM-278",
+      "term": "交易监测",
+      "category": "其他",
+      "definition": "通过自动化系统实时分析客户的资金流动，识别异常或可疑行为的过程",
+      "examples": [
+        "完善的交易监测系统可以发现金额突然激增的异常洗钱模式"
+      ],
+      "related_terms": [
+        "反洗钱监测",
+        "行为建模"
+      ],
+      "translations": {
+        "en": "Transaction Monitoring",
+        "th": "การตรวจสอบธุรกรรม",
+        "ms": "Pemantauan Transaksi",
+        "vi": "Giám sát giao dịch"
+      },
+      "tags": [
+        "合规",
+        "风险管理",
+        "数字化"
+      ],
+      "abbreviation": "Transaction Monitoring"
+    },
+    {
+      "term_id": "TERM-279",
+      "term": "可疑交易报告",
+      "category": "其他",
+      "definition": "金融机构发现可能涉及违法活动的交易时，向监管部门提交的正式秘密报告",
+      "examples": [
+        "当某账户频繁出现大额资金快进快出时，银行应提交SAR报告"
+      ],
+      "related_terms": [
+        "异常报告",
+        "STR"
+      ],
+      "translations": {
+        "en": "Suspicious Activity Report",
+        "th": "รายงานธุรกรรมที่น่าสงสัย",
+        "ms": "Laporan Aktiviti Mencurigakan",
+        "vi": "Báo cáo giao dịch đáng ngờ"
+      },
+      "tags": [
+        "合规",
+        "风险管理"
+      ],
+      "abbreviation": "SAR"
+    },
+    {
+      "term_id": "TERM-280",
+      "term": "资本充足率",
+      "category": "其他",
+      "definition": "银行资本总额与其加权风险资产的比率，衡量银行应对风险的能力",
+      "examples": [
+        "根据巴塞尔协议III，银行必须保持较高的资本充足率以确保稳定"
+      ],
+      "related_terms": [
+        "资本金",
+        "风险抵御能力"
+      ],
+      "translations": {
+        "en": "Capital Adequacy Ratio",
+        "th": "อัตราส่วนเงินกองทุนต่อสินทรัพย์เสี่ยง",
+        "ms": "Nisbah Kecukupan Modal",
+        "vi": "Tỷ lệ an toàn vốn (CAR)"
+      },
+      "tags": [
+        "金融",
+        "风险管理",
+        "监管"
+      ],
+      "abbreviation": "CAR"
+    },
+    {
+      "term_id": "TERM-281",
+      "term": "金融牌照",
+      "category": "其他",
+      "definition": "政府授予机构在特定司法管辖区内从事金融服务的法定许可",
+      "examples": [
+        "在新加坡提供支付服务必须获得MAS颁发的金融牌照"
+      ],
+      "related_terms": [
+        "经营许可",
+        "合规资质"
+      ],
+      "translations": {
+        "en": "Financial License",
+        "th": "ใบอนุญาตประกอบธุรกิจการเงิน",
+        "ms": "Lesen Kewangan",
+        "vi": "Giấy phép tài chính"
+      },
+      "tags": [
+        "金融",
+        "合规",
+        "监管"
+      ],
+      "abbreviation": "Financial License"
+    },
+    {
+      "term_id": "TERM-282",
+      "term": "支付机构业务许可证",
+      "category": "其他",
+      "definition": "特指允许机构经营电子支付、预付卡发行、收单等业务的许可证",
+      "examples": [
+        "第三方支付公司必须持有有效的支付牌照方可合法经营"
+      ],
+      "related_terms": [
+        "支付服务许可证",
+        "MSB牌照"
+      ],
+      "translations": {
+        "en": "Payment Service License",
+        "th": "ใบอนุญาตให้บริการชำระเงิน",
+        "ms": "Lesen Perkhidmatan Pembayaran",
+        "vi": "Giấy phép dịch vụ thanh toán"
+      },
+      "tags": [
+        "支付",
+        "合规",
+        "监管"
+      ],
+      "abbreviation": "Payment License"
+    },
+    {
+      "term_id": "TERM-283",
+      "term": "离岸账户",
+      "category": "其他",
+      "definition": "非居民在离岸金融中心银行开立的不受所在地外汇管制的账户",
+      "examples": [
+        "许多跨国电商公司选择在香港开立离岸账户进行资金调拨"
+      ],
+      "related_terms": [
+        "境外账户",
+        "OSA账户"
+      ],
+      "translations": {
+        "en": "Offshore Bank Account",
+        "th": "บัญชีธนาคารต่างประเทศ",
+        "ms": "Akaun Bank Luar Pesisir",
+        "vi": "Tài khoản ngân hàng hải ngoại"
+      },
+      "tags": [
+        "金融",
+        "外汇"
+      ],
+      "abbreviation": "Offshore Account"
+    },
+    {
+      "term_id": "TERM-284",
+      "term": "经常性支付",
+      "category": "支付方式",
+      "definition": "用户授权商户在固定周期内自动扣除款项的模式，常见于软件订阅费",
+      "examples": [
+        "跨境SaaS服务商通常采用经常性支付来收取每月的月费"
+      ],
+      "related_terms": [
+        "订阅支付",
+        "自动扣款"
+      ],
+      "translations": {
+        "en": "Recurring Payment",
+        "th": "การชำระเงินแบบรายเดือน",
+        "ms": "Pembayaran Berulang",
+        "vi": "Thanh toán định kỳ"
+      },
+      "tags": [
+        "支付",
+        "数字化",
+        "商业模式"
+      ],
+      "abbreviation": "Recurring Payment"
+    },
+    {
+      "term_id": "TERM-285",
+      "term": "跨境直接清算",
+      "category": "其他",
+      "definition": "无需通过多层中间行，直接通过连接两国支付系统的直连模式进行清算",
+      "examples": [
+        "中俄之间的部分银行实现了人民币与卢布的跨境直接清算"
+      ],
+      "related_terms": [
+        "直连清算",
+        "双边结算"
+      ],
+      "translations": {
+        "en": "Cross-border Direct Clearing",
+        "th": "การชำระบัญชีโดยตรงข้ามพรมแดน",
+        "ms": "Penjelasan Langsung Merentas Sempadan",
+        "vi": "Thanh toán bù trừ trực tiếp xuyên biên giới"
+      },
+      "tags": [
+        "金融",
+        "基础设施",
+        "效率"
+      ],
+      "abbreviation": "Direct Clearing"
+    },
+    {
+      "term_id": "TERM-286",
+      "term": "退款金额",
+      "category": "其他",
+      "definition": "由于退货或订单取消，原路返还给支付人的实际资金数额",
+      "examples": [
+        "退款金额通常不包含最初支付的手续费"
+      ],
+      "related_terms": [
+        "返还款"
+      ],
+      "translations": {
+        "en": "Refund Amount",
+        "th": "จำนวนเงินคืน",
+        "ms": "Jumlah Bayaran Balik",
+        "vi": "Số tiền hoàn lại"
+      },
+      "tags": [
+        "支付",
+        "财务"
+      ],
+      "abbreviation": "Refund Amount"
+    },
+    {
+      "term_id": "TERM-287",
+      "term": "支付手续费",
+      "category": "支付方式",
+      "definition": "支付服务商根据交易金额收取的一定比例或固定数额的服务费",
+      "examples": [
+        "国际信用卡的支付手续费通常在2.5%至3.5%之间"
+      ],
+      "related_terms": [
+        "扣费",
+        "收单手续费"
+      ],
+      "translations": {
+        "en": "Payment Processing Fee",
+        "th": "ค่าธรรมเนียมการชำระเงิน",
+        "ms": "Yuran Pemprosesan Pembayaran",
+        "vi": "Phí xử lý thanh toán"
+      },
+      "tags": [
+        "支付",
+        "价格"
+      ],
+      "abbreviation": "Transaction Fee"
+    },
+    {
+      "term_id": "TERM-288",
+      "term": "单笔固定费",
+      "category": "支付方式",
+      "definition": "无论交易金额大小，每笔支付收取的固定金额费用，常见于低客单价场景",
+      "examples": [
+        "除了0.6%的比例费，每单还要额外收取0.3美元的单笔固定费"
+      ],
+      "related_terms": [
+        "按件收费"
+      ],
+      "translations": {
+        "en": "Fixed Fee per Transaction",
+        "th": "ค่าธรรมเนียมคงที่ต่อธุรกรรม",
+        "ms": "Yuran Tetap setiap Transaksi",
+        "vi": "Phí cố định mỗi giao dịch"
+      },
+      "tags": [
+        "支付",
+        "价格"
+      ],
+      "abbreviation": "Fixed Fee"
+    },
+    {
+      "term_id": "TERM-289",
+      "term": "贸易便利化协定",
+      "category": "贸易协定",
+      "definition": "WTO《贸易便利化协定》，重点规范货物通关透明度、放行效率和边境机构协作，已于2017年生效。",
+      "examples": [
+        "企业可依据TFA框架优化报关信息公开、预裁定和快速放行流程。"
+      ],
+      "related_terms": [
+        "WTO",
+        "通关便利化",
+        "边境合作"
+      ],
+      "translations": {
+        "en": "Trade Facilitation Agreement",
+        "th": "Trade Facilitation Agreement",
+        "ms": "Trade Facilitation Agreement",
+        "vi": "Trade Facilitation Agreement"
+      },
+      "tags": [
+        "贸易协定",
+        "清关",
+        "合规"
+      ],
+      "abbreviation": "TFA"
+    },
+    {
+      "term_id": "TERM-290",
+      "term": "协调制度2022版",
+      "category": "海关术语",
+      "definition": "WCO发布的第七版HS体系，2022年1月1日起实施，用于国际贸易商品统一归类。",
+      "examples": [
+        "归类团队应同步维护HS 2022更新项，避免编码沿用旧版本导致申报偏差。"
+      ],
+      "related_terms": [
+        "HS编码",
+        "商品归类",
+        "税则"
+      ],
+      "translations": {
+        "en": "HS Nomenclature 2022 Edition",
+        "th": "HS Nomenclature 2022 Edition",
+        "ms": "HS Nomenclature 2022 Edition",
+        "vi": "HS Nomenclature 2022 Edition"
+      },
+      "tags": [
+        "海关",
+        "编码",
+        "关税"
+      ],
+      "abbreviation": "HS 2022"
+    },
+    {
+      "term_id": "TERM-291",
+      "term": "国际贸易术语解释通则2020",
+      "category": "贸易术语",
+      "definition": "ICC发布的11项贸易术语规则集，用于明确买卖双方在交货中的费用、风险和责任边界。",
+      "examples": [
+        "合同中应明确写明采用Incoterms 2020及具体条款版本，避免责任争议。"
+      ],
+      "related_terms": [
+        "FOB",
+        "CIF",
+        "DDP"
+      ],
+      "translations": {
+        "en": "Incoterms 2020",
+        "th": "Incoterms 2020",
+        "ms": "Incoterms 2020",
+        "vi": "Incoterms 2020"
+      },
+      "tags": [
+        "贸易术语",
+        "责任划分",
+        "合同"
+      ],
+      "abbreviation": "Incoterms 2020"
+    },
+    {
+      "term_id": "TERM-292",
+      "term": "跟单信用证统一惯例",
+      "category": "支付方式",
+      "definition": "ICC制定的信用证业务国际规则，自2007年起广泛用于规范信用证开立、审单和付款行为。",
+      "examples": [
+        "处理信用证不符点时，应结合UCP 600条款和银行惯例进行审单判断。"
+      ],
+      "related_terms": [
+        "信用证",
+        "审单",
+        "议付"
+      ],
+      "translations": {
+        "en": "Uniform Customs and Practice for Documentary Credits, UCP 600",
+        "th": "Uniform Customs and Practice for Documentary Credits, UCP 600",
+        "ms": "Uniform Customs and Practice for Documentary Credits, UCP 600",
+        "vi": "Uniform Customs and Practice for Documentary Credits, UCP 600"
+      },
+      "tags": [
+        "支付",
+        "信用证",
+        "银行"
+      ],
+      "abbreviation": "UCP 600"
+    },
+    {
+      "term_id": "TERM-293",
+      "term": "电子交单统一惯例",
+      "category": "支付方式",
+      "definition": "ICC发布的UCP电子补充规则，用于处理电子或混合交单场景，支持贸易金融数字化。",
+      "examples": [
+        "采用电子交单时，应在信用证中明确适用eUCP版本及电子记录格式要求。"
+      ],
+      "related_terms": [
+        "UCP 600",
+        "电子交单",
+        "数字贸易"
+      ],
+      "translations": {
+        "en": "eUCP Supplement",
+        "th": "eUCP Supplement",
+        "ms": "eUCP Supplement",
+        "vi": "eUCP Supplement"
+      },
+      "tags": [
+        "支付",
+        "数字化",
+        "贸易金融"
+      ],
+      "abbreviation": "eUCP"
+    },
+    {
+      "term_id": "TERM-294",
+      "term": "国际标准银行实务",
+      "category": "支付方式",
+      "definition": "ICC发布的信用证审单实务指南，用于统一银行对单据一致性的解释和操作标准。",
+      "examples": [
+        "复核提单与发票一致性时，可参考ISBP原则降低拒付风险。"
+      ],
+      "related_terms": [
+        "UCP 600",
+        "审单",
+        "不符点"
+      ],
+      "translations": {
+        "en": "International Standard Banking Practice",
+        "th": "International Standard Banking Practice",
+        "ms": "International Standard Banking Practice",
+        "vi": "International Standard Banking Practice"
+      },
+      "tags": [
+        "支付",
+        "银行",
+        "风控"
+      ],
+      "abbreviation": "ISBP"
+    },
+    {
+      "term_id": "TERM-295",
+      "term": "原产地累积规则",
+      "category": "贸易协定",
+      "definition": "区域协定下允许成员方材料或加工累计计算原产资格的规则，用于提升优惠关税适用性。",
+      "examples": [
+        "企业可通过供应链重组满足区域累积规则，从而提高关税优惠适用比例。"
+      ],
+      "related_terms": [
+        "RCEP",
+        "原产地规则",
+        "关税优惠"
+      ],
+      "translations": {
+        "en": "Cumulation Rules of Origin",
+        "th": "Cumulation Rules of Origin",
+        "ms": "Cumulation Rules of Origin",
+        "vi": "Cumulation Rules of Origin"
+      },
+      "tags": [
+        "协定",
+        "原产地",
+        "关税优惠"
+      ]
+    },
+    {
+      "term_id": "TERM-296",
+      "term": "预裁定制度",
+      "category": "海关术语",
+      "definition": "企业可在进出口前向海关申请对归类、原产地等事项的事前裁定，以降低申报不确定性。",
+      "examples": [
+        "复杂商品在首单出运前申请预裁定，可减少后续补税和争议风险。"
+      ],
+      "related_terms": [
+        "海关归类",
+        "原产地",
+        "合规"
+      ],
+      "translations": {
+        "en": "Advance Ruling",
+        "th": "Advance Ruling",
+        "ms": "Advance Ruling",
+        "vi": "Advance Ruling"
+      },
+      "tags": [
+        "海关",
+        "合规",
+        "风险管理"
+      ],
+      "abbreviation": "Advance Ruling"
+    },
+    {
+      "term_id": "TERM-297",
+      "term": "最终用户声明",
+      "category": "其他",
+      "definition": "用于证明货物最终用途和最终用户信息的合规文件，常见于敏感商品或受管制技术出口。",
+      "examples": [
+        "涉及敏感技术出口时，应在装运前完成最终用户声明和背景核验。"
+      ],
+      "related_terms": [
+        "出口管制",
+        "合规审查",
+        "最终用途"
+      ],
+      "translations": {
+        "en": "End-User Certificate",
+        "th": "End-User Certificate",
+        "ms": "End-User Certificate",
+        "vi": "End-User Certificate"
+      },
+      "tags": [
+        "合规",
+        "出口管制",
+        "风险管理"
+      ],
+      "abbreviation": "EUC"
+    },
+    {
+      "term_id": "TERM-298",
+      "term": "电子原产地证书",
+      "category": "贸易单证",
+      "definition": "通过数字平台签发与核验的原产地证书，可提升跨境流转效率并降低纸面单证风险。",
+      "examples": [
+        "采用e-CO后，企业可缩短证书签发时间并提高目的港核验效率。"
+      ],
+      "related_terms": [
+        "原产地证书",
+        "单一窗口",
+        "数字贸易"
+      ],
+      "translations": {
+        "en": "Electronic Certificate of Origin",
+        "th": "Electronic Certificate of Origin",
+        "ms": "Electronic Certificate of Origin",
+        "vi": "Electronic Certificate of Origin"
+      },
+      "tags": [
+        "单证",
+        "数字化",
+        "清关"
+      ],
+      "abbreviation": "e-CO"
+    },
+    {
+      "term_id": "TERM-299",
+      "term": "电子提单",
+      "category": "物流术语",
+      "definition": "以电子形式签发和流转的提单，可用于货权转移与融资协同，减少纸质流转时延。",
+      "examples": [
+        "在合规平台支持下使用电子提单，可缩短放单时间并提升资金周转效率。"
+      ],
+      "related_terms": [
+        "提单",
+        "区块链贸易",
+        "电子交单"
+      ],
+      "translations": {
+        "en": "Electronic Bill of Lading",
+        "th": "Electronic Bill of Lading",
+        "ms": "Electronic Bill of Lading",
+        "vi": "Electronic Bill of Lading"
+      },
+      "tags": [
+        "物流",
+        "数字化",
+        "单证"
+      ],
+      "abbreviation": "eBL"
+    },
+    {
+      "term_id": "TERM-300",
+      "term": "经核准出口商制度",
+      "category": "贸易协定",
+      "definition": "符合条件的出口商可在协定框架下自主出具原产地声明，以提升申报效率和通关确定性。",
+      "examples": [
+        "企业获得经核准出口商资格后，可在一定范围内简化原产地单证流程。"
+      ],
+      "related_terms": [
+        "原产地声明",
+        "RCEP",
+        "合规资质"
+      ],
+      "translations": {
+        "en": "Approved Exporter Scheme",
+        "th": "Approved Exporter Scheme",
+        "ms": "Approved Exporter Scheme",
+        "vi": "Approved Exporter Scheme"
+      },
+      "tags": [
+        "协定",
+        "原产地",
+        "合规"
+      ],
+      "abbreviation": "AEO Exporter"
+    }
+  ]
+}

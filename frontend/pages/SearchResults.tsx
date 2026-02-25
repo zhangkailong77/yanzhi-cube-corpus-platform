@@ -28,6 +28,7 @@ const SearchResultsPage: React.FC = () => {
 
   // Data state
   const [corpora, setCorpora] = useState<CorpusItem[]>([]);
+  const [totalCount, setTotalCount] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -74,7 +75,10 @@ const SearchResultsPage: React.FC = () => {
           source_lang?: string;
           target_lang?: string;
           domain?: string;
-        } = {};
+          limit?: number;
+        } = {
+          limit: 100 // 设置一个较大的限制，由于语料库列表通常不会达到成千上万，100 够覆盖大多数场景
+        };
 
         if (sourceLang) params.source_lang = sourceLang;
         if (targetLang) params.target_lang = targetLang;
@@ -82,6 +86,7 @@ const SearchResultsPage: React.FC = () => {
 
         const result = await fetchCorpora(params);
         setCorpora(result.items);
+        setTotalCount(result.total);
       } catch (err) {
         console.error('Failed to fetch corpora:', err);
         setError(err instanceof Error ? err.message : 'Failed to load data');
@@ -96,12 +101,13 @@ const SearchResultsPage: React.FC = () => {
   // Refresh data
   const refreshData = async () => {
     try {
-      const params: { source_lang?: string; target_lang?: string; domain?: string } = {};
+      const params: { source_lang?: string; target_lang?: string; domain?: string; limit?: number } = { limit: 100 };
       if (sourceLang) params.source_lang = sourceLang;
       if (targetLang) params.target_lang = targetLang;
       if (selectedDomain) params.domain = selectedDomain;
       const result = await fetchCorpora(params);
       setCorpora(result.items);
+      setTotalCount(result.total);
     } catch (err) {
       console.error('Failed to refresh data:', err);
     }
@@ -367,11 +373,11 @@ const SearchResultsPage: React.FC = () => {
         ) : (
           <div className="flex items-center justify-between">
             <h2 className="text-2xl md:text-3xl font-bold text-slate-800 font-mono tracking-tight">
-              {t('resourcesFound').replace('{count}', corpora.length.toString())}:
+              {t('resourcesFound').replace('{count}', totalCount.toString())}:
               {selectedDomain && <span className="text-primary-600 ml-2">[{selectedDomain.toUpperCase()}]</span>}
               {sourceLang && <span className="text-slate-400 ml-2"> {getLangName(sourceLang)}</span>}
               {targetLang && <span className="text-slate-400"> - {getLangName(targetLang)}</span>}
-              <span className="text-slate-300 text-lg ml-3">({corpora.length} items)</span>
+              <span className="text-slate-300 text-lg ml-3">({totalCount} items)</span>
             </h2>
             <button
               onClick={() => setImportModalOpen(true)}
@@ -390,18 +396,12 @@ const SearchResultsPage: React.FC = () => {
 
           {/* Table Header */}
           <div className="grid grid-cols-12 gap-4 px-6 py-4 border-b border-slate-200 bg-slate-50 text-xs font-bold text-slate-500 uppercase tracking-wider font-mono items-center">
-            <div className="col-span-3 lg:col-span-2 flex items-center cursor-pointer hover:text-slate-700">
+            <div className="col-span-3 lg:col-span-6 flex items-center cursor-pointer hover:text-slate-700">
               {t('headerCorpus')}
             </div>
-            <div className="col-span-2 lg:col-span-1 text-right flex items-center justify-end cursor-pointer hover:text-slate-700 group">
+            <div className="col-span-2 lg:col-span-1 text-center flex items-center justify-center cursor-pointer hover:text-slate-700 group">
               {t('headerSentences')}
               <ArrowUpDown size={12} className="ml-1 opacity-0 group-hover:opacity-100" />
-            </div>
-            <div className="col-span-2 text-right hidden lg:block">
-              {sourceLang.toUpperCase()} {t('headerTokens')}
-            </div>
-            <div className="col-span-2 text-right hidden lg:block">
-              {targetLang.toUpperCase()} {t('headerTokens')}
             </div>
             <div className="col-span-2 lg:col-span-1 text-center">{t('headerSample')}</div>
             <div className="col-span-3 lg:col-span-2 text-center">{t('headerBilingual')}</div>
@@ -414,7 +414,7 @@ const SearchResultsPage: React.FC = () => {
               <div key={item.id} className={`grid grid-cols-12 gap-4 px-6 py-5 items-start hover:bg-blue-50/50 transition-colors ${idx % 2 === 0 ? 'bg-white' : 'bg-slate-50/30'}`}>
 
                 {/* Corpus Name & Tags */}
-                <div className="col-span-3 lg:col-span-2 flex flex-col space-y-2">
+                <div className="col-span-3 lg:col-span-6 flex flex-col space-y-2">
                   <div className="font-mono text-sm font-semibold text-slate-800 break-words">
                     {item.name}
                   </div>
@@ -432,18 +432,8 @@ const SearchResultsPage: React.FC = () => {
                 </div>
 
                 {/* Sentences */}
-                <div className="col-span-2 lg:col-span-1 text-right font-mono text-sm text-slate-600 mt-1">
+                <div className="col-span-2 lg:col-span-1 text-center font-mono text-sm text-slate-600 mt-1">
                   {item.sentences}
-                </div>
-
-                {/* Source Tokens */}
-                <div className="col-span-2 text-right font-mono text-sm text-slate-500 hidden lg:block mt-1">
-                  {item.sTok}
-                </div>
-
-                {/* Target Tokens */}
-                <div className="col-span-2 text-right font-mono text-sm text-slate-500 hidden lg:block mt-1">
-                  {item.tTok}
                 </div>
 
                 {/* Sample */}

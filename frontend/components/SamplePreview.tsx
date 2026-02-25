@@ -264,6 +264,22 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
       } else {
         setAvgSentenceLength(null);
       }
+
+      // If terminology, force detail tab
+      if (corpusInfo.domain === 'terminology' && activeTab !== 'detail') {
+        setActiveTab('detail');
+      }
+
+      // If Thai alignment or specialized domains (ZH/TH), force detail tab if on statistics
+      const isThaiAlignment = corpusInfo.domain === 'alignment' && corpusInfo.target_lang === 'th';
+      const specializedDomains = ['process', 'case', 'struction', 'scenario'];
+      const isSpecializedZhTh = specializedDomains.includes(corpusInfo.domain) &&
+        (corpusInfo.source_lang === 'zh' || corpusInfo.source_lang === 'th' ||
+          corpusInfo.target_lang === 'zh' || corpusInfo.target_lang === 'th');
+
+      if ((isThaiAlignment || isSpecializedZhTh) && activeTab === 'statistics') {
+        setActiveTab('detail');
+      }
     }
   }, [corpusInfo]);
 
@@ -394,21 +410,44 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
   const filteredData = samples.filter(item => {
     const q = keyword.toLowerCase();
     if (!q) return true;
-    return (
-      item.language_layer.source_text_zh.toLowerCase().includes(q) ||
-      item.language_layer.raw_text_ms.toLowerCase().includes(q) ||
-      item.language_layer.normalized_text_ms.toLowerCase().includes(q) ||
-      item.basic_layer.sentence_id.toLowerCase().includes(q)
-    );
+
+    // 通用获取属性的辅助函数
+    const getSearchableContent = (it: any) => {
+      if (it.type === 'terminology') return `${it.term} ${it.definition} ${it.term_id}`;
+      if (it.type === 'qa') return `${it.question} ${it.answer} ${it.qa_id}`;
+      if (it.type === 'alignment') return `${it.source_text} ${it.target_text} ${it.alignment_id}`;
+      if (it.type === 'process') return `${it.scenario} ${it.condition} ${it.result} ${it.rule_id}`;
+      if (it.type === 'case') return `${it.case_title} ${it.situation} ${it.case_id}`;
+      if (it.type === 'scenario') return `${it.task} ${it.output} ${it.instruction_id}`;
+
+      // 默认 4 层结构
+      return `${it.language_layer?.source_text_zh || ''} ${it.language_layer?.raw_text_ms || ''} ${it.language_layer?.normalized_text_ms || ''} ${it.basic_layer?.sentence_id || ''}`;
+    };
+
+    return getSearchableContent(item).toLowerCase().includes(q);
   });
 
   // 排序逻辑：如果有选中的句子，将其移到第一个位置
   let sortedData = filteredData;
   if (selectedSentenceId) {
-    const selectedIndex = sortedData.findIndex(item => item.basic_layer.sentence_id === selectedSentenceId);
-    if (selectedIndex > 0) {
-      const selectedItem = sortedData[selectedIndex];
-      sortedData = [selectedItem, ...sortedData.slice(0, selectedIndex), ...sortedData.slice(selectedIndex + 1)];
+    const getItId = (it: any) => {
+      const field = it.type === 'terminology' ? 'term_id' :
+        it.type === 'qa' ? 'qa_id' :
+          it.type === 'alignment' ? 'alignment_id' :
+            it.type === 'process' ? 'rule_id' :
+              it.type === 'case' ? 'case_id' :
+                it.type === 'scenario' ? 'instruction_id' : 'sentence_id';
+
+      if (field === 'sentence_id' && it.basic_layer) return it.basic_layer.sentence_id;
+      return it[field];
+    };
+
+    const selectedIndex = sortedData.findIndex(item => getItId(item) === selectedSentenceId);
+    if (selectedIndex !== -1) {
+      if (selectedIndex > 0) {
+        const selectedItem = sortedData[selectedIndex];
+        sortedData = [selectedItem, ...sortedData.slice(0, selectedIndex), ...sortedData.slice(selectedIndex + 1)];
+      }
     }
   }
 
@@ -635,9 +674,9 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
                 <ChevronDown size={16} />
               </div>
               <select
-                className="block w-full pl-4 pr-10 py-2.5 text-sm border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-lg bg-slate-50 hover:bg-white border transition-all appearance-none text-slate-700 font-mono shadow-sm"
+                className="block w-full pl-4 pr-10 py-2.5 text-sm border-slate-200 focus:outline-none rounded-lg bg-slate-50 border transition-all appearance-none text-slate-500 font-mono shadow-sm cursor-not-allowed"
                 value={source}
-                onChange={(e) => setSource(e.target.value)}
+                disabled
               >
                 <option value="" disabled>{t('selectSource')}</option>
                 {languages.map(lang => (
@@ -652,9 +691,9 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
                 <ChevronDown size={16} />
               </div>
               <select
-                className="block w-full pl-4 pr-10 py-2.5 text-sm border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-lg bg-slate-50 hover:bg-white border transition-all appearance-none text-slate-700 font-mono shadow-sm cursor-pointer"
+                className="block w-full pl-4 pr-10 py-2.5 text-sm border-slate-200 focus:outline-none rounded-lg bg-slate-50 border transition-all appearance-none text-slate-500 font-mono shadow-sm cursor-not-allowed"
                 value={target}
-                onChange={(e) => setTarget(e.target.value)}
+                disabled
               >
                 <option value="" disabled>{t('selectTarget')}</option>
                 {languages.map(lang => (
@@ -694,29 +733,7 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
             </div>
           )}
 
-          {/* Domain Selector Row */}
-          <div className="mt-3">
-            <div className="relative group w-full">
-              <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400">
-                <Filter size={16} />
-              </div>
-              <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-slate-400 group-hover:text-primary-600">
-                <ChevronDown size={16} />
-              </div>
-              <select
-                className="block w-full pl-10 pr-10 py-2.5 text-sm border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-lg bg-slate-50 hover:bg-white border transition-all appearance-none text-slate-700 font-mono shadow-sm"
-                value={domain}
-                onChange={(e) => setDomain(e.target.value)}
-              >
-                <option value="">{t('domainAll')}</option>
-                <option value="ecommerce">{t('domainEcommerce')}</option>
-                <option value="tourism">{t('domainTourism')}</option>
-                <option value="business">{t('domainBusiness')}</option>
-                <option value="economy">{t('domainEconomy')}</option>
-                <option value="general">{t('domainGeneral')}</option>
-              </select>
-            </div>
-          </div>
+
         </div>
       </div>
 
@@ -799,35 +816,41 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
                 <span className="hidden sm:inline">{t('tabDetail')}</span>
               </button>
 
-              {/* Tab 2: KWIC 分析 */}
-              <button
-                onClick={() => setActiveTab('kwic')}
-                className={`flex-1 flex items-center justify-center gap-2 px-6 py-4 text-sm font-medium transition-all duration-200 border-b-2 cursor-pointer ${activeTab === 'kwic'
-                  ? 'border-primary-600 text-primary-700 bg-primary-50/50'
-                  : 'border-transparent text-slate-500 hover:text-slate-700 hover:bg-slate-50'
-                  }`}
-                role="tab"
-                aria-selected={activeTab === 'kwic'}
-                tabIndex={activeTab === 'kwic' ? 0 : -1}
-              >
-                <Search size={18} />
-                <span className="hidden sm:inline">{t('tabKwic')}</span>
-              </button>
+              {/* Tab 2: KWIC 分析 (术语库隐藏) */}
+              {corpusInfo?.domain !== 'terminology' && (
+                <button
+                  onClick={() => setActiveTab('kwic')}
+                  className={`flex-1 flex items-center justify-center gap-2 px-6 py-4 text-sm font-medium transition-all duration-200 border-b-2 cursor-pointer ${activeTab === 'kwic'
+                    ? 'border-primary-600 text-primary-700 bg-primary-50/50'
+                    : 'border-transparent text-slate-500 hover:text-slate-700 hover:bg-slate-50'
+                    }`}
+                  role="tab"
+                  aria-selected={activeTab === 'kwic'}
+                  tabIndex={activeTab === 'kwic' ? 0 : -1}
+                >
+                  <Search size={18} />
+                  <span className="hidden sm:inline">{t('tabKwic')}</span>
+                </button>
+              )}
 
-              {/* Tab 3: 词频统计 */}
-              <button
-                onClick={() => setActiveTab('statistics')}
-                className={`flex-1 flex items-center justify-center gap-2 px-6 py-4 text-sm font-medium transition-all duration-200 border-b-2 cursor-pointer ${activeTab === 'statistics'
-                  ? 'border-primary-600 text-primary-700 bg-primary-50/50'
-                  : 'border-transparent text-slate-500 hover:text-slate-700 hover:bg-slate-50'
-                  }`}
-                role="tab"
-                aria-selected={activeTab === 'statistics'}
-                tabIndex={activeTab === 'statistics' ? 0 : -1}
-              >
-                <BarChart3 size={18} />
-                <span className="hidden sm:inline">{t('tabStatistics')}</span>
-              </button>
+              {/* Tab 3: 词频统计 (针对特定类别/语言隐藏) */}
+              {corpusInfo?.domain !== 'terminology' &&
+                !(corpusInfo?.domain === 'alignment' && corpusInfo?.target_lang === 'th') &&
+                !(['process', 'case', 'struction', 'scenario'].includes(corpusInfo?.domain || '') && (corpusInfo?.source_lang === 'zh' || corpusInfo?.source_lang === 'th' || corpusInfo?.target_lang === 'zh' || corpusInfo?.target_lang === 'th')) && (
+                  <button
+                    onClick={() => setActiveTab('statistics')}
+                    className={`flex-1 flex items-center justify-center gap-2 px-6 py-4 text-sm font-medium transition-all duration-200 border-b-2 cursor-pointer ${activeTab === 'statistics'
+                      ? 'border-primary-600 text-primary-700 bg-primary-50/50'
+                      : 'border-transparent text-slate-500 hover:text-slate-700 hover:bg-slate-50'
+                      }`}
+                    role="tab"
+                    aria-selected={activeTab === 'statistics'}
+                    tabIndex={activeTab === 'statistics' ? 0 : -1}
+                  >
+                    <BarChart3 size={18} />
+                    <span className="hidden sm:inline">{t('tabStatistics')}</span>
+                  </button>
+                )}
             </div>
           </div>
 
@@ -858,10 +881,28 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
                   </div>
                 ) : (
                   displayData.map((item: any, index: number) => {
+                    // Helper to check if this item is selected
+                    const isSelected = (it: any) => {
+                      const id = it.type === 'terminology' ? it.term_id :
+                        it.type === 'qa' ? it.qa_id :
+                          it.type === 'alignment' ? it.alignment_id :
+                            it.type === 'process' ? it.rule_id :
+                              it.type === 'case' ? it.case_id :
+                                it.type === 'scenario' ? it.instruction_id :
+                                  it.basic_layer?.sentence_id;
+                      return id === selectedSentenceId;
+                    };
+
+                    const highlightClass = "ring-4 ring-primary-500/50 ring-offset-4 rounded-3xl transition-all duration-500 animate-pulse-subtle";
+
                     // Check if it's a terminology sample
                     if (item.type === 'terminology' || corpusInfo?.domain === 'terminology') {
                       return (
-                        <div key={item.term_id || item.id || index} ref={selectedSentenceId === item.term_id ? selectedCardRef : null}>
+                        <div
+                          key={item.term_id || item.id || index}
+                          ref={isSelected(item) ? selectedCardRef : null}
+                          className={isSelected(item) ? highlightClass : ""}
+                        >
                           {showJson ? (
                             <div className="bg-slate-900 rounded-xl overflow-hidden mb-6">
                               <pre className="p-6 text-xs md:text-sm font-mono text-green-400 leading-relaxed overflow-x-auto">
@@ -877,7 +918,11 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
 
                     if (item.type === 'qa' || corpusInfo?.domain === 'qa') {
                       return (
-                        <div key={item.qa_id || item.id || index} ref={selectedSentenceId === item.qa_id ? selectedCardRef : null}>
+                        <div
+                          key={item.qa_id || item.id || index}
+                          ref={isSelected(item) ? selectedCardRef : null}
+                          className={isSelected(item) ? highlightClass : ""}
+                        >
                           {showJson ? (
                             <div className="bg-slate-900 rounded-xl overflow-hidden mb-6">
                               <pre className="p-6 text-xs md:text-sm font-mono text-green-400 leading-relaxed overflow-x-auto">
@@ -893,7 +938,11 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
 
                     if (item.type === 'alignment' || corpusInfo?.domain === 'alignment') {
                       return (
-                        <div key={item.alignment_id || item.id || index} ref={selectedSentenceId === item.alignment_id ? selectedCardRef : null}>
+                        <div
+                          key={item.alignment_id || item.id || index}
+                          ref={isSelected(item) ? selectedCardRef : null}
+                          className={isSelected(item) ? highlightClass : ""}
+                        >
                           {showJson ? (
                             <div className="bg-slate-900 rounded-xl overflow-hidden mb-6">
                               <pre className="p-6 text-xs md:text-sm font-mono text-green-400 leading-relaxed overflow-x-auto">
@@ -909,7 +958,11 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
 
                     if (item.type === 'process' || corpusInfo?.domain === 'process') {
                       return (
-                        <div key={item.rule_id || item.id || index} ref={selectedSentenceId === item.rule_id ? selectedCardRef : null}>
+                        <div
+                          key={item.rule_id || item.id || index}
+                          ref={isSelected(item) ? selectedCardRef : null}
+                          className={isSelected(item) ? highlightClass : ""}
+                        >
                           {showJson ? (
                             <div className="bg-slate-900 rounded-xl overflow-hidden mb-6">
                               <pre className="p-6 text-xs md:text-sm font-mono text-green-400 leading-relaxed overflow-x-auto">
@@ -925,7 +978,11 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
 
                     if (item.type === 'case' || corpusInfo?.domain === 'case') {
                       return (
-                        <div key={item.case_id || item.id || index} ref={selectedSentenceId === item.case_id ? selectedCardRef : null}>
+                        <div
+                          key={item.case_id || item.id || index}
+                          ref={isSelected(item) ? selectedCardRef : null}
+                          className={isSelected(item) ? highlightClass : ""}
+                        >
                           {showJson ? (
                             <div className="bg-slate-900 rounded-xl overflow-hidden mb-6">
                               <pre className="p-6 text-xs md:text-sm font-mono text-green-400 leading-relaxed overflow-x-auto">
@@ -941,7 +998,11 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
 
                     if (item.type === 'scenario' || corpusInfo?.domain === 'struction' || corpusInfo?.domain === 'scenario') {
                       return (
-                        <div key={item.instruction_id || item.id || index} ref={selectedSentenceId === item.instruction_id ? selectedCardRef : null}>
+                        <div
+                          key={item.instruction_id || item.id || index}
+                          ref={isSelected(item) ? selectedCardRef : null}
+                          className={isSelected(item) ? highlightClass : ""}
+                        >
                           {showJson ? (
                             <div className="bg-slate-900 rounded-xl overflow-hidden mb-6">
                               <pre className="p-6 text-xs md:text-sm font-mono text-green-400 leading-relaxed overflow-x-auto">
@@ -1418,11 +1479,11 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
                   </div>
 
                   {/* 词云图 - 螺旋布局 */}
-                  <div className="relative w-full h-full flex items-center justify-center">
+                  <div className="relative w-full h-[400px] flex items-center justify-center overflow-hidden bg-slate-50/30 rounded-2xl border border-slate-100 shadow-inner">
                     {(() => {
                       // --- 1. 配置区域：在这里调整艺术风格 ---
-                      const containerWidth = 400; // 容器估算宽度
-                      const containerHeight = 320; // 容器估算高度
+                      const maxWidth = 380; // 容器估算宽度边界
+                      const maxHeight = 380; // 容器估算高度边界
                       const maxFontSize = 48; // 最大字号 (高频词)
                       const minFontSize = 12; // 最小字号 (背景词)
 
@@ -1509,6 +1570,18 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
                             bottom: y + height / 2
                           };
 
+                          // 边界检查：确保不超出容器
+                          if (Math.abs(currentRect.left) > maxWidth / 2 ||
+                            Math.abs(currentRect.right) > maxWidth / 2 ||
+                            Math.abs(currentRect.top) > maxHeight / 2 ||
+                            Math.abs(currentRect.bottom) > maxHeight / 2) {
+                            // 稍微偏离一点角度再试，如果半径已经很大了就放弃这个词
+                            if (radius > Math.min(maxWidth, maxHeight) / 1.5) {
+                              attempt = 501; // 标记失败
+                              break;
+                            }
+                          }
+
                           // 检查是否与已放置的词碰撞
                           let hasOverlap = false;
                           for (const placed of placedItems) {
@@ -1527,17 +1600,19 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
                           }
                         }
 
-                        placedItems.push({
-                          ...item,
-                          x,
-                          y,
-                          rect: {
-                            left: x - width / 2,
-                            right: x + width / 2,
-                            top: y - height / 2,
-                            bottom: y + height / 2
-                          }
-                        });
+                        if (attempt <= 500) {
+                          placedItems.push({
+                            ...item,
+                            x,
+                            y,
+                            rect: {
+                              left: x - width / 2,
+                              right: x + width / 2,
+                              top: y - height / 2,
+                              bottom: y + height / 2
+                            }
+                          });
+                        }
                       });
 
                       // --- 3. 渲染部分 ---

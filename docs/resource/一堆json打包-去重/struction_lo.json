@@ -1,0 +1,3313 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "struction",
+    "domain": "trade",
+    "created_by": "localized-generator",
+    "created_at": "2026-02-25T06:26:47Z",
+    "description": "Localized instruction/scenario corpus (ພາສາລາວ) - 300",
+    "language": "lo"
+  },
+  "data": [
+    {
+      "instruction_id": "INST-001",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ customs declaration ພ້ອມອ້າງອີງ Lao National Single Window (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-1)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ customs declaration ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-002",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ certificate of origin ພ້ອມອ້າງອີງ ASYCUDA (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-2)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ certificate of origin ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-003",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ cross-border payment ພ້ອມອ້າງອີງ EcoLao e-CO (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-3)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ cross-border payment ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-004",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ delivery lead time ພ້ອມອ້າງອີງ Lao QR (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-4)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ delivery lead time ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-005",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ invoice compliance ພ້ອມອ້າງອີງ LAPNet (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-5)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ invoice compliance ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-006",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ product classification ພ້ອມອ້າງອີງ Trade Portal Laos (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-6)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ product classification ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-007",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ after-sales claim ພ້ອມອ້າງອີງ Lao National Single Window (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-7)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ after-sales claim ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-008",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ shipment booking ພ້ອມອ້າງອີງ ASYCUDA (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-8)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ shipment booking ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-009",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ document review ພ້ອມອ້າງອີງ EcoLao e-CO (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-9)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ document review ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-010",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ buyer onboarding ພ້ອມອ້າງອີງ Lao QR (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-10)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ buyer onboarding ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-011",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ customs declaration ພ້ອມອ້າງອີງ LAPNet (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-11)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ customs declaration ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-012",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ certificate of origin ພ້ອມອ້າງອີງ Trade Portal Laos (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-12)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ certificate of origin ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-013",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ cross-border payment ພ້ອມອ້າງອີງ Lao National Single Window (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-13)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ cross-border payment ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-014",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ delivery lead time ພ້ອມອ້າງອີງ ASYCUDA (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-14)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ delivery lead time ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-015",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ invoice compliance ພ້ອມອ້າງອີງ EcoLao e-CO (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-15)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ invoice compliance ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-016",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ product classification ພ້ອມອ້າງອີງ Lao QR (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-16)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ product classification ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-017",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ after-sales claim ພ້ອມອ້າງອີງ LAPNet (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-17)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ after-sales claim ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-018",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ shipment booking ພ້ອມອ້າງອີງ Trade Portal Laos (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-18)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ shipment booking ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-019",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ document review ພ້ອມອ້າງອີງ Lao National Single Window (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-19)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ document review ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-020",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ buyer onboarding ພ້ອມອ້າງອີງ ASYCUDA (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-20)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ buyer onboarding ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-021",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ customs declaration ພ້ອມອ້າງອີງ EcoLao e-CO (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-21)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ customs declaration ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-022",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ certificate of origin ພ້ອມອ້າງອີງ Lao QR (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-22)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ certificate of origin ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-023",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ cross-border payment ພ້ອມອ້າງອີງ LAPNet (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-23)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ cross-border payment ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-024",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ delivery lead time ພ້ອມອ້າງອີງ Trade Portal Laos (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-24)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ delivery lead time ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-025",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ invoice compliance ພ້ອມອ້າງອີງ Lao National Single Window (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-25)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ invoice compliance ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-026",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ product classification ພ້ອມອ້າງອີງ ASYCUDA (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-26)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ product classification ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-027",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ after-sales claim ພ້ອມອ້າງອີງ EcoLao e-CO (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-27)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ after-sales claim ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-028",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ shipment booking ພ້ອມອ້າງອີງ Lao QR (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-28)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ shipment booking ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-029",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ document review ພ້ອມອ້າງອີງ LAPNet (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-29)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ document review ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-030",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ buyer onboarding ພ້ອມອ້າງອີງ Trade Portal Laos (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-30)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ buyer onboarding ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-031",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ customs declaration ພ້ອມອ້າງອີງ Lao National Single Window (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-31)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ customs declaration ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-032",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ certificate of origin ພ້ອມອ້າງອີງ ASYCUDA (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-32)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ certificate of origin ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-033",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ cross-border payment ພ້ອມອ້າງອີງ EcoLao e-CO (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-33)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ cross-border payment ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-034",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ delivery lead time ພ້ອມອ້າງອີງ Lao QR (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-34)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ delivery lead time ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-035",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ invoice compliance ພ້ອມອ້າງອີງ LAPNet (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-35)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ invoice compliance ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-036",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ product classification ພ້ອມອ້າງອີງ Trade Portal Laos (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-36)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ product classification ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-037",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ after-sales claim ພ້ອມອ້າງອີງ Lao National Single Window (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-37)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ after-sales claim ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-038",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ shipment booking ພ້ອມອ້າງອີງ ASYCUDA (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-38)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ shipment booking ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-039",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ document review ພ້ອມອ້າງອີງ EcoLao e-CO (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-39)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ document review ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-040",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ buyer onboarding ພ້ອມອ້າງອີງ Lao QR (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-40)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ buyer onboarding ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-041",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ customs declaration ພ້ອມອ້າງອີງ LAPNet (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-41)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ customs declaration ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-042",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ certificate of origin ພ້ອມອ້າງອີງ Trade Portal Laos (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-42)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ certificate of origin ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-043",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ cross-border payment ພ້ອມອ້າງອີງ Lao National Single Window (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-43)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ cross-border payment ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-044",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ delivery lead time ພ້ອມອ້າງອີງ ASYCUDA (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-44)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ delivery lead time ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-045",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ invoice compliance ພ້ອມອ້າງອີງ EcoLao e-CO (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-45)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ invoice compliance ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-046",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ product classification ພ້ອມອ້າງອີງ Lao QR (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-46)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ product classification ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-047",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ after-sales claim ພ້ອມອ້າງອີງ LAPNet (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-47)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ after-sales claim ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-048",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ shipment booking ພ້ອມອ້າງອີງ Trade Portal Laos (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-48)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ shipment booking ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-049",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ document review ພ້ອມອ້າງອີງ Lao National Single Window (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-49)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ document review ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-050",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ buyer onboarding ພ້ອມອ້າງອີງ ASYCUDA (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-50)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ buyer onboarding ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-051",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ customs declaration ພ້ອມອ້າງອີງ EcoLao e-CO (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-51)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ customs declaration ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-052",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ certificate of origin ພ້ອມອ້າງອີງ Lao QR (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-52)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ certificate of origin ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-053",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ cross-border payment ພ້ອມອ້າງອີງ LAPNet (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-1)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ cross-border payment ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-054",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ delivery lead time ພ້ອມອ້າງອີງ Trade Portal Laos (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-2)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ delivery lead time ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-055",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ invoice compliance ພ້ອມອ້າງອີງ Lao National Single Window (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-3)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ invoice compliance ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-056",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ product classification ພ້ອມອ້າງອີງ ASYCUDA (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-4)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ product classification ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-057",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ after-sales claim ພ້ອມອ້າງອີງ EcoLao e-CO (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-5)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ after-sales claim ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-058",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ shipment booking ພ້ອມອ້າງອີງ Lao QR (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-6)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ shipment booking ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-059",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ document review ພ້ອມອ້າງອີງ LAPNet (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-7)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ document review ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-060",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ buyer onboarding ພ້ອມອ້າງອີງ Trade Portal Laos (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-8)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ buyer onboarding ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-061",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ customs declaration ພ້ອມອ້າງອີງ Lao National Single Window (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-9)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ customs declaration ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-062",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ certificate of origin ພ້ອມອ້າງອີງ ASYCUDA (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-10)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ certificate of origin ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-063",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ cross-border payment ພ້ອມອ້າງອີງ EcoLao e-CO (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-11)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ cross-border payment ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-064",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ delivery lead time ພ້ອມອ້າງອີງ Lao QR (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-12)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ delivery lead time ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-065",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ invoice compliance ພ້ອມອ້າງອີງ LAPNet (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-13)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ invoice compliance ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-066",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ product classification ພ້ອມອ້າງອີງ Trade Portal Laos (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-14)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ product classification ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-067",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ after-sales claim ພ້ອມອ້າງອີງ Lao National Single Window (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-15)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ after-sales claim ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-068",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ shipment booking ພ້ອມອ້າງອີງ ASYCUDA (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-16)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ shipment booking ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-069",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ document review ພ້ອມອ້າງອີງ EcoLao e-CO (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-17)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ document review ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-070",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ buyer onboarding ພ້ອມອ້າງອີງ Lao QR (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-18)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ buyer onboarding ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-071",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ customs declaration ພ້ອມອ້າງອີງ LAPNet (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-19)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ customs declaration ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-072",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ certificate of origin ພ້ອມອ້າງອີງ Trade Portal Laos (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-20)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ certificate of origin ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-073",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ cross-border payment ພ້ອມອ້າງອີງ Lao National Single Window (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-21)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ cross-border payment ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-074",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ delivery lead time ພ້ອມອ້າງອີງ ASYCUDA (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-22)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ delivery lead time ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-075",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ invoice compliance ພ້ອມອ້າງອີງ EcoLao e-CO (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-23)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ invoice compliance ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-076",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ product classification ພ້ອມອ້າງອີງ Lao QR (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-24)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ product classification ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-077",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ after-sales claim ພ້ອມອ້າງອີງ LAPNet (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-25)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ after-sales claim ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-078",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ shipment booking ພ້ອມອ້າງອີງ Trade Portal Laos (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-26)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ shipment booking ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-079",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ document review ພ້ອມອ້າງອີງ Lao National Single Window (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-27)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ document review ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-080",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ buyer onboarding ພ້ອມອ້າງອີງ ASYCUDA (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-28)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ buyer onboarding ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-081",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ customs declaration ພ້ອມອ້າງອີງ EcoLao e-CO (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-29)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ customs declaration ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-082",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ certificate of origin ພ້ອມອ້າງອີງ Lao QR (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-30)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ certificate of origin ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-083",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ cross-border payment ພ້ອມອ້າງອີງ LAPNet (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-31)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ cross-border payment ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-084",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ delivery lead time ພ້ອມອ້າງອີງ Trade Portal Laos (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-32)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ delivery lead time ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-085",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ invoice compliance ພ້ອມອ້າງອີງ Lao National Single Window (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-33)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ invoice compliance ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-086",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ product classification ພ້ອມອ້າງອີງ ASYCUDA (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-34)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ product classification ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-087",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ after-sales claim ພ້ອມອ້າງອີງ EcoLao e-CO (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-35)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ after-sales claim ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-088",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ shipment booking ພ້ອມອ້າງອີງ Lao QR (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-36)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ shipment booking ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-089",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ document review ພ້ອມອ້າງອີງ LAPNet (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-37)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ document review ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-090",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ buyer onboarding ພ້ອມອ້າງອີງ Trade Portal Laos (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-38)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ buyer onboarding ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-091",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ customs declaration ພ້ອມອ້າງອີງ Lao National Single Window (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-39)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ customs declaration ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-092",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ certificate of origin ພ້ອມອ້າງອີງ ASYCUDA (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-40)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ certificate of origin ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-093",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ cross-border payment ພ້ອມອ້າງອີງ EcoLao e-CO (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-41)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ cross-border payment ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-094",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ delivery lead time ພ້ອມອ້າງອີງ Lao QR (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-42)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ delivery lead time ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-095",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ invoice compliance ພ້ອມອ້າງອີງ LAPNet (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-43)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ invoice compliance ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-096",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ product classification ພ້ອມອ້າງອີງ Trade Portal Laos (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-44)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ product classification ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-097",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ after-sales claim ພ້ອມອ້າງອີງ Lao National Single Window (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-45)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ after-sales claim ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-098",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ shipment booking ພ້ອມອ້າງອີງ ASYCUDA (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-46)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ shipment booking ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-099",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ document review ພ້ອມອ້າງອີງ EcoLao e-CO (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-47)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ document review ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-100",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ buyer onboarding ພ້ອມອ້າງອີງ Lao QR (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-48)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ buyer onboarding ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-101",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ customs declaration ພ້ອມອ້າງອີງ LAPNet (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-49)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ customs declaration ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-102",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ certificate of origin ພ້ອມອ້າງອີງ Trade Portal Laos (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-50)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ certificate of origin ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-103",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ cross-border payment ພ້ອມອ້າງອີງ Lao National Single Window (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-51)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ cross-border payment ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-104",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ delivery lead time ພ້ອມອ້າງອີງ ASYCUDA (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-52)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ delivery lead time ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-105",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ invoice compliance ພ້ອມອ້າງອີງ EcoLao e-CO (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-1)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ invoice compliance ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-106",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ product classification ພ້ອມອ້າງອີງ Lao QR (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-2)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ product classification ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-107",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ after-sales claim ພ້ອມອ້າງອີງ LAPNet (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-3)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ after-sales claim ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-108",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ shipment booking ພ້ອມອ້າງອີງ Trade Portal Laos (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-4)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ shipment booking ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-109",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ document review ພ້ອມອ້າງອີງ Lao National Single Window (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-5)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ document review ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-110",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ buyer onboarding ພ້ອມອ້າງອີງ ASYCUDA (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-6)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ buyer onboarding ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-111",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ customs declaration ພ້ອມອ້າງອີງ EcoLao e-CO (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-7)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ customs declaration ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-112",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ certificate of origin ພ້ອມອ້າງອີງ Lao QR (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-8)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ certificate of origin ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-113",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ cross-border payment ພ້ອມອ້າງອີງ LAPNet (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-9)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ cross-border payment ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-114",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ delivery lead time ພ້ອມອ້າງອີງ Trade Portal Laos (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-10)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ delivery lead time ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-115",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ invoice compliance ພ້ອມອ້າງອີງ Lao National Single Window (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-11)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ invoice compliance ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-116",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ product classification ພ້ອມອ້າງອີງ ASYCUDA (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-12)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ product classification ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-117",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ after-sales claim ພ້ອມອ້າງອີງ EcoLao e-CO (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-13)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ after-sales claim ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-118",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ shipment booking ພ້ອມອ້າງອີງ Lao QR (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-14)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ shipment booking ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-119",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ document review ພ້ອມອ້າງອີງ LAPNet (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-15)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ document review ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-120",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ buyer onboarding ພ້ອມອ້າງອີງ Trade Portal Laos (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-16)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ buyer onboarding ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-121",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ customs declaration ພ້ອມອ້າງອີງ Lao National Single Window (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-17)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ customs declaration ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-122",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ certificate of origin ພ້ອມອ້າງອີງ ASYCUDA (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-18)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ certificate of origin ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-123",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ cross-border payment ພ້ອມອ້າງອີງ EcoLao e-CO (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-19)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ cross-border payment ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-124",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ delivery lead time ພ້ອມອ້າງອີງ Lao QR (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-20)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ delivery lead time ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-125",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ invoice compliance ພ້ອມອ້າງອີງ LAPNet (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-21)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ invoice compliance ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-126",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ product classification ພ້ອມອ້າງອີງ Trade Portal Laos (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-22)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ product classification ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-127",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ after-sales claim ພ້ອມອ້າງອີງ Lao National Single Window (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-23)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ after-sales claim ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-128",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ shipment booking ພ້ອມອ້າງອີງ ASYCUDA (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-24)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ shipment booking ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-129",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ document review ພ້ອມອ້າງອີງ EcoLao e-CO (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-25)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ document review ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-130",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ buyer onboarding ພ້ອມອ້າງອີງ Lao QR (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-26)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ buyer onboarding ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-131",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ customs declaration ພ້ອມອ້າງອີງ LAPNet (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-27)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ customs declaration ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-132",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ certificate of origin ພ້ອມອ້າງອີງ Trade Portal Laos (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-28)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ certificate of origin ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-133",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ cross-border payment ພ້ອມອ້າງອີງ Lao National Single Window (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-29)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ cross-border payment ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-134",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ delivery lead time ພ້ອມອ້າງອີງ ASYCUDA (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-30)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ delivery lead time ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-135",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ invoice compliance ພ້ອມອ້າງອີງ EcoLao e-CO (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-31)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ invoice compliance ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-136",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ product classification ພ້ອມອ້າງອີງ Lao QR (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-32)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ product classification ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-137",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ after-sales claim ພ້ອມອ້າງອີງ LAPNet (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-33)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ after-sales claim ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-138",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ shipment booking ພ້ອມອ້າງອີງ Trade Portal Laos (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-34)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ shipment booking ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-139",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ document review ພ້ອມອ້າງອີງ Lao National Single Window (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-35)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ document review ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-140",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ buyer onboarding ພ້ອມອ້າງອີງ ASYCUDA (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-36)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ buyer onboarding ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-141",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ customs declaration ພ້ອມອ້າງອີງ EcoLao e-CO (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-37)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ customs declaration ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-142",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ certificate of origin ພ້ອມອ້າງອີງ Lao QR (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-38)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ certificate of origin ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-143",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ cross-border payment ພ້ອມອ້າງອີງ LAPNet (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-39)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ cross-border payment ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-144",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ delivery lead time ພ້ອມອ້າງອີງ Trade Portal Laos (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-40)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ delivery lead time ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-145",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ invoice compliance ພ້ອມອ້າງອີງ Lao National Single Window (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-41)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ invoice compliance ຜ່ານ Lao National Single Window ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-146",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ product classification ພ້ອມອ້າງອີງ ASYCUDA (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-42)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ product classification ຜ່ານ ASYCUDA ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ ASYCUDA ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-147",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ after-sales claim ພ້ອມອ້າງອີງ EcoLao e-CO (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-43)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ after-sales claim ຜ່ານ EcoLao e-CO ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao QR ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-148",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ shipment booking ພ້ອມອ້າງອີງ Lao QR (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-44)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ shipment booking ຜ່ານ Lao QR ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Lao National Single Window ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-149",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ document review ພ້ອມອ້າງອີງ LAPNet (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-45)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ document review ຜ່ານ LAPNet ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ EcoLao e-CO ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-150",
+      "instruction_type": "instruction",
+      "task": "ສ້າງຂໍ້ຄວາມຕອບລູກຄ້າເປັນພາສາລາວກ່ຽວກັບ buyer onboarding ພ້ອມອ້າງອີງ Trade Portal Laos (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-46)",
+      "output": "ຮຽນລູກຄ້າ ພວກເຮົາໄດ້ກວດສອບຄໍາຂໍ buyer onboarding ຜ່ານ Trade Portal Laos ແລ້ວ ແລະຈະສົ່ງແຜນດໍາເນີນງານໃນ 1 ມື້ເຮັດວຽກ. ຂໍ້ກໍານົດເພີ່ມ: ໃຫ້ຈັດຮູບແບບຕາມ Trade Portal Laos ແລະສະຫຼຸບຂັ້ນຕອນຖັດໄປໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-151",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ customs declaration. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-47)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-152",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ certificate of origin. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-48)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-153",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ cross-border payment. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-49)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-154",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ delivery lead time. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-50)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-155",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ invoice compliance. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-51)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-156",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ product classification. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-52)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-157",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ after-sales claim. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-1)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-158",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ shipment booking. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-2)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-159",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ document review. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-3)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-160",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ buyer onboarding. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-4)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-161",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ customs declaration. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-5)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-162",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ certificate of origin. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-6)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-163",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ cross-border payment. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-7)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-164",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ delivery lead time. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-8)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-165",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ invoice compliance. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-9)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-166",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ product classification. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-10)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-167",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ after-sales claim. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-11)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-168",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ shipment booking. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-12)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-169",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ document review. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-13)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-170",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ buyer onboarding. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-14)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-171",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ customs declaration. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-15)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-172",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ certificate of origin. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-16)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-173",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ cross-border payment. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-17)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-174",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ delivery lead time. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-18)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-175",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ invoice compliance. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-19)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-176",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ product classification. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-20)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-177",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ after-sales claim. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-21)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-178",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ shipment booking. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-22)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-179",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ document review. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-23)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-180",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ buyer onboarding. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-24)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-181",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ customs declaration. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-25)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-182",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ certificate of origin. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-26)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-183",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ cross-border payment. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-27)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-184",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ delivery lead time. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-28)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-185",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ invoice compliance. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-29)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-186",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ product classification. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-30)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-187",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ after-sales claim. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-31)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-188",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ shipment booking. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-32)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-189",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ document review. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-33)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-190",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ buyer onboarding. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-34)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-191",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ customs declaration. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-35)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-192",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ certificate of origin. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-36)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-193",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ cross-border payment. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-37)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-194",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ delivery lead time. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-38)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-195",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ invoice compliance. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-39)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-196",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ product classification. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-40)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-197",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ after-sales claim. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-41)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-198",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ shipment booking. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-42)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-199",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ document review. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-43)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-200",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ buyer onboarding. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-44)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-201",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ customs declaration. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-45)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-202",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ certificate of origin. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-46)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-203",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ cross-border payment. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-47)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-204",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ delivery lead time. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-48)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-205",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ invoice compliance. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-49)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-206",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ product classification. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-50)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-207",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ after-sales claim. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-51)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-208",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ shipment booking. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-52)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-209",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ document review. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-1)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-210",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ buyer onboarding. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-2)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-211",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ customs declaration. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-3)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-212",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ certificate of origin. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-4)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-213",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ cross-border payment. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-5)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-214",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ delivery lead time. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-6)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-215",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ invoice compliance. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-7)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-216",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ product classification. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-8)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-217",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ after-sales claim. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-9)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-218",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ shipment booking. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-10)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-219",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ document review. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-11)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-220",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ buyer onboarding. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-12)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-221",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ customs declaration. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-13)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-222",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ certificate of origin. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-14)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-223",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ cross-border payment. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-15)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-224",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ delivery lead time. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-16)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-225",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ invoice compliance. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-17)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-226",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ product classification. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-18)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-227",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ after-sales claim. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-19)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-228",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ shipment booking. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-20)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-229",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ document review. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-21)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-230",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ buyer onboarding. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-22)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-231",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ customs declaration. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-23)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-232",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ certificate of origin. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-24)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-233",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ cross-border payment. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-25)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-234",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ delivery lead time. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-26)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-235",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ invoice compliance. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-27)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-236",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ product classification. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-28)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-237",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ after-sales claim. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-29)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-238",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ shipment booking. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-30)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-239",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ document review. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-31)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-240",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ buyer onboarding. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-32)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-241",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ customs declaration. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-33)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-242",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ certificate of origin. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-34)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-243",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ cross-border payment. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-35)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-244",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ delivery lead time. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-36)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-245",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ invoice compliance. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-37)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-246",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ product classification. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-38)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-247",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ after-sales claim. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-39)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-248",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ shipment booking. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-40)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-249",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ document review. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-41)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-250",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ buyer onboarding. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-42)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-251",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ customs declaration. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-43)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-252",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ certificate of origin. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-44)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-253",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ cross-border payment. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-45)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-254",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ delivery lead time. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-46)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-255",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ invoice compliance. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-47)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-256",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ product classification. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-48)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-257",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ after-sales claim. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-49)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-258",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ shipment booking. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-50)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-259",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ document review. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-51)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-260",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ buyer onboarding. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-52)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-261",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ customs declaration. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-1)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-262",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ certificate of origin. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-2)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-263",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ cross-border payment. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-3)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-264",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ delivery lead time. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-4)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-265",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ invoice compliance. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-5)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-266",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ product classification. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-6)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-267",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ after-sales claim. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-7)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-268",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ shipment booking. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-8)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-269",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ document review. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-9)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-270",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ buyer onboarding. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-10)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-271",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ customs declaration. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-11)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-272",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ certificate of origin. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-12)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-273",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ cross-border payment. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-13)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-274",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ delivery lead time. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-14)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-275",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ invoice compliance. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-15)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-276",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ product classification. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-16)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-277",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ after-sales claim. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-17)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-278",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ shipment booking. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-18)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-279",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ document review. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-19)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-280",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ buyer onboarding. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-20)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-281",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ customs declaration. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-21)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-282",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ certificate of origin. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-22)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-283",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ cross-border payment. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-23)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-284",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ delivery lead time. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-24)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-285",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ invoice compliance. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-25)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-286",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ product classification. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-26)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-287",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ after-sales claim. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-27)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-288",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ shipment booking. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-28)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-289",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ document review. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-29)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-290",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ buyer onboarding. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-30)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-291",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ customs declaration. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-31)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-292",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ certificate of origin. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-32)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 7 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-293",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ cross-border payment. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-33)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 8 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-294",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ delivery lead time. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-34)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 9 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-295",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ invoice compliance. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao National Single Window (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-35)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao National Single Window\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 10 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-296",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ product classification. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ ASYCUDA (ASYCUDA / ເສັ້ນທາງອາຊຽນ / Week-36)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ ASYCUDA\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 11 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-297",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ after-sales claim. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ EcoLao e-CO (Lao QR / ເສັ້ນທາງລາວ-ຫວຽດນາມ / Week-37)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ EcoLao e-CO\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 12 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-298",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ shipment booking. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Lao QR (Lao National Single Window / ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ / Week-38)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Lao QR\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 4 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-299",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ document review. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ LAPNet (EcoLao e-CO / ເສັ້ນທາງລາວ-ໄທ / Week-39)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ LAPNet\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 5 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-300",
+      "instruction_type": "scenario",
+      "task": "ລູກຄ້າແຈ້ງບັນຫາ buyer onboarding. ຂໍໃຫ້ສ້າງແຜນແກ້ໄຂ ແລະ ຂໍ້ຄວາມຕອບກັບ ໂດຍໃຊ້ບໍລິບົດ Trade Portal Laos (Trade Portal Laos / ເສັ້ນທາງລາວ-ມາເລເຊຍ / Week-40)",
+      "output": "ແຜນຈັດການ:\n1) ກວດສອບຂໍ້ເທັດຈິງແລະຜູ້ຮັບຜິດຊອບ\n2) ກວດສະຖານະເອກະສານໃນ Trade Portal Laos\n3) ຢືນຢັນກໍານົດເວລາໃໝ່\n\nຂໍ້ຄວາມຫາລູກຄ້າ:\nຂອບໃຈທີ່ແຈ້ງຂໍ້ມູນ. ພວກເຮົາໄດ້ເລີ່ມຈັດການດ່ວນ ແລະຈະອັບເດດລາຍລະອຽດໃນ 1 ມື້ເຮັດວຽກ.\n\nການປະສານພາຍໃນ: ທີມເອກະສານ, ໂລຈິສຕິກ, ການເງິນ ຕ້ອງປິດວົງຈອນໃນ 6 ຊົ່ວໂມງ.",
+      "tags": [
+        "ລາວ",
+        "scenario",
+        "buyer onboarding"
+      ]
+    }
+  ]
+}

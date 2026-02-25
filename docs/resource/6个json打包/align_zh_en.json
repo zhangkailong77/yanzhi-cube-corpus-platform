@@ -1,0 +1,2114 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "alignment",
+    "source_lang": "zh",
+    "target_lang": "en",
+    "domain": "trade",
+    "created_by": "自动化生成脚本",
+    "created_at": "2026-02-25T05:55:48Z",
+    "description": "中文-英文多语对齐语料（300条）"
+  },
+  "data": [
+    {
+      "alignment_id": "ALIGN-001",
+      "source_text": "出口到泰国的消费电子订单若涉及原产地证书，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to Thailand, if Certificate of Origin is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-002",
+      "source_text": "当海关要求补充提单资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Bill of Lading, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-003",
+      "source_text": "针对马来西亚客户的大额订单，建议将商业发票条款写入付款节点控制表。",
+      "target_text": "For large orders from Malaysia clients, it is recommended to include Commercial Invoice clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-004",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新装箱单状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Packing List status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-005",
+      "source_text": "合同签署前，法务应核查形式发票对应责任条款是否与印度尼西亚法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Proforma Invoice are consistent with regulations in Indonesia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-006",
+      "source_text": "发生争议时，项目组需基于海关编码证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the HS Code evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-007",
+      "source_text": "出口到阿联酋的汽车零部件订单若涉及报关单，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to the UAE, if Customs Declaration is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-008",
+      "source_text": "当海关要求补充空运单资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Air Waybill, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-009",
+      "source_text": "针对日本客户的大额订单，建议将卫生证书条款写入付款节点控制表。",
+      "target_text": "For large orders from Japan clients, it is recommended to include Sanitary Certificate clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-010",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新植物检疫证书状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Phytosanitary Certificate status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-011",
+      "source_text": "合同签署前，法务应核查海关估价对应责任条款是否与德国法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Customs Valuation are consistent with regulations in Germany.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-012",
+      "source_text": "发生争议时，项目组需基于反倾销税证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Anti-dumping Duty evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-013",
+      "source_text": "出口到美国的消费电子订单若涉及保税仓库，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to the United States, if Bonded Warehouse is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-014",
+      "source_text": "当海关要求补充报关行资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Customs Broker, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-015",
+      "source_text": "针对巴西客户的大额订单，建议将完税价格条款写入付款节点控制表。",
+      "target_text": "For large orders from Brazil clients, it is recommended to include Duty Paid Value clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-016",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新查验状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Customs Inspection status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-017",
+      "source_text": "合同签署前，法务应核查免税额度对应责任条款是否与越南法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to De Minimis Value are consistent with regulations in Vietnam.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-018",
+      "source_text": "发生争议时，项目组需基于电子口岸证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the E-Port evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-019",
+      "source_text": "出口到新加坡的汽车零部件订单若涉及进口许可证，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to Singapore, if Import License is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-020",
+      "source_text": "当海关要求补充检验检疫证书资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Certificate of Inspection and Quarantine, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-021",
+      "source_text": "针对菲律宾客户的大额订单，建议将AEO高级认证条款写入付款节点控制表。",
+      "target_text": "For large orders from the Philippines clients, it is recommended to include Authorized Economic Operator clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-022",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新通关单状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Customs Clearance Slip status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-023",
+      "source_text": "合同签署前，法务应核查转关运输对应责任条款是否与沙特法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Customs Transit are consistent with regulations in Saudi Arabia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-024",
+      "source_text": "发生争议时，项目组需基于重量单证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Weight List evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-025",
+      "source_text": "出口到韩国的消费电子订单若涉及熏蒸证书，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to South Korea, if Fumigation Certificate is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-026",
+      "source_text": "当海关要求补充自由贸易协定原产地证资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for FTA Certificate of Origin, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-027",
+      "source_text": "针对法国客户的大额订单，建议将报关委托书条款写入付款节点控制表。",
+      "target_text": "For large orders from France clients, it is recommended to include Power of Attorney for Customs clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-028",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新关税税率状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Tariff Rate status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-029",
+      "source_text": "合同签署前，法务应核查强制性产品认证对应责任条款是否与墨西哥法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to China Compulsory Certification are consistent with regulations in Mexico.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-030",
+      "source_text": "发生争议时，项目组需基于暂准进口证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Temporary Admission evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-031",
+      "source_text": "出口到泰国的汽车零部件订单若涉及海关放行，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to Thailand, if Customs Release is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-032",
+      "source_text": "当海关要求补充出口退税资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Export Tax Rebate, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-033",
+      "source_text": "针对马来西亚客户的大额订单，建议将禁止进出口货物条款写入付款节点控制表。",
+      "target_text": "For large orders from Malaysia clients, it is recommended to include Prohibited Goods clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-034",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新预录入状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Pre-entry Declaration status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-035",
+      "source_text": "合同签署前，法务应核查船期表对应责任条款是否与印度尼西亚法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Shipping Schedule are consistent with regulations in Indonesia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-036",
+      "source_text": "发生争议时，项目组需基于海运费证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Ocean Freight evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-037",
+      "source_text": "出口到阿联酋的消费电子订单若涉及船务证明，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to the UAE, if Shipping Certificate is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-038",
+      "source_text": "当海关要求补充领事发票资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Consular Invoice, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-039",
+      "source_text": "针对日本客户的大额订单，建议将保险单条款写入付款节点控制表。",
+      "target_text": "For large orders from Japan clients, it is recommended to include Insurance Policy clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-040",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新关税配额状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Tariff Rate Quota status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-041",
+      "source_text": "合同签署前，法务应核查仓储费对应责任条款是否与德国法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Storage Charge are consistent with regulations in Germany.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-042",
+      "source_text": "发生争议时，项目组需基于电子数据交换证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Electronic Data Interchange evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-043",
+      "source_text": "出口到美国的汽车零部件订单若涉及报关委托协议，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to the United States, if Customs Brokerage Agreement is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-044",
+      "source_text": "当海关要求补充增值税发票资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for VAT Invoice, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-045",
+      "source_text": "针对巴西客户的大额订单，建议将海关保证金条款写入付款节点控制表。",
+      "target_text": "For large orders from Brazil clients, it is recommended to include Customs Deposit clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-046",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新溢短装条款状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the More or Less Clause status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-047",
+      "source_text": "合同签署前，法务应核查国际商会对应责任条款是否与越南法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to International Chamber of Commerce are consistent with regulations in Vietnam.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-048",
+      "source_text": "发生争议时，项目组需基于海运提单副本证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Copy of Bill of Lading evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-049",
+      "source_text": "出口到新加坡的消费电子订单若涉及进境备案清单，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to Singapore, if Entry Manifest is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-050",
+      "source_text": "当海关要求补充滞报金资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Late Declaration Fee, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-051",
+      "source_text": "针对菲律宾客户的大额订单，建议将质量证明书条款写入付款节点控制表。",
+      "target_text": "For large orders from the Philippines clients, it is recommended to include Certificate of Quality clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-052",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新分析报告单状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Certificate of Analysis status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-053",
+      "source_text": "合同签署前，法务应核查提货单对应责任条款是否与沙特法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Delivery Order are consistent with regulations in Saudi Arabia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-054",
+      "source_text": "发生争议时，项目组需基于唛头证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Shipping Mark evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-055",
+      "source_text": "出口到韩国的汽车零部件订单若涉及装运前检验，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to South Korea, if Pre-shipment Inspection is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-056",
+      "source_text": "当海关要求补充自由贸易区资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Free Trade Zone, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-057",
+      "source_text": "针对法国客户的大额订单，建议将出口许可证条款写入付款节点控制表。",
+      "target_text": "For large orders from France clients, it is recommended to include Export License clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-058",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新从价税状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Ad Valorem Duty status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-059",
+      "source_text": "合同签署前，法务应核查从量税对应责任条款是否与墨西哥法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Specific Duty are consistent with regulations in Mexico.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-060",
+      "source_text": "发生争议时，项目组需基于复合税证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Compound Duty evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-061",
+      "source_text": "出口到泰国的消费电子订单若涉及转口贸易，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to Thailand, if Re-export Trade is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-062",
+      "source_text": "当海关要求补充一般贸易资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for General Trade, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-063",
+      "source_text": "针对马来西亚客户的大额订单，建议将加工贸易条款写入付款节点控制表。",
+      "target_text": "For large orders from Malaysia clients, it is recommended to include Processing Trade clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-064",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新保税物流园区状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Bonded Logistics Park status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-065",
+      "source_text": "合同签署前，法务应核查红色通道对应责任条款是否与印度尼西亚法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Red Channel are consistent with regulations in Indonesia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-066",
+      "source_text": "发生争议时，项目组需基于绿色通道证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Green Channel evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-067",
+      "source_text": "出口到阿联酋的汽车零部件订单若涉及走私，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to the UAE, if Smuggling is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-068",
+      "source_text": "当海关要求补充知识产权海关保护资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Customs IPR Protection, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-069",
+      "source_text": "针对日本客户的大额订单，建议将产地标记条款写入付款节点控制表。",
+      "target_text": "For large orders from Japan clients, it is recommended to include Country of Origin Mark clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-070",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新汇票状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Bill of Exchange status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-071",
+      "source_text": "合同签署前，法务应核查信托收据对应责任条款是否与德国法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Trust Receipt are consistent with regulations in Germany.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-072",
+      "source_text": "发生争议时，项目组需基于非关税壁垒证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Non-tariff Barriers evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-073",
+      "source_text": "出口到美国的消费电子订单若涉及卫生与植物卫生措施，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to the United States, if Sanitary and Phytosanitary Measures is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-074",
+      "source_text": "当海关要求补充技术性贸易壁垒资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Technical Barriers to Trade, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-075",
+      "source_text": "针对巴西客户的大额订单，建议将国家单一窗口条款写入付款节点控制表。",
+      "target_text": "For large orders from Brazil clients, it is recommended to include National Single Window clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-076",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新东盟产品原产地证状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Form D status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-077",
+      "source_text": "合同签署前，法务应核查直运对应责任条款是否与越南法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Direct Shipment are consistent with regulations in Vietnam.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-078",
+      "source_text": "发生争议时，项目组需基于背对背提单证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Back-to-Back Bill of Lading evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-079",
+      "source_text": "出口到新加坡的汽车零部件订单若涉及清洁提单，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to Singapore, if Clean Bill of Lading is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-080",
+      "source_text": "当海关要求补充不洁提单资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Claused Bill of Lading, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-081",
+      "source_text": "针对菲律宾客户的大额订单，建议将联运提单条款写入付款节点控制表。",
+      "target_text": "For large orders from the Philippines clients, it is recommended to include Through Bill of Lading clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-082",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新货运代理人状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Freight Forwarder status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-083",
+      "source_text": "合同签署前，法务应核查船务代理对应责任条款是否与沙特法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Shipping Agent are consistent with regulations in Saudi Arabia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-084",
+      "source_text": "发生争议时，项目组需基于集装箱堆场证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Container Yard evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-085",
+      "source_text": "出口到韩国的消费电子订单若涉及集装箱货运站，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to South Korea, if Container Freight Station is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-086",
+      "source_text": "当海关要求补充预计到达时间资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Estimated Time of Arrival, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-087",
+      "source_text": "针对法国客户的大额订单，建议将预计离港时间条款写入付款节点控制表。",
+      "target_text": "For large orders from France clients, it is recommended to include Estimated Time of Departure clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-088",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新滞期费状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Demurrage status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-089",
+      "source_text": "合同签署前，法务应核查滞箱费对应责任条款是否与墨西哥法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Detention Charge are consistent with regulations in Mexico.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-090",
+      "source_text": "发生争议时，项目组需基于港建费证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Wharfage evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-091",
+      "source_text": "出口到泰国的汽车零部件订单若涉及理货，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to Thailand, if Tally is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-092",
+      "source_text": "当海关要求补充货物舱单资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Cargo Manifest, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-093",
+      "source_text": "针对马来西亚客户的大额订单，建议将单证对齐条款写入付款节点控制表。",
+      "target_text": "For large orders from Malaysia clients, it is recommended to include Document Alignment clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-094",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新分批装运状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Partial Shipment status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-095",
+      "source_text": "合同签署前，法务应核查转运对应责任条款是否与印度尼西亚法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Transshipment are consistent with regulations in Indonesia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-096",
+      "source_text": "发生争议时，项目组需基于不可抗力证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Force Majeure evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-097",
+      "source_text": "出口到阿联酋的消费电子订单若涉及仲裁条款，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to the UAE, if Arbitration Clause is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-098",
+      "source_text": "当海关要求补充法定检验资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Mandatory Inspection, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-099",
+      "source_text": "针对日本客户的大额订单，建议将贸易救济条款写入付款节点控制表。",
+      "target_text": "For large orders from Japan clients, it is recommended to include Trade Remedies clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-100",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新电子通关状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Electronic Customs Clearance status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-101",
+      "source_text": "合同签署前，法务应核查海外仓对应责任条款是否与德国法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Overseas Warehouse are consistent with regulations in Germany.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-102",
+      "source_text": "发生争议时，项目组需基于尾程派送证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Last-mile Delivery evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-103",
+      "source_text": "出口到美国的汽车零部件订单若涉及头程物流，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to the United States, if First-leg Logistics is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-104",
+      "source_text": "当海关要求补充整箱资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Full Container Load, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-105",
+      "source_text": "针对巴西客户的大额订单，建议将拼箱条款写入付款节点控制表。",
+      "target_text": "For large orders from Brazil clients, it is recommended to include Less than Container Load clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-106",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新一件代发状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Dropshipping status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-107",
+      "source_text": "合同签署前，法务应核查集运对应责任条款是否与越南法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Logistics Consolidation are consistent with regulations in Vietnam.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-108",
+      "source_text": "发生争议时，项目组需基于冷链物流证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Cold Chain Logistics evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-109",
+      "source_text": "出口到新加坡的消费电子订单若涉及仓储管理系统，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to Singapore, if Warehouse Management System is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-110",
+      "source_text": "当海关要求补充多式联运资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Multimodal Transport, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-111",
+      "source_text": "针对菲律宾客户的大额订单，建议将标准箱条款写入付款节点控制表。",
+      "target_text": "For large orders from the Philippines clients, it is recommended to include Twenty-foot Equivalent Unit clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-112",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新库存保有单位状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Stock Keeping Unit status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-113",
+      "source_text": "合同签署前，法务应核查燃油附加费对应责任条款是否与沙特法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Bunker Adjustment Factor are consistent with regulations in Saudi Arabia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-114",
+      "source_text": "发生争议时，项目组需基于货币贬值附加费证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Currency Adjustment Factor evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-115",
+      "source_text": "出口到韩国的汽车零部件订单若涉及抛货，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to South Korea, if Volumetric Cargo is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-116",
+      "source_text": "当海关要求补充计费重量资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Chargeable Weight, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-117",
+      "source_text": "针对法国客户的大额订单，建议将体积重量系数条款写入付款节点控制表。",
+      "target_text": "For large orders from France clients, it is recommended to include Dimensional Factor clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-118",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新东南亚专线状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Southeast Asia Dedicated Line status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-119",
+      "source_text": "合同签署前，法务应核查双清包税对应责任条款是否与墨西哥法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Double Clearance with Tax Included are consistent with regulations in Mexico.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-120",
+      "source_text": "发生争议时，项目组需基于跨境陆运证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Cross-border Road Freight evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-121",
+      "source_text": "出口到泰国的消费电子订单若涉及拣货，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to Thailand, if Picking is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-122",
+      "source_text": "当海关要求补充入库单资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Goods Received Note, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-123",
+      "source_text": "针对马来西亚客户的大额订单，建议将出库单条款写入付款节点控制表。",
+      "target_text": "For large orders from Malaysia clients, it is recommended to include Stock-out Note clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-124",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新安全库存状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Safety Stock status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-125",
+      "source_text": "合同签署前，法务应核查盘点对应责任条款是否与印度尼西亚法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Inventory Stocktake are consistent with regulations in Indonesia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-126",
+      "source_text": "发生争议时，项目组需基于超长附加费证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Oversize Surcharge evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-127",
+      "source_text": "出口到阿联酋的汽车零部件订单若涉及超重附加费，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to the UAE, if Overweight Surcharge is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-128",
+      "source_text": "当海关要求补充退货换标资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Relabelling Service, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-129",
+      "source_text": "针对日本客户的大额订单，建议将分拨中心条款写入付款节点控制表。",
+      "target_text": "For large orders from Japan clients, it is recommended to include Sorting Center clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-130",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新库位状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Bin Location status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-131",
+      "source_text": "合同签署前，法务应核查货物追踪对应责任条款是否与德国法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Tracking and Tracing are consistent with regulations in Germany.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-132",
+      "source_text": "发生争议时，项目组需基于签收证明证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Proof of Delivery evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-133",
+      "source_text": "出口到美国的消费电子订单若涉及运单，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to the United States, if Waybill is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-134",
+      "source_text": "当海关要求补充托盘资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Pallet, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-135",
+      "source_text": "针对巴西客户的大额订单，建议将打托条款写入付款节点控制表。",
+      "target_text": "For large orders from Brazil clients, it is recommended to include Palletizing clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-136",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新叉车状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Forklift status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-137",
+      "source_text": "合同签署前，法务应核查高架货架对应责任条款是否与越南法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Warehouse Racking are consistent with regulations in Vietnam.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-138",
+      "source_text": "发生争议时，项目组需基于库容证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Storage Capacity evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-139",
+      "source_text": "出口到新加坡的汽车零部件订单若涉及周转率，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to Singapore, if Inventory Turnover Rate is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-140",
+      "source_text": "当海关要求补充死库存资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Dead Stock, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-141",
+      "source_text": "针对菲律宾客户的大额订单，建议将偏远地区附加费条款写入付款节点控制表。",
+      "target_text": "For large orders from the Philippines clients, it is recommended to include Remote Area Surcharge clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-142",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新住宅派送附加费状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Residential Surcharge status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-143",
+      "source_text": "合同签署前，法务应核查燃油附加费率对应责任条款是否与沙特法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Fuel Surcharge Rate are consistent with regulations in Saudi Arabia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-144",
+      "source_text": "发生争议时，项目组需基于截关日期证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Closing Date evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-145",
+      "source_text": "出口到韩国的消费电子订单若涉及开航日，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to South Korea, if Departure Date is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-146",
+      "source_text": "当海关要求补充分拣机器人资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Automated Guided Vehicle, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-147",
+      "source_text": "针对法国客户的大额订单，建议将越库作业条款写入付款节点控制表。",
+      "target_text": "For large orders from France clients, it is recommended to include Cross-docking clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-148",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新保税物流状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Bonded Logistics status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-149",
+      "source_text": "合同签署前，法务应核查快件对应责任条款是否与墨西哥法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Express Delivery are consistent with regulations in Mexico.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-150",
+      "source_text": "发生争议时，项目组需基于海关监管车证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Customs Bonded Truck evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-151",
+      "source_text": "出口到泰国的汽车零部件订单若涉及集装箱封条，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to Thailand, if Container Seal is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-152",
+      "source_text": "当海关要求补充主航空运单资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Master Air Waybill, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-153",
+      "source_text": "针对马来西亚客户的大额订单，建议将分航空运单条款写入付款节点控制表。",
+      "target_text": "For large orders from Malaysia clients, it is recommended to include House Air Waybill clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-154",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新低硫附加费状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Low Sulphur Surcharge status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-155",
+      "source_text": "合同签署前，法务应核查码头操作费对应责任条款是否与印度尼西亚法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Terminal Handling Charge are consistent with regulations in Indonesia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-156",
+      "source_text": "发生争议时，项目组需基于旺季附加费证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Peak Season Surcharge evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-157",
+      "source_text": "出口到阿联酋的消费电子订单若涉及逆向物流，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to the UAE, if Reverse Logistics is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-158",
+      "source_text": "当海关要求补充共同海损资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for General Average, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-159",
+      "source_text": "针对日本客户的大额订单，建议将危险品附加费条款写入付款节点控制表。",
+      "target_text": "For large orders from Japan clients, it is recommended to include Dangerous Goods Surcharge clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-160",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新40尺高柜状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the 40ft High Cube Container status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-161",
+      "source_text": "合同签署前，法务应核查订舱确认书对应责任条款是否与德国法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Shipping Order are consistent with regulations in Germany.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-162",
+      "source_text": "发生争议时，项目组需基于入库预报证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Advanced Shipping Notice evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-163",
+      "source_text": "出口到美国的汽车零部件订单若涉及交货期，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to the United States, if Lead Time is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-164",
+      "source_text": "当海关要求补充航空箱资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Unit Load Device, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-165",
+      "source_text": "针对巴西客户的大额订单，建议将落地配条款写入付款节点控制表。",
+      "target_text": "For large orders from Brazil clients, it is recommended to include Local Delivery clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-166",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新班轮状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Liner status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-167",
+      "source_text": "合同签署前，法务应核查滚装船对应责任条款是否与越南法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Roll-on/roll-off Ship are consistent with regulations in Vietnam.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-168",
+      "source_text": "发生争议时，项目组需基于开顶柜证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Open Top Container evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-169",
+      "source_text": "出口到新加坡的消费电子订单若涉及框架柜，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to Singapore, if Flat Rack Container is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-170",
+      "source_text": "当海关要求补充运费预付资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Freight Prepaid, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-171",
+      "source_text": "针对菲律宾客户的大额订单，建议将运费到付条款写入付款节点控制表。",
+      "target_text": "For large orders from the Philippines clients, it is recommended to include Freight Collect clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-172",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新紧急燃油附加费状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Emergency Bunker Surcharge status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-173",
+      "source_text": "合同签署前，法务应核查绕航附加费对应责任条款是否与沙特法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Deviation Surcharge are consistent with regulations in Saudi Arabia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-174",
+      "source_text": "发生争议时，项目组需基于拆箱费证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Devanning Charge evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-175",
+      "source_text": "出口到韩国的汽车零部件订单若涉及装箱费，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to South Korea, if Stuffing Charge is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-176",
+      "source_text": "当海关要求补充物流可视化资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Logistics Visibility, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-177",
+      "source_text": "针对法国客户的大额订单，建议将智能仓储条款写入付款节点控制表。",
+      "target_text": "For large orders from France clients, it is recommended to include Smart Warehousing clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-178",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新冷藏集装箱状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Reefer Container status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-179",
+      "source_text": "合同签署前，法务应核查干柜对应责任条款是否与墨西哥法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to General Purpose Container are consistent with regulations in Mexico.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-180",
+      "source_text": "发生争议时，项目组需基于仓库租金证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Warehouse Rent evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-181",
+      "source_text": "出口到泰国的消费电子订单若涉及库内移位，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to Thailand, if Internal Relocation is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-182",
+      "source_text": "当海关要求补充缺货资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Out of Stock, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-183",
+      "source_text": "针对马来西亚客户的大额订单，建议将超长附加费条款写入付款节点控制表。",
+      "target_text": "For large orders from Malaysia clients, it is recommended to include Length Surcharge clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-184",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新超重附加费状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Overweight Surcharge status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-185",
+      "source_text": "合同签署前，法务应核查进出口收发货人注册登记对应责任条款是否与印度尼西亚法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Customs Registration Code are consistent with regulations in Indonesia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-186",
+      "source_text": "发生争议时，项目组需基于货到付款证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Cash on Delivery evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-187",
+      "source_text": "出口到阿联酋的汽车零部件订单若涉及货运代理协议，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to the UAE, if Freight Forwarding Agreement is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-188",
+      "source_text": "当海关要求补充装货时间资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Loading Time, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-189",
+      "source_text": "针对日本客户的大额订单，建议将驳船条款写入付款节点控制表。",
+      "target_text": "For large orders from Japan clients, it is recommended to include Barge clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-190",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新中转费状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Transshipment Charge status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-191",
+      "source_text": "合同签署前，法务应核查货物破损率对应责任条款是否与德国法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Damage Rate are consistent with regulations in Germany.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-192",
+      "source_text": "发生争议时，项目组需基于物流节点证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Logistics Node evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-193",
+      "source_text": "出口到美国的消费电子订单若涉及配送路线优化，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to the United States, if Route Optimization is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-194",
+      "source_text": "当海关要求补充货物索赔资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Cargo Claim, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-195",
+      "source_text": "针对巴西客户的大额订单，建议将运费率条款写入付款节点控制表。",
+      "target_text": "For large orders from Brazil clients, it is recommended to include Freight Rate clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-196",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新散货船状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Bulk Carrier status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-197",
+      "source_text": "合同签署前，法务应核查航空货运站对应责任条款是否与越南法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Air Cargo Terminal are consistent with regulations in Vietnam.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-198",
+      "source_text": "发生争议时，项目组需基于多式联运提单证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Multimodal Bill of Lading evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-199",
+      "source_text": "出口到新加坡的汽车零部件订单若涉及物流全链路，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to Singapore, if End-to-End Logistics is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-200",
+      "source_text": "当海关要求补充配送中心资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Distribution Center, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-201",
+      "source_text": "针对菲律宾客户的大额订单，建议将结汇条款写入付款节点控制表。",
+      "target_text": "For large orders from the Philippines clients, it is recommended to include Foreign Exchange Settlement clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-202",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新购汇状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Foreign Exchange Purchase status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-203",
+      "source_text": "合同签署前，法务应核查电汇对应责任条款是否与沙特法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Telegraphic Transfer are consistent with regulations in Saudi Arabia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-204",
+      "source_text": "发生争议时，项目组需基于信用证证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Letter of Credit evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-205",
+      "source_text": "出口到韩国的消费电子订单若涉及付款交单，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to South Korea, if Documents against Payment is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-206",
+      "source_text": "当海关要求补充承兑交单资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Documents against Acceptance, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-207",
+      "source_text": "针对法国客户的大额订单，建议将SWIFT系统条款写入付款节点控制表。",
+      "target_text": "For large orders from France clients, it is recommended to include SWIFT System clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-208",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新跨境支付网关状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Cross-border Payment Gateway status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-209",
+      "source_text": "合同签署前，法务应核查离岸人民币对应责任条款是否与墨西哥法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Offshore Renminbi are consistent with regulations in Mexico.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-210",
+      "source_text": "发生争议时，项目组需基于反洗钱证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Anti-Money Laundering evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-211",
+      "source_text": "出口到泰国的汽车零部件订单若涉及了解你的客户，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to Thailand, if Know Your Customer is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-212",
+      "source_text": "当海关要求补充跨境汇款资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Cross-border Remittance, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-213",
+      "source_text": "针对马来西亚客户的大额订单，建议将汇率对冲条款写入付款节点控制表。",
+      "target_text": "For large orders from Malaysia clients, it is recommended to include Exchange Rate Hedging clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-214",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新第三方支付服务商状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Payment Service Provider status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-215",
+      "source_text": "合同签署前，法务应核查中间行费对应责任条款是否与印度尼西亚法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Intermediary Bank Fee are consistent with regulations in Indonesia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-216",
+      "source_text": "发生争议时，项目组需基于银行间汇率证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Interbank Exchange Rate evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-217",
+      "source_text": "出口到阿联酋的消费电子订单若涉及拒付，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to the UAE, if Chargeback is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-218",
+      "source_text": "当海关要求补充收单服务资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Acquiring Service, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-219",
+      "source_text": "针对日本客户的大额订单，建议将清算条款写入付款节点控制表。",
+      "target_text": "For large orders from Japan clients, it is recommended to include Clearing clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-220",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新多币种账户状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Multi-currency Account status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-221",
+      "source_text": "合同签署前，法务应核查数字钱包对应责任条款是否与德国法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Digital Wallet are consistent with regulations in Germany.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-222",
+      "source_text": "发生争议时，项目组需基于远期合同证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Forward Contract evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-223",
+      "source_text": "出口到美国的汽车零部件订单若涉及反恐怖融资，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to the United States, if Countering the Financing of Terrorism is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-224",
+      "source_text": "当海关要求补充自动清算所资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Automated Clearing House, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-225",
+      "source_text": "针对巴西客户的大额订单，建议将实时余额条款写入付款节点控制表。",
+      "target_text": "For large orders from Brazil clients, it is recommended to include Real-time Balance clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-226",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新虚拟卡状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Virtual Card status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-227",
+      "source_text": "合同签署前，法务应核查分账服务对应责任条款是否与越南法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Split Payment are consistent with regulations in Vietnam.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-228",
+      "source_text": "发生争议时，项目组需基于欺诈检测证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Fraud Detection evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-229",
+      "source_text": "出口到新加坡的消费电子订单若涉及本地化支付，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to Singapore, if Local Payment Methods is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-230",
+      "source_text": "当海关要求补充银行对账单资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Bank Statement, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-231",
+      "source_text": "针对菲律宾客户的大额订单，建议将经常项目条款写入付款节点控制表。",
+      "target_text": "For large orders from the Philippines clients, it is recommended to include Current Account clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-232",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新资本项目状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Capital Account status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-233",
+      "source_text": "合同签署前，法务应核查跨境结算货币对应责任条款是否与沙特法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Settlement Currency are consistent with regulations in Saudi Arabia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-234",
+      "source_text": "发生争议时，项目组需基于增信服务证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Credit Enhancement evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-235",
+      "source_text": "出口到韩国的汽车零部件订单若涉及离岸金融中心，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to South Korea, if Offshore Financial Center is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-236",
+      "source_text": "当海关要求补充汇兑损益资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Exchange Gain or Loss, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-237",
+      "source_text": "针对法国客户的大额订单，建议将预付款条款写入付款节点控制表。",
+      "target_text": "For large orders from France clients, it is recommended to include Advance Payment clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-238",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新最终收款人状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Beneficiary status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-239",
+      "source_text": "合同签署前，法务应核查保付代代金对应责任条款是否与墨西哥法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Escrow Service are consistent with regulations in Mexico.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-240",
+      "source_text": "发生争议时，项目组需基于支付风险控制证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Payment Risk Control evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-241",
+      "source_text": "出口到泰国的消费电子订单若涉及聚合支付，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to Thailand, if Aggregated Payment is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-242",
+      "source_text": "当海关要求补充汇款单资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Remittance Advice, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-243",
+      "source_text": "针对马来西亚客户的大额订单，建议将结算价条款写入付款节点控制表。",
+      "target_text": "For large orders from Malaysia clients, it is recommended to include Settlement Price clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-244",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新对等账户状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Nostro Account status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-245",
+      "source_text": "合同签署前，法务应核查实时清算系统对应责任条款是否与印度尼西亚法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Real-time Gross Settlement are consistent with regulations in Indonesia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-246",
+      "source_text": "发生争议时，项目组需基于单点登录支付证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Single Sign-on Payment evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-247",
+      "source_text": "出口到阿联酋的汽车零部件订单若涉及跨境资金归集，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to the UAE, if Cross-border Cash Pooling is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-248",
+      "source_text": "当海关要求补充动态货币转换资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Dynamic Currency Conversion, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-249",
+      "source_text": "针对日本客户的大额订单，建议将欺诈拒付率条款写入付款节点控制表。",
+      "target_text": "For large orders from Japan clients, it is recommended to include Fraud Chargeback Rate clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-250",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新贸易信贷状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Trade Credit status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-251",
+      "source_text": "合同签署前，法务应核查虚拟账户对应责任条款是否与德国法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Virtual Account are consistent with regulations in Germany.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-252",
+      "source_text": "发生争议时，项目组需基于支付链接证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Payment Link evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-253",
+      "source_text": "出口到美国的消费电子订单若涉及SWIFT全球支付确认，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to the United States, if SWIFT Global Payment Innovation is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-254",
+      "source_text": "当海关要求补充银行识别码资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Bank Identifier Code, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-255",
+      "source_text": "针对巴西客户的大额订单，建议将国际银行账号条款写入付款节点控制表。",
+      "target_text": "For large orders from Brazil clients, it is recommended to include International Bank Account Number clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-256",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新代理行状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Correspondent Bank status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-257",
+      "source_text": "合同签署前，法务应核查汇率点差对应责任条款是否与越南法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Exchange Rate Spread are consistent with regulations in Vietnam.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-258",
+      "source_text": "发生争议时，项目组需基于实时汇率证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Real-time Exchange Rate evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-259",
+      "source_text": "出口到新加坡的汽车零部件订单若涉及本地收款，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to Singapore, if Local Collection is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-260",
+      "source_text": "当海关要求补充全球收款账户资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Global Receiving Account, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-261",
+      "source_text": "针对菲律宾客户的大额订单，建议将东南亚支付接口条款写入付款节点控制表。",
+      "target_text": "For large orders from the Philippines clients, it is recommended to include SEA Payment API clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-262",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新PromptPay状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the PromptPay status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-263",
+      "source_text": "合同签署前，法务应核查印尼通用扫描码对应责任条款是否与沙特法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to QRIS are consistent with regulations in Saudi Arabia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-264",
+      "source_text": "发生争议时，项目组需基于Touch 'n Go 电子钱包证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Touch 'n Go eWallet evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-265",
+      "source_text": "出口到韩国的消费电子订单若涉及GCash，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to South Korea, if GCash is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-266",
+      "source_text": "当海关要求补充MoMo资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for MoMo, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-267",
+      "source_text": "针对法国客户的大额订单，建议将DANA条款写入付款节点控制表。",
+      "target_text": "For large orders from France clients, it is recommended to include DANA clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-268",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新ShopeePay状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the ShopeePay status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-269",
+      "source_text": "合同签署前，法务应核查GrabPay对应责任条款是否与墨西哥法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to GrabPay are consistent with regulations in Mexico.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-270",
+      "source_text": "发生争议时，项目组需基于3D验证证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the 3D Secure evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-271",
+      "source_text": "出口到泰国的汽车零部件订单若涉及令牌化，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to Thailand, if Tokenization is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-272",
+      "source_text": "当海关要求补充分拨付款资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Payout API, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-273",
+      "source_text": "针对马来西亚客户的大额订单，建议将提现条款写入付款节点控制表。",
+      "target_text": "For large orders from Malaysia clients, it is recommended to include Withdrawal clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-274",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新充值状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Top-up status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-275",
+      "source_text": "合同签署前，法务应核查批量代付对应责任条款是否与印度尼西亚法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Mass Payout are consistent with regulations in Indonesia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-276",
+      "source_text": "发生争议时，项目组需基于制裁名单证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Sanction List evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-277",
+      "source_text": "出口到阿联酋的消费电子订单若涉及政治敏感人物，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to the UAE, if Politically Exposed Person is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-278",
+      "source_text": "当海关要求补充交易监测资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Transaction Monitoring, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-279",
+      "source_text": "针对日本客户的大额订单，建议将可疑交易报告条款写入付款节点控制表。",
+      "target_text": "For large orders from Japan clients, it is recommended to include Suspicious Activity Report clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-280",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新资本充足率状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Capital Adequacy Ratio status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-281",
+      "source_text": "合同签署前，法务应核查金融牌照对应责任条款是否与德国法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Financial License are consistent with regulations in Germany.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-282",
+      "source_text": "发生争议时，项目组需基于支付机构业务许可证证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Payment Service License evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-283",
+      "source_text": "出口到美国的汽车零部件订单若涉及离岸账户，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to the United States, if Offshore Bank Account is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-284",
+      "source_text": "当海关要求补充经常性支付资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Recurring Payment, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-285",
+      "source_text": "针对巴西客户的大额订单，建议将跨境直接清算条款写入付款节点控制表。",
+      "target_text": "For large orders from Brazil clients, it is recommended to include Cross-border Direct Clearing clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-286",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新退款金额状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Refund Amount status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-287",
+      "source_text": "合同签署前，法务应核查支付手续费对应责任条款是否与越南法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Payment Processing Fee are consistent with regulations in Vietnam.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-288",
+      "source_text": "发生争议时，项目组需基于单笔固定费证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Fixed Fee per Transaction evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-289",
+      "source_text": "出口到新加坡的消费电子订单若涉及贸易便利化协定，应在装运前完成单证复核。",
+      "target_text": "For 消费电子 orders exported to Singapore, if Trade Facilitation Agreement is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-290",
+      "source_text": "当海关要求补充协调制度2022版资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for HS Nomenclature 2022 Edition, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-291",
+      "source_text": "针对菲律宾客户的大额订单，建议将国际贸易术语解释通则2020条款写入付款节点控制表。",
+      "target_text": "For large orders from the Philippines clients, it is recommended to include Incoterms 2020 clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-292",
+      "source_text": "如果食品包装运输周期超过十天，应同步更新跟单信用证统一惯例状态并通知客户。",
+      "target_text": "If the transit time of 食品包装 exceeds ten days, the Uniform Customs and Practice for Documentary Credits, UCP 600 status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-293",
+      "source_text": "合同签署前，法务应核查电子交单统一惯例对应责任条款是否与沙特法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to eUCP Supplement are consistent with regulations in Saudi Arabia.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-294",
+      "source_text": "发生争议时，项目组需基于国际标准银行实务证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the International Standard Banking Practice evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    },
+    {
+      "alignment_id": "ALIGN-295",
+      "source_text": "出口到韩国的汽车零部件订单若涉及原产地累积规则，应在装运前完成单证复核。",
+      "target_text": "For 汽车零部件 orders exported to South Korea, if Cumulation Rules of Origin is involved, document review should be completed before shipment.",
+      "context": "发货前合规检查",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-296",
+      "source_text": "当海关要求补充预裁定制度资料时，企业应在两个工作日内提交电子与纸质版本。",
+      "target_text": "When customs requests supplementary materials for Advance Ruling, the company should submit both electronic and paper copies within two working days.",
+      "context": "海关补件处理",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-297",
+      "source_text": "针对法国客户的大额订单，建议将最终用户声明条款写入付款节点控制表。",
+      "target_text": "For large orders from France clients, it is recommended to include End-User Certificate clauses in the payment milestone control sheet.",
+      "context": "收款风险控制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-298",
+      "source_text": "如果办公用品运输周期超过十天，应同步更新电子原产地证书状态并通知客户。",
+      "target_text": "If the transit time of 办公用品 exceeds ten days, the Electronic Certificate of Origin status should be updated and the customer should be informed.",
+      "context": "物流时效通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-299",
+      "source_text": "合同签署前，法务应核查电子提单对应责任条款是否与墨西哥法规一致。",
+      "target_text": "Before contract signing, legal counsel should verify whether liability clauses related to Electronic Bill of Lading are consistent with regulations in Mexico.",
+      "context": "合同合规审阅",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-300",
+      "source_text": "发生争议时，项目组需基于经核准出口商制度证据链完成风险分级并给出处置建议。",
+      "target_text": "In case of disputes, the project team should complete risk grading based on the Approved Exporter Scheme evidence chain and provide handling recommendations.",
+      "context": "争议风险处置",
+      "domain": "risk"
+    }
+  ]
+}

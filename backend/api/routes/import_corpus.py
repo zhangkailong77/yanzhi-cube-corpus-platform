@@ -195,30 +195,83 @@ async def import_samples(
     elif not isinstance(data, list):
         data = [data]
 
+    # 获取现有 ID 集合以去重，防止重复导入导致 IntegrityError
+    existing_ids = set()
+    id_field = "sentence_id"
+    model_cls = Sample
+    
+    if corpus.domain == "terminology":
+        id_field = "term_id"
+        model_cls = TerminologySample
+    elif corpus.domain == "qa":
+        id_field = "qa_id"
+        model_cls = QASample
+    elif corpus.domain == "alignment":
+        id_field = "alignment_id"
+        model_cls = AlignmentSample
+    elif corpus.domain == "process":
+        id_field = "rule_id"
+        model_cls = ProcessSample
+    elif corpus.domain == "case":
+        id_field = "case_id"
+        model_cls = CaseSample
+    elif corpus.domain in ["struction", "scenario"]:
+        id_field = "instruction_id"
+        model_cls = ScenarioSample
+        
+    # 查询当前语料库已有的 ID
+    id_attr = getattr(model_cls, id_field)
+    existing_query = select(id_attr).where(model_cls.corpus_id == corpus_id)
+    existing_result = await db.execute(existing_query)
+    existing_ids = {str(val) for val in existing_result.scalars().all()}
+
     imported_count = 0
     errors = []
 
     for idx, item in enumerate(data):
         try:
+            # 提取或生成当前项的 ID
+            # 逻辑需与 process_single_sample 保持一致
+            if id_field == "term_id":
+                curr_id = str(item.get('term_id', f"TERM-{idx+1}"))
+            elif id_field == "qa_id":
+                curr_id = str(item.get('qa_id', f"QA-{idx+1}"))
+            elif id_field == "alignment_id":
+                curr_id = str(item.get('alignment_id', f"ALIGN-{idx+1}"))
+            elif id_field == "rule_id":
+                curr_id = str(item.get('rule_id', f"RULE-{idx+1}"))
+            elif id_field == "case_id":
+                curr_id = str(item.get('case_id', f"CASE-{idx+1}"))
+            elif id_field == "instruction_id":
+                curr_id = str(item.get('instruction_id', f"INST-{idx+1}"))
+            else:
+                basic = item.get('basic_layer', {})
+                curr_id = str(basic.get('sentence_id', f"IMPORT-{idx+1}"))
+
+            if curr_id in existing_ids:
+                errors.append(f"第 {idx + 1} 条数据 ID 重复 ({curr_id})，已跳过")
+                continue
+
             sample = process_single_sample(corpus_id, item, idx, corpus.domain)
             db.add(sample)
             imported_count += 1
+            existing_ids.add(curr_id) # 防止同一文件中包含重复 ID
         except Exception as e:
             print(f"Error importing row {idx}: {str(e)}")
             errors.append(f"第 {idx + 1} 条数据导入失败: {str(e)}")
 
-    try:
-        await db.commit()
-    except Exception as e:
-        await db.rollback()
-        raise HTTPException(status_code=500, detail=f"数据库写入失败: {str(e)}")
-
-    corpus.sentence_count += imported_count
-    await db.commit()
+    if imported_count > 0:
+        try:
+            await db.commit()
+            corpus.sentence_count += imported_count
+            await db.commit()
+        except Exception as e:
+            await db.rollback()
+            raise HTTPException(status_code=500, detail=f"数据库写入失败: {str(e)}")
 
     return ApiResponse(
         success=True,
-        message=f"成功导入 {imported_count} 条样本",
+        message=f"导入完成。成功: {imported_count}, 跳过/失败: {len(errors)}",
         data={
             "imported": imported_count,
             "errors": errors

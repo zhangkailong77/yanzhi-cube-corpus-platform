@@ -483,22 +483,42 @@ async def get_kwic_analysis(
     page: int = 1,
     limit: int = 50
 ) -> KWICResponse:
-    """
-    获取 KWIC（关键词语境）分析结果
-
-    参数：
-        corpus_id: 语料库 ID
-        keyword: 目标关键词
-        context_window: 前后词数
-        domain: 业务域过滤
-        page: 页码
-        limit: 每页数量
-    """
+    """获取关键词语境分析结果"""
     from sqlalchemy import select, func
     from api.models.corpus import Sample, Corpus
+    
+    # 1. 获取语料库信息确定类型
+    corpus_result = await db.execute(select(Corpus).where(Corpus.id == corpus_id))
+    corpus = corpus_result.scalar_one_or_none()
+    
+    if not corpus:
+        return KWICResponse(items=[], total=0, keyword=keyword, page=page, limit=limit)
 
-    # 构建基础查询 - 查询指定语料库的样本
-    query = select(Sample).where(Sample.corpus_id == corpus_id)
+    # 2. 根据 domain 确定查询的表和字段
+    model = Sample
+    text_fields = ['normalized_text', 'raw_text']
+    
+    if corpus.domain == "terminology":
+        model = TerminologySample
+        text_fields = ['term', 'definition', 'examples']
+    elif corpus.domain == "qa":
+        model = QASample
+        text_fields = ['question', 'answer']
+    elif corpus.domain == "alignment":
+        model = AlignmentSample
+        text_fields = ['source_text', 'target_text']
+    elif corpus.domain == "process":
+        model = ProcessSample
+        text_fields = ['scenario', 'condition', 'result']
+    elif corpus.domain == "case":
+        model = CaseSample
+        text_fields = ['case_title', 'background', 'situation', 'outcome', 'conclusion']
+    elif corpus.domain in ["struction", "scenario"]:
+        model = ScenarioSample
+        text_fields = ['task', 'output']
+
+    # 构建基础查询
+    query = select(model).where(model.corpus_id == corpus_id)
 
     # 获取总数
     count_query = select(func.count()).select_from(query.subquery())
@@ -512,62 +532,60 @@ async def get_kwic_analysis(
 
     # 构建 KWIC 结果
     kwic_results = []
-    for sample in samples:
-        # 提取语境 - 使用标准化文本或原始文本
-        text = sample.normalized_text or sample.raw_text or ""
+    keyword_lower = keyword.lower()
 
-        # 关键词查找（找到关键词位置）
-        keyword_lower = keyword.lower()
-        text_lower = text.lower()
-
+    for row in samples:
+        # 合并所有相关文本字段进行搜索
+        texts_to_search = []
+        for field in text_fields:
+            val = getattr(row, field, "")
+            if val:
+                if isinstance(val, list):
+                    texts_to_search.extend([str(item) for item in val if item])
+                else:
+                    texts_to_search.append(str(val))
+        
+        full_text = " | ".join(texts_to_search)
+        full_text_lower = full_text.lower()
+        
         # 查找关键词位置
-        keyword_pos = text_lower.find(keyword_lower)
-
+        keyword_pos = full_text_lower.find(keyword_lower)
         if keyword_pos == -1:
-            # 未找到关键词，跳过
             continue
 
-        # 分词（按空格分词）
-        words = text.split()
-
-        # 找到关键词在哪个词
+        # 简单的分词和上下文提取
+        words = full_text.split()
         keyword_word_index = -1
         for i, word in enumerate(words):
             if keyword_lower in word.lower():
                 keyword_word_index = i
                 break
+        
+        if keyword_word_index == -1:
+            continue
 
-        # 提取左侧语境（context_window 个词）
-        left_words = []
-        for i in range(keyword_word_index - context_window, keyword_word_index):
-            if i >= 0:
-                left_words.append(words[i])
-
-        # 提取右侧语境（context_window 个词）
-        right_words = []
-        for i in range(keyword_word_index + 1, min(keyword_word_index + 1 + context_window, len(words))):
-            right_words.append(words[i])
-
+        # 提取上下文
+        left_words = words[max(0, keyword_word_index - context_window):keyword_word_index]
+        right_words = words[keyword_word_index + 1:keyword_word_index + 1 + context_window]
+        
         left_context = " ".join(left_words)
         right_context = " ".join(right_words)
 
+        # 构造详细数据 (如果是通用 Sample 使用 detail 结构，否则直接用 row.to_dict)
+        sample_detail = {}
+        if hasattr(row, 'sentence_id'):
+            sample_detail["sentence_id"] = row.sentence_id
+        else:
+            # 针对扩展表，构造一个虚拟的 ID 或使用主键
+            uid_field = next((f for f in ['term_id', 'qa_id', 'alignment_id', 'rule_id', 'case_id', 'instruction_id'] if hasattr(row, f)), 'id')
+            sample_detail["sentence_id"] = str(getattr(row, uid_field))
+
         kwic_results.append(KWICResultItem(
-            sentence_id=sample.sentence_id,
+            sentence_id=sample_detail["sentence_id"],
             left_context=left_context,
             keyword=keyword,
             right_context=right_context,
-            full_data={
-                "sentence_id": sample.sentence_id,
-                "timestamp": sample.timestamp.isoformat() if sample.timestamp else None,
-                "platform": sample.platform,
-                "intent": sample.intent or [],
-                "sentiment": sample.sentiment,
-                "business_scenario": sample.business_scenario,
-                "source_text_zh": sample.source_text or "",
-                "raw_text_ms": sample.raw_text or "",
-                "normalized_text_ms": sample.normalized_text or "",
-                "english_loanwords": sample.english_loanwords or []
-            }
+            full_data=row.to_dict() if hasattr(row, 'to_dict') else {"text": full_text}
         ))
 
     return KWICResponse(
@@ -586,15 +604,49 @@ async def get_sample_page_number(
     limit: int = 10
 ) -> dict:
     """根据 sentence_id 查找该样本在列表中的页码"""
-    # 获取该语料库所有样本的 id 列表（按默认排序）
-    query = select(Sample.id, Sample.sentence_id).where(Sample.corpus_id == corpus_id)
-    result = await db.execute(query)
-    rows = result.all()
+    from sqlalchemy import select
+    from api.models.corpus import Sample, Corpus
 
-    # 查找目标 sentence_id 的位置（0-indexed）
+    # 1. 获取语料库信息确定类型
+    corpus_result = await db.execute(select(Corpus).where(Corpus.id == corpus_id))
+    corpus = corpus_result.scalar_one_or_none()
+    
+    if not corpus:
+        return {"page": 1, "found": False}
+
+    # 2. 根据 domain 确定查询的表和字段
+    model = Sample
+    id_field_name = 'sentence_id'
+    
+    if corpus.domain == "terminology":
+        model = TerminologySample
+        id_field_name = 'term_id'
+    elif corpus.domain == "qa":
+        model = QASample
+        id_field_name = 'qa_id'
+    elif corpus.domain == "alignment":
+        model = AlignmentSample
+        id_field_name = 'alignment_id'
+    elif corpus.domain == "process":
+        model = ProcessSample
+        id_field_name = 'rule_id'
+    elif corpus.domain == "case":
+        model = CaseSample
+        id_field_name = 'case_id'
+    elif corpus.domain in ["struction", "scenario"]:
+        model = ScenarioSample
+        id_field_name = 'instruction_id'
+
+    # 获取该语料库所有样本的 id 列表（按默认排序，通常是 ID 升序）
+    id_attr = getattr(model, id_field_name)
+    query = select(id_attr).where(model.corpus_id == corpus_id).order_by(model.id.asc())
+    result = await db.execute(query)
+    rows = result.scalars().all()
+
+    # 查找目标 ID 的位置（0-indexed）
     position = -1
-    for idx, row in enumerate(rows):
-        if row.sentence_id == sentence_id:
+    for idx, val in enumerate(rows):
+        if str(val) == str(sentence_id):
             position = idx
             break
 
@@ -609,10 +661,17 @@ async def get_sample_page_number(
 # ===================== 词频统计服务 =====================
 async def get_corpus_frequency_stats(db, corpus_id: int):
     from sqlalchemy import select
-    from api.models.corpus import Sample, StatisticsCache
+    from api.models.corpus import Sample, StatisticsCache, Corpus
     import json
 
-    # 1. 查询缓存
+    # 1. 获取语料库信息确定类型
+    corpus_result = await db.execute(select(Corpus).where(Corpus.id == corpus_id))
+    corpus = corpus_result.scalar_one_or_none()
+    
+    if not corpus:
+        return {'total_words': 0, 'unique_words': 0, 'pos_distribution': {}, 'frequency_data': []}
+
+    # 2. 查询缓存
     cache_query = select(StatisticsCache).where(
         StatisticsCache.stat_type == 'corpus_freq',
         StatisticsCache.stat_key == str(corpus_id)
@@ -620,34 +679,82 @@ async def get_corpus_frequency_stats(db, corpus_id: int):
     cache_result = await db.execute(cache_query)
     cache_record = cache_result.scalar_one_or_none()
 
-    if cache_record:
+    if cache_record: # Restore cache logic
         try:
             return json.loads(cache_record.stat_value)
         except json.JSONDecodeError:
             pass
 
-    # 2. 从数据库加载所有样本计算频次 (耗时操作)
-    sample_query = select(Sample.normalized_text, Sample.raw_text).where(Sample.corpus_id == corpus_id)
+    # 3. 确定查询的表和字段
+    model = Sample
+    text_fields = ['normalized_text', 'raw_text']
+    
+    if corpus.domain == "terminology":
+        model = TerminologySample
+        text_fields = ['term', 'definition', 'examples']
+    elif corpus.domain == "qa":
+        model = QASample
+        text_fields = ['keywords']  # 按照用户要求，QA类别使用 keywords 字段进行统计
+    elif corpus.domain == "alignment":
+        model = AlignmentSample
+        text_fields = ['target_text']  # 按照用户要求，对齐类别只统计 target_text
+    elif corpus.domain == "process":
+        model = ProcessSample
+        text_fields = ['scenario', 'condition', 'result']
+    elif corpus.domain == "case":
+        model = CaseSample
+        text_fields = ['case_title', 'background', 'situation', 'outcome', 'conclusion']
+    elif corpus.domain in ["struction", "scenario"]:
+        model = ScenarioSample
+        text_fields = ['task', 'output']
+
+    # 4. 从数据库加载所有样本计算频次 (耗时操作)
+    from sqlalchemy.inspection import inspect
+    # 获取模型中存在的列
+    columns = [getattr(model, field) for field in text_fields if hasattr(model, field)]
+    sample_query = select(*columns).where(model.corpus_id == corpus_id)
     samples_result = await db.execute(sample_query)
     
     word_map = {}
     total_words = 0
     pos_counts = {'noun': 0, 'verb': 0, 'adj': 0, 'other': 0}
 
+    # 简易分词逻辑
+    import re
     stop_words = {'dan', 'yang', 'di', 'ke', 'dari', 'ini', 'itu', 'pada', 'untuk', 'dengan'}
 
-    for row in samples_result.all():
-        text = row.normalized_text or row.raw_text or ''
-        if not text:
+    for row_data in samples_result.all():
+        # 合并当前行的所有文本
+        row_texts = []
+        for val in row_data:
+            if val:
+                if isinstance(val, list):
+                    # 如果是 JSON 数组字段 (如 QA 的 keywords)
+                    row_texts.extend([str(item) for item in val if item])
+                else:
+                    row_texts.append(str(val))
+        
+        # 如果是 QA 类别，keywords 已经是词了，不需要再进行复杂正则分词
+        if corpus.domain == "qa":
+            for word in row_texts:
+                word_clean = word.strip().lower()
+                if word_clean and len(word_clean) > 1:
+                    total_words += 1
+                    if word_clean not in word_map:
+                        word_map[word_clean] = {'count': 0, 'pos': 'other'}
+                    word_map[word_clean]['count'] += 1
+            continue
+
+        full_text = " ".join(row_texts)
+        if not full_text:
             continue
         
-        import re
-        # 简单的分词，去标点
-        words = re.findall(r'\b[a-zA-Z-]+\b', text.lower())
+        # 兼容 Unicode 的分词逻辑 (支持越南语、马来语等拉丁系以及泰语等)
+        # 匹配包含字母的单词，考虑到越南语等有大量变体字符，以及泰语范围 \u0E00-\u0E7F
+        words = re.findall(r'\b[a-zA-Z\u00C0-\u024F\u1E00-\u1EFF-]+\b|[\u0E00-\u0E7F]+', full_text.lower())
         for word in words:
             if len(word) > 1:
                 total_words += 1
-                # 记录所有非停用词和停用词到词表，用于计算 TTR
                 if word not in word_map:
                     word_map[word] = {'count': 0, 'pos': 'other'}
                 word_map[word]['count'] += 1
@@ -676,11 +783,19 @@ async def get_corpus_frequency_stats(db, corpus_id: int):
     unique_words_total = len(word_map)
 
     # 排序并返回几乎全量的去重词汇 (由前端根据 activeTab 过滤)
-    # 取前 5000 个，足以覆盖绝大多数单库去重后的词汇量
-    sorted_words = sorted(word_map.items(), key=lambda x: x[1]['count'], reverse=True)[:5000]
-    
+    # 取前 400 个，足以覆盖绝大多数单库预览需求，且避免数据库 TEXT 字段长度超标
+    # 同时过滤掉长度异常的“词”（主要是解决泰语未分词导致的超长句子问题）
     frequency_data = []
+    sorted_words = sorted(word_map.items(), key=lambda x: x[1]['count'], reverse=True)
+    
+    count_limit = 0
     for word, data in sorted_words:
+        if count_limit >= 400:
+            break
+        # 如果词长超过 50 个字符，大概率是泰语等未分词的句子，过滤掉以防数据库崩溃
+        if len(word) > 50:
+            continue
+            
         percent = round((data['count'] / max(total_words, 1)) * 1000) / 10
         frequency_data.append({
             'word': word,
@@ -688,6 +803,7 @@ async def get_corpus_frequency_stats(db, corpus_id: int):
             'percent': percent,
             'pos': data['pos']
         })
+        count_limit += 1
 
     result_dict = {
         'total_words': total_words,

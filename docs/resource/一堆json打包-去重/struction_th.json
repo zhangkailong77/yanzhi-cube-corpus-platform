@@ -1,0 +1,3313 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "struction",
+    "domain": "trade",
+    "created_by": "localized-generator",
+    "created_at": "2026-02-25T06:26:47Z",
+    "description": "Localized instruction/scenario corpus (ไทย) - 300",
+    "language": "th"
+  },
+  "data": [
+    {
+      "instruction_id": "INST-001",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ customs declaration โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-1)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง customs declaration ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-002",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ certificate of origin โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-2)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง certificate of origin ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-003",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ cross-border payment โดยอ้างอิง PromptPay และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-3)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง cross-border payment ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-004",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ delivery lead time โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-4)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง delivery lead time ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-005",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ invoice compliance โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-5)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง invoice compliance ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-006",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ product classification โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-6)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง product classification ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-007",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ after-sales claim โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-7)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง after-sales claim ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-008",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ shipment booking โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-8)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง shipment booking ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-009",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ document review โดยอ้างอิง PromptPay และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-9)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง document review ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-010",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ buyer onboarding โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-10)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง buyer onboarding ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-011",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ customs declaration โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-11)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง customs declaration ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-012",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ certificate of origin โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-12)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง certificate of origin ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-013",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ cross-border payment โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-13)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง cross-border payment ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-014",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ delivery lead time โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-14)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง delivery lead time ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-015",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ invoice compliance โดยอ้างอิง PromptPay และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-15)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง invoice compliance ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-016",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ product classification โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-16)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง product classification ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-017",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ after-sales claim โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-17)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง after-sales claim ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-018",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ shipment booking โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-18)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง shipment booking ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-019",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ document review โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-19)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง document review ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-020",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ buyer onboarding โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-20)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง buyer onboarding ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-021",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ customs declaration โดยอ้างอิง PromptPay และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-21)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง customs declaration ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-022",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ certificate of origin โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-22)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง certificate of origin ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-023",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ cross-border payment โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-23)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง cross-border payment ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-024",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ delivery lead time โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-24)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง delivery lead time ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-025",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ invoice compliance โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-25)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง invoice compliance ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-026",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ product classification โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-26)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง product classification ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-027",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ after-sales claim โดยอ้างอิง PromptPay และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-27)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง after-sales claim ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-028",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ shipment booking โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-28)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง shipment booking ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-029",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ document review โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-29)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง document review ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-030",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ buyer onboarding โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-30)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง buyer onboarding ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-031",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ customs declaration โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-31)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง customs declaration ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-032",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ certificate of origin โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-32)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง certificate of origin ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-033",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ cross-border payment โดยอ้างอิง PromptPay และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-33)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง cross-border payment ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-034",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ delivery lead time โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-34)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง delivery lead time ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-035",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ invoice compliance โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-35)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง invoice compliance ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-036",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ product classification โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-36)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง product classification ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-037",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ after-sales claim โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-37)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง after-sales claim ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-038",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ shipment booking โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-38)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง shipment booking ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-039",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ document review โดยอ้างอิง PromptPay และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-39)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง document review ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-040",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ buyer onboarding โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-40)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง buyer onboarding ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-041",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ customs declaration โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-41)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง customs declaration ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-042",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ certificate of origin โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-42)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง certificate of origin ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-043",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ cross-border payment โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-43)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง cross-border payment ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-044",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ delivery lead time โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-44)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง delivery lead time ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-045",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ invoice compliance โดยอ้างอิง PromptPay และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-45)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง invoice compliance ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-046",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ product classification โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-46)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง product classification ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-047",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ after-sales claim โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-47)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง after-sales claim ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-048",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ shipment booking โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-48)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง shipment booking ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-049",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ document review โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-49)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง document review ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-050",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ buyer onboarding โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-50)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง buyer onboarding ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-051",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ customs declaration โดยอ้างอิง PromptPay และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-51)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง customs declaration ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-052",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ certificate of origin โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-52)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง certificate of origin ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-053",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ cross-border payment โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-1)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง cross-border payment ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-054",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ delivery lead time โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-2)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง delivery lead time ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-055",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ invoice compliance โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-3)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง invoice compliance ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-056",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ product classification โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-4)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง product classification ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-057",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ after-sales claim โดยอ้างอิง PromptPay และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-5)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง after-sales claim ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-058",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ shipment booking โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-6)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง shipment booking ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-059",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ document review โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-7)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง document review ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-060",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ buyer onboarding โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-8)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง buyer onboarding ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-061",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ customs declaration โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-9)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง customs declaration ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-062",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ certificate of origin โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-10)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง certificate of origin ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-063",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ cross-border payment โดยอ้างอิง PromptPay และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-11)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง cross-border payment ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-064",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ delivery lead time โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-12)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง delivery lead time ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-065",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ invoice compliance โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-13)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง invoice compliance ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-066",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ product classification โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-14)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง product classification ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-067",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ after-sales claim โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-15)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง after-sales claim ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-068",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ shipment booking โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-16)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง shipment booking ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-069",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ document review โดยอ้างอิง PromptPay และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-17)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง document review ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-070",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ buyer onboarding โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-18)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง buyer onboarding ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-071",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ customs declaration โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-19)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง customs declaration ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-072",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ certificate of origin โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-20)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง certificate of origin ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-073",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ cross-border payment โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-21)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง cross-border payment ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-074",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ delivery lead time โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-22)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง delivery lead time ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-075",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ invoice compliance โดยอ้างอิง PromptPay และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-23)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง invoice compliance ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-076",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ product classification โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-24)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง product classification ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-077",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ after-sales claim โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-25)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง after-sales claim ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-078",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ shipment booking โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-26)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง shipment booking ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-079",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ document review โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-27)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง document review ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-080",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ buyer onboarding โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-28)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง buyer onboarding ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-081",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ customs declaration โดยอ้างอิง PromptPay และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-29)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง customs declaration ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-082",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ certificate of origin โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-30)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง certificate of origin ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-083",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ cross-border payment โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-31)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง cross-border payment ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-084",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ delivery lead time โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-32)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง delivery lead time ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-085",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ invoice compliance โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-33)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง invoice compliance ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-086",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ product classification โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-34)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง product classification ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-087",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ after-sales claim โดยอ้างอิง PromptPay และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-35)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง after-sales claim ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-088",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ shipment booking โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-36)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง shipment booking ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-089",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ document review โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-37)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง document review ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-090",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ buyer onboarding โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-38)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง buyer onboarding ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-091",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ customs declaration โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-39)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง customs declaration ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-092",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ certificate of origin โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-40)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง certificate of origin ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-093",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ cross-border payment โดยอ้างอิง PromptPay และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-41)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง cross-border payment ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-094",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ delivery lead time โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-42)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง delivery lead time ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-095",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ invoice compliance โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-43)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง invoice compliance ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-096",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ product classification โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-44)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง product classification ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-097",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ after-sales claim โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-45)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง after-sales claim ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-098",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ shipment booking โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-46)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง shipment booking ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-099",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ document review โดยอ้างอิง PromptPay และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-47)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง document review ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-100",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ buyer onboarding โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-48)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง buyer onboarding ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-101",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ customs declaration โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-49)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง customs declaration ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-102",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ certificate of origin โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-50)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง certificate of origin ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-103",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ cross-border payment โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-51)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง cross-border payment ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-104",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ delivery lead time โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-52)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง delivery lead time ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-105",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ invoice compliance โดยอ้างอิง PromptPay และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-1)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง invoice compliance ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-106",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ product classification โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-2)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง product classification ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-107",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ after-sales claim โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-3)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง after-sales claim ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-108",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ shipment booking โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-4)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง shipment booking ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-109",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ document review โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-5)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง document review ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-110",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ buyer onboarding โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-6)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง buyer onboarding ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-111",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ customs declaration โดยอ้างอิง PromptPay และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-7)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง customs declaration ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-112",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ certificate of origin โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-8)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง certificate of origin ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-113",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ cross-border payment โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-9)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง cross-border payment ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-114",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ delivery lead time โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-10)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง delivery lead time ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-115",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ invoice compliance โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-11)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง invoice compliance ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-116",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ product classification โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-12)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง product classification ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-117",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ after-sales claim โดยอ้างอิง PromptPay และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-13)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง after-sales claim ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-118",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ shipment booking โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-14)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง shipment booking ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-119",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ document review โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-15)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง document review ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-120",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ buyer onboarding โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-16)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง buyer onboarding ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-121",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ customs declaration โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-17)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง customs declaration ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-122",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ certificate of origin โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-18)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง certificate of origin ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-123",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ cross-border payment โดยอ้างอิง PromptPay และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-19)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง cross-border payment ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-124",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ delivery lead time โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-20)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง delivery lead time ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-125",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ invoice compliance โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-21)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง invoice compliance ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-126",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ product classification โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-22)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง product classification ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-127",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ after-sales claim โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-23)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง after-sales claim ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-128",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ shipment booking โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-24)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง shipment booking ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-129",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ document review โดยอ้างอิง PromptPay และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-25)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง document review ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-130",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ buyer onboarding โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-26)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง buyer onboarding ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-131",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ customs declaration โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-27)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง customs declaration ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-132",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ certificate of origin โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-28)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง certificate of origin ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-133",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ cross-border payment โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-29)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง cross-border payment ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-134",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ delivery lead time โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-30)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง delivery lead time ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-135",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ invoice compliance โดยอ้างอิง PromptPay และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-31)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง invoice compliance ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-136",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ product classification โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-32)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง product classification ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-137",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ after-sales claim โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-33)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง after-sales claim ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-138",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ shipment booking โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-34)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง shipment booking ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-139",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ document review โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-35)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง document review ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-140",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ buyer onboarding โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-36)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง buyer onboarding ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-141",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ customs declaration โดยอ้างอิง PromptPay และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-37)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง customs declaration ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-142",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ certificate of origin โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-38)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง certificate of origin ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-143",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ cross-border payment โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-39)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง cross-border payment ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-144",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ delivery lead time โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-40)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง delivery lead time ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-145",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ invoice compliance โดยอ้างอิง Thai Customs e-Customs และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-41)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง invoice compliance ผ่าน Thai Customs e-Customs แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-146",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ product classification โดยอ้างอิง National Single Window (TH) และขั้นตอนถัดไป (National Single Window (TH) / เส้นทางอาเซียน / Week-42)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง product classification ผ่าน National Single Window (TH) แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม National Single Window (TH) และสรุปขั้นตอนถัดไปภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-147",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ after-sales claim โดยอ้างอิง PromptPay และขั้นตอนถัดไป (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-43)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง after-sales claim ผ่าน PromptPay แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai QR Payment และสรุปขั้นตอนถัดไปภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-148",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ shipment booking โดยอ้างอิง Thai QR Payment และขั้นตอนถัดไป (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-44)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง shipment booking ผ่าน Thai QR Payment แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม Thai Customs e-Customs และสรุปขั้นตอนถัดไปภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-149",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ document review โดยอ้างอิง RCEP e-CO และขั้นตอนถัดไป (PromptPay / เส้นทางไทย-เวียดนาม / Week-45)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง document review ผ่าน RCEP e-CO แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม PromptPay และสรุปขั้นตอนถัดไปภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-150",
+      "instruction_type": "instruction",
+      "task": "เขียนข้อความตอบลูกค้าเป็นภาษาไทยเกี่ยวกับ buyer onboarding โดยอ้างอิง AEO Thailand และขั้นตอนถัดไป (AEO Thailand / เส้นทางไทย-ลาว / Week-46)",
+      "output": "เรียนลูกค้า ขณะนี้เราได้ตรวจสอบเรื่อง buyer onboarding ผ่าน AEO Thailand แล้ว และจะส่งแผนดำเนินการพร้อมรายการเอกสารภายใน 1 วันทำการ. ข้อกำหนดเพิ่ม: จัดรูปแบบตาม AEO Thailand และสรุปขั้นตอนถัดไปภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "instruction",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-151",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง customs declaration ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (National Single Window (TH) / เส้นทางอาเซียน / Week-47)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-152",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง certificate of origin ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-48)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-153",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง cross-border payment ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-49)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-154",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง delivery lead time ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (PromptPay / เส้นทางไทย-เวียดนาม / Week-50)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-155",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง invoice compliance ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (AEO Thailand / เส้นทางไทย-ลาว / Week-51)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-156",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง product classification ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (National Single Window (TH) / เส้นทางอาเซียน / Week-52)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-157",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง after-sales claim ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-1)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-158",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง shipment booking ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-2)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-159",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง document review ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (PromptPay / เส้นทางไทย-เวียดนาม / Week-3)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-160",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง buyer onboarding ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (AEO Thailand / เส้นทางไทย-ลาว / Week-4)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-161",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง customs declaration ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (National Single Window (TH) / เส้นทางอาเซียน / Week-5)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-162",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง certificate of origin ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-6)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-163",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง cross-border payment ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-7)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-164",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง delivery lead time ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (PromptPay / เส้นทางไทย-เวียดนาม / Week-8)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-165",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง invoice compliance ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (AEO Thailand / เส้นทางไทย-ลาว / Week-9)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-166",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง product classification ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (National Single Window (TH) / เส้นทางอาเซียน / Week-10)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-167",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง after-sales claim ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-11)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-168",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง shipment booking ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-12)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-169",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง document review ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (PromptPay / เส้นทางไทย-เวียดนาม / Week-13)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-170",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง buyer onboarding ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (AEO Thailand / เส้นทางไทย-ลาว / Week-14)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-171",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง customs declaration ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (National Single Window (TH) / เส้นทางอาเซียน / Week-15)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-172",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง certificate of origin ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-16)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-173",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง cross-border payment ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-17)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-174",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง delivery lead time ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (PromptPay / เส้นทางไทย-เวียดนาม / Week-18)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-175",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง invoice compliance ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (AEO Thailand / เส้นทางไทย-ลาว / Week-19)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-176",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง product classification ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (National Single Window (TH) / เส้นทางอาเซียน / Week-20)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-177",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง after-sales claim ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-21)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-178",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง shipment booking ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-22)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-179",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง document review ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (PromptPay / เส้นทางไทย-เวียดนาม / Week-23)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-180",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง buyer onboarding ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (AEO Thailand / เส้นทางไทย-ลาว / Week-24)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-181",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง customs declaration ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (National Single Window (TH) / เส้นทางอาเซียน / Week-25)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-182",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง certificate of origin ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-26)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-183",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง cross-border payment ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-27)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-184",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง delivery lead time ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (PromptPay / เส้นทางไทย-เวียดนาม / Week-28)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-185",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง invoice compliance ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (AEO Thailand / เส้นทางไทย-ลาว / Week-29)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-186",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง product classification ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (National Single Window (TH) / เส้นทางอาเซียน / Week-30)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-187",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง after-sales claim ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-31)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-188",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง shipment booking ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-32)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-189",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง document review ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (PromptPay / เส้นทางไทย-เวียดนาม / Week-33)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-190",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง buyer onboarding ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (AEO Thailand / เส้นทางไทย-ลาว / Week-34)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-191",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง customs declaration ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (National Single Window (TH) / เส้นทางอาเซียน / Week-35)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-192",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง certificate of origin ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-36)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-193",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง cross-border payment ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-37)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-194",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง delivery lead time ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (PromptPay / เส้นทางไทย-เวียดนาม / Week-38)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-195",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง invoice compliance ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (AEO Thailand / เส้นทางไทย-ลาว / Week-39)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-196",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง product classification ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (National Single Window (TH) / เส้นทางอาเซียน / Week-40)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-197",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง after-sales claim ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-41)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-198",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง shipment booking ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-42)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-199",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง document review ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (PromptPay / เส้นทางไทย-เวียดนาม / Week-43)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-200",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง buyer onboarding ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (AEO Thailand / เส้นทางไทย-ลาว / Week-44)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-201",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง customs declaration ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (National Single Window (TH) / เส้นทางอาเซียน / Week-45)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-202",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง certificate of origin ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-46)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-203",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง cross-border payment ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-47)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-204",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง delivery lead time ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (PromptPay / เส้นทางไทย-เวียดนาม / Week-48)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-205",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง invoice compliance ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (AEO Thailand / เส้นทางไทย-ลาว / Week-49)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-206",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง product classification ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (National Single Window (TH) / เส้นทางอาเซียน / Week-50)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-207",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง after-sales claim ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-51)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-208",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง shipment booking ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-52)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-209",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง document review ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (PromptPay / เส้นทางไทย-เวียดนาม / Week-1)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-210",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง buyer onboarding ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (AEO Thailand / เส้นทางไทย-ลาว / Week-2)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-211",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง customs declaration ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (National Single Window (TH) / เส้นทางอาเซียน / Week-3)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-212",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง certificate of origin ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-4)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-213",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง cross-border payment ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-5)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-214",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง delivery lead time ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (PromptPay / เส้นทางไทย-เวียดนาม / Week-6)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-215",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง invoice compliance ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (AEO Thailand / เส้นทางไทย-ลาว / Week-7)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-216",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง product classification ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (National Single Window (TH) / เส้นทางอาเซียน / Week-8)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-217",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง after-sales claim ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-9)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-218",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง shipment booking ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-10)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-219",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง document review ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (PromptPay / เส้นทางไทย-เวียดนาม / Week-11)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-220",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง buyer onboarding ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (AEO Thailand / เส้นทางไทย-ลาว / Week-12)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-221",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง customs declaration ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (National Single Window (TH) / เส้นทางอาเซียน / Week-13)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-222",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง certificate of origin ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-14)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-223",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง cross-border payment ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-15)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-224",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง delivery lead time ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (PromptPay / เส้นทางไทย-เวียดนาม / Week-16)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-225",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง invoice compliance ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (AEO Thailand / เส้นทางไทย-ลาว / Week-17)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-226",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง product classification ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (National Single Window (TH) / เส้นทางอาเซียน / Week-18)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-227",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง after-sales claim ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-19)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-228",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง shipment booking ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-20)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-229",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง document review ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (PromptPay / เส้นทางไทย-เวียดนาม / Week-21)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-230",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง buyer onboarding ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (AEO Thailand / เส้นทางไทย-ลาว / Week-22)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-231",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง customs declaration ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (National Single Window (TH) / เส้นทางอาเซียน / Week-23)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-232",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง certificate of origin ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-24)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-233",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง cross-border payment ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-25)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-234",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง delivery lead time ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (PromptPay / เส้นทางไทย-เวียดนาม / Week-26)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-235",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง invoice compliance ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (AEO Thailand / เส้นทางไทย-ลาว / Week-27)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-236",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง product classification ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (National Single Window (TH) / เส้นทางอาเซียน / Week-28)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-237",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง after-sales claim ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-29)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-238",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง shipment booking ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-30)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-239",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง document review ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (PromptPay / เส้นทางไทย-เวียดนาม / Week-31)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-240",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง buyer onboarding ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (AEO Thailand / เส้นทางไทย-ลาว / Week-32)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-241",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง customs declaration ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (National Single Window (TH) / เส้นทางอาเซียน / Week-33)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-242",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง certificate of origin ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-34)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-243",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง cross-border payment ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-35)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-244",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง delivery lead time ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (PromptPay / เส้นทางไทย-เวียดนาม / Week-36)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-245",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง invoice compliance ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (AEO Thailand / เส้นทางไทย-ลาว / Week-37)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-246",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง product classification ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (National Single Window (TH) / เส้นทางอาเซียน / Week-38)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-247",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง after-sales claim ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-39)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-248",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง shipment booking ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-40)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-249",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง document review ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (PromptPay / เส้นทางไทย-เวียดนาม / Week-41)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-250",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง buyer onboarding ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (AEO Thailand / เส้นทางไทย-ลาว / Week-42)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-251",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง customs declaration ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (National Single Window (TH) / เส้นทางอาเซียน / Week-43)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-252",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง certificate of origin ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-44)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-253",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง cross-border payment ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-45)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-254",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง delivery lead time ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (PromptPay / เส้นทางไทย-เวียดนาม / Week-46)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-255",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง invoice compliance ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (AEO Thailand / เส้นทางไทย-ลาว / Week-47)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-256",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง product classification ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (National Single Window (TH) / เส้นทางอาเซียน / Week-48)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-257",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง after-sales claim ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-49)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-258",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง shipment booking ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-50)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-259",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง document review ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (PromptPay / เส้นทางไทย-เวียดนาม / Week-51)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-260",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง buyer onboarding ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (AEO Thailand / เส้นทางไทย-ลาว / Week-52)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-261",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง customs declaration ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (National Single Window (TH) / เส้นทางอาเซียน / Week-1)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-262",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง certificate of origin ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-2)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-263",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง cross-border payment ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-3)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-264",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง delivery lead time ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (PromptPay / เส้นทางไทย-เวียดนาม / Week-4)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-265",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง invoice compliance ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (AEO Thailand / เส้นทางไทย-ลาว / Week-5)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-266",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง product classification ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (National Single Window (TH) / เส้นทางอาเซียน / Week-6)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-267",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง after-sales claim ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-7)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-268",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง shipment booking ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-8)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-269",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง document review ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (PromptPay / เส้นทางไทย-เวียดนาม / Week-9)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-270",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง buyer onboarding ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (AEO Thailand / เส้นทางไทย-ลาว / Week-10)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-271",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง customs declaration ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (National Single Window (TH) / เส้นทางอาเซียน / Week-11)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-272",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง certificate of origin ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-12)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-273",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง cross-border payment ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-13)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-274",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง delivery lead time ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (PromptPay / เส้นทางไทย-เวียดนาม / Week-14)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-275",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง invoice compliance ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (AEO Thailand / เส้นทางไทย-ลาว / Week-15)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-276",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง product classification ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (National Single Window (TH) / เส้นทางอาเซียน / Week-16)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-277",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง after-sales claim ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-17)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-278",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง shipment booking ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-18)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-279",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง document review ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (PromptPay / เส้นทางไทย-เวียดนาม / Week-19)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-280",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง buyer onboarding ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (AEO Thailand / เส้นทางไทย-ลาว / Week-20)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-281",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง customs declaration ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (National Single Window (TH) / เส้นทางอาเซียน / Week-21)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-282",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง certificate of origin ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-22)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-283",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง cross-border payment ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-23)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-284",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง delivery lead time ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (PromptPay / เส้นทางไทย-เวียดนาม / Week-24)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-285",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง invoice compliance ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (AEO Thailand / เส้นทางไทย-ลาว / Week-25)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-286",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง product classification ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (National Single Window (TH) / เส้นทางอาเซียน / Week-26)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-287",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง after-sales claim ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-27)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-288",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง shipment booking ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-28)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-289",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง document review ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (PromptPay / เส้นทางไทย-เวียดนาม / Week-29)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-290",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง buyer onboarding ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (AEO Thailand / เส้นทางไทย-ลาว / Week-30)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "buyer onboarding"
+      ]
+    },
+    {
+      "instruction_id": "INST-291",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง customs declaration ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (National Single Window (TH) / เส้นทางอาเซียน / Week-31)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "customs declaration"
+      ]
+    },
+    {
+      "instruction_id": "INST-292",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง certificate of origin ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-32)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 7 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "certificate of origin"
+      ]
+    },
+    {
+      "instruction_id": "INST-293",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง cross-border payment ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-33)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 8 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "cross-border payment"
+      ]
+    },
+    {
+      "instruction_id": "INST-294",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง delivery lead time ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (PromptPay / เส้นทางไทย-เวียดนาม / Week-34)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 9 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "delivery lead time"
+      ]
+    },
+    {
+      "instruction_id": "INST-295",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง invoice compliance ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai Customs e-Customs (AEO Thailand / เส้นทางไทย-ลาว / Week-35)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai Customs e-Customs\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 10 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "invoice compliance"
+      ]
+    },
+    {
+      "instruction_id": "INST-296",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง product classification ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ National Single Window (TH) (National Single Window (TH) / เส้นทางอาเซียน / Week-36)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน National Single Window (TH)\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 11 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "product classification"
+      ]
+    },
+    {
+      "instruction_id": "INST-297",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง after-sales claim ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ PromptPay (Thai QR Payment / เส้นทางไทย-มาเลเซีย / Week-37)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน PromptPay\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 12 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "after-sales claim"
+      ]
+    },
+    {
+      "instruction_id": "INST-298",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง shipment booking ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ Thai QR Payment (Thai Customs e-Customs / เส้นทางไทย-อินโดนีเซีย / Week-38)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน Thai QR Payment\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 4 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "shipment booking"
+      ]
+    },
+    {
+      "instruction_id": "INST-299",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง document review ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ RCEP e-CO (PromptPay / เส้นทางไทย-เวียดนาม / Week-39)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน RCEP e-CO\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 5 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "document review"
+      ]
+    },
+    {
+      "instruction_id": "INST-300",
+      "instruction_type": "scenario",
+      "task": "ลูกค้าแจ้งปัญหาเรื่อง buyer onboarding ให้สร้างแผนจัดการและข้อความตอบกลับ โดยใช้บริบทของ AEO Thailand (AEO Thailand / เส้นทางไทย-ลาว / Week-40)",
+      "output": "แผนจัดการ:\n1) ตรวจสอบข้อเท็จจริงและผู้รับผิดชอบ\n2) ตรวจสถานะเอกสารใน AEO Thailand\n3) ยืนยันกำหนดการใหม่\n\nข้อความถึงลูกค้า:\nขอบคุณที่แจ้งปัญหา เราได้เริ่มดำเนินการเร่งด่วนและจะแจ้งความคืบหน้าภายใน 1 วันทำการ\n\nการประสานภายใน: ทีมเอกสาร โลจิสติกส์ และการเงินต้องปิดงานร่วมกันภายใน 6 ชั่วโมง",
+      "tags": [
+        "ไทย",
+        "scenario",
+        "buyer onboarding"
+      ]
+    }
+  ]
+}

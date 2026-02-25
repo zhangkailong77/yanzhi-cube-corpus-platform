@@ -1,0 +1,2113 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "process",
+    "domain": "trade",
+    "created_by": "localized-generator",
+    "created_at": "2026-02-25T06:26:47Z",
+    "description": "Localized process/rule corpus (English) - 300",
+    "language": "en"
+  },
+  "data": [
+    {
+      "rule_id": "RULE-001",
+      "scenario": "Processing customs declaration for orders routed via ASEAN Single Window | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-1",
+      "condition": "Order value exceeds 30000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to RCEP e-CO, for Week-1 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-002",
+      "scenario": "Processing certificate of origin for orders routed via RCEP e-CO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-2",
+      "condition": "Order value exceeds 34000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to HS advance ruling, for Week-2 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-003",
+      "scenario": "Processing cross-border payment for orders routed via Incoterms 2020 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-3",
+      "condition": "Order value exceeds 38000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to ASEAN Single Window, for Week-3 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-004",
+      "scenario": "Processing delivery lead time for orders routed via UCP 600 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-4",
+      "condition": "Order value exceeds 42000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to AEO program, for Week-4 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-005",
+      "scenario": "Processing invoice compliance for orders routed via HS 2022 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-5",
+      "condition": "Order value exceeds 46000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to UCP 600 control, for Week-5 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-006",
+      "scenario": "Processing product classification for orders routed via AEO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-6",
+      "condition": "Order value exceeds 50000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to RCEP e-CO, for Week-6 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-007",
+      "scenario": "Processing after-sales claim for orders routed via ASEAN Single Window | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-7",
+      "condition": "Order value exceeds 54000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to HS advance ruling, for Week-7 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-008",
+      "scenario": "Processing shipment booking for orders routed via RCEP e-CO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-8",
+      "condition": "Order value exceeds 58000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to ASEAN Single Window, for Week-8 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-009",
+      "scenario": "Processing document review for orders routed via Incoterms 2020 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-9",
+      "condition": "Order value exceeds 62000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to AEO program, for Week-9 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-010",
+      "scenario": "Processing buyer onboarding for orders routed via UCP 600 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-10",
+      "condition": "Order value exceeds 66000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to UCP 600 control, for Week-10 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-011",
+      "scenario": "Processing customs declaration for orders routed via HS 2022 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-11",
+      "condition": "Order value exceeds 70000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to RCEP e-CO, for Week-11 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-012",
+      "scenario": "Processing certificate of origin for orders routed via AEO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-12",
+      "condition": "Order value exceeds 74000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to HS advance ruling, for Week-12 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-013",
+      "scenario": "Processing cross-border payment for orders routed via ASEAN Single Window | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-13",
+      "condition": "Order value exceeds 78000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to ASEAN Single Window, for Week-13 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-014",
+      "scenario": "Processing delivery lead time for orders routed via RCEP e-CO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-14",
+      "condition": "Order value exceeds 82000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to AEO program, for Week-14 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-015",
+      "scenario": "Processing invoice compliance for orders routed via Incoterms 2020 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-15",
+      "condition": "Order value exceeds 86000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to UCP 600 control, for Week-15 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-016",
+      "scenario": "Processing product classification for orders routed via UCP 600 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-16",
+      "condition": "Order value exceeds 90000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to RCEP e-CO, for Week-16 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-017",
+      "scenario": "Processing after-sales claim for orders routed via HS 2022 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-17",
+      "condition": "Order value exceeds 94000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to HS advance ruling, for Week-17 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-018",
+      "scenario": "Processing shipment booking for orders routed via AEO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-18",
+      "condition": "Order value exceeds 98000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to ASEAN Single Window, for Week-18 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-019",
+      "scenario": "Processing document review for orders routed via ASEAN Single Window | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-19",
+      "condition": "Order value exceeds 102000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to AEO program, for Week-19 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-020",
+      "scenario": "Processing buyer onboarding for orders routed via RCEP e-CO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-20",
+      "condition": "Order value exceeds 106000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to UCP 600 control, for Week-20 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-021",
+      "scenario": "Processing customs declaration for orders routed via Incoterms 2020 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-21",
+      "condition": "Order value exceeds 110000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to RCEP e-CO, for Week-21 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-022",
+      "scenario": "Processing certificate of origin for orders routed via UCP 600 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-22",
+      "condition": "Order value exceeds 114000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to HS advance ruling, for Week-22 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-023",
+      "scenario": "Processing cross-border payment for orders routed via HS 2022 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-23",
+      "condition": "Order value exceeds 118000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to ASEAN Single Window, for Week-23 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-024",
+      "scenario": "Processing delivery lead time for orders routed via AEO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-24",
+      "condition": "Order value exceeds 122000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to AEO program, for Week-24 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-025",
+      "scenario": "Processing invoice compliance for orders routed via ASEAN Single Window | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-25",
+      "condition": "Order value exceeds 126000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to UCP 600 control, for Week-25 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-026",
+      "scenario": "Processing product classification for orders routed via RCEP e-CO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-26",
+      "condition": "Order value exceeds 30000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to RCEP e-CO, for Week-26 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-027",
+      "scenario": "Processing after-sales claim for orders routed via Incoterms 2020 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-27",
+      "condition": "Order value exceeds 34000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to HS advance ruling, for Week-27 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-028",
+      "scenario": "Processing shipment booking for orders routed via UCP 600 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-28",
+      "condition": "Order value exceeds 38000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to ASEAN Single Window, for Week-28 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-029",
+      "scenario": "Processing document review for orders routed via HS 2022 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-29",
+      "condition": "Order value exceeds 42000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to AEO program, for Week-29 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-030",
+      "scenario": "Processing buyer onboarding for orders routed via AEO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-30",
+      "condition": "Order value exceeds 46000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to UCP 600 control, for Week-30 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-031",
+      "scenario": "Processing customs declaration for orders routed via ASEAN Single Window | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-31",
+      "condition": "Order value exceeds 50000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to RCEP e-CO, for Week-31 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-032",
+      "scenario": "Processing certificate of origin for orders routed via RCEP e-CO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-32",
+      "condition": "Order value exceeds 54000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to HS advance ruling, for Week-32 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-033",
+      "scenario": "Processing cross-border payment for orders routed via Incoterms 2020 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-33",
+      "condition": "Order value exceeds 58000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to ASEAN Single Window, for Week-33 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-034",
+      "scenario": "Processing delivery lead time for orders routed via UCP 600 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-34",
+      "condition": "Order value exceeds 62000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to AEO program, for Week-34 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-035",
+      "scenario": "Processing invoice compliance for orders routed via HS 2022 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-35",
+      "condition": "Order value exceeds 66000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to UCP 600 control, for Week-35 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-036",
+      "scenario": "Processing product classification for orders routed via AEO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-36",
+      "condition": "Order value exceeds 70000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to RCEP e-CO, for Week-36 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-037",
+      "scenario": "Processing after-sales claim for orders routed via ASEAN Single Window | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-37",
+      "condition": "Order value exceeds 74000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to HS advance ruling, for Week-37 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-038",
+      "scenario": "Processing shipment booking for orders routed via RCEP e-CO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-38",
+      "condition": "Order value exceeds 78000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to ASEAN Single Window, for Week-38 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-039",
+      "scenario": "Processing document review for orders routed via Incoterms 2020 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-39",
+      "condition": "Order value exceeds 82000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to AEO program, for Week-39 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-040",
+      "scenario": "Processing buyer onboarding for orders routed via UCP 600 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-40",
+      "condition": "Order value exceeds 86000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to UCP 600 control, for Week-40 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-041",
+      "scenario": "Processing customs declaration for orders routed via HS 2022 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-41",
+      "condition": "Order value exceeds 90000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to RCEP e-CO, for Week-41 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-042",
+      "scenario": "Processing certificate of origin for orders routed via AEO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-42",
+      "condition": "Order value exceeds 94000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to HS advance ruling, for Week-42 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-043",
+      "scenario": "Processing cross-border payment for orders routed via ASEAN Single Window | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-43",
+      "condition": "Order value exceeds 98000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to ASEAN Single Window, for Week-43 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-044",
+      "scenario": "Processing delivery lead time for orders routed via RCEP e-CO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-44",
+      "condition": "Order value exceeds 102000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to AEO program, for Week-44 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-045",
+      "scenario": "Processing invoice compliance for orders routed via Incoterms 2020 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-45",
+      "condition": "Order value exceeds 106000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to UCP 600 control, for Week-45 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-046",
+      "scenario": "Processing product classification for orders routed via UCP 600 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-46",
+      "condition": "Order value exceeds 110000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to RCEP e-CO, for Week-46 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-047",
+      "scenario": "Processing after-sales claim for orders routed via HS 2022 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-47",
+      "condition": "Order value exceeds 114000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to HS advance ruling, for Week-47 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-048",
+      "scenario": "Processing shipment booking for orders routed via AEO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-48",
+      "condition": "Order value exceeds 118000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to ASEAN Single Window, for Week-48 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-049",
+      "scenario": "Processing document review for orders routed via ASEAN Single Window | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-49",
+      "condition": "Order value exceeds 122000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to AEO program, for Week-49 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-050",
+      "scenario": "Processing buyer onboarding for orders routed via RCEP e-CO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-50",
+      "condition": "Order value exceeds 126000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to UCP 600 control, for Week-50 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-051",
+      "scenario": "Processing customs declaration for orders routed via Incoterms 2020 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-51",
+      "condition": "Order value exceeds 30000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to RCEP e-CO, for Week-51 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-052",
+      "scenario": "Processing certificate of origin for orders routed via UCP 600 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-52",
+      "condition": "Order value exceeds 34000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to HS advance ruling, for Week-52 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-053",
+      "scenario": "Processing cross-border payment for orders routed via HS 2022 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-1",
+      "condition": "Order value exceeds 38000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to ASEAN Single Window, for Week-1 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-054",
+      "scenario": "Processing delivery lead time for orders routed via AEO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-2",
+      "condition": "Order value exceeds 42000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to AEO program, for Week-2 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-055",
+      "scenario": "Processing invoice compliance for orders routed via ASEAN Single Window | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-3",
+      "condition": "Order value exceeds 46000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to UCP 600 control, for Week-3 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-056",
+      "scenario": "Processing product classification for orders routed via RCEP e-CO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-4",
+      "condition": "Order value exceeds 50000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to RCEP e-CO, for Week-4 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-057",
+      "scenario": "Processing after-sales claim for orders routed via Incoterms 2020 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-5",
+      "condition": "Order value exceeds 54000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to HS advance ruling, for Week-5 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-058",
+      "scenario": "Processing shipment booking for orders routed via UCP 600 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-6",
+      "condition": "Order value exceeds 58000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to ASEAN Single Window, for Week-6 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-059",
+      "scenario": "Processing document review for orders routed via HS 2022 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-7",
+      "condition": "Order value exceeds 62000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to AEO program, for Week-7 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-060",
+      "scenario": "Processing buyer onboarding for orders routed via AEO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-8",
+      "condition": "Order value exceeds 66000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to UCP 600 control, for Week-8 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-061",
+      "scenario": "Processing customs declaration for orders routed via ASEAN Single Window | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-9",
+      "condition": "Order value exceeds 70000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to RCEP e-CO, for Week-9 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-062",
+      "scenario": "Processing certificate of origin for orders routed via RCEP e-CO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-10",
+      "condition": "Order value exceeds 74000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to HS advance ruling, for Week-10 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-063",
+      "scenario": "Processing cross-border payment for orders routed via Incoterms 2020 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-11",
+      "condition": "Order value exceeds 78000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to ASEAN Single Window, for Week-11 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-064",
+      "scenario": "Processing delivery lead time for orders routed via UCP 600 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-12",
+      "condition": "Order value exceeds 82000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to AEO program, for Week-12 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-065",
+      "scenario": "Processing invoice compliance for orders routed via HS 2022 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-13",
+      "condition": "Order value exceeds 86000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to UCP 600 control, for Week-13 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-066",
+      "scenario": "Processing product classification for orders routed via AEO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-14",
+      "condition": "Order value exceeds 90000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to RCEP e-CO, for Week-14 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-067",
+      "scenario": "Processing after-sales claim for orders routed via ASEAN Single Window | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-15",
+      "condition": "Order value exceeds 94000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to HS advance ruling, for Week-15 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-068",
+      "scenario": "Processing shipment booking for orders routed via RCEP e-CO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-16",
+      "condition": "Order value exceeds 98000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to ASEAN Single Window, for Week-16 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-069",
+      "scenario": "Processing document review for orders routed via Incoterms 2020 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-17",
+      "condition": "Order value exceeds 102000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to AEO program, for Week-17 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-070",
+      "scenario": "Processing buyer onboarding for orders routed via UCP 600 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-18",
+      "condition": "Order value exceeds 106000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to UCP 600 control, for Week-18 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-071",
+      "scenario": "Processing customs declaration for orders routed via HS 2022 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-19",
+      "condition": "Order value exceeds 110000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to RCEP e-CO, for Week-19 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-072",
+      "scenario": "Processing certificate of origin for orders routed via AEO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-20",
+      "condition": "Order value exceeds 114000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to HS advance ruling, for Week-20 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-073",
+      "scenario": "Processing cross-border payment for orders routed via ASEAN Single Window | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-21",
+      "condition": "Order value exceeds 118000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to ASEAN Single Window, for Week-21 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-074",
+      "scenario": "Processing delivery lead time for orders routed via RCEP e-CO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-22",
+      "condition": "Order value exceeds 122000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to AEO program, for Week-22 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-075",
+      "scenario": "Processing invoice compliance for orders routed via Incoterms 2020 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-23",
+      "condition": "Order value exceeds 126000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to UCP 600 control, for Week-23 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-076",
+      "scenario": "Processing product classification for orders routed via UCP 600 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-24",
+      "condition": "Order value exceeds 30000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to RCEP e-CO, for Week-24 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-077",
+      "scenario": "Processing after-sales claim for orders routed via HS 2022 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-25",
+      "condition": "Order value exceeds 34000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to HS advance ruling, for Week-25 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-078",
+      "scenario": "Processing shipment booking for orders routed via AEO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-26",
+      "condition": "Order value exceeds 38000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to ASEAN Single Window, for Week-26 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-079",
+      "scenario": "Processing document review for orders routed via ASEAN Single Window | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-27",
+      "condition": "Order value exceeds 42000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to AEO program, for Week-27 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-080",
+      "scenario": "Processing buyer onboarding for orders routed via RCEP e-CO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-28",
+      "condition": "Order value exceeds 46000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to UCP 600 control, for Week-28 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-081",
+      "scenario": "Processing customs declaration for orders routed via Incoterms 2020 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-29",
+      "condition": "Order value exceeds 50000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to RCEP e-CO, for Week-29 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-082",
+      "scenario": "Processing certificate of origin for orders routed via UCP 600 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-30",
+      "condition": "Order value exceeds 54000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to HS advance ruling, for Week-30 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-083",
+      "scenario": "Processing cross-border payment for orders routed via HS 2022 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-31",
+      "condition": "Order value exceeds 58000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to ASEAN Single Window, for Week-31 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-084",
+      "scenario": "Processing delivery lead time for orders routed via AEO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-32",
+      "condition": "Order value exceeds 62000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to AEO program, for Week-32 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-085",
+      "scenario": "Processing invoice compliance for orders routed via ASEAN Single Window | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-33",
+      "condition": "Order value exceeds 66000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to UCP 600 control, for Week-33 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-086",
+      "scenario": "Processing product classification for orders routed via RCEP e-CO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-34",
+      "condition": "Order value exceeds 70000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to RCEP e-CO, for Week-34 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-087",
+      "scenario": "Processing after-sales claim for orders routed via Incoterms 2020 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-35",
+      "condition": "Order value exceeds 74000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to HS advance ruling, for Week-35 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-088",
+      "scenario": "Processing shipment booking for orders routed via UCP 600 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-36",
+      "condition": "Order value exceeds 78000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to ASEAN Single Window, for Week-36 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-089",
+      "scenario": "Processing document review for orders routed via HS 2022 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-37",
+      "condition": "Order value exceeds 82000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to AEO program, for Week-37 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-090",
+      "scenario": "Processing buyer onboarding for orders routed via AEO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-38",
+      "condition": "Order value exceeds 86000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to UCP 600 control, for Week-38 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-091",
+      "scenario": "Processing customs declaration for orders routed via ASEAN Single Window | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-39",
+      "condition": "Order value exceeds 90000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to RCEP e-CO, for Week-39 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-092",
+      "scenario": "Processing certificate of origin for orders routed via RCEP e-CO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-40",
+      "condition": "Order value exceeds 94000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to HS advance ruling, for Week-40 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-093",
+      "scenario": "Processing cross-border payment for orders routed via Incoterms 2020 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-41",
+      "condition": "Order value exceeds 98000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to ASEAN Single Window, for Week-41 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-094",
+      "scenario": "Processing delivery lead time for orders routed via UCP 600 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-42",
+      "condition": "Order value exceeds 102000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to AEO program, for Week-42 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-095",
+      "scenario": "Processing invoice compliance for orders routed via HS 2022 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-43",
+      "condition": "Order value exceeds 106000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to UCP 600 control, for Week-43 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-096",
+      "scenario": "Processing product classification for orders routed via AEO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-44",
+      "condition": "Order value exceeds 110000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to RCEP e-CO, for Week-44 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-097",
+      "scenario": "Processing after-sales claim for orders routed via ASEAN Single Window | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-45",
+      "condition": "Order value exceeds 114000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to HS advance ruling, for Week-45 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-098",
+      "scenario": "Processing shipment booking for orders routed via RCEP e-CO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-46",
+      "condition": "Order value exceeds 118000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to ASEAN Single Window, for Week-46 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-099",
+      "scenario": "Processing document review for orders routed via Incoterms 2020 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-47",
+      "condition": "Order value exceeds 122000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to AEO program, for Week-47 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-100",
+      "scenario": "Processing buyer onboarding for orders routed via UCP 600 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-48",
+      "condition": "Order value exceeds 126000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to UCP 600 control, for Week-48 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-101",
+      "scenario": "Processing customs declaration for orders routed via HS 2022 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-49",
+      "condition": "Order value exceeds 30000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to RCEP e-CO, for Week-49 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-102",
+      "scenario": "Processing certificate of origin for orders routed via AEO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-50",
+      "condition": "Order value exceeds 34000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to HS advance ruling, for Week-50 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-103",
+      "scenario": "Processing cross-border payment for orders routed via ASEAN Single Window | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-51",
+      "condition": "Order value exceeds 38000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to ASEAN Single Window, for Week-51 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-104",
+      "scenario": "Processing delivery lead time for orders routed via RCEP e-CO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-52",
+      "condition": "Order value exceeds 42000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to AEO program, for Week-52 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-105",
+      "scenario": "Processing invoice compliance for orders routed via Incoterms 2020 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-1",
+      "condition": "Order value exceeds 46000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to UCP 600 control, for Week-1 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-106",
+      "scenario": "Processing product classification for orders routed via UCP 600 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-2",
+      "condition": "Order value exceeds 50000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to RCEP e-CO, for Week-2 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-107",
+      "scenario": "Processing after-sales claim for orders routed via HS 2022 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-3",
+      "condition": "Order value exceeds 54000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to HS advance ruling, for Week-3 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-108",
+      "scenario": "Processing shipment booking for orders routed via AEO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-4",
+      "condition": "Order value exceeds 58000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to ASEAN Single Window, for Week-4 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-109",
+      "scenario": "Processing document review for orders routed via ASEAN Single Window | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-5",
+      "condition": "Order value exceeds 62000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to AEO program, for Week-5 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-110",
+      "scenario": "Processing buyer onboarding for orders routed via RCEP e-CO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-6",
+      "condition": "Order value exceeds 66000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to UCP 600 control, for Week-6 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-111",
+      "scenario": "Processing customs declaration for orders routed via Incoterms 2020 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-7",
+      "condition": "Order value exceeds 70000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to RCEP e-CO, for Week-7 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-112",
+      "scenario": "Processing certificate of origin for orders routed via UCP 600 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-8",
+      "condition": "Order value exceeds 74000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to HS advance ruling, for Week-8 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-113",
+      "scenario": "Processing cross-border payment for orders routed via HS 2022 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-9",
+      "condition": "Order value exceeds 78000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to ASEAN Single Window, for Week-9 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-114",
+      "scenario": "Processing delivery lead time for orders routed via AEO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-10",
+      "condition": "Order value exceeds 82000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to AEO program, for Week-10 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-115",
+      "scenario": "Processing invoice compliance for orders routed via ASEAN Single Window | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-11",
+      "condition": "Order value exceeds 86000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to UCP 600 control, for Week-11 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-116",
+      "scenario": "Processing product classification for orders routed via RCEP e-CO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-12",
+      "condition": "Order value exceeds 90000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to RCEP e-CO, for Week-12 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-117",
+      "scenario": "Processing after-sales claim for orders routed via Incoterms 2020 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-13",
+      "condition": "Order value exceeds 94000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to HS advance ruling, for Week-13 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-118",
+      "scenario": "Processing shipment booking for orders routed via UCP 600 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-14",
+      "condition": "Order value exceeds 98000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to ASEAN Single Window, for Week-14 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-119",
+      "scenario": "Processing document review for orders routed via HS 2022 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-15",
+      "condition": "Order value exceeds 102000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to AEO program, for Week-15 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-120",
+      "scenario": "Processing buyer onboarding for orders routed via AEO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-16",
+      "condition": "Order value exceeds 106000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to UCP 600 control, for Week-16 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-121",
+      "scenario": "Processing customs declaration for orders routed via ASEAN Single Window | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-17",
+      "condition": "Order value exceeds 110000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to RCEP e-CO, for Week-17 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-122",
+      "scenario": "Processing certificate of origin for orders routed via RCEP e-CO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-18",
+      "condition": "Order value exceeds 114000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to HS advance ruling, for Week-18 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-123",
+      "scenario": "Processing cross-border payment for orders routed via Incoterms 2020 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-19",
+      "condition": "Order value exceeds 118000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to ASEAN Single Window, for Week-19 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-124",
+      "scenario": "Processing delivery lead time for orders routed via UCP 600 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-20",
+      "condition": "Order value exceeds 122000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to AEO program, for Week-20 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-125",
+      "scenario": "Processing invoice compliance for orders routed via HS 2022 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-21",
+      "condition": "Order value exceeds 126000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to UCP 600 control, for Week-21 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-126",
+      "scenario": "Processing product classification for orders routed via AEO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-22",
+      "condition": "Order value exceeds 30000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to RCEP e-CO, for Week-22 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-127",
+      "scenario": "Processing after-sales claim for orders routed via ASEAN Single Window | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-23",
+      "condition": "Order value exceeds 34000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to HS advance ruling, for Week-23 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-128",
+      "scenario": "Processing shipment booking for orders routed via RCEP e-CO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-24",
+      "condition": "Order value exceeds 38000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to ASEAN Single Window, for Week-24 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-129",
+      "scenario": "Processing document review for orders routed via Incoterms 2020 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-25",
+      "condition": "Order value exceeds 42000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to AEO program, for Week-25 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-130",
+      "scenario": "Processing buyer onboarding for orders routed via UCP 600 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-26",
+      "condition": "Order value exceeds 46000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to UCP 600 control, for Week-26 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-131",
+      "scenario": "Processing customs declaration for orders routed via HS 2022 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-27",
+      "condition": "Order value exceeds 50000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to RCEP e-CO, for Week-27 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-132",
+      "scenario": "Processing certificate of origin for orders routed via AEO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-28",
+      "condition": "Order value exceeds 54000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to HS advance ruling, for Week-28 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-133",
+      "scenario": "Processing cross-border payment for orders routed via ASEAN Single Window | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-29",
+      "condition": "Order value exceeds 58000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to ASEAN Single Window, for Week-29 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-134",
+      "scenario": "Processing delivery lead time for orders routed via RCEP e-CO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-30",
+      "condition": "Order value exceeds 62000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to AEO program, for Week-30 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-135",
+      "scenario": "Processing invoice compliance for orders routed via Incoterms 2020 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-31",
+      "condition": "Order value exceeds 66000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to UCP 600 control, for Week-31 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-136",
+      "scenario": "Processing product classification for orders routed via UCP 600 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-32",
+      "condition": "Order value exceeds 70000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to RCEP e-CO, for Week-32 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-137",
+      "scenario": "Processing after-sales claim for orders routed via HS 2022 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-33",
+      "condition": "Order value exceeds 74000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to HS advance ruling, for Week-33 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-138",
+      "scenario": "Processing shipment booking for orders routed via AEO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-34",
+      "condition": "Order value exceeds 78000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to ASEAN Single Window, for Week-34 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-139",
+      "scenario": "Processing document review for orders routed via ASEAN Single Window | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-35",
+      "condition": "Order value exceeds 82000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to AEO program, for Week-35 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-140",
+      "scenario": "Processing buyer onboarding for orders routed via RCEP e-CO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-36",
+      "condition": "Order value exceeds 86000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to UCP 600 control, for Week-36 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-141",
+      "scenario": "Processing customs declaration for orders routed via Incoterms 2020 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-37",
+      "condition": "Order value exceeds 90000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to RCEP e-CO, for Week-37 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-142",
+      "scenario": "Processing certificate of origin for orders routed via UCP 600 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-38",
+      "condition": "Order value exceeds 94000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to HS advance ruling, for Week-38 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-143",
+      "scenario": "Processing cross-border payment for orders routed via HS 2022 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-39",
+      "condition": "Order value exceeds 98000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to ASEAN Single Window, for Week-39 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-144",
+      "scenario": "Processing delivery lead time for orders routed via AEO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-40",
+      "condition": "Order value exceeds 102000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to AEO program, for Week-40 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-145",
+      "scenario": "Processing invoice compliance for orders routed via ASEAN Single Window | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-41",
+      "condition": "Order value exceeds 106000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to UCP 600 control, for Week-41 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-146",
+      "scenario": "Processing product classification for orders routed via RCEP e-CO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-42",
+      "condition": "Order value exceeds 110000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to RCEP e-CO, for Week-42 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-147",
+      "scenario": "Processing after-sales claim for orders routed via Incoterms 2020 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-43",
+      "condition": "Order value exceeds 114000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to HS advance ruling, for Week-43 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-148",
+      "scenario": "Processing shipment booking for orders routed via UCP 600 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-44",
+      "condition": "Order value exceeds 118000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to ASEAN Single Window, for Week-44 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-149",
+      "scenario": "Processing document review for orders routed via HS 2022 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-45",
+      "condition": "Order value exceeds 122000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to AEO program, for Week-45 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-150",
+      "scenario": "Processing buyer onboarding for orders routed via AEO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-46",
+      "condition": "Order value exceeds 126000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to UCP 600 control, for Week-46 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-151",
+      "scenario": "Processing customs declaration for orders routed via ASEAN Single Window | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-47",
+      "condition": "Order value exceeds 30000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to RCEP e-CO, for Week-47 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-152",
+      "scenario": "Processing certificate of origin for orders routed via RCEP e-CO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-48",
+      "condition": "Order value exceeds 34000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to HS advance ruling, for Week-48 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-153",
+      "scenario": "Processing cross-border payment for orders routed via Incoterms 2020 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-49",
+      "condition": "Order value exceeds 38000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to ASEAN Single Window, for Week-49 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-154",
+      "scenario": "Processing delivery lead time for orders routed via UCP 600 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-50",
+      "condition": "Order value exceeds 42000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to AEO program, for Week-50 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-155",
+      "scenario": "Processing invoice compliance for orders routed via HS 2022 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-51",
+      "condition": "Order value exceeds 46000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to UCP 600 control, for Week-51 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-156",
+      "scenario": "Processing product classification for orders routed via AEO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-52",
+      "condition": "Order value exceeds 50000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to RCEP e-CO, for Week-52 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-157",
+      "scenario": "Processing after-sales claim for orders routed via ASEAN Single Window | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-1",
+      "condition": "Order value exceeds 54000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to HS advance ruling, for Week-1 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-158",
+      "scenario": "Processing shipment booking for orders routed via RCEP e-CO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-2",
+      "condition": "Order value exceeds 58000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to ASEAN Single Window, for Week-2 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-159",
+      "scenario": "Processing document review for orders routed via Incoterms 2020 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-3",
+      "condition": "Order value exceeds 62000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to AEO program, for Week-3 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-160",
+      "scenario": "Processing buyer onboarding for orders routed via UCP 600 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-4",
+      "condition": "Order value exceeds 66000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to UCP 600 control, for Week-4 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-161",
+      "scenario": "Processing customs declaration for orders routed via HS 2022 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-5",
+      "condition": "Order value exceeds 70000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to RCEP e-CO, for Week-5 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-162",
+      "scenario": "Processing certificate of origin for orders routed via AEO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-6",
+      "condition": "Order value exceeds 74000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to HS advance ruling, for Week-6 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-163",
+      "scenario": "Processing cross-border payment for orders routed via ASEAN Single Window | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-7",
+      "condition": "Order value exceeds 78000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to ASEAN Single Window, for Week-7 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-164",
+      "scenario": "Processing delivery lead time for orders routed via RCEP e-CO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-8",
+      "condition": "Order value exceeds 82000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to AEO program, for Week-8 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-165",
+      "scenario": "Processing invoice compliance for orders routed via Incoterms 2020 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-9",
+      "condition": "Order value exceeds 86000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to UCP 600 control, for Week-9 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-166",
+      "scenario": "Processing product classification for orders routed via UCP 600 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-10",
+      "condition": "Order value exceeds 90000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to RCEP e-CO, for Week-10 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-167",
+      "scenario": "Processing after-sales claim for orders routed via HS 2022 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-11",
+      "condition": "Order value exceeds 94000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to HS advance ruling, for Week-11 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-168",
+      "scenario": "Processing shipment booking for orders routed via AEO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-12",
+      "condition": "Order value exceeds 98000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to ASEAN Single Window, for Week-12 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-169",
+      "scenario": "Processing document review for orders routed via ASEAN Single Window | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-13",
+      "condition": "Order value exceeds 102000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to AEO program, for Week-13 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-170",
+      "scenario": "Processing buyer onboarding for orders routed via RCEP e-CO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-14",
+      "condition": "Order value exceeds 106000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to UCP 600 control, for Week-14 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-171",
+      "scenario": "Processing customs declaration for orders routed via Incoterms 2020 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-15",
+      "condition": "Order value exceeds 110000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to RCEP e-CO, for Week-15 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-172",
+      "scenario": "Processing certificate of origin for orders routed via UCP 600 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-16",
+      "condition": "Order value exceeds 114000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to HS advance ruling, for Week-16 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-173",
+      "scenario": "Processing cross-border payment for orders routed via HS 2022 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-17",
+      "condition": "Order value exceeds 118000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to ASEAN Single Window, for Week-17 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-174",
+      "scenario": "Processing delivery lead time for orders routed via AEO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-18",
+      "condition": "Order value exceeds 122000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to AEO program, for Week-18 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-175",
+      "scenario": "Processing invoice compliance for orders routed via ASEAN Single Window | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-19",
+      "condition": "Order value exceeds 126000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to UCP 600 control, for Week-19 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-176",
+      "scenario": "Processing product classification for orders routed via RCEP e-CO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-20",
+      "condition": "Order value exceeds 30000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to RCEP e-CO, for Week-20 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-177",
+      "scenario": "Processing after-sales claim for orders routed via Incoterms 2020 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-21",
+      "condition": "Order value exceeds 34000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to HS advance ruling, for Week-21 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-178",
+      "scenario": "Processing shipment booking for orders routed via UCP 600 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-22",
+      "condition": "Order value exceeds 38000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to ASEAN Single Window, for Week-22 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-179",
+      "scenario": "Processing document review for orders routed via HS 2022 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-23",
+      "condition": "Order value exceeds 42000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to AEO program, for Week-23 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-180",
+      "scenario": "Processing buyer onboarding for orders routed via AEO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-24",
+      "condition": "Order value exceeds 46000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to UCP 600 control, for Week-24 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-181",
+      "scenario": "Processing customs declaration for orders routed via ASEAN Single Window | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-25",
+      "condition": "Order value exceeds 50000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to RCEP e-CO, for Week-25 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-182",
+      "scenario": "Processing certificate of origin for orders routed via RCEP e-CO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-26",
+      "condition": "Order value exceeds 54000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to HS advance ruling, for Week-26 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-183",
+      "scenario": "Processing cross-border payment for orders routed via Incoterms 2020 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-27",
+      "condition": "Order value exceeds 58000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to ASEAN Single Window, for Week-27 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-184",
+      "scenario": "Processing delivery lead time for orders routed via UCP 600 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-28",
+      "condition": "Order value exceeds 62000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to AEO program, for Week-28 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-185",
+      "scenario": "Processing invoice compliance for orders routed via HS 2022 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-29",
+      "condition": "Order value exceeds 66000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to UCP 600 control, for Week-29 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-186",
+      "scenario": "Processing product classification for orders routed via AEO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-30",
+      "condition": "Order value exceeds 70000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to RCEP e-CO, for Week-30 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-187",
+      "scenario": "Processing after-sales claim for orders routed via ASEAN Single Window | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-31",
+      "condition": "Order value exceeds 74000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to HS advance ruling, for Week-31 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-188",
+      "scenario": "Processing shipment booking for orders routed via RCEP e-CO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-32",
+      "condition": "Order value exceeds 78000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to ASEAN Single Window, for Week-32 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-189",
+      "scenario": "Processing document review for orders routed via Incoterms 2020 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-33",
+      "condition": "Order value exceeds 82000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to AEO program, for Week-33 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-190",
+      "scenario": "Processing buyer onboarding for orders routed via UCP 600 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-34",
+      "condition": "Order value exceeds 86000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to UCP 600 control, for Week-34 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-191",
+      "scenario": "Processing customs declaration for orders routed via HS 2022 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-35",
+      "condition": "Order value exceeds 90000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to RCEP e-CO, for Week-35 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-192",
+      "scenario": "Processing certificate of origin for orders routed via AEO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-36",
+      "condition": "Order value exceeds 94000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to HS advance ruling, for Week-36 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-193",
+      "scenario": "Processing cross-border payment for orders routed via ASEAN Single Window | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-37",
+      "condition": "Order value exceeds 98000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to ASEAN Single Window, for Week-37 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-194",
+      "scenario": "Processing delivery lead time for orders routed via RCEP e-CO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-38",
+      "condition": "Order value exceeds 102000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to AEO program, for Week-38 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-195",
+      "scenario": "Processing invoice compliance for orders routed via Incoterms 2020 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-39",
+      "condition": "Order value exceeds 106000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to UCP 600 control, for Week-39 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-196",
+      "scenario": "Processing product classification for orders routed via UCP 600 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-40",
+      "condition": "Order value exceeds 110000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to RCEP e-CO, for Week-40 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-197",
+      "scenario": "Processing after-sales claim for orders routed via HS 2022 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-41",
+      "condition": "Order value exceeds 114000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to HS advance ruling, for Week-41 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-198",
+      "scenario": "Processing shipment booking for orders routed via AEO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-42",
+      "condition": "Order value exceeds 118000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to ASEAN Single Window, for Week-42 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-199",
+      "scenario": "Processing document review for orders routed via ASEAN Single Window | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-43",
+      "condition": "Order value exceeds 122000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to AEO program, for Week-43 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-200",
+      "scenario": "Processing buyer onboarding for orders routed via RCEP e-CO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-44",
+      "condition": "Order value exceeds 126000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to UCP 600 control, for Week-44 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-201",
+      "scenario": "Processing customs declaration for orders routed via Incoterms 2020 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-45",
+      "condition": "Order value exceeds 30000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to RCEP e-CO, for Week-45 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-202",
+      "scenario": "Processing certificate of origin for orders routed via UCP 600 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-46",
+      "condition": "Order value exceeds 34000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to HS advance ruling, for Week-46 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-203",
+      "scenario": "Processing cross-border payment for orders routed via HS 2022 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-47",
+      "condition": "Order value exceeds 38000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to ASEAN Single Window, for Week-47 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-204",
+      "scenario": "Processing delivery lead time for orders routed via AEO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-48",
+      "condition": "Order value exceeds 42000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to AEO program, for Week-48 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-205",
+      "scenario": "Processing invoice compliance for orders routed via ASEAN Single Window | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-49",
+      "condition": "Order value exceeds 46000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to UCP 600 control, for Week-49 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-206",
+      "scenario": "Processing product classification for orders routed via RCEP e-CO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-50",
+      "condition": "Order value exceeds 50000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to RCEP e-CO, for Week-50 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-207",
+      "scenario": "Processing after-sales claim for orders routed via Incoterms 2020 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-51",
+      "condition": "Order value exceeds 54000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to HS advance ruling, for Week-51 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-208",
+      "scenario": "Processing shipment booking for orders routed via UCP 600 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-52",
+      "condition": "Order value exceeds 58000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to ASEAN Single Window, for Week-52 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-209",
+      "scenario": "Processing document review for orders routed via HS 2022 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-1",
+      "condition": "Order value exceeds 62000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to AEO program, for Week-1 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-210",
+      "scenario": "Processing buyer onboarding for orders routed via AEO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-2",
+      "condition": "Order value exceeds 66000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to UCP 600 control, for Week-2 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-211",
+      "scenario": "Processing customs declaration for orders routed via ASEAN Single Window | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-3",
+      "condition": "Order value exceeds 70000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to RCEP e-CO, for Week-3 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-212",
+      "scenario": "Processing certificate of origin for orders routed via RCEP e-CO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-4",
+      "condition": "Order value exceeds 74000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to HS advance ruling, for Week-4 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-213",
+      "scenario": "Processing cross-border payment for orders routed via Incoterms 2020 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-5",
+      "condition": "Order value exceeds 78000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to ASEAN Single Window, for Week-5 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-214",
+      "scenario": "Processing delivery lead time for orders routed via UCP 600 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-6",
+      "condition": "Order value exceeds 82000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to AEO program, for Week-6 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-215",
+      "scenario": "Processing invoice compliance for orders routed via HS 2022 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-7",
+      "condition": "Order value exceeds 86000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to UCP 600 control, for Week-7 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-216",
+      "scenario": "Processing product classification for orders routed via AEO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-8",
+      "condition": "Order value exceeds 90000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to RCEP e-CO, for Week-8 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-217",
+      "scenario": "Processing after-sales claim for orders routed via ASEAN Single Window | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-9",
+      "condition": "Order value exceeds 94000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to HS advance ruling, for Week-9 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-218",
+      "scenario": "Processing shipment booking for orders routed via RCEP e-CO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-10",
+      "condition": "Order value exceeds 98000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to ASEAN Single Window, for Week-10 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-219",
+      "scenario": "Processing document review for orders routed via Incoterms 2020 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-11",
+      "condition": "Order value exceeds 102000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to AEO program, for Week-11 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-220",
+      "scenario": "Processing buyer onboarding for orders routed via UCP 600 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-12",
+      "condition": "Order value exceeds 106000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to UCP 600 control, for Week-12 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-221",
+      "scenario": "Processing customs declaration for orders routed via HS 2022 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-13",
+      "condition": "Order value exceeds 110000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to RCEP e-CO, for Week-13 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-222",
+      "scenario": "Processing certificate of origin for orders routed via AEO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-14",
+      "condition": "Order value exceeds 114000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to HS advance ruling, for Week-14 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-223",
+      "scenario": "Processing cross-border payment for orders routed via ASEAN Single Window | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-15",
+      "condition": "Order value exceeds 118000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to ASEAN Single Window, for Week-15 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-224",
+      "scenario": "Processing delivery lead time for orders routed via RCEP e-CO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-16",
+      "condition": "Order value exceeds 122000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to AEO program, for Week-16 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-225",
+      "scenario": "Processing invoice compliance for orders routed via Incoterms 2020 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-17",
+      "condition": "Order value exceeds 126000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to UCP 600 control, for Week-17 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-226",
+      "scenario": "Processing product classification for orders routed via UCP 600 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-18",
+      "condition": "Order value exceeds 30000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to RCEP e-CO, for Week-18 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-227",
+      "scenario": "Processing after-sales claim for orders routed via HS 2022 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-19",
+      "condition": "Order value exceeds 34000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to HS advance ruling, for Week-19 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-228",
+      "scenario": "Processing shipment booking for orders routed via AEO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-20",
+      "condition": "Order value exceeds 38000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to ASEAN Single Window, for Week-20 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-229",
+      "scenario": "Processing document review for orders routed via ASEAN Single Window | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-21",
+      "condition": "Order value exceeds 42000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to AEO program, for Week-21 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-230",
+      "scenario": "Processing buyer onboarding for orders routed via RCEP e-CO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-22",
+      "condition": "Order value exceeds 46000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to UCP 600 control, for Week-22 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-231",
+      "scenario": "Processing customs declaration for orders routed via Incoterms 2020 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-23",
+      "condition": "Order value exceeds 50000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to RCEP e-CO, for Week-23 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-232",
+      "scenario": "Processing certificate of origin for orders routed via UCP 600 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-24",
+      "condition": "Order value exceeds 54000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to HS advance ruling, for Week-24 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-233",
+      "scenario": "Processing cross-border payment for orders routed via HS 2022 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-25",
+      "condition": "Order value exceeds 58000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to ASEAN Single Window, for Week-25 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-234",
+      "scenario": "Processing delivery lead time for orders routed via AEO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-26",
+      "condition": "Order value exceeds 62000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to AEO program, for Week-26 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-235",
+      "scenario": "Processing invoice compliance for orders routed via ASEAN Single Window | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-27",
+      "condition": "Order value exceeds 66000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to UCP 600 control, for Week-27 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-236",
+      "scenario": "Processing product classification for orders routed via RCEP e-CO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-28",
+      "condition": "Order value exceeds 70000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to RCEP e-CO, for Week-28 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-237",
+      "scenario": "Processing after-sales claim for orders routed via Incoterms 2020 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-29",
+      "condition": "Order value exceeds 74000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to HS advance ruling, for Week-29 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-238",
+      "scenario": "Processing shipment booking for orders routed via UCP 600 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-30",
+      "condition": "Order value exceeds 78000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to ASEAN Single Window, for Week-30 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-239",
+      "scenario": "Processing document review for orders routed via HS 2022 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-31",
+      "condition": "Order value exceeds 82000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to AEO program, for Week-31 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-240",
+      "scenario": "Processing buyer onboarding for orders routed via AEO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-32",
+      "condition": "Order value exceeds 86000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to UCP 600 control, for Week-32 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-241",
+      "scenario": "Processing customs declaration for orders routed via ASEAN Single Window | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-33",
+      "condition": "Order value exceeds 90000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to RCEP e-CO, for Week-33 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-242",
+      "scenario": "Processing certificate of origin for orders routed via RCEP e-CO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-34",
+      "condition": "Order value exceeds 94000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to HS advance ruling, for Week-34 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-243",
+      "scenario": "Processing cross-border payment for orders routed via Incoterms 2020 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-35",
+      "condition": "Order value exceeds 98000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to ASEAN Single Window, for Week-35 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-244",
+      "scenario": "Processing delivery lead time for orders routed via UCP 600 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-36",
+      "condition": "Order value exceeds 102000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to AEO program, for Week-36 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-245",
+      "scenario": "Processing invoice compliance for orders routed via HS 2022 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-37",
+      "condition": "Order value exceeds 106000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to UCP 600 control, for Week-37 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-246",
+      "scenario": "Processing product classification for orders routed via AEO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-38",
+      "condition": "Order value exceeds 110000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to RCEP e-CO, for Week-38 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-247",
+      "scenario": "Processing after-sales claim for orders routed via ASEAN Single Window | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-39",
+      "condition": "Order value exceeds 114000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to HS advance ruling, for Week-39 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-248",
+      "scenario": "Processing shipment booking for orders routed via RCEP e-CO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-40",
+      "condition": "Order value exceeds 118000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to ASEAN Single Window, for Week-40 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-249",
+      "scenario": "Processing document review for orders routed via Incoterms 2020 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-41",
+      "condition": "Order value exceeds 122000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to AEO program, for Week-41 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-250",
+      "scenario": "Processing buyer onboarding for orders routed via UCP 600 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-42",
+      "condition": "Order value exceeds 126000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to UCP 600 control, for Week-42 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-251",
+      "scenario": "Processing customs declaration for orders routed via HS 2022 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-43",
+      "condition": "Order value exceeds 30000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to RCEP e-CO, for Week-43 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-252",
+      "scenario": "Processing certificate of origin for orders routed via AEO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-44",
+      "condition": "Order value exceeds 34000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to HS advance ruling, for Week-44 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-253",
+      "scenario": "Processing cross-border payment for orders routed via ASEAN Single Window | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-45",
+      "condition": "Order value exceeds 38000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to ASEAN Single Window, for Week-45 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-254",
+      "scenario": "Processing delivery lead time for orders routed via RCEP e-CO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-46",
+      "condition": "Order value exceeds 42000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to AEO program, for Week-46 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-255",
+      "scenario": "Processing invoice compliance for orders routed via Incoterms 2020 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-47",
+      "condition": "Order value exceeds 46000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to UCP 600 control, for Week-47 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-256",
+      "scenario": "Processing product classification for orders routed via UCP 600 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-48",
+      "condition": "Order value exceeds 50000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to RCEP e-CO, for Week-48 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-257",
+      "scenario": "Processing after-sales claim for orders routed via HS 2022 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-49",
+      "condition": "Order value exceeds 54000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to HS advance ruling, for Week-49 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-258",
+      "scenario": "Processing shipment booking for orders routed via AEO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-50",
+      "condition": "Order value exceeds 58000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to ASEAN Single Window, for Week-50 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-259",
+      "scenario": "Processing document review for orders routed via ASEAN Single Window | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-51",
+      "condition": "Order value exceeds 62000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to AEO program, for Week-51 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-260",
+      "scenario": "Processing buyer onboarding for orders routed via RCEP e-CO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-52",
+      "condition": "Order value exceeds 66000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to UCP 600 control, for Week-52 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-261",
+      "scenario": "Processing customs declaration for orders routed via Incoterms 2020 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-1",
+      "condition": "Order value exceeds 70000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to RCEP e-CO, for Week-1 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-262",
+      "scenario": "Processing certificate of origin for orders routed via UCP 600 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-2",
+      "condition": "Order value exceeds 74000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to HS advance ruling, for Week-2 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-263",
+      "scenario": "Processing cross-border payment for orders routed via HS 2022 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-3",
+      "condition": "Order value exceeds 78000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to ASEAN Single Window, for Week-3 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-264",
+      "scenario": "Processing delivery lead time for orders routed via AEO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-4",
+      "condition": "Order value exceeds 82000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to AEO program, for Week-4 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-265",
+      "scenario": "Processing invoice compliance for orders routed via ASEAN Single Window | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-5",
+      "condition": "Order value exceeds 86000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to UCP 600 control, for Week-5 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-266",
+      "scenario": "Processing product classification for orders routed via RCEP e-CO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-6",
+      "condition": "Order value exceeds 90000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to RCEP e-CO, for Week-6 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-267",
+      "scenario": "Processing after-sales claim for orders routed via Incoterms 2020 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-7",
+      "condition": "Order value exceeds 94000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to HS advance ruling, for Week-7 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-268",
+      "scenario": "Processing shipment booking for orders routed via UCP 600 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-8",
+      "condition": "Order value exceeds 98000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to ASEAN Single Window, for Week-8 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-269",
+      "scenario": "Processing document review for orders routed via HS 2022 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-9",
+      "condition": "Order value exceeds 102000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to AEO program, for Week-9 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-270",
+      "scenario": "Processing buyer onboarding for orders routed via AEO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-10",
+      "condition": "Order value exceeds 106000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to UCP 600 control, for Week-10 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-271",
+      "scenario": "Processing customs declaration for orders routed via ASEAN Single Window | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-11",
+      "condition": "Order value exceeds 110000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to RCEP e-CO, for Week-11 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-272",
+      "scenario": "Processing certificate of origin for orders routed via RCEP e-CO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-12",
+      "condition": "Order value exceeds 114000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to HS advance ruling, for Week-12 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-273",
+      "scenario": "Processing cross-border payment for orders routed via Incoterms 2020 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-13",
+      "condition": "Order value exceeds 118000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to ASEAN Single Window, for Week-13 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-274",
+      "scenario": "Processing delivery lead time for orders routed via UCP 600 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-14",
+      "condition": "Order value exceeds 122000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to AEO program, for Week-14 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-275",
+      "scenario": "Processing invoice compliance for orders routed via HS 2022 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-15",
+      "condition": "Order value exceeds 126000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to UCP 600 control, for Week-15 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-276",
+      "scenario": "Processing product classification for orders routed via AEO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-16",
+      "condition": "Order value exceeds 30000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to RCEP e-CO, for Week-16 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-277",
+      "scenario": "Processing after-sales claim for orders routed via ASEAN Single Window | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-17",
+      "condition": "Order value exceeds 34000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to HS advance ruling, for Week-17 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-278",
+      "scenario": "Processing shipment booking for orders routed via RCEP e-CO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-18",
+      "condition": "Order value exceeds 38000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to ASEAN Single Window, for Week-18 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-279",
+      "scenario": "Processing document review for orders routed via Incoterms 2020 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-19",
+      "condition": "Order value exceeds 42000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to AEO program, for Week-19 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-280",
+      "scenario": "Processing buyer onboarding for orders routed via UCP 600 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-20",
+      "condition": "Order value exceeds 46000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to UCP 600 control, for Week-20 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-281",
+      "scenario": "Processing customs declaration for orders routed via HS 2022 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-21",
+      "condition": "Order value exceeds 50000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to RCEP e-CO, for Week-21 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-282",
+      "scenario": "Processing certificate of origin for orders routed via AEO | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-22",
+      "condition": "Order value exceeds 54000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to HS advance ruling, for Week-22 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-283",
+      "scenario": "Processing cross-border payment for orders routed via ASEAN Single Window | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-23",
+      "condition": "Order value exceeds 58000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to ASEAN Single Window, for Week-23 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-284",
+      "scenario": "Processing delivery lead time for orders routed via RCEP e-CO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-24",
+      "condition": "Order value exceeds 62000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to AEO program, for Week-24 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-285",
+      "scenario": "Processing invoice compliance for orders routed via Incoterms 2020 | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-25",
+      "condition": "Order value exceeds 66000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to UCP 600 control, for Week-25 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-286",
+      "scenario": "Processing product classification for orders routed via UCP 600 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-26",
+      "condition": "Order value exceeds 70000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to RCEP e-CO, for Week-26 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-287",
+      "scenario": "Processing after-sales claim for orders routed via HS 2022 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-27",
+      "condition": "Order value exceeds 74000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to HS advance ruling, for Week-27 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-288",
+      "scenario": "Processing shipment booking for orders routed via AEO | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-28",
+      "condition": "Order value exceeds 78000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to ASEAN Single Window, for Week-28 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-289",
+      "scenario": "Processing document review for orders routed via ASEAN Single Window | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-29",
+      "condition": "Order value exceeds 82000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to AEO program, for Week-29 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-290",
+      "scenario": "Processing buyer onboarding for orders routed via RCEP e-CO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-30",
+      "condition": "Order value exceeds 86000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to UCP 600 control, for Week-30 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-291",
+      "scenario": "Processing customs declaration for orders routed via Incoterms 2020 | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-31",
+      "condition": "Order value exceeds 90000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to RCEP e-CO, for Week-31 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-292",
+      "scenario": "Processing certificate of origin for orders routed via UCP 600 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-32",
+      "condition": "Order value exceeds 94000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to HS advance ruling, for Week-32 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 7 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-293",
+      "scenario": "Processing cross-border payment for orders routed via HS 2022 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-33",
+      "condition": "Order value exceeds 98000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to ASEAN Single Window, for Week-33 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 8 hours and log exception ownership for audit.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-294",
+      "scenario": "Processing delivery lead time for orders routed via AEO | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-34",
+      "condition": "Order value exceeds 102000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to AEO program, for Week-34 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 9 hours and log exception ownership for audit.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-295",
+      "scenario": "Processing invoice compliance for orders routed via ASEAN Single Window | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-35",
+      "condition": "Order value exceeds 106000 USD, shipment destination includes ASEAN, and compliance review references ASEAN Single Window with validation rules mapped to UCP 600 control, for Week-35 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 2 hours Return milestone updates within 10 hours and log exception ownership for audit.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-296",
+      "scenario": "Processing product classification for orders routed via RCEP e-CO | RCEP e-CO | Gulf-ASEAN lane | Tanjung Priok | D/P | Week-36",
+      "condition": "Order value exceeds 110000 USD, shipment destination includes ASEAN, and compliance review references RCEP e-CO with validation rules mapped to RCEP e-CO, for Week-36 departures on the Gulf-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 3 hours Return milestone updates within 11 hours and log exception ownership for audit.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-297",
+      "scenario": "Processing after-sales claim for orders routed via Incoterms 2020 | HS advance ruling | Malaysia-Indonesia lane | Vientiane ICD | L/C | Week-37",
+      "condition": "Order value exceeds 114000 USD, shipment destination includes ASEAN, and compliance review references Incoterms 2020 with validation rules mapped to HS advance ruling, for Week-37 departures on the Malaysia-Indonesia lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 4 hours Return milestone updates within 12 hours and log exception ownership for audit.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-298",
+      "scenario": "Processing shipment booking for orders routed via UCP 600 | ASEAN Single Window | Mekong corridor | Laem Chabang | D/A | Week-38",
+      "condition": "Order value exceeds 118000 USD, shipment destination includes ASEAN, and compliance review references UCP 600 with validation rules mapped to ASEAN Single Window, for Week-38 departures on the Mekong corridor.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 5 hours Return milestone updates within 4 hours and log exception ownership for audit.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-299",
+      "scenario": "Processing document review for orders routed via HS 2022 | AEO program | Thailand-Vietnam lane | Hai Phong | T/T | Week-39",
+      "condition": "Order value exceeds 122000 USD, shipment destination includes ASEAN, and compliance review references HS 2022 with validation rules mapped to AEO program, for Week-39 departures on the Thailand-Vietnam lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 6 hours Return milestone updates within 5 hours and log exception ownership for audit.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-300",
+      "scenario": "Processing buyer onboarding for orders routed via AEO | UCP 600 control | China-ASEAN lane | Port Klang | real-time QR payment | Week-40",
+      "condition": "Order value exceeds 126000 USD, shipment destination includes ASEAN, and compliance review references AEO with validation rules mapped to UCP 600 control, for Week-40 departures on the China-ASEAN lane.",
+      "result": "Apply dual-check approval, lock critical fields, and notify finance/logistics owners within 7 hours Return milestone updates within 6 hours and log exception ownership for audit.",
+      "category": "物流规则"
+    }
+  ]
+}

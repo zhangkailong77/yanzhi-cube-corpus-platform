@@ -1,0 +1,2114 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "alignment",
+    "domain": "trade",
+    "created_by": "localized-generator",
+    "created_at": "2026-02-25T06:26:47Z",
+    "description": "Localized CN-TH alignment corpus - 300",
+    "source_lang": "zh",
+    "target_lang": "th"
+  },
+  "data": [
+    {
+      "alignment_id": "ALIGN-001",
+      "source_text": "针对customs declaration场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第1周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน customs declaration ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 1 (port: Songkhla; payment: D/P; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-002",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第2周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 2 (port: Chiang Saen; payment: L/C; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-003",
+      "source_text": "若cross-border payment进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第3周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 3 (port: Bangkok Port; payment: PromptPay; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-004",
+      "source_text": "针对delivery lead time场景，团队需先在Thai QR Payment中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第4周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน delivery lead time ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 4 (port: Laem Chabang; payment: T/T; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-005",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第5周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 5 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-006",
+      "source_text": "若product classification进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第6周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 6 (port: Songkhla; payment: D/P; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-007",
+      "source_text": "针对after-sales claim场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第7周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน after-sales claim ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 7 (port: Chiang Saen; payment: L/C; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-008",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第8周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 8 (port: Bangkok Port; payment: PromptPay; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-009",
+      "source_text": "若document review进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第9周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 9 (port: Laem Chabang; payment: T/T; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-010",
+      "source_text": "针对buyer onboarding场景，团队需先在Thai QR Payment中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第10周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน buyer onboarding ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 10 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-011",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第11周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 11 (port: Songkhla; payment: D/P; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-012",
+      "source_text": "若certificate of origin进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第12周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 12 (port: Chiang Saen; payment: L/C; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-013",
+      "source_text": "针对cross-border payment场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第13周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน cross-border payment ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 13 (port: Bangkok Port; payment: PromptPay; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-014",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第14周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 14 (port: Laem Chabang; payment: T/T; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-015",
+      "source_text": "若invoice compliance进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第15周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 15 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-016",
+      "source_text": "针对product classification场景，团队需先在Thai QR Payment中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第16周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน product classification ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 16 (port: Songkhla; payment: D/P; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-017",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第17周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 17 (port: Chiang Saen; payment: L/C; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-018",
+      "source_text": "若shipment booking进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第18周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 18 (port: Bangkok Port; payment: PromptPay; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-019",
+      "source_text": "针对document review场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第19周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน document review ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 19 (port: Laem Chabang; payment: T/T; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-020",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第20周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 20 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-021",
+      "source_text": "若customs declaration进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第21周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 21 (port: Songkhla; payment: D/P; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-022",
+      "source_text": "针对certificate of origin场景，团队需先在Thai QR Payment中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第22周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน certificate of origin ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 22 (port: Chiang Saen; payment: L/C; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-023",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第23周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 23 (port: Bangkok Port; payment: PromptPay; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-024",
+      "source_text": "若delivery lead time进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第24周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 24 (port: Laem Chabang; payment: T/T; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-025",
+      "source_text": "针对invoice compliance场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第25周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน invoice compliance ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 25 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-026",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第26周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 26 (port: Songkhla; payment: D/P; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-027",
+      "source_text": "若after-sales claim进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第27周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 27 (port: Chiang Saen; payment: L/C; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-028",
+      "source_text": "针对shipment booking场景，团队需先在Thai QR Payment中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第28周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน shipment booking ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 28 (port: Bangkok Port; payment: PromptPay; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-029",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第29周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 29 (port: Laem Chabang; payment: T/T; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-030",
+      "source_text": "若buyer onboarding进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第30周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 30 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-031",
+      "source_text": "针对customs declaration场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第31周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน customs declaration ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 31 (port: Songkhla; payment: D/P; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-032",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第32周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 32 (port: Chiang Saen; payment: L/C; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-033",
+      "source_text": "若cross-border payment进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第33周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 33 (port: Bangkok Port; payment: PromptPay; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-034",
+      "source_text": "针对delivery lead time场景，团队需先在Thai QR Payment中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第34周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน delivery lead time ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 34 (port: Laem Chabang; payment: T/T; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-035",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第35周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 35 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-036",
+      "source_text": "若product classification进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第36周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 36 (port: Songkhla; payment: D/P; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-037",
+      "source_text": "针对after-sales claim场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第37周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน after-sales claim ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 37 (port: Chiang Saen; payment: L/C; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-038",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第38周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 38 (port: Bangkok Port; payment: PromptPay; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-039",
+      "source_text": "若document review进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第39周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 39 (port: Laem Chabang; payment: T/T; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-040",
+      "source_text": "针对buyer onboarding场景，团队需先在Thai QR Payment中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第40周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน buyer onboarding ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 40 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-041",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第41周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 41 (port: Songkhla; payment: D/P; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-042",
+      "source_text": "若certificate of origin进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第42周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 42 (port: Chiang Saen; payment: L/C; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-043",
+      "source_text": "针对cross-border payment场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第43周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน cross-border payment ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 43 (port: Bangkok Port; payment: PromptPay; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-044",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第44周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 44 (port: Laem Chabang; payment: T/T; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-045",
+      "source_text": "若invoice compliance进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第45周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 45 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-046",
+      "source_text": "针对product classification场景，团队需先在Thai QR Payment中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第46周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน product classification ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 46 (port: Songkhla; payment: D/P; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-047",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第47周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 47 (port: Chiang Saen; payment: L/C; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-048",
+      "source_text": "若shipment booking进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第48周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 48 (port: Bangkok Port; payment: PromptPay; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-049",
+      "source_text": "针对document review场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第49周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน document review ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 49 (port: Laem Chabang; payment: T/T; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-050",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第50周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 50 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-051",
+      "source_text": "若customs declaration进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第51周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 51 (port: Songkhla; payment: D/P; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-052",
+      "source_text": "针对certificate of origin场景，团队需先在Thai QR Payment中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第52周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน certificate of origin ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 52 (port: Chiang Saen; payment: L/C; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-053",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第1周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 1 (port: Bangkok Port; payment: PromptPay; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-054",
+      "source_text": "若delivery lead time进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第2周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 2 (port: Laem Chabang; payment: T/T; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-055",
+      "source_text": "针对invoice compliance场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第3周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน invoice compliance ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 3 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-056",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第4周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 4 (port: Songkhla; payment: D/P; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-057",
+      "source_text": "若after-sales claim进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第5周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 5 (port: Chiang Saen; payment: L/C; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-058",
+      "source_text": "针对shipment booking场景，团队需先在Thai QR Payment中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第6周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน shipment booking ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 6 (port: Bangkok Port; payment: PromptPay; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-059",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第7周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 7 (port: Laem Chabang; payment: T/T; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-060",
+      "source_text": "若buyer onboarding进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第8周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 8 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-061",
+      "source_text": "针对customs declaration场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第9周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน customs declaration ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 9 (port: Songkhla; payment: D/P; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-062",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第10周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 10 (port: Chiang Saen; payment: L/C; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-063",
+      "source_text": "若cross-border payment进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第11周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 11 (port: Bangkok Port; payment: PromptPay; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-064",
+      "source_text": "针对delivery lead time场景，团队需先在Thai QR Payment中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第12周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน delivery lead time ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 12 (port: Laem Chabang; payment: T/T; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-065",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第13周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 13 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-066",
+      "source_text": "若product classification进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第14周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 14 (port: Songkhla; payment: D/P; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-067",
+      "source_text": "针对after-sales claim场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第15周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน after-sales claim ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 15 (port: Chiang Saen; payment: L/C; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-068",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第16周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 16 (port: Bangkok Port; payment: PromptPay; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-069",
+      "source_text": "若document review进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第17周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 17 (port: Laem Chabang; payment: T/T; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-070",
+      "source_text": "针对buyer onboarding场景，团队需先在Thai QR Payment中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第18周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน buyer onboarding ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 18 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-071",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第19周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 19 (port: Songkhla; payment: D/P; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-072",
+      "source_text": "若certificate of origin进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第20周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 20 (port: Chiang Saen; payment: L/C; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-073",
+      "source_text": "针对cross-border payment场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第21周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน cross-border payment ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 21 (port: Bangkok Port; payment: PromptPay; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-074",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第22周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 22 (port: Laem Chabang; payment: T/T; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-075",
+      "source_text": "若invoice compliance进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第23周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 23 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-076",
+      "source_text": "针对product classification场景，团队需先在Thai QR Payment中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第24周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน product classification ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 24 (port: Songkhla; payment: D/P; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-077",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第25周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 25 (port: Chiang Saen; payment: L/C; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-078",
+      "source_text": "若shipment booking进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第26周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 26 (port: Bangkok Port; payment: PromptPay; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-079",
+      "source_text": "针对document review场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第27周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน document review ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 27 (port: Laem Chabang; payment: T/T; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-080",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第28周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 28 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-081",
+      "source_text": "若customs declaration进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第29周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 29 (port: Songkhla; payment: D/P; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-082",
+      "source_text": "针对certificate of origin场景，团队需先在Thai QR Payment中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第30周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน certificate of origin ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 30 (port: Chiang Saen; payment: L/C; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-083",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第31周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 31 (port: Bangkok Port; payment: PromptPay; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-084",
+      "source_text": "若delivery lead time进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第32周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 32 (port: Laem Chabang; payment: T/T; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-085",
+      "source_text": "针对invoice compliance场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第33周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน invoice compliance ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 33 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-086",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第34周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 34 (port: Songkhla; payment: D/P; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-087",
+      "source_text": "若after-sales claim进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第35周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 35 (port: Chiang Saen; payment: L/C; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-088",
+      "source_text": "针对shipment booking场景，团队需先在Thai QR Payment中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第36周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน shipment booking ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 36 (port: Bangkok Port; payment: PromptPay; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-089",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第37周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 37 (port: Laem Chabang; payment: T/T; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-090",
+      "source_text": "若buyer onboarding进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第38周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 38 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-091",
+      "source_text": "针对customs declaration场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第39周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน customs declaration ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 39 (port: Songkhla; payment: D/P; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-092",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第40周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 40 (port: Chiang Saen; payment: L/C; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-093",
+      "source_text": "若cross-border payment进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第41周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 41 (port: Bangkok Port; payment: PromptPay; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-094",
+      "source_text": "针对delivery lead time场景，团队需先在Thai QR Payment中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第42周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน delivery lead time ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 42 (port: Laem Chabang; payment: T/T; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-095",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第43周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 43 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-096",
+      "source_text": "若product classification进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第44周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 44 (port: Songkhla; payment: D/P; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-097",
+      "source_text": "针对after-sales claim场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第45周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน after-sales claim ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 45 (port: Chiang Saen; payment: L/C; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-098",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第46周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 46 (port: Bangkok Port; payment: PromptPay; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-099",
+      "source_text": "若document review进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第47周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 47 (port: Laem Chabang; payment: T/T; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-100",
+      "source_text": "针对buyer onboarding场景，团队需先在Thai QR Payment中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第48周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน buyer onboarding ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 48 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-101",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第49周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 49 (port: Songkhla; payment: D/P; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-102",
+      "source_text": "若certificate of origin进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第50周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 50 (port: Chiang Saen; payment: L/C; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-103",
+      "source_text": "针对cross-border payment场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第51周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน cross-border payment ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 51 (port: Bangkok Port; payment: PromptPay; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-104",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第52周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 52 (port: Laem Chabang; payment: T/T; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-105",
+      "source_text": "若invoice compliance进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第1周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 1 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-106",
+      "source_text": "针对product classification场景，团队需先在Thai QR Payment中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第2周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน product classification ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 2 (port: Songkhla; payment: D/P; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-107",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第3周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 3 (port: Chiang Saen; payment: L/C; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-108",
+      "source_text": "若shipment booking进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第4周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 4 (port: Bangkok Port; payment: PromptPay; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-109",
+      "source_text": "针对document review场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第5周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน document review ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 5 (port: Laem Chabang; payment: T/T; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-110",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第6周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 6 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-111",
+      "source_text": "若customs declaration进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第7周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 7 (port: Songkhla; payment: D/P; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-112",
+      "source_text": "针对certificate of origin场景，团队需先在Thai QR Payment中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第8周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน certificate of origin ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 8 (port: Chiang Saen; payment: L/C; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-113",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第9周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 9 (port: Bangkok Port; payment: PromptPay; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-114",
+      "source_text": "若delivery lead time进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第10周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 10 (port: Laem Chabang; payment: T/T; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-115",
+      "source_text": "针对invoice compliance场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第11周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน invoice compliance ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 11 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-116",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第12周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 12 (port: Songkhla; payment: D/P; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-117",
+      "source_text": "若after-sales claim进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第13周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 13 (port: Chiang Saen; payment: L/C; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-118",
+      "source_text": "针对shipment booking场景，团队需先在Thai QR Payment中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第14周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน shipment booking ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 14 (port: Bangkok Port; payment: PromptPay; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-119",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第15周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 15 (port: Laem Chabang; payment: T/T; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-120",
+      "source_text": "若buyer onboarding进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第16周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 16 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-121",
+      "source_text": "针对customs declaration场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第17周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน customs declaration ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 17 (port: Songkhla; payment: D/P; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-122",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第18周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 18 (port: Chiang Saen; payment: L/C; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-123",
+      "source_text": "若cross-border payment进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第19周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 19 (port: Bangkok Port; payment: PromptPay; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-124",
+      "source_text": "针对delivery lead time场景，团队需先在Thai QR Payment中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第20周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน delivery lead time ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 20 (port: Laem Chabang; payment: T/T; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-125",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第21周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 21 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-126",
+      "source_text": "若product classification进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第22周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 22 (port: Songkhla; payment: D/P; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-127",
+      "source_text": "针对after-sales claim场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第23周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน after-sales claim ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 23 (port: Chiang Saen; payment: L/C; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-128",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第24周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 24 (port: Bangkok Port; payment: PromptPay; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-129",
+      "source_text": "若document review进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第25周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 25 (port: Laem Chabang; payment: T/T; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-130",
+      "source_text": "针对buyer onboarding场景，团队需先在Thai QR Payment中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第26周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน buyer onboarding ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 26 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-131",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第27周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 27 (port: Songkhla; payment: D/P; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-132",
+      "source_text": "若certificate of origin进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第28周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 28 (port: Chiang Saen; payment: L/C; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-133",
+      "source_text": "针对cross-border payment场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第29周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน cross-border payment ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 29 (port: Bangkok Port; payment: PromptPay; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-134",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第30周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 30 (port: Laem Chabang; payment: T/T; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-135",
+      "source_text": "若invoice compliance进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第31周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 31 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-136",
+      "source_text": "针对product classification场景，团队需先在Thai QR Payment中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第32周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน product classification ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 32 (port: Songkhla; payment: D/P; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-137",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第33周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 33 (port: Chiang Saen; payment: L/C; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-138",
+      "source_text": "若shipment booking进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第34周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 34 (port: Bangkok Port; payment: PromptPay; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-139",
+      "source_text": "针对document review场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第35周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน document review ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 35 (port: Laem Chabang; payment: T/T; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-140",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第36周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 36 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-141",
+      "source_text": "若customs declaration进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第37周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 37 (port: Songkhla; payment: D/P; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-142",
+      "source_text": "针对certificate of origin场景，团队需先在Thai QR Payment中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第38周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน certificate of origin ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 38 (port: Chiang Saen; payment: L/C; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-143",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第39周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 39 (port: Bangkok Port; payment: PromptPay; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-144",
+      "source_text": "若delivery lead time进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第40周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 40 (port: Laem Chabang; payment: T/T; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-145",
+      "source_text": "针对invoice compliance场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第41周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน invoice compliance ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 41 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-146",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第42周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 42 (port: Songkhla; payment: D/P; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-147",
+      "source_text": "若after-sales claim进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第43周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 43 (port: Chiang Saen; payment: L/C; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-148",
+      "source_text": "针对shipment booking场景，团队需先在Thai QR Payment中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第44周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน shipment booking ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 44 (port: Bangkok Port; payment: PromptPay; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-149",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第45周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 45 (port: Laem Chabang; payment: T/T; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-150",
+      "source_text": "若buyer onboarding进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第46周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 46 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-151",
+      "source_text": "针对customs declaration场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第47周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน customs declaration ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 47 (port: Songkhla; payment: D/P; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-152",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第48周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 48 (port: Chiang Saen; payment: L/C; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-153",
+      "source_text": "若cross-border payment进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第49周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 49 (port: Bangkok Port; payment: PromptPay; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-154",
+      "source_text": "针对delivery lead time场景，团队需先在Thai QR Payment中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第50周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน delivery lead time ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 50 (port: Laem Chabang; payment: T/T; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-155",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第51周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 51 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-156",
+      "source_text": "若product classification进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第52周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 52 (port: Songkhla; payment: D/P; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-157",
+      "source_text": "针对after-sales claim场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第1周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน after-sales claim ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 1 (port: Chiang Saen; payment: L/C; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-158",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第2周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 2 (port: Bangkok Port; payment: PromptPay; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-159",
+      "source_text": "若document review进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第3周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 3 (port: Laem Chabang; payment: T/T; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-160",
+      "source_text": "针对buyer onboarding场景，团队需先在Thai QR Payment中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第4周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน buyer onboarding ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 4 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-161",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第5周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 5 (port: Songkhla; payment: D/P; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-162",
+      "source_text": "若certificate of origin进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第6周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 6 (port: Chiang Saen; payment: L/C; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-163",
+      "source_text": "针对cross-border payment场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第7周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน cross-border payment ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 7 (port: Bangkok Port; payment: PromptPay; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-164",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第8周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 8 (port: Laem Chabang; payment: T/T; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-165",
+      "source_text": "若invoice compliance进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第9周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 9 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-166",
+      "source_text": "针对product classification场景，团队需先在Thai QR Payment中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第10周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน product classification ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 10 (port: Songkhla; payment: D/P; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-167",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第11周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 11 (port: Chiang Saen; payment: L/C; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-168",
+      "source_text": "若shipment booking进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第12周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 12 (port: Bangkok Port; payment: PromptPay; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-169",
+      "source_text": "针对document review场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第13周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน document review ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 13 (port: Laem Chabang; payment: T/T; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-170",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第14周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 14 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-171",
+      "source_text": "若customs declaration进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第15周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 15 (port: Songkhla; payment: D/P; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-172",
+      "source_text": "针对certificate of origin场景，团队需先在Thai QR Payment中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第16周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน certificate of origin ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 16 (port: Chiang Saen; payment: L/C; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-173",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第17周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 17 (port: Bangkok Port; payment: PromptPay; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-174",
+      "source_text": "若delivery lead time进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第18周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 18 (port: Laem Chabang; payment: T/T; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-175",
+      "source_text": "针对invoice compliance场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第19周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน invoice compliance ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 19 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-176",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第20周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 20 (port: Songkhla; payment: D/P; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-177",
+      "source_text": "若after-sales claim进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第21周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 21 (port: Chiang Saen; payment: L/C; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-178",
+      "source_text": "针对shipment booking场景，团队需先在Thai QR Payment中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第22周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน shipment booking ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 22 (port: Bangkok Port; payment: PromptPay; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-179",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第23周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 23 (port: Laem Chabang; payment: T/T; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-180",
+      "source_text": "若buyer onboarding进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第24周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 24 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-181",
+      "source_text": "针对customs declaration场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第25周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน customs declaration ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 25 (port: Songkhla; payment: D/P; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-182",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第26周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 26 (port: Chiang Saen; payment: L/C; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-183",
+      "source_text": "若cross-border payment进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第27周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 27 (port: Bangkok Port; payment: PromptPay; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-184",
+      "source_text": "针对delivery lead time场景，团队需先在Thai QR Payment中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第28周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน delivery lead time ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 28 (port: Laem Chabang; payment: T/T; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-185",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第29周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 29 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-186",
+      "source_text": "若product classification进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第30周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 30 (port: Songkhla; payment: D/P; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-187",
+      "source_text": "针对after-sales claim场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第31周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน after-sales claim ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 31 (port: Chiang Saen; payment: L/C; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-188",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第32周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 32 (port: Bangkok Port; payment: PromptPay; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-189",
+      "source_text": "若document review进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第33周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 33 (port: Laem Chabang; payment: T/T; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-190",
+      "source_text": "针对buyer onboarding场景，团队需先在Thai QR Payment中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第34周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน buyer onboarding ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 34 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-191",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第35周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 35 (port: Songkhla; payment: D/P; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-192",
+      "source_text": "若certificate of origin进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第36周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 36 (port: Chiang Saen; payment: L/C; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-193",
+      "source_text": "针对cross-border payment场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第37周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน cross-border payment ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 37 (port: Bangkok Port; payment: PromptPay; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-194",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第38周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 38 (port: Laem Chabang; payment: T/T; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-195",
+      "source_text": "若invoice compliance进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第39周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 39 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-196",
+      "source_text": "针对product classification场景，团队需先在Thai QR Payment中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第40周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน product classification ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 40 (port: Songkhla; payment: D/P; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-197",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第41周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 41 (port: Chiang Saen; payment: L/C; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-198",
+      "source_text": "若shipment booking进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第42周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 42 (port: Bangkok Port; payment: PromptPay; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-199",
+      "source_text": "针对document review场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第43周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน document review ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 43 (port: Laem Chabang; payment: T/T; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-200",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第44周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 44 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-201",
+      "source_text": "若customs declaration进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第45周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 45 (port: Songkhla; payment: D/P; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-202",
+      "source_text": "针对certificate of origin场景，团队需先在Thai QR Payment中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第46周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน certificate of origin ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 46 (port: Chiang Saen; payment: L/C; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-203",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第47周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 47 (port: Bangkok Port; payment: PromptPay; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-204",
+      "source_text": "若delivery lead time进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第48周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 48 (port: Laem Chabang; payment: T/T; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-205",
+      "source_text": "针对invoice compliance场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第49周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน invoice compliance ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 49 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-206",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第50周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 50 (port: Songkhla; payment: D/P; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-207",
+      "source_text": "若after-sales claim进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第51周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 51 (port: Chiang Saen; payment: L/C; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-208",
+      "source_text": "针对shipment booking场景，团队需先在Thai QR Payment中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第52周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน shipment booking ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 52 (port: Bangkok Port; payment: PromptPay; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-209",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第1周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 1 (port: Laem Chabang; payment: T/T; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-210",
+      "source_text": "若buyer onboarding进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第2周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 2 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-211",
+      "source_text": "针对customs declaration场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第3周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน customs declaration ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 3 (port: Songkhla; payment: D/P; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-212",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第4周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 4 (port: Chiang Saen; payment: L/C; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-213",
+      "source_text": "若cross-border payment进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第5周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 5 (port: Bangkok Port; payment: PromptPay; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-214",
+      "source_text": "针对delivery lead time场景，团队需先在Thai QR Payment中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第6周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน delivery lead time ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 6 (port: Laem Chabang; payment: T/T; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-215",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第7周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 7 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-216",
+      "source_text": "若product classification进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第8周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 8 (port: Songkhla; payment: D/P; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-217",
+      "source_text": "针对after-sales claim场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第9周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน after-sales claim ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 9 (port: Chiang Saen; payment: L/C; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-218",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第10周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 10 (port: Bangkok Port; payment: PromptPay; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-219",
+      "source_text": "若document review进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第11周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 11 (port: Laem Chabang; payment: T/T; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-220",
+      "source_text": "针对buyer onboarding场景，团队需先在Thai QR Payment中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第12周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน buyer onboarding ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 12 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-221",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第13周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 13 (port: Songkhla; payment: D/P; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-222",
+      "source_text": "若certificate of origin进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第14周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 14 (port: Chiang Saen; payment: L/C; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-223",
+      "source_text": "针对cross-border payment场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第15周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน cross-border payment ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 15 (port: Bangkok Port; payment: PromptPay; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-224",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第16周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 16 (port: Laem Chabang; payment: T/T; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-225",
+      "source_text": "若invoice compliance进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第17周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 17 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-226",
+      "source_text": "针对product classification场景，团队需先在Thai QR Payment中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第18周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน product classification ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 18 (port: Songkhla; payment: D/P; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-227",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第19周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 19 (port: Chiang Saen; payment: L/C; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-228",
+      "source_text": "若shipment booking进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第20周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 20 (port: Bangkok Port; payment: PromptPay; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-229",
+      "source_text": "针对document review场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第21周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน document review ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 21 (port: Laem Chabang; payment: T/T; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-230",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第22周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 22 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-231",
+      "source_text": "若customs declaration进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第23周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 23 (port: Songkhla; payment: D/P; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-232",
+      "source_text": "针对certificate of origin场景，团队需先在Thai QR Payment中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第24周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน certificate of origin ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 24 (port: Chiang Saen; payment: L/C; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-233",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第25周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 25 (port: Bangkok Port; payment: PromptPay; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-234",
+      "source_text": "若delivery lead time进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第26周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 26 (port: Laem Chabang; payment: T/T; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-235",
+      "source_text": "针对invoice compliance场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第27周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน invoice compliance ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 27 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-236",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第28周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 28 (port: Songkhla; payment: D/P; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-237",
+      "source_text": "若after-sales claim进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第29周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 29 (port: Chiang Saen; payment: L/C; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-238",
+      "source_text": "针对shipment booking场景，团队需先在Thai QR Payment中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第30周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน shipment booking ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 30 (port: Bangkok Port; payment: PromptPay; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-239",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第31周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 31 (port: Laem Chabang; payment: T/T; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-240",
+      "source_text": "若buyer onboarding进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第32周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 32 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-241",
+      "source_text": "针对customs declaration场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第33周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน customs declaration ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 33 (port: Songkhla; payment: D/P; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-242",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第34周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 34 (port: Chiang Saen; payment: L/C; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-243",
+      "source_text": "若cross-border payment进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第35周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 35 (port: Bangkok Port; payment: PromptPay; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-244",
+      "source_text": "针对delivery lead time场景，团队需先在Thai QR Payment中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第36周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน delivery lead time ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 36 (port: Laem Chabang; payment: T/T; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-245",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第37周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 37 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-246",
+      "source_text": "若product classification进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第38周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 38 (port: Songkhla; payment: D/P; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-247",
+      "source_text": "针对after-sales claim场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第39周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน after-sales claim ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 39 (port: Chiang Saen; payment: L/C; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-248",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第40周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 40 (port: Bangkok Port; payment: PromptPay; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-249",
+      "source_text": "若document review进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第41周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 41 (port: Laem Chabang; payment: T/T; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-250",
+      "source_text": "针对buyer onboarding场景，团队需先在Thai QR Payment中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第42周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน buyer onboarding ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 42 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-251",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第43周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 43 (port: Songkhla; payment: D/P; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-252",
+      "source_text": "若certificate of origin进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第44周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 44 (port: Chiang Saen; payment: L/C; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-253",
+      "source_text": "针对cross-border payment场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第45周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน cross-border payment ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 45 (port: Bangkok Port; payment: PromptPay; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-254",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第46周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 46 (port: Laem Chabang; payment: T/T; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-255",
+      "source_text": "若invoice compliance进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第47周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 47 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-256",
+      "source_text": "针对product classification场景，团队需先在Thai QR Payment中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第48周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน product classification ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 48 (port: Songkhla; payment: D/P; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-257",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第49周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 49 (port: Chiang Saen; payment: L/C; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-258",
+      "source_text": "若shipment booking进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第50周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 50 (port: Bangkok Port; payment: PromptPay; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-259",
+      "source_text": "针对document review场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第51周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน document review ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 51 (port: Laem Chabang; payment: T/T; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-260",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第52周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 52 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-261",
+      "source_text": "若customs declaration进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第1周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 1 (port: Songkhla; payment: D/P; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-262",
+      "source_text": "针对certificate of origin场景，团队需先在Thai QR Payment中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第2周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน certificate of origin ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 2 (port: Chiang Saen; payment: L/C; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-263",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第3周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 3 (port: Bangkok Port; payment: PromptPay; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-264",
+      "source_text": "若delivery lead time进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第4周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 4 (port: Laem Chabang; payment: T/T; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-265",
+      "source_text": "针对invoice compliance场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第5周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน invoice compliance ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 5 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-266",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第6周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 6 (port: Songkhla; payment: D/P; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-267",
+      "source_text": "若after-sales claim进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第7周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 7 (port: Chiang Saen; payment: L/C; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-268",
+      "source_text": "针对shipment booking场景，团队需先在Thai QR Payment中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第8周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน shipment booking ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 8 (port: Bangkok Port; payment: PromptPay; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-269",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第9周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 9 (port: Laem Chabang; payment: T/T; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-270",
+      "source_text": "若buyer onboarding进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第10周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 10 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-271",
+      "source_text": "针对customs declaration场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第11周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน customs declaration ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 11 (port: Songkhla; payment: D/P; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-272",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第12周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 12 (port: Chiang Saen; payment: L/C; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-273",
+      "source_text": "若cross-border payment进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第13周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 13 (port: Bangkok Port; payment: PromptPay; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-274",
+      "source_text": "针对delivery lead time场景，团队需先在Thai QR Payment中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第14周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน delivery lead time ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 14 (port: Laem Chabang; payment: T/T; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-275",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第15周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 15 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-276",
+      "source_text": "若product classification进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第16周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 16 (port: Songkhla; payment: D/P; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-277",
+      "source_text": "针对after-sales claim场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第17周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน after-sales claim ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 17 (port: Chiang Saen; payment: L/C; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-278",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第18周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 18 (port: Bangkok Port; payment: PromptPay; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-279",
+      "source_text": "若document review进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第19周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 19 (port: Laem Chabang; payment: T/T; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-280",
+      "source_text": "针对buyer onboarding场景，团队需先在Thai QR Payment中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第20周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน buyer onboarding ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 20 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-281",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第21周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 21 (port: Songkhla; payment: D/P; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-282",
+      "source_text": "若certificate of origin进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第22周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 22 (port: Chiang Saen; payment: L/C; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-283",
+      "source_text": "针对cross-border payment场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第23周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน cross-border payment ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 23 (port: Bangkok Port; payment: PromptPay; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-284",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第24周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 24 (port: Laem Chabang; payment: T/T; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-285",
+      "source_text": "若invoice compliance进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第25周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 25 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-286",
+      "source_text": "针对product classification场景，团队需先在Thai QR Payment中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第26周，优先口岸为Songkhla。",
+      "target_text": "สำหรับงาน product classification ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 26 (port: Songkhla; payment: D/P; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-287",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第27周，优先口岸为Chiang Saen。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 27 (port: Chiang Saen; payment: L/C; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-288",
+      "source_text": "若shipment booking进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第28周，优先口岸为Bangkok Port。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 28 (port: Bangkok Port; payment: PromptPay; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-289",
+      "source_text": "针对document review场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第29周，优先口岸为Laem Chabang。",
+      "target_text": "สำหรับงาน document review ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 29 (port: Laem Chabang; payment: T/T; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-290",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第30周，优先口岸为Map Ta Phut。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 30 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-291",
+      "source_text": "若customs declaration进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第31周，优先口岸为Songkhla。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 31 (port: Songkhla; payment: D/P; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-292",
+      "source_text": "针对certificate of origin场景，团队需先在Thai QR Payment中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第32周，优先口岸为Chiang Saen。",
+      "target_text": "สำหรับงาน certificate of origin ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 32 (port: Chiang Saen; payment: L/C; SLA: 7h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-293",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第33周，优先口岸为Bangkok Port。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 33 (port: Bangkok Port; payment: PromptPay; SLA: 8h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-294",
+      "source_text": "若delivery lead time进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第34周，优先口岸为Laem Chabang。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 34 (port: Laem Chabang; payment: T/T; SLA: 9h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-295",
+      "source_text": "针对invoice compliance场景，团队需先在Thai Customs e-Customs中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第35周，优先口岸为Map Ta Phut。",
+      "target_text": "สำหรับงาน invoice compliance ทีมงานในไทยมักส่งข้อมูลผ่าน Thai Customs e-Customs และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 35 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 10h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-296",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将National Single Window (TH)与内部复核清单联动，减少改单次数。 该批次对应第36周，优先口岸为Songkhla。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน National Single Window (TH) กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางอาเซียนช่วงสัปดาห์ที่ 36 (port: Songkhla; payment: D/P; SLA: 11h)",
+      "context": "ประเทศไทย localized operations | National Single Window (TH) | เส้นทางอาเซียน",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-297",
+      "source_text": "若after-sales claim进度紧张，应通过PromptPay同步状态并提前触发应急交付方案。 该批次对应第37周，优先口岸为Chiang Saen。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ PromptPay ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-มาเลเซียช่วงสัปดาห์ที่ 37 (port: Chiang Saen; payment: L/C; SLA: 12h)",
+      "context": "ประเทศไทย localized operations | Thai QR Payment | เส้นทางไทย-มาเลเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-298",
+      "source_text": "针对shipment booking场景，团队需先在Thai QR Payment中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第38周，优先口岸为Bangkok Port。",
+      "target_text": "สำหรับงาน shipment booking ทีมงานในไทยมักส่งข้อมูลผ่าน Thai QR Payment และยืนยันสถานะกับลูกค้าก่อนปล่อยสินค้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-อินโดนีเซียช่วงสัปดาห์ที่ 38 (port: Bangkok Port; payment: PromptPay; SLA: 4h)",
+      "context": "ประเทศไทย localized operations | Thai Customs e-Customs | เส้นทางไทย-อินโดนีเซีย",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-299",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将RCEP e-CO与内部复核清单联动，减少改单次数。 该批次对应第39周，优先口岸为Laem Chabang。",
+      "target_text": "แนวทางปฏิบัติในประเทศไทยคือผสาน RCEP e-CO กับการตรวจเอกสารภายในเพื่อลดการแก้ไขและความล่าช้า. แนวทางนี้ใช้บ่อยในเส้นทางไทย-เวียดนามช่วงสัปดาห์ที่ 39 (port: Laem Chabang; payment: T/T; SLA: 5h)",
+      "context": "ประเทศไทย localized operations | PromptPay | เส้นทางไทย-เวียดนาม",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-300",
+      "source_text": "若buyer onboarding进度紧张，应通过AEO Thailand同步状态并提前触发应急交付方案。 该批次对应第40周，优先口岸为Map Ta Phut。",
+      "target_text": "เมื่อเกิดความเร่งด่วน ทีมจะใช้ AEO Thailand ร่วมกับแผนสำรองเพื่อคุมกำหนดส่งและกำหนดชำระเงิน. แนวทางนี้ใช้บ่อยในเส้นทางไทย-ลาวช่วงสัปดาห์ที่ 40 (port: Map Ta Phut; payment: Thai QR Payment; SLA: 6h)",
+      "context": "ประเทศไทย localized operations | AEO Thailand | เส้นทางไทย-ลาว",
+      "domain": "trade"
+    }
+  ]
+}

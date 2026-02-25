@@ -1,0 +1,3313 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "struction",
+    "language": "zh",
+    "domain": "trade",
+    "created_by": "自动化生成脚本",
+    "created_at": "2026-02-25T05:55:48Z",
+    "description": "指令/场景生成库 - 中文（300条）"
+  },
+  "data": [
+    {
+      "instruction_id": "INST-001",
+      "instruction_type": "instruction",
+      "task": "用英语向客户生成物流时效说明，语气专业并包含下一步操作指引。",
+      "output": "Dear customer, thank you for your inquiry. We have updated the timeline and required actions for your order. Please review the attached checklist and confirm the next step within one business day.",
+      "tags": [
+        "客服回复生成",
+        "英语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-002",
+      "instruction_type": "instruction",
+      "task": "用泰语生成装箱单草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "ได้จัดทำร่างเอกสารเชิงพาณิชย์เรียบร้อยแล้ว โดยมีข้อมูลผู้ขาย ผู้ซื้อ จำนวนเงิน สกุลเงิน และเงื่อนไขการส่งมอบ กรุณาตรวจสอบเลขประจำตัวผู้เสียภาษีและข้อมูลบัญชีก่อนส่ง",
+      "tags": [
+        "商务文书生成",
+        "泰语",
+        "装箱单"
+      ]
+    },
+    {
+      "instruction_id": "INST-003",
+      "instruction_type": "instruction",
+      "task": "将纺织服装的本地渠道介绍本地化为马来语版本，要求突出合规与交付优势。",
+      "output": "Penyelesaian 纺织服装 kami menekankan sumber yang patuh peraturan, masa penghantaran yang stabil, dan sokongan perkhidmatan yang telus. Kandungan setempat menonjolkan kebolehpercayaan dan kos keseluruhan yang lebih rendah.",
+      "tags": [
+        "市场内容本地化",
+        "马来语",
+        "纺织服装"
+      ]
+    },
+    {
+      "instruction_id": "INST-004",
+      "instruction_type": "instruction",
+      "task": "用越南语向客户生成售后质保说明，语气专业并包含下一步操作指引。",
+      "output": "Kính gửi Quý khách, cảm ơn bạn đã liên hệ. Chúng tôi đã cập nhật tiến độ và các bước cần thực hiện cho đơn hàng. Vui lòng kiểm tra danh sách tài liệu và xác nhận bước tiếp theo trong vòng một ngày làm việc.",
+      "tags": [
+        "客服回复生成",
+        "越南语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-005",
+      "instruction_type": "instruction",
+      "task": "用中文生成售后确认函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "已生成商务文书草稿，包含买卖双方信息、币种与金额、交付条款和签章栏。请在发送前核对税号与收款账户。",
+      "tags": [
+        "商务文书生成",
+        "中文",
+        "售后确认函"
+      ]
+    },
+    {
+      "instruction_id": "INST-006",
+      "instruction_type": "instruction",
+      "task": "将医疗耗材的新品卖点本地化为英语版本，要求突出合规与交付优势。",
+      "output": "Our 医疗耗材 solution combines compliant sourcing, stable lead time, and transparent service support. Localized content emphasizes reliability, lower total cost, and faster onboarding for regional buyers.",
+      "tags": [
+        "市场内容本地化",
+        "英语",
+        "医疗耗材"
+      ]
+    },
+    {
+      "instruction_id": "INST-007",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户生成退换货流程说明，语气专业并包含下一步操作指引。",
+      "output": "เรียนลูกค้า ขอบคุณสำหรับการติดต่อ เราได้อัปเดตกำหนดเวลาและขั้นตอนที่ต้องดำเนินการสำหรับคำสั่งซื้อของท่าน โปรดตรวจสอบรายการเอกสารและยืนยันขั้นตอนถัดไปภายในหนึ่งวันทำการ",
+      "tags": [
+        "客服回复生成",
+        "泰语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-008",
+      "instruction_type": "instruction",
+      "task": "用马来语生成付款通知函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Draf dokumen komersial telah disediakan dengan maklumat penjual, pembeli, jumlah, mata wang, serta terma penghantaran. Sila semak nombor cukai dan butiran bank sebelum dihantar.",
+      "tags": [
+        "商务文书生成",
+        "马来语",
+        "付款通知函"
+      ]
+    },
+    {
+      "instruction_id": "INST-009",
+      "instruction_type": "instruction",
+      "task": "将户外设备的品牌故事本地化为越南语版本，要求突出合规与交付优势。",
+      "output": "Giải pháp 户外设备 của chúng tôi tập trung vào nguồn cung tuân thủ quy định, thời gian giao hàng ổn định và dịch vụ minh bạch. Nội dung bản địa hóa nhấn mạnh độ tin cậy và chi phí vận hành tối ưu.",
+      "tags": [
+        "市场内容本地化",
+        "越南语",
+        "户外设备"
+      ]
+    },
+    {
+      "instruction_id": "INST-010",
+      "instruction_type": "instruction",
+      "task": "用中文向客户生成付款节点说明，语气专业并包含下一步操作指引。",
+      "output": "尊敬的客户，您好。我们已更新该订单的时间节点和所需动作，请您查收附件清单，并在1个工作日内确认下一步安排。",
+      "tags": [
+        "客服回复生成",
+        "中文",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-011",
+      "instruction_type": "instruction",
+      "task": "用英语生成商业发票草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Commercial draft prepared with seller and buyer details, payment currency, amount, delivery term, and signature block. Please validate tax number and bank account before sending.",
+      "tags": [
+        "商务文书生成",
+        "英语",
+        "商业发票"
+      ]
+    },
+    {
+      "instruction_id": "INST-012",
+      "instruction_type": "instruction",
+      "task": "将新能源配件的节日促销本地化为泰语版本，要求突出合规与交付优势。",
+      "output": "โซลูชัน新能源配件ของเราเน้นการจัดหาที่สอดคล้องตามกฎระเบียบ ระยะเวลาจัดส่งที่เสถียร และการสนับสนุนที่โปร่งใส เหมาะกับลูกค้าในภูมิภาคที่ต้องการต้นทุนรวมต่ำและเริ่มใช้งานได้รวดเร็ว",
+      "tags": [
+        "市场内容本地化",
+        "泰语",
+        "新能源配件"
+      ]
+    },
+    {
+      "instruction_id": "INST-013",
+      "instruction_type": "instruction",
+      "task": "用马来语向客户生成关税预估说明，语气专业并包含下一步操作指引。",
+      "output": "Pelanggan yang dihormati, terima kasih atas pertanyaan anda. Kami telah mengemas kini garis masa dan tindakan yang diperlukan untuk pesanan ini. Sila semak senarai semak dan sahkan langkah seterusnya dalam satu hari bekerja.",
+      "tags": [
+        "客服回复生成",
+        "马来语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-014",
+      "instruction_type": "instruction",
+      "task": "用越南语生成报价邮件草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Bản nháp chứng từ thương mại đã bao gồm thông tin bên bán, bên mua, giá trị giao dịch, điều kiện giao hàng và mục ký xác nhận. Vui lòng kiểm tra mã số thuế và thông tin ngân hàng trước khi gửi.",
+      "tags": [
+        "商务文书生成",
+        "越南语",
+        "报价邮件"
+      ]
+    },
+    {
+      "instruction_id": "INST-015",
+      "instruction_type": "instruction",
+      "task": "将纺织服装的客户见证文案本地化为中文版本，要求突出合规与交付优势。",
+      "output": "纺织服装方案强调合规采购、稳定交付与透明服务，本地化文案突出总成本优势和上线效率，便于区域客户快速决策。",
+      "tags": [
+        "市场内容本地化",
+        "中文",
+        "纺织服装"
+      ]
+    },
+    {
+      "instruction_id": "INST-016",
+      "instruction_type": "instruction",
+      "task": "用英语向客户生成清关补件说明，语气专业并包含下一步操作指引。",
+      "output": "Dear customer, thank you for your inquiry. We have updated the timeline and required actions for your order. Please review the attached checklist and confirm the next step within one business day.",
+      "tags": [
+        "客服回复生成",
+        "英语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-017",
+      "instruction_type": "instruction",
+      "task": "用泰语生成装箱单草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "ได้จัดทำร่างเอกสารเชิงพาณิชย์เรียบร้อยแล้ว โดยมีข้อมูลผู้ขาย ผู้ซื้อ จำนวนเงิน สกุลเงิน และเงื่อนไขการส่งมอบ กรุณาตรวจสอบเลขประจำตัวผู้เสียภาษีและข้อมูลบัญชีก่อนส่ง",
+      "tags": [
+        "商务文书生成",
+        "泰语",
+        "装箱单"
+      ]
+    },
+    {
+      "instruction_id": "INST-018",
+      "instruction_type": "instruction",
+      "task": "将医疗耗材的本地渠道介绍本地化为马来语版本，要求突出合规与交付优势。",
+      "output": "Penyelesaian 医疗耗材 kami menekankan sumber yang patuh peraturan, masa penghantaran yang stabil, dan sokongan perkhidmatan yang telus. Kandungan setempat menonjolkan kebolehpercayaan dan kos keseluruhan yang lebih rendah.",
+      "tags": [
+        "市场内容本地化",
+        "马来语",
+        "医疗耗材"
+      ]
+    },
+    {
+      "instruction_id": "INST-019",
+      "instruction_type": "instruction",
+      "task": "用越南语向客户生成订单延期说明，语气专业并包含下一步操作指引。",
+      "output": "Kính gửi Quý khách, cảm ơn bạn đã liên hệ. Chúng tôi đã cập nhật tiến độ và các bước cần thực hiện cho đơn hàng. Vui lòng kiểm tra danh sách tài liệu và xác nhận bước tiếp theo trong vòng một ngày làm việc.",
+      "tags": [
+        "客服回复生成",
+        "越南语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-020",
+      "instruction_type": "instruction",
+      "task": "用中文生成售后确认函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "已生成商务文书草稿，包含买卖双方信息、币种与金额、交付条款和签章栏。请在发送前核对税号与收款账户。",
+      "tags": [
+        "商务文书生成",
+        "中文",
+        "售后确认函"
+      ]
+    },
+    {
+      "instruction_id": "INST-021",
+      "instruction_type": "instruction",
+      "task": "将户外设备的新品卖点本地化为英语版本，要求突出合规与交付优势。",
+      "output": "Our 户外设备 solution combines compliant sourcing, stable lead time, and transparent service support. Localized content emphasizes reliability, lower total cost, and faster onboarding for regional buyers.",
+      "tags": [
+        "市场内容本地化",
+        "英语",
+        "户外设备"
+      ]
+    },
+    {
+      "instruction_id": "INST-022",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户生成物流时效说明，语气专业并包含下一步操作指引。",
+      "output": "เรียนลูกค้า ขอบคุณสำหรับการติดต่อ เราได้อัปเดตกำหนดเวลาและขั้นตอนที่ต้องดำเนินการสำหรับคำสั่งซื้อของท่าน โปรดตรวจสอบรายการเอกสารและยืนยันขั้นตอนถัดไปภายในหนึ่งวันทำการ",
+      "tags": [
+        "客服回复生成",
+        "泰语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-023",
+      "instruction_type": "instruction",
+      "task": "用马来语生成付款通知函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Draf dokumen komersial telah disediakan dengan maklumat penjual, pembeli, jumlah, mata wang, serta terma penghantaran. Sila semak nombor cukai dan butiran bank sebelum dihantar.",
+      "tags": [
+        "商务文书生成",
+        "马来语",
+        "付款通知函"
+      ]
+    },
+    {
+      "instruction_id": "INST-024",
+      "instruction_type": "instruction",
+      "task": "将新能源配件的品牌故事本地化为越南语版本，要求突出合规与交付优势。",
+      "output": "Giải pháp 新能源配件 của chúng tôi tập trung vào nguồn cung tuân thủ quy định, thời gian giao hàng ổn định và dịch vụ minh bạch. Nội dung bản địa hóa nhấn mạnh độ tin cậy và chi phí vận hành tối ưu.",
+      "tags": [
+        "市场内容本地化",
+        "越南语",
+        "新能源配件"
+      ]
+    },
+    {
+      "instruction_id": "INST-025",
+      "instruction_type": "instruction",
+      "task": "用中文向客户生成售后质保说明，语气专业并包含下一步操作指引。",
+      "output": "尊敬的客户，您好。我们已更新该订单的时间节点和所需动作，请您查收附件清单，并在1个工作日内确认下一步安排。",
+      "tags": [
+        "客服回复生成",
+        "中文",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-026",
+      "instruction_type": "instruction",
+      "task": "用英语生成商业发票草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Commercial draft prepared with seller and buyer details, payment currency, amount, delivery term, and signature block. Please validate tax number and bank account before sending.",
+      "tags": [
+        "商务文书生成",
+        "英语",
+        "商业发票"
+      ]
+    },
+    {
+      "instruction_id": "INST-027",
+      "instruction_type": "instruction",
+      "task": "将纺织服装的节日促销本地化为泰语版本，要求突出合规与交付优势。",
+      "output": "โซลูชัน纺织服装ของเราเน้นการจัดหาที่สอดคล้องตามกฎระเบียบ ระยะเวลาจัดส่งที่เสถียร และการสนับสนุนที่โปร่งใส เหมาะกับลูกค้าในภูมิภาคที่ต้องการต้นทุนรวมต่ำและเริ่มใช้งานได้รวดเร็ว",
+      "tags": [
+        "市场内容本地化",
+        "泰语",
+        "纺织服装"
+      ]
+    },
+    {
+      "instruction_id": "INST-028",
+      "instruction_type": "instruction",
+      "task": "用马来语向客户生成退换货流程说明，语气专业并包含下一步操作指引。",
+      "output": "Pelanggan yang dihormati, terima kasih atas pertanyaan anda. Kami telah mengemas kini garis masa dan tindakan yang diperlukan untuk pesanan ini. Sila semak senarai semak dan sahkan langkah seterusnya dalam satu hari bekerja.",
+      "tags": [
+        "客服回复生成",
+        "马来语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-029",
+      "instruction_type": "instruction",
+      "task": "用越南语生成报价邮件草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Bản nháp chứng từ thương mại đã bao gồm thông tin bên bán, bên mua, giá trị giao dịch, điều kiện giao hàng và mục ký xác nhận. Vui lòng kiểm tra mã số thuế và thông tin ngân hàng trước khi gửi.",
+      "tags": [
+        "商务文书生成",
+        "越南语",
+        "报价邮件"
+      ]
+    },
+    {
+      "instruction_id": "INST-030",
+      "instruction_type": "instruction",
+      "task": "将医疗耗材的客户见证文案本地化为中文版本，要求突出合规与交付优势。",
+      "output": "医疗耗材方案强调合规采购、稳定交付与透明服务，本地化文案突出总成本优势和上线效率，便于区域客户快速决策。",
+      "tags": [
+        "市场内容本地化",
+        "中文",
+        "医疗耗材"
+      ]
+    },
+    {
+      "instruction_id": "INST-031",
+      "instruction_type": "instruction",
+      "task": "用英语向客户生成付款节点说明，语气专业并包含下一步操作指引。",
+      "output": "Dear customer, thank you for your inquiry. We have updated the timeline and required actions for your order. Please review the attached checklist and confirm the next step within one business day.",
+      "tags": [
+        "客服回复生成",
+        "英语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-032",
+      "instruction_type": "instruction",
+      "task": "用泰语生成装箱单草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "ได้จัดทำร่างเอกสารเชิงพาณิชย์เรียบร้อยแล้ว โดยมีข้อมูลผู้ขาย ผู้ซื้อ จำนวนเงิน สกุลเงิน และเงื่อนไขการส่งมอบ กรุณาตรวจสอบเลขประจำตัวผู้เสียภาษีและข้อมูลบัญชีก่อนส่ง",
+      "tags": [
+        "商务文书生成",
+        "泰语",
+        "装箱单"
+      ]
+    },
+    {
+      "instruction_id": "INST-033",
+      "instruction_type": "instruction",
+      "task": "将户外设备的本地渠道介绍本地化为马来语版本，要求突出合规与交付优势。",
+      "output": "Penyelesaian 户外设备 kami menekankan sumber yang patuh peraturan, masa penghantaran yang stabil, dan sokongan perkhidmatan yang telus. Kandungan setempat menonjolkan kebolehpercayaan dan kos keseluruhan yang lebih rendah.",
+      "tags": [
+        "市场内容本地化",
+        "马来语",
+        "户外设备"
+      ]
+    },
+    {
+      "instruction_id": "INST-034",
+      "instruction_type": "instruction",
+      "task": "用越南语向客户生成关税预估说明，语气专业并包含下一步操作指引。",
+      "output": "Kính gửi Quý khách, cảm ơn bạn đã liên hệ. Chúng tôi đã cập nhật tiến độ và các bước cần thực hiện cho đơn hàng. Vui lòng kiểm tra danh sách tài liệu và xác nhận bước tiếp theo trong vòng một ngày làm việc.",
+      "tags": [
+        "客服回复生成",
+        "越南语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-035",
+      "instruction_type": "instruction",
+      "task": "用中文生成售后确认函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "已生成商务文书草稿，包含买卖双方信息、币种与金额、交付条款和签章栏。请在发送前核对税号与收款账户。",
+      "tags": [
+        "商务文书生成",
+        "中文",
+        "售后确认函"
+      ]
+    },
+    {
+      "instruction_id": "INST-036",
+      "instruction_type": "instruction",
+      "task": "将新能源配件的新品卖点本地化为英语版本，要求突出合规与交付优势。",
+      "output": "Our 新能源配件 solution combines compliant sourcing, stable lead time, and transparent service support. Localized content emphasizes reliability, lower total cost, and faster onboarding for regional buyers.",
+      "tags": [
+        "市场内容本地化",
+        "英语",
+        "新能源配件"
+      ]
+    },
+    {
+      "instruction_id": "INST-037",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户生成清关补件说明，语气专业并包含下一步操作指引。",
+      "output": "เรียนลูกค้า ขอบคุณสำหรับการติดต่อ เราได้อัปเดตกำหนดเวลาและขั้นตอนที่ต้องดำเนินการสำหรับคำสั่งซื้อของท่าน โปรดตรวจสอบรายการเอกสารและยืนยันขั้นตอนถัดไปภายในหนึ่งวันทำการ",
+      "tags": [
+        "客服回复生成",
+        "泰语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-038",
+      "instruction_type": "instruction",
+      "task": "用马来语生成付款通知函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Draf dokumen komersial telah disediakan dengan maklumat penjual, pembeli, jumlah, mata wang, serta terma penghantaran. Sila semak nombor cukai dan butiran bank sebelum dihantar.",
+      "tags": [
+        "商务文书生成",
+        "马来语",
+        "付款通知函"
+      ]
+    },
+    {
+      "instruction_id": "INST-039",
+      "instruction_type": "instruction",
+      "task": "将纺织服装的品牌故事本地化为越南语版本，要求突出合规与交付优势。",
+      "output": "Giải pháp 纺织服装 của chúng tôi tập trung vào nguồn cung tuân thủ quy định, thời gian giao hàng ổn định và dịch vụ minh bạch. Nội dung bản địa hóa nhấn mạnh độ tin cậy và chi phí vận hành tối ưu.",
+      "tags": [
+        "市场内容本地化",
+        "越南语",
+        "纺织服装"
+      ]
+    },
+    {
+      "instruction_id": "INST-040",
+      "instruction_type": "instruction",
+      "task": "用中文向客户生成订单延期说明，语气专业并包含下一步操作指引。",
+      "output": "尊敬的客户，您好。我们已更新该订单的时间节点和所需动作，请您查收附件清单，并在1个工作日内确认下一步安排。",
+      "tags": [
+        "客服回复生成",
+        "中文",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-041",
+      "instruction_type": "instruction",
+      "task": "用英语生成商业发票草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Commercial draft prepared with seller and buyer details, payment currency, amount, delivery term, and signature block. Please validate tax number and bank account before sending.",
+      "tags": [
+        "商务文书生成",
+        "英语",
+        "商业发票"
+      ]
+    },
+    {
+      "instruction_id": "INST-042",
+      "instruction_type": "instruction",
+      "task": "将医疗耗材的节日促销本地化为泰语版本，要求突出合规与交付优势。",
+      "output": "โซลูชัน医疗耗材ของเราเน้นการจัดหาที่สอดคล้องตามกฎระเบียบ ระยะเวลาจัดส่งที่เสถียร และการสนับสนุนที่โปร่งใส เหมาะกับลูกค้าในภูมิภาคที่ต้องการต้นทุนรวมต่ำและเริ่มใช้งานได้รวดเร็ว",
+      "tags": [
+        "市场内容本地化",
+        "泰语",
+        "医疗耗材"
+      ]
+    },
+    {
+      "instruction_id": "INST-043",
+      "instruction_type": "instruction",
+      "task": "用马来语向客户生成物流时效说明，语气专业并包含下一步操作指引。",
+      "output": "Pelanggan yang dihormati, terima kasih atas pertanyaan anda. Kami telah mengemas kini garis masa dan tindakan yang diperlukan untuk pesanan ini. Sila semak senarai semak dan sahkan langkah seterusnya dalam satu hari bekerja.",
+      "tags": [
+        "客服回复生成",
+        "马来语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-044",
+      "instruction_type": "instruction",
+      "task": "用越南语生成报价邮件草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Bản nháp chứng từ thương mại đã bao gồm thông tin bên bán, bên mua, giá trị giao dịch, điều kiện giao hàng và mục ký xác nhận. Vui lòng kiểm tra mã số thuế và thông tin ngân hàng trước khi gửi.",
+      "tags": [
+        "商务文书生成",
+        "越南语",
+        "报价邮件"
+      ]
+    },
+    {
+      "instruction_id": "INST-045",
+      "instruction_type": "instruction",
+      "task": "将户外设备的客户见证文案本地化为中文版本，要求突出合规与交付优势。",
+      "output": "户外设备方案强调合规采购、稳定交付与透明服务，本地化文案突出总成本优势和上线效率，便于区域客户快速决策。",
+      "tags": [
+        "市场内容本地化",
+        "中文",
+        "户外设备"
+      ]
+    },
+    {
+      "instruction_id": "INST-046",
+      "instruction_type": "instruction",
+      "task": "用英语向客户生成售后质保说明，语气专业并包含下一步操作指引。",
+      "output": "Dear customer, thank you for your inquiry. We have updated the timeline and required actions for your order. Please review the attached checklist and confirm the next step within one business day.",
+      "tags": [
+        "客服回复生成",
+        "英语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-047",
+      "instruction_type": "instruction",
+      "task": "用泰语生成装箱单草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "ได้จัดทำร่างเอกสารเชิงพาณิชย์เรียบร้อยแล้ว โดยมีข้อมูลผู้ขาย ผู้ซื้อ จำนวนเงิน สกุลเงิน และเงื่อนไขการส่งมอบ กรุณาตรวจสอบเลขประจำตัวผู้เสียภาษีและข้อมูลบัญชีก่อนส่ง",
+      "tags": [
+        "商务文书生成",
+        "泰语",
+        "装箱单"
+      ]
+    },
+    {
+      "instruction_id": "INST-048",
+      "instruction_type": "instruction",
+      "task": "将新能源配件的本地渠道介绍本地化为马来语版本，要求突出合规与交付优势。",
+      "output": "Penyelesaian 新能源配件 kami menekankan sumber yang patuh peraturan, masa penghantaran yang stabil, dan sokongan perkhidmatan yang telus. Kandungan setempat menonjolkan kebolehpercayaan dan kos keseluruhan yang lebih rendah.",
+      "tags": [
+        "市场内容本地化",
+        "马来语",
+        "新能源配件"
+      ]
+    },
+    {
+      "instruction_id": "INST-049",
+      "instruction_type": "instruction",
+      "task": "用越南语向客户生成退换货流程说明，语气专业并包含下一步操作指引。",
+      "output": "Kính gửi Quý khách, cảm ơn bạn đã liên hệ. Chúng tôi đã cập nhật tiến độ và các bước cần thực hiện cho đơn hàng. Vui lòng kiểm tra danh sách tài liệu và xác nhận bước tiếp theo trong vòng một ngày làm việc.",
+      "tags": [
+        "客服回复生成",
+        "越南语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-050",
+      "instruction_type": "instruction",
+      "task": "用中文生成售后确认函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "已生成商务文书草稿，包含买卖双方信息、币种与金额、交付条款和签章栏。请在发送前核对税号与收款账户。",
+      "tags": [
+        "商务文书生成",
+        "中文",
+        "售后确认函"
+      ]
+    },
+    {
+      "instruction_id": "INST-051",
+      "instruction_type": "instruction",
+      "task": "将纺织服装的新品卖点本地化为英语版本，要求突出合规与交付优势。",
+      "output": "Our 纺织服装 solution combines compliant sourcing, stable lead time, and transparent service support. Localized content emphasizes reliability, lower total cost, and faster onboarding for regional buyers.",
+      "tags": [
+        "市场内容本地化",
+        "英语",
+        "纺织服装"
+      ]
+    },
+    {
+      "instruction_id": "INST-052",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户生成付款节点说明，语气专业并包含下一步操作指引。",
+      "output": "เรียนลูกค้า ขอบคุณสำหรับการติดต่อ เราได้อัปเดตกำหนดเวลาและขั้นตอนที่ต้องดำเนินการสำหรับคำสั่งซื้อของท่าน โปรดตรวจสอบรายการเอกสารและยืนยันขั้นตอนถัดไปภายในหนึ่งวันทำการ",
+      "tags": [
+        "客服回复生成",
+        "泰语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-053",
+      "instruction_type": "instruction",
+      "task": "用马来语生成付款通知函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Draf dokumen komersial telah disediakan dengan maklumat penjual, pembeli, jumlah, mata wang, serta terma penghantaran. Sila semak nombor cukai dan butiran bank sebelum dihantar.",
+      "tags": [
+        "商务文书生成",
+        "马来语",
+        "付款通知函"
+      ]
+    },
+    {
+      "instruction_id": "INST-054",
+      "instruction_type": "instruction",
+      "task": "将医疗耗材的品牌故事本地化为越南语版本，要求突出合规与交付优势。",
+      "output": "Giải pháp 医疗耗材 của chúng tôi tập trung vào nguồn cung tuân thủ quy định, thời gian giao hàng ổn định và dịch vụ minh bạch. Nội dung bản địa hóa nhấn mạnh độ tin cậy và chi phí vận hành tối ưu.",
+      "tags": [
+        "市场内容本地化",
+        "越南语",
+        "医疗耗材"
+      ]
+    },
+    {
+      "instruction_id": "INST-055",
+      "instruction_type": "instruction",
+      "task": "用中文向客户生成关税预估说明，语气专业并包含下一步操作指引。",
+      "output": "尊敬的客户，您好。我们已更新该订单的时间节点和所需动作，请您查收附件清单，并在1个工作日内确认下一步安排。",
+      "tags": [
+        "客服回复生成",
+        "中文",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-056",
+      "instruction_type": "instruction",
+      "task": "用英语生成商业发票草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Commercial draft prepared with seller and buyer details, payment currency, amount, delivery term, and signature block. Please validate tax number and bank account before sending.",
+      "tags": [
+        "商务文书生成",
+        "英语",
+        "商业发票"
+      ]
+    },
+    {
+      "instruction_id": "INST-057",
+      "instruction_type": "instruction",
+      "task": "将户外设备的节日促销本地化为泰语版本，要求突出合规与交付优势。",
+      "output": "โซลูชัน户外设备ของเราเน้นการจัดหาที่สอดคล้องตามกฎระเบียบ ระยะเวลาจัดส่งที่เสถียร และการสนับสนุนที่โปร่งใส เหมาะกับลูกค้าในภูมิภาคที่ต้องการต้นทุนรวมต่ำและเริ่มใช้งานได้รวดเร็ว",
+      "tags": [
+        "市场内容本地化",
+        "泰语",
+        "户外设备"
+      ]
+    },
+    {
+      "instruction_id": "INST-058",
+      "instruction_type": "instruction",
+      "task": "用马来语向客户生成清关补件说明，语气专业并包含下一步操作指引。",
+      "output": "Pelanggan yang dihormati, terima kasih atas pertanyaan anda. Kami telah mengemas kini garis masa dan tindakan yang diperlukan untuk pesanan ini. Sila semak senarai semak dan sahkan langkah seterusnya dalam satu hari bekerja.",
+      "tags": [
+        "客服回复生成",
+        "马来语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-059",
+      "instruction_type": "instruction",
+      "task": "用越南语生成报价邮件草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Bản nháp chứng từ thương mại đã bao gồm thông tin bên bán, bên mua, giá trị giao dịch, điều kiện giao hàng và mục ký xác nhận. Vui lòng kiểm tra mã số thuế và thông tin ngân hàng trước khi gửi.",
+      "tags": [
+        "商务文书生成",
+        "越南语",
+        "报价邮件"
+      ]
+    },
+    {
+      "instruction_id": "INST-060",
+      "instruction_type": "instruction",
+      "task": "将新能源配件的客户见证文案本地化为中文版本，要求突出合规与交付优势。",
+      "output": "新能源配件方案强调合规采购、稳定交付与透明服务，本地化文案突出总成本优势和上线效率，便于区域客户快速决策。",
+      "tags": [
+        "市场内容本地化",
+        "中文",
+        "新能源配件"
+      ]
+    },
+    {
+      "instruction_id": "INST-061",
+      "instruction_type": "instruction",
+      "task": "用英语向客户生成订单延期说明，语气专业并包含下一步操作指引。",
+      "output": "Dear customer, thank you for your inquiry. We have updated the timeline and required actions for your order. Please review the attached checklist and confirm the next step within one business day.",
+      "tags": [
+        "客服回复生成",
+        "英语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-062",
+      "instruction_type": "instruction",
+      "task": "用泰语生成装箱单草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "ได้จัดทำร่างเอกสารเชิงพาณิชย์เรียบร้อยแล้ว โดยมีข้อมูลผู้ขาย ผู้ซื้อ จำนวนเงิน สกุลเงิน และเงื่อนไขการส่งมอบ กรุณาตรวจสอบเลขประจำตัวผู้เสียภาษีและข้อมูลบัญชีก่อนส่ง",
+      "tags": [
+        "商务文书生成",
+        "泰语",
+        "装箱单"
+      ]
+    },
+    {
+      "instruction_id": "INST-063",
+      "instruction_type": "instruction",
+      "task": "将纺织服装的本地渠道介绍本地化为马来语版本，要求突出合规与交付优势。",
+      "output": "Penyelesaian 纺织服装 kami menekankan sumber yang patuh peraturan, masa penghantaran yang stabil, dan sokongan perkhidmatan yang telus. Kandungan setempat menonjolkan kebolehpercayaan dan kos keseluruhan yang lebih rendah.",
+      "tags": [
+        "市场内容本地化",
+        "马来语",
+        "纺织服装"
+      ]
+    },
+    {
+      "instruction_id": "INST-064",
+      "instruction_type": "instruction",
+      "task": "用越南语向客户生成物流时效说明，语气专业并包含下一步操作指引。",
+      "output": "Kính gửi Quý khách, cảm ơn bạn đã liên hệ. Chúng tôi đã cập nhật tiến độ và các bước cần thực hiện cho đơn hàng. Vui lòng kiểm tra danh sách tài liệu và xác nhận bước tiếp theo trong vòng một ngày làm việc.",
+      "tags": [
+        "客服回复生成",
+        "越南语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-065",
+      "instruction_type": "instruction",
+      "task": "用中文生成售后确认函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "已生成商务文书草稿，包含买卖双方信息、币种与金额、交付条款和签章栏。请在发送前核对税号与收款账户。",
+      "tags": [
+        "商务文书生成",
+        "中文",
+        "售后确认函"
+      ]
+    },
+    {
+      "instruction_id": "INST-066",
+      "instruction_type": "instruction",
+      "task": "将医疗耗材的新品卖点本地化为英语版本，要求突出合规与交付优势。",
+      "output": "Our 医疗耗材 solution combines compliant sourcing, stable lead time, and transparent service support. Localized content emphasizes reliability, lower total cost, and faster onboarding for regional buyers.",
+      "tags": [
+        "市场内容本地化",
+        "英语",
+        "医疗耗材"
+      ]
+    },
+    {
+      "instruction_id": "INST-067",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户生成售后质保说明，语气专业并包含下一步操作指引。",
+      "output": "เรียนลูกค้า ขอบคุณสำหรับการติดต่อ เราได้อัปเดตกำหนดเวลาและขั้นตอนที่ต้องดำเนินการสำหรับคำสั่งซื้อของท่าน โปรดตรวจสอบรายการเอกสารและยืนยันขั้นตอนถัดไปภายในหนึ่งวันทำการ",
+      "tags": [
+        "客服回复生成",
+        "泰语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-068",
+      "instruction_type": "instruction",
+      "task": "用马来语生成付款通知函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Draf dokumen komersial telah disediakan dengan maklumat penjual, pembeli, jumlah, mata wang, serta terma penghantaran. Sila semak nombor cukai dan butiran bank sebelum dihantar.",
+      "tags": [
+        "商务文书生成",
+        "马来语",
+        "付款通知函"
+      ]
+    },
+    {
+      "instruction_id": "INST-069",
+      "instruction_type": "instruction",
+      "task": "将户外设备的品牌故事本地化为越南语版本，要求突出合规与交付优势。",
+      "output": "Giải pháp 户外设备 của chúng tôi tập trung vào nguồn cung tuân thủ quy định, thời gian giao hàng ổn định và dịch vụ minh bạch. Nội dung bản địa hóa nhấn mạnh độ tin cậy và chi phí vận hành tối ưu.",
+      "tags": [
+        "市场内容本地化",
+        "越南语",
+        "户外设备"
+      ]
+    },
+    {
+      "instruction_id": "INST-070",
+      "instruction_type": "instruction",
+      "task": "用中文向客户生成退换货流程说明，语气专业并包含下一步操作指引。",
+      "output": "尊敬的客户，您好。我们已更新该订单的时间节点和所需动作，请您查收附件清单，并在1个工作日内确认下一步安排。",
+      "tags": [
+        "客服回复生成",
+        "中文",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-071",
+      "instruction_type": "instruction",
+      "task": "用英语生成商业发票草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Commercial draft prepared with seller and buyer details, payment currency, amount, delivery term, and signature block. Please validate tax number and bank account before sending.",
+      "tags": [
+        "商务文书生成",
+        "英语",
+        "商业发票"
+      ]
+    },
+    {
+      "instruction_id": "INST-072",
+      "instruction_type": "instruction",
+      "task": "将新能源配件的节日促销本地化为泰语版本，要求突出合规与交付优势。",
+      "output": "โซลูชัน新能源配件ของเราเน้นการจัดหาที่สอดคล้องตามกฎระเบียบ ระยะเวลาจัดส่งที่เสถียร และการสนับสนุนที่โปร่งใส เหมาะกับลูกค้าในภูมิภาคที่ต้องการต้นทุนรวมต่ำและเริ่มใช้งานได้รวดเร็ว",
+      "tags": [
+        "市场内容本地化",
+        "泰语",
+        "新能源配件"
+      ]
+    },
+    {
+      "instruction_id": "INST-073",
+      "instruction_type": "instruction",
+      "task": "用马来语向客户生成付款节点说明，语气专业并包含下一步操作指引。",
+      "output": "Pelanggan yang dihormati, terima kasih atas pertanyaan anda. Kami telah mengemas kini garis masa dan tindakan yang diperlukan untuk pesanan ini. Sila semak senarai semak dan sahkan langkah seterusnya dalam satu hari bekerja.",
+      "tags": [
+        "客服回复生成",
+        "马来语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-074",
+      "instruction_type": "instruction",
+      "task": "用越南语生成报价邮件草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Bản nháp chứng từ thương mại đã bao gồm thông tin bên bán, bên mua, giá trị giao dịch, điều kiện giao hàng và mục ký xác nhận. Vui lòng kiểm tra mã số thuế và thông tin ngân hàng trước khi gửi.",
+      "tags": [
+        "商务文书生成",
+        "越南语",
+        "报价邮件"
+      ]
+    },
+    {
+      "instruction_id": "INST-075",
+      "instruction_type": "instruction",
+      "task": "将纺织服装的客户见证文案本地化为中文版本，要求突出合规与交付优势。",
+      "output": "纺织服装方案强调合规采购、稳定交付与透明服务，本地化文案突出总成本优势和上线效率，便于区域客户快速决策。",
+      "tags": [
+        "市场内容本地化",
+        "中文",
+        "纺织服装"
+      ]
+    },
+    {
+      "instruction_id": "INST-076",
+      "instruction_type": "instruction",
+      "task": "用英语向客户生成关税预估说明，语气专业并包含下一步操作指引。",
+      "output": "Dear customer, thank you for your inquiry. We have updated the timeline and required actions for your order. Please review the attached checklist and confirm the next step within one business day.",
+      "tags": [
+        "客服回复生成",
+        "英语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-077",
+      "instruction_type": "instruction",
+      "task": "用泰语生成装箱单草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "ได้จัดทำร่างเอกสารเชิงพาณิชย์เรียบร้อยแล้ว โดยมีข้อมูลผู้ขาย ผู้ซื้อ จำนวนเงิน สกุลเงิน และเงื่อนไขการส่งมอบ กรุณาตรวจสอบเลขประจำตัวผู้เสียภาษีและข้อมูลบัญชีก่อนส่ง",
+      "tags": [
+        "商务文书生成",
+        "泰语",
+        "装箱单"
+      ]
+    },
+    {
+      "instruction_id": "INST-078",
+      "instruction_type": "instruction",
+      "task": "将医疗耗材的本地渠道介绍本地化为马来语版本，要求突出合规与交付优势。",
+      "output": "Penyelesaian 医疗耗材 kami menekankan sumber yang patuh peraturan, masa penghantaran yang stabil, dan sokongan perkhidmatan yang telus. Kandungan setempat menonjolkan kebolehpercayaan dan kos keseluruhan yang lebih rendah.",
+      "tags": [
+        "市场内容本地化",
+        "马来语",
+        "医疗耗材"
+      ]
+    },
+    {
+      "instruction_id": "INST-079",
+      "instruction_type": "instruction",
+      "task": "用越南语向客户生成清关补件说明，语气专业并包含下一步操作指引。",
+      "output": "Kính gửi Quý khách, cảm ơn bạn đã liên hệ. Chúng tôi đã cập nhật tiến độ và các bước cần thực hiện cho đơn hàng. Vui lòng kiểm tra danh sách tài liệu và xác nhận bước tiếp theo trong vòng một ngày làm việc.",
+      "tags": [
+        "客服回复生成",
+        "越南语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-080",
+      "instruction_type": "instruction",
+      "task": "用中文生成售后确认函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "已生成商务文书草稿，包含买卖双方信息、币种与金额、交付条款和签章栏。请在发送前核对税号与收款账户。",
+      "tags": [
+        "商务文书生成",
+        "中文",
+        "售后确认函"
+      ]
+    },
+    {
+      "instruction_id": "INST-081",
+      "instruction_type": "instruction",
+      "task": "将户外设备的新品卖点本地化为英语版本，要求突出合规与交付优势。",
+      "output": "Our 户外设备 solution combines compliant sourcing, stable lead time, and transparent service support. Localized content emphasizes reliability, lower total cost, and faster onboarding for regional buyers.",
+      "tags": [
+        "市场内容本地化",
+        "英语",
+        "户外设备"
+      ]
+    },
+    {
+      "instruction_id": "INST-082",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户生成订单延期说明，语气专业并包含下一步操作指引。",
+      "output": "เรียนลูกค้า ขอบคุณสำหรับการติดต่อ เราได้อัปเดตกำหนดเวลาและขั้นตอนที่ต้องดำเนินการสำหรับคำสั่งซื้อของท่าน โปรดตรวจสอบรายการเอกสารและยืนยันขั้นตอนถัดไปภายในหนึ่งวันทำการ",
+      "tags": [
+        "客服回复生成",
+        "泰语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-083",
+      "instruction_type": "instruction",
+      "task": "用马来语生成付款通知函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Draf dokumen komersial telah disediakan dengan maklumat penjual, pembeli, jumlah, mata wang, serta terma penghantaran. Sila semak nombor cukai dan butiran bank sebelum dihantar.",
+      "tags": [
+        "商务文书生成",
+        "马来语",
+        "付款通知函"
+      ]
+    },
+    {
+      "instruction_id": "INST-084",
+      "instruction_type": "instruction",
+      "task": "将新能源配件的品牌故事本地化为越南语版本，要求突出合规与交付优势。",
+      "output": "Giải pháp 新能源配件 của chúng tôi tập trung vào nguồn cung tuân thủ quy định, thời gian giao hàng ổn định và dịch vụ minh bạch. Nội dung bản địa hóa nhấn mạnh độ tin cậy và chi phí vận hành tối ưu.",
+      "tags": [
+        "市场内容本地化",
+        "越南语",
+        "新能源配件"
+      ]
+    },
+    {
+      "instruction_id": "INST-085",
+      "instruction_type": "instruction",
+      "task": "用中文向客户生成物流时效说明，语气专业并包含下一步操作指引。",
+      "output": "尊敬的客户，您好。我们已更新该订单的时间节点和所需动作，请您查收附件清单，并在1个工作日内确认下一步安排。",
+      "tags": [
+        "客服回复生成",
+        "中文",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-086",
+      "instruction_type": "instruction",
+      "task": "用英语生成商业发票草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Commercial draft prepared with seller and buyer details, payment currency, amount, delivery term, and signature block. Please validate tax number and bank account before sending.",
+      "tags": [
+        "商务文书生成",
+        "英语",
+        "商业发票"
+      ]
+    },
+    {
+      "instruction_id": "INST-087",
+      "instruction_type": "instruction",
+      "task": "将纺织服装的节日促销本地化为泰语版本，要求突出合规与交付优势。",
+      "output": "โซลูชัน纺织服装ของเราเน้นการจัดหาที่สอดคล้องตามกฎระเบียบ ระยะเวลาจัดส่งที่เสถียร และการสนับสนุนที่โปร่งใส เหมาะกับลูกค้าในภูมิภาคที่ต้องการต้นทุนรวมต่ำและเริ่มใช้งานได้รวดเร็ว",
+      "tags": [
+        "市场内容本地化",
+        "泰语",
+        "纺织服装"
+      ]
+    },
+    {
+      "instruction_id": "INST-088",
+      "instruction_type": "instruction",
+      "task": "用马来语向客户生成售后质保说明，语气专业并包含下一步操作指引。",
+      "output": "Pelanggan yang dihormati, terima kasih atas pertanyaan anda. Kami telah mengemas kini garis masa dan tindakan yang diperlukan untuk pesanan ini. Sila semak senarai semak dan sahkan langkah seterusnya dalam satu hari bekerja.",
+      "tags": [
+        "客服回复生成",
+        "马来语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-089",
+      "instruction_type": "instruction",
+      "task": "用越南语生成报价邮件草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Bản nháp chứng từ thương mại đã bao gồm thông tin bên bán, bên mua, giá trị giao dịch, điều kiện giao hàng và mục ký xác nhận. Vui lòng kiểm tra mã số thuế và thông tin ngân hàng trước khi gửi.",
+      "tags": [
+        "商务文书生成",
+        "越南语",
+        "报价邮件"
+      ]
+    },
+    {
+      "instruction_id": "INST-090",
+      "instruction_type": "instruction",
+      "task": "将医疗耗材的客户见证文案本地化为中文版本，要求突出合规与交付优势。",
+      "output": "医疗耗材方案强调合规采购、稳定交付与透明服务，本地化文案突出总成本优势和上线效率，便于区域客户快速决策。",
+      "tags": [
+        "市场内容本地化",
+        "中文",
+        "医疗耗材"
+      ]
+    },
+    {
+      "instruction_id": "INST-091",
+      "instruction_type": "instruction",
+      "task": "用英语向客户生成退换货流程说明，语气专业并包含下一步操作指引。",
+      "output": "Dear customer, thank you for your inquiry. We have updated the timeline and required actions for your order. Please review the attached checklist and confirm the next step within one business day.",
+      "tags": [
+        "客服回复生成",
+        "英语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-092",
+      "instruction_type": "instruction",
+      "task": "用泰语生成装箱单草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "ได้จัดทำร่างเอกสารเชิงพาณิชย์เรียบร้อยแล้ว โดยมีข้อมูลผู้ขาย ผู้ซื้อ จำนวนเงิน สกุลเงิน และเงื่อนไขการส่งมอบ กรุณาตรวจสอบเลขประจำตัวผู้เสียภาษีและข้อมูลบัญชีก่อนส่ง",
+      "tags": [
+        "商务文书生成",
+        "泰语",
+        "装箱单"
+      ]
+    },
+    {
+      "instruction_id": "INST-093",
+      "instruction_type": "instruction",
+      "task": "将户外设备的本地渠道介绍本地化为马来语版本，要求突出合规与交付优势。",
+      "output": "Penyelesaian 户外设备 kami menekankan sumber yang patuh peraturan, masa penghantaran yang stabil, dan sokongan perkhidmatan yang telus. Kandungan setempat menonjolkan kebolehpercayaan dan kos keseluruhan yang lebih rendah.",
+      "tags": [
+        "市场内容本地化",
+        "马来语",
+        "户外设备"
+      ]
+    },
+    {
+      "instruction_id": "INST-094",
+      "instruction_type": "instruction",
+      "task": "用越南语向客户生成付款节点说明，语气专业并包含下一步操作指引。",
+      "output": "Kính gửi Quý khách, cảm ơn bạn đã liên hệ. Chúng tôi đã cập nhật tiến độ và các bước cần thực hiện cho đơn hàng. Vui lòng kiểm tra danh sách tài liệu và xác nhận bước tiếp theo trong vòng một ngày làm việc.",
+      "tags": [
+        "客服回复生成",
+        "越南语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-095",
+      "instruction_type": "instruction",
+      "task": "用中文生成售后确认函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "已生成商务文书草稿，包含买卖双方信息、币种与金额、交付条款和签章栏。请在发送前核对税号与收款账户。",
+      "tags": [
+        "商务文书生成",
+        "中文",
+        "售后确认函"
+      ]
+    },
+    {
+      "instruction_id": "INST-096",
+      "instruction_type": "instruction",
+      "task": "将新能源配件的新品卖点本地化为英语版本，要求突出合规与交付优势。",
+      "output": "Our 新能源配件 solution combines compliant sourcing, stable lead time, and transparent service support. Localized content emphasizes reliability, lower total cost, and faster onboarding for regional buyers.",
+      "tags": [
+        "市场内容本地化",
+        "英语",
+        "新能源配件"
+      ]
+    },
+    {
+      "instruction_id": "INST-097",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户生成关税预估说明，语气专业并包含下一步操作指引。",
+      "output": "เรียนลูกค้า ขอบคุณสำหรับการติดต่อ เราได้อัปเดตกำหนดเวลาและขั้นตอนที่ต้องดำเนินการสำหรับคำสั่งซื้อของท่าน โปรดตรวจสอบรายการเอกสารและยืนยันขั้นตอนถัดไปภายในหนึ่งวันทำการ",
+      "tags": [
+        "客服回复生成",
+        "泰语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-098",
+      "instruction_type": "instruction",
+      "task": "用马来语生成付款通知函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Draf dokumen komersial telah disediakan dengan maklumat penjual, pembeli, jumlah, mata wang, serta terma penghantaran. Sila semak nombor cukai dan butiran bank sebelum dihantar.",
+      "tags": [
+        "商务文书生成",
+        "马来语",
+        "付款通知函"
+      ]
+    },
+    {
+      "instruction_id": "INST-099",
+      "instruction_type": "instruction",
+      "task": "将纺织服装的品牌故事本地化为越南语版本，要求突出合规与交付优势。",
+      "output": "Giải pháp 纺织服装 của chúng tôi tập trung vào nguồn cung tuân thủ quy định, thời gian giao hàng ổn định và dịch vụ minh bạch. Nội dung bản địa hóa nhấn mạnh độ tin cậy và chi phí vận hành tối ưu.",
+      "tags": [
+        "市场内容本地化",
+        "越南语",
+        "纺织服装"
+      ]
+    },
+    {
+      "instruction_id": "INST-100",
+      "instruction_type": "instruction",
+      "task": "用中文向客户生成清关补件说明，语气专业并包含下一步操作指引。",
+      "output": "尊敬的客户，您好。我们已更新该订单的时间节点和所需动作，请您查收附件清单，并在1个工作日内确认下一步安排。",
+      "tags": [
+        "客服回复生成",
+        "中文",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-101",
+      "instruction_type": "instruction",
+      "task": "用英语生成商业发票草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Commercial draft prepared with seller and buyer details, payment currency, amount, delivery term, and signature block. Please validate tax number and bank account before sending.",
+      "tags": [
+        "商务文书生成",
+        "英语",
+        "商业发票"
+      ]
+    },
+    {
+      "instruction_id": "INST-102",
+      "instruction_type": "instruction",
+      "task": "将医疗耗材的节日促销本地化为泰语版本，要求突出合规与交付优势。",
+      "output": "โซลูชัน医疗耗材ของเราเน้นการจัดหาที่สอดคล้องตามกฎระเบียบ ระยะเวลาจัดส่งที่เสถียร และการสนับสนุนที่โปร่งใส เหมาะกับลูกค้าในภูมิภาคที่ต้องการต้นทุนรวมต่ำและเริ่มใช้งานได้รวดเร็ว",
+      "tags": [
+        "市场内容本地化",
+        "泰语",
+        "医疗耗材"
+      ]
+    },
+    {
+      "instruction_id": "INST-103",
+      "instruction_type": "instruction",
+      "task": "用马来语向客户生成订单延期说明，语气专业并包含下一步操作指引。",
+      "output": "Pelanggan yang dihormati, terima kasih atas pertanyaan anda. Kami telah mengemas kini garis masa dan tindakan yang diperlukan untuk pesanan ini. Sila semak senarai semak dan sahkan langkah seterusnya dalam satu hari bekerja.",
+      "tags": [
+        "客服回复生成",
+        "马来语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-104",
+      "instruction_type": "instruction",
+      "task": "用越南语生成报价邮件草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Bản nháp chứng từ thương mại đã bao gồm thông tin bên bán, bên mua, giá trị giao dịch, điều kiện giao hàng và mục ký xác nhận. Vui lòng kiểm tra mã số thuế và thông tin ngân hàng trước khi gửi.",
+      "tags": [
+        "商务文书生成",
+        "越南语",
+        "报价邮件"
+      ]
+    },
+    {
+      "instruction_id": "INST-105",
+      "instruction_type": "instruction",
+      "task": "将户外设备的客户见证文案本地化为中文版本，要求突出合规与交付优势。",
+      "output": "户外设备方案强调合规采购、稳定交付与透明服务，本地化文案突出总成本优势和上线效率，便于区域客户快速决策。",
+      "tags": [
+        "市场内容本地化",
+        "中文",
+        "户外设备"
+      ]
+    },
+    {
+      "instruction_id": "INST-106",
+      "instruction_type": "instruction",
+      "task": "用英语向客户生成物流时效说明，语气专业并包含下一步操作指引。",
+      "output": "Dear customer, thank you for your inquiry. We have updated the timeline and required actions for your order. Please review the attached checklist and confirm the next step within one business day.",
+      "tags": [
+        "客服回复生成",
+        "英语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-107",
+      "instruction_type": "instruction",
+      "task": "用泰语生成装箱单草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "ได้จัดทำร่างเอกสารเชิงพาณิชย์เรียบร้อยแล้ว โดยมีข้อมูลผู้ขาย ผู้ซื้อ จำนวนเงิน สกุลเงิน และเงื่อนไขการส่งมอบ กรุณาตรวจสอบเลขประจำตัวผู้เสียภาษีและข้อมูลบัญชีก่อนส่ง",
+      "tags": [
+        "商务文书生成",
+        "泰语",
+        "装箱单"
+      ]
+    },
+    {
+      "instruction_id": "INST-108",
+      "instruction_type": "instruction",
+      "task": "将新能源配件的本地渠道介绍本地化为马来语版本，要求突出合规与交付优势。",
+      "output": "Penyelesaian 新能源配件 kami menekankan sumber yang patuh peraturan, masa penghantaran yang stabil, dan sokongan perkhidmatan yang telus. Kandungan setempat menonjolkan kebolehpercayaan dan kos keseluruhan yang lebih rendah.",
+      "tags": [
+        "市场内容本地化",
+        "马来语",
+        "新能源配件"
+      ]
+    },
+    {
+      "instruction_id": "INST-109",
+      "instruction_type": "instruction",
+      "task": "用越南语向客户生成售后质保说明，语气专业并包含下一步操作指引。",
+      "output": "Kính gửi Quý khách, cảm ơn bạn đã liên hệ. Chúng tôi đã cập nhật tiến độ và các bước cần thực hiện cho đơn hàng. Vui lòng kiểm tra danh sách tài liệu và xác nhận bước tiếp theo trong vòng một ngày làm việc.",
+      "tags": [
+        "客服回复生成",
+        "越南语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-110",
+      "instruction_type": "instruction",
+      "task": "用中文生成售后确认函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "已生成商务文书草稿，包含买卖双方信息、币种与金额、交付条款和签章栏。请在发送前核对税号与收款账户。",
+      "tags": [
+        "商务文书生成",
+        "中文",
+        "售后确认函"
+      ]
+    },
+    {
+      "instruction_id": "INST-111",
+      "instruction_type": "instruction",
+      "task": "将纺织服装的新品卖点本地化为英语版本，要求突出合规与交付优势。",
+      "output": "Our 纺织服装 solution combines compliant sourcing, stable lead time, and transparent service support. Localized content emphasizes reliability, lower total cost, and faster onboarding for regional buyers.",
+      "tags": [
+        "市场内容本地化",
+        "英语",
+        "纺织服装"
+      ]
+    },
+    {
+      "instruction_id": "INST-112",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户生成退换货流程说明，语气专业并包含下一步操作指引。",
+      "output": "เรียนลูกค้า ขอบคุณสำหรับการติดต่อ เราได้อัปเดตกำหนดเวลาและขั้นตอนที่ต้องดำเนินการสำหรับคำสั่งซื้อของท่าน โปรดตรวจสอบรายการเอกสารและยืนยันขั้นตอนถัดไปภายในหนึ่งวันทำการ",
+      "tags": [
+        "客服回复生成",
+        "泰语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-113",
+      "instruction_type": "instruction",
+      "task": "用马来语生成付款通知函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Draf dokumen komersial telah disediakan dengan maklumat penjual, pembeli, jumlah, mata wang, serta terma penghantaran. Sila semak nombor cukai dan butiran bank sebelum dihantar.",
+      "tags": [
+        "商务文书生成",
+        "马来语",
+        "付款通知函"
+      ]
+    },
+    {
+      "instruction_id": "INST-114",
+      "instruction_type": "instruction",
+      "task": "将医疗耗材的品牌故事本地化为越南语版本，要求突出合规与交付优势。",
+      "output": "Giải pháp 医疗耗材 của chúng tôi tập trung vào nguồn cung tuân thủ quy định, thời gian giao hàng ổn định và dịch vụ minh bạch. Nội dung bản địa hóa nhấn mạnh độ tin cậy và chi phí vận hành tối ưu.",
+      "tags": [
+        "市场内容本地化",
+        "越南语",
+        "医疗耗材"
+      ]
+    },
+    {
+      "instruction_id": "INST-115",
+      "instruction_type": "instruction",
+      "task": "用中文向客户生成付款节点说明，语气专业并包含下一步操作指引。",
+      "output": "尊敬的客户，您好。我们已更新该订单的时间节点和所需动作，请您查收附件清单，并在1个工作日内确认下一步安排。",
+      "tags": [
+        "客服回复生成",
+        "中文",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-116",
+      "instruction_type": "instruction",
+      "task": "用英语生成商业发票草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Commercial draft prepared with seller and buyer details, payment currency, amount, delivery term, and signature block. Please validate tax number and bank account before sending.",
+      "tags": [
+        "商务文书生成",
+        "英语",
+        "商业发票"
+      ]
+    },
+    {
+      "instruction_id": "INST-117",
+      "instruction_type": "instruction",
+      "task": "将户外设备的节日促销本地化为泰语版本，要求突出合规与交付优势。",
+      "output": "โซลูชัน户外设备ของเราเน้นการจัดหาที่สอดคล้องตามกฎระเบียบ ระยะเวลาจัดส่งที่เสถียร และการสนับสนุนที่โปร่งใส เหมาะกับลูกค้าในภูมิภาคที่ต้องการต้นทุนรวมต่ำและเริ่มใช้งานได้รวดเร็ว",
+      "tags": [
+        "市场内容本地化",
+        "泰语",
+        "户外设备"
+      ]
+    },
+    {
+      "instruction_id": "INST-118",
+      "instruction_type": "instruction",
+      "task": "用马来语向客户生成关税预估说明，语气专业并包含下一步操作指引。",
+      "output": "Pelanggan yang dihormati, terima kasih atas pertanyaan anda. Kami telah mengemas kini garis masa dan tindakan yang diperlukan untuk pesanan ini. Sila semak senarai semak dan sahkan langkah seterusnya dalam satu hari bekerja.",
+      "tags": [
+        "客服回复生成",
+        "马来语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-119",
+      "instruction_type": "instruction",
+      "task": "用越南语生成报价邮件草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Bản nháp chứng từ thương mại đã bao gồm thông tin bên bán, bên mua, giá trị giao dịch, điều kiện giao hàng và mục ký xác nhận. Vui lòng kiểm tra mã số thuế và thông tin ngân hàng trước khi gửi.",
+      "tags": [
+        "商务文书生成",
+        "越南语",
+        "报价邮件"
+      ]
+    },
+    {
+      "instruction_id": "INST-120",
+      "instruction_type": "instruction",
+      "task": "将新能源配件的客户见证文案本地化为中文版本，要求突出合规与交付优势。",
+      "output": "新能源配件方案强调合规采购、稳定交付与透明服务，本地化文案突出总成本优势和上线效率，便于区域客户快速决策。",
+      "tags": [
+        "市场内容本地化",
+        "中文",
+        "新能源配件"
+      ]
+    },
+    {
+      "instruction_id": "INST-121",
+      "instruction_type": "instruction",
+      "task": "用英语向客户生成清关补件说明，语气专业并包含下一步操作指引。",
+      "output": "Dear customer, thank you for your inquiry. We have updated the timeline and required actions for your order. Please review the attached checklist and confirm the next step within one business day.",
+      "tags": [
+        "客服回复生成",
+        "英语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-122",
+      "instruction_type": "instruction",
+      "task": "用泰语生成装箱单草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "ได้จัดทำร่างเอกสารเชิงพาณิชย์เรียบร้อยแล้ว โดยมีข้อมูลผู้ขาย ผู้ซื้อ จำนวนเงิน สกุลเงิน และเงื่อนไขการส่งมอบ กรุณาตรวจสอบเลขประจำตัวผู้เสียภาษีและข้อมูลบัญชีก่อนส่ง",
+      "tags": [
+        "商务文书生成",
+        "泰语",
+        "装箱单"
+      ]
+    },
+    {
+      "instruction_id": "INST-123",
+      "instruction_type": "instruction",
+      "task": "将纺织服装的本地渠道介绍本地化为马来语版本，要求突出合规与交付优势。",
+      "output": "Penyelesaian 纺织服装 kami menekankan sumber yang patuh peraturan, masa penghantaran yang stabil, dan sokongan perkhidmatan yang telus. Kandungan setempat menonjolkan kebolehpercayaan dan kos keseluruhan yang lebih rendah.",
+      "tags": [
+        "市场内容本地化",
+        "马来语",
+        "纺织服装"
+      ]
+    },
+    {
+      "instruction_id": "INST-124",
+      "instruction_type": "instruction",
+      "task": "用越南语向客户生成订单延期说明，语气专业并包含下一步操作指引。",
+      "output": "Kính gửi Quý khách, cảm ơn bạn đã liên hệ. Chúng tôi đã cập nhật tiến độ và các bước cần thực hiện cho đơn hàng. Vui lòng kiểm tra danh sách tài liệu và xác nhận bước tiếp theo trong vòng một ngày làm việc.",
+      "tags": [
+        "客服回复生成",
+        "越南语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-125",
+      "instruction_type": "instruction",
+      "task": "用中文生成售后确认函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "已生成商务文书草稿，包含买卖双方信息、币种与金额、交付条款和签章栏。请在发送前核对税号与收款账户。",
+      "tags": [
+        "商务文书生成",
+        "中文",
+        "售后确认函"
+      ]
+    },
+    {
+      "instruction_id": "INST-126",
+      "instruction_type": "instruction",
+      "task": "将医疗耗材的新品卖点本地化为英语版本，要求突出合规与交付优势。",
+      "output": "Our 医疗耗材 solution combines compliant sourcing, stable lead time, and transparent service support. Localized content emphasizes reliability, lower total cost, and faster onboarding for regional buyers.",
+      "tags": [
+        "市场内容本地化",
+        "英语",
+        "医疗耗材"
+      ]
+    },
+    {
+      "instruction_id": "INST-127",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户生成物流时效说明，语气专业并包含下一步操作指引。",
+      "output": "เรียนลูกค้า ขอบคุณสำหรับการติดต่อ เราได้อัปเดตกำหนดเวลาและขั้นตอนที่ต้องดำเนินการสำหรับคำสั่งซื้อของท่าน โปรดตรวจสอบรายการเอกสารและยืนยันขั้นตอนถัดไปภายในหนึ่งวันทำการ",
+      "tags": [
+        "客服回复生成",
+        "泰语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-128",
+      "instruction_type": "instruction",
+      "task": "用马来语生成付款通知函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Draf dokumen komersial telah disediakan dengan maklumat penjual, pembeli, jumlah, mata wang, serta terma penghantaran. Sila semak nombor cukai dan butiran bank sebelum dihantar.",
+      "tags": [
+        "商务文书生成",
+        "马来语",
+        "付款通知函"
+      ]
+    },
+    {
+      "instruction_id": "INST-129",
+      "instruction_type": "instruction",
+      "task": "将户外设备的品牌故事本地化为越南语版本，要求突出合规与交付优势。",
+      "output": "Giải pháp 户外设备 của chúng tôi tập trung vào nguồn cung tuân thủ quy định, thời gian giao hàng ổn định và dịch vụ minh bạch. Nội dung bản địa hóa nhấn mạnh độ tin cậy và chi phí vận hành tối ưu.",
+      "tags": [
+        "市场内容本地化",
+        "越南语",
+        "户外设备"
+      ]
+    },
+    {
+      "instruction_id": "INST-130",
+      "instruction_type": "instruction",
+      "task": "用中文向客户生成售后质保说明，语气专业并包含下一步操作指引。",
+      "output": "尊敬的客户，您好。我们已更新该订单的时间节点和所需动作，请您查收附件清单，并在1个工作日内确认下一步安排。",
+      "tags": [
+        "客服回复生成",
+        "中文",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-131",
+      "instruction_type": "instruction",
+      "task": "用英语生成商业发票草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Commercial draft prepared with seller and buyer details, payment currency, amount, delivery term, and signature block. Please validate tax number and bank account before sending.",
+      "tags": [
+        "商务文书生成",
+        "英语",
+        "商业发票"
+      ]
+    },
+    {
+      "instruction_id": "INST-132",
+      "instruction_type": "instruction",
+      "task": "将新能源配件的节日促销本地化为泰语版本，要求突出合规与交付优势。",
+      "output": "โซลูชัน新能源配件ของเราเน้นการจัดหาที่สอดคล้องตามกฎระเบียบ ระยะเวลาจัดส่งที่เสถียร และการสนับสนุนที่โปร่งใส เหมาะกับลูกค้าในภูมิภาคที่ต้องการต้นทุนรวมต่ำและเริ่มใช้งานได้รวดเร็ว",
+      "tags": [
+        "市场内容本地化",
+        "泰语",
+        "新能源配件"
+      ]
+    },
+    {
+      "instruction_id": "INST-133",
+      "instruction_type": "instruction",
+      "task": "用马来语向客户生成退换货流程说明，语气专业并包含下一步操作指引。",
+      "output": "Pelanggan yang dihormati, terima kasih atas pertanyaan anda. Kami telah mengemas kini garis masa dan tindakan yang diperlukan untuk pesanan ini. Sila semak senarai semak dan sahkan langkah seterusnya dalam satu hari bekerja.",
+      "tags": [
+        "客服回复生成",
+        "马来语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-134",
+      "instruction_type": "instruction",
+      "task": "用越南语生成报价邮件草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Bản nháp chứng từ thương mại đã bao gồm thông tin bên bán, bên mua, giá trị giao dịch, điều kiện giao hàng và mục ký xác nhận. Vui lòng kiểm tra mã số thuế và thông tin ngân hàng trước khi gửi.",
+      "tags": [
+        "商务文书生成",
+        "越南语",
+        "报价邮件"
+      ]
+    },
+    {
+      "instruction_id": "INST-135",
+      "instruction_type": "instruction",
+      "task": "将纺织服装的客户见证文案本地化为中文版本，要求突出合规与交付优势。",
+      "output": "纺织服装方案强调合规采购、稳定交付与透明服务，本地化文案突出总成本优势和上线效率，便于区域客户快速决策。",
+      "tags": [
+        "市场内容本地化",
+        "中文",
+        "纺织服装"
+      ]
+    },
+    {
+      "instruction_id": "INST-136",
+      "instruction_type": "instruction",
+      "task": "用英语向客户生成付款节点说明，语气专业并包含下一步操作指引。",
+      "output": "Dear customer, thank you for your inquiry. We have updated the timeline and required actions for your order. Please review the attached checklist and confirm the next step within one business day.",
+      "tags": [
+        "客服回复生成",
+        "英语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-137",
+      "instruction_type": "instruction",
+      "task": "用泰语生成装箱单草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "ได้จัดทำร่างเอกสารเชิงพาณิชย์เรียบร้อยแล้ว โดยมีข้อมูลผู้ขาย ผู้ซื้อ จำนวนเงิน สกุลเงิน และเงื่อนไขการส่งมอบ กรุณาตรวจสอบเลขประจำตัวผู้เสียภาษีและข้อมูลบัญชีก่อนส่ง",
+      "tags": [
+        "商务文书生成",
+        "泰语",
+        "装箱单"
+      ]
+    },
+    {
+      "instruction_id": "INST-138",
+      "instruction_type": "instruction",
+      "task": "将医疗耗材的本地渠道介绍本地化为马来语版本，要求突出合规与交付优势。",
+      "output": "Penyelesaian 医疗耗材 kami menekankan sumber yang patuh peraturan, masa penghantaran yang stabil, dan sokongan perkhidmatan yang telus. Kandungan setempat menonjolkan kebolehpercayaan dan kos keseluruhan yang lebih rendah.",
+      "tags": [
+        "市场内容本地化",
+        "马来语",
+        "医疗耗材"
+      ]
+    },
+    {
+      "instruction_id": "INST-139",
+      "instruction_type": "instruction",
+      "task": "用越南语向客户生成关税预估说明，语气专业并包含下一步操作指引。",
+      "output": "Kính gửi Quý khách, cảm ơn bạn đã liên hệ. Chúng tôi đã cập nhật tiến độ và các bước cần thực hiện cho đơn hàng. Vui lòng kiểm tra danh sách tài liệu và xác nhận bước tiếp theo trong vòng một ngày làm việc.",
+      "tags": [
+        "客服回复生成",
+        "越南语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-140",
+      "instruction_type": "instruction",
+      "task": "用中文生成售后确认函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "已生成商务文书草稿，包含买卖双方信息、币种与金额、交付条款和签章栏。请在发送前核对税号与收款账户。",
+      "tags": [
+        "商务文书生成",
+        "中文",
+        "售后确认函"
+      ]
+    },
+    {
+      "instruction_id": "INST-141",
+      "instruction_type": "instruction",
+      "task": "将户外设备的新品卖点本地化为英语版本，要求突出合规与交付优势。",
+      "output": "Our 户外设备 solution combines compliant sourcing, stable lead time, and transparent service support. Localized content emphasizes reliability, lower total cost, and faster onboarding for regional buyers.",
+      "tags": [
+        "市场内容本地化",
+        "英语",
+        "户外设备"
+      ]
+    },
+    {
+      "instruction_id": "INST-142",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户生成清关补件说明，语气专业并包含下一步操作指引。",
+      "output": "เรียนลูกค้า ขอบคุณสำหรับการติดต่อ เราได้อัปเดตกำหนดเวลาและขั้นตอนที่ต้องดำเนินการสำหรับคำสั่งซื้อของท่าน โปรดตรวจสอบรายการเอกสารและยืนยันขั้นตอนถัดไปภายในหนึ่งวันทำการ",
+      "tags": [
+        "客服回复生成",
+        "泰语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-143",
+      "instruction_type": "instruction",
+      "task": "用马来语生成付款通知函草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Draf dokumen komersial telah disediakan dengan maklumat penjual, pembeli, jumlah, mata wang, serta terma penghantaran. Sila semak nombor cukai dan butiran bank sebelum dihantar.",
+      "tags": [
+        "商务文书生成",
+        "马来语",
+        "付款通知函"
+      ]
+    },
+    {
+      "instruction_id": "INST-144",
+      "instruction_type": "instruction",
+      "task": "将新能源配件的品牌故事本地化为越南语版本，要求突出合规与交付优势。",
+      "output": "Giải pháp 新能源配件 của chúng tôi tập trung vào nguồn cung tuân thủ quy định, thời gian giao hàng ổn định và dịch vụ minh bạch. Nội dung bản địa hóa nhấn mạnh độ tin cậy và chi phí vận hành tối ưu.",
+      "tags": [
+        "市场内容本地化",
+        "越南语",
+        "新能源配件"
+      ]
+    },
+    {
+      "instruction_id": "INST-145",
+      "instruction_type": "instruction",
+      "task": "用中文向客户生成订单延期说明，语气专业并包含下一步操作指引。",
+      "output": "尊敬的客户，您好。我们已更新该订单的时间节点和所需动作，请您查收附件清单，并在1个工作日内确认下一步安排。",
+      "tags": [
+        "客服回复生成",
+        "中文",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-146",
+      "instruction_type": "instruction",
+      "task": "用英语生成商业发票草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Commercial draft prepared with seller and buyer details, payment currency, amount, delivery term, and signature block. Please validate tax number and bank account before sending.",
+      "tags": [
+        "商务文书生成",
+        "英语",
+        "商业发票"
+      ]
+    },
+    {
+      "instruction_id": "INST-147",
+      "instruction_type": "instruction",
+      "task": "将纺织服装的节日促销本地化为泰语版本，要求突出合规与交付优势。",
+      "output": "โซลูชัน纺织服装ของเราเน้นการจัดหาที่สอดคล้องตามกฎระเบียบ ระยะเวลาจัดส่งที่เสถียร และการสนับสนุนที่โปร่งใส เหมาะกับลูกค้าในภูมิภาคที่ต้องการต้นทุนรวมต่ำและเริ่มใช้งานได้รวดเร็ว",
+      "tags": [
+        "市场内容本地化",
+        "泰语",
+        "纺织服装"
+      ]
+    },
+    {
+      "instruction_id": "INST-148",
+      "instruction_type": "instruction",
+      "task": "用马来语向客户生成物流时效说明，语气专业并包含下一步操作指引。",
+      "output": "Pelanggan yang dihormati, terima kasih atas pertanyaan anda. Kami telah mengemas kini garis masa dan tindakan yang diperlukan untuk pesanan ini. Sila semak senarai semak dan sahkan langkah seterusnya dalam satu hari bekerja.",
+      "tags": [
+        "客服回复生成",
+        "马来语",
+        "多语沟通"
+      ]
+    },
+    {
+      "instruction_id": "INST-149",
+      "instruction_type": "instruction",
+      "task": "用越南语生成报价邮件草稿，要求包含交易双方信息、金额和关键条款。",
+      "output": "Bản nháp chứng từ thương mại đã bao gồm thông tin bên bán, bên mua, giá trị giao dịch, điều kiện giao hàng và mục ký xác nhận. Vui lòng kiểm tra mã số thuế và thông tin ngân hàng trước khi gửi.",
+      "tags": [
+        "商务文书生成",
+        "越南语",
+        "报价邮件"
+      ]
+    },
+    {
+      "instruction_id": "INST-150",
+      "instruction_type": "instruction",
+      "task": "将医疗耗材的客户见证文案本地化为中文版本，要求突出合规与交付优势。",
+      "output": "医疗耗材方案强调合规采购、稳定交付与透明服务，本地化文案突出总成本优势和上线效率，便于区域客户快速决策。",
+      "tags": [
+        "市场内容本地化",
+        "中文",
+        "医疗耗材"
+      ]
+    },
+    {
+      "instruction_id": "INST-151",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步泰国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-152",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步越南项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-153",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步马来西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-154",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步新加坡项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-155",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步印度尼西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-156",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步菲律宾项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-157",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步阿联酋项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-158",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步沙特项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-159",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步日本项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-160",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步韩国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-161",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步德国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-162",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步法国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-163",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步美国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-164",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步墨西哥项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-165",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步巴西项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-166",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步泰国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-167",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步越南项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-168",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步马来西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-169",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步新加坡项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-170",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步印度尼西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-171",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步菲律宾项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-172",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步阿联酋项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-173",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步沙特项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-174",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步日本项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-175",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步韩国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-176",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步德国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-177",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步法国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-178",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步美国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-179",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步墨西哥项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-180",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步巴西项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-181",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步泰国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-182",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步越南项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-183",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步马来西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-184",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步新加坡项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-185",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步印度尼西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-186",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步菲律宾项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-187",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步阿联酋项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-188",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步沙特项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-189",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步日本项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-190",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步韩国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-191",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步德国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-192",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步法国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-193",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步美国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-194",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步墨西哥项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-195",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步巴西项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-196",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步泰国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-197",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步越南项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-198",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步马来西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-199",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步新加坡项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-200",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步印度尼西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-201",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步菲律宾项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-202",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步阿联酋项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-203",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步沙特项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-204",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步日本项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-205",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步韩国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-206",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步德国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-207",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步法国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-208",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步美国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-209",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步墨西哥项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-210",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步巴西项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-211",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步泰国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-212",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步越南项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-213",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步马来西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-214",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步新加坡项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-215",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步印度尼西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-216",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步菲律宾项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-217",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步阿联酋项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-218",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步沙特项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-219",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步日本项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-220",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步韩国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-221",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步德国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-222",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步法国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-223",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步美国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-224",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步墨西哥项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-225",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步巴西项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-226",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步泰国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-227",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步越南项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-228",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步马来西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-229",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步新加坡项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-230",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步印度尼西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-231",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步菲律宾项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-232",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步阿联酋项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-233",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步沙特项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-234",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步日本项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-235",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步韩国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-236",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步德国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-237",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步法国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-238",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步美国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-239",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步墨西哥项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-240",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步巴西项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-241",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步泰国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-242",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步越南项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-243",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步马来西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-244",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步新加坡项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-245",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步印度尼西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-246",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步菲律宾项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-247",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步阿联酋项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-248",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步沙特项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-249",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步日本项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-250",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步韩国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-251",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步德国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-252",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步法国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-253",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步美国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-254",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步墨西哥项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-255",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步巴西项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-256",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步泰国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-257",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步越南项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-258",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步马来西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-259",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步新加坡项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-260",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步印度尼西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-261",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步菲律宾项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-262",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步阿联酋项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-263",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步沙特项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-264",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步日本项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-265",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步韩国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-266",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步德国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-267",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步法国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-268",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步美国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-269",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步墨西哥项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-270",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步巴西项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-271",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步泰国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-272",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步越南项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-273",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步马来西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-274",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步新加坡项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-275",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步印度尼西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-276",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步菲律宾项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-277",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步阿联酋项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-278",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步沙特项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-279",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步日本项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-280",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步韩国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-281",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步德国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-282",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步法国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-283",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步美国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-284",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步墨西哥项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-285",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步巴西项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-286",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步泰国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-287",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步越南项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-288",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步马来西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-289",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步新加坡项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-290",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步印度尼西亚项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-291",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步菲律宾项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-292",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步阿联酋项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-293",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步沙特项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "交期变更",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-294",
+      "instruction_type": "scenario",
+      "task": "客户反馈政策变动并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实政策变动事实与责任边界，并同步日本项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的政策变动问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "政策变动",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-295",
+      "instruction_type": "scenario",
+      "task": "客户反馈物流延误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实物流延误事实与责任边界，并同步韩国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的物流延误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "物流延误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-296",
+      "instruction_type": "scenario",
+      "task": "客户反馈清关受阻并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实清关受阻事实与责任边界，并同步德国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的清关受阻问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为投诉处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "投诉处理",
+        "清关受阻",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-297",
+      "instruction_type": "scenario",
+      "task": "客户反馈付款争议并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实付款争议事实与责任边界，并同步法国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的付款争议问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为协商沟通，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "协商沟通",
+        "付款争议",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-298",
+      "instruction_type": "scenario",
+      "task": "客户反馈规格不符并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实规格不符事实与责任边界，并同步美国项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的规格不符问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为风险应对，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "风险应对",
+        "规格不符",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-299",
+      "instruction_type": "scenario",
+      "task": "客户反馈发票错误并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实发票错误事实与责任边界，并同步墨西哥项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的发票错误问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为合规处理，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "合规处理",
+        "发票错误",
+        "场景生成"
+      ]
+    },
+    {
+      "instruction_id": "INST-300",
+      "instruction_type": "scenario",
+      "task": "客户反馈交期变更并要求即时处理，需要生成处理方案和客服回复。",
+      "output": "处理方案：\n1）在2小时内核实交期变更事实与责任边界，并同步巴西项目负责人\n2）按订单优先级制定补救动作，明确时点、负责人和客户可见里程碑\n3）如涉及费用调整，提交审批后一次性向客户说明补偿口径\n\n客服回复：\n尊敬的客户，您好。关于您反馈的交期变更问题，我们已启动紧急处理流程。当前预计将在1个工作日内给出明确解决时间表，并持续向您同步进展。如您有额外诉求，请直接回复本邮件，我们将优先处理。\n\n内部提醒：\n该场景归类为问题解决，请在处理完成后更新复盘记录并沉淀标准话术。",
+      "tags": [
+        "问题解决",
+        "交期变更",
+        "场景生成"
+      ]
+    }
+  ]
+}

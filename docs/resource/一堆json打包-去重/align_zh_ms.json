@@ -1,0 +1,2114 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "alignment",
+    "domain": "trade",
+    "created_by": "localized-generator",
+    "created_at": "2026-02-25T06:26:47Z",
+    "description": "Localized CN-MS alignment corpus - 300",
+    "source_lang": "zh",
+    "target_lang": "ms"
+  },
+  "data": [
+    {
+      "alignment_id": "ALIGN-001",
+      "source_text": "针对customs declaration场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第1周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi customs declaration, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-1. (port: Kuantan Port; payment: D/P; SLA: 4h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-002",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第2周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-2. (port: Johor Port; payment: L/C; SLA: 5h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-003",
+      "source_text": "若cross-border payment进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第3周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-3. (port: Port Klang; payment: DuitNow QR; SLA: 6h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-004",
+      "source_text": "针对delivery lead time场景，团队需先在uCustoms中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第4周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi delivery lead time, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-4. (port: Tanjung Pelepas; payment: T/T; SLA: 7h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-005",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第5周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-5. (port: Penang Port; payment: bank transfer; SLA: 8h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-006",
+      "source_text": "若product classification进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第6周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-6. (port: Kuantan Port; payment: D/P; SLA: 9h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-007",
+      "source_text": "针对after-sales claim场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第7周，优先口岸为Johor Port。",
+      "target_text": "Bagi after-sales claim, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-7. (port: Johor Port; payment: L/C; SLA: 10h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-008",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第8周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-8. (port: Port Klang; payment: DuitNow QR; SLA: 11h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-009",
+      "source_text": "若document review进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第9周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-9. (port: Tanjung Pelepas; payment: T/T; SLA: 12h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-010",
+      "source_text": "针对buyer onboarding场景，团队需先在uCustoms中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第10周，优先口岸为Penang Port。",
+      "target_text": "Bagi buyer onboarding, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-10. (port: Penang Port; payment: bank transfer; SLA: 4h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-011",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第11周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-11. (port: Kuantan Port; payment: D/P; SLA: 5h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-012",
+      "source_text": "若certificate of origin进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第12周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-12. (port: Johor Port; payment: L/C; SLA: 6h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-013",
+      "source_text": "针对cross-border payment场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第13周，优先口岸为Port Klang。",
+      "target_text": "Bagi cross-border payment, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-13. (port: Port Klang; payment: DuitNow QR; SLA: 7h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-014",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第14周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-14. (port: Tanjung Pelepas; payment: T/T; SLA: 8h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-015",
+      "source_text": "若invoice compliance进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第15周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-15. (port: Penang Port; payment: bank transfer; SLA: 9h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-016",
+      "source_text": "针对product classification场景，团队需先在uCustoms中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第16周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi product classification, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-16. (port: Kuantan Port; payment: D/P; SLA: 10h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-017",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第17周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-17. (port: Johor Port; payment: L/C; SLA: 11h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-018",
+      "source_text": "若shipment booking进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第18周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-18. (port: Port Klang; payment: DuitNow QR; SLA: 12h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-019",
+      "source_text": "针对document review场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第19周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi document review, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-19. (port: Tanjung Pelepas; payment: T/T; SLA: 4h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-020",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第20周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-20. (port: Penang Port; payment: bank transfer; SLA: 5h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-021",
+      "source_text": "若customs declaration进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第21周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-21. (port: Kuantan Port; payment: D/P; SLA: 6h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-022",
+      "source_text": "针对certificate of origin场景，团队需先在uCustoms中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第22周，优先口岸为Johor Port。",
+      "target_text": "Bagi certificate of origin, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-22. (port: Johor Port; payment: L/C; SLA: 7h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-023",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第23周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-23. (port: Port Klang; payment: DuitNow QR; SLA: 8h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-024",
+      "source_text": "若delivery lead time进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第24周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-24. (port: Tanjung Pelepas; payment: T/T; SLA: 9h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-025",
+      "source_text": "针对invoice compliance场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第25周，优先口岸为Penang Port。",
+      "target_text": "Bagi invoice compliance, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-25. (port: Penang Port; payment: bank transfer; SLA: 10h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-026",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第26周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-26. (port: Kuantan Port; payment: D/P; SLA: 11h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-027",
+      "source_text": "若after-sales claim进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第27周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-27. (port: Johor Port; payment: L/C; SLA: 12h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-028",
+      "source_text": "针对shipment booking场景，团队需先在uCustoms中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第28周，优先口岸为Port Klang。",
+      "target_text": "Bagi shipment booking, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-28. (port: Port Klang; payment: DuitNow QR; SLA: 4h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-029",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第29周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-29. (port: Tanjung Pelepas; payment: T/T; SLA: 5h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-030",
+      "source_text": "若buyer onboarding进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第30周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-30. (port: Penang Port; payment: bank transfer; SLA: 6h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-031",
+      "source_text": "针对customs declaration场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第31周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi customs declaration, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-31. (port: Kuantan Port; payment: D/P; SLA: 7h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-032",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第32周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-32. (port: Johor Port; payment: L/C; SLA: 8h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-033",
+      "source_text": "若cross-border payment进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第33周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-33. (port: Port Klang; payment: DuitNow QR; SLA: 9h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-034",
+      "source_text": "针对delivery lead time场景，团队需先在uCustoms中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第34周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi delivery lead time, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-34. (port: Tanjung Pelepas; payment: T/T; SLA: 10h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-035",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第35周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-35. (port: Penang Port; payment: bank transfer; SLA: 11h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-036",
+      "source_text": "若product classification进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第36周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-36. (port: Kuantan Port; payment: D/P; SLA: 12h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-037",
+      "source_text": "针对after-sales claim场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第37周，优先口岸为Johor Port。",
+      "target_text": "Bagi after-sales claim, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-37. (port: Johor Port; payment: L/C; SLA: 4h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-038",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第38周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-38. (port: Port Klang; payment: DuitNow QR; SLA: 5h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-039",
+      "source_text": "若document review进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第39周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-39. (port: Tanjung Pelepas; payment: T/T; SLA: 6h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-040",
+      "source_text": "针对buyer onboarding场景，团队需先在uCustoms中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第40周，优先口岸为Penang Port。",
+      "target_text": "Bagi buyer onboarding, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-40. (port: Penang Port; payment: bank transfer; SLA: 7h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-041",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第41周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-41. (port: Kuantan Port; payment: D/P; SLA: 8h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-042",
+      "source_text": "若certificate of origin进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第42周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-42. (port: Johor Port; payment: L/C; SLA: 9h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-043",
+      "source_text": "针对cross-border payment场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第43周，优先口岸为Port Klang。",
+      "target_text": "Bagi cross-border payment, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-43. (port: Port Klang; payment: DuitNow QR; SLA: 10h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-044",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第44周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-44. (port: Tanjung Pelepas; payment: T/T; SLA: 11h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-045",
+      "source_text": "若invoice compliance进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第45周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-45. (port: Penang Port; payment: bank transfer; SLA: 12h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-046",
+      "source_text": "针对product classification场景，团队需先在uCustoms中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第46周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi product classification, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-46. (port: Kuantan Port; payment: D/P; SLA: 4h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-047",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第47周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-47. (port: Johor Port; payment: L/C; SLA: 5h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-048",
+      "source_text": "若shipment booking进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第48周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-48. (port: Port Klang; payment: DuitNow QR; SLA: 6h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-049",
+      "source_text": "针对document review场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第49周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi document review, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-49. (port: Tanjung Pelepas; payment: T/T; SLA: 7h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-050",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第50周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-50. (port: Penang Port; payment: bank transfer; SLA: 8h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-051",
+      "source_text": "若customs declaration进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第51周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-51. (port: Kuantan Port; payment: D/P; SLA: 9h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-052",
+      "source_text": "针对certificate of origin场景，团队需先在uCustoms中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第52周，优先口岸为Johor Port。",
+      "target_text": "Bagi certificate of origin, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-52. (port: Johor Port; payment: L/C; SLA: 10h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-053",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第1周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-1. (port: Port Klang; payment: DuitNow QR; SLA: 11h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-054",
+      "source_text": "若delivery lead time进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第2周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-2. (port: Tanjung Pelepas; payment: T/T; SLA: 12h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-055",
+      "source_text": "针对invoice compliance场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第3周，优先口岸为Penang Port。",
+      "target_text": "Bagi invoice compliance, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-3. (port: Penang Port; payment: bank transfer; SLA: 4h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-056",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第4周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-4. (port: Kuantan Port; payment: D/P; SLA: 5h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-057",
+      "source_text": "若after-sales claim进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第5周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-5. (port: Johor Port; payment: L/C; SLA: 6h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-058",
+      "source_text": "针对shipment booking场景，团队需先在uCustoms中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第6周，优先口岸为Port Klang。",
+      "target_text": "Bagi shipment booking, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-6. (port: Port Klang; payment: DuitNow QR; SLA: 7h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-059",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第7周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-7. (port: Tanjung Pelepas; payment: T/T; SLA: 8h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-060",
+      "source_text": "若buyer onboarding进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第8周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-8. (port: Penang Port; payment: bank transfer; SLA: 9h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-061",
+      "source_text": "针对customs declaration场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第9周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi customs declaration, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-9. (port: Kuantan Port; payment: D/P; SLA: 10h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-062",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第10周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-10. (port: Johor Port; payment: L/C; SLA: 11h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-063",
+      "source_text": "若cross-border payment进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第11周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-11. (port: Port Klang; payment: DuitNow QR; SLA: 12h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-064",
+      "source_text": "针对delivery lead time场景，团队需先在uCustoms中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第12周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi delivery lead time, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-12. (port: Tanjung Pelepas; payment: T/T; SLA: 4h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-065",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第13周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-13. (port: Penang Port; payment: bank transfer; SLA: 5h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-066",
+      "source_text": "若product classification进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第14周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-14. (port: Kuantan Port; payment: D/P; SLA: 6h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-067",
+      "source_text": "针对after-sales claim场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第15周，优先口岸为Johor Port。",
+      "target_text": "Bagi after-sales claim, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-15. (port: Johor Port; payment: L/C; SLA: 7h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-068",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第16周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-16. (port: Port Klang; payment: DuitNow QR; SLA: 8h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-069",
+      "source_text": "若document review进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第17周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-17. (port: Tanjung Pelepas; payment: T/T; SLA: 9h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-070",
+      "source_text": "针对buyer onboarding场景，团队需先在uCustoms中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第18周，优先口岸为Penang Port。",
+      "target_text": "Bagi buyer onboarding, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-18. (port: Penang Port; payment: bank transfer; SLA: 10h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-071",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第19周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-19. (port: Kuantan Port; payment: D/P; SLA: 11h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-072",
+      "source_text": "若certificate of origin进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第20周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-20. (port: Johor Port; payment: L/C; SLA: 12h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-073",
+      "source_text": "针对cross-border payment场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第21周，优先口岸为Port Klang。",
+      "target_text": "Bagi cross-border payment, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-21. (port: Port Klang; payment: DuitNow QR; SLA: 4h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-074",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第22周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-22. (port: Tanjung Pelepas; payment: T/T; SLA: 5h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-075",
+      "source_text": "若invoice compliance进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第23周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-23. (port: Penang Port; payment: bank transfer; SLA: 6h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-076",
+      "source_text": "针对product classification场景，团队需先在uCustoms中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第24周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi product classification, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-24. (port: Kuantan Port; payment: D/P; SLA: 7h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-077",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第25周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-25. (port: Johor Port; payment: L/C; SLA: 8h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-078",
+      "source_text": "若shipment booking进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第26周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-26. (port: Port Klang; payment: DuitNow QR; SLA: 9h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-079",
+      "source_text": "针对document review场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第27周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi document review, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-27. (port: Tanjung Pelepas; payment: T/T; SLA: 10h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-080",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第28周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-28. (port: Penang Port; payment: bank transfer; SLA: 11h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-081",
+      "source_text": "若customs declaration进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第29周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-29. (port: Kuantan Port; payment: D/P; SLA: 12h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-082",
+      "source_text": "针对certificate of origin场景，团队需先在uCustoms中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第30周，优先口岸为Johor Port。",
+      "target_text": "Bagi certificate of origin, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-30. (port: Johor Port; payment: L/C; SLA: 4h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-083",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第31周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-31. (port: Port Klang; payment: DuitNow QR; SLA: 5h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-084",
+      "source_text": "若delivery lead time进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第32周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-32. (port: Tanjung Pelepas; payment: T/T; SLA: 6h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-085",
+      "source_text": "针对invoice compliance场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第33周，优先口岸为Penang Port。",
+      "target_text": "Bagi invoice compliance, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-33. (port: Penang Port; payment: bank transfer; SLA: 7h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-086",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第34周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-34. (port: Kuantan Port; payment: D/P; SLA: 8h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-087",
+      "source_text": "若after-sales claim进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第35周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-35. (port: Johor Port; payment: L/C; SLA: 9h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-088",
+      "source_text": "针对shipment booking场景，团队需先在uCustoms中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第36周，优先口岸为Port Klang。",
+      "target_text": "Bagi shipment booking, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-36. (port: Port Klang; payment: DuitNow QR; SLA: 10h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-089",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第37周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-37. (port: Tanjung Pelepas; payment: T/T; SLA: 11h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-090",
+      "source_text": "若buyer onboarding进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第38周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-38. (port: Penang Port; payment: bank transfer; SLA: 12h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-091",
+      "source_text": "针对customs declaration场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第39周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi customs declaration, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-39. (port: Kuantan Port; payment: D/P; SLA: 4h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-092",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第40周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-40. (port: Johor Port; payment: L/C; SLA: 5h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-093",
+      "source_text": "若cross-border payment进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第41周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-41. (port: Port Klang; payment: DuitNow QR; SLA: 6h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-094",
+      "source_text": "针对delivery lead time场景，团队需先在uCustoms中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第42周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi delivery lead time, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-42. (port: Tanjung Pelepas; payment: T/T; SLA: 7h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-095",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第43周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-43. (port: Penang Port; payment: bank transfer; SLA: 8h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-096",
+      "source_text": "若product classification进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第44周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-44. (port: Kuantan Port; payment: D/P; SLA: 9h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-097",
+      "source_text": "针对after-sales claim场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第45周，优先口岸为Johor Port。",
+      "target_text": "Bagi after-sales claim, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-45. (port: Johor Port; payment: L/C; SLA: 10h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-098",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第46周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-46. (port: Port Klang; payment: DuitNow QR; SLA: 11h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-099",
+      "source_text": "若document review进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第47周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-47. (port: Tanjung Pelepas; payment: T/T; SLA: 12h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-100",
+      "source_text": "针对buyer onboarding场景，团队需先在uCustoms中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第48周，优先口岸为Penang Port。",
+      "target_text": "Bagi buyer onboarding, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-48. (port: Penang Port; payment: bank transfer; SLA: 4h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-101",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第49周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-49. (port: Kuantan Port; payment: D/P; SLA: 5h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-102",
+      "source_text": "若certificate of origin进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第50周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-50. (port: Johor Port; payment: L/C; SLA: 6h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-103",
+      "source_text": "针对cross-border payment场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第51周，优先口岸为Port Klang。",
+      "target_text": "Bagi cross-border payment, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-51. (port: Port Klang; payment: DuitNow QR; SLA: 7h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-104",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第52周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-52. (port: Tanjung Pelepas; payment: T/T; SLA: 8h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-105",
+      "source_text": "若invoice compliance进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第1周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-1. (port: Penang Port; payment: bank transfer; SLA: 9h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-106",
+      "source_text": "针对product classification场景，团队需先在uCustoms中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第2周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi product classification, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-2. (port: Kuantan Port; payment: D/P; SLA: 10h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-107",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第3周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-3. (port: Johor Port; payment: L/C; SLA: 11h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-108",
+      "source_text": "若shipment booking进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第4周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-4. (port: Port Klang; payment: DuitNow QR; SLA: 12h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-109",
+      "source_text": "针对document review场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第5周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi document review, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-5. (port: Tanjung Pelepas; payment: T/T; SLA: 4h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-110",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第6周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-6. (port: Penang Port; payment: bank transfer; SLA: 5h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-111",
+      "source_text": "若customs declaration进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第7周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-7. (port: Kuantan Port; payment: D/P; SLA: 6h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-112",
+      "source_text": "针对certificate of origin场景，团队需先在uCustoms中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第8周，优先口岸为Johor Port。",
+      "target_text": "Bagi certificate of origin, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-8. (port: Johor Port; payment: L/C; SLA: 7h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-113",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第9周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-9. (port: Port Klang; payment: DuitNow QR; SLA: 8h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-114",
+      "source_text": "若delivery lead time进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第10周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-10. (port: Tanjung Pelepas; payment: T/T; SLA: 9h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-115",
+      "source_text": "针对invoice compliance场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第11周，优先口岸为Penang Port。",
+      "target_text": "Bagi invoice compliance, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-11. (port: Penang Port; payment: bank transfer; SLA: 10h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-116",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第12周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-12. (port: Kuantan Port; payment: D/P; SLA: 11h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-117",
+      "source_text": "若after-sales claim进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第13周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-13. (port: Johor Port; payment: L/C; SLA: 12h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-118",
+      "source_text": "针对shipment booking场景，团队需先在uCustoms中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第14周，优先口岸为Port Klang。",
+      "target_text": "Bagi shipment booking, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-14. (port: Port Klang; payment: DuitNow QR; SLA: 4h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-119",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第15周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-15. (port: Tanjung Pelepas; payment: T/T; SLA: 5h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-120",
+      "source_text": "若buyer onboarding进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第16周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-16. (port: Penang Port; payment: bank transfer; SLA: 6h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-121",
+      "source_text": "针对customs declaration场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第17周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi customs declaration, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-17. (port: Kuantan Port; payment: D/P; SLA: 7h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-122",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第18周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-18. (port: Johor Port; payment: L/C; SLA: 8h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-123",
+      "source_text": "若cross-border payment进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第19周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-19. (port: Port Klang; payment: DuitNow QR; SLA: 9h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-124",
+      "source_text": "针对delivery lead time场景，团队需先在uCustoms中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第20周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi delivery lead time, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-20. (port: Tanjung Pelepas; payment: T/T; SLA: 10h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-125",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第21周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-21. (port: Penang Port; payment: bank transfer; SLA: 11h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-126",
+      "source_text": "若product classification进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第22周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-22. (port: Kuantan Port; payment: D/P; SLA: 12h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-127",
+      "source_text": "针对after-sales claim场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第23周，优先口岸为Johor Port。",
+      "target_text": "Bagi after-sales claim, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-23. (port: Johor Port; payment: L/C; SLA: 4h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-128",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第24周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-24. (port: Port Klang; payment: DuitNow QR; SLA: 5h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-129",
+      "source_text": "若document review进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第25周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-25. (port: Tanjung Pelepas; payment: T/T; SLA: 6h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-130",
+      "source_text": "针对buyer onboarding场景，团队需先在uCustoms中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第26周，优先口岸为Penang Port。",
+      "target_text": "Bagi buyer onboarding, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-26. (port: Penang Port; payment: bank transfer; SLA: 7h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-131",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第27周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-27. (port: Kuantan Port; payment: D/P; SLA: 8h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-132",
+      "source_text": "若certificate of origin进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第28周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-28. (port: Johor Port; payment: L/C; SLA: 9h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-133",
+      "source_text": "针对cross-border payment场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第29周，优先口岸为Port Klang。",
+      "target_text": "Bagi cross-border payment, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-29. (port: Port Klang; payment: DuitNow QR; SLA: 10h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-134",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第30周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-30. (port: Tanjung Pelepas; payment: T/T; SLA: 11h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-135",
+      "source_text": "若invoice compliance进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第31周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-31. (port: Penang Port; payment: bank transfer; SLA: 12h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-136",
+      "source_text": "针对product classification场景，团队需先在uCustoms中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第32周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi product classification, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-32. (port: Kuantan Port; payment: D/P; SLA: 4h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-137",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第33周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-33. (port: Johor Port; payment: L/C; SLA: 5h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-138",
+      "source_text": "若shipment booking进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第34周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-34. (port: Port Klang; payment: DuitNow QR; SLA: 6h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-139",
+      "source_text": "针对document review场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第35周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi document review, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-35. (port: Tanjung Pelepas; payment: T/T; SLA: 7h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-140",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第36周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-36. (port: Penang Port; payment: bank transfer; SLA: 8h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-141",
+      "source_text": "若customs declaration进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第37周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-37. (port: Kuantan Port; payment: D/P; SLA: 9h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-142",
+      "source_text": "针对certificate of origin场景，团队需先在uCustoms中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第38周，优先口岸为Johor Port。",
+      "target_text": "Bagi certificate of origin, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-38. (port: Johor Port; payment: L/C; SLA: 10h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-143",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第39周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-39. (port: Port Klang; payment: DuitNow QR; SLA: 11h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-144",
+      "source_text": "若delivery lead time进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第40周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-40. (port: Tanjung Pelepas; payment: T/T; SLA: 12h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-145",
+      "source_text": "针对invoice compliance场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第41周，优先口岸为Penang Port。",
+      "target_text": "Bagi invoice compliance, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-41. (port: Penang Port; payment: bank transfer; SLA: 4h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-146",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第42周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-42. (port: Kuantan Port; payment: D/P; SLA: 5h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-147",
+      "source_text": "若after-sales claim进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第43周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-43. (port: Johor Port; payment: L/C; SLA: 6h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-148",
+      "source_text": "针对shipment booking场景，团队需先在uCustoms中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第44周，优先口岸为Port Klang。",
+      "target_text": "Bagi shipment booking, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-44. (port: Port Klang; payment: DuitNow QR; SLA: 7h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-149",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第45周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-45. (port: Tanjung Pelepas; payment: T/T; SLA: 8h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-150",
+      "source_text": "若buyer onboarding进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第46周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-46. (port: Penang Port; payment: bank transfer; SLA: 9h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-151",
+      "source_text": "针对customs declaration场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第47周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi customs declaration, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-47. (port: Kuantan Port; payment: D/P; SLA: 10h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-152",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第48周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-48. (port: Johor Port; payment: L/C; SLA: 11h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-153",
+      "source_text": "若cross-border payment进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第49周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-49. (port: Port Klang; payment: DuitNow QR; SLA: 12h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-154",
+      "source_text": "针对delivery lead time场景，团队需先在uCustoms中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第50周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi delivery lead time, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-50. (port: Tanjung Pelepas; payment: T/T; SLA: 4h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-155",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第51周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-51. (port: Penang Port; payment: bank transfer; SLA: 5h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-156",
+      "source_text": "若product classification进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第52周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-52. (port: Kuantan Port; payment: D/P; SLA: 6h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-157",
+      "source_text": "针对after-sales claim场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第1周，优先口岸为Johor Port。",
+      "target_text": "Bagi after-sales claim, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-1. (port: Johor Port; payment: L/C; SLA: 7h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-158",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第2周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-2. (port: Port Klang; payment: DuitNow QR; SLA: 8h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-159",
+      "source_text": "若document review进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第3周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-3. (port: Tanjung Pelepas; payment: T/T; SLA: 9h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-160",
+      "source_text": "针对buyer onboarding场景，团队需先在uCustoms中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第4周，优先口岸为Penang Port。",
+      "target_text": "Bagi buyer onboarding, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-4. (port: Penang Port; payment: bank transfer; SLA: 10h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-161",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第5周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-5. (port: Kuantan Port; payment: D/P; SLA: 11h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-162",
+      "source_text": "若certificate of origin进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第6周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-6. (port: Johor Port; payment: L/C; SLA: 12h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-163",
+      "source_text": "针对cross-border payment场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第7周，优先口岸为Port Klang。",
+      "target_text": "Bagi cross-border payment, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-7. (port: Port Klang; payment: DuitNow QR; SLA: 4h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-164",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第8周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-8. (port: Tanjung Pelepas; payment: T/T; SLA: 5h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-165",
+      "source_text": "若invoice compliance进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第9周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-9. (port: Penang Port; payment: bank transfer; SLA: 6h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-166",
+      "source_text": "针对product classification场景，团队需先在uCustoms中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第10周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi product classification, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-10. (port: Kuantan Port; payment: D/P; SLA: 7h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-167",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第11周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-11. (port: Johor Port; payment: L/C; SLA: 8h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-168",
+      "source_text": "若shipment booking进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第12周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-12. (port: Port Klang; payment: DuitNow QR; SLA: 9h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-169",
+      "source_text": "针对document review场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第13周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi document review, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-13. (port: Tanjung Pelepas; payment: T/T; SLA: 10h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-170",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第14周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-14. (port: Penang Port; payment: bank transfer; SLA: 11h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-171",
+      "source_text": "若customs declaration进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第15周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-15. (port: Kuantan Port; payment: D/P; SLA: 12h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-172",
+      "source_text": "针对certificate of origin场景，团队需先在uCustoms中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第16周，优先口岸为Johor Port。",
+      "target_text": "Bagi certificate of origin, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-16. (port: Johor Port; payment: L/C; SLA: 4h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-173",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第17周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-17. (port: Port Klang; payment: DuitNow QR; SLA: 5h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-174",
+      "source_text": "若delivery lead time进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第18周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-18. (port: Tanjung Pelepas; payment: T/T; SLA: 6h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-175",
+      "source_text": "针对invoice compliance场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第19周，优先口岸为Penang Port。",
+      "target_text": "Bagi invoice compliance, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-19. (port: Penang Port; payment: bank transfer; SLA: 7h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-176",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第20周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-20. (port: Kuantan Port; payment: D/P; SLA: 8h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-177",
+      "source_text": "若after-sales claim进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第21周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-21. (port: Johor Port; payment: L/C; SLA: 9h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-178",
+      "source_text": "针对shipment booking场景，团队需先在uCustoms中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第22周，优先口岸为Port Klang。",
+      "target_text": "Bagi shipment booking, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-22. (port: Port Klang; payment: DuitNow QR; SLA: 10h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-179",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第23周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-23. (port: Tanjung Pelepas; payment: T/T; SLA: 11h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-180",
+      "source_text": "若buyer onboarding进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第24周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-24. (port: Penang Port; payment: bank transfer; SLA: 12h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-181",
+      "source_text": "针对customs declaration场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第25周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi customs declaration, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-25. (port: Kuantan Port; payment: D/P; SLA: 4h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-182",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第26周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-26. (port: Johor Port; payment: L/C; SLA: 5h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-183",
+      "source_text": "若cross-border payment进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第27周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-27. (port: Port Klang; payment: DuitNow QR; SLA: 6h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-184",
+      "source_text": "针对delivery lead time场景，团队需先在uCustoms中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第28周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi delivery lead time, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-28. (port: Tanjung Pelepas; payment: T/T; SLA: 7h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-185",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第29周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-29. (port: Penang Port; payment: bank transfer; SLA: 8h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-186",
+      "source_text": "若product classification进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第30周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-30. (port: Kuantan Port; payment: D/P; SLA: 9h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-187",
+      "source_text": "针对after-sales claim场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第31周，优先口岸为Johor Port。",
+      "target_text": "Bagi after-sales claim, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-31. (port: Johor Port; payment: L/C; SLA: 10h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-188",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第32周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-32. (port: Port Klang; payment: DuitNow QR; SLA: 11h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-189",
+      "source_text": "若document review进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第33周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-33. (port: Tanjung Pelepas; payment: T/T; SLA: 12h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-190",
+      "source_text": "针对buyer onboarding场景，团队需先在uCustoms中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第34周，优先口岸为Penang Port。",
+      "target_text": "Bagi buyer onboarding, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-34. (port: Penang Port; payment: bank transfer; SLA: 4h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-191",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第35周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-35. (port: Kuantan Port; payment: D/P; SLA: 5h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-192",
+      "source_text": "若certificate of origin进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第36周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-36. (port: Johor Port; payment: L/C; SLA: 6h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-193",
+      "source_text": "针对cross-border payment场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第37周，优先口岸为Port Klang。",
+      "target_text": "Bagi cross-border payment, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-37. (port: Port Klang; payment: DuitNow QR; SLA: 7h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-194",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第38周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-38. (port: Tanjung Pelepas; payment: T/T; SLA: 8h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-195",
+      "source_text": "若invoice compliance进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第39周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-39. (port: Penang Port; payment: bank transfer; SLA: 9h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-196",
+      "source_text": "针对product classification场景，团队需先在uCustoms中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第40周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi product classification, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-40. (port: Kuantan Port; payment: D/P; SLA: 10h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-197",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第41周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-41. (port: Johor Port; payment: L/C; SLA: 11h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-198",
+      "source_text": "若shipment booking进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第42周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-42. (port: Port Klang; payment: DuitNow QR; SLA: 12h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-199",
+      "source_text": "针对document review场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第43周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi document review, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-43. (port: Tanjung Pelepas; payment: T/T; SLA: 4h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-200",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第44周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-44. (port: Penang Port; payment: bank transfer; SLA: 5h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-201",
+      "source_text": "若customs declaration进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第45周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-45. (port: Kuantan Port; payment: D/P; SLA: 6h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-202",
+      "source_text": "针对certificate of origin场景，团队需先在uCustoms中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第46周，优先口岸为Johor Port。",
+      "target_text": "Bagi certificate of origin, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-46. (port: Johor Port; payment: L/C; SLA: 7h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-203",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第47周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-47. (port: Port Klang; payment: DuitNow QR; SLA: 8h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-204",
+      "source_text": "若delivery lead time进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第48周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-48. (port: Tanjung Pelepas; payment: T/T; SLA: 9h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-205",
+      "source_text": "针对invoice compliance场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第49周，优先口岸为Penang Port。",
+      "target_text": "Bagi invoice compliance, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-49. (port: Penang Port; payment: bank transfer; SLA: 10h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-206",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第50周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-50. (port: Kuantan Port; payment: D/P; SLA: 11h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-207",
+      "source_text": "若after-sales claim进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第51周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-51. (port: Johor Port; payment: L/C; SLA: 12h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-208",
+      "source_text": "针对shipment booking场景，团队需先在uCustoms中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第52周，优先口岸为Port Klang。",
+      "target_text": "Bagi shipment booking, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-52. (port: Port Klang; payment: DuitNow QR; SLA: 4h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-209",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第1周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-1. (port: Tanjung Pelepas; payment: T/T; SLA: 5h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-210",
+      "source_text": "若buyer onboarding进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第2周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-2. (port: Penang Port; payment: bank transfer; SLA: 6h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-211",
+      "source_text": "针对customs declaration场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第3周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi customs declaration, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-3. (port: Kuantan Port; payment: D/P; SLA: 7h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-212",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第4周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-4. (port: Johor Port; payment: L/C; SLA: 8h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-213",
+      "source_text": "若cross-border payment进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第5周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-5. (port: Port Klang; payment: DuitNow QR; SLA: 9h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-214",
+      "source_text": "针对delivery lead time场景，团队需先在uCustoms中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第6周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi delivery lead time, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-6. (port: Tanjung Pelepas; payment: T/T; SLA: 10h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-215",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第7周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-7. (port: Penang Port; payment: bank transfer; SLA: 11h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-216",
+      "source_text": "若product classification进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第8周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-8. (port: Kuantan Port; payment: D/P; SLA: 12h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-217",
+      "source_text": "针对after-sales claim场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第9周，优先口岸为Johor Port。",
+      "target_text": "Bagi after-sales claim, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-9. (port: Johor Port; payment: L/C; SLA: 4h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-218",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第10周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-10. (port: Port Klang; payment: DuitNow QR; SLA: 5h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-219",
+      "source_text": "若document review进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第11周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-11. (port: Tanjung Pelepas; payment: T/T; SLA: 6h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-220",
+      "source_text": "针对buyer onboarding场景，团队需先在uCustoms中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第12周，优先口岸为Penang Port。",
+      "target_text": "Bagi buyer onboarding, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-12. (port: Penang Port; payment: bank transfer; SLA: 7h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-221",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第13周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-13. (port: Kuantan Port; payment: D/P; SLA: 8h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-222",
+      "source_text": "若certificate of origin进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第14周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-14. (port: Johor Port; payment: L/C; SLA: 9h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-223",
+      "source_text": "针对cross-border payment场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第15周，优先口岸为Port Klang。",
+      "target_text": "Bagi cross-border payment, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-15. (port: Port Klang; payment: DuitNow QR; SLA: 10h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-224",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第16周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-16. (port: Tanjung Pelepas; payment: T/T; SLA: 11h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-225",
+      "source_text": "若invoice compliance进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第17周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-17. (port: Penang Port; payment: bank transfer; SLA: 12h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-226",
+      "source_text": "针对product classification场景，团队需先在uCustoms中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第18周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi product classification, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-18. (port: Kuantan Port; payment: D/P; SLA: 4h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-227",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第19周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-19. (port: Johor Port; payment: L/C; SLA: 5h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-228",
+      "source_text": "若shipment booking进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第20周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-20. (port: Port Klang; payment: DuitNow QR; SLA: 6h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-229",
+      "source_text": "针对document review场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第21周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi document review, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-21. (port: Tanjung Pelepas; payment: T/T; SLA: 7h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-230",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第22周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-22. (port: Penang Port; payment: bank transfer; SLA: 8h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-231",
+      "source_text": "若customs declaration进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第23周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-23. (port: Kuantan Port; payment: D/P; SLA: 9h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-232",
+      "source_text": "针对certificate of origin场景，团队需先在uCustoms中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第24周，优先口岸为Johor Port。",
+      "target_text": "Bagi certificate of origin, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-24. (port: Johor Port; payment: L/C; SLA: 10h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-233",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第25周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-25. (port: Port Klang; payment: DuitNow QR; SLA: 11h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-234",
+      "source_text": "若delivery lead time进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第26周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-26. (port: Tanjung Pelepas; payment: T/T; SLA: 12h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-235",
+      "source_text": "针对invoice compliance场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第27周，优先口岸为Penang Port。",
+      "target_text": "Bagi invoice compliance, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-27. (port: Penang Port; payment: bank transfer; SLA: 4h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-236",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第28周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-28. (port: Kuantan Port; payment: D/P; SLA: 5h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-237",
+      "source_text": "若after-sales claim进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第29周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-29. (port: Johor Port; payment: L/C; SLA: 6h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-238",
+      "source_text": "针对shipment booking场景，团队需先在uCustoms中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第30周，优先口岸为Port Klang。",
+      "target_text": "Bagi shipment booking, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-30. (port: Port Klang; payment: DuitNow QR; SLA: 7h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-239",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第31周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-31. (port: Tanjung Pelepas; payment: T/T; SLA: 8h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-240",
+      "source_text": "若buyer onboarding进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第32周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-32. (port: Penang Port; payment: bank transfer; SLA: 9h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-241",
+      "source_text": "针对customs declaration场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第33周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi customs declaration, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-33. (port: Kuantan Port; payment: D/P; SLA: 10h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-242",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第34周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-34. (port: Johor Port; payment: L/C; SLA: 11h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-243",
+      "source_text": "若cross-border payment进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第35周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-35. (port: Port Klang; payment: DuitNow QR; SLA: 12h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-244",
+      "source_text": "针对delivery lead time场景，团队需先在uCustoms中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第36周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi delivery lead time, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-36. (port: Tanjung Pelepas; payment: T/T; SLA: 4h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-245",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第37周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-37. (port: Penang Port; payment: bank transfer; SLA: 5h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-246",
+      "source_text": "若product classification进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第38周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-38. (port: Kuantan Port; payment: D/P; SLA: 6h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-247",
+      "source_text": "针对after-sales claim场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第39周，优先口岸为Johor Port。",
+      "target_text": "Bagi after-sales claim, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-39. (port: Johor Port; payment: L/C; SLA: 7h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-248",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第40周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-40. (port: Port Klang; payment: DuitNow QR; SLA: 8h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-249",
+      "source_text": "若document review进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第41周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-41. (port: Tanjung Pelepas; payment: T/T; SLA: 9h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-250",
+      "source_text": "针对buyer onboarding场景，团队需先在uCustoms中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第42周，优先口岸为Penang Port。",
+      "target_text": "Bagi buyer onboarding, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-42. (port: Penang Port; payment: bank transfer; SLA: 10h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-251",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第43周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-43. (port: Kuantan Port; payment: D/P; SLA: 11h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-252",
+      "source_text": "若certificate of origin进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第44周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-44. (port: Johor Port; payment: L/C; SLA: 12h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-253",
+      "source_text": "针对cross-border payment场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第45周，优先口岸为Port Klang。",
+      "target_text": "Bagi cross-border payment, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-45. (port: Port Klang; payment: DuitNow QR; SLA: 4h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-254",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第46周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-46. (port: Tanjung Pelepas; payment: T/T; SLA: 5h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-255",
+      "source_text": "若invoice compliance进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第47周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-47. (port: Penang Port; payment: bank transfer; SLA: 6h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-256",
+      "source_text": "针对product classification场景，团队需先在uCustoms中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第48周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi product classification, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-48. (port: Kuantan Port; payment: D/P; SLA: 7h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-257",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第49周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-49. (port: Johor Port; payment: L/C; SLA: 8h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-258",
+      "source_text": "若shipment booking进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第50周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-50. (port: Port Klang; payment: DuitNow QR; SLA: 9h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-259",
+      "source_text": "针对document review场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第51周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi document review, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-51. (port: Tanjung Pelepas; payment: T/T; SLA: 10h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-260",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第52周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-52. (port: Penang Port; payment: bank transfer; SLA: 11h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-261",
+      "source_text": "若customs declaration进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第1周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-1. (port: Kuantan Port; payment: D/P; SLA: 12h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-262",
+      "source_text": "针对certificate of origin场景，团队需先在uCustoms中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第2周，优先口岸为Johor Port。",
+      "target_text": "Bagi certificate of origin, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-2. (port: Johor Port; payment: L/C; SLA: 4h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-263",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第3周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-3. (port: Port Klang; payment: DuitNow QR; SLA: 5h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-264",
+      "source_text": "若delivery lead time进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第4周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-4. (port: Tanjung Pelepas; payment: T/T; SLA: 6h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-265",
+      "source_text": "针对invoice compliance场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第5周，优先口岸为Penang Port。",
+      "target_text": "Bagi invoice compliance, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-5. (port: Penang Port; payment: bank transfer; SLA: 7h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-266",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第6周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-6. (port: Kuantan Port; payment: D/P; SLA: 8h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-267",
+      "source_text": "若after-sales claim进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第7周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-7. (port: Johor Port; payment: L/C; SLA: 9h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-268",
+      "source_text": "针对shipment booking场景，团队需先在uCustoms中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第8周，优先口岸为Port Klang。",
+      "target_text": "Bagi shipment booking, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-8. (port: Port Klang; payment: DuitNow QR; SLA: 10h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-269",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第9周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-9. (port: Tanjung Pelepas; payment: T/T; SLA: 11h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-270",
+      "source_text": "若buyer onboarding进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第10周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-10. (port: Penang Port; payment: bank transfer; SLA: 12h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-271",
+      "source_text": "针对customs declaration场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第11周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi customs declaration, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-11. (port: Kuantan Port; payment: D/P; SLA: 4h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-272",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第12周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-12. (port: Johor Port; payment: L/C; SLA: 5h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-273",
+      "source_text": "若cross-border payment进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第13周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-13. (port: Port Klang; payment: DuitNow QR; SLA: 6h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-274",
+      "source_text": "针对delivery lead time场景，团队需先在uCustoms中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第14周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi delivery lead time, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-14. (port: Tanjung Pelepas; payment: T/T; SLA: 7h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-275",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第15周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-15. (port: Penang Port; payment: bank transfer; SLA: 8h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-276",
+      "source_text": "若product classification进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第16周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-16. (port: Kuantan Port; payment: D/P; SLA: 9h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-277",
+      "source_text": "针对after-sales claim场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第17周，优先口岸为Johor Port。",
+      "target_text": "Bagi after-sales claim, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-17. (port: Johor Port; payment: L/C; SLA: 10h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-278",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第18周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-18. (port: Port Klang; payment: DuitNow QR; SLA: 11h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-279",
+      "source_text": "若document review进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第19周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-19. (port: Tanjung Pelepas; payment: T/T; SLA: 12h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-280",
+      "source_text": "针对buyer onboarding场景，团队需先在uCustoms中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第20周，优先口岸为Penang Port。",
+      "target_text": "Bagi buyer onboarding, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-20. (port: Penang Port; payment: bank transfer; SLA: 4h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-281",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第21周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-21. (port: Kuantan Port; payment: D/P; SLA: 5h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-282",
+      "source_text": "若certificate of origin进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第22周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-22. (port: Johor Port; payment: L/C; SLA: 6h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-283",
+      "source_text": "针对cross-border payment场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第23周，优先口岸为Port Klang。",
+      "target_text": "Bagi cross-border payment, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-23. (port: Port Klang; payment: DuitNow QR; SLA: 7h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-284",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第24周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-24. (port: Tanjung Pelepas; payment: T/T; SLA: 8h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-285",
+      "source_text": "若invoice compliance进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第25周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-25. (port: Penang Port; payment: bank transfer; SLA: 9h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-286",
+      "source_text": "针对product classification场景，团队需先在uCustoms中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第26周，优先口岸为Kuantan Port。",
+      "target_text": "Bagi product classification, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-26. (port: Kuantan Port; payment: D/P; SLA: 10h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-287",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第27周，优先口岸为Johor Port。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-27. (port: Johor Port; payment: L/C; SLA: 11h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-288",
+      "source_text": "若shipment booking进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第28周，优先口岸为Port Klang。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-28. (port: Port Klang; payment: DuitNow QR; SLA: 12h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-289",
+      "source_text": "针对document review场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第29周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Bagi document review, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-29. (port: Tanjung Pelepas; payment: T/T; SLA: 4h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-290",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第30周，优先口岸为Penang Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-30. (port: Penang Port; payment: bank transfer; SLA: 5h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-291",
+      "source_text": "若customs declaration进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第31周，优先口岸为Kuantan Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-31. (port: Kuantan Port; payment: D/P; SLA: 6h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-292",
+      "source_text": "针对certificate of origin场景，团队需先在uCustoms中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第32周，优先口岸为Johor Port。",
+      "target_text": "Bagi certificate of origin, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-32. (port: Johor Port; payment: L/C; SLA: 7h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-293",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第33周，优先口岸为Port Klang。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-33. (port: Port Klang; payment: DuitNow QR; SLA: 8h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-294",
+      "source_text": "若delivery lead time进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第34周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-34. (port: Tanjung Pelepas; payment: T/T; SLA: 9h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-295",
+      "source_text": "针对invoice compliance场景，团队需先在National Single Window (Dagang Net)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第35周，优先口岸为Penang Port。",
+      "target_text": "Bagi invoice compliance, pengendali lazimnya menghantar data lengkap melalui National Single Window (Dagang Net) dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-35. (port: Penang Port; payment: bank transfer; SLA: 10h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-296",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ePermit与内部复核清单联动，减少改单次数。 该批次对应第36周，优先口岸为Kuantan Port。",
+      "target_text": "Amalan di Malaysia menggabungkan ePermit dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan ASEAN semasa Minggu-36. (port: Kuantan Port; payment: D/P; SLA: 11h)",
+      "context": "Malaysia localized operations | uCustoms | laluan ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-297",
+      "source_text": "若after-sales claim进度紧张，应通过eDeclare同步状态并提前触发应急交付方案。 该批次对应第37周，优先口岸为Johor Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan eDeclare bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Indonesia semasa Minggu-37. (port: Johor Port; payment: L/C; SLA: 12h)",
+      "context": "Malaysia localized operations | DuitNow QR | laluan Malaysia-Indonesia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-298",
+      "source_text": "针对shipment booking场景，团队需先在uCustoms中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第38周，优先口岸为Port Klang。",
+      "target_text": "Bagi shipment booking, pengendali lazimnya menghantar data lengkap melalui uCustoms dan memaklumkan status kepada pelanggan sebelum pelepasan kargo. Amalan ini biasa digunakan pada laluan Malaysia-Laos semasa Minggu-38. (port: Port Klang; payment: DuitNow QR; SLA: 4h)",
+      "context": "Malaysia localized operations | Dagang Net NSW | laluan Malaysia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-299",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将DuitNow QR与内部复核清单联动，减少改单次数。 该批次对应第39周，优先口岸为Tanjung Pelepas。",
+      "target_text": "Amalan di Malaysia menggabungkan DuitNow QR dengan semakan dokumen dalaman bagi mengurangkan pembetulan berulang. Amalan ini biasa digunakan pada laluan Malaysia-Thailand semasa Minggu-39. (port: Tanjung Pelepas; payment: T/T; SLA: 5h)",
+      "context": "Malaysia localized operations | ePermit | laluan Malaysia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-300",
+      "source_text": "若buyer onboarding进度紧张，应通过e-Invoice LHDN同步状态并提前触发应急交付方案。 该批次对应第40周，优先口岸为Penang Port。",
+      "target_text": "Apabila jadual ketat, pasukan menggunakan e-Invoice LHDN bersama pelan kontingensi untuk menyelaras penghantaran dan pembayaran. Amalan ini biasa digunakan pada laluan Malaysia-Vietnam semasa Minggu-40. (port: Penang Port; payment: bank transfer; SLA: 6h)",
+      "context": "Malaysia localized operations | e-Invoice LHDN | laluan Malaysia-Vietnam",
+      "domain": "trade"
+    }
+  ]
+}

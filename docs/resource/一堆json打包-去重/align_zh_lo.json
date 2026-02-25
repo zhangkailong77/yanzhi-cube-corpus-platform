@@ -1,0 +1,2114 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "alignment",
+    "domain": "trade",
+    "created_by": "localized-generator",
+    "created_at": "2026-02-25T06:26:47Z",
+    "description": "Localized CN-LO alignment corpus - 300",
+    "source_lang": "zh",
+    "target_lang": "lo"
+  },
+  "data": [
+    {
+      "alignment_id": "ALIGN-001",
+      "source_text": "针对customs declaration场景，团队需先在Lao National Single Window中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第1周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ customs declaration ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 1. (port: Pakse; payment: D/P; SLA: 4h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-002",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第2周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 2. (port: Thanaleng; payment: L/C; SLA: 5h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-003",
+      "source_text": "若cross-border payment进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第3周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 3. (port: Vientiane; payment: Lao QR; SLA: 6h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-004",
+      "source_text": "针对delivery lead time场景，团队需先在Lao QR中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第4周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ delivery lead time ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 4. (port: Savannakhet; payment: T/T; SLA: 7h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-005",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第5周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 5. (port: Boten; payment: bank transfer; SLA: 8h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-006",
+      "source_text": "若product classification进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第6周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 6. (port: Pakse; payment: D/P; SLA: 9h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-007",
+      "source_text": "针对after-sales claim场景，团队需先在Lao National Single Window中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第7周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ after-sales claim ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 7. (port: Thanaleng; payment: L/C; SLA: 10h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-008",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第8周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 8. (port: Vientiane; payment: Lao QR; SLA: 11h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-009",
+      "source_text": "若document review进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第9周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 9. (port: Savannakhet; payment: T/T; SLA: 12h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-010",
+      "source_text": "针对buyer onboarding场景，团队需先在Lao QR中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第10周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ buyer onboarding ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 10. (port: Boten; payment: bank transfer; SLA: 4h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-011",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第11周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 11. (port: Pakse; payment: D/P; SLA: 5h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-012",
+      "source_text": "若certificate of origin进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第12周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 12. (port: Thanaleng; payment: L/C; SLA: 6h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-013",
+      "source_text": "针对cross-border payment场景，团队需先在Lao National Single Window中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第13周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ cross-border payment ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 13. (port: Vientiane; payment: Lao QR; SLA: 7h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-014",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第14周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 14. (port: Savannakhet; payment: T/T; SLA: 8h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-015",
+      "source_text": "若invoice compliance进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第15周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 15. (port: Boten; payment: bank transfer; SLA: 9h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-016",
+      "source_text": "针对product classification场景，团队需先在Lao QR中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第16周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ product classification ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 16. (port: Pakse; payment: D/P; SLA: 10h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-017",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第17周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 17. (port: Thanaleng; payment: L/C; SLA: 11h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-018",
+      "source_text": "若shipment booking进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第18周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 18. (port: Vientiane; payment: Lao QR; SLA: 12h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-019",
+      "source_text": "针对document review场景，团队需先在Lao National Single Window中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第19周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ document review ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 19. (port: Savannakhet; payment: T/T; SLA: 4h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-020",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第20周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 20. (port: Boten; payment: bank transfer; SLA: 5h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-021",
+      "source_text": "若customs declaration进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第21周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 21. (port: Pakse; payment: D/P; SLA: 6h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-022",
+      "source_text": "针对certificate of origin场景，团队需先在Lao QR中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第22周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ certificate of origin ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 22. (port: Thanaleng; payment: L/C; SLA: 7h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-023",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第23周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 23. (port: Vientiane; payment: Lao QR; SLA: 8h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-024",
+      "source_text": "若delivery lead time进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第24周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 24. (port: Savannakhet; payment: T/T; SLA: 9h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-025",
+      "source_text": "针对invoice compliance场景，团队需先在Lao National Single Window中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第25周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ invoice compliance ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 25. (port: Boten; payment: bank transfer; SLA: 10h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-026",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第26周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 26. (port: Pakse; payment: D/P; SLA: 11h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-027",
+      "source_text": "若after-sales claim进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第27周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 27. (port: Thanaleng; payment: L/C; SLA: 12h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-028",
+      "source_text": "针对shipment booking场景，团队需先在Lao QR中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第28周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ shipment booking ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 28. (port: Vientiane; payment: Lao QR; SLA: 4h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-029",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第29周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 29. (port: Savannakhet; payment: T/T; SLA: 5h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-030",
+      "source_text": "若buyer onboarding进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第30周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 30. (port: Boten; payment: bank transfer; SLA: 6h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-031",
+      "source_text": "针对customs declaration场景，团队需先在Lao National Single Window中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第31周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ customs declaration ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 31. (port: Pakse; payment: D/P; SLA: 7h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-032",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第32周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 32. (port: Thanaleng; payment: L/C; SLA: 8h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-033",
+      "source_text": "若cross-border payment进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第33周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 33. (port: Vientiane; payment: Lao QR; SLA: 9h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-034",
+      "source_text": "针对delivery lead time场景，团队需先在Lao QR中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第34周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ delivery lead time ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 34. (port: Savannakhet; payment: T/T; SLA: 10h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-035",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第35周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 35. (port: Boten; payment: bank transfer; SLA: 11h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-036",
+      "source_text": "若product classification进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第36周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 36. (port: Pakse; payment: D/P; SLA: 12h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-037",
+      "source_text": "针对after-sales claim场景，团队需先在Lao National Single Window中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第37周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ after-sales claim ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 37. (port: Thanaleng; payment: L/C; SLA: 4h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-038",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第38周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 38. (port: Vientiane; payment: Lao QR; SLA: 5h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-039",
+      "source_text": "若document review进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第39周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 39. (port: Savannakhet; payment: T/T; SLA: 6h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-040",
+      "source_text": "针对buyer onboarding场景，团队需先在Lao QR中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第40周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ buyer onboarding ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 40. (port: Boten; payment: bank transfer; SLA: 7h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-041",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第41周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 41. (port: Pakse; payment: D/P; SLA: 8h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-042",
+      "source_text": "若certificate of origin进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第42周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 42. (port: Thanaleng; payment: L/C; SLA: 9h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-043",
+      "source_text": "针对cross-border payment场景，团队需先在Lao National Single Window中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第43周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ cross-border payment ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 43. (port: Vientiane; payment: Lao QR; SLA: 10h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-044",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第44周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 44. (port: Savannakhet; payment: T/T; SLA: 11h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-045",
+      "source_text": "若invoice compliance进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第45周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 45. (port: Boten; payment: bank transfer; SLA: 12h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-046",
+      "source_text": "针对product classification场景，团队需先在Lao QR中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第46周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ product classification ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 46. (port: Pakse; payment: D/P; SLA: 4h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-047",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第47周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 47. (port: Thanaleng; payment: L/C; SLA: 5h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-048",
+      "source_text": "若shipment booking进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第48周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 48. (port: Vientiane; payment: Lao QR; SLA: 6h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-049",
+      "source_text": "针对document review场景，团队需先在Lao National Single Window中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第49周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ document review ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 49. (port: Savannakhet; payment: T/T; SLA: 7h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-050",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第50周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 50. (port: Boten; payment: bank transfer; SLA: 8h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-051",
+      "source_text": "若customs declaration进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第51周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 51. (port: Pakse; payment: D/P; SLA: 9h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-052",
+      "source_text": "针对certificate of origin场景，团队需先在Lao QR中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第52周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ certificate of origin ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 52. (port: Thanaleng; payment: L/C; SLA: 10h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-053",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第1周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 1. (port: Vientiane; payment: Lao QR; SLA: 11h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-054",
+      "source_text": "若delivery lead time进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第2周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 2. (port: Savannakhet; payment: T/T; SLA: 12h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-055",
+      "source_text": "针对invoice compliance场景，团队需先在Lao National Single Window中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第3周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ invoice compliance ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 3. (port: Boten; payment: bank transfer; SLA: 4h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-056",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第4周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 4. (port: Pakse; payment: D/P; SLA: 5h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-057",
+      "source_text": "若after-sales claim进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第5周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 5. (port: Thanaleng; payment: L/C; SLA: 6h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-058",
+      "source_text": "针对shipment booking场景，团队需先在Lao QR中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第6周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ shipment booking ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 6. (port: Vientiane; payment: Lao QR; SLA: 7h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-059",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第7周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 7. (port: Savannakhet; payment: T/T; SLA: 8h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-060",
+      "source_text": "若buyer onboarding进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第8周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 8. (port: Boten; payment: bank transfer; SLA: 9h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-061",
+      "source_text": "针对customs declaration场景，团队需先在Lao National Single Window中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第9周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ customs declaration ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 9. (port: Pakse; payment: D/P; SLA: 10h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-062",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第10周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 10. (port: Thanaleng; payment: L/C; SLA: 11h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-063",
+      "source_text": "若cross-border payment进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第11周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 11. (port: Vientiane; payment: Lao QR; SLA: 12h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-064",
+      "source_text": "针对delivery lead time场景，团队需先在Lao QR中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第12周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ delivery lead time ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 12. (port: Savannakhet; payment: T/T; SLA: 4h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-065",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第13周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 13. (port: Boten; payment: bank transfer; SLA: 5h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-066",
+      "source_text": "若product classification进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第14周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 14. (port: Pakse; payment: D/P; SLA: 6h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-067",
+      "source_text": "针对after-sales claim场景，团队需先在Lao National Single Window中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第15周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ after-sales claim ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 15. (port: Thanaleng; payment: L/C; SLA: 7h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-068",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第16周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 16. (port: Vientiane; payment: Lao QR; SLA: 8h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-069",
+      "source_text": "若document review进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第17周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 17. (port: Savannakhet; payment: T/T; SLA: 9h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-070",
+      "source_text": "针对buyer onboarding场景，团队需先在Lao QR中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第18周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ buyer onboarding ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 18. (port: Boten; payment: bank transfer; SLA: 10h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-071",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第19周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 19. (port: Pakse; payment: D/P; SLA: 11h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-072",
+      "source_text": "若certificate of origin进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第20周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 20. (port: Thanaleng; payment: L/C; SLA: 12h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-073",
+      "source_text": "针对cross-border payment场景，团队需先在Lao National Single Window中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第21周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ cross-border payment ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 21. (port: Vientiane; payment: Lao QR; SLA: 4h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-074",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第22周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 22. (port: Savannakhet; payment: T/T; SLA: 5h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-075",
+      "source_text": "若invoice compliance进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第23周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 23. (port: Boten; payment: bank transfer; SLA: 6h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-076",
+      "source_text": "针对product classification场景，团队需先在Lao QR中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第24周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ product classification ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 24. (port: Pakse; payment: D/P; SLA: 7h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-077",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第25周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 25. (port: Thanaleng; payment: L/C; SLA: 8h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-078",
+      "source_text": "若shipment booking进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第26周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 26. (port: Vientiane; payment: Lao QR; SLA: 9h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-079",
+      "source_text": "针对document review场景，团队需先在Lao National Single Window中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第27周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ document review ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 27. (port: Savannakhet; payment: T/T; SLA: 10h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-080",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第28周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 28. (port: Boten; payment: bank transfer; SLA: 11h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-081",
+      "source_text": "若customs declaration进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第29周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 29. (port: Pakse; payment: D/P; SLA: 12h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-082",
+      "source_text": "针对certificate of origin场景，团队需先在Lao QR中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第30周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ certificate of origin ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 30. (port: Thanaleng; payment: L/C; SLA: 4h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-083",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第31周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 31. (port: Vientiane; payment: Lao QR; SLA: 5h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-084",
+      "source_text": "若delivery lead time进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第32周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 32. (port: Savannakhet; payment: T/T; SLA: 6h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-085",
+      "source_text": "针对invoice compliance场景，团队需先在Lao National Single Window中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第33周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ invoice compliance ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 33. (port: Boten; payment: bank transfer; SLA: 7h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-086",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第34周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 34. (port: Pakse; payment: D/P; SLA: 8h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-087",
+      "source_text": "若after-sales claim进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第35周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 35. (port: Thanaleng; payment: L/C; SLA: 9h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-088",
+      "source_text": "针对shipment booking场景，团队需先在Lao QR中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第36周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ shipment booking ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 36. (port: Vientiane; payment: Lao QR; SLA: 10h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-089",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第37周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 37. (port: Savannakhet; payment: T/T; SLA: 11h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-090",
+      "source_text": "若buyer onboarding进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第38周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 38. (port: Boten; payment: bank transfer; SLA: 12h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-091",
+      "source_text": "针对customs declaration场景，团队需先在Lao National Single Window中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第39周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ customs declaration ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 39. (port: Pakse; payment: D/P; SLA: 4h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-092",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第40周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 40. (port: Thanaleng; payment: L/C; SLA: 5h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-093",
+      "source_text": "若cross-border payment进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第41周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 41. (port: Vientiane; payment: Lao QR; SLA: 6h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-094",
+      "source_text": "针对delivery lead time场景，团队需先在Lao QR中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第42周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ delivery lead time ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 42. (port: Savannakhet; payment: T/T; SLA: 7h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-095",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第43周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 43. (port: Boten; payment: bank transfer; SLA: 8h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-096",
+      "source_text": "若product classification进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第44周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 44. (port: Pakse; payment: D/P; SLA: 9h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-097",
+      "source_text": "针对after-sales claim场景，团队需先在Lao National Single Window中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第45周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ after-sales claim ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 45. (port: Thanaleng; payment: L/C; SLA: 10h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-098",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第46周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 46. (port: Vientiane; payment: Lao QR; SLA: 11h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-099",
+      "source_text": "若document review进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第47周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 47. (port: Savannakhet; payment: T/T; SLA: 12h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-100",
+      "source_text": "针对buyer onboarding场景，团队需先在Lao QR中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第48周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ buyer onboarding ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 48. (port: Boten; payment: bank transfer; SLA: 4h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-101",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第49周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 49. (port: Pakse; payment: D/P; SLA: 5h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-102",
+      "source_text": "若certificate of origin进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第50周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 50. (port: Thanaleng; payment: L/C; SLA: 6h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-103",
+      "source_text": "针对cross-border payment场景，团队需先在Lao National Single Window中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第51周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ cross-border payment ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 51. (port: Vientiane; payment: Lao QR; SLA: 7h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-104",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第52周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 52. (port: Savannakhet; payment: T/T; SLA: 8h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-105",
+      "source_text": "若invoice compliance进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第1周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 1. (port: Boten; payment: bank transfer; SLA: 9h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-106",
+      "source_text": "针对product classification场景，团队需先在Lao QR中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第2周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ product classification ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 2. (port: Pakse; payment: D/P; SLA: 10h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-107",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第3周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 3. (port: Thanaleng; payment: L/C; SLA: 11h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-108",
+      "source_text": "若shipment booking进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第4周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 4. (port: Vientiane; payment: Lao QR; SLA: 12h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-109",
+      "source_text": "针对document review场景，团队需先在Lao National Single Window中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第5周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ document review ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 5. (port: Savannakhet; payment: T/T; SLA: 4h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-110",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第6周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 6. (port: Boten; payment: bank transfer; SLA: 5h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-111",
+      "source_text": "若customs declaration进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第7周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 7. (port: Pakse; payment: D/P; SLA: 6h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-112",
+      "source_text": "针对certificate of origin场景，团队需先在Lao QR中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第8周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ certificate of origin ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 8. (port: Thanaleng; payment: L/C; SLA: 7h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-113",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第9周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 9. (port: Vientiane; payment: Lao QR; SLA: 8h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-114",
+      "source_text": "若delivery lead time进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第10周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 10. (port: Savannakhet; payment: T/T; SLA: 9h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-115",
+      "source_text": "针对invoice compliance场景，团队需先在Lao National Single Window中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第11周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ invoice compliance ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 11. (port: Boten; payment: bank transfer; SLA: 10h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-116",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第12周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 12. (port: Pakse; payment: D/P; SLA: 11h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-117",
+      "source_text": "若after-sales claim进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第13周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 13. (port: Thanaleng; payment: L/C; SLA: 12h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-118",
+      "source_text": "针对shipment booking场景，团队需先在Lao QR中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第14周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ shipment booking ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 14. (port: Vientiane; payment: Lao QR; SLA: 4h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-119",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第15周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 15. (port: Savannakhet; payment: T/T; SLA: 5h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-120",
+      "source_text": "若buyer onboarding进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第16周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 16. (port: Boten; payment: bank transfer; SLA: 6h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-121",
+      "source_text": "针对customs declaration场景，团队需先在Lao National Single Window中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第17周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ customs declaration ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 17. (port: Pakse; payment: D/P; SLA: 7h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-122",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第18周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 18. (port: Thanaleng; payment: L/C; SLA: 8h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-123",
+      "source_text": "若cross-border payment进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第19周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 19. (port: Vientiane; payment: Lao QR; SLA: 9h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-124",
+      "source_text": "针对delivery lead time场景，团队需先在Lao QR中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第20周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ delivery lead time ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 20. (port: Savannakhet; payment: T/T; SLA: 10h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-125",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第21周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 21. (port: Boten; payment: bank transfer; SLA: 11h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-126",
+      "source_text": "若product classification进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第22周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 22. (port: Pakse; payment: D/P; SLA: 12h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-127",
+      "source_text": "针对after-sales claim场景，团队需先在Lao National Single Window中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第23周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ after-sales claim ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 23. (port: Thanaleng; payment: L/C; SLA: 4h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-128",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第24周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 24. (port: Vientiane; payment: Lao QR; SLA: 5h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-129",
+      "source_text": "若document review进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第25周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 25. (port: Savannakhet; payment: T/T; SLA: 6h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-130",
+      "source_text": "针对buyer onboarding场景，团队需先在Lao QR中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第26周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ buyer onboarding ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 26. (port: Boten; payment: bank transfer; SLA: 7h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-131",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第27周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 27. (port: Pakse; payment: D/P; SLA: 8h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-132",
+      "source_text": "若certificate of origin进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第28周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 28. (port: Thanaleng; payment: L/C; SLA: 9h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-133",
+      "source_text": "针对cross-border payment场景，团队需先在Lao National Single Window中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第29周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ cross-border payment ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 29. (port: Vientiane; payment: Lao QR; SLA: 10h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-134",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第30周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 30. (port: Savannakhet; payment: T/T; SLA: 11h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-135",
+      "source_text": "若invoice compliance进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第31周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 31. (port: Boten; payment: bank transfer; SLA: 12h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-136",
+      "source_text": "针对product classification场景，团队需先在Lao QR中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第32周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ product classification ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 32. (port: Pakse; payment: D/P; SLA: 4h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-137",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第33周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 33. (port: Thanaleng; payment: L/C; SLA: 5h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-138",
+      "source_text": "若shipment booking进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第34周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 34. (port: Vientiane; payment: Lao QR; SLA: 6h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-139",
+      "source_text": "针对document review场景，团队需先在Lao National Single Window中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第35周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ document review ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 35. (port: Savannakhet; payment: T/T; SLA: 7h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-140",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第36周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 36. (port: Boten; payment: bank transfer; SLA: 8h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-141",
+      "source_text": "若customs declaration进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第37周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 37. (port: Pakse; payment: D/P; SLA: 9h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-142",
+      "source_text": "针对certificate of origin场景，团队需先在Lao QR中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第38周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ certificate of origin ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 38. (port: Thanaleng; payment: L/C; SLA: 10h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-143",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第39周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 39. (port: Vientiane; payment: Lao QR; SLA: 11h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-144",
+      "source_text": "若delivery lead time进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第40周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 40. (port: Savannakhet; payment: T/T; SLA: 12h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-145",
+      "source_text": "针对invoice compliance场景，团队需先在Lao National Single Window中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第41周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ invoice compliance ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 41. (port: Boten; payment: bank transfer; SLA: 4h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-146",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第42周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 42. (port: Pakse; payment: D/P; SLA: 5h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-147",
+      "source_text": "若after-sales claim进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第43周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 43. (port: Thanaleng; payment: L/C; SLA: 6h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-148",
+      "source_text": "针对shipment booking场景，团队需先在Lao QR中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第44周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ shipment booking ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 44. (port: Vientiane; payment: Lao QR; SLA: 7h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-149",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第45周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 45. (port: Savannakhet; payment: T/T; SLA: 8h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-150",
+      "source_text": "若buyer onboarding进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第46周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 46. (port: Boten; payment: bank transfer; SLA: 9h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-151",
+      "source_text": "针对customs declaration场景，团队需先在Lao National Single Window中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第47周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ customs declaration ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 47. (port: Pakse; payment: D/P; SLA: 10h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-152",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第48周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 48. (port: Thanaleng; payment: L/C; SLA: 11h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-153",
+      "source_text": "若cross-border payment进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第49周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 49. (port: Vientiane; payment: Lao QR; SLA: 12h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-154",
+      "source_text": "针对delivery lead time场景，团队需先在Lao QR中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第50周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ delivery lead time ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 50. (port: Savannakhet; payment: T/T; SLA: 4h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-155",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第51周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 51. (port: Boten; payment: bank transfer; SLA: 5h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-156",
+      "source_text": "若product classification进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第52周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 52. (port: Pakse; payment: D/P; SLA: 6h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-157",
+      "source_text": "针对after-sales claim场景，团队需先在Lao National Single Window中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第1周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ after-sales claim ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 1. (port: Thanaleng; payment: L/C; SLA: 7h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-158",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第2周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 2. (port: Vientiane; payment: Lao QR; SLA: 8h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-159",
+      "source_text": "若document review进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第3周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 3. (port: Savannakhet; payment: T/T; SLA: 9h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-160",
+      "source_text": "针对buyer onboarding场景，团队需先在Lao QR中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第4周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ buyer onboarding ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 4. (port: Boten; payment: bank transfer; SLA: 10h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-161",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第5周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 5. (port: Pakse; payment: D/P; SLA: 11h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-162",
+      "source_text": "若certificate of origin进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第6周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 6. (port: Thanaleng; payment: L/C; SLA: 12h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-163",
+      "source_text": "针对cross-border payment场景，团队需先在Lao National Single Window中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第7周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ cross-border payment ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 7. (port: Vientiane; payment: Lao QR; SLA: 4h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-164",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第8周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 8. (port: Savannakhet; payment: T/T; SLA: 5h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-165",
+      "source_text": "若invoice compliance进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第9周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 9. (port: Boten; payment: bank transfer; SLA: 6h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-166",
+      "source_text": "针对product classification场景，团队需先在Lao QR中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第10周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ product classification ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 10. (port: Pakse; payment: D/P; SLA: 7h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-167",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第11周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 11. (port: Thanaleng; payment: L/C; SLA: 8h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-168",
+      "source_text": "若shipment booking进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第12周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 12. (port: Vientiane; payment: Lao QR; SLA: 9h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-169",
+      "source_text": "针对document review场景，团队需先在Lao National Single Window中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第13周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ document review ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 13. (port: Savannakhet; payment: T/T; SLA: 10h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-170",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第14周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 14. (port: Boten; payment: bank transfer; SLA: 11h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-171",
+      "source_text": "若customs declaration进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第15周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 15. (port: Pakse; payment: D/P; SLA: 12h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-172",
+      "source_text": "针对certificate of origin场景，团队需先在Lao QR中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第16周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ certificate of origin ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 16. (port: Thanaleng; payment: L/C; SLA: 4h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-173",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第17周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 17. (port: Vientiane; payment: Lao QR; SLA: 5h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-174",
+      "source_text": "若delivery lead time进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第18周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 18. (port: Savannakhet; payment: T/T; SLA: 6h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-175",
+      "source_text": "针对invoice compliance场景，团队需先在Lao National Single Window中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第19周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ invoice compliance ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 19. (port: Boten; payment: bank transfer; SLA: 7h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-176",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第20周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 20. (port: Pakse; payment: D/P; SLA: 8h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-177",
+      "source_text": "若after-sales claim进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第21周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 21. (port: Thanaleng; payment: L/C; SLA: 9h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-178",
+      "source_text": "针对shipment booking场景，团队需先在Lao QR中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第22周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ shipment booking ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 22. (port: Vientiane; payment: Lao QR; SLA: 10h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-179",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第23周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 23. (port: Savannakhet; payment: T/T; SLA: 11h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-180",
+      "source_text": "若buyer onboarding进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第24周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 24. (port: Boten; payment: bank transfer; SLA: 12h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-181",
+      "source_text": "针对customs declaration场景，团队需先在Lao National Single Window中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第25周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ customs declaration ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 25. (port: Pakse; payment: D/P; SLA: 4h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-182",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第26周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 26. (port: Thanaleng; payment: L/C; SLA: 5h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-183",
+      "source_text": "若cross-border payment进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第27周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 27. (port: Vientiane; payment: Lao QR; SLA: 6h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-184",
+      "source_text": "针对delivery lead time场景，团队需先在Lao QR中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第28周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ delivery lead time ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 28. (port: Savannakhet; payment: T/T; SLA: 7h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-185",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第29周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 29. (port: Boten; payment: bank transfer; SLA: 8h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-186",
+      "source_text": "若product classification进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第30周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 30. (port: Pakse; payment: D/P; SLA: 9h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-187",
+      "source_text": "针对after-sales claim场景，团队需先在Lao National Single Window中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第31周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ after-sales claim ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 31. (port: Thanaleng; payment: L/C; SLA: 10h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-188",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第32周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 32. (port: Vientiane; payment: Lao QR; SLA: 11h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-189",
+      "source_text": "若document review进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第33周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 33. (port: Savannakhet; payment: T/T; SLA: 12h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-190",
+      "source_text": "针对buyer onboarding场景，团队需先在Lao QR中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第34周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ buyer onboarding ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 34. (port: Boten; payment: bank transfer; SLA: 4h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-191",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第35周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 35. (port: Pakse; payment: D/P; SLA: 5h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-192",
+      "source_text": "若certificate of origin进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第36周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 36. (port: Thanaleng; payment: L/C; SLA: 6h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-193",
+      "source_text": "针对cross-border payment场景，团队需先在Lao National Single Window中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第37周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ cross-border payment ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 37. (port: Vientiane; payment: Lao QR; SLA: 7h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-194",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第38周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 38. (port: Savannakhet; payment: T/T; SLA: 8h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-195",
+      "source_text": "若invoice compliance进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第39周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 39. (port: Boten; payment: bank transfer; SLA: 9h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-196",
+      "source_text": "针对product classification场景，团队需先在Lao QR中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第40周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ product classification ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 40. (port: Pakse; payment: D/P; SLA: 10h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-197",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第41周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 41. (port: Thanaleng; payment: L/C; SLA: 11h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-198",
+      "source_text": "若shipment booking进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第42周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 42. (port: Vientiane; payment: Lao QR; SLA: 12h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-199",
+      "source_text": "针对document review场景，团队需先在Lao National Single Window中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第43周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ document review ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 43. (port: Savannakhet; payment: T/T; SLA: 4h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-200",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第44周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 44. (port: Boten; payment: bank transfer; SLA: 5h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-201",
+      "source_text": "若customs declaration进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第45周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 45. (port: Pakse; payment: D/P; SLA: 6h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-202",
+      "source_text": "针对certificate of origin场景，团队需先在Lao QR中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第46周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ certificate of origin ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 46. (port: Thanaleng; payment: L/C; SLA: 7h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-203",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第47周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 47. (port: Vientiane; payment: Lao QR; SLA: 8h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-204",
+      "source_text": "若delivery lead time进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第48周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 48. (port: Savannakhet; payment: T/T; SLA: 9h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-205",
+      "source_text": "针对invoice compliance场景，团队需先在Lao National Single Window中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第49周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ invoice compliance ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 49. (port: Boten; payment: bank transfer; SLA: 10h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-206",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第50周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 50. (port: Pakse; payment: D/P; SLA: 11h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-207",
+      "source_text": "若after-sales claim进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第51周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 51. (port: Thanaleng; payment: L/C; SLA: 12h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-208",
+      "source_text": "针对shipment booking场景，团队需先在Lao QR中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第52周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ shipment booking ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 52. (port: Vientiane; payment: Lao QR; SLA: 4h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-209",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第1周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 1. (port: Savannakhet; payment: T/T; SLA: 5h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-210",
+      "source_text": "若buyer onboarding进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第2周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 2. (port: Boten; payment: bank transfer; SLA: 6h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-211",
+      "source_text": "针对customs declaration场景，团队需先在Lao National Single Window中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第3周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ customs declaration ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 3. (port: Pakse; payment: D/P; SLA: 7h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-212",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第4周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 4. (port: Thanaleng; payment: L/C; SLA: 8h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-213",
+      "source_text": "若cross-border payment进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第5周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 5. (port: Vientiane; payment: Lao QR; SLA: 9h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-214",
+      "source_text": "针对delivery lead time场景，团队需先在Lao QR中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第6周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ delivery lead time ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 6. (port: Savannakhet; payment: T/T; SLA: 10h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-215",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第7周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 7. (port: Boten; payment: bank transfer; SLA: 11h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-216",
+      "source_text": "若product classification进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第8周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 8. (port: Pakse; payment: D/P; SLA: 12h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-217",
+      "source_text": "针对after-sales claim场景，团队需先在Lao National Single Window中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第9周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ after-sales claim ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 9. (port: Thanaleng; payment: L/C; SLA: 4h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-218",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第10周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 10. (port: Vientiane; payment: Lao QR; SLA: 5h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-219",
+      "source_text": "若document review进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第11周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 11. (port: Savannakhet; payment: T/T; SLA: 6h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-220",
+      "source_text": "针对buyer onboarding场景，团队需先在Lao QR中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第12周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ buyer onboarding ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 12. (port: Boten; payment: bank transfer; SLA: 7h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-221",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第13周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 13. (port: Pakse; payment: D/P; SLA: 8h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-222",
+      "source_text": "若certificate of origin进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第14周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 14. (port: Thanaleng; payment: L/C; SLA: 9h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-223",
+      "source_text": "针对cross-border payment场景，团队需先在Lao National Single Window中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第15周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ cross-border payment ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 15. (port: Vientiane; payment: Lao QR; SLA: 10h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-224",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第16周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 16. (port: Savannakhet; payment: T/T; SLA: 11h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-225",
+      "source_text": "若invoice compliance进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第17周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 17. (port: Boten; payment: bank transfer; SLA: 12h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-226",
+      "source_text": "针对product classification场景，团队需先在Lao QR中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第18周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ product classification ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 18. (port: Pakse; payment: D/P; SLA: 4h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-227",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第19周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 19. (port: Thanaleng; payment: L/C; SLA: 5h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-228",
+      "source_text": "若shipment booking进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第20周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 20. (port: Vientiane; payment: Lao QR; SLA: 6h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-229",
+      "source_text": "针对document review场景，团队需先在Lao National Single Window中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第21周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ document review ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 21. (port: Savannakhet; payment: T/T; SLA: 7h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-230",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第22周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 22. (port: Boten; payment: bank transfer; SLA: 8h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-231",
+      "source_text": "若customs declaration进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第23周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 23. (port: Pakse; payment: D/P; SLA: 9h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-232",
+      "source_text": "针对certificate of origin场景，团队需先在Lao QR中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第24周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ certificate of origin ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 24. (port: Thanaleng; payment: L/C; SLA: 10h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-233",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第25周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 25. (port: Vientiane; payment: Lao QR; SLA: 11h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-234",
+      "source_text": "若delivery lead time进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第26周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 26. (port: Savannakhet; payment: T/T; SLA: 12h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-235",
+      "source_text": "针对invoice compliance场景，团队需先在Lao National Single Window中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第27周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ invoice compliance ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 27. (port: Boten; payment: bank transfer; SLA: 4h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-236",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第28周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 28. (port: Pakse; payment: D/P; SLA: 5h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-237",
+      "source_text": "若after-sales claim进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第29周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 29. (port: Thanaleng; payment: L/C; SLA: 6h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-238",
+      "source_text": "针对shipment booking场景，团队需先在Lao QR中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第30周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ shipment booking ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 30. (port: Vientiane; payment: Lao QR; SLA: 7h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-239",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第31周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 31. (port: Savannakhet; payment: T/T; SLA: 8h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-240",
+      "source_text": "若buyer onboarding进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第32周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 32. (port: Boten; payment: bank transfer; SLA: 9h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-241",
+      "source_text": "针对customs declaration场景，团队需先在Lao National Single Window中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第33周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ customs declaration ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 33. (port: Pakse; payment: D/P; SLA: 10h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-242",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第34周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 34. (port: Thanaleng; payment: L/C; SLA: 11h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-243",
+      "source_text": "若cross-border payment进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第35周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 35. (port: Vientiane; payment: Lao QR; SLA: 12h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-244",
+      "source_text": "针对delivery lead time场景，团队需先在Lao QR中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第36周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ delivery lead time ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 36. (port: Savannakhet; payment: T/T; SLA: 4h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-245",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第37周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 37. (port: Boten; payment: bank transfer; SLA: 5h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-246",
+      "source_text": "若product classification进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第38周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 38. (port: Pakse; payment: D/P; SLA: 6h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-247",
+      "source_text": "针对after-sales claim场景，团队需先在Lao National Single Window中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第39周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ after-sales claim ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 39. (port: Thanaleng; payment: L/C; SLA: 7h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-248",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第40周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 40. (port: Vientiane; payment: Lao QR; SLA: 8h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-249",
+      "source_text": "若document review进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第41周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 41. (port: Savannakhet; payment: T/T; SLA: 9h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-250",
+      "source_text": "针对buyer onboarding场景，团队需先在Lao QR中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第42周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ buyer onboarding ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 42. (port: Boten; payment: bank transfer; SLA: 10h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-251",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第43周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 43. (port: Pakse; payment: D/P; SLA: 11h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-252",
+      "source_text": "若certificate of origin进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第44周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 44. (port: Thanaleng; payment: L/C; SLA: 12h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-253",
+      "source_text": "针对cross-border payment场景，团队需先在Lao National Single Window中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第45周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ cross-border payment ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 45. (port: Vientiane; payment: Lao QR; SLA: 4h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-254",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第46周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 46. (port: Savannakhet; payment: T/T; SLA: 5h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-255",
+      "source_text": "若invoice compliance进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第47周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 47. (port: Boten; payment: bank transfer; SLA: 6h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-256",
+      "source_text": "针对product classification场景，团队需先在Lao QR中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第48周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ product classification ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 48. (port: Pakse; payment: D/P; SLA: 7h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-257",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第49周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 49. (port: Thanaleng; payment: L/C; SLA: 8h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-258",
+      "source_text": "若shipment booking进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第50周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 50. (port: Vientiane; payment: Lao QR; SLA: 9h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-259",
+      "source_text": "针对document review场景，团队需先在Lao National Single Window中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第51周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ document review ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 51. (port: Savannakhet; payment: T/T; SLA: 10h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-260",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第52周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 52. (port: Boten; payment: bank transfer; SLA: 11h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-261",
+      "source_text": "若customs declaration进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第1周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 1. (port: Pakse; payment: D/P; SLA: 12h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-262",
+      "source_text": "针对certificate of origin场景，团队需先在Lao QR中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第2周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ certificate of origin ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 2. (port: Thanaleng; payment: L/C; SLA: 4h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-263",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第3周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 3. (port: Vientiane; payment: Lao QR; SLA: 5h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-264",
+      "source_text": "若delivery lead time进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第4周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 4. (port: Savannakhet; payment: T/T; SLA: 6h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-265",
+      "source_text": "针对invoice compliance场景，团队需先在Lao National Single Window中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第5周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ invoice compliance ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 5. (port: Boten; payment: bank transfer; SLA: 7h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-266",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第6周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 6. (port: Pakse; payment: D/P; SLA: 8h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-267",
+      "source_text": "若after-sales claim进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第7周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 7. (port: Thanaleng; payment: L/C; SLA: 9h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-268",
+      "source_text": "针对shipment booking场景，团队需先在Lao QR中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第8周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ shipment booking ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 8. (port: Vientiane; payment: Lao QR; SLA: 10h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-269",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第9周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 9. (port: Savannakhet; payment: T/T; SLA: 11h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-270",
+      "source_text": "若buyer onboarding进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第10周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 10. (port: Boten; payment: bank transfer; SLA: 12h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-271",
+      "source_text": "针对customs declaration场景，团队需先在Lao National Single Window中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第11周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ customs declaration ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 11. (port: Pakse; payment: D/P; SLA: 4h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-272",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第12周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 12. (port: Thanaleng; payment: L/C; SLA: 5h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-273",
+      "source_text": "若cross-border payment进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第13周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 13. (port: Vientiane; payment: Lao QR; SLA: 6h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-274",
+      "source_text": "针对delivery lead time场景，团队需先在Lao QR中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第14周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ delivery lead time ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 14. (port: Savannakhet; payment: T/T; SLA: 7h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-275",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第15周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 15. (port: Boten; payment: bank transfer; SLA: 8h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-276",
+      "source_text": "若product classification进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第16周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 16. (port: Pakse; payment: D/P; SLA: 9h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-277",
+      "source_text": "针对after-sales claim场景，团队需先在Lao National Single Window中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第17周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ after-sales claim ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 17. (port: Thanaleng; payment: L/C; SLA: 10h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-278",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第18周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 18. (port: Vientiane; payment: Lao QR; SLA: 11h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-279",
+      "source_text": "若document review进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第19周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 19. (port: Savannakhet; payment: T/T; SLA: 12h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-280",
+      "source_text": "针对buyer onboarding场景，团队需先在Lao QR中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第20周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ buyer onboarding ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 20. (port: Boten; payment: bank transfer; SLA: 4h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-281",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第21周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 21. (port: Pakse; payment: D/P; SLA: 5h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-282",
+      "source_text": "若certificate of origin进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第22周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 22. (port: Thanaleng; payment: L/C; SLA: 6h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-283",
+      "source_text": "针对cross-border payment场景，团队需先在Lao National Single Window中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第23周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ cross-border payment ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 23. (port: Vientiane; payment: Lao QR; SLA: 7h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-284",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第24周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 24. (port: Savannakhet; payment: T/T; SLA: 8h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-285",
+      "source_text": "若invoice compliance进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第25周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 25. (port: Boten; payment: bank transfer; SLA: 9h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-286",
+      "source_text": "针对product classification场景，团队需先在Lao QR中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第26周，优先口岸为Pakse。",
+      "target_text": "ສໍາລັບ product classification ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 26. (port: Pakse; payment: D/P; SLA: 10h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-287",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第27周，优先口岸为Thanaleng。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 27. (port: Thanaleng; payment: L/C; SLA: 11h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-288",
+      "source_text": "若shipment booking进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第28周，优先口岸为Vientiane。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 28. (port: Vientiane; payment: Lao QR; SLA: 12h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-289",
+      "source_text": "针对document review场景，团队需先在Lao National Single Window中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第29周，优先口岸为Savannakhet。",
+      "target_text": "ສໍາລັບ document review ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 29. (port: Savannakhet; payment: T/T; SLA: 4h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-290",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第30周，优先口岸为Boten。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 30. (port: Boten; payment: bank transfer; SLA: 5h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-291",
+      "source_text": "若customs declaration进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第31周，优先口岸为Pakse。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 31. (port: Pakse; payment: D/P; SLA: 6h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-292",
+      "source_text": "针对certificate of origin场景，团队需先在Lao QR中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第32周，优先口岸为Thanaleng。",
+      "target_text": "ສໍາລັບ certificate of origin ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 32. (port: Thanaleng; payment: L/C; SLA: 7h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-293",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第33周，优先口岸为Vientiane。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 33. (port: Vientiane; payment: Lao QR; SLA: 8h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-294",
+      "source_text": "若delivery lead time进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第34周，优先口岸为Savannakhet。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 34. (port: Savannakhet; payment: T/T; SLA: 9h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-295",
+      "source_text": "针对invoice compliance场景，团队需先在Lao National Single Window中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第35周，优先口岸为Boten。",
+      "target_text": "ສໍາລັບ invoice compliance ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao National Single Window ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 35. (port: Boten; payment: bank transfer; SLA: 10h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-296",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将ASYCUDA与内部复核清单联动，减少改单次数。 该批次对应第36周，优先口岸为Pakse。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ ASYCUDA ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງອາຊຽນ ຊ່ວງອາທິດທີ 36. (port: Pakse; payment: D/P; SLA: 11h)",
+      "context": "ລາວ localized operations | ASYCUDA | ເສັ້ນທາງອາຊຽນ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-297",
+      "source_text": "若after-sales claim进度紧张，应通过EcoLao e-CO同步状态并提前触发应急交付方案。 该批次对应第37周，优先口岸为Thanaleng。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ EcoLao e-CO ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ຫວຽດນາມ ຊ່ວງອາທິດທີ 37. (port: Thanaleng; payment: L/C; SLA: 12h)",
+      "context": "ລາວ localized operations | Lao QR | ເສັ້ນທາງລາວ-ຫວຽດນາມ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-298",
+      "source_text": "针对shipment booking场景，团队需先在Lao QR中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第38周，优先口岸为Vientiane。",
+      "target_text": "ສໍາລັບ shipment booking ທີມງານມັກສົ່ງຂໍ້ມູນຄົບຖ້ວນຜ່ານ Lao QR ແລະຢືນຢັນສະຖານະກັບລູກຄ້າກ່ອນປ່ອຍສິນຄ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ ຊ່ວງອາທິດທີ 38. (port: Vientiane; payment: Lao QR; SLA: 4h)",
+      "context": "ລາວ localized operations | Lao National Single Window | ເສັ້ນທາງລາວ-ອິນໂດເນເຊຍ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-299",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将LAPNet与内部复核清单联动，减少改单次数。 该批次对应第39周，优先口岸为Savannakhet。",
+      "target_text": "ແນວປະຕິບັດໃນ ລາວ ແມ່ນປະສານ LAPNet ກັບການກວດເອກະສານພາຍໃນເພື່ອຫຼຸດການແກ້ໄຂຊໍ້າ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ໄທ ຊ່ວງອາທິດທີ 39. (port: Savannakhet; payment: T/T; SLA: 5h)",
+      "context": "ລາວ localized operations | EcoLao e-CO | ເສັ້ນທາງລາວ-ໄທ",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-300",
+      "source_text": "若buyer onboarding进度紧张，应通过Trade Portal Laos同步状态并提前触发应急交付方案。 该批次对应第40周，优先口岸为Boten。",
+      "target_text": "ເມື່ອເວລາຈໍາກັດ ທີມຈະໃຊ້ Trade Portal Laos ຄູ່ກັບແຜນສໍາຮອງເພື່ອຮັກສາກໍານົດສົ່ງມອບ. ຮູບແບບນີ້ນິຍົມໃຊ້ໃນ ເສັ້ນທາງລາວ-ມາເລເຊຍ ຊ່ວງອາທິດທີ 40. (port: Boten; payment: bank transfer; SLA: 6h)",
+      "context": "ລາວ localized operations | Trade Portal Laos | ເສັ້ນທາງລາວ-ມາເລເຊຍ",
+      "domain": "trade"
+    }
+  ]
+}

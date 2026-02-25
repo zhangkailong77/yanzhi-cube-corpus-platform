@@ -1,0 +1,2113 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "process",
+    "domain": "trade",
+    "created_by": "localized-generator",
+    "created_at": "2026-02-25T06:26:47Z",
+    "description": "Localized process/rule corpus (Tiếng Việt) - 300",
+    "language": "vi"
+  },
+  "data": [
+    {
+      "rule_id": "RULE-001",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng VNACCS/VCIS | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-1",
+      "condition": "Đơn hàng trên 30000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 1 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-002",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-2",
+      "condition": "Đơn hàng trên 34000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 2 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-003",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng hóa đơn điện tử | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-3",
+      "condition": "Đơn hàng trên 38000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 3 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-004",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng L/C theo UCP 600 | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-4",
+      "condition": "Đơn hàng trên 42000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 4 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-005",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng C/O Form D | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-5",
+      "condition": "Đơn hàng trên 46000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 5 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-006",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng chữ ký số | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-6",
+      "condition": "Đơn hàng trên 50000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 6 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-007",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng VNACCS/VCIS | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-7",
+      "condition": "Đơn hàng trên 54000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 7 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-008",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-8",
+      "condition": "Đơn hàng trên 58000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 8 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-009",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng hóa đơn điện tử | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-9",
+      "condition": "Đơn hàng trên 62000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 9 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-010",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng L/C theo UCP 600 | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-10",
+      "condition": "Đơn hàng trên 66000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 10 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-011",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng C/O Form D | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-11",
+      "condition": "Đơn hàng trên 70000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 11 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-012",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng chữ ký số | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-12",
+      "condition": "Đơn hàng trên 74000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 12 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-013",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng VNACCS/VCIS | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-13",
+      "condition": "Đơn hàng trên 78000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 13 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-014",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-14",
+      "condition": "Đơn hàng trên 82000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 14 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-015",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng hóa đơn điện tử | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-15",
+      "condition": "Đơn hàng trên 86000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 15 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-016",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng L/C theo UCP 600 | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-16",
+      "condition": "Đơn hàng trên 90000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 16 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-017",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng C/O Form D | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-17",
+      "condition": "Đơn hàng trên 94000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 17 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-018",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng chữ ký số | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-18",
+      "condition": "Đơn hàng trên 98000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 18 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-019",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng VNACCS/VCIS | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-19",
+      "condition": "Đơn hàng trên 102000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 19 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-020",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-20",
+      "condition": "Đơn hàng trên 106000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 20 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-021",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng hóa đơn điện tử | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-21",
+      "condition": "Đơn hàng trên 110000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 21 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-022",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng L/C theo UCP 600 | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-22",
+      "condition": "Đơn hàng trên 114000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 22 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-023",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng C/O Form D | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-23",
+      "condition": "Đơn hàng trên 118000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 23 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-024",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng chữ ký số | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-24",
+      "condition": "Đơn hàng trên 122000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 24 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-025",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng VNACCS/VCIS | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-25",
+      "condition": "Đơn hàng trên 126000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 25 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-026",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-26",
+      "condition": "Đơn hàng trên 30000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 26 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-027",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng hóa đơn điện tử | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-27",
+      "condition": "Đơn hàng trên 34000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 27 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-028",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng L/C theo UCP 600 | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-28",
+      "condition": "Đơn hàng trên 38000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 28 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-029",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng C/O Form D | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-29",
+      "condition": "Đơn hàng trên 42000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 29 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-030",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng chữ ký số | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-30",
+      "condition": "Đơn hàng trên 46000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 30 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-031",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng VNACCS/VCIS | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-31",
+      "condition": "Đơn hàng trên 50000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 31 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-032",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-32",
+      "condition": "Đơn hàng trên 54000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 32 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-033",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng hóa đơn điện tử | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-33",
+      "condition": "Đơn hàng trên 58000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 33 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-034",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng L/C theo UCP 600 | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-34",
+      "condition": "Đơn hàng trên 62000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 34 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-035",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng C/O Form D | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-35",
+      "condition": "Đơn hàng trên 66000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 35 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-036",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng chữ ký số | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-36",
+      "condition": "Đơn hàng trên 70000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 36 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-037",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng VNACCS/VCIS | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-37",
+      "condition": "Đơn hàng trên 74000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 37 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-038",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-38",
+      "condition": "Đơn hàng trên 78000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 38 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-039",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng hóa đơn điện tử | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-39",
+      "condition": "Đơn hàng trên 82000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 39 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-040",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng L/C theo UCP 600 | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-40",
+      "condition": "Đơn hàng trên 86000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 40 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-041",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng C/O Form D | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-41",
+      "condition": "Đơn hàng trên 90000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 41 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-042",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng chữ ký số | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-42",
+      "condition": "Đơn hàng trên 94000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 42 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-043",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng VNACCS/VCIS | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-43",
+      "condition": "Đơn hàng trên 98000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 43 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-044",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-44",
+      "condition": "Đơn hàng trên 102000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 44 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-045",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng hóa đơn điện tử | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-45",
+      "condition": "Đơn hàng trên 106000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 45 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-046",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng L/C theo UCP 600 | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-46",
+      "condition": "Đơn hàng trên 110000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 46 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-047",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng C/O Form D | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-47",
+      "condition": "Đơn hàng trên 114000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 47 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-048",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng chữ ký số | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-48",
+      "condition": "Đơn hàng trên 118000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 48 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-049",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng VNACCS/VCIS | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-49",
+      "condition": "Đơn hàng trên 122000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 49 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-050",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-50",
+      "condition": "Đơn hàng trên 126000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 50 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-051",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng hóa đơn điện tử | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-51",
+      "condition": "Đơn hàng trên 30000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 51 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-052",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng L/C theo UCP 600 | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-52",
+      "condition": "Đơn hàng trên 34000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 52 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-053",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng C/O Form D | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-1",
+      "condition": "Đơn hàng trên 38000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 1 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-054",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng chữ ký số | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-2",
+      "condition": "Đơn hàng trên 42000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 2 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-055",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng VNACCS/VCIS | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-3",
+      "condition": "Đơn hàng trên 46000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 3 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-056",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-4",
+      "condition": "Đơn hàng trên 50000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 4 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-057",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng hóa đơn điện tử | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-5",
+      "condition": "Đơn hàng trên 54000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 5 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-058",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng L/C theo UCP 600 | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-6",
+      "condition": "Đơn hàng trên 58000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 6 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-059",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng C/O Form D | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-7",
+      "condition": "Đơn hàng trên 62000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 7 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-060",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng chữ ký số | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-8",
+      "condition": "Đơn hàng trên 66000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 8 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-061",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng VNACCS/VCIS | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-9",
+      "condition": "Đơn hàng trên 70000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 9 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-062",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-10",
+      "condition": "Đơn hàng trên 74000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 10 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-063",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng hóa đơn điện tử | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-11",
+      "condition": "Đơn hàng trên 78000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 11 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-064",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng L/C theo UCP 600 | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-12",
+      "condition": "Đơn hàng trên 82000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 12 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-065",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng C/O Form D | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-13",
+      "condition": "Đơn hàng trên 86000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 13 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-066",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng chữ ký số | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-14",
+      "condition": "Đơn hàng trên 90000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 14 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-067",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng VNACCS/VCIS | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-15",
+      "condition": "Đơn hàng trên 94000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 15 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-068",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-16",
+      "condition": "Đơn hàng trên 98000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 16 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-069",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng hóa đơn điện tử | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-17",
+      "condition": "Đơn hàng trên 102000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 17 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-070",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng L/C theo UCP 600 | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-18",
+      "condition": "Đơn hàng trên 106000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 18 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-071",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng C/O Form D | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-19",
+      "condition": "Đơn hàng trên 110000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 19 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-072",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng chữ ký số | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-20",
+      "condition": "Đơn hàng trên 114000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 20 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-073",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng VNACCS/VCIS | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-21",
+      "condition": "Đơn hàng trên 118000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 21 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-074",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-22",
+      "condition": "Đơn hàng trên 122000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 22 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-075",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng hóa đơn điện tử | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-23",
+      "condition": "Đơn hàng trên 126000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 23 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-076",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng L/C theo UCP 600 | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-24",
+      "condition": "Đơn hàng trên 30000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 24 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-077",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng C/O Form D | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-25",
+      "condition": "Đơn hàng trên 34000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 25 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-078",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng chữ ký số | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-26",
+      "condition": "Đơn hàng trên 38000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 26 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-079",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng VNACCS/VCIS | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-27",
+      "condition": "Đơn hàng trên 42000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 27 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-080",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-28",
+      "condition": "Đơn hàng trên 46000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 28 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-081",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng hóa đơn điện tử | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-29",
+      "condition": "Đơn hàng trên 50000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 29 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-082",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng L/C theo UCP 600 | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-30",
+      "condition": "Đơn hàng trên 54000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 30 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-083",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng C/O Form D | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-31",
+      "condition": "Đơn hàng trên 58000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 31 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-084",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng chữ ký số | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-32",
+      "condition": "Đơn hàng trên 62000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 32 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-085",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng VNACCS/VCIS | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-33",
+      "condition": "Đơn hàng trên 66000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 33 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-086",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-34",
+      "condition": "Đơn hàng trên 70000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 34 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-087",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng hóa đơn điện tử | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-35",
+      "condition": "Đơn hàng trên 74000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 35 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-088",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng L/C theo UCP 600 | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-36",
+      "condition": "Đơn hàng trên 78000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 36 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-089",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng C/O Form D | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-37",
+      "condition": "Đơn hàng trên 82000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 37 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-090",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng chữ ký số | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-38",
+      "condition": "Đơn hàng trên 86000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 38 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-091",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng VNACCS/VCIS | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-39",
+      "condition": "Đơn hàng trên 90000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 39 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-092",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-40",
+      "condition": "Đơn hàng trên 94000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 40 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-093",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng hóa đơn điện tử | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-41",
+      "condition": "Đơn hàng trên 98000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 41 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-094",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng L/C theo UCP 600 | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-42",
+      "condition": "Đơn hàng trên 102000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 42 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-095",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng C/O Form D | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-43",
+      "condition": "Đơn hàng trên 106000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 43 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-096",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng chữ ký số | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-44",
+      "condition": "Đơn hàng trên 110000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 44 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-097",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng VNACCS/VCIS | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-45",
+      "condition": "Đơn hàng trên 114000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 45 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-098",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-46",
+      "condition": "Đơn hàng trên 118000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 46 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-099",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng hóa đơn điện tử | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-47",
+      "condition": "Đơn hàng trên 122000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 47 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-100",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng L/C theo UCP 600 | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-48",
+      "condition": "Đơn hàng trên 126000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 48 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-101",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng C/O Form D | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-49",
+      "condition": "Đơn hàng trên 30000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 49 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-102",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng chữ ký số | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-50",
+      "condition": "Đơn hàng trên 34000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 50 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-103",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng VNACCS/VCIS | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-51",
+      "condition": "Đơn hàng trên 38000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 51 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-104",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-52",
+      "condition": "Đơn hàng trên 42000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 52 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-105",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng hóa đơn điện tử | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-1",
+      "condition": "Đơn hàng trên 46000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 1 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-106",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng L/C theo UCP 600 | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-2",
+      "condition": "Đơn hàng trên 50000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 2 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-107",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng C/O Form D | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-3",
+      "condition": "Đơn hàng trên 54000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 3 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-108",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng chữ ký số | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-4",
+      "condition": "Đơn hàng trên 58000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 4 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-109",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng VNACCS/VCIS | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-5",
+      "condition": "Đơn hàng trên 62000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 5 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-110",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-6",
+      "condition": "Đơn hàng trên 66000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 6 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-111",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng hóa đơn điện tử | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-7",
+      "condition": "Đơn hàng trên 70000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 7 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-112",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng L/C theo UCP 600 | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-8",
+      "condition": "Đơn hàng trên 74000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 8 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-113",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng C/O Form D | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-9",
+      "condition": "Đơn hàng trên 78000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 9 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-114",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng chữ ký số | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-10",
+      "condition": "Đơn hàng trên 82000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 10 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-115",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng VNACCS/VCIS | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-11",
+      "condition": "Đơn hàng trên 86000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 11 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-116",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-12",
+      "condition": "Đơn hàng trên 90000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 12 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-117",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng hóa đơn điện tử | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-13",
+      "condition": "Đơn hàng trên 94000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 13 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-118",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng L/C theo UCP 600 | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-14",
+      "condition": "Đơn hàng trên 98000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 14 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-119",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng C/O Form D | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-15",
+      "condition": "Đơn hàng trên 102000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 15 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-120",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng chữ ký số | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-16",
+      "condition": "Đơn hàng trên 106000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 16 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-121",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng VNACCS/VCIS | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-17",
+      "condition": "Đơn hàng trên 110000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 17 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-122",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-18",
+      "condition": "Đơn hàng trên 114000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 18 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-123",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng hóa đơn điện tử | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-19",
+      "condition": "Đơn hàng trên 118000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 19 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-124",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng L/C theo UCP 600 | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-20",
+      "condition": "Đơn hàng trên 122000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 20 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-125",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng C/O Form D | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-21",
+      "condition": "Đơn hàng trên 126000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 21 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-126",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng chữ ký số | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-22",
+      "condition": "Đơn hàng trên 30000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 22 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-127",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng VNACCS/VCIS | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-23",
+      "condition": "Đơn hàng trên 34000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 23 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-128",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-24",
+      "condition": "Đơn hàng trên 38000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 24 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-129",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng hóa đơn điện tử | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-25",
+      "condition": "Đơn hàng trên 42000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 25 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-130",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng L/C theo UCP 600 | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-26",
+      "condition": "Đơn hàng trên 46000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 26 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-131",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng C/O Form D | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-27",
+      "condition": "Đơn hàng trên 50000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 27 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-132",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng chữ ký số | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-28",
+      "condition": "Đơn hàng trên 54000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 28 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-133",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng VNACCS/VCIS | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-29",
+      "condition": "Đơn hàng trên 58000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 29 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-134",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-30",
+      "condition": "Đơn hàng trên 62000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 30 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-135",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng hóa đơn điện tử | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-31",
+      "condition": "Đơn hàng trên 66000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 31 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-136",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng L/C theo UCP 600 | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-32",
+      "condition": "Đơn hàng trên 70000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 32 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-137",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng C/O Form D | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-33",
+      "condition": "Đơn hàng trên 74000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 33 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-138",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng chữ ký số | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-34",
+      "condition": "Đơn hàng trên 78000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 34 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-139",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng VNACCS/VCIS | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-35",
+      "condition": "Đơn hàng trên 82000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 35 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-140",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-36",
+      "condition": "Đơn hàng trên 86000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 36 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-141",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng hóa đơn điện tử | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-37",
+      "condition": "Đơn hàng trên 90000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 37 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-142",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng L/C theo UCP 600 | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-38",
+      "condition": "Đơn hàng trên 94000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 38 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-143",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng C/O Form D | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-39",
+      "condition": "Đơn hàng trên 98000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 39 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-144",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng chữ ký số | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-40",
+      "condition": "Đơn hàng trên 102000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 40 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-145",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng VNACCS/VCIS | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-41",
+      "condition": "Đơn hàng trên 106000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 41 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-146",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-42",
+      "condition": "Đơn hàng trên 110000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 42 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-147",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng hóa đơn điện tử | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-43",
+      "condition": "Đơn hàng trên 114000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 43 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-148",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng L/C theo UCP 600 | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-44",
+      "condition": "Đơn hàng trên 118000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 44 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-149",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng C/O Form D | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-45",
+      "condition": "Đơn hàng trên 122000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 45 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-150",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng chữ ký số | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-46",
+      "condition": "Đơn hàng trên 126000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 46 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-151",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng VNACCS/VCIS | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-47",
+      "condition": "Đơn hàng trên 30000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 47 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-152",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-48",
+      "condition": "Đơn hàng trên 34000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 48 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-153",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng hóa đơn điện tử | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-49",
+      "condition": "Đơn hàng trên 38000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 49 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-154",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng L/C theo UCP 600 | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-50",
+      "condition": "Đơn hàng trên 42000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 50 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-155",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng C/O Form D | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-51",
+      "condition": "Đơn hàng trên 46000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 51 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-156",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng chữ ký số | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-52",
+      "condition": "Đơn hàng trên 50000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 52 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-157",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng VNACCS/VCIS | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-1",
+      "condition": "Đơn hàng trên 54000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 1 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-158",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-2",
+      "condition": "Đơn hàng trên 58000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 2 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-159",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng hóa đơn điện tử | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-3",
+      "condition": "Đơn hàng trên 62000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 3 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-160",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng L/C theo UCP 600 | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-4",
+      "condition": "Đơn hàng trên 66000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 4 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-161",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng C/O Form D | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-5",
+      "condition": "Đơn hàng trên 70000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 5 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-162",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng chữ ký số | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-6",
+      "condition": "Đơn hàng trên 74000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 6 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-163",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng VNACCS/VCIS | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-7",
+      "condition": "Đơn hàng trên 78000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 7 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-164",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-8",
+      "condition": "Đơn hàng trên 82000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 8 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-165",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng hóa đơn điện tử | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-9",
+      "condition": "Đơn hàng trên 86000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 9 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-166",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng L/C theo UCP 600 | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-10",
+      "condition": "Đơn hàng trên 90000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 10 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-167",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng C/O Form D | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-11",
+      "condition": "Đơn hàng trên 94000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 11 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-168",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng chữ ký số | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-12",
+      "condition": "Đơn hàng trên 98000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 12 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-169",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng VNACCS/VCIS | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-13",
+      "condition": "Đơn hàng trên 102000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 13 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-170",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-14",
+      "condition": "Đơn hàng trên 106000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 14 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-171",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng hóa đơn điện tử | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-15",
+      "condition": "Đơn hàng trên 110000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 15 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-172",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng L/C theo UCP 600 | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-16",
+      "condition": "Đơn hàng trên 114000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 16 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-173",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng C/O Form D | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-17",
+      "condition": "Đơn hàng trên 118000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 17 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-174",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng chữ ký số | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-18",
+      "condition": "Đơn hàng trên 122000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 18 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-175",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng VNACCS/VCIS | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-19",
+      "condition": "Đơn hàng trên 126000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 19 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-176",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-20",
+      "condition": "Đơn hàng trên 30000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 20 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-177",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng hóa đơn điện tử | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-21",
+      "condition": "Đơn hàng trên 34000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 21 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-178",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng L/C theo UCP 600 | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-22",
+      "condition": "Đơn hàng trên 38000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 22 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-179",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng C/O Form D | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-23",
+      "condition": "Đơn hàng trên 42000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 23 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-180",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng chữ ký số | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-24",
+      "condition": "Đơn hàng trên 46000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 24 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-181",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng VNACCS/VCIS | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-25",
+      "condition": "Đơn hàng trên 50000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 25 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-182",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-26",
+      "condition": "Đơn hàng trên 54000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 26 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-183",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng hóa đơn điện tử | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-27",
+      "condition": "Đơn hàng trên 58000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 27 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-184",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng L/C theo UCP 600 | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-28",
+      "condition": "Đơn hàng trên 62000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 28 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-185",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng C/O Form D | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-29",
+      "condition": "Đơn hàng trên 66000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 29 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-186",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng chữ ký số | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-30",
+      "condition": "Đơn hàng trên 70000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 30 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-187",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng VNACCS/VCIS | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-31",
+      "condition": "Đơn hàng trên 74000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 31 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-188",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-32",
+      "condition": "Đơn hàng trên 78000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 32 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-189",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng hóa đơn điện tử | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-33",
+      "condition": "Đơn hàng trên 82000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 33 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-190",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng L/C theo UCP 600 | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-34",
+      "condition": "Đơn hàng trên 86000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 34 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-191",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng C/O Form D | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-35",
+      "condition": "Đơn hàng trên 90000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 35 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-192",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng chữ ký số | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-36",
+      "condition": "Đơn hàng trên 94000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 36 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-193",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng VNACCS/VCIS | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-37",
+      "condition": "Đơn hàng trên 98000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 37 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-194",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-38",
+      "condition": "Đơn hàng trên 102000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 38 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-195",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng hóa đơn điện tử | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-39",
+      "condition": "Đơn hàng trên 106000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 39 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-196",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng L/C theo UCP 600 | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-40",
+      "condition": "Đơn hàng trên 110000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 40 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-197",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng C/O Form D | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-41",
+      "condition": "Đơn hàng trên 114000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 41 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-198",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng chữ ký số | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-42",
+      "condition": "Đơn hàng trên 118000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 42 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-199",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng VNACCS/VCIS | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-43",
+      "condition": "Đơn hàng trên 122000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 43 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-200",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-44",
+      "condition": "Đơn hàng trên 126000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 44 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-201",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng hóa đơn điện tử | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-45",
+      "condition": "Đơn hàng trên 30000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 45 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-202",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng L/C theo UCP 600 | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-46",
+      "condition": "Đơn hàng trên 34000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 46 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-203",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng C/O Form D | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-47",
+      "condition": "Đơn hàng trên 38000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 47 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-204",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng chữ ký số | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-48",
+      "condition": "Đơn hàng trên 42000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 48 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-205",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng VNACCS/VCIS | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-49",
+      "condition": "Đơn hàng trên 46000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 49 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-206",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-50",
+      "condition": "Đơn hàng trên 50000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 50 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-207",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng hóa đơn điện tử | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-51",
+      "condition": "Đơn hàng trên 54000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 51 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-208",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng L/C theo UCP 600 | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-52",
+      "condition": "Đơn hàng trên 58000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 52 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-209",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng C/O Form D | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-1",
+      "condition": "Đơn hàng trên 62000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 1 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-210",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng chữ ký số | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-2",
+      "condition": "Đơn hàng trên 66000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 2 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-211",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng VNACCS/VCIS | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-3",
+      "condition": "Đơn hàng trên 70000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 3 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-212",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-4",
+      "condition": "Đơn hàng trên 74000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 4 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-213",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng hóa đơn điện tử | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-5",
+      "condition": "Đơn hàng trên 78000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 5 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-214",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng L/C theo UCP 600 | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-6",
+      "condition": "Đơn hàng trên 82000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 6 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-215",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng C/O Form D | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-7",
+      "condition": "Đơn hàng trên 86000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 7 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-216",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng chữ ký số | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-8",
+      "condition": "Đơn hàng trên 90000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 8 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-217",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng VNACCS/VCIS | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-9",
+      "condition": "Đơn hàng trên 94000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 9 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-218",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-10",
+      "condition": "Đơn hàng trên 98000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 10 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-219",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng hóa đơn điện tử | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-11",
+      "condition": "Đơn hàng trên 102000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 11 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-220",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng L/C theo UCP 600 | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-12",
+      "condition": "Đơn hàng trên 106000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 12 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-221",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng C/O Form D | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-13",
+      "condition": "Đơn hàng trên 110000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 13 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-222",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng chữ ký số | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-14",
+      "condition": "Đơn hàng trên 114000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 14 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-223",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng VNACCS/VCIS | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-15",
+      "condition": "Đơn hàng trên 118000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 15 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-224",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-16",
+      "condition": "Đơn hàng trên 122000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 16 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-225",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng hóa đơn điện tử | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-17",
+      "condition": "Đơn hàng trên 126000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 17 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-226",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng L/C theo UCP 600 | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-18",
+      "condition": "Đơn hàng trên 30000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 18 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-227",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng C/O Form D | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-19",
+      "condition": "Đơn hàng trên 34000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 19 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-228",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng chữ ký số | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-20",
+      "condition": "Đơn hàng trên 38000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 20 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-229",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng VNACCS/VCIS | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-21",
+      "condition": "Đơn hàng trên 42000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 21 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-230",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-22",
+      "condition": "Đơn hàng trên 46000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 22 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-231",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng hóa đơn điện tử | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-23",
+      "condition": "Đơn hàng trên 50000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 23 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-232",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng L/C theo UCP 600 | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-24",
+      "condition": "Đơn hàng trên 54000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 24 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-233",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng C/O Form D | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-25",
+      "condition": "Đơn hàng trên 58000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 25 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-234",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng chữ ký số | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-26",
+      "condition": "Đơn hàng trên 62000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 26 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-235",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng VNACCS/VCIS | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-27",
+      "condition": "Đơn hàng trên 66000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 27 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-236",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-28",
+      "condition": "Đơn hàng trên 70000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 28 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-237",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng hóa đơn điện tử | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-29",
+      "condition": "Đơn hàng trên 74000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 29 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-238",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng L/C theo UCP 600 | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-30",
+      "condition": "Đơn hàng trên 78000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 30 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-239",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng C/O Form D | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-31",
+      "condition": "Đơn hàng trên 82000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 31 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-240",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng chữ ký số | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-32",
+      "condition": "Đơn hàng trên 86000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 32 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-241",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng VNACCS/VCIS | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-33",
+      "condition": "Đơn hàng trên 90000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 33 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-242",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-34",
+      "condition": "Đơn hàng trên 94000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 34 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-243",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng hóa đơn điện tử | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-35",
+      "condition": "Đơn hàng trên 98000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 35 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-244",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng L/C theo UCP 600 | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-36",
+      "condition": "Đơn hàng trên 102000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 36 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-245",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng C/O Form D | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-37",
+      "condition": "Đơn hàng trên 106000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 37 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-246",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng chữ ký số | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-38",
+      "condition": "Đơn hàng trên 110000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 38 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-247",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng VNACCS/VCIS | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-39",
+      "condition": "Đơn hàng trên 114000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 39 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-248",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-40",
+      "condition": "Đơn hàng trên 118000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 40 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-249",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng hóa đơn điện tử | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-41",
+      "condition": "Đơn hàng trên 122000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 41 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-250",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng L/C theo UCP 600 | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-42",
+      "condition": "Đơn hàng trên 126000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 42 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-251",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng C/O Form D | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-43",
+      "condition": "Đơn hàng trên 30000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 43 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-252",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng chữ ký số | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-44",
+      "condition": "Đơn hàng trên 34000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 44 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-253",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng VNACCS/VCIS | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-45",
+      "condition": "Đơn hàng trên 38000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 45 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-254",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-46",
+      "condition": "Đơn hàng trên 42000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 46 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-255",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng hóa đơn điện tử | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-47",
+      "condition": "Đơn hàng trên 46000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 47 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-256",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng L/C theo UCP 600 | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-48",
+      "condition": "Đơn hàng trên 50000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 48 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-257",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng C/O Form D | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-49",
+      "condition": "Đơn hàng trên 54000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 49 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-258",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng chữ ký số | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-50",
+      "condition": "Đơn hàng trên 58000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 50 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-259",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng VNACCS/VCIS | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-51",
+      "condition": "Đơn hàng trên 62000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 51 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-260",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-52",
+      "condition": "Đơn hàng trên 66000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 52 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-261",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng hóa đơn điện tử | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-1",
+      "condition": "Đơn hàng trên 70000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 1 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-262",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng L/C theo UCP 600 | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-2",
+      "condition": "Đơn hàng trên 74000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 2 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-263",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng C/O Form D | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-3",
+      "condition": "Đơn hàng trên 78000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 3 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-264",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng chữ ký số | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-4",
+      "condition": "Đơn hàng trên 82000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 4 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-265",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng VNACCS/VCIS | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-5",
+      "condition": "Đơn hàng trên 86000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 5 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-266",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-6",
+      "condition": "Đơn hàng trên 90000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 6 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-267",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng hóa đơn điện tử | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-7",
+      "condition": "Đơn hàng trên 94000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 7 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-268",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng L/C theo UCP 600 | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-8",
+      "condition": "Đơn hàng trên 98000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 8 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-269",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng C/O Form D | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-9",
+      "condition": "Đơn hàng trên 102000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 9 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-270",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng chữ ký số | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-10",
+      "condition": "Đơn hàng trên 106000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 10 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-271",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng VNACCS/VCIS | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-11",
+      "condition": "Đơn hàng trên 110000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 11 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-272",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-12",
+      "condition": "Đơn hàng trên 114000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 12 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-273",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng hóa đơn điện tử | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-13",
+      "condition": "Đơn hàng trên 118000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 13 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-274",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng L/C theo UCP 600 | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-14",
+      "condition": "Đơn hàng trên 122000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 14 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-275",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng C/O Form D | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-15",
+      "condition": "Đơn hàng trên 126000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 15 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-276",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng chữ ký số | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-16",
+      "condition": "Đơn hàng trên 30000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 16 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-277",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng VNACCS/VCIS | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-17",
+      "condition": "Đơn hàng trên 34000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 17 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-278",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-18",
+      "condition": "Đơn hàng trên 38000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 18 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-279",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng hóa đơn điện tử | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-19",
+      "condition": "Đơn hàng trên 42000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 19 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-280",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng L/C theo UCP 600 | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-20",
+      "condition": "Đơn hàng trên 46000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 20 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-281",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng C/O Form D | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-21",
+      "condition": "Đơn hàng trên 50000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 21 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-282",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng chữ ký số | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-22",
+      "condition": "Đơn hàng trên 54000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 22 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-283",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng VNACCS/VCIS | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-23",
+      "condition": "Đơn hàng trên 58000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 23 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-284",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-24",
+      "condition": "Đơn hàng trên 62000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 24 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-285",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng hóa đơn điện tử | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-25",
+      "condition": "Đơn hàng trên 66000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 25 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-286",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng L/C theo UCP 600 | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-26",
+      "condition": "Đơn hàng trên 70000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 26 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-287",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng C/O Form D | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-27",
+      "condition": "Đơn hàng trên 74000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 27 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-288",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng chữ ký số | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-28",
+      "condition": "Đơn hàng trên 78000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 28 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-289",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng VNACCS/VCIS | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-29",
+      "condition": "Đơn hàng trên 82000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 29 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-290",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-30",
+      "condition": "Đơn hàng trên 86000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 30 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-291",
+      "scenario": "Xử lý customs declaration cho đơn hàng áp dụng hóa đơn điện tử | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-31",
+      "condition": "Đơn hàng trên 90000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 31 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-292",
+      "scenario": "Xử lý certificate of origin cho đơn hàng áp dụng L/C theo UCP 600 | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-32",
+      "condition": "Đơn hàng trên 94000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 32 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 7 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    },
+    {
+      "rule_id": "RULE-293",
+      "scenario": "Xử lý cross-border payment cho đơn hàng áp dụng C/O Form D | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-33",
+      "condition": "Đơn hàng trên 98000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 33 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 8 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "风控规则"
+    },
+    {
+      "rule_id": "RULE-294",
+      "scenario": "Xử lý delivery lead time cho đơn hàng áp dụng chữ ký số | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-34",
+      "condition": "Đơn hàng trên 102000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 34 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 9 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合规规则"
+    },
+    {
+      "rule_id": "RULE-295",
+      "scenario": "Xử lý invoice compliance cho đơn hàng áp dụng VNACCS/VCIS | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-35",
+      "condition": "Đơn hàng trên 106000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu VNACCS/VCIS đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 35 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 2 giờ Cập nhật mốc tiến độ trong 10 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "合同规则"
+    },
+    {
+      "rule_id": "RULE-296",
+      "scenario": "Xử lý product classification cho đơn hàng áp dụng Cổng thông tin một cửa quốc gia (VNSW) | VNSW | tuyến ASEAN | Cai Mep | D/P | Week-36",
+      "condition": "Đơn hàng trên 110000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu Cổng thông tin một cửa quốc gia (VNSW) đồng thời đối chiếu quy tắc của VNSW cho lô xuất tuần 36 trên tuyến ASEAN.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 3 giờ Cập nhật mốc tiến độ trong 11 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "其他"
+    },
+    {
+      "rule_id": "RULE-297",
+      "scenario": "Xử lý after-sales claim cho đơn hàng áp dụng hóa đơn điện tử | UCP 600 | tuyến Việt Nam-Malaysia | Lao Bao | L/C | Week-37",
+      "condition": "Đơn hàng trên 114000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu hóa đơn điện tử đồng thời đối chiếu quy tắc của UCP 600 cho lô xuất tuần 37 trên tuyến Việt Nam-Malaysia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 4 giờ Cập nhật mốc tiến độ trong 12 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "退货政策"
+    },
+    {
+      "rule_id": "RULE-298",
+      "scenario": "Xử lý shipment booking cho đơn hàng áp dụng L/C theo UCP 600 | VNACCS/VCIS | tuyến Việt Nam-Indonesia | Hai Phong | QR payment | Week-38",
+      "condition": "Đơn hàng trên 118000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu L/C theo UCP 600 đồng thời đối chiếu quy tắc của VNACCS/VCIS cho lô xuất tuần 38 trên tuyến Việt Nam-Indonesia.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 5 giờ Cập nhật mốc tiến độ trong 4 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "支付规则"
+    },
+    {
+      "rule_id": "RULE-299",
+      "scenario": "Xử lý document review cho đơn hàng áp dụng C/O Form D | e-invoice | tuyến Việt Nam-Thái Lan | Cat Lai | T/T | Week-39",
+      "condition": "Đơn hàng trên 122000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu C/O Form D đồng thời đối chiếu quy tắc của e-invoice cho lô xuất tuần 39 trên tuyến Việt Nam-Thái Lan.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 6 giờ Cập nhật mốc tiến độ trong 5 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "海关规则"
+    },
+    {
+      "rule_id": "RULE-300",
+      "scenario": "Xử lý buyer onboarding cho đơn hàng áp dụng chữ ký số | AEO Vietnam | tuyến Việt Nam-Lào | Da Nang | bank transfer | Week-40",
+      "condition": "Đơn hàng trên 126000 USD, điểm đến cần kiểm tra theo yêu cầu tại Việt Nam, và hồ sơ tham chiếu chữ ký số đồng thời đối chiếu quy tắc của AEO Vietnam cho lô xuất tuần 40 trên tuyến Việt Nam-Lào.",
+      "result": "Áp dụng duyệt hai lớp, khóa trường dữ liệu trọng yếu và thông báo cho tài chính/logistics trong 7 giờ Cập nhật mốc tiến độ trong 6 giờ và ghi rõ trách nhiệm khi có ngoại lệ.",
+      "category": "物流规则"
+    }
+  ]
+}

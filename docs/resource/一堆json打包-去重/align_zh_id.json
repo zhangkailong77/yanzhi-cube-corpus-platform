@@ -1,0 +1,2114 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "alignment",
+    "domain": "trade",
+    "created_by": "localized-generator",
+    "created_at": "2026-02-25T06:26:47Z",
+    "description": "Localized CN-ID alignment corpus - 300",
+    "source_lang": "zh",
+    "target_lang": "id"
+  },
+  "data": [
+    {
+      "alignment_id": "ALIGN-001",
+      "source_text": "针对customs declaration场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第1周，优先口岸为Makassar。",
+      "target_text": "Untuk customs declaration, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-1. (port: Makassar; payment: D/P; SLA: 4h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-002",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第2周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-2. (port: Batam; payment: L/C; SLA: 5h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-003",
+      "source_text": "若cross-border payment进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第3周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-3. (port: Tanjung Priok; payment: QRIS; SLA: 6h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-004",
+      "source_text": "针对delivery lead time场景，团队需先在QRIS中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第4周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk delivery lead time, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-4. (port: Tanjung Perak; payment: T/T; SLA: 7h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-005",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第5周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-5. (port: Belawan; payment: transfer bank; SLA: 8h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-006",
+      "source_text": "若product classification进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第6周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-6. (port: Makassar; payment: D/P; SLA: 9h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-007",
+      "source_text": "针对after-sales claim场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第7周，优先口岸为Batam。",
+      "target_text": "Untuk after-sales claim, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-7. (port: Batam; payment: L/C; SLA: 10h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-008",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第8周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-8. (port: Tanjung Priok; payment: QRIS; SLA: 11h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-009",
+      "source_text": "若document review进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第9周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-9. (port: Tanjung Perak; payment: T/T; SLA: 12h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-010",
+      "source_text": "针对buyer onboarding场景，团队需先在QRIS中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第10周，优先口岸为Belawan。",
+      "target_text": "Untuk buyer onboarding, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-10. (port: Belawan; payment: transfer bank; SLA: 4h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-011",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第11周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-11. (port: Makassar; payment: D/P; SLA: 5h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-012",
+      "source_text": "若certificate of origin进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第12周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-12. (port: Batam; payment: L/C; SLA: 6h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-013",
+      "source_text": "针对cross-border payment场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第13周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk cross-border payment, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-13. (port: Tanjung Priok; payment: QRIS; SLA: 7h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-014",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第14周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-14. (port: Tanjung Perak; payment: T/T; SLA: 8h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-015",
+      "source_text": "若invoice compliance进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第15周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-15. (port: Belawan; payment: transfer bank; SLA: 9h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-016",
+      "source_text": "针对product classification场景，团队需先在QRIS中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第16周，优先口岸为Makassar。",
+      "target_text": "Untuk product classification, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-16. (port: Makassar; payment: D/P; SLA: 10h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-017",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第17周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-17. (port: Batam; payment: L/C; SLA: 11h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-018",
+      "source_text": "若shipment booking进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第18周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-18. (port: Tanjung Priok; payment: QRIS; SLA: 12h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-019",
+      "source_text": "针对document review场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第19周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk document review, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-19. (port: Tanjung Perak; payment: T/T; SLA: 4h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-020",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第20周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-20. (port: Belawan; payment: transfer bank; SLA: 5h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-021",
+      "source_text": "若customs declaration进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第21周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-21. (port: Makassar; payment: D/P; SLA: 6h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-022",
+      "source_text": "针对certificate of origin场景，团队需先在QRIS中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第22周，优先口岸为Batam。",
+      "target_text": "Untuk certificate of origin, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-22. (port: Batam; payment: L/C; SLA: 7h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-023",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第23周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-23. (port: Tanjung Priok; payment: QRIS; SLA: 8h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-024",
+      "source_text": "若delivery lead time进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第24周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-24. (port: Tanjung Perak; payment: T/T; SLA: 9h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-025",
+      "source_text": "针对invoice compliance场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第25周，优先口岸为Belawan。",
+      "target_text": "Untuk invoice compliance, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-25. (port: Belawan; payment: transfer bank; SLA: 10h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-026",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第26周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-26. (port: Makassar; payment: D/P; SLA: 11h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-027",
+      "source_text": "若after-sales claim进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第27周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-27. (port: Batam; payment: L/C; SLA: 12h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-028",
+      "source_text": "针对shipment booking场景，团队需先在QRIS中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第28周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk shipment booking, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-28. (port: Tanjung Priok; payment: QRIS; SLA: 4h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-029",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第29周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-29. (port: Tanjung Perak; payment: T/T; SLA: 5h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-030",
+      "source_text": "若buyer onboarding进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第30周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-30. (port: Belawan; payment: transfer bank; SLA: 6h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-031",
+      "source_text": "针对customs declaration场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第31周，优先口岸为Makassar。",
+      "target_text": "Untuk customs declaration, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-31. (port: Makassar; payment: D/P; SLA: 7h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-032",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第32周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-32. (port: Batam; payment: L/C; SLA: 8h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-033",
+      "source_text": "若cross-border payment进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第33周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-33. (port: Tanjung Priok; payment: QRIS; SLA: 9h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-034",
+      "source_text": "针对delivery lead time场景，团队需先在QRIS中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第34周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk delivery lead time, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-34. (port: Tanjung Perak; payment: T/T; SLA: 10h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-035",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第35周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-35. (port: Belawan; payment: transfer bank; SLA: 11h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-036",
+      "source_text": "若product classification进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第36周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-36. (port: Makassar; payment: D/P; SLA: 12h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-037",
+      "source_text": "针对after-sales claim场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第37周，优先口岸为Batam。",
+      "target_text": "Untuk after-sales claim, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-37. (port: Batam; payment: L/C; SLA: 4h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-038",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第38周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-38. (port: Tanjung Priok; payment: QRIS; SLA: 5h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-039",
+      "source_text": "若document review进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第39周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-39. (port: Tanjung Perak; payment: T/T; SLA: 6h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-040",
+      "source_text": "针对buyer onboarding场景，团队需先在QRIS中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第40周，优先口岸为Belawan。",
+      "target_text": "Untuk buyer onboarding, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-40. (port: Belawan; payment: transfer bank; SLA: 7h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-041",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第41周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-41. (port: Makassar; payment: D/P; SLA: 8h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-042",
+      "source_text": "若certificate of origin进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第42周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-42. (port: Batam; payment: L/C; SLA: 9h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-043",
+      "source_text": "针对cross-border payment场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第43周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk cross-border payment, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-43. (port: Tanjung Priok; payment: QRIS; SLA: 10h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-044",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第44周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-44. (port: Tanjung Perak; payment: T/T; SLA: 11h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-045",
+      "source_text": "若invoice compliance进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第45周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-45. (port: Belawan; payment: transfer bank; SLA: 12h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-046",
+      "source_text": "针对product classification场景，团队需先在QRIS中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第46周，优先口岸为Makassar。",
+      "target_text": "Untuk product classification, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-46. (port: Makassar; payment: D/P; SLA: 4h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-047",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第47周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-47. (port: Batam; payment: L/C; SLA: 5h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-048",
+      "source_text": "若shipment booking进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第48周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-48. (port: Tanjung Priok; payment: QRIS; SLA: 6h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-049",
+      "source_text": "针对document review场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第49周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk document review, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-49. (port: Tanjung Perak; payment: T/T; SLA: 7h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-050",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第50周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-50. (port: Belawan; payment: transfer bank; SLA: 8h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-051",
+      "source_text": "若customs declaration进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第51周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-51. (port: Makassar; payment: D/P; SLA: 9h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-052",
+      "source_text": "针对certificate of origin场景，团队需先在QRIS中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第52周，优先口岸为Batam。",
+      "target_text": "Untuk certificate of origin, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-52. (port: Batam; payment: L/C; SLA: 10h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-053",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第1周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-1. (port: Tanjung Priok; payment: QRIS; SLA: 11h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-054",
+      "source_text": "若delivery lead time进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第2周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-2. (port: Tanjung Perak; payment: T/T; SLA: 12h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-055",
+      "source_text": "针对invoice compliance场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第3周，优先口岸为Belawan。",
+      "target_text": "Untuk invoice compliance, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-3. (port: Belawan; payment: transfer bank; SLA: 4h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-056",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第4周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-4. (port: Makassar; payment: D/P; SLA: 5h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-057",
+      "source_text": "若after-sales claim进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第5周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-5. (port: Batam; payment: L/C; SLA: 6h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-058",
+      "source_text": "针对shipment booking场景，团队需先在QRIS中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第6周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk shipment booking, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-6. (port: Tanjung Priok; payment: QRIS; SLA: 7h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-059",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第7周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-7. (port: Tanjung Perak; payment: T/T; SLA: 8h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-060",
+      "source_text": "若buyer onboarding进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第8周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-8. (port: Belawan; payment: transfer bank; SLA: 9h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-061",
+      "source_text": "针对customs declaration场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第9周，优先口岸为Makassar。",
+      "target_text": "Untuk customs declaration, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-9. (port: Makassar; payment: D/P; SLA: 10h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-062",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第10周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-10. (port: Batam; payment: L/C; SLA: 11h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-063",
+      "source_text": "若cross-border payment进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第11周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-11. (port: Tanjung Priok; payment: QRIS; SLA: 12h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-064",
+      "source_text": "针对delivery lead time场景，团队需先在QRIS中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第12周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk delivery lead time, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-12. (port: Tanjung Perak; payment: T/T; SLA: 4h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-065",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第13周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-13. (port: Belawan; payment: transfer bank; SLA: 5h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-066",
+      "source_text": "若product classification进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第14周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-14. (port: Makassar; payment: D/P; SLA: 6h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-067",
+      "source_text": "针对after-sales claim场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第15周，优先口岸为Batam。",
+      "target_text": "Untuk after-sales claim, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-15. (port: Batam; payment: L/C; SLA: 7h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-068",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第16周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-16. (port: Tanjung Priok; payment: QRIS; SLA: 8h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-069",
+      "source_text": "若document review进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第17周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-17. (port: Tanjung Perak; payment: T/T; SLA: 9h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-070",
+      "source_text": "针对buyer onboarding场景，团队需先在QRIS中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第18周，优先口岸为Belawan。",
+      "target_text": "Untuk buyer onboarding, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-18. (port: Belawan; payment: transfer bank; SLA: 10h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-071",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第19周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-19. (port: Makassar; payment: D/P; SLA: 11h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-072",
+      "source_text": "若certificate of origin进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第20周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-20. (port: Batam; payment: L/C; SLA: 12h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-073",
+      "source_text": "针对cross-border payment场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第21周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk cross-border payment, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-21. (port: Tanjung Priok; payment: QRIS; SLA: 4h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-074",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第22周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-22. (port: Tanjung Perak; payment: T/T; SLA: 5h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-075",
+      "source_text": "若invoice compliance进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第23周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-23. (port: Belawan; payment: transfer bank; SLA: 6h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-076",
+      "source_text": "针对product classification场景，团队需先在QRIS中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第24周，优先口岸为Makassar。",
+      "target_text": "Untuk product classification, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-24. (port: Makassar; payment: D/P; SLA: 7h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-077",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第25周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-25. (port: Batam; payment: L/C; SLA: 8h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-078",
+      "source_text": "若shipment booking进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第26周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-26. (port: Tanjung Priok; payment: QRIS; SLA: 9h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-079",
+      "source_text": "针对document review场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第27周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk document review, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-27. (port: Tanjung Perak; payment: T/T; SLA: 10h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-080",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第28周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-28. (port: Belawan; payment: transfer bank; SLA: 11h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-081",
+      "source_text": "若customs declaration进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第29周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-29. (port: Makassar; payment: D/P; SLA: 12h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-082",
+      "source_text": "针对certificate of origin场景，团队需先在QRIS中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第30周，优先口岸为Batam。",
+      "target_text": "Untuk certificate of origin, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-30. (port: Batam; payment: L/C; SLA: 4h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-083",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第31周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-31. (port: Tanjung Priok; payment: QRIS; SLA: 5h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-084",
+      "source_text": "若delivery lead time进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第32周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-32. (port: Tanjung Perak; payment: T/T; SLA: 6h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-085",
+      "source_text": "针对invoice compliance场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第33周，优先口岸为Belawan。",
+      "target_text": "Untuk invoice compliance, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-33. (port: Belawan; payment: transfer bank; SLA: 7h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-086",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第34周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-34. (port: Makassar; payment: D/P; SLA: 8h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-087",
+      "source_text": "若after-sales claim进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第35周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-35. (port: Batam; payment: L/C; SLA: 9h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-088",
+      "source_text": "针对shipment booking场景，团队需先在QRIS中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第36周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk shipment booking, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-36. (port: Tanjung Priok; payment: QRIS; SLA: 10h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-089",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第37周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-37. (port: Tanjung Perak; payment: T/T; SLA: 11h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-090",
+      "source_text": "若buyer onboarding进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第38周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-38. (port: Belawan; payment: transfer bank; SLA: 12h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-091",
+      "source_text": "针对customs declaration场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第39周，优先口岸为Makassar。",
+      "target_text": "Untuk customs declaration, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-39. (port: Makassar; payment: D/P; SLA: 4h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-092",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第40周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-40. (port: Batam; payment: L/C; SLA: 5h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-093",
+      "source_text": "若cross-border payment进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第41周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-41. (port: Tanjung Priok; payment: QRIS; SLA: 6h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-094",
+      "source_text": "针对delivery lead time场景，团队需先在QRIS中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第42周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk delivery lead time, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-42. (port: Tanjung Perak; payment: T/T; SLA: 7h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-095",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第43周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-43. (port: Belawan; payment: transfer bank; SLA: 8h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-096",
+      "source_text": "若product classification进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第44周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-44. (port: Makassar; payment: D/P; SLA: 9h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-097",
+      "source_text": "针对after-sales claim场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第45周，优先口岸为Batam。",
+      "target_text": "Untuk after-sales claim, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-45. (port: Batam; payment: L/C; SLA: 10h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-098",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第46周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-46. (port: Tanjung Priok; payment: QRIS; SLA: 11h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-099",
+      "source_text": "若document review进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第47周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-47. (port: Tanjung Perak; payment: T/T; SLA: 12h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-100",
+      "source_text": "针对buyer onboarding场景，团队需先在QRIS中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第48周，优先口岸为Belawan。",
+      "target_text": "Untuk buyer onboarding, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-48. (port: Belawan; payment: transfer bank; SLA: 4h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-101",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第49周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-49. (port: Makassar; payment: D/P; SLA: 5h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-102",
+      "source_text": "若certificate of origin进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第50周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-50. (port: Batam; payment: L/C; SLA: 6h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-103",
+      "source_text": "针对cross-border payment场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第51周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk cross-border payment, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-51. (port: Tanjung Priok; payment: QRIS; SLA: 7h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-104",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第52周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-52. (port: Tanjung Perak; payment: T/T; SLA: 8h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-105",
+      "source_text": "若invoice compliance进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第1周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-1. (port: Belawan; payment: transfer bank; SLA: 9h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-106",
+      "source_text": "针对product classification场景，团队需先在QRIS中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第2周，优先口岸为Makassar。",
+      "target_text": "Untuk product classification, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-2. (port: Makassar; payment: D/P; SLA: 10h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-107",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第3周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-3. (port: Batam; payment: L/C; SLA: 11h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-108",
+      "source_text": "若shipment booking进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第4周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-4. (port: Tanjung Priok; payment: QRIS; SLA: 12h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-109",
+      "source_text": "针对document review场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第5周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk document review, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-5. (port: Tanjung Perak; payment: T/T; SLA: 4h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-110",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第6周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-6. (port: Belawan; payment: transfer bank; SLA: 5h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-111",
+      "source_text": "若customs declaration进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第7周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-7. (port: Makassar; payment: D/P; SLA: 6h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-112",
+      "source_text": "针对certificate of origin场景，团队需先在QRIS中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第8周，优先口岸为Batam。",
+      "target_text": "Untuk certificate of origin, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-8. (port: Batam; payment: L/C; SLA: 7h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-113",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第9周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-9. (port: Tanjung Priok; payment: QRIS; SLA: 8h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-114",
+      "source_text": "若delivery lead time进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第10周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-10. (port: Tanjung Perak; payment: T/T; SLA: 9h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-115",
+      "source_text": "针对invoice compliance场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第11周，优先口岸为Belawan。",
+      "target_text": "Untuk invoice compliance, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-11. (port: Belawan; payment: transfer bank; SLA: 10h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-116",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第12周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-12. (port: Makassar; payment: D/P; SLA: 11h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-117",
+      "source_text": "若after-sales claim进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第13周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-13. (port: Batam; payment: L/C; SLA: 12h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-118",
+      "source_text": "针对shipment booking场景，团队需先在QRIS中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第14周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk shipment booking, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-14. (port: Tanjung Priok; payment: QRIS; SLA: 4h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-119",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第15周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-15. (port: Tanjung Perak; payment: T/T; SLA: 5h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-120",
+      "source_text": "若buyer onboarding进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第16周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-16. (port: Belawan; payment: transfer bank; SLA: 6h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-121",
+      "source_text": "针对customs declaration场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第17周，优先口岸为Makassar。",
+      "target_text": "Untuk customs declaration, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-17. (port: Makassar; payment: D/P; SLA: 7h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-122",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第18周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-18. (port: Batam; payment: L/C; SLA: 8h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-123",
+      "source_text": "若cross-border payment进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第19周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-19. (port: Tanjung Priok; payment: QRIS; SLA: 9h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-124",
+      "source_text": "针对delivery lead time场景，团队需先在QRIS中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第20周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk delivery lead time, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-20. (port: Tanjung Perak; payment: T/T; SLA: 10h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-125",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第21周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-21. (port: Belawan; payment: transfer bank; SLA: 11h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-126",
+      "source_text": "若product classification进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第22周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-22. (port: Makassar; payment: D/P; SLA: 12h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-127",
+      "source_text": "针对after-sales claim场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第23周，优先口岸为Batam。",
+      "target_text": "Untuk after-sales claim, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-23. (port: Batam; payment: L/C; SLA: 4h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-128",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第24周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-24. (port: Tanjung Priok; payment: QRIS; SLA: 5h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-129",
+      "source_text": "若document review进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第25周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-25. (port: Tanjung Perak; payment: T/T; SLA: 6h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-130",
+      "source_text": "针对buyer onboarding场景，团队需先在QRIS中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第26周，优先口岸为Belawan。",
+      "target_text": "Untuk buyer onboarding, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-26. (port: Belawan; payment: transfer bank; SLA: 7h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-131",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第27周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-27. (port: Makassar; payment: D/P; SLA: 8h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-132",
+      "source_text": "若certificate of origin进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第28周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-28. (port: Batam; payment: L/C; SLA: 9h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-133",
+      "source_text": "针对cross-border payment场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第29周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk cross-border payment, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-29. (port: Tanjung Priok; payment: QRIS; SLA: 10h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-134",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第30周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-30. (port: Tanjung Perak; payment: T/T; SLA: 11h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-135",
+      "source_text": "若invoice compliance进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第31周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-31. (port: Belawan; payment: transfer bank; SLA: 12h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-136",
+      "source_text": "针对product classification场景，团队需先在QRIS中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第32周，优先口岸为Makassar。",
+      "target_text": "Untuk product classification, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-32. (port: Makassar; payment: D/P; SLA: 4h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-137",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第33周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-33. (port: Batam; payment: L/C; SLA: 5h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-138",
+      "source_text": "若shipment booking进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第34周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-34. (port: Tanjung Priok; payment: QRIS; SLA: 6h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-139",
+      "source_text": "针对document review场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第35周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk document review, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-35. (port: Tanjung Perak; payment: T/T; SLA: 7h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-140",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第36周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-36. (port: Belawan; payment: transfer bank; SLA: 8h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-141",
+      "source_text": "若customs declaration进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第37周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-37. (port: Makassar; payment: D/P; SLA: 9h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-142",
+      "source_text": "针对certificate of origin场景，团队需先在QRIS中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第38周，优先口岸为Batam。",
+      "target_text": "Untuk certificate of origin, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-38. (port: Batam; payment: L/C; SLA: 10h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-143",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第39周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-39. (port: Tanjung Priok; payment: QRIS; SLA: 11h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-144",
+      "source_text": "若delivery lead time进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第40周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-40. (port: Tanjung Perak; payment: T/T; SLA: 12h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-145",
+      "source_text": "针对invoice compliance场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第41周，优先口岸为Belawan。",
+      "target_text": "Untuk invoice compliance, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-41. (port: Belawan; payment: transfer bank; SLA: 4h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-146",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第42周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-42. (port: Makassar; payment: D/P; SLA: 5h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-147",
+      "source_text": "若after-sales claim进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第43周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-43. (port: Batam; payment: L/C; SLA: 6h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-148",
+      "source_text": "针对shipment booking场景，团队需先在QRIS中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第44周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk shipment booking, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-44. (port: Tanjung Priok; payment: QRIS; SLA: 7h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-149",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第45周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-45. (port: Tanjung Perak; payment: T/T; SLA: 8h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-150",
+      "source_text": "若buyer onboarding进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第46周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-46. (port: Belawan; payment: transfer bank; SLA: 9h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-151",
+      "source_text": "针对customs declaration场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第47周，优先口岸为Makassar。",
+      "target_text": "Untuk customs declaration, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-47. (port: Makassar; payment: D/P; SLA: 10h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-152",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第48周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-48. (port: Batam; payment: L/C; SLA: 11h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-153",
+      "source_text": "若cross-border payment进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第49周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-49. (port: Tanjung Priok; payment: QRIS; SLA: 12h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-154",
+      "source_text": "针对delivery lead time场景，团队需先在QRIS中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第50周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk delivery lead time, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-50. (port: Tanjung Perak; payment: T/T; SLA: 4h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-155",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第51周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-51. (port: Belawan; payment: transfer bank; SLA: 5h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-156",
+      "source_text": "若product classification进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第52周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-52. (port: Makassar; payment: D/P; SLA: 6h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-157",
+      "source_text": "针对after-sales claim场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第1周，优先口岸为Batam。",
+      "target_text": "Untuk after-sales claim, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-1. (port: Batam; payment: L/C; SLA: 7h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-158",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第2周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-2. (port: Tanjung Priok; payment: QRIS; SLA: 8h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-159",
+      "source_text": "若document review进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第3周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-3. (port: Tanjung Perak; payment: T/T; SLA: 9h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-160",
+      "source_text": "针对buyer onboarding场景，团队需先在QRIS中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第4周，优先口岸为Belawan。",
+      "target_text": "Untuk buyer onboarding, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-4. (port: Belawan; payment: transfer bank; SLA: 10h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-161",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第5周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-5. (port: Makassar; payment: D/P; SLA: 11h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-162",
+      "source_text": "若certificate of origin进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第6周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-6. (port: Batam; payment: L/C; SLA: 12h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-163",
+      "source_text": "针对cross-border payment场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第7周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk cross-border payment, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-7. (port: Tanjung Priok; payment: QRIS; SLA: 4h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-164",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第8周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-8. (port: Tanjung Perak; payment: T/T; SLA: 5h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-165",
+      "source_text": "若invoice compliance进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第9周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-9. (port: Belawan; payment: transfer bank; SLA: 6h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-166",
+      "source_text": "针对product classification场景，团队需先在QRIS中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第10周，优先口岸为Makassar。",
+      "target_text": "Untuk product classification, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-10. (port: Makassar; payment: D/P; SLA: 7h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-167",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第11周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-11. (port: Batam; payment: L/C; SLA: 8h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-168",
+      "source_text": "若shipment booking进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第12周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-12. (port: Tanjung Priok; payment: QRIS; SLA: 9h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-169",
+      "source_text": "针对document review场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第13周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk document review, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-13. (port: Tanjung Perak; payment: T/T; SLA: 10h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-170",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第14周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-14. (port: Belawan; payment: transfer bank; SLA: 11h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-171",
+      "source_text": "若customs declaration进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第15周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-15. (port: Makassar; payment: D/P; SLA: 12h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-172",
+      "source_text": "针对certificate of origin场景，团队需先在QRIS中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第16周，优先口岸为Batam。",
+      "target_text": "Untuk certificate of origin, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-16. (port: Batam; payment: L/C; SLA: 4h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-173",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第17周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-17. (port: Tanjung Priok; payment: QRIS; SLA: 5h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-174",
+      "source_text": "若delivery lead time进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第18周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-18. (port: Tanjung Perak; payment: T/T; SLA: 6h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-175",
+      "source_text": "针对invoice compliance场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第19周，优先口岸为Belawan。",
+      "target_text": "Untuk invoice compliance, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-19. (port: Belawan; payment: transfer bank; SLA: 7h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-176",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第20周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-20. (port: Makassar; payment: D/P; SLA: 8h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-177",
+      "source_text": "若after-sales claim进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第21周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-21. (port: Batam; payment: L/C; SLA: 9h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-178",
+      "source_text": "针对shipment booking场景，团队需先在QRIS中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第22周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk shipment booking, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-22. (port: Tanjung Priok; payment: QRIS; SLA: 10h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-179",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第23周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-23. (port: Tanjung Perak; payment: T/T; SLA: 11h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-180",
+      "source_text": "若buyer onboarding进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第24周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-24. (port: Belawan; payment: transfer bank; SLA: 12h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-181",
+      "source_text": "针对customs declaration场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第25周，优先口岸为Makassar。",
+      "target_text": "Untuk customs declaration, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-25. (port: Makassar; payment: D/P; SLA: 4h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-182",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第26周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-26. (port: Batam; payment: L/C; SLA: 5h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-183",
+      "source_text": "若cross-border payment进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第27周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-27. (port: Tanjung Priok; payment: QRIS; SLA: 6h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-184",
+      "source_text": "针对delivery lead time场景，团队需先在QRIS中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第28周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk delivery lead time, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-28. (port: Tanjung Perak; payment: T/T; SLA: 7h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-185",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第29周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-29. (port: Belawan; payment: transfer bank; SLA: 8h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-186",
+      "source_text": "若product classification进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第30周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-30. (port: Makassar; payment: D/P; SLA: 9h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-187",
+      "source_text": "针对after-sales claim场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第31周，优先口岸为Batam。",
+      "target_text": "Untuk after-sales claim, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-31. (port: Batam; payment: L/C; SLA: 10h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-188",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第32周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-32. (port: Tanjung Priok; payment: QRIS; SLA: 11h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-189",
+      "source_text": "若document review进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第33周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-33. (port: Tanjung Perak; payment: T/T; SLA: 12h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-190",
+      "source_text": "针对buyer onboarding场景，团队需先在QRIS中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第34周，优先口岸为Belawan。",
+      "target_text": "Untuk buyer onboarding, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-34. (port: Belawan; payment: transfer bank; SLA: 4h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-191",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第35周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-35. (port: Makassar; payment: D/P; SLA: 5h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-192",
+      "source_text": "若certificate of origin进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第36周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-36. (port: Batam; payment: L/C; SLA: 6h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-193",
+      "source_text": "针对cross-border payment场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第37周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk cross-border payment, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-37. (port: Tanjung Priok; payment: QRIS; SLA: 7h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-194",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第38周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-38. (port: Tanjung Perak; payment: T/T; SLA: 8h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-195",
+      "source_text": "若invoice compliance进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第39周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-39. (port: Belawan; payment: transfer bank; SLA: 9h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-196",
+      "source_text": "针对product classification场景，团队需先在QRIS中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第40周，优先口岸为Makassar。",
+      "target_text": "Untuk product classification, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-40. (port: Makassar; payment: D/P; SLA: 10h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-197",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第41周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-41. (port: Batam; payment: L/C; SLA: 11h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-198",
+      "source_text": "若shipment booking进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第42周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-42. (port: Tanjung Priok; payment: QRIS; SLA: 12h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-199",
+      "source_text": "针对document review场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第43周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk document review, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-43. (port: Tanjung Perak; payment: T/T; SLA: 4h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-200",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第44周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-44. (port: Belawan; payment: transfer bank; SLA: 5h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-201",
+      "source_text": "若customs declaration进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第45周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-45. (port: Makassar; payment: D/P; SLA: 6h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-202",
+      "source_text": "针对certificate of origin场景，团队需先在QRIS中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第46周，优先口岸为Batam。",
+      "target_text": "Untuk certificate of origin, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-46. (port: Batam; payment: L/C; SLA: 7h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-203",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第47周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-47. (port: Tanjung Priok; payment: QRIS; SLA: 8h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-204",
+      "source_text": "若delivery lead time进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第48周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-48. (port: Tanjung Perak; payment: T/T; SLA: 9h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-205",
+      "source_text": "针对invoice compliance场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第49周，优先口岸为Belawan。",
+      "target_text": "Untuk invoice compliance, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-49. (port: Belawan; payment: transfer bank; SLA: 10h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-206",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第50周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-50. (port: Makassar; payment: D/P; SLA: 11h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-207",
+      "source_text": "若after-sales claim进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第51周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-51. (port: Batam; payment: L/C; SLA: 12h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-208",
+      "source_text": "针对shipment booking场景，团队需先在QRIS中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第52周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk shipment booking, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-52. (port: Tanjung Priok; payment: QRIS; SLA: 4h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-209",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第1周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-1. (port: Tanjung Perak; payment: T/T; SLA: 5h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-210",
+      "source_text": "若buyer onboarding进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第2周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-2. (port: Belawan; payment: transfer bank; SLA: 6h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-211",
+      "source_text": "针对customs declaration场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第3周，优先口岸为Makassar。",
+      "target_text": "Untuk customs declaration, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-3. (port: Makassar; payment: D/P; SLA: 7h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-212",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第4周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-4. (port: Batam; payment: L/C; SLA: 8h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-213",
+      "source_text": "若cross-border payment进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第5周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-5. (port: Tanjung Priok; payment: QRIS; SLA: 9h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-214",
+      "source_text": "针对delivery lead time场景，团队需先在QRIS中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第6周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk delivery lead time, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-6. (port: Tanjung Perak; payment: T/T; SLA: 10h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-215",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第7周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-7. (port: Belawan; payment: transfer bank; SLA: 11h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-216",
+      "source_text": "若product classification进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第8周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-8. (port: Makassar; payment: D/P; SLA: 12h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-217",
+      "source_text": "针对after-sales claim场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第9周，优先口岸为Batam。",
+      "target_text": "Untuk after-sales claim, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-9. (port: Batam; payment: L/C; SLA: 4h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-218",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第10周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-10. (port: Tanjung Priok; payment: QRIS; SLA: 5h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-219",
+      "source_text": "若document review进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第11周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-11. (port: Tanjung Perak; payment: T/T; SLA: 6h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-220",
+      "source_text": "针对buyer onboarding场景，团队需先在QRIS中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第12周，优先口岸为Belawan。",
+      "target_text": "Untuk buyer onboarding, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-12. (port: Belawan; payment: transfer bank; SLA: 7h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-221",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第13周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-13. (port: Makassar; payment: D/P; SLA: 8h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-222",
+      "source_text": "若certificate of origin进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第14周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-14. (port: Batam; payment: L/C; SLA: 9h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-223",
+      "source_text": "针对cross-border payment场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第15周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk cross-border payment, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-15. (port: Tanjung Priok; payment: QRIS; SLA: 10h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-224",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第16周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-16. (port: Tanjung Perak; payment: T/T; SLA: 11h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-225",
+      "source_text": "若invoice compliance进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第17周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-17. (port: Belawan; payment: transfer bank; SLA: 12h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-226",
+      "source_text": "针对product classification场景，团队需先在QRIS中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第18周，优先口岸为Makassar。",
+      "target_text": "Untuk product classification, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-18. (port: Makassar; payment: D/P; SLA: 4h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-227",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第19周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-19. (port: Batam; payment: L/C; SLA: 5h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-228",
+      "source_text": "若shipment booking进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第20周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-20. (port: Tanjung Priok; payment: QRIS; SLA: 6h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-229",
+      "source_text": "针对document review场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第21周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk document review, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-21. (port: Tanjung Perak; payment: T/T; SLA: 7h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-230",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第22周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-22. (port: Belawan; payment: transfer bank; SLA: 8h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-231",
+      "source_text": "若customs declaration进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第23周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-23. (port: Makassar; payment: D/P; SLA: 9h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-232",
+      "source_text": "针对certificate of origin场景，团队需先在QRIS中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第24周，优先口岸为Batam。",
+      "target_text": "Untuk certificate of origin, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-24. (port: Batam; payment: L/C; SLA: 10h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-233",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第25周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-25. (port: Tanjung Priok; payment: QRIS; SLA: 11h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-234",
+      "source_text": "若delivery lead time进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第26周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-26. (port: Tanjung Perak; payment: T/T; SLA: 12h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-235",
+      "source_text": "针对invoice compliance场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第27周，优先口岸为Belawan。",
+      "target_text": "Untuk invoice compliance, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-27. (port: Belawan; payment: transfer bank; SLA: 4h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-236",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第28周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-28. (port: Makassar; payment: D/P; SLA: 5h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-237",
+      "source_text": "若after-sales claim进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第29周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-29. (port: Batam; payment: L/C; SLA: 6h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-238",
+      "source_text": "针对shipment booking场景，团队需先在QRIS中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第30周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk shipment booking, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-30. (port: Tanjung Priok; payment: QRIS; SLA: 7h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-239",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第31周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-31. (port: Tanjung Perak; payment: T/T; SLA: 8h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-240",
+      "source_text": "若buyer onboarding进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第32周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-32. (port: Belawan; payment: transfer bank; SLA: 9h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-241",
+      "source_text": "针对customs declaration场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第33周，优先口岸为Makassar。",
+      "target_text": "Untuk customs declaration, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-33. (port: Makassar; payment: D/P; SLA: 10h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-242",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第34周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-34. (port: Batam; payment: L/C; SLA: 11h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-243",
+      "source_text": "若cross-border payment进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第35周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-35. (port: Tanjung Priok; payment: QRIS; SLA: 12h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-244",
+      "source_text": "针对delivery lead time场景，团队需先在QRIS中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第36周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk delivery lead time, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-36. (port: Tanjung Perak; payment: T/T; SLA: 4h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-245",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第37周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-37. (port: Belawan; payment: transfer bank; SLA: 5h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-246",
+      "source_text": "若product classification进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第38周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-38. (port: Makassar; payment: D/P; SLA: 6h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-247",
+      "source_text": "针对after-sales claim场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第39周，优先口岸为Batam。",
+      "target_text": "Untuk after-sales claim, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-39. (port: Batam; payment: L/C; SLA: 7h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-248",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第40周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-40. (port: Tanjung Priok; payment: QRIS; SLA: 8h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-249",
+      "source_text": "若document review进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第41周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-41. (port: Tanjung Perak; payment: T/T; SLA: 9h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-250",
+      "source_text": "针对buyer onboarding场景，团队需先在QRIS中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第42周，优先口岸为Belawan。",
+      "target_text": "Untuk buyer onboarding, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-42. (port: Belawan; payment: transfer bank; SLA: 10h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-251",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第43周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-43. (port: Makassar; payment: D/P; SLA: 11h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-252",
+      "source_text": "若certificate of origin进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第44周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-44. (port: Batam; payment: L/C; SLA: 12h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-253",
+      "source_text": "针对cross-border payment场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第45周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk cross-border payment, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-45. (port: Tanjung Priok; payment: QRIS; SLA: 4h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-254",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第46周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-46. (port: Tanjung Perak; payment: T/T; SLA: 5h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-255",
+      "source_text": "若invoice compliance进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第47周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-47. (port: Belawan; payment: transfer bank; SLA: 6h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-256",
+      "source_text": "针对product classification场景，团队需先在QRIS中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第48周，优先口岸为Makassar。",
+      "target_text": "Untuk product classification, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-48. (port: Makassar; payment: D/P; SLA: 7h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-257",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第49周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-49. (port: Batam; payment: L/C; SLA: 8h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-258",
+      "source_text": "若shipment booking进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第50周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-50. (port: Tanjung Priok; payment: QRIS; SLA: 9h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-259",
+      "source_text": "针对document review场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第51周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk document review, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-51. (port: Tanjung Perak; payment: T/T; SLA: 10h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-260",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第52周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-52. (port: Belawan; payment: transfer bank; SLA: 11h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-261",
+      "source_text": "若customs declaration进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第1周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-1. (port: Makassar; payment: D/P; SLA: 12h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-262",
+      "source_text": "针对certificate of origin场景，团队需先在QRIS中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第2周，优先口岸为Batam。",
+      "target_text": "Untuk certificate of origin, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-2. (port: Batam; payment: L/C; SLA: 4h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-263",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第3周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-3. (port: Tanjung Priok; payment: QRIS; SLA: 5h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-264",
+      "source_text": "若delivery lead time进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第4周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-4. (port: Tanjung Perak; payment: T/T; SLA: 6h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-265",
+      "source_text": "针对invoice compliance场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第5周，优先口岸为Belawan。",
+      "target_text": "Untuk invoice compliance, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-5. (port: Belawan; payment: transfer bank; SLA: 7h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-266",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第6周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-6. (port: Makassar; payment: D/P; SLA: 8h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-267",
+      "source_text": "若after-sales claim进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第7周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-7. (port: Batam; payment: L/C; SLA: 9h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-268",
+      "source_text": "针对shipment booking场景，团队需先在QRIS中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第8周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk shipment booking, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-8. (port: Tanjung Priok; payment: QRIS; SLA: 10h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-269",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第9周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-9. (port: Tanjung Perak; payment: T/T; SLA: 11h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-270",
+      "source_text": "若buyer onboarding进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第10周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-10. (port: Belawan; payment: transfer bank; SLA: 12h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-271",
+      "source_text": "针对customs declaration场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Bangkok客户确认放行节点。 该批次对应第11周，优先口岸为Makassar。",
+      "target_text": "Untuk customs declaration, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-11. (port: Makassar; payment: D/P; SLA: 4h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-272",
+      "source_text": "在Ho Chi Minh City线路上处理certificate of origin时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第12周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-12. (port: Batam; payment: L/C; SLA: 5h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-273",
+      "source_text": "若cross-border payment进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第13周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-13. (port: Tanjung Priok; payment: QRIS; SLA: 6h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-274",
+      "source_text": "针对delivery lead time场景，团队需先在QRIS中完成数据校验，再与Jakarta客户确认放行节点。 该批次对应第14周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk delivery lead time, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-14. (port: Tanjung Perak; payment: T/T; SLA: 7h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-275",
+      "source_text": "在Vientiane线路上处理invoice compliance时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第15周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-15. (port: Belawan; payment: transfer bank; SLA: 8h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-276",
+      "source_text": "若product classification进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第16周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-16. (port: Makassar; payment: D/P; SLA: 9h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-277",
+      "source_text": "针对after-sales claim场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Hai Phong客户确认放行节点。 该批次对应第17周，优先口岸为Batam。",
+      "target_text": "Untuk after-sales claim, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-17. (port: Batam; payment: L/C; SLA: 10h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-278",
+      "source_text": "在Port Klang线路上处理shipment booking时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第18周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-18. (port: Tanjung Priok; payment: QRIS; SLA: 11h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-279",
+      "source_text": "若document review进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第19周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-19. (port: Tanjung Perak; payment: T/T; SLA: 12h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-280",
+      "source_text": "针对buyer onboarding场景，团队需先在QRIS中完成数据校验，再与Savannakhet客户确认放行节点。 该批次对应第20周，优先口岸为Belawan。",
+      "target_text": "Untuk buyer onboarding, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-20. (port: Belawan; payment: transfer bank; SLA: 4h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-281",
+      "source_text": "在Bangkok线路上处理customs declaration时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第21周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-21. (port: Makassar; payment: D/P; SLA: 5h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-282",
+      "source_text": "若certificate of origin进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第22周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-22. (port: Batam; payment: L/C; SLA: 6h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-283",
+      "source_text": "针对cross-border payment场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Kuala Lumpur客户确认放行节点。 该批次对应第23周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk cross-border payment, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-23. (port: Tanjung Priok; payment: QRIS; SLA: 7h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-284",
+      "source_text": "在Jakarta线路上处理delivery lead time时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第24周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-24. (port: Tanjung Perak; payment: T/T; SLA: 8h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-285",
+      "source_text": "若invoice compliance进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第25周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-25. (port: Belawan; payment: transfer bank; SLA: 9h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-286",
+      "source_text": "针对product classification场景，团队需先在QRIS中完成数据校验，再与Laem Chabang客户确认放行节点。 该批次对应第26周，优先口岸为Makassar。",
+      "target_text": "Untuk product classification, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute ASEAN pada Minggu-26. (port: Makassar; payment: D/P; SLA: 10h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-287",
+      "source_text": "在Hai Phong线路上处理after-sales claim时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第27周，优先口岸为Batam。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-27. (port: Batam; payment: L/C; SLA: 11h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-288",
+      "source_text": "若shipment booking进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第28周，优先口岸为Tanjung Priok。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-28. (port: Tanjung Priok; payment: QRIS; SLA: 12h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-289",
+      "source_text": "针对document review场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Tanjung Priok客户确认放行节点。 该批次对应第29周，优先口岸为Tanjung Perak。",
+      "target_text": "Untuk document review, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-29. (port: Tanjung Perak; payment: T/T; SLA: 4h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-290",
+      "source_text": "在Savannakhet线路上处理buyer onboarding时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第30周，优先口岸为Belawan。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-30. (port: Belawan; payment: transfer bank; SLA: 5h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-291",
+      "source_text": "若customs declaration进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第31周，优先口岸为Makassar。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute ASEAN pada Minggu-31. (port: Makassar; payment: D/P; SLA: 6h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-292",
+      "source_text": "针对certificate of origin场景，团队需先在QRIS中完成数据校验，再与Ho Chi Minh City客户确认放行节点。 该批次对应第32周，优先口岸为Batam。",
+      "target_text": "Untuk certificate of origin, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-32. (port: Batam; payment: L/C; SLA: 7h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-293",
+      "source_text": "在Kuala Lumpur线路上处理cross-border payment时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第33周，优先口岸为Tanjung Priok。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-33. (port: Tanjung Priok; payment: QRIS; SLA: 8h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-294",
+      "source_text": "若delivery lead time进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第34周，优先口岸为Tanjung Perak。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-34. (port: Tanjung Perak; payment: T/T; SLA: 9h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-295",
+      "source_text": "针对invoice compliance场景，团队需先在Indonesia National Single Window (INSW)中完成数据校验，再与Vientiane客户确认放行节点。 该批次对应第35周，优先口岸为Belawan。",
+      "target_text": "Untuk invoice compliance, operator biasanya mengirim data lengkap melalui Indonesia National Single Window (INSW) dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-35. (port: Belawan; payment: transfer bank; SLA: 10h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-296",
+      "source_text": "在Laem Chabang线路上处理product classification时，建议将CEISA 4.0与内部复核清单联动，减少改单次数。 该批次对应第36周，优先口岸为Makassar。",
+      "target_text": "Praktik di Indonesia menggabungkan CEISA 4.0 dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute ASEAN pada Minggu-36. (port: Makassar; payment: D/P; SLA: 11h)",
+      "context": "Indonesia localized operations | CEISA 4.0 | rute ASEAN",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-297",
+      "source_text": "若after-sales claim进度紧张，应通过OSS-RBA (NIB)同步状态并提前触发应急交付方案。 该批次对应第37周，优先口岸为Batam。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai OSS-RBA (NIB) plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Thailand pada Minggu-37. (port: Batam; payment: L/C; SLA: 12h)",
+      "context": "Indonesia localized operations | QRIS | rute Indonesia-Thailand",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-298",
+      "source_text": "针对shipment booking场景，团队需先在QRIS中完成数据校验，再与Port Klang客户确认放行节点。 该批次对应第38周，优先口岸为Tanjung Priok。",
+      "target_text": "Untuk shipment booking, operator biasanya mengirim data lengkap melalui QRIS dan mengonfirmasi status ke pelanggan sebelum release barang. Pola ini umum dipakai di rute Indonesia-Laos pada Minggu-38. (port: Tanjung Priok; payment: QRIS; SLA: 4h)",
+      "context": "Indonesia localized operations | INSW | rute Indonesia-Laos",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-299",
+      "source_text": "在Tanjung Priok线路上处理document review时，建议将e-Faktur与内部复核清单联动，减少改单次数。 该批次对应第39周，优先口岸为Tanjung Perak。",
+      "target_text": "Praktik di Indonesia menggabungkan e-Faktur dengan review dokumen internal untuk menekan siklus koreksi. Pola ini umum dipakai di rute Indonesia-Malaysia pada Minggu-39. (port: Tanjung Perak; payment: T/T; SLA: 5h)",
+      "context": "Indonesia localized operations | OSS-RBA | rute Indonesia-Malaysia",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-300",
+      "source_text": "若buyer onboarding进度紧张，应通过SKA Form D同步状态并提前触发应急交付方案。 该批次对应第40周，优先口岸为Belawan。",
+      "target_text": "Saat jadwal sangat ketat, tim memakai SKA Form D plus skenario cadangan agar milestone pengiriman dan pembayaran tetap sinkron. Pola ini umum dipakai di rute Indonesia-Vietnam pada Minggu-40. (port: Belawan; payment: transfer bank; SLA: 6h)",
+      "context": "Indonesia localized operations | e-Faktur | rute Indonesia-Vietnam",
+      "domain": "trade"
+    }
+  ]
+}
