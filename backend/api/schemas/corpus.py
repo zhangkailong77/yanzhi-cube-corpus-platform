@@ -87,7 +87,7 @@ class CorpusSample(BaseModel):
 
 class SampleListResponse(BaseModel):
     """样本列表响应"""
-    items: List[CorpusSample]
+    items: List[Any]
     total: int
     page: int = 1
     limit: int = 10
@@ -199,3 +199,17 @@ class CorpusFrequencyStatsResponse(BaseModel):
     unique_words: int = Field(..., description="去重词数")
     pos_distribution: dict = Field(..., description="词性分布比例")
     frequency_data: List[FrequencyWordItem] = Field(..., description="高频词列表")
+
+
+class CreateCorpusWithSamplesRequest(BaseModel):
+    """创建语料库并带样本的请求模型"""
+    name: str
+    description: Optional[str] = ""
+    source_lang: str
+    target_lang: str
+    source_name: str
+    target_name: str
+    domain: str = "general"
+    source_type: str = "official"
+    is_public: bool = True
+    samples: List[dict] = []

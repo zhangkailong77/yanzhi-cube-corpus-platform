@@ -120,7 +120,7 @@ async def ensure_tables_exist():
     engine = create_engine(database_url_sync, echo=False)
 
     # 所有需要创建的表
-    REQUIRED_TABLES = ['users', 'corpora', 'samples', 'corpus_tags', 'statistics_cache']
+    REQUIRED_TABLES = ['users', 'corpora', 'samples', 'corpus_tags', 'terminology_samples', 'statistics_cache']
 
     try:
         # 检查所有表是否已存在

@@ -1,0 +1,1413 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "process",
+    "language": "ms",
+    "domain": "trade",
+    "created_by": "Pasukan Pakar",
+    "created_at": "2025-05-20T10:00:00Z",
+    "description": "Pangkalan Data Proses dan Peraturan Perniagaan Perdagangan Merentas Sempadan"
+  },
+  "data": [
+    {
+      "rule_id": "RULE-001",
+      "scenario": "Pelanggan memohon pemulangan barang merentas sempadan tanpa alasan",
+      "condition": "Barangan telah menyelesaikan proses pelepasan kastam dan bukan disebabkan masalah kualiti",
+      "result": "Berdasarkan polisi perdagangan merentas sempadan, barangan yang telah dilepaskan kastam tidak menyokong pemulangan tanpa alasan",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-002",
+      "scenario": "Pelanggan melaporkan kecacatan kualiti pada produk merentas sempadan",
+      "condition": "Produk mengalami kegagalan fungsi dan tuntutan dikemukakan dalam tempoh 7 hari kalendar selepas penerimaan",
+      "result": "Bayaran balik penuh atau pertukaran barang disokong, dan penjual menanggung semua kos penghantaran antarabangsa",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-003",
+      "scenario": "Pelanggan memohon pemulangan dengan pembungkusan produk yang telah dibuka",
+      "condition": "Pemulangan bukan disebabkan masalah kualiti dan meterai asal pengilang telah dipecahkan",
+      "result": "Jualan sekunder terjejas; sistem akan menolak permohonan pemulangan tersebut. Sila kekalkan pembungkusan asal",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-004",
+      "scenario": "Pemulangan barangan yang rosak semasa logistik merentas sempadan",
+      "condition": "Pembungkusan luar rosak secara nyata semasa diterima dengan sijil kerosakan daripada syarikat logistik",
+      "result": "Saluran bayaran balik pantas akan dibuka, dan kerugian akan ditanggung oleh syarikat insurans dan penyedia logistik",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-005",
+      "scenario": "Permohonan penolakan pelanggan disebabkan kelewatan pelepasan kastam",
+      "condition": "Kelewatan yang disebabkan oleh pemeriksaan kastam tidak melebihi tempoh 15 hari bekerja",
+      "result": "Ini tidak dianggap sebagai pelanggaran kontrak oleh penjual; permohonan pulangan percuma tidak disokong",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-006",
+      "scenario": "Permohonan pemulangan barangan segar atau mudah rosak merentas sempadan",
+      "condition": "Produk tergolong dalam kategori makanan mudah rosak dan telah memasuki proses transit antarabangsa",
+      "result": "Barangan tersebut tidak menyokong pintasan tengah jalan atau sebarang bentuk pemulangan selepas dihantar",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-007",
+      "scenario": "Pelanggan memohon pertukaran barang disebabkan alasan peribadi subjektif",
+      "condition": "Barangan dalam keadaan baik dan belum dibuka tetapi pelanggan ingin menukar warna, saiz atau spesifikasi",
+      "result": "Pelanggan mesti menanggung duti kastam, kos logistik dan yuran pengendalian untuk pemulangan dan penghantaran semula",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-008",
+      "scenario": "Liabiliti duti bagi barangan yang dihantar balik semasa proses pemulangan",
+      "condition": "Pemulangan merentas sempadan bukan berkaitan kualiti yang disebabkan oleh alasan peribadi pelanggan",
+      "result": "Duti import yang timbul daripada pemulangan mesti dibayar terdahulu oleh pembeli atau ditolak daripada bayaran balik",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-009",
+      "scenario": "Proses pemulangan disebabkan penghantaran barangan yang salah oleh penjual",
+      "condition": "Barangan yang diterima tidak sepadan dengan spesifikasi atau model dalam huraian pesanan terperinci",
+      "result": "Kelulusan sistem secara automatik; penjual akan membayar pampasan kos penghantaran selepas pembeli memulangkan barang",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-010",
+      "scenario": "Standard pengiraan jumlah bayaran balik untuk pesanan dengan promosi",
+      "condition": "Pesanan termasuk kupon atau diskaun promosi dan hanya sebahagian barangan dipulangkan",
+      "result": "Bayaran balik dikira berdasarkan perkadaran bayaran sebenar selepas menolak jumlah promosi secara prorata",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-011",
+      "scenario": "Permohonan pemulangan bagi produk perdagangan yang ditempah khas (customized)",
+      "condition": "Barangan ditempah khas mengikut spesifikasi pembeli tanpa masalah kualiti pembuatan yang nyata",
+      "result": "Barangan tempahan khas tidak menyokong sebarang bentuk pemulangan; pembeli mesti menjelaskan baki pembayaran kontrak",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-012",
+      "scenario": "Tuntutan pampasan bagi bungkusan merentas sempadan yang hilang semasa transit",
+      "condition": "Penjejakan logistik tidak menunjukkan kemas kini selama 30 hari dan penghantar mengesahkan kehilangan",
+      "result": "Sistem menetapkan sebagai bungkusan hilang dan melancarkan proses bayaran balik penuh serta tuntutan insurans",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-013",
+      "scenario": "Peraturan pemeriksaan status bagi komoditi yang dipulangkan ke gudang",
+      "condition": "Barangan yang dipulangkan tiba di gudang dengan kesan penggunaan manusia atau kotoran yang nyata",
+      "result": "Penjual berhak menolak bayaran balik dan akan menghantar semula barangan tersebut ke alamat asal pembeli",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-014",
+      "scenario": "Polisi pemulangan semasa aktiviti promosi jualan berlangsung",
+      "condition": "Barangan dibeli semasa tempoh 'Beli Satu Percuma Satu' atau jualan bundle dan pemulangan dimohon",
+      "result": "Pembeli mesti memulangkan item utama dan hadiah, jika tidak nilai pasaran hadiah akan ditolak daripada bayaran balik",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-015",
+      "scenario": "Had tempoh sah bagi permohonan pemulangan selepas penerimaan barang",
+      "condition": "Pembeli tidak memulakan sebarang tuntutan selepas jualan selama lebih daripada 30 hari selepas mengesahkan penerimaan",
+      "result": "Saluran selepas jualan akan ditutup secara automatik, dan tiada permohonan pemulangan akan diterima lagi",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-016",
+      "scenario": "Pemeriksaan pemulangan bagi produk elektronik bernilai tinggi",
+      "condition": "Produk elektronik melebihi nilai unit $1000 dipulangkan atas sebab masalah kualiti",
+      "result": "Penilaian rasmi selepas jualan dan laporan ujian mesti disediakan untuk memulakan proses pemulangan",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-017",
+      "scenario": "Situasi di mana cukai pelepasan kastam tidak boleh dikembalikan",
+      "condition": "Barangan dipulangkan kerana pembeli enggan bekerjasama dalam menyediakan dokumen pelepasan kastam",
+      "result": "Pembeli bertanggungjawab atas yuran penghantaran pergi balik dan duti kastam yang telah dibayar",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-018",
+      "scenario": "Penyelesaian pemulangan bagi saluran pengedaran merentas sempadan",
+      "condition": "Pengedar hiliran memulakan permohonan pemulangan selepas tempoh penyelesaian akaun telah tamat",
+      "result": "Komisen mesti ditolak dalam kitaran pengebilan seterusnya sebelum memproses perbezaan bayaran balik",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-019",
+      "scenario": "Proses pemulangan bagi penghantaran dari gudang berikat (Bonded Warehouse)",
+      "condition": "Barangan yang dihantar dari gudang berikat dipulangkan oleh pembeli dalam keadaan telah dibuka",
+      "result": "Barangan mesti kembali ke gudang berikat yang ditetapkan; bayaran balik diproses selepas pembatalan cukai",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-020",
+      "scenario": "Peraturan pemulangan pensampelan bagi pesanan perdagangan pukal",
+      "condition": "Item cacat dalam pembelian kumpulan besar didapati melebihi ambang 5% yang dipersetujui",
+      "result": "Bayaran balik sebahagian bagi kumpulan tersebut atau penggantian percuma bagi bahagian yang cacat disokong",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-021",
+      "scenario": "Sekatan ke atas laluan pembayaran balik dana pelanggan",
+      "condition": "Semua permohonan bayaran balik telah diluluskan dan dana sedia untuk pembayaran keluar",
+      "result": "Bayaran balik mesti kembali ke akaun pembayaran asal; menukar ke akaun pihak ketiga tidak dibenarkan",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-022",
+      "scenario": "Bayaran balik dimulakan disebabkan penjejakan logistik palsu",
+      "condition": "Nombor penjejakan yang diberikan oleh penjual tidak menunjukkan rekod pengambilan dalam tempoh 7 hari bekerja",
+      "result": "Pembeli berhak mengisytiharkan penghantaran palsu dan sistem akan mengeluarkan bayaran balik penuh",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-023",
+      "scenario": "Keperluan aksesori tambahan semasa proses pemulangan barang",
+      "condition": "Produk yang dipulangkan merangkumi manual, kabel, kad waranti atau aksesori lain",
+      "result": "Aksesori yang hilang akan mengakibatkan penolakan kos; sila pastikan semua item dikembalikan lengkap",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-024",
+      "scenario": "Peraturan penolakan bagi barangan mel terus luar negara (Direct Mail)",
+      "condition": "Pembeli enggan menandatangani penerimaan bungkusan mel terus tanpa sebarang alasan sah di sisi undang-undang",
+      "result": "Pembeli mesti membayar ganti rugi kos penghantaran dan pelepasan, ditolak terus daripada bayaran balik",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-025",
+      "scenario": "Amaran risiko bagi pemulangan barangan sensitif merentas sempadan",
+      "condition": "Barangan yang mengandungi bateri terbina dalam, cecair atau serbuk dimohon untuk dipulangkan",
+      "result": "Disebabkan peraturan penerbangan, item tersebut tidak boleh dipulangkan; pelupusan tempatan atau pampasan disyorkan",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-026",
+      "scenario": "Peraturan sekatan bayaran balik bagi pesanan pra-jualan (Pre-sale)",
+      "condition": "Pembeli membayar deposit untuk pra-jualan dan ingin bayaran balik sebelum tarikh penghantaran rasmi",
+      "result": "Deposit berfungsi sebagai jaminan kontrak; ia tidak akan dikembalikan melainkan penjual melanggar kontrak",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-027",
+      "scenario": "Permohonan pemulangan disebabkan pelarasan duti kastam",
+      "condition": "Pembeli memohon pemulangan kerana kos meningkat akibat kenaikan cukai sementara di negara destinasi",
+      "result": "Perubahan duti adalah risiko pasaran; ini tidak disokong sebagai alasan sah untuk pemulangan percuma",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-028",
+      "scenario": "Liabiliti kerosakan semasa transit pemulangan barang",
+      "condition": "Barangan rosak semasa perjalanan balik disebabkan pembungkusan yang tidak sempurna oleh pembeli",
+      "result": "Pembeli menanggung risiko transit; penjual boleh menolak bayaran balik selepas menerima barangan yang rosak",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-029",
+      "scenario": "Pengendalian pulangan disebabkan kegagalan pengambilan jangka panjang",
+      "condition": "Bungkusan berada di pusat pengambilan melebihi 15 hari dan dipaksa balik ke gudang luar negara",
+      "result": "Dianggap sebagai pengabaian barang; kos penghantaran sekunder akan ditolak daripada jumlah bayaran balik",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-030",
+      "scenario": "Gangguan pemulangan disebabkan peristiwa 'force majeure'",
+      "condition": "Peperangan, bencana alam atau mogok menghalang bungkusan pemulangan dihantar merentas sempadan",
+      "result": "Tarikh akhir pemulangan akan dilanjutkan, atau pelan pampasan alternatif akan dirundingkan",
+      "category": "Polisi Pulangan"
+    },
+    {
+      "rule_id": "RULE-031",
+      "scenario": "Pemilihan kaedah pembayaran bagi pesanan perdagangan besar",
+      "condition": "Pesanan kontrak tunggal melebihi $100,000 dan ia adalah kerjasama pertama antara pihak-pihak",
+      "result": "Penggunaan Surat Kredit Atas Penglihatan (Sight L/C) yang tidak boleh dibatalkan adalah mandatori",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-032",
+      "scenario": "Peraturan penetapan nisbah pembayaran secara berperingkat",
+      "condition": "Perolehan peralatan pengeluaran khas dengan kitaran pengeluaran melebihi 3 bulan",
+      "result": "Mengguna pakai model pembayaran 30% pendahuluan + 40% kemajuan + 30% baki akhir",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-033",
+      "scenario": "Pengelakan risiko bagi turun naik kadar pertukaran mata wang",
+      "condition": "Kontrak dipersetujui dalam USD tetapi kadar pertukaran turun naik lebih daripada 3%",
+      "result": "Mekanisme pampasan dicetuskan untuk membahagikan lebihan kerugian pertukaran antara pembeli dan penjual",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-034",
+      "scenario": "Peraturan liabiliti bagi yuran bank perantara antarabangsa",
+      "condition": "Pemindahan telegraf antarabangsa melalui SWIFT tanpa terma yuran yang dinyatakan dalam kontrak",
+      "result": "Lalai kepada mod SHA (kos dikongsi); yuran bank perantara ditanggung oleh pengirim dana",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-035",
+      "scenario": "Peraturan pengiraan penalti bagi pembayaran lewat tempoh",
+      "condition": "Pembeli gagal menyelesaikan pembayaran dalam tempoh 5 hari bekerja selepas tarikh akhir kontrak",
+      "result": "Penalti harian sebanyak 0.05% daripada jumlah tertunggak dikenakan sehingga dana diterima",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-036",
+      "scenario": "Syarat untuk menukar deposit jaminan kepada pembayaran barang",
+      "condition": "Pembeli telah membayar bon pelaksanaan dan semua barangan telah lulus pemeriksaan ketibaan",
+      "result": "Pembeli boleh memohon untuk menukar bon tersebut terus kepada pembayaran kumpulan barangan terakhir",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-037",
+      "scenario": "Amaran had bagi platform pembayaran pihak ketiga",
+      "condition": "Menggunakan PayPal atau Stripe untuk membayar pesanan tunggal yang melebihi $5,000",
+      "result": "Sistem akan menangguhkan pembayaran dan memerlukan pengesahan nama sebenar dan latar belakang transaksi",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-038",
+      "scenario": "Sekatan skop bagi kaedah Tunai Semasa Penghantaran (COD)",
+      "condition": "Alamat penghantaran berada di kawasan berisiko tinggi atau harga unit produk melebihi $500",
+      "result": "COD tidak disokong; bayaran pendahuluan penuh mesti diselesaikan sebelum penghantaran diatur",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-039",
+      "scenario": "Peraturan akses bagi penyelesaian mata wang tempatan",
+      "condition": "Pembeli Asia Tenggara memohon untuk membayar dalam mata wang tempatan seperti THB atau MYR",
+      "result": "Ditukar berdasarkan kadar masa nyata dengan tambahan surcaj lindung nilai mata wang sebanyak 1%",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-040",
+      "scenario": "Pengendalian percanggahan dalam Surat Kredit (L/C)",
+      "condition": "Audit bank mendapati percanggahan kecil antara Bil Muatan dan keperluan L/C",
+      "result": "Penjual mesti meminda dokumen dalam 3 hari bekerja, jika tidak pembeli boleh menolak penerimaan",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-041",
+      "scenario": "Sekatan pentadbiran ke atas pemulangan bayaran pendahuluan",
+      "condition": "Pembeli membatalkan pesanan selepas membayar deposit dan memohon pemulangan dana",
+      "result": "Kos bahan mentah penjual akan ditolak berserta yuran pentadbiran 5% atas pelanggaran kontrak",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-042",
+      "scenario": "Faedah tempoh kredit bagi rakan kongsi jangka panjang",
+      "condition": "Kerjasama berterusan selama 2 tahun atau lebih dengan volum pesanan tahunan mencecah $500,000",
+      "result": "Layak memohon mod penyelesaian akaun terbuka (OA) 30 hari selepas ketibaan barang",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-043",
+      "scenario": "Pengesahan ketulenan baucar pembayaran bank pembeli",
+      "condition": "Pembeli menghantar imej slip bank melalui e-mel menuntut pengaturan penghantaran segera",
+      "result": "Penghantaran hanya bermula selepas jabatan kewangan mengesahkan ketibaan dana dalam akaun syarikat",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-044",
+      "scenario": "Prasyarat pembayaran bagi perlindungan insurans kredit eksport",
+      "condition": "Pesanan diinsuranskan oleh insurans kredit eksport (contohnya, SINOSURE)",
+      "result": "Pembeli mesti membayar melalui akaun bank yang ditetapkan, jika tidak tuntutan insurans mungkin tidak sah",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-045",
+      "scenario": "Pemantauan pembayaran kecil berbilang yang tidak normal",
+      "condition": "Pelanggan tunggal melakukan lebih daripada 5 pembayaran berasingan untuk pesanan yang sama dalam 24 jam",
+      "result": "Disyaki risiko pengubahan wang haram; sistem akan membekukan akaun untuk audit manual",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-046",
+      "scenario": "Peraturan pembahagian yuran pengendalian semasa bayaran balik",
+      "condition": "Permohonan bayaran balik bagi kesilapan pembayaran yang disebabkan oleh kecuaian pembeli sendiri",
+      "result": "Yuran pemindahan telegraf bank untuk bayaran balik akan ditolak daripada jumlah prinsipal asal",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-047",
+      "scenario": "Sekatan polisi ke atas pembayaran menggunakan mata wang kripto",
+      "condition": "Pembeli bertanya jika pembayaran dalam Bitcoin atau USDT disokong untuk barangan tersebut",
+      "result": "Berdasarkan peraturan kewangan, syarikat melarang keras penerimaan sebarang bentuk mata wang kripto",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-048",
+      "scenario": "Pendiskaunan Surat Kredit Berjangka (Usance L/C)",
+      "condition": "Penjual perlu mendiskaun L/C berjangka 90 hari disebabkan kekangan kecairan tunai",
+      "result": "Faedah pendiskaunan yang timbul ditanggung oleh penjual dan tidak ditambah ke dalam harga keseluruhan",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-049",
+      "scenario": "Keperluan pengesahan keselamatan bagi persekitaran pembayaran",
+      "condition": "Cubaan pembayaran dikesan daripada alamat IP yang tidak patuh atau rangkaian berisiko tinggi",
+      "result": "Pengesahan '3D Secure' akan dicetuskan melalui SMS atau e-mel untuk pengesahan sekunder",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-050",
+      "scenario": "Peraturan pembayaran dalaman bagi transaksi pihak berkaitan",
+      "condition": "Penyelesaian pembayaran antara ibu pejabat dan anak syarikat luar negara bagi tujuan perdagangan",
+      "result": "Melaksanakan mekanisme 'Netting' setiap suku tahun untuk mengurangkan yuran transaksi merentas sempadan",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-051",
+      "scenario": "Amaran tertinggi bagi pertukaran akaun bank pembayaran",
+      "condition": "Penjual menghantar notis pertukaran bank melalui saluran tidak rasmi seperti aplikasi sembang",
+      "result": "Pembeli mesti mengesahkan melalui telefon dan e-mel; pembayaran ke akaun baru adalah dilarang sama sekali",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-052",
+      "scenario": "Pertukaran pembayaran bagi kad kredit berbilang mata wang",
+      "condition": "Pembeli menggunakan kad kredit bukan USD untuk membayar di halaman pembayaran berharga USD",
+      "result": "Kadar pertukaran ditentukan oleh bank pengeluar; pembeli menanggung semua yuran penukaran mata wang",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-053",
+      "scenario": "Saluran khas bagi pembayaran pesanan sampel kecil",
+      "condition": "Pesanan sampel atau kumpulan ujian kecil dengan harga unit di bawah $100",
+      "result": "Mengesyorkan penggunaan Western Union atau pembayaran kad kredit pantas untuk pemprosesan segera",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-054",
+      "scenario": "Peraturan pemindahan hak milik di bawah pembayaran ansuran",
+      "condition": "Kontrak menetapkan empat ansuran dan barangan telah dihantar ke gudang pembeli",
+      "result": "Hak milik barangan kekal pada penjual sehingga ansuran terakhir dibayar sepenuhnya oleh pembeli",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-055",
+      "scenario": "Kelewatan pembayaran disebabkan pemeriksaan pencegahan pengubahan wang haram",
+      "condition": "Bank menjalankan pemeriksaan latar belakang pematuhan rutin ke atas pengirim dana tertentu",
+      "result": "Kedua-dua pihak mesti menyediakan bukti kontrak; kelewatan semasa tempoh ini bukan pelanggaran kontrak",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-056",
+      "scenario": "Pencetusan kutipan pihak ketiga bagi akaun tertunggak",
+      "condition": "Pembeli berhutang pembayaran selama lebih 90 hari tanpa maklum balas berkesan terhadap komunikasi",
+      "result": "Sistem akan memindahkan hutang tersebut secara automatik kepada agensi kutipan antarabangsa pihak ketiga",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-057",
+      "scenario": "Peraturan pemotongan cukai semasa proses pembayaran dilakukan",
+      "condition": "Undang-undang tempatan memerlukan pembeli memotong cukai pegangan (WHT) ke atas yuran perkhidmatan",
+      "result": "Pembeli mesti menyediakan sijil cukai rasmi supaya penjual boleh mengimbangi akaun dalam kewangan",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-058",
+      "scenario": "Tempoh sah bagi dana bayaran pendahuluan barangan",
+      "condition": "Pembeli membayar pendahuluan tetapi gagal mengarahkan penghantaran selama 12 bulan dan tidak dapat dihubungi",
+      "result": "Dana dipindahkan ke akaun tergantung; pengaktifan semula memerlukan bukti identiti pembeli",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-059",
+      "scenario": "Keperluan pengeluaran Surat Kredit Tunggu Sedia (SBLC)",
+      "condition": "Digunakan sebagai jaminan pembayaran bagi kontrak jangka panjang, meliputi nilai dua bulan barangan",
+      "result": "Bank pengeluar mestilah antara 100 bank terbaik dunia atau bank kelas pertama yang diluluskan syarikat",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-060",
+      "scenario": "Pelarasan dinamik skor kredit pelanggan dalam sistem pembayaran",
+      "condition": "Pembeli mempunyai kes mungkir L/C yang serius atau insiden tunggakan pembayaran tanpa sebab",
+      "result": "Sistem menurunkan penarafan kredit ke tahap terendah; semua terma kredit dibatalkan secara kekal",
+      "category": "Peraturan Pembayaran"
+    },
+    {
+      "rule_id": "RULE-061",
+      "scenario": "Pengesahan klasifikasi Kod HS bagi barangan import",
+      "condition": "Atribut produk yang kompleks membawa kepada kod HS yang tidak jelas atau pertikaian pengisytiharan",
+      "result": "Mesti memohon ketetapan awal daripada kastam sebelum pengisytiharan rasmi untuk memastikan pematuhan",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-062",
+      "scenario": "Memohon tarif keutamaan di bawah Perjanjian Perdagangan Bebas (FTA)",
+      "condition": "Asal barangan milik negara anggota dan nilainya melebihi had yang ditetapkan",
+      "result": "Mesti mengemukakan Sijil Tempasal (CO) rasmi yang dikeluarkan oleh badan berkuasa dalam bentuk kertas atau digital",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-063",
+      "scenario": "Kawalan had bagi import runcit e-dagang merentas sempadan",
+      "condition": "Transaksi tunggal melebihi 5,000 RMB atau jumlah tahunan peribadi melebihi 26,000 RMB",
+      "result": "Pesanan tidak boleh dilepaskan di bawah cukai e-dagang; ia mesti ditukar kepada pengisytiharan perdagangan am",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-064",
+      "scenario": "Keperluan kerjasama semasa pemeriksaan fizikal kastam",
+      "condition": "Barangan dipilih secara rawak oleh sistem untuk pemeriksaan fizikal atau penilaian kimia",
+      "result": "Ejen kastam mesti hadir dalam tempoh 24 jam dengan spesifikasi teknikal produk yang terperinci",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-065",
+      "scenario": "Pengisytiharan perlindungan kastam bagi Harta Intelek (IP)",
+      "condition": "Barangan eksport menggunakan tanda dagangan yang berdaftar dengan Pentadbiran Am Kastam",
+      "result": "Keizinan rasmi daripada pemegang hak mesti dikemukakan, jika tidak barangan akan ditahan kastam",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-066",
+      "scenario": "Peraturan kawal selia bagi barangan import dan eksport sementara",
+      "condition": "Barangan untuk pameran atau penyelidikan mesti dieksport semula dalam keadaan asal dalam masa 6 bulan",
+      "result": "Margin cukai penuh mesti dibayar kepada kastam dan prosedur pengesahan diselesaikan tepat pada masanya",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-067",
+      "scenario": "Pengenaan duti Anti-lambakan dan Duti Balas (Countervailing)",
+      "condition": "Produk import berada dalam senarai anti-lambakan daripada negara asal yang khusus",
+      "result": "Selain duti biasa, sistem akan mengira dan mengenakan cukai anti-lambakan pada kadar tertentu secara automatik",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-068",
+      "scenario": "Peraturan sekatan bagi produk elektromekanikal terpakai",
+      "condition": "Produk berada dalam direktori kebangsaan bagi import elektromekanikal terpakai yang dilarang",
+      "result": "Kastam akan menolak pengisytiharan dan mengarahkan perusahaan untuk menghantar balik barangan tersebut",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-069",
+      "scenario": "Permohonan permit kuarantin bagi produk tumbuhan dan haiwan",
+      "condition": "Mengimport produk pertanian yang tidak berada dalam senarai larangan kemasukan tetapi memerlukan pemeriksaan",
+      "result": "Permit Kuarantin Haiwan dan Tumbuhan Kemasukan mesti diperoleh sebelum menandatangani kontrak pembelian",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-070",
+      "scenario": "Kelewatan pengisytiharan disebabkan kegagalan sistem kastam",
+      "condition": "Sistem Pentadbiran Am Kastam terhenti secara tiba-tiba menghalang penyerahan data elektronik",
+      "result": "Hubungi kastam pelabuhan untuk memulakan pelan luar jangka bagi mod manual atau pemprosesan luar talian",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-071",
+      "scenario": "Peraturan klasifikasi bagi penghantaran ekspres nilai rendah",
+      "condition": "Nilai bungkusan adalah di bawah 50 RMB dan tidak melibatkan barangan kawalan lesen",
+      "result": "Boleh diisytiharkan sebagai ekspres Kategori C untuk pemprosesan ringkas dan pengecualian duti",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-072",
+      "scenario": "Peraturan pengesahan bagi senarai suntikan nuklear berikat",
+      "condition": "Perusahaan perdagangan pemprosesan mengeksport produk siap dan perlu mengesahkan bahan mentah",
+      "result": "Mesti memastikan nombor item produk siap sepadan dengan senarai pemfailan tepat untuk pengesahan",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-073",
+      "scenario": "Semakan kelayakan bagi pengisytiharan barangan berbahaya",
+      "condition": "Barangan eksport adalah bahan kimia mudah terbakar atau meletup dalam direktori terhad",
+      "result": "Mesti menyediakan 'Senarai Keputusan Pemeriksaan Pembungkusan Barangan Keluar' dan pemfailan berbahaya",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-074",
+      "scenario": "Permohonan polisi pendedahan kendiri (Self-disclosure) Kastam",
+      "condition": "Perusahaan mendapati kurang bayar cukai dalam pengisytiharan lalu dan melaporkan secara bertulis",
+      "result": "Boleh dikecualikan daripada yuran lewat dan liabiliti pentadbiran selepas pengiktirafan kastam",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-075",
+      "scenario": "Audit ketulenan harga yang diisytiharkan bagi barangan import/eksport",
+      "condition": "Kastam menganggap harga yang diisytiharkan jauh lebih rendah daripada purata pasaran antarabangsa",
+      "result": "Perusahaan mesti menyediakan komposisi harga, invois dan bukti pembayaran dalam masa 10 hari bekerja",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-076",
+      "scenario": "Keperluan kawal selia bagi barangan perdagangan transit",
+      "condition": "Barangan transit melalui China ke negara ketiga tanpa memasuki edaran domestik",
+      "result": "Mesti masuk/keluar melalui pelabuhan yang ditetapkan dan dipantau melalui GPS atau meterai kastam",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-077",
+      "scenario": "Peraturan sekatan penggunaan bagi Karnet ATA",
+      "condition": "Peralatan profesional menggunakan Karnet ATA untuk pengisytiharan import sementara",
+      "result": "Peralatan tidak boleh disewa atau dijual secara tempatan dan mesti dieksport semula dalam tempoh sah",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-078",
+      "scenario": "Pelaporan dan pembayaran cukai bagi royalti barangan",
+      "condition": "Pembeli membayar royalti kepada penjual yang berkaitan dengan barangan dan sebagai syarat jualan",
+      "result": "Royalti mesti dimasukkan ke dalam nilai duti import untuk pembayaran duti kastam yang betul",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-079",
+      "scenario": "Kawalan ketat ke atas bahan buangan import (Foreign Garbage)",
+      "condition": "Barangan yang diisytiharkan milik katalog 'sampah asing' yang dilarang oleh negara",
+      "result": "Kes akan dikendalikan oleh jabatan anti-penyeludupan; pengimport menanggung semua kos pemulangan",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-080",
+      "scenario": "Faedah kemudahan bagi Perusahaan Bertauliah Lanjutan AEO",
+      "condition": "Perusahaan telah memperoleh Pensijilan Lanjutan AEO dengan rekod kredit yang baik",
+      "result": "Menikmati kadar pemeriksaan yang sangat rendah, pelepasan keutamaan dan faedah pengiktirafan bersama",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-081",
+      "scenario": "Peraturan pengurangan cukai bagi barangan yang dipulangkan",
+      "condition": "Barangan dipulangkan kerana masalah kualiti dan diimport semula dalam keadaan asal dalam tempoh setahun",
+      "result": "Boleh memohon pengecualian duti import dengan dokumen eksport asal dan bukti pemulangan barang",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-082",
+      "scenario": "Masa pelaporan mandatori bagi barangan import dan eksport",
+      "condition": "Barangan import tidak diisytiharkan kepada kastam dalam tempoh 14 hari selepas ketibaan pengangkut",
+      "result": "Kastam akan mengenakan yuran pengisytiharan lewat sebanyak 0.05% daripada jumlah nilai setiap hari",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-083",
+      "scenario": "Peraturan pewasapan (fumigation) bagi bahan pembungkusan kayu",
+      "condition": "Pembungkusan import mengandungi kayu padu tanpa tanda IPPC yang diperlukan",
+      "result": "Kastam akan mengarahkan pewasapan mandatori atau pemusnahan atas perbelanjaan pengimport sendiri",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-084",
+      "scenario": "Peraturan pindaan bagi pengisytiharan rebat cukai eksport",
+      "condition": "Ralat input membawa kepada percanggahan antara jumlah eksport yang diisytihar dan jumlah penyelesaian",
+      "result": "Mesti mengemukakan slip penyelesaian dan penjelasan kepada kastam pelabuhan untuk kelulusan pindaan",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-085",
+      "scenario": "Polisi bagi barangan domestik yang memasuki Taman Logistik Berikat",
+      "condition": "Barangan domestik memasuki taman logistik untuk pengedaran eksport atau transit antarabangsa",
+      "result": "Kemasukan dianggap sebagai eksport; perusahaan boleh memohon rebat cukai awal dengan bil kemasukan",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-086",
+      "scenario": "Peraturan kawal selia kastam bagi hadiah dan sampel komersial",
+      "condition": "Hadiah percuma yang dihantar bersama barangan pukal atau sampel untuk promosi pasaran",
+      "result": "Mesti diisytiharkan pada nilai sebenar walaupun tiada tukaran asing diterima, ditanda 'Hadiah/Sampel'",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-087",
+      "scenario": "Akses pematuhan bagi peranti perubatan yang diimport",
+      "condition": "Produk berada di bawah skop Peraturan mengenai Penyeliaan Peranti Perubatan",
+      "result": "Sijil Pendaftaran Peranti Perubatan yang sah mesti disediakan untuk pelepasan kastam",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-088",
+      "scenario": "Penyeliaan transit bagi barangan pengangkutan pelbagai mod",
+      "condition": "Barangan dipunggah di pelabuhan dan dipindah melalui rel/jalan ke kastam pedalaman untuk pelepasan",
+      "result": "Mesti mengendalikan pengisytiharan transit; kenderaan mesti mempunyai kelayakan pengangkutan kastam",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-089",
+      "scenario": "Audit lesen kebersihan bagi kosmetik yang diimport",
+      "condition": "Import kali pertama bagi kosmetik kegunaan bukan khas atau kegunaan khas",
+      "result": "Mesti mengemukakan sijil pemfailan atau nombor kelulusan yang dikeluarkan oleh jabatan ubat-ubatan",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-090",
+      "scenario": "Peraturan import bagi barangan diuruskan Kuota Kadar Tarif (TRQ)",
+      "condition": "Mengimport produk pertanian seperti gandum atau jagung yang diuruskan oleh kuota",
+      "result": "Mesti mengemukakan sijil TRQ untuk kadar rendah; import luar kuota akan menghadapi tarif tinggi",
+      "category": "Peraturan Kastam"
+    },
+    {
+      "rule_id": "RULE-091",
+      "scenario": "Pengenalpastian dan pembungkusan barangan berbahaya dalam transit",
+      "condition": "Barangan termasuk bateri litium, gas termampat atau bahan kimia mudah terbakar",
+      "result": "Mesti menggunakan pembungkusan berbahaya standard antarabangsa dengan label klasifikasi yang jelas",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-092",
+      "scenario": "Pembahagian kewajipan insurans pengangkutan barang antarabangsa",
+      "condition": "Kontrak perdagangan dimeterai di bawah terma CIF (Kos, Insurans dan Tambang)",
+      "result": "Penjual mesti mengatur insurans dan membayar premium, dengan perlindungan pada 110% nilai invois",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-093",
+      "scenario": "Peraturan pengiraan berat boleh caj (chargeable weight) dalam kargo udara",
+      "condition": "Berat volumetrik (P×L×T/6000) barangan melebihi berat fizikal sebenar barangan tersebut",
+      "result": "Syarikat penerbangan akan menggunakan berat volumetrik sebagai asas pengebilan kos tambang",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-094",
+      "scenario": "Pengiraan caj 'demurrage' kontena dalam pengangkutan laut",
+      "condition": "Kontena kekal di pelabuhan destinasi melebihi tempoh percuma (biasanya 7 hari)",
+      "result": "Penerima barangan mesti membayar yuran harian antara $50 hingga $100 bagi setiap kontena",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-095",
+      "scenario": "Peraturan pemantauan suhu bagi barangan rantaian sejuk (cold chain)",
+      "condition": "Membawa makanan segar atau vaksin dengan keperluan suhu persekitaran yang ketat",
+      "result": "Mesti menggunakan perakam suhu dan membaca data semasa penerimaan sebagai asas penerimaan barang",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-096",
+      "scenario": "Masa kemasukan gudang bagi muatan kurang daripada kontena (LCL)",
+      "condition": "Penghantaran kecil daripada pelbagai pengirim dihantar ke CFS sebelum tarikh akhir",
+      "result": "Penghantaran lewat akan mengakibatkan kegagalan memuatkan kapal dan yuran penjadualan semula",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-097",
+      "scenario": "Penyelarasan masa nyata status logistik merentas sempadan",
+      "condition": "Sistem penghantar mengesan perubahan status bungkusan seperti berlepas atau tiba",
+      "result": "Mesti menyelaraskan kemas kini logistik ke platform e-dagang melalui API dalam masa 2 jam",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-098",
+      "scenario": "Pengaturan pengangkutan khas bagi barangan bersaiz besar/berat",
+      "condition": "Item tunggal melebihi 12 meter panjang atau 30 tan berat fizikal",
+      "result": "Memohon kontena rak rata atau trak angkat berat 15 hari lebih awal dengan surcaj tambahan",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-099",
+      "scenario": "Standard pengukuhan dan perlindungan bagi pembungkusan logistik",
+      "condition": "Membawa instrumen rapuh atau bernilai tinggi pada jarak melebihi 3,000 km",
+      "result": "Mesti menggunakan palet kayu dan pelindung sudut, dibungkus dalam sekurang-kurangnya lima lapisan filem",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-100",
+      "scenario": "Pengendalian ralat pengambilan barang di gudang luar negara",
+      "condition": "Kakitangan gudang mengeluarkan item salah disebabkan ralat imbasan atau ralat arahan",
+      "result": "Penyedia gudang menanggung semua kos penghantaran sekunder dan membayar pampasan kelewatan kepada pelanggan",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-101",
+      "scenario": "Pembahagian tanggungjawab bagi pengangkutan pelbagai mod antarabangsa",
+      "condition": "Barangan rosak atau terjejas oleh kelembapan semasa peralihan dari laut ke kereta api",
+      "result": "Pengendali pengangkutan pelbagai mod membayar pampasan kepada pemilik kargo terlebih dahulu sebelum menuntut pengangkut",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-102",
+      "scenario": "Peraturan pengesahan tandatangan untuk penghantaran ekspres batuan terakhir",
+      "condition": "Nilai bungkusan melebihi $200 atau mengandungi dokumen kontrak komersial yang sensitif",
+      "result": "Penerima mesti menunjukkan ID dan memberikan tandatangan bertulis; penghantaran ke pusat pungutan dilarang",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-103",
+      "scenario": "Keperluan dokumen pelepasan kastam yang mesti mengiringi kargo",
+      "condition": "Barangan dihantar ke negara dengan peraturan kastam yang ketat seperti Brazil atau India",
+      "result": "Invois asal, senarai pembungkusan dan nombor ID cukai tempatan mesti dilampirkan secara fizikal pada barang",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-104",
+      "scenario": "Pengendalian kerosakan kargo disebabkan force majeure semasa transit",
+      "condition": "Kapal kargo menghadapi taufan ekstrem di laut terbuka yang mengakibatkan kehilangan kontena",
+      "result": "Prinsip 'General Average' terpakai; kerugian dikongsi oleh pemilik kapal, pemilik kargo dan penanggung insurans",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-105",
+      "scenario": "Penilaian Perjanjian Tahap Perkhidmatan (SLA) bagi penyedia logistik",
+      "condition": "Kadar penghantaran tepat pada masa bagi penyedia logistik jatuh di bawah 95% yang dipersetujui",
+      "result": "Sistem mengurangkan peruntukan pesanan secara automatik dan mencetuskan penalti mengikut kontrak",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-106",
+      "scenario": "Pelan kecemasan bagi penukaran kargo udara ke kargo laut",
+      "condition": "Surcaj bahan api udara melonjak naik menyebabkan kos pengangkutan udara melebihi had bajet",
+      "result": "Tukar ke pengangkutan laut pantas dengan persetujuan pembeli, dan penjual memulangkan perbezaan tambang",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-107",
+      "scenario": "Cubaan penghantaran kedua bagi bungkusan logistik yang tidak normal",
+      "condition": "Penghantaran pertama gagal disebabkan alamat penerima salah atau telefon tidak dapat dihubungi",
+      "result": "Syarikat logistik mesti mencuba sekurang-kurangnya dua lagi penghantaran percuma dalam 3 hari bekerja",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-108",
+      "scenario": "Keperluan mandatori bagi penggunaan palet untuk barangan perdagangan",
+      "condition": "Barangan dihantar ke gudang Amazon FBA atau pusat pengedaran multinasional yang besar",
+      "result": "Item mesti diletakkan di atas palet kayu patuh ISPM 15 dengan ketinggian tidak melebihi 1.8 meter",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-109",
+      "scenario": "Surcaj kawasan pedalaman dalam logistik merentas sempadan",
+      "condition": "Alamat penghantaran berada di kawasan gunung, pulau atau wilayah tanpa kemudahan ekspres tetap",
+      "result": "Pembeli mesti membayar surcaj kawasan pedalaman tambahan semasa pembayaran untuk menjana nota konsainan",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-110",
+      "scenario": "Peraturan tanda penghantaran antarabangsa pada pembungkusan luar",
+      "condition": "Barangan perdagangan pukal memasuki kawasan terminal untuk pemuatan atau transit melalui pelabuhan",
+      "result": "Pembungkusan mesti mempunyai tanda yang jelas termasuk destinasi, nombor kotak, berat dan ID pesanan",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-111",
+      "scenario": "Penentuan masa bungkusan hilang dalam rantaian bekalan logistik",
+      "condition": "Bungkusan tidak menunjukkan sebarang kemas kini status selama lebih 20 hari kalendar berturut-turut",
+      "result": "Pengirim boleh memfailkan tuntutan bungkusan hilang secara rasmi dan memasuki proses tuntutan insurans",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-112",
+      "scenario": "Peraturan pengebilan bulanan berbanding bayaran pendahuluan kos logistik",
+      "condition": "Syarikat perdagangan jangka panjang dengan volum penghantaran stabil melebihi 1,000 bungkusan sebulan",
+      "result": "Syarikat boleh memohon pengebilan bulanan untuk mengurangkan tekanan kecairan pada dana operasi",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-113",
+      "scenario": "Pemilihan dan jaminan liabiliti bagi ejen logistik pihak ketiga",
+      "condition": "Melantik penghantar kargo bukan milik syarikat untuk perkhidmatan pengangkutan pelbagai mod",
+      "result": "Mesti mengesahkan kelayakan Kelas A penghantar kargo dan polisi insurans liabiliti mereka yang sah",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-114",
+      "scenario": "Masa kemasukan pelabuhan dan pemuatan bagi barangan eksport",
+      "condition": "Barangan mesti memasuki terminal sebelum waktu penutupan yang dijadualkan oleh syarikat perkapalan",
+      "result": "Kegagalan menepati masa mengakibatkan tertinggal kapal dan kos penyimpanan atau penjadualan semula",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-115",
+      "scenario": "Penyeliaan pengangkutan kereta api antarabangsa (Laluan China-Eropah)",
+      "condition": "Barangan diangkut melalui rel melalui pelbagai negara transit merentas sempadan",
+      "result": "Mesti mematuhi keperluan nota konsainan rel CIM dan melarang keras bahan bermagnet",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-116",
+      "scenario": "Yuran penyimpanan tambahan yang timbul semasa proses logistik",
+      "condition": "Barangan terkandas di gudang luar negara kerana pembeli gagal mendapatkan permit import",
+      "result": "Selepas tempoh percuma 3 hari, pembeli membayar $5 bagi setiap meter padu sehari untuk penyimpanan",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-117",
+      "scenario": "Peraturan penghantaran dokumen logistik seperti Bil Muatan asal",
+      "condition": "Pembayaran telah diselesaikan dan penjual telah memperoleh Bil Muatan asal daripada pengangkut",
+      "result": "Penjual mesti mengepos dokumen asal kepada pembeli melalui ekspres antarabangsa dalam masa 2 hari",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-118",
+      "scenario": "Mekanisme maklum balas bagi aduan dan cadangan logistik pelanggan",
+      "condition": "Pelanggan memfailkan aduan rasmi mengenai sikap kakitangan atau kelewatan pengangkutan",
+      "result": "Pasukan perkhidmatan pelanggan mesti menyiasat dalam masa 12 jam dan memberi penyelesaian dalam 48 jam",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-119",
+      "scenario": "Lencongan pengangkutan disebabkan peperangan dalam penghantaran merentas sempadan",
+      "condition": "Laluan asal melalui negara yang mengalami peperangan atau konflik bersenjata secara tiba-tiba",
+      "result": "Pengangkut boleh melencong untuk memastikan keselamatan; kos tambahan dikongsi oleh pemilik kargo",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-120",
+      "scenario": "Peraturan statistik bagi data pelepasan karbon rantaian logistik",
+      "condition": "Syarikat perlu menjejaki jejak karbon logistik rantaian penuh untuk pematuhan hijau",
+      "result": "Penyedia logistik mesti menyediakan laporan bulanan mengenai perbatuan dan pelepasan CO2 yang standard",
+      "category": "Peraturan Logistik"
+    },
+    {
+      "rule_id": "RULE-121",
+      "scenario": "Had pesanan untuk pelanggan baru tanpa semakan latar belakang",
+      "condition": "Pelanggan membeli secara pukal buat kali pertama tanpa siasatan kredit yang mendalam",
+      "result": "Had maksimum untuk pesanan pertama ialah $10,000; sebarang lebihan memerlukan bayaran pendahuluan penuh",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-122",
+      "scenario": "Amaran untuk pesanan dari negara dan wilayah berisiko tinggi",
+      "condition": "Alamat penghantaran atau bank pembayar berada di wilayah di bawah sekatan atau pergolakan politik",
+      "result": "Sistem menyekat pesanan secara automatik untuk semakan pematuhan manual oleh pasukan risiko",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-123",
+      "scenario": "Mekanisme penurunan taraf dinamik bagi penarafan kredit pelanggan",
+      "condition": "Pelanggan mengalami lebih daripada dua insiden tunggakan pembayaran berniat jahat dalam satu suku tahun",
+      "result": "Sistem menurunkan penarafan ke Gred D, membatalkan terma kredit dan memerlukan tunai semasa penghantaran",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-124",
+      "scenario": "Pengenalpastian penipuan untuk pembayaran kad kredit dalam talian yang besar",
+      "condition": "Nombor kad yang sama mencuba pelbagai pembayaran dengan jumlah berbeza dalam tempoh singkat",
+      "result": "Model anti-penipuan dicetuskan; sistem membekukan fungsi pembayaran kad tersebut dengan serta-merta",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-125",
+      "scenario": "Pemantauan pindahan faedah tidak normal dalam transaksi pihak berkaitan",
+      "condition": "Harga transaksi menyimpang daripada nilai pasaran saksama dan pihak mempunyai hubungan ekuiti",
+      "result": "Transaksi ditandakan sebagai tidak normal; laporan audit bebas diperlukan untuk penjelasan lanjut",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-126",
+      "scenario": "Peraturan perlindungan bagi Insurans Kredit Eksport (SINOSURE)",
+      "condition": "Jumlah baki tertunggak bagi pelanggan tunggal melebihi had kredit yang diluluskan bank",
+      "result": "Jabatan risiko menghentikan penghantaran lanjut sehingga akaun lama diselesaikan untuk melepaskan had",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-127",
+      "scenario": "Peraturan pengesahan berhemat tahunan bagi kelayakan pembekal",
+      "condition": "Pembekal jangka panjang didapati mempunyai lesen perniagaan yang tamat tempoh semasa semakan",
+      "result": "Berhenti menandatangani sebarang kontrak baru serta-merta dan lakukan pelikuidasian risiko pesanan terbuka",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-128",
+      "scenario": "Pemantauan Anti-Pengubahan Wang Haram (AML) dalam kiriman wang antarabangsa",
+      "condition": "Kiriman wang besar diterima dan nama pembayar tidak sepadan dengan pembeli kontrak",
+      "result": "Kewangan menggantung dana; pembeli mesti menyediakan perjanjian pembayaran sah dan dokumen ID",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-129",
+      "scenario": "Amaran risiko kemerosotan bagi kadar pusing ganti inventori yang rendah",
+      "condition": "Barangan elektronik di gudang berikat telah disimpan selama lebih daripada 180 hari kalendar",
+      "result": "Cetuskan proses rizab penurunan harga; jualan mesti membuat pelan penjelasan dalam had masa",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-130",
+      "scenario": "Risiko kesinambungan perniagaan disebabkan peletakan jawatan pengurusan teras",
+      "condition": "Pengarah jualan luar negara yang memegang sumber pelanggan teras meletak jawatan tanpa serahan rasmi",
+      "result": "Pasukan risiko mesti menghubungi pelanggan terjejas dalam masa 24 jam untuk mengesahkan niat kontrak",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-131",
+      "scenario": "Penilaian keselamatan cawangan luar negara semasa pergolakan politik",
+      "condition": "Lokasi cawangan mengalami pergolakan sosial yang serius atau perubahan polisi tempatan secara tiba-tiba",
+      "result": "Aktifkan tindak balas Tahap 1; gantung dagangan fizikal tempatan dan utamakan pemindahan kakitangan",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-132",
+      "scenario": "Peraturan penggunaan laporan kredit daripada agensi pihak ketiga",
+      "condition": "Menjalankan semakan latar belakang rakan kongsi strategik dengan kontrak melebihi $500,000",
+      "result": "Mesti membeli laporan kredit komprehensif daripada agensi seperti D&B sebagai rujukan keputusan",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-133",
+      "scenario": "Peraturan pembekuan transaksi disebabkan oleh litigasi undang-undang",
+      "condition": "Rakan kongsi sedang di bawah siasatan kehakiman kerana disyaki penipuan besar atau muflis",
+      "result": "Masuk ke mod pengasingan risiko; hentikan semua pindahan dana dan tindakan penghantaran serta-merta",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-134",
+      "scenario": "Logik penapisan awal bagi pertanyaan perniagaan palsu",
+      "condition": "E-mel pertanyaan tidak mempunyai nama syarikat, nombor telefon atau parameter produk yang khusus",
+      "result": "Sistem memindahkan maklumat tersebut ke kumpulan 'Untuk Disahkan'; ia tidak dikira sebagai petunjuk rasmi",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-135",
+      "scenario": "Pencegahan kebocoran bagi data sensitif syarikat bernilai tinggi",
+      "condition": "Pekerja dalaman menghantar senarai harga teras melalui e-mel luar dalam persekitaran tidak sah",
+      "result": "Sistem DLP menyekat e-mel secara automatik dan merekodkan pelanggaran untuk penyelarasan HR",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-136",
+      "scenario": "Had keizinan transaksi bagi alat lindung nilai mata wang",
+      "condition": "Kakitangan kewangan melakukan operasi kunci hadapan pertukaran asing tunggal",
+      "result": "Operasi melebihi $2 juta mesti diluluskan secara bersama oleh CFO dan Lembaga Pengarah",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-137",
+      "scenario": "Peraturan pengenalpastian penipuan untuk model 'Drop-shipping'",
+      "condition": "Volum besar akaun pembeli berbeza menghantar barang ke kediaman peribadi luar negara yang sama",
+      "result": "Ditentukan sebagai potensi penipuan kad atau tingkah laku 'brushing'; sistem membatalkan pesanan",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-138",
+      "scenario": "Gangguan rantaian bekalan disebabkan kemalangan alam sekitar yang besar",
+      "condition": "Pengilang komponen teras diarahkan berhenti pengeluaran tanpa had atas pelanggaran alam sekitar",
+      "result": "Jabatan risiko mesti mengaktifkan pembekal sandaran dalam masa 3 hari dan melaras jangkaan",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-139",
+      "scenario": "Keperluan usaha wajar kewangan dalam projek M&A luar negara",
+      "condition": "Syarikat berhasrat untuk melabur dalam pegangan majoriti rakan dagang luar negara",
+      "result": "Mesti melantik agensi pihak ketiga untuk audit kewangan dan undang-undang mendalam selama 2 bulan",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-140",
+      "scenario": "Pertahanan risiko penipuan bagi model 'Bayaran Pendahuluan' dengan pembekal",
+      "condition": "Pembekal meminta kenaikan nisbah bayaran pendahuluan daripada 30% ke 80% kerana isu modal",
+      "result": "Pembayaran terus dilarang; pembekal mesti menyediakan jaminan bank bagi jumlah yang sama",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-141",
+      "scenario": "Pengasingan risiko disebabkan operasi pekerja yang tidak patuh",
+      "condition": "Akaun pengendali cuba memasukkan kata laluan transaksi sensitif salah dari lokasi jauh",
+      "result": "Sistem menyekat semua keizinan akaun serta-merta dan memerlukan pengesahan luar talian",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-142",
+      "scenario": "Pemantauan anomali trafik semasa cuti perayaan utama",
+      "condition": "Volum transaksi melonjak ke 5 kali purata harian semasa Tahun Baru Cina atau Black Friday",
+      "result": "Cetuskan peluasan pelayan dan naik taraf tahap risiko; pesanan risiko sederhana ke audit manual",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-143",
+      "scenario": "Mitigasi risiko untuk 'Kredit Pembeli' dalam perdagangan besar",
+      "condition": "Menyediakan sokongan pembiayaan kepada pembeli melalui institusi kewangan pihak ketiga",
+      "result": "Pembeli mesti menggunakan aset tetap teras atau deposit bank sebagai cagaran kontrak gadai janji",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-144",
+      "scenario": "Penilaian risiko penguatkuasaan bagi anugerah arbitras antarabangsa",
+      "condition": "Undang-undang tempat arbitras yang dipersetujui bercanggah dengan undang-undang tempat pelaksanaan",
+      "result": "Jabatan undang-undang mesti menilai semula terma; cadangkan tukar ke bidang kuasa berkecuali",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-145",
+      "scenario": "Peraturan penggantungan perniagaan disebabkan serangan keselamatan siber",
+      "condition": "Sistem ERP teras mengalami serangan 'ransomware' besar menyebabkan data disulitkan",
+      "result": "Putuskan semua sambungan rangkaian, mulakan pemulihan data luar talian dan lapor kepada polis siber",
+      "category": "Peraturan Kawalan Risiko"
+    },
+    {
+      "rule_id": "RULE-146",
+      "scenario": "Penapisan pematuhan bagi Senarai Entiti dan pihak yang disekat",
+      "condition": "Pelanggan berpotensi ditemui dalam senarai entiti terhad AS atau EU semasa pendaftaran",
+      "result": "Jabatan pematuhan undang-undang akan mengharamkan transaksi untuk mengelakkan lencongan haram",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-147",
+      "scenario": "Pengisytiharan eksport bagi Item Dwi-guna (awam dan tentera)",
+      "condition": "Barangan eksport boleh digunakan dalam senario awam dan juga aplikasi ketenteraan atau nuklear",
+      "result": "Mesti memohon lesen eksport item dwi-guna dan mengemukakan Akujanji Pengguna Akhir (EUU)",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-148",
+      "scenario": "Keperluan untuk audit Anti-rasuah dan pematuhan (FCPA)",
+      "condition": "Menandatangani kontrak dengan ejen luar negara melibatkan perniagaan dengan agensi kerajaan",
+      "result": "Ejen mesti menandatangani kenyataan pematuhan berjanji tiada komisen atau sogokan haram",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-149",
+      "scenario": "Peraturan perlindungan pematuhan bagi pemindahan data merentas sempadan",
+      "condition": "Memindahkan pangkalan data yang mengandungi maklumat sensitif pelanggan ke pusat R&D luar negara",
+      "result": "Mesti melakukan penilaian keselamatan eksport data dan dapatkan kelulusan kawal selia rasmi dahulu",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-150",
+      "scenario": "Sekatan perolehan bagi Mineral Konflik dari zon perang",
+      "condition": "Bahan mentah termasuk timah, tantalum, tungsten, atau emas dari wilayah perlombongan zon perang",
+      "result": "Pembekal mesti menyediakan laporan bukti sumber bahawa mereka tidak membiayai kumpulan bersenjata",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-151",
+      "scenario": "Semakan telus pengguna akhir dan tujuan penggunaan barangan",
+      "condition": "Menjual instrumen ketepatan kepada pelanggan baru luar negara dalam industri bukan tradisional",
+      "result": "Lakukan usaha wajar untuk mengesahkan identiti dan pastikan produk tidak dijual kepada pihak sekatan",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-152",
+      "scenario": "Audit pematuhan undang-undang tempatan untuk bahasa pengiklanan",
+      "condition": "Poster pemasaran e-dagang dan teks promo untuk pasaran Asia Tenggara",
+      "result": "Mesti disemak oleh peguam tempatan untuk mengelakkan kata sensitif agama atau tuntutan palsu",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-153",
+      "scenario": "Pematuhan harga pindahan di bawah perjanjian anti-pengelakan cukai",
+      "condition": "Penetapan harga untuk transaksi antara anak syarikat merentas sempadan memerlukan audit tahunan",
+      "result": "Dokumentasi harga pindahan terperinci mesti disediakan untuk audit rawak pihak berkuasa cukai",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-154",
+      "scenario": "Pemantauan dan pematuhan bagi zon embargo perdagangan antarabangsa",
+      "condition": "PBB mengumumkan sekatan tenaga atau senjata yang komprehensif ke atas negara tertentu",
+      "result": "Kemas kini senarai hitam dalam masa 1 jam dan potong semua transaksi dalam talian dengan negara itu",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-155",
+      "scenario": "Kecekapan tenaga dan pensijilan alam sekitar untuk eksport",
+      "condition": "Menjual perkakas rumah ke pasaran EU yang memerlukan penandaan CE atau ERP",
+      "result": "Mesti lulus ujian RoHS/WEEE dan pastikan sijil adalah sah serta boleh dijejaki dalam sistem",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-156",
+      "scenario": "Ketelusan hubungan latar belakang bagi perantara perdagangan",
+      "condition": "Menandatangani kontrak pembelian pukal melalui syarikat luar pesisir dengan aliran dana legap",
+      "result": "Tuntut pendedahan Pemilik Benar Terakhir (UBO) atau tiada perniagaan akan dijalankan",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-157",
+      "scenario": "Standard pematuhan untuk penandaan Negara Asal pada barangan eksport",
+      "condition": "Barangan eksport memerlukan maklumat 'Made in China' atau asal yang serupa pada pembungkusan",
+      "result": "Penandaan mesti jelas, kekal, dan tidak mengelirukan; jika tidak ia adalah pengisytiharan palsu",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-158",
+      "scenario": "Peraturan audit pematuhan Tanggungjawab Sosial Korporat (CSR)",
+      "condition": "Memohon untuk menyertai rantaian bekalan global jenama multinasional besar sebagai pembekal",
+      "result": "Mesti lulus audit pihak ketiga untuk hak buruh, keselamatan alam sekitar, dan kesihatan pekerjaan",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-159",
+      "scenario": "Pengurusan eksport perisian teknologi sensitif dan kod sumber",
+      "condition": "Kod sumber teknologi teras perlu dihantar kepada pekerja asing untuk sokongan selepas jualan",
+      "result": "Semakan eksport teknikal diperlukan; fail mesti disulitkan dan dinyahsensitifikasikan jika perlu",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-160",
+      "scenario": "Pengenalpastian tingkah laku 'Wash-trade' untuk risiko pematuhan",
+      "condition": "Barangan dari negara sekatan dibungkus semula di pelabuhan transit dengan dokumen asal palsu",
+      "result": "Sekiranya dikesan, jabatan pematuhan akan menamatkan kerjasama dan melapor kepada pengawal selia",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-161",
+      "scenario": "Masa pematuhan untuk pengesahan pertukaran asing bagi eksport",
+      "condition": "Syarikat gagal menyelesaikan kutipan pertukaran asing dalam had masa selepas eksport",
+      "result": "Terangkan sebab kepada SAFE dan mohon pelanjutan, jika tidak penarafan syarikat jatuh ke B",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-162",
+      "scenario": "Pematuhan bagi bantuan antarabangsa melibatkan bekalan perubatan khas",
+      "condition": "Kerajaan atau NGO menugaskan syarikat menghantar bekalan bantuan ke kawasan bencana",
+      "result": "Sahkan polisi kemasukan tempatan dan dapatkan permit pelepasan kastam bantuan kemanusiaan",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-163",
+      "scenario": "Peraturan pemasaran di bawah Perlindungan Data Peribadi (GDPR)",
+      "condition": "Menghantar e-mel promosi atau cadangan peribadi kepada pengguna individu di EU",
+      "result": "Mesti dapatkan persetujuan eksplisit 'opt-in' dan berikan hak untuk berhenti langgan atau padam data",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-164",
+      "scenario": "Pematuhan visa untuk pekerja asing yang bekerja di China",
+      "condition": "Mengambil pakar asing untuk pengurusan perdagangan dan sokongan teknikal di China",
+      "result": "Mesti proses Permit Kerja Warga Asing dan Permit Kediaman yang sah; pekerjaan haram dilarang",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-165",
+      "scenario": "Kemas kini harian dan penapisan senarai Anti-Pengubahan Wang Haram",
+      "condition": "Pihak berkuasa antarabangsa mengeluarkan senarai baru individu/firma terlibat pembiayaan keganasan",
+      "result": "Pematuhan mesti mengimport ini ke dalam sistem dalam 24 jam untuk penapisan silang pelanggan",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-166",
+      "scenario": "Pensijilan pematuhan untuk eksport kayu atau spesies terancam",
+      "condition": "Perabot eksport mengandungi kayu yang disenaraikan di bawah konvensyen CITES",
+      "result": "Mesti menunjukkan permit CITES dan menjalani pengesahan fizikal ketat oleh perhutanan dan kastam",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-167",
+      "scenario": "Kelulusan pematuhan untuk pertukaran akademik dengan wilayah sensitif",
+      "condition": "Menjemput penyelidik dari negara sensitif ke seminar industri yang dianjurkan oleh syarikat",
+      "result": "Laporkan agenda dan senarai kakitangan kepada pihak berkuasa terlebih dahulu untuk cegah kebocoran",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-168",
+      "scenario": "Peraturan semakan strategi harga di bawah pematuhan anti-monopoli",
+      "condition": "Syarikat berhasrat mencapai perjanjian harga pasaran serantau dengan pesaing utama",
+      "result": "Ini disyaki monopoli mendatar; pegawai pematuhan mesti menolak dan melaporkan pelan tersebut",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-169",
+      "scenario": "Keperluan perlindungan latihan pematuhan untuk semua kakitangan",
+      "condition": "Penilaian dan pensijilan pematuhan dalam talian tahunan untuk kakitangan perniagaan antarabangsa",
+      "result": "Semua kakitangan mesti lulus dengan skor tinggi; kakitangan gagal akan digantung hak operasi",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-170",
+      "scenario": "Pemeliharaan jangka panjang dan pengurusan digital arkib pematuhan",
+      "condition": "Semua rekod komunikasi dan kontrak asal yang melibatkan eksport item sensitif",
+      "result": "Mesti disimpan selama sekurang-kurangnya 10 tahun mengikut undang-undang dengan indeks digital",
+      "category": "Peraturan Pematuhan"
+    },
+    {
+      "rule_id": "RULE-171",
+      "scenario": "Pencetusan klausa Force Majeure dalam kontrak perdagangan",
+      "condition": "Gempa bumi, banjir atau embargo kerajaan menghalang prestasi kontrak tepat pada masanya",
+      "result": "Mesti hantar notis bertulis rasmi dalam 48 jam dan berikan bukti daripada badan berkuasa",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-172",
+      "scenario": "Peraturan bidang kuasa untuk menyelesaikan pertikaian kontrak",
+      "condition": "Kedua-dua pihak bersetuju dalam kontrak mengenai saluran kehakiman untuk resolusi pertikaian",
+      "result": "Pusat Arbitras Antarabangsa Singapura (SIAC) dipilih sebagai forum pihak ketiga yang berkecuali",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-173",
+      "scenario": "Penamatan untuk kemudahan dan peraturan pampasan kerugian",
+      "condition": "Pembeli meminta menamatkan kontrak sebelum penghantaran tanpa sebarang pelanggaran oleh penjual",
+      "result": "Pembeli membayar ganti rugi kerugian ekonomi langsung dan penalti 5% daripada jumlah kontrak",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-174",
+      "scenario": "Pengenalpastian masa pemindahan hak milik barangan perdagangan",
+      "condition": "Kontrak menggunakan terma DDP dan tiada perjanjian berasingan mengenai pemindahan pemilikan",
+      "result": "Hak milik berpindah dari penjual ke pembeli hanya selepas penerimaan ditandatangani dan bayaran penuh",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-175",
+      "scenario": "Tempoh bertenang dan penalti untuk penghantaran lewat",
+      "condition": "Penjual menghantar lewat dari tarikh dipersetujui tetapi dalam tempoh bertenang 7 hari bekerja",
+      "result": "Tiada pelanggaran dikira; jika melebihi, 0.3% daripada jumlah harga ditolak untuk setiap hari lewat",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-176",
+      "scenario": "Peraturan susunan tafsiran untuk bahasa kontrak yang berbeza",
+      "condition": "Kontrak ditandatangani dalam kedua-dua bahasa Cina dan Inggeris dan konflik semantik timbul",
+      "result": "Versi yang ditakrifkan secara eksplisit sebagai 'Bahasa Kawalan' dalam kontrak akan diutamakan",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-177",
+      "scenario": "Mekanisme pelarasan harga untuk perubahan kos yang mendadak",
+      "condition": "Harga pasaran bahan mentah turun naik lebih daripada 10% semasa pelaksanaan kontrak",
+      "result": "Kedua-dua pihak boleh mulakan rundingan harga; perjanjian tambahan bertulis diperlukan untuk berkesan",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-178",
+      "scenario": "Penyerahan hak kontrak dan peraturan pembayaran pihak ketiga",
+      "condition": "Satu pihak berhasrat memindahkan hak dan kewajipannya di bawah kontrak kepada pihak ketiga",
+      "result": "Persetujuan bertulis terlebih dahulu daripada pihak lain dan perjanjian pindahan hutang diperlukan",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-179",
+      "scenario": "Permulaan dan tamat tempoh bantahan kualiti barangan",
+      "condition": "Pembeli menerima barang dan mempunyai bantahan terhadap rupa atau kuantiti dalam tempoh tersebut",
+      "result": "Bantahan mesti dibuat secara bertulis dalam masa 5 hari; jika tidak barang dianggap patuh",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-180",
+      "scenario": "Tempoh sah klausa Perjanjian Kerahasiaan (NDA) dalam kontrak",
+      "condition": "Lukisan teknikal atau rahsia perdagangan memerlukan perlindungan selepas kontrak tamat",
+      "result": "Kewajipan kerahasiaan tidak tamat dengan kontrak; tempoh biasanya 3 tahun selepas tamat tempoh",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-181",
+      "scenario": "Peraturan perlindungan wilayah dalam perjanjian agensi eksklusif",
+      "condition": "Penjual memberi kuasa kepada pembeli sebagai pengedar tunggal bagi wilayah yang ditetapkan",
+      "result": "Penjual berjanji tidak akan menjual melalui pihak ketiga lain atau terus kepada pelanggan di situ",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-182",
+      "scenario": "Pelikuidasian dan pemulangan dokumen selepas penamatan kontrak",
+      "condition": "Kontrak bekalan jangka panjang tamat dan pihak-pihak menyatakan tidak akan memperbaharuinya",
+      "result": "Pihak mesti menjelaskan akaun dalam 30 hari dan memulangkan atau musnahkan bahan sensitif",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-183",
+      "scenario": "Penafian mengenai 'Pelanggaran Harta Intelek' oleh pembekal",
+      "condition": "Penjual menghasilkan barang berdasarkan lukisan pembeli dan disaman pihak ketiga atas pelanggaran",
+      "result": "Pembeli menanggung semua pampasan dan kos undang-undang; penjual tiada liabiliti bersama",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-184",
+      "scenario": "Keperluan bertulis rasmi untuk sebarang pengubahsuaian kontrak",
+      "condition": "Kakitangan perniagaan mencapai niat mengubah tarikh penghantaran melalui alat lisan atau IM",
+      "result": "Pengubahsuaian ini tidak mengikat secara sah; dokumen bertulis dengan cop rasmi diperlukan",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-185",
+      "scenario": "Peraturan menetapkan had liabiliti untuk pelanggaran kontrak",
+      "condition": "Ganti rugi yang ditetapkan atau pampasan untuk kerugian tidak langsung di bawah terma kontrak",
+      "result": "Jumlah pampasan terkumpul maksimum tidak boleh melebihi 50% daripada jumlah nilai transaksi",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-186",
+      "scenario": "Syarat terdahulu (Condition Precedent) untuk keberkesanan kontrak",
+      "condition": "Kontrak pesanan besar ditandatangani tetapi Surat Kredit pembeli belum dibuka secara rasmi",
+      "result": "Kontrak ditangguhkan sehingga penjual mengesahkan penerimaan L/C asal yang sah dan legal",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-187",
+      "scenario": "Butiran kontrak untuk perjanjian 'Penghantaran Separa'",
+      "condition": "Kuantiti total 100,000 unit akan dihantar dalam lima kumpulan bulanan oleh penjual",
+      "result": "Setiap kumpulan adalah transaksi berasingan; pelanggaran dalam satu tidak menamatkan keseluruhan kontrak",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-188",
+      "scenario": "Definisi unit seperti 'Piece' berbanding 'Dozen' dalam teks",
+      "condition": "Perbezaan antara penghantaran dan pesanan disebabkan standard unit ukuran yang berbeza",
+      "result": "Lampiran kontrak mesti menyatakan standard unit (contoh: 1 dozen = 12 keping, 1 tan metrik)",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-189",
+      "scenario": "Kesahan undang-undang kontrak elektronik dan tandatangan digital",
+      "condition": "Perjanjian perdagangan ditandatangani melalui platform tandatangan elektronik pihak ketiga",
+      "result": "Mengikut Undang-undang Tandatangan Elektronik, ia mempunyai kesahan yang sama dengan dokumen kertas",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-190",
+      "scenario": "Komitmen kunci harga semasa tempoh kontrak rangka kerja",
+      "condition": "Satu perjanjian rangka kerja setahun ditandatangani dan penjual berjanji tiada perubahan harga",
+      "result": "Penjual tidak boleh naikkan harga melainkan klausa pelarasan khas dicetuskan dalam kontrak",
+      "category": "Peraturan Kontrak"
+    },
+    {
+      "rule_id": "RULE-191",
+      "scenario": "Peraturan penggunaan LOGO jenama dalam promosi rakan kongsi",
+      "condition": "Rakan kongsi perlu memaparkan LOGO jenama kami di laman web rasmi untuk promosi bersama",
+      "result": "Mesti ikut 'Manual Visual Jenama' untuk warna dan skala standard; herotan adalah dilarang",
+      "category": "Peraturan Lain"
+    },
+    {
+      "rule_id": "RULE-192",
+      "scenario": "Had kuantiti dan jumlah nilai untuk sampel percuma pelanggan",
+      "condition": "Menghantar sampel bukan untuk jualan kepada bakal pelanggan luar negara untuk buka pasaran",
+      "result": "Had 3 sampel bagi setiap penghantaran dan jumlah nilai mesti dikawal dalam lingkungan $50",
+      "category": "Peraturan Lain"
+    },
+    {
+      "rule_id": "RULE-193",
+      "scenario": "Masa untuk tinjauan kepuasan pelanggan dan susulan pesanan",
+      "condition": "Dalam masa 30 hari selepas pesanan merentas sempadan dilepaskan dan diterima oleh pelanggan",
+      "result": "Sistem menghantar tinjauan secara automatik dan merekod maklum balas sebenar dalam pangkalan data",
+      "category": "Peraturan Lain"
+    },
+    {
+      "rule_id": "RULE-194",
+      "scenario": "Mekanisme kemas kini data pangkalan pengetahuan dalaman syarikat",
+      "condition": "Pelarasan besar dalam polisi perdagangan atau kadar logistik menyebabkan panduan asal lapuk",
+      "result": "Jabatan kandungan mesti mengemas kini semua dokumen dalam sistem dalam masa 24 jam",
+      "category": "Peraturan Lain"
+    },
+    {
+      "rule_id": "RULE-195",
+      "scenario": "Kecekapan komunikasi dan peraturan garis merah kerja rentas jabatan",
+      "condition": "Jualan melaporkan pelanggan memerlukan sokongan pakar segera untuk perincian teknikal produk",
+      "result": "Jabatan R&D dan teknikal mesti memberi respons teknikal jelas dalam masa 4 jam selepas tiket dibuka",
+      "category": "Peraturan Lain"
+    },
+    {
+      "rule_id": "RULE-196",
+      "scenario": "Peraturan audit untuk operasi sensitif dalam sistem pejabat",
+      "condition": "Akaun admin mengubah parameter teras, keizinan pengguna, atau struktur pangkalan data",
+      "result": "Sistem mesti jana log audit secara automatik, disimpan pada pelayan selama sekurang-kurangnya 12 bulan",
+      "category": "Peraturan Lain"
+    },
+    {
+      "rule_id": "RULE-197",
+      "scenario": "Kenyataan pematuhan mengenai pemberian hadiah musim perayaan",
+      "condition": "Memberi hadiah perniagaan kepada pelanggan luar negara semasa Krismas atau Tahun Baru",
+      "result": "Nilai hadiah tunggal tidak melebihi $100; tunai atau sekuriti setara adalah dilarang sama sekali",
+      "category": "Peraturan Lain"
+    },
+    {
+      "rule_id": "RULE-198",
+      "scenario": "Peraturan peruntukan syif untuk khidmat pelanggan pelbagai bahasa",
+      "condition": "Menyediakan perundingan teknikal 24/7 untuk pelanggan luar negara dalam zon waktu berbeza",
+      "result": "Penjadualan dinamik memastikan bahasa Thai, Vietnam, dsb., diliputi semasa waktu puncak pertanyaan",
+      "category": "Peraturan Lain"
+    },
+    {
+      "rule_id": "RULE-199",
+      "scenario": "Perlindungan paten syarikat dalam pameran antarabangsa yang disertai",
+      "condition": "Membawa produk dengan hak paten teras ke pameran perdagangan industri terkemuka dunia",
+      "result": "Gerai mesti mempunyai salinan dokumen undang-undang dan nombor paten mesti ditanda dengan jelas",
+      "category": "Peraturan Lain"
+    },
+    {
+      "rule_id": "RULE-200",
+      "scenario": "Pengumuman dan pelepasan berperingkat semasa naik taraf sistem perdagangan",
+      "condition": "Platform perdagangan memerlukan kemas kini fungsi besar atau pelarasan seni bina pangkalan data",
+      "result": "Umumkan 72 jam lebih awal dan lakukan pertukaran berperingkat semasa waktu bukan puncak perniagaan",
+      "category": "Peraturan Lain"
+    }
+  ]
+}

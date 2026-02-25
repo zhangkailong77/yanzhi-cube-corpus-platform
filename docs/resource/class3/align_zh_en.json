@@ -1,0 +1,2114 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "alignment",
+    "source_lang": "zh",
+    "target_lang": "en",
+    "domain": "trade",
+    "created_by": "专家团队",
+    "created_at": "2025-05-22T08:00:00Z",
+    "description": "中文-英文多语对齐语料"
+  },
+  "data": [
+    {
+      "alignment_id": "ALIGN-001",
+      "source_text": "海关清关流程包括申报、查验、征税和放行四个主要环节。",
+      "target_text": "The customs clearance process includes four main stages: declaration, inspection, taxation, and release.",
+      "context": "清关流程说明",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-002",
+      "source_text": "出口货物需要提供原产地证书才能享受关税优惠。",
+      "target_text": "Export goods need to provide Certificate of Origin to enjoy tariff preferences.",
+      "context": "原产地证书说明",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-003",
+      "source_text": "使用信用证支付可以降低出口商的收汇风险。",
+      "target_text": "Using Letter of Credit payment can reduce exchange collection risk for exporters.",
+      "context": "支付方式说明",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-004",
+      "source_text": "买方应在收到货物后7个工作日内进行验收，如有质量问题应在15个工作日内提出异议。",
+      "target_text": "The buyer should conduct acceptance within 7 working days after receiving the goods, and raise objections within 15 working days if there are quality issues.",
+      "context": "验收条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-005",
+      "source_text": "该产品符合国际质量标准，通过ISO9001质量管理体系认证。",
+      "target_text": "This product meets international quality standards and is certified under the ISO9001 quality management system.",
+      "context": "质量保证声明",
+      "domain": "quality"
+    },
+    {
+      "alignment_id": "ALIGN-006",
+      "source_text": "根据FOB条款，卖方负责将货物运至装运港并装上买方指定的船只。",
+      "target_text": "Under FOB terms, the seller is responsible for transporting the goods to the port of shipment and loading them onto the vessel designated by the buyer.",
+      "context": "贸易术语解释",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-007",
+      "source_text": "提单是承运人收到货物后签发给托运人的凭证，也是物权凭证。",
+      "target_text": "The Bill of Lading is a receipt issued by the carrier to the shipper for the goods received, and it also serves as a document of title.",
+      "context": "货运单据说明",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-008",
+      "source_text": "由于不可抗力导致合同无法履行，受影响方应及时通知另一方。",
+      "target_text": "If the contract cannot be performed due to force majeure, the affected party shall notify the other party in a timely manner.",
+      "context": "合同免责条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-009",
+      "source_text": "查询该商品的HS编码可以确定其在进口国的适用关税税率。",
+      "target_text": "Checking the HS code of the product can determine its applicable tariff rate in the importing country.",
+      "context": "关税查询指导",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-010",
+      "source_text": "货运代理协议中应明确双方在货物运输过程中的权利与义务。",
+      "target_text": "The freight forwarding agreement should clarify the rights and obligations of both parties during the transportation of goods.",
+      "context": "协议签署",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-011",
+      "source_text": "电汇（T/T）是一种常见的国际贸易结算方式，具有速度快、手续简便的特点。",
+      "target_text": "Telegraphic Transfer (T/T) is a common international trade settlement method characterized by its speed and simple procedures.",
+      "context": "结算方式介绍",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-012",
+      "source_text": "形式发票通常用于买方向银行申请进口许可证或开立信用证。",
+      "target_text": "A proforma invoice is typically used by the buyer to apply for an import license or open a letter of credit with a bank.",
+      "context": "单证用途说明",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-013",
+      "source_text": "保税仓库允许进口货物在未缴纳关税的情况下暂时储存。",
+      "target_text": "A bonded warehouse allows imported goods to be temporarily stored without paying customs duties.",
+      "context": "仓储政策说明",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-014",
+      "source_text": "装箱单必须详细列明每件包装内的货物名称、规格及数量。",
+      "target_text": "The packing list must detail the name, specification, and quantity of the goods inside each package.",
+      "context": "装箱单要求",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-015",
+      "source_text": "如果买方未能按期付款，卖方有权按日计收逾期违约金。",
+      "target_text": "If the buyer fails to make payment on time, the seller has the right to charge daily liquidated damages for late payment.",
+      "context": "违约责任",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-016",
+      "source_text": "所有出口至该地区的电子产品必须符合CE安全认证标准。",
+      "target_text": "All electronic products exported to this region must comply with CE safety certification standards.",
+      "context": "合规要求",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-017",
+      "source_text": "保险费由卖方支付，保险金额应按CIF发票金额的110%投保。",
+      "target_text": "The insurance premium shall be paid by the seller, and the insured amount should be 110% of the CIF invoice value.",
+      "context": "保险条款",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-018",
+      "source_text": "国际贸易中的仲裁协议是解决合同争议的高效方式。",
+      "target_text": "The arbitration agreement in international trade is an efficient way to resolve contract disputes.",
+      "context": "争议解决方式",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-019",
+      "source_text": "拼箱货（LCL）是指托运人的货物量不足一个整箱，需与其他托运人的货物合拼。",
+      "target_text": "Less than Container Load (LCL) refers to a shipment where the shipper's cargo is insufficient for a full container and needs to be consolidated with others.",
+      "context": "物流术语说明",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-020",
+      "source_text": "该商品的出口退税率已由9%上调至13%。",
+      "target_text": "The export tax rebate rate for this product has been increased from 9% to 13%.",
+      "context": "税收政策通知",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-021",
+      "source_text": "代理商应每季度向委托人提交一份市场销售报告。",
+      "target_text": "The agent shall submit a market sales report to the principal every quarter.",
+      "context": "代理协议条款",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-022",
+      "source_text": "如有任何规格变动，卖方必须在发货前至少15天书面通知买方。",
+      "target_text": "If there are any changes in specifications, the seller must notify the buyer in writing at least 15 days before shipment.",
+      "context": "合同变更说明",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-023",
+      "source_text": "目的地交货（DAP）条款下，卖方承担将货物运至指定目的地的一切风险和费用。",
+      "target_text": "Under Delivered at Place (DAP) terms, the seller bears all risks and costs to transport the goods to the named destination.",
+      "context": "贸易术语解释",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-024",
+      "source_text": "进口许可证的有效期通常为六个月，过期需重新申请。",
+      "target_text": "The validity of an import license is usually six months; it must be reapplied for after expiration.",
+      "context": "证件申领说明",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-025",
+      "source_text": "货物的毛重和净重应在所有货运单据上保持一致。",
+      "target_text": "The gross weight and net weight of the goods should remain consistent on all shipping documents.",
+      "context": "单据校验",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-026",
+      "source_text": "知识产权侵权可能导致货物被海关扣押并处以罚款。",
+      "target_text": "Intellectual property rights infringement may lead to the seizure of goods by customs and the imposition of fines.",
+      "context": "合规风险警示",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-027",
+      "source_text": "分期付款协议有助于缓解买方的资金流动压力。",
+      "target_text": "An installment payment agreement helps to ease the cash flow pressure on the buyer.",
+      "context": "支付方案建议",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-028",
+      "source_text": "本合同受中华人民共和国法律管辖并按其解释。",
+      "target_text": "This contract shall be governed by and construed in accordance with the laws of the People's Republic of China.",
+      "context": "法律管辖条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-029",
+      "source_text": "冷链物流在易腐食品出口中起着至关重要的作用。",
+      "target_text": "Cold chain logistics plays a vital role in the export of perishable food items.",
+      "context": "物流场景描述",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-030",
+      "source_text": "商业发票应包含合同号、装运标记以及详细的单价与总价。",
+      "target_text": "The commercial invoice should contain the contract number, shipping marks, and detailed unit prices and total prices.",
+      "context": "发票规范要求",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-031",
+      "source_text": "商检证书是证明出口商品质量、规格及重量的重要依据。",
+      "target_text": "The commodity inspection certificate is an important basis for proving the quality, specifications, and weight of exported goods.",
+      "context": "质量检验说明",
+      "domain": "quality"
+    },
+    {
+      "alignment_id": "ALIGN-032",
+      "source_text": "在EXW条款下，卖方仅负责在工厂所在地将货物交给买方。",
+      "target_text": "Under EXW terms, the seller is only responsible for making the goods available to the buyer at the factory premises.",
+      "context": "贸易术语解释",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-033",
+      "source_text": "预计抵达时间（ETA）可能会受天气或港口拥堵影响而延迟。",
+      "target_text": "The Estimated Time of Arrival (ETA) may be delayed due to weather conditions or port congestion.",
+      "context": "物流进度通知",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-034",
+      "source_text": "银行手续费通常由买卖双方根据合同约定各自承担。",
+      "target_text": "Bank charges are usually borne by the buyer and seller respectively, as agreed upon in the contract.",
+      "context": "支付成本说明",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-035",
+      "source_text": "买方应在货物到达后的48小时内通过书面形式通知卖方任何短装情况。",
+      "target_text": "The buyer shall notify the seller in writing of any short shipment within 48 hours after the arrival of the goods.",
+      "context": "索赔通知要求",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-036",
+      "source_text": "所有化学品出口都必须附带最新的化学品安全说明书（MSDS）。",
+      "target_text": "All chemical exports must be accompanied by the latest Material Safety Data Sheet (MSDS).",
+      "context": "出口合规性",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-037",
+      "source_text": "运费预付（Freight Prepaid）表示运费已在起运港支付完毕。",
+      "target_text": "Freight Prepaid indicates that the freight charges have been fully paid at the port of origin.",
+      "context": "货运条款说明",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-038",
+      "source_text": "付款交单（D/P）是一种商业信用结算方式，银行仅在收到货款后交付单据。",
+      "target_text": "Documents against Payment (D/P) is a commercial credit settlement method where the bank only releases documents upon receipt of payment.",
+      "context": "结算方式解释",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-039",
+      "source_text": "如果产品在保修期内出现非人为故障，卖方将负责免费维修或更换。",
+      "target_text": "If the product malfunctions during the warranty period due to non-human factors, the seller will be responsible for free repair or replacement.",
+      "context": "售后条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-040",
+      "source_text": "反倾销税是针对以低于成本价倾销的进口商品征收的惩罚性关税。",
+      "target_text": "Anti-dumping duty is a punitive tariff levied on imported goods dumped at prices below cost.",
+      "context": "贸易保护政策",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-041",
+      "source_text": "装运标记（Shipping Marks）必须清晰地刷在包装箱的两个侧面上。",
+      "target_text": "Shipping marks must be clearly stenciled on two sides of the packing cases.",
+      "context": "包装规范要求",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-042",
+      "source_text": "买方同意对在交易过程中获取的所有商业机密保密。",
+      "target_text": "The buyer agrees to keep all commercial secrets obtained during the transaction confidential.",
+      "context": "保密协议内容",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-043",
+      "source_text": "信用证项下的所有单据必须在有效期内提交给开证行。",
+      "target_text": "All documents under the Letter of Credit must be submitted to the issuing bank within the validity period.",
+      "context": "单证提交要求",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-044",
+      "source_text": "承运人对由于包装不当导致的货物损毁不承担赔偿责任。",
+      "target_text": "The carrier shall not be liable for any damage to the goods caused by improper packaging.",
+      "context": "免责条款说明",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-045",
+      "source_text": "由于市场价格波动，卖方保留随时调整产品价格的权利。",
+      "target_text": "The seller reserves the right to adjust product prices at any time due to market price fluctuations.",
+      "context": "价格政策说明",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-046",
+      "source_text": "本合同一式两份，双方各执一份，具有同等法律效力。",
+      "target_text": "This contract is made in duplicate, with each party holding one copy, both being equally authentic.",
+      "context": "合同法律效力",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-047",
+      "source_text": "该批货物将从上海港出发，在新加坡港进行中转。",
+      "target_text": "The batch of goods will depart from Shanghai Port and be transshipped at Singapore Port.",
+      "context": "运输路线说明",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-048",
+      "source_text": "关税起征点根据各国海关政策的不同而有所差异。",
+      "target_text": "The de minimis threshold for customs duties varies according to different countries' customs policies.",
+      "context": "海关政策说明",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-049",
+      "source_text": "双方应本着友好协商的原则解决合同执行中出现的争议。",
+      "target_text": "Both parties shall resolve any disputes arising from the execution of the contract based on the principle of friendly consultation.",
+      "context": "争议解决条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-050",
+      "source_text": "增值税（VAT）发票是买方在当地申请抵扣进项税的重要凭证。",
+      "target_text": "A Value-Added Tax (VAT) invoice is an important voucher for the buyer to apply for input tax deduction locally.",
+      "context": "财务税务说明",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-051",
+      "source_text": "所有出口木质包装必须经过熏蒸处理并加盖IPPC标识。",
+      "target_text": "All exported wooden packaging must undergo fumigation treatment and be stamped with the IPPC mark.",
+      "context": "防疫包装要求",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-052",
+      "source_text": "卖方应向买方提供最终用户的最终用途证明。",
+      "target_text": "The seller shall provide the buyer with an end-user and end-use certificate.",
+      "context": "出口管制要求",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-053",
+      "source_text": "由于买方未及时开立信用证，交货日期将相应顺延。",
+      "target_text": "As the buyer failed to open the Letter of Credit on time, the delivery date will be postponed accordingly.",
+      "context": "交货时间延误",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-054",
+      "source_text": "运费到付（Freight Collect）意味着运费将由收货人在目的港支付。",
+      "target_text": "Freight Collect means that the freight charges will be paid by the consignee at the destination port.",
+      "context": "物流结算方式",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-055",
+      "source_text": "产品规格书应包含详细的物理特性、化学成分和技术指标。",
+      "target_text": "The product specification sheet should contain detailed physical properties, chemical composition, and technical indicators.",
+      "context": "产品文档要求",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-056",
+      "source_text": "海关编码的准确性直接影响到出口退税申报的成功率。",
+      "target_text": "The accuracy of the HS code directly affects the success rate of the export tax rebate application.",
+      "context": "申报要点说明",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-057",
+      "source_text": "样品费和快递费通常由买方预付，大货订单确认后可冲抵货款。",
+      "target_text": "Sample fees and express charges are usually prepaid by the buyer and can be offset against the payment after the bulk order is confirmed.",
+      "context": "样品寄送说明",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-058",
+      "source_text": "未经另一方书面同意，任何一方不得将本合同项下的权利转让给第三方。",
+      "target_text": "Neither party may assign its rights under this contract to a third party without the prior written consent of the other party.",
+      "context": "权利转让条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-059",
+      "source_text": "托盘化装运可以有效提高货物的装卸效率并减少破损率。",
+      "target_text": "Palletized shipment can effectively improve the efficiency of loading and unloading and reduce the damage rate.",
+      "context": "运输方式建议",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-060",
+      "source_text": "双方确认，在本合同签署前所有口头协议均已失效。",
+      "target_text": "Both parties confirm that all oral agreements prior to the signing of this contract are no longer valid.",
+      "context": "完整合同条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-061",
+      "source_text": "在CIF条款下，卖方必须支付将货物运至指定目的港所需的运费和保险费。",
+      "target_text": "Under CIF terms, the seller must pay the costs, freight, and insurance necessary to bring the goods to the named port of destination.",
+      "context": "贸易术语深度解释",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-062",
+      "source_text": "空运单（AWB）是不可转让的单据，仅作为货物收据和运输契约。",
+      "target_text": "An Air Waybill (AWB) is a non-negotiable document that serves only as a cargo receipt and a contract of carriage.",
+      "context": "物流单据属性说明",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-063",
+      "source_text": "凭单付款（CAD）是一种支付方式，买方需在银行交单时支付全额货款。",
+      "target_text": "Cash Against Documents (CAD) is a payment method where the buyer pays the full amount upon presentation of documents by the bank.",
+      "context": "支付结算说明",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-064",
+      "source_text": "出入境检验检疫局签发的品质证书是信用证项下必备的议付单据之一。",
+      "target_text": "The Certificate of Quality issued by the CIQ is one of the essential negotiation documents under the Letter of Credit.",
+      "context": "清关与议付单证",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-065",
+      "source_text": "卖方逾期交货应向买方支付违约金，金额为合同总价的5%。",
+      "target_text": "In the event of delayed delivery, the seller shall pay the buyer liquidated damages amounting to 5% of the total contract value.",
+      "context": "违约赔偿条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-066",
+      "source_text": "利用自由贸易协定（FTA）项下的优惠原产地证可以大幅降低进口关税。",
+      "target_text": "Utilizing a Preferential Certificate of Origin under a Free Trade Agreement (FTA) can significantly reduce import duties.",
+      "context": "关税筹划说明",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-067",
+      "source_text": "集装箱封条号码必须与提单及装箱单上的记录完全一致。",
+      "target_text": "The container seal number must strictly match the records on the Bill of Lading and the packing list.",
+      "context": "物流装运规范",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-068",
+      "source_text": "双方同意采用AQL 2.5作为本批次货物的验收抽样标准。",
+      "target_text": "Both parties agree to adopt AQL 2.5 as the acceptance sampling standard for this batch of goods.",
+      "context": "质量检验标准",
+      "domain": "quality"
+    },
+    {
+      "alignment_id": "ALIGN-069",
+      "source_text": "赊销（O/A）条款下，卖方先发货，买方在约定时间内付款，这对卖方风险较高。",
+      "target_text": "Under Open Account (O/A) terms, the seller ships the goods first and the buyer pays within an agreed timeframe, which poses a higher risk to the seller.",
+      "context": "账期结算风险",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-070",
+      "source_text": "出口退税是指对出口货物在国内生产和流通环节缴纳的增值税进行退付。",
+      "target_text": "Export tax rebate refers to the refund of Value-Added Tax paid during the domestic production and distribution of exported goods.",
+      "context": "税务政策解释",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-071",
+      "source_text": "该产品的最小起订量（MOQ）为1000件，低于此数量将不予发货。",
+      "target_text": "The Minimum Order Quantity (MOQ) for this product is 1,000 units; orders below this quantity will not be shipped.",
+      "context": "贸易订购条款",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-072",
+      "source_text": "若协商不成，任何一方均可将争议提交给被告所在地法院提起诉讼。",
+      "target_text": "If no settlement can be reached through negotiation, either party may submit the dispute to the court in the place where the defendant is located for litigation.",
+      "context": "司法管辖条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-073",
+      "source_text": "滞港费和滞箱费通常由于清关延迟或收货人未能及时提货而产生。",
+      "target_text": "Demurrage and detention charges are usually incurred due to customs clearance delays or the consignee's failure to pick up the goods on time.",
+      "context": "费用异常说明",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-074",
+      "source_text": "产品包装上必须醒目标注生产日期和保质期。",
+      "target_text": "The production date and shelf life must be prominently marked on the product packaging.",
+      "context": "产品标识要求",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-075",
+      "source_text": "国际贸易“单一窗口”系统实现了海关、税务、外汇等部门的数据共享。",
+      "target_text": "The International Trade 'Single Window' system enables data sharing among customs, tax, and foreign exchange departments.",
+      "context": "贸易便利化介绍",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-076",
+      "source_text": "禁止和限制进口商品目录会根据国家安全和环境保护需要进行调整。",
+      "target_text": "The catalogue of prohibited and restricted import commodities will be adjusted according to national security and environmental protection needs.",
+      "context": "贸易管制说明",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-077",
+      "source_text": "内陆运费（Inevitable Inland Haulage）涵盖了从工厂到出口装运港的陆路运输成本。",
+      "target_text": "Inland haulage covers the road transport costs from the factory to the export shipping port.",
+      "context": "物流报价说明",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-078",
+      "source_text": "请确保受益人名称与银行账户开户名完全一致，以免退汇。",
+      "target_text": "Please ensure that the beneficiary name is exactly the same as the bank account holder's name to avoid payment rejection.",
+      "context": "汇款注意事项",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-079",
+      "source_text": "一方严重违约时，另一方有权立即解除合同并要求赔偿损失。",
+      "target_text": "In the event of a material breach of contract by one party, the other party has the right to terminate the contract immediately and claim damages.",
+      "context": "合同解除条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-080",
+      "source_text": "工厂需在发货前提供详细的成品检验报告（FQC）。",
+      "target_text": "The factory must provide a detailed Final Quality Control (FQC) report before shipment.",
+      "context": "质量文档要求",
+      "domain": "quality"
+    },
+    {
+      "alignment_id": "ALIGN-081",
+      "source_text": "领事发票是由进口国驻出口国的领事馆签发的，用作报关的证明文件。",
+      "target_text": "A Consular Invoice is issued by the consulate of the importing country in the exporting country, used as a certifying document for customs entry.",
+      "context": "特殊单证解释",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-082",
+      "source_text": "滚装船运输特别适用于汽车及重型机械等无需吊装的货物。",
+      "target_text": "Ro-Ro (Roll-on/roll-off) shipping is particularly suitable for goods like vehicles and heavy machinery that do not require hoisting.",
+      "context": "运输方式选择",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-083",
+      "source_text": "视同出口是指在国内销售但享受出口退税政策的特殊贸易行为。",
+      "target_text": "Deemed export refers to special trade activities where goods are sold domestically but enjoy export tax rebate policies.",
+      "context": "税务概念解释",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-084",
+      "source_text": "本合同包含非竞争条款，乙方在合同结束后一年内不得从事同类业务。",
+      "target_text": "This contract includes a non-compete clause; Party B shall not engage in similar businesses for one year after the termination of the contract.",
+      "context": "限制性条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-085",
+      "source_text": "第三方支付托管服务为跨境电商交易提供了资金安全保障。",
+      "target_text": "Third-party escrow payment services provide financial security for cross-border e-commerce transactions.",
+      "context": "支付技术应用",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-086",
+      "source_text": "意向书（LOI）仅表达合作意愿，通常不具有法律约束力。",
+      "target_text": "A Letter of Intent (LOI) only expresses the willingness to cooperate and is usually not legally binding.",
+      "context": "商务初步沟通",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-087",
+      "source_text": "危险品申报不实可能导致严重的法律后果及高额罚款。",
+      "target_text": "Misdeclaration of dangerous goods may lead to severe legal consequences and heavy fines.",
+      "context": "物流合规警告",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-088",
+      "source_text": "暂时进境货物应在规定期限内复运出境，否则需补缴关税。",
+      "target_text": "Temporarily imported goods should be re-exported within the specified period; otherwise, customs duties must be paid.",
+      "context": "特殊监管政策",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-089",
+      "source_text": "跨境B2B交易平台通过数字化手段简化了传统外贸的繁琐流程。",
+      "target_text": "Cross-border B2B trading platforms simplify the tedious processes of traditional foreign trade through digital means.",
+      "context": "行业趋势描述",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-090",
+      "source_text": "如果本合同的任何条款被判定为无效，不影响其他条款的效力。",
+      "target_text": "If any provision of this contract is held to be invalid, it shall not affect the validity of the remaining provisions.",
+      "context": "合同法律条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-091",
+      "source_text": "在货运承运人（FCA）条款下，卖方负责在指定地点将货物交给买方指定的承运人。",
+      "target_text": "Under Free Carrier (FCA) terms, the seller is responsible for delivering the goods to the carrier nominated by the buyer at the named place.",
+      "context": "贸易术语解释",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-092",
+      "source_text": "海外仓模式可以显著提升跨境电商的物流配送速度和退换货便利性。",
+      "target_text": "The overseas warehouse model can significantly improve the logistics delivery speed and the convenience of returns and exchanges for cross-border e-commerce.",
+      "context": "电商物流模式",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-093",
+      "source_text": "SWIFT代码是银行间进行国际转账时用于识别特定银行的唯一标识符。",
+      "target_text": "The SWIFT code is a unique identifier used to identify a specific bank during international interbank transfers.",
+      "context": "银行结算实务",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-094",
+      "source_text": "所有进入欧盟市场的电子产品都必须符合RoHS环保指令的要求。",
+      "target_text": "All electronic products entering the EU market must comply with the requirements of the RoHS environmental directive.",
+      "context": "产品合规标准",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-095",
+      "source_text": "本合同的任何修改或补充均须经双方签字盖章后方可生效。",
+      "target_text": "Any modification or supplement to this contract shall only become effective after being signed and sealed by both parties.",
+      "context": "合同变更约定",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-096",
+      "source_text": "备用信用证（Standby L/C）主要作为担保工具，在申请人违约时由银行履行支付义务。",
+      "target_text": "A Standby Letter of Credit (Standby L/C) mainly serves as a guarantee tool, where the bank fulfills the payment obligation if the applicant defaults.",
+      "context": "信用证类型说明",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-097",
+      "source_text": "如果货物在运输途中发生全损，投保人可根据保险单据向保险公司索赔。",
+      "target_text": "If the goods suffer a total loss during transit, the policyholder may claim compensation from the insurance company based on the insurance documents.",
+      "context": "货运保险理赔",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-098",
+      "source_text": "出口商应确保所提供的发票金额与报关单金额完全一致，以规避合规风险。",
+      "target_text": "Exporters should ensure that the invoice amount is exactly the same as the customs declaration amount to avoid compliance risks.",
+      "context": "海关申报合规",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-099",
+      "source_text": "独家代理协议规定，委托人在特定区域内不得委派其他代理人。",
+      "target_text": "The exclusive agency agreement stipulates that the principal shall not appoint other agents within a specific territory.",
+      "context": "代理协议条款",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-100",
+      "source_text": "赔偿条款应涵盖由于产品缺陷给买方造成的直接和间接经济损失。",
+      "target_text": "The indemnification clause should cover both direct and indirect economic losses caused to the buyer by product defects.",
+      "context": "风险责任划分",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-101",
+      "source_text": "转船提单是指货物在运输过程中需要转换另一艘船舶继续运输时签发的提单。",
+      "target_text": "A transshipment bill of lading is a bill of lading issued when goods need to be transferred to another vessel during transit to continue transportation.",
+      "context": "货运单据类型",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-102",
+      "source_text": "原产地规则是各国为了确定商品“国籍”而制定的一系列法律和行政规定。",
+      "target_text": "Rules of origin are a set of laws and administrative regulations established by countries to determine the 'nationality' of goods.",
+      "context": "贸易政策解释",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-103",
+      "source_text": "买方应在收到单据后的五个银行工作日内完成信用证项下的审单工作。",
+      "target_text": "The buyer shall complete the examination of documents under the Letter of Credit within five banking working days after receiving the documents.",
+      "context": "单证处理时限",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-104",
+      "source_text": "根据CIP条款，卖方必须投保最高险种（通常为伦敦保险协会货物保险A条款）。",
+      "target_text": "According to CIP terms, the seller must obtain insurance cover complying with the maximum cover (typically Institute Cargo Clauses A).",
+      "context": "贸易术语新规",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-105",
+      "source_text": "工厂接受OEM订单，可根据客户提供的设计图纸进行贴牌生产。",
+      "target_text": "The factory accepts OEM orders and can carry out private label production based on the design drawings provided by the customer.",
+      "context": "生产模式说明",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-106",
+      "source_text": "如果发生罢工、动乱或战争等情况，运输合同中的免责条款将生效。",
+      "target_text": "In the event of strikes, riots, or war, the force majeure clauses in the transport contract will take effect.",
+      "context": "异常场景处理",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-107",
+      "source_text": "海关查验率的提高可能会导致出口货物的通关时间延长。",
+      "target_text": "An increase in the customs inspection rate may lead to an extension of the clearance time for exported goods.",
+      "context": "海关实务影响",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-108",
+      "source_text": "分批装运和转运在信用证中除非明确禁止，否则通常是被允许的。",
+      "target_text": "Partial shipments and transshipment are generally permitted in a Letter of Credit unless expressly prohibited.",
+      "context": "信用证操作规范",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-109",
+      "source_text": "乙方保证其向甲方提供的产品不侵犯任何第三方的知识产权。",
+      "target_text": "Party B guarantees that the products provided to Party A do not infringe upon the intellectual property rights of any third party.",
+      "context": "知识产权保证",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-110",
+      "source_text": "双边贸易协定有助于降低贸易壁垒，促进成员国之间的货物流通。",
+      "target_text": "Bilateral trade agreements help reduce trade barriers and promote the flow of goods between member states.",
+      "context": "宏观贸易政策",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-111",
+      "source_text": "弃货处理是指在收货人拒绝提货时，承运人按规定对货物进行变卖或销毁的操作。",
+      "target_text": "Abandoned cargo handling refers to the carrier's operation of selling or destroying goods in accordance with regulations when the consignee refuses to pick them up.",
+      "context": "物流异常处理",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-112",
+      "source_text": "产品召回责任由卖方承担，因设计或制造缺陷产生的所有费用由卖方支付。",
+      "target_text": "The seller shall bear the responsibility for product recalls, and all costs arising from design or manufacturing defects shall be paid by the seller.",
+      "context": "售后风险条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-113",
+      "source_text": "预付款保函确保了如果卖方未能履行合同，买方可以收回预付的款项。",
+      "target_text": "An advance payment guarantee ensures that the buyer can recover the prepaid funds if the seller fails to perform the contract.",
+      "context": "金融风险管理",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-114",
+      "source_text": "进料加工贸易方式允许企业免税进口原材料进行加工后再出口。",
+      "target_text": "The processing with imported materials trade mode allows enterprises to import raw materials tax-free for processing and subsequent re-export.",
+      "context": "海关贸易方式",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-115",
+      "source_text": "技术规格书的任何微小差异都可能导致终端市场的产品准入失败。",
+      "target_text": "Any minor discrepancy in technical specifications may lead to product access failure in the end market.",
+      "context": "产品质量控制",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-116",
+      "source_text": "运送期间的货物所有权转移点取决于所选用的国际贸易术语。",
+      "target_text": "The point of transfer of ownership of the goods during transit depends on the selected Incoterms.",
+      "context": "贸易术语影响",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-117",
+      "source_text": "由于港口罢工导致的船期延误，卖方不承担赔偿责任，但需提供相关证明。",
+      "target_text": "The seller shall not be liable for vessel schedule delays caused by port strikes but must provide relevant evidence.",
+      "context": "物流免责声明",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-118",
+      "source_text": "买方有权在发货前派遣第三方检验机构对产品进行终检。",
+      "target_text": "The buyer has the right to appoint a third-party inspection agency to conduct a final inspection of the products before shipment.",
+      "context": "质量验收流程",
+      "domain": "quality"
+    },
+    {
+      "alignment_id": "ALIGN-119",
+      "source_text": "跨境汇款中的中转行费用可能导致收款人收到的金额少于汇出金额。",
+      "target_text": "Intermediary bank fees in cross-border remittances may cause the amount received by the beneficiary to be less than the amount sent.",
+      "context": "支付成本解释",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-120",
+      "source_text": "如果买方破产，卖方有权停止在途货物的交付并解除合同。",
+      "target_text": "In the event of the buyer's bankruptcy, the seller has the right to stop the delivery of goods in transit and terminate the contract.",
+      "context": "违约与终止条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-121",
+      "source_text": "卸货地交货（DPU）是2020版术语的新变化，要求卖方负责在目的地卸货。",
+      "target_text": "Delivered at Place Unloaded (DPU) is a new change in the 2020 version of the terms, requiring the seller to be responsible for unloading the goods at the destination.",
+      "context": "贸易术语更新说明",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-122",
+      "source_text": "ATA单证册被誉为“货物的通关护照”，适用于临时进出口货物。",
+      "target_text": "The ATA Carnet is known as the 'Customs Passport for Goods' and is applicable to temporarily imported and exported goods.",
+      "context": "特殊清关文件",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-123",
+      "source_text": "汇票是由出口商签发的，要求进口商或其指定银行在见票时或未来特定日期付款的凭证。",
+      "target_text": "A Bill of Exchange is a document issued by the exporter requiring the importer or its designated bank to pay at sight or on a specific future date.",
+      "context": "金融票据定义",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-124",
+      "source_text": "易碎品必须使用双层瓦楞纸箱包装，并填充防震材料。",
+      "target_text": "Fragile items must be packed in double-wall corrugated boxes and filled with shock-absorbing materials.",
+      "context": "包装作业指导",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-125",
+      "source_text": "跨境电商零售进口商品按照货物征收关税和进口环节增值税、消费税。",
+      "target_text": "Cross-border e-commerce retail imported goods are levied with customs duties, import value-added tax, and consumption tax as cargo.",
+      "context": "电商税务政策",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-126",
+      "source_text": "由于原材料价格上涨超过20%，卖方有权根据价格调整条款重新议价。",
+      "target_text": "As the price of raw materials has risen by more than 20%, the seller has the right to renegotiate prices according to the price adjustment clause.",
+      "context": "合同调价条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-127",
+      "source_text": "保函（Letter of Indemnity）可用于在正本提单未到时申请先行提货。",
+      "target_text": "A Letter of Indemnity (LOI) can be used to apply for cargo release when the original Bill of Lading has not arrived.",
+      "context": "物流应急处理",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-128",
+      "source_text": "可转让信用证允许第一受益人将信用证的部分或全部权利转让给第二受益人。",
+      "target_text": "A transferable Letter of Credit allows the first beneficiary to transfer part or all of the rights of the L/C to a second beneficiary.",
+      "context": "信用证类型",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-129",
+      "source_text": "出口商必须严格遵守目的国关于食品标签标注的强制性规定。",
+      "target_text": "Exporters must strictly comply with the mandatory regulations of the destination country regarding food labeling.",
+      "context": "行业准入要求",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-130",
+      "source_text": "电子数据交换（EDI）技术实现了贸易单证在不同计算机系统间的自动传输。",
+      "target_text": "Electronic Data Interchange (EDI) technology enables the automatic transmission of trade documents between different computer systems.",
+      "context": "贸易数字化",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-131",
+      "source_text": "背对背信用证通常用于中间商参与的贸易模式，以保护供应商和最终客户的信息。",
+      "target_text": "Back-to-back Letters of Credit are typically used in trade models involving middleman to protect the information of suppliers and end customers.",
+      "context": "复杂贸易结算",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-132",
+      "source_text": "如果发生海损，承运人和托运人应根据《海牙规则》共同分担损失。",
+      "target_text": "In the event of general average, the carrier and the shipper shall share the loss jointly according to the Hague Rules.",
+      "context": "海运法律实务",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-133",
+      "source_text": "卖方保证所供货物为全新、未使用过，且完全符合合同约定的质量要求。",
+      "target_text": "The seller guarantees that the goods supplied are brand new, unused, and fully comply with the quality requirements agreed in the contract.",
+      "context": "质量承诺条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-134",
+      "source_text": "离岸账户（OSA）为跨国企业提供了便捷的境外资金汇划和外汇兑换服务。",
+      "target_text": "Offshore Accounts (OSA) provide multinational enterprises with convenient overseas fund transfer and foreign exchange services.",
+      "context": "跨境金融服务",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-135",
+      "source_text": "根据《华盛顿公约》，含有濒危物种成分的产品禁止进行国际贸易。",
+      "target_text": "According to the CITES convention, products containing ingredients from endangered species are prohibited from international trade.",
+      "context": "环境管制政策",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-136",
+      "source_text": "集装箱超重会导致码头拒绝装船，并产生额外的倒箱费用。",
+      "target_text": "Overweight containers will lead to terminals refusing to load the vessel and incur additional restowing charges.",
+      "context": "物流作业风险",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-137",
+      "source_text": "买方应承担因其未及时提供进口许可而产生的所有仓储费用。",
+      "target_text": "The buyer shall bear all storage costs arising from their failure to provide the import license in a timely manner.",
+      "context": "责任归属条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-138",
+      "source_text": "通过REACH认证是化工产品进入欧盟市场的必要前提。",
+      "target_text": "Passing REACH certification is a necessary prerequisite for chemical products to enter the EU market.",
+      "context": "化学品合规",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-139",
+      "source_text": "实际承运人是指接受委托执行运输任务的船公司或航空公司。",
+      "target_text": "The actual carrier refers to the shipping line or airline that accepts the entrustment to perform the transport task.",
+      "context": "物流术语定义",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-140",
+      "source_text": "软条款是指信用证中可能导致开证行免除支付义务的隐蔽性限制条款。",
+      "target_text": "Soft clauses refer to hidden restrictive provisions in a Letter of Credit that may lead to the issuing bank being relieved of its payment obligation.",
+      "context": "结算风险警示",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-141",
+      "source_text": "原产地证上的货描必须与商业发票及合同中的描述完全一致。",
+      "target_text": "The cargo description on the Certificate of Origin must strictly match the description in the commercial invoice and the contract.",
+      "context": "单证一致性检查",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-142",
+      "source_text": "甲方同意授予乙方在该国家内为期三年的独家经销权。",
+      "target_text": "Party A agrees to grant Party B an exclusive distributorship within that country for a period of three years.",
+      "context": "经销协议条款",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-143",
+      "source_text": "拼箱运费通常按体积吨（CBM）或重量吨（TNE）中较高者计收。",
+      "target_text": "LCL freight is usually charged based on the higher of the volume ton (CBM) or weight ton (TNE).",
+      "context": "物流计费说明",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-144",
+      "source_text": "如果出现质量异议，双方应共同委托一家国际认可的第三方机构进行检测。",
+      "target_text": "If a quality dispute arises, both parties shall jointly appoint an internationally recognized third-party institution for testing.",
+      "context": "争议解决流程",
+      "domain": "quality"
+    },
+    {
+      "alignment_id": "ALIGN-145",
+      "source_text": "外汇核销制度是确保出口收汇和进口付汇真实性的监管手段。",
+      "target_text": "The foreign exchange verification system is a supervisory measure to ensure the authenticity of export collection and import payment.",
+      "context": "外汇管理政策",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-146",
+      "source_text": "报关单上的贸易方式代码“0110”代表一般贸易。",
+      "target_text": "The trade mode code '0110' on the customs declaration form represents General Trade.",
+      "context": "海关编码说明",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-147",
+      "source_text": "产品说明书应提供多语言版本，以满足全球不同市场客户的需求。",
+      "target_text": "Product manuals should be provided in multiple languages to meet the needs of customers in different markets worldwide.",
+      "context": "产品文档规范",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-148",
+      "source_text": "由于船舶机械故障导致的航程中断属于承运人的免责范围吗？",
+      "target_text": "Is the interruption of the voyage caused by a ship's mechanical failure within the carrier's scope of exemption?",
+      "context": "物流法律咨询",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-149",
+      "source_text": "反补贴税旨在抵消外国政府给予其出口商的非法补贴所产生的影响。",
+      "target_text": "Countervailing duties are designed to offset the impact of illegal subsidies provided by foreign governments to their exporters.",
+      "context": "贸易保护政策",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-150",
+      "source_text": "除非得到甲方的书面许可，乙方不得在任何广告中使用甲方的商标。",
+      "target_text": "Unless written permission is obtained from Party A, Party B shall not use Party A's trademarks in any advertising.",
+      "context": "品牌保护条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-151",
+      "source_text": "在RCEP协议下，成员国之间超过90%的货物贸易将最终实现零关税。",
+      "target_text": "Under the RCEP agreement, more than 90% of trade in goods between member states will eventually achieve zero tariffs.",
+      "context": "区域贸易政策",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-152",
+      "source_text": "出口至东盟国家的货物需申请中国-东盟原产地证明（FORM E）以享受关税减免。",
+      "target_text": "Goods exported to ASEAN countries need to apply for the China-ASEAN Certificate of Origin (FORM E) to enjoy tariff reductions.",
+      "context": "优惠原产地证",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-153",
+      "source_text": "清真认证（Halal Certification）是食品进入马来西亚和印度尼西亚市场的关键准入门槛。",
+      "target_text": "Halal Certification is a key market entry requirement for food products entering the Malaysian and Indonesian markets.",
+      "context": "宗教合规要求",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-154",
+      "source_text": "中老铁路的开通大幅缩短了中国西南部与东南亚国家之间的货运时间。",
+      "target_text": "The opening of the China-Laos Railway has significantly shortened the freight transport time between Southwest China and Southeast Asian countries.",
+      "context": "跨境铁路运输",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-155",
+      "source_text": "跨境电商平台如Shopee和Lazada已成为中国品牌进入东南亚市场的主要渠道。",
+      "target_text": "Cross-border e-commerce platforms such as Shopee and Lazada have become the main channels for Chinese brands to enter the Southeast Asian market.",
+      "context": "平台贸易模式",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-156",
+      "source_text": "泰国TISI认证覆盖了电子、建材及日化等多个类别的强制性安全标准。",
+      "target_text": "Thailand's TISI certification covers mandatory safety standards for several categories, including electronics, building materials, and daily chemicals.",
+      "context": "产品质量认证",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-157",
+      "source_text": "泛亚铁路网络预计将连接昆明与曼谷、吉隆坡及新加坡。",
+      "target_text": "The Pan-Asia Railway network is expected to connect Kunming with Bangkok, Kuala Lumpur, and Singapore.",
+      "context": "区域基础设施",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-158",
+      "source_text": "越南近年来已成为全球电子产品和纺织业的重要制造基地。",
+      "target_text": "Vietnam has become an important manufacturing hub for global electronics and the textile industry in recent years.",
+      "context": "产业迁移描述",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-159",
+      "source_text": "印度尼西亚的BPOM认证对进口化妆品和药品的成分及标签有严格要求。",
+      "target_text": "Indonesia's BPOM certification has strict requirements for the ingredients and labeling of imported cosmetics and medicines.",
+      "context": "药品监管合规",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-160",
+      "source_text": "新加坡港作为国际航运枢纽，是连接中国与大洋洲及欧洲的重要中转港。",
+      "target_text": "As an international shipping hub, the Port of Singapore is a key transshipment port connecting China with Oceania and Europe.",
+      "context": "国际航运枢纽",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-161",
+      "source_text": "中泰本币结算协议有助于降低两国企业在贸易中的汇兑成本。",
+      "target_text": "The China-Thailand local currency settlement agreement helps reduce exchange costs for enterprises in both countries during trade.",
+      "context": "货币结算政策",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-162",
+      "source_text": "马六甲海峡的通行效率直接影响到中国东部沿海地区的能源供应安全。",
+      "target_text": "The traffic efficiency of the Strait of Malacca directly affects the energy supply security of China's eastern coastal areas.",
+      "context": "航运通道战略",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-163",
+      "source_text": "菲律宾的国家税务局（BIR）要求所有进口商必须进行税务登记并获取ICC证书。",
+      "target_text": "The Bureau of Internal Revenue (BIR) of the Philippines requires all importers to undergo tax registration and obtain an ICC certificate.",
+      "context": "进口税务合规",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-164",
+      "source_text": "大湄公河次区域（GMS）跨境运输便利化协定旨在简化边境查验程序。",
+      "target_text": "The Greater Mekong Subregion (GMS) Cross-Border Transport Facilitation Agreement aims to simplify border inspection procedures.",
+      "context": "边境贸易便利化",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-165",
+      "source_text": "在马来西亚进行投资，企业可以申请享受新兴工业地位（Pioneer Status）的税收优惠。",
+      "target_text": "When investing in Malaysia, enterprises can apply for tax incentives under the Pioneer Status.",
+      "context": "海外投资政策",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-166",
+      "source_text": "由于东南亚地区气候潮湿，出口货物的包装需额外注意防潮处理。",
+      "target_text": "Due to the humid climate in Southeast Asia, packaging for exported goods needs extra attention to moisture-proof treatment.",
+      "context": "物流包装要求",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-167",
+      "source_text": "泰国作为东南亚的汽车制造中心，对零配件的进口需求巨大。",
+      "target_text": "As the automotive manufacturing hub of Southeast Asia, Thailand has a huge demand for the import of spare parts.",
+      "context": "行业市场分析",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-168",
+      "source_text": "通过“南向通道”，重庆及周边地区的货物可以更快速地抵达广西北部湾港。",
+      "target_text": "Through the 'Southbound Channel,' goods from Chongqing and surrounding areas can reach Guangxi Beibu Gulf Port more quickly.",
+      "context": "多式联运路径",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-169",
+      "source_text": "越南海关近期加强了对原产地欺诈行为的打击，以防止转口贸易违规。",
+      "target_text": "Vietnam Customs has recently strengthened its crackdown on origin fraud to prevent violations in re-export trade.",
+      "context": "监管风险通告",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-170",
+      "source_text": "货代公司应熟悉印尼的红灯期（Red Line）政策，以应对更严格的实物查验。",
+      "target_text": "Freight forwarders should be familiar with Indonesia's 'Red Line' policy to cope with stricter physical inspections.",
+      "context": "清关风险管理",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-171",
+      "source_text": "跨境电子支付在东南亚的普及，催生了GrabPay和GoPay等本地支付巨头。",
+      "target_text": "The popularity of cross-border electronic payments in Southeast Asia has given birth to local payment giants like GrabPay and GoPay.",
+      "context": "支付生态描述",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-172",
+      "source_text": "RCEP原产地累积规则有助于企业更灵活地在区域内配置产业链。",
+      "target_text": "The RCEP cumulative rules of origin help enterprises configure their industry chains within the region more flexibly.",
+      "context": "原产地规则应用",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-173",
+      "source_text": "柬埔寨的经济特区（SEZ）为外资企业提供了长期免税和土地使用权保障。",
+      "target_text": "Cambodia's Special Economic Zones (SEZs) provide foreign enterprises with long-term tax exemptions and land use rights guarantees.",
+      "context": "投资环境介绍",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-174",
+      "source_text": "由于缅甸局势不稳定，建议在合同中加入更详细的不可抗力条款。",
+      "target_text": "Due to the instability in Myanmar, it is recommended to include more detailed force majeure clauses in the contract.",
+      "context": "风险防控建议",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-175",
+      "source_text": "新加坡的商品服务税（GST）对于所有进口至该国的货物均适用。",
+      "target_text": "Singapore's Goods and Services Tax (GST) applies to all goods imported into the country.",
+      "context": "税收政策说明",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-176",
+      "source_text": "出口商应确保提单上的收货人地址包含准确的邮政编码和联系电话。",
+      "target_text": "Exporters should ensure that the consignee's address on the Bill of Lading includes an accurate postal code and contact number.",
+      "context": "物流单证细节",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-177",
+      "source_text": "中越跨境陆路运输中，常见的清关模式是在友谊关口岸进行换装。",
+      "target_text": "In China-Vietnam cross-border land transport, a common clearance mode is transshipment at the Youyiguan border gate.",
+      "context": "跨境物流操作",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-178",
+      "source_text": "印度尼西亚要求特定种类的钢材及家电产品必须加贴SNI认证标识。",
+      "target_text": "Indonesia requires that certain types of steel and household appliance products must be affixed with the SNI certification mark.",
+      "context": "产品准入标志",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-179",
+      "source_text": "随着区域全面经济伙伴关系协定的实施，中日韩与东盟的经贸往来愈发紧密。",
+      "target_text": "With the implementation of RCEP, economic and trade ties between China, Japan, South Korea, and ASEAN have become increasingly close.",
+      "context": "宏观经济趋势趋势",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-180",
+      "source_text": "本合同争议应提交至新加坡国际仲裁中心（SIAC）按其规则进行仲裁。",
+      "target_text": "Any dispute under this contract shall be submitted to the Singapore International Arbitration Centre (SIAC) for arbitration in accordance with its rules.",
+      "context": "争议解决条款",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-181",
+      "source_text": "东盟单一窗口（ASW）旨在通过电子化手段交换原产地证书等贸易单证，以加快清关速度。",
+      "target_text": "The ASEAN Single Window (ASW) aims to exchange trade documents such as Certificates of Origin electronically to expedite customs clearance.",
+      "context": "区域贸易数字化",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-182",
+      "source_text": "越南《15/2018/ND-CP号议定》详细规定了进口食品、化妆品的自我宣告及注册流程。",
+      "target_text": "Vietnam's Decree No. 15/2018/ND-CP details the self-declaration and registration procedures for imported food and cosmetics.",
+      "context": "法规合规说明",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-183",
+      "source_text": "泰国东部经济走廊（EEC）计划为高科技产业投资提供了极具吸引力的税收减免政策。",
+      "target_text": "Thailand's Eastern Economic Corridor (EEC) scheme provides highly attractive tax incentive policies for high-tech industry investments.",
+      "context": "区域投资政策",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-184",
+      "source_text": "东盟协调关税税则（AHTN）确保了成员国之间在商品分类上的一致性。",
+      "target_text": "The ASEAN Harmonised Tariff Nomenclature (AHTN) ensures consistency in commodity classification among member states.",
+      "context": "关税分类标准",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-185",
+      "source_text": "中马跨境二维码支付互联互通，方便了两国游客及小微贸易商的结算。",
+      "target_text": "The interconnection of China-Malaysia cross-border QR code payments facilitates settlements for tourists and micro-traders of both countries.",
+      "context": "支付便利化",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-186",
+      "source_text": "出口到印度尼西亚的钢铁产品必须获得印尼国家标准（SNI）的强制认证。",
+      "target_text": "Steel products exported to Indonesia must obtain mandatory Indonesia National Standard (SNI) certification.",
+      "context": "行业准入标准",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-187",
+      "source_text": "老挝作为“陆联国”，通过磨丁和万象的陆港节点连接了东南亚与欧亚大陆。",
+      "target_text": "As a 'land-linked country,' Laos connects Southeast Asia with the Eurasian continent through dry port nodes in Boten and Vientiane.",
+      "context": "物流枢纽描述",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-188",
+      "source_text": "菲律宾的自由贸易区（PEZA）为外贸加工企业提供了进出口零关税和长期的所得税免除。",
+      "target_text": "The Philippine Economic Zone Authority (PEZA) provides foreign trade processing enterprises with zero import-export duties and long-term income tax exemptions.",
+      "context": "特区政策优惠",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-189",
+      "source_text": "在新加坡注册商标可以通过马德里议定书体系实现多国同时申请。",
+      "target_text": "Registering a trademark in Singapore allows for simultaneous applications in multiple countries through the Madrid Protocol system.",
+      "context": "知识产权保护",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-190",
+      "source_text": "由于菲律宾是万岛之国，跨岛海运在其国内物流体系中占据核心地位。",
+      "target_text": "As the Philippines is an archipelago, inter-island shipping holds a core position in its domestic logistics system.",
+      "context": "物流特征描述",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-191",
+      "source_text": "自由销售证书（CFS）通常是东南亚国家监管部门对进口医疗器械的必要要求。",
+      "target_text": "A Certificate of Free Sale (CFS) is usually a necessary requirement for imported medical devices by regulatory authorities in Southeast Asian countries.",
+      "context": "医疗器械合规",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-192",
+      "source_text": "出口商在申请FORM E时，需确保第三方贸易发票的勾选项已被正确标注。",
+      "target_text": "When applying for FORM E, exporters need to ensure that the checkbox for 'Third Party Invoicing' has been correctly marked.",
+      "context": "原产地证操作",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-193",
+      "source_text": "印度尼西亚政府要求化妆品进口商必须在本地BPOM系统内完成产品备案。",
+      "target_text": "The Indonesian government requires cosmetics importers to complete product notification within the local BPOM system.",
+      "context": "美妆准入政策",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-194",
+      "source_text": "新加坡的转口贸易非常发达，其先进的保税设施适合建立区域分拨中心。",
+      "target_text": "Singapore's entrepôt trade is highly developed, and its advanced bonded facilities are suitable for establishing regional distribution centers.",
+      "context": "物流选址建议",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-195",
+      "source_text": "印度尼西亚2014年第33号法律强制要求进入该国的所有食品必须经过清关认证。",
+      "target_text": "Indonesia's Law No. 33 of 2014 mandates that all food products entering the country must undergo Halal certification.",
+      "context": "宗教法律合规",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-196",
+      "source_text": "中越边境的凭祥口岸是中国最大的水果进口陆路口岸。",
+      "target_text": "The Pingxiang port on the China-Vietnam border is China's largest land port for fruit imports.",
+      "context": "跨境物流节点",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-197",
+      "source_text": "在Shopee平台交易中，货款通常由系统托管，直到买方确认收货后才结算给卖方。",
+      "target_text": "In Shopee transactions, the payment is usually held in escrow by the system and only settled to the seller after the buyer confirms receipt.",
+      "context": "电商支付安全",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-198",
+      "source_text": "RCEP区域内价值成分（RVC）的计算可以累积来自所有成员国的原材料价值。",
+      "target_text": "The calculation of Regional Value Content (RVC) within RCEP can accumulate raw material values from all member states.",
+      "context": "原产地价值累积",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-199",
+      "source_text": "马尼拉港口的拥堵情况经常导致集装箱滞期费的大幅增加。",
+      "target_text": "Congestion at Manila ports often leads to a significant increase in container demurrage charges.",
+      "context": "物流成本预警",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-200",
+      "source_text": "电子提单（eB/L）在东南亚部分航线上的试点，极大地缩短了单证流转时间。",
+      "target_text": "The pilot projects for electronic Bills of Lading (eB/L) on some Southeast Asian routes have greatly shortened the document turnover time.",
+      "context": "航运数字化",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-201",
+      "source_text": "越南劳工法对于加班时数和社保缴纳有非常明确且严格的限制。",
+      "target_text": "Vietnam's Labor Law has very clear and strict restrictions on overtime hours and social security contributions.",
+      "context": "海外工厂管理",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-202",
+      "source_text": "泰国农业部要求所有进口的新鲜水果必须附带植检证书并经过有害生物分析。",
+      "target_text": "The Ministry of Agriculture of Thailand requires all imported fresh fruits to be accompanied by a Phytosanitary Certificate and undergo Pest Risk Analysis.",
+      "context": "农产品检疫",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-203",
+      "source_text": "东盟支付连接（APC）倡议旨在实现区域内多国货币支付系统的即时互联。",
+      "target_text": "The ASEAN Payment Connectivity (APC) initiative aims to achieve instant interconnection of payment systems for multiple currencies within the region.",
+      "context": "金融基础设施",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-204",
+      "source_text": "根据中泰双边协定，部分农产品在特定配额内可以享受零关税进口。",
+      "target_text": "According to the China-Thailand bilateral agreement, certain agricultural products can enjoy zero-tariff import within specific quotas.",
+      "context": "关税配额政策",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-205",
+      "source_text": "马来西亚的SIRIM认证主要针对通信设备、电子电器及防火器材等产品。",
+      "target_text": "Malaysia's SIRIM certification mainly targets products such as communication equipment, electronics, and fire-fighting apparatus.",
+      "context": "产品认证要求",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-206",
+      "source_text": "出口至东南亚的散货拼箱（LCL）建议选择信誉良好的中性货代以避免产生高额目的港费。",
+      "target_text": "For LCL shipments to Southeast Asia, it is recommended to choose reputable neutral freight forwarders to avoid high destination port charges.",
+      "context": "物流择优建议",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-207",
+      "source_text": "越南目前是中国在东盟最大的贸易伙伴，双边经贸互补性极强。",
+      "target_text": "Vietnam is currently China's largest trading partner in ASEAN, with strong economic and trade complementarity.",
+      "context": "区域经贸概况",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-208",
+      "source_text": "在印尼进行电商业务，必须遵守政府关于最低进口价格的相关限制规定。",
+      "target_text": "When conducting e-commerce business in Indonesia, one must comply with the government's relevant restrictions on minimum import prices.",
+      "context": "电商监管合规",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-209",
+      "source_text": "中泰铁路作为“一带一路”旗舰项目，将显著提升区域内的互联互通水平。",
+      "target_text": "As a flagship project of the 'Belt and Road' initiative, the China-Thailand Railway will significantly enhance regional connectivity.",
+      "context": "基础设施建设",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-210",
+      "source_text": "若合同涉及多国法律，建议在新加坡国际商事法庭（SICC）进行审理。",
+      "target_text": "If the contract involves the laws of multiple countries, it is recommended to conduct proceedings in the Singapore International Commercial Court (SICC).",
+      "context": "司法解决路径",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-211",
+      "source_text": "RCEP的直接运输规则要求，货物在中转国停留期间不得进行超过装卸以外的任何加工。",
+      "target_text": "The direct consignment rule of RCEP requires that goods must not undergo any processing beyond loading and unloading while staying in a transit country.",
+      "context": "原产地合规要求",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-212",
+      "source_text": "胡志明市的高科技园区（SHTP）吸引了大量跨国电子巨头入驻并享受企业所得税减免。",
+      "target_text": "The Saigon Hi-Tech Park (SHTP) has attracted numerous global electronics giants to settle in and enjoy corporate income tax exemptions.",
+      "context": "越南投资环境",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-213",
+      "source_text": "出口至泰国的膳食补充剂必须在泰国食品药品监督管理局（FDA）进行产品注册。",
+      "target_text": "Dietary supplements exported to Thailand must undergo product registration with the Thai Food and Drug Administration (FDA).",
+      "context": "食品准入规范",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-214",
+      "source_text": "印度尼西亚的本地内容率（TKDN）政策要求在特定领域的政府采购中优先使用本地产品。",
+      "target_text": "Indonesia's Local Content Requirement (TKDN) policy requires priority for local products in government procurement in specific sectors.",
+      "context": "产业准入政策",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-215",
+      "source_text": "马来西亚数字自由贸易区（DFTZ）通过简化报关程序，助力中小企业向全球出口。",
+      "target_text": "The Malaysia Digital Free Trade Zone (DFTZ) helps SMEs export globally by simplifying customs clearance procedures.",
+      "context": "电商枢纽政策",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-216",
+      "source_text": "新加坡自2023年起对进口低价货物（LVG）征收商品服务税，以平衡线上线下竞争。",
+      "target_text": "Singapore has imposed Goods and Services Tax (GST) on imported Low-Value Goods (LVG) since 2023 to balance online and offline competition.",
+      "context": "电商税务更新",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-217",
+      "source_text": "中老铁路开通后，泰国榴莲通过冷链专列运输到中国的时间缩短至不到三天。",
+      "target_text": "With the opening of the China-Laos Railway, the transport time for Thai durians via cold chain trains to China has been shortened to less than three days.",
+      "context": "生鲜冷链物流",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-218",
+      "source_text": "柬埔寨在RCEP协议下的降税安排分阶段进行，重点保护其脆弱的国内工业。",
+      "target_text": "Cambodia's tariff reduction schedule under the RCEP agreement is implemented in stages, focusing on protecting its fragile domestic industries.",
+      "context": "关税减免进度",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-219",
+      "source_text": "菲律宾投资署（BOI）为符合战略投资计划的项目提供长期的所得税假期优惠。",
+      "target_text": "The Philippine Board of Investments (BOI) provides long-term income tax holiday incentives for projects meeting the Strategic Investment Priority Plan.",
+      "context": "投资优惠政策",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-220",
+      "source_text": "印度尼西亚通过PMK 199条例降低了跨境电商进口货物的起征点，以保护本地纺织业。",
+      "target_text": "Indonesia lowered the de minimis threshold for cross-border e-commerce imports through Regulation PMK 199 to protect the local textile industry.",
+      "context": "贸易保护措施",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-221",
+      "source_text": "中国-东盟自贸区3.0版谈判旨在进一步加强数字经济、绿色经济和供应链连接。",
+      "target_text": "The negotiations for Version 3.0 of the China-ASEAN Free Trade Area aim to further strengthen the digital economy, green economy, and supply chain connectivity.",
+      "context": "区域经贸合作",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-222",
+      "source_text": "通过越南海防港中转至老挝的转口贸易，需遵守越南关于过境货物的监管规定。",
+      "target_text": "Transit trade to Laos via Vietnam's Hai Phong Port must comply with Vietnamese regulatory requirements for transit goods.",
+      "context": "转口贸易实务",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-223",
+      "source_text": "泰国SMART签证计划专门为吸引高科技领域的技术专家和投资者而设立。",
+      "target_text": "The Thailand SMART Visa program is specifically established to attract technical experts and investors in high-tech sectors.",
+      "context": "人才引进行政",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-224",
+      "source_text": "马来西亚已建立完善的清真物流标准，涵盖了从仓储到运输的全过程隔离要求。",
+      "target_text": "Malaysia has established a complete Halal logistics standard, covering segregation requirements throughout the entire process from warehousing to transportation.",
+      "context": "清真物流规范",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-225",
+      "source_text": "印度尼西亚的在线单一提交（OSS）系统简化了外资企业获取营业执照的流程。",
+      "target_text": "Indonesia's Online Single Submission (OSS) system has simplified the process for foreign enterprises to obtain business licenses.",
+      "context": "政务服务便利化",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-226",
+      "source_text": "缅甸商务部经常调整进口许可证清单，出口商需密切关注其最新的公告。",
+      "target_text": "The Ministry of Commerce of Myanmar frequently adjusts the import license list; exporters need to closely monitor their latest announcements.",
+      "context": "贸易政策波动",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-227",
+      "source_text": "丹戎帕拉帕斯港（PTP）作为马来西亚最大的转运枢纽，与新加坡港竞争激烈。",
+      "target_text": "As Malaysia's largest transshipment hub, the Port of Tanjung Pelepas (PTP) competes fiercely with the Port of Singapore.",
+      "context": "港口物流格局",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-228",
+      "source_text": "越南实施第78号通函后，所有在越南境内的企业必须全面采用电子发票。",
+      "target_text": "After the implementation of Circular 78 in Vietnam, all enterprises in the country must fully adopt electronic invoices.",
+      "context": "财务合规要求",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-229",
+      "source_text": "泰国PromptPay系统已实现与新加坡PayNow的跨境互联，支持即时小额转账。",
+      "target_text": "Thailand's PromptPay system has achieved cross-border interconnection with Singapore's PayNow, supporting instant small-value transfers.",
+      "context": "区域支付连接",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-230",
+      "source_text": "中老铁路货运采用“铁路直通”模式，减少了货物在边境口的通关手续。",
+      "target_text": "The China-Laos Railway freight uses a 'Railway Through' model, reducing customs clearance procedures at the border.",
+      "context": "跨境铁路创新",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-231",
+      "source_text": "印度尼西亚禁止镍矿原矿出口，旨在推动国内不锈钢和动力电池产业链的发展。",
+      "target_text": "Indonesia banned the export of raw nickel ore to promote the development of the domestic stainless steel and power battery industry chains.",
+      "context": "资源出口限制",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-232",
+      "source_text": "菲律宾海关（BOC）的自动化系统目前支持通过电子方式提交舱单及报关数据。",
+      "target_text": "The Philippine Bureau of Customs (BOC) automation system currently supports electronic submission of manifests and declaration data.",
+      "context": "海关信息化",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-233",
+      "source_text": "文莱政府通过“2035愿景”积极推动经济多元化，特别是在清真产业和旅游业方面。",
+      "target_text": "The Brunei government actively promotes economic diversification through 'Vision 2035,' particularly in the Halal industry and tourism.",
+      "context": "宏观发展战略",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-234",
+      "source_text": "RCEP背对背原产地证明允许货物在中间成员国分拆后，仍保留原产资格进入最终目的国。",
+      "target_text": "The RCEP back-to-back Certificate of Origin allows goods to retain their originating status into the final destination country after being split in an intermediate member country.",
+      "context": "高级原产地规则",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-235",
+      "source_text": "在东南亚雨季期间，仓库管理需特别关注托盘的垫高处理及通风除湿设施。",
+      "target_text": "During the rainy season in Southeast Asia, warehouse management needs to focus specifically on pallet elevating and ventilation/dehumidification facilities.",
+      "context": "物流仓储作业",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-236",
+      "source_text": "越南各地区的最低工资标准分为四个级别，河内和胡志明市属于第一类地区。",
+      "target_text": "Minimum wage standards in Vietnam are divided into four regions, with Hanoi and Ho Chi Minh City belonging to Region I.",
+      "context": "劳动用工成本",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-237",
+      "source_text": "泰国投资促进委员会（BOI）为符合条件的数字经济项目提供长达8年的企业所得税豁免。",
+      "target_text": "The Thailand Board of Investment (BOI) provides corporate income tax exemptions of up to 8 years for eligible digital economy projects.",
+      "context": "行业专项激励",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-238",
+      "source_text": "新加坡的自由贸易区（FTZ）允许货物在区内进行再包装、贴标等简单加工而无需缴纳关税。",
+      "target_text": "Singapore's Free Trade Zones (FTZ) allow goods to undergo simple processing such as repacking and labeling within the zone without paying customs duties.",
+      "context": "保税加工政策",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-239",
+      "source_text": "从南宁出发直达河内的跨境跨境卡车班列，实现了中越“门到门”的高效物流。",
+      "target_text": "The cross-border truck shuttle from Nanning directly to Hanoi achieves efficient 'door-to-door' logistics between China and Vietnam.",
+      "context": "公路运输模式",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-240",
+      "source_text": "电子原产地证书（e-CO）的互换已成为中国与东盟国家提高贸易便利化的重要举措。",
+      "target_text": "The exchange of electronic Certificates of Origin (e-CO) has become an important measure to improve trade facilitation between China and ASEAN countries.",
+      "context": "贸易无纸化",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-241",
+      "source_text": "RCEP协定下的经核准出口商制度，允许符合条件的生产商自主出具原产地声明，无需每笔都申领证书。",
+      "target_text": "The Approved Exporter system under the RCEP agreement allows eligible producers to issue self-declarations of origin without applying for certificates for every shipment.",
+      "context": "原产地自主声明制度",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-242",
+      "source_text": "越南工贸部（MOIT）对进口钢铁和化肥实施定期的自动进口许可证管理。",
+      "target_text": "Vietnam's Ministry of Industry and Trade (MOIT) implements regular automatic import licensing management for imported steel and fertilizers.",
+      "context": "贸易管制实务",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-243",
+      "source_text": "由于东南亚地区港口作业习惯不同，建议在海运合同中明确具体的滞期费计算起止点。",
+      "target_text": "As port operation habits vary in Southeast Asia, it is recommended to specify the starting and ending points for demurrage calculations in shipping contracts.",
+      "context": "海运合同细节",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-244",
+      "source_text": "中马“两国双园”模式，即钦州产业园和关丹产业园，构成了跨国产业链协作的典范。",
+      "target_text": "The 'Two Countries, Twin Parks' model between China and Malaysia, namely Qinzhou Industrial Park and Kuantan Industrial Park, constitutes a model for transnational supply chain collaboration.",
+      "context": "区域合作模式",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-245",
+      "source_text": "印度尼西亚要求所有进口化妆品必须在产品包装上标注本地经销商的名称和地址。",
+      "target_text": "Indonesia requires that all imported cosmetics must be labeled with the name and address of the local distributor on the product packaging.",
+      "context": "标签合规规范",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-246",
+      "source_text": "泰国的“国家单一窗口”已实现与东盟其他成员国的电子原产地证（e-Form D）自动核验。",
+      "target_text": "Thailand's National Single Window has achieved automatic verification of electronic Certificates of Origin (e-Form D) with other ASEAN member states.",
+      "context": "数字化通关",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-247",
+      "source_text": "中泰跨境人民币结算量的增加，显著降低了中小企业因美元汇率波动带来的财务损失。",
+      "target_text": "The increase in China-Thailand cross-border RMB settlement volume has significantly reduced financial losses for SMEs caused by US dollar exchange rate fluctuations.",
+      "context": "跨境结算趋势趋势",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-248",
+      "source_text": "柬埔寨西哈努克港作为其最大的深水港，是目前中国企业在柬投资及出口的首选中转点。",
+      "target_text": "Sihanoukville Port, as Cambodia's largest deep-water port, is currently the preferred transshipment point for Chinese enterprises investing and exporting in Cambodia.",
+      "context": "港口物流节点",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-249",
+      "source_text": "出口至菲律宾的家电产品需获得由标准局（BPS）签发的PS标志或ICC标志。",
+      "target_text": "Household appliances exported to the Philippines must obtain the PS mark or ICC mark issued by the Bureau of Philippine Standards (BPS).",
+      "context": "产品认证要求",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-250",
+      "source_text": "RCEP区域累积规则不仅适用于货物贸易，还涵盖了服务贸易中特定领域的准入承诺。",
+      "target_text": "The RCEP regional accumulation rule applies not only to trade in goods but also covers market access commitments in specific sectors of trade in services.",
+      "context": "协定范围解释",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-251",
+      "source_text": "由于越南节假日较多，特别是春节期间，企业需提前规划物流计划以避免港口积压。",
+      "target_text": "Due to the numerous holidays in Vietnam, especially during the Lunar New Year, enterprises need to plan logistics schedules in advance to avoid port backlogs.",
+      "context": "物流时效管理",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-252",
+      "source_text": "印度尼西亚政府实施的“落后地区优先”政策，为在该国东部省份投资的企业提供更多税收减免。",
+      "target_text": "The Indonesian government's 'Backward Regions Priority' policy provides more tax exemptions for enterprises investing in the country's eastern provinces.",
+      "context": "区域投资政策",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-253",
+      "source_text": "新加坡贸易信托（TradeTrust）框架旨在建立电子提单及其他贸易单据的国际标准。",
+      "target_text": "Singapore's TradeTrust framework aims to establish international standards for electronic Bills of Lading and other trade documents.",
+      "context": "贸易数字化标准",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-254",
+      "source_text": "出口到缅甸的农机设备通常需要通过指定的代理商向商务部申领进口许可证。",
+      "target_text": "Agricultural machinery exported to Myanmar usually requires applying for an import license from the Ministry of Commerce through a designated agent.",
+      "context": "行政审批要求",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-255",
+      "source_text": "马来西亚的本地货币结算（LCS）框架简化了企业直接使用马币与人民币进行贸易的流程。",
+      "target_text": "Malaysia's Local Currency Settlement (LCS) framework simplifies the process for enterprises to directly use MYR and RMB for trade.",
+      "context": "支付结算机制",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-256",
+      "source_text": "在越南进行跨境并购时，需特别注意关于外资持股比例限制及反垄断审查的规定。",
+      "target_text": "When conducting cross-border M&A in Vietnam, special attention should be paid to regulations on foreign ownership limits and anti-monopoly reviews.",
+      "context": "投资法律实务",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-257",
+      "source_text": "泰国的工业区管理局（IEAT）管理着全国大部分出口加工区，提供“一站式”行政服务。",
+      "target_text": "Thailand's Industrial Estate Authority (IEAT) manages most of the country's Export Processing Zones and provides 'one-stop' administrative services.",
+      "context": "特区管理咨询",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-258",
+      "source_text": "由于印尼海关对进口品名和编码核对极严，任何细微不符都可能导致罚款或退运。",
+      "target_text": "As Indonesian Customs is extremely strict with product names and codes, any slight discrepancy can lead to fines or re-shipment.",
+      "context": "清关风险规避",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-259",
+      "source_text": "中老泰铁路联运模式的开启，使得东南亚内陆地区的货物出海成本大幅降低。",
+      "target_text": "The launch of the China-Laos-Thailand railway intermodal transport model has significantly reduced shipping costs for goods in Southeast Asia's inland regions.",
+      "context": "多式联运应用",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-260",
+      "source_text": "新加坡个人数据保护法（PDPA）对跨国企业处理东南亚客户数据提出了严格要求。",
+      "target_text": "Singapore's Personal Data Protection Act (PDPA) sets strict requirements for multinational enterprises handling the data of Southeast Asian customers.",
+      "context": "合规与隐私保护",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-261",
+      "source_text": "在印尼进行跨境电商直邮，需注意单次交易金额超过1500美元时可能触发的正式报关流程。",
+      "target_text": "For cross-border e-commerce direct mail in Indonesia, notice should be taken that transactions exceeding $1,500 may trigger the formal customs entry process.",
+      "context": "电商通关政策",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-262",
+      "source_text": "马来西亚政府通过“数码博览会”等措施，积极推动本地中小企业对接中国供应链。",
+      "target_text": "The Malaysian government actively promotes local SMEs to connect with Chinese supply chains through measures such as 'Digital Fairs.'",
+      "context": "行业促进活动",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-263",
+      "source_text": "越南劳动合同法规定，雇主在终止长期合同前必须至少提前45天书面通知员工。",
+      "target_text": "Vietnam's Labor Contract Law stipulates that employers must provide at least 45 days' written notice to employees before terminating a long-term contract.",
+      "context": "人力资源管理",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-264",
+      "source_text": "泰国对于进口二手机械设备有严格的年限限制和性能检测要求。",
+      "target_text": "Thailand has strict age limits and performance testing requirements for imported used machinery and equipment.",
+      "context": "设备进口规定",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-265",
+      "source_text": "中欧班列（东盟联运）通过广西凭祥口岸，实现了东南亚与欧洲市场的陆路直联。",
+      "target_text": "The China-Europe Railway Express (ASEAN Intermodal) connects Southeast Asian and European markets directly via land through Guangxi's Pingxiang Port.",
+      "context": "国际物流通道",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-266",
+      "source_text": "印度尼西亚的预提税（PPH）规定对跨境服务报酬的支付比例有具体差异。",
+      "target_text": "Indonesia's withholding tax (PPH) regulations have specific variations in the payment ratios for cross-border service compensation.",
+      "context": "跨境税务实务",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-267",
+      "source_text": "越南海关允许符合AEO（经认证的经营者）资质的企业享受较低的查验率和优先通关权。",
+      "target_text": "Vietnam Customs allows enterprises with AEO (Authorized Economic Operator) status to enjoy lower inspection rates and priority clearance rights.",
+      "context": "信用管理制度",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-268",
+      "source_text": "在跨境贸易纠纷中，仲裁地选择在新加坡通常被认为具有公正性和国际认可度。",
+      "target_text": "In cross-border trade disputes, choosing Singapore as the seat of arbitration is generally considered to offer impartiality and international recognition.",
+      "context": "纠纷解决建议",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-269",
+      "source_text": "泰国的生物、循环与绿色（BCG）经济模式为新能源汽车零部件出口带来了新机遇。",
+      "target_text": "Thailand's Bio-Circular-Green (BCG) economic model has brought new opportunities for the export of new energy vehicle parts.",
+      "context": "新兴行业分析",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-270",
+      "source_text": "由于东南亚地区部分公路路况复杂，大件运输建议提前进行路线查勘和当地交通许可申请。",
+      "target_text": "Due to complex road conditions in parts of Southeast Asia, it is recommended to conduct route surveys and apply for local transport permits in advance for oversized cargo.",
+      "context": "物流风险防控",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-271",
+      "source_text": "RCEP区域累积规则显著降低了企业获得原产资格的门槛，促进了区域内中间品的贸易。",
+      "target_text": "The RCEP regional accumulation rule significantly lowers the threshold for enterprises to obtain originating status and promotes trade in intermediate goods within the region.",
+      "context": "原产地规则深度应用",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-272",
+      "source_text": "在东南亚部分电商市场，货到付款（COD）仍是消费者首选的支付方式，这对物流的回款能力提出了要求。",
+      "target_text": "In some Southeast Asian e-commerce markets, Cash on Delivery (COD) remains the preferred payment method for consumers, which demands high collection capabilities from logistics providers.",
+      "context": "电商支付习惯",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-273",
+      "source_text": "马来西亚的巴生港（Port Klang）作为区域分拨中心，拥有完善的保税仓储和增值加工设施。",
+      "target_text": "Port Klang in Malaysia, as a regional distribution center, possesses comprehensive bonded warehousing and value-added processing facilities.",
+      "context": "物流枢纽介绍",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-274",
+      "source_text": "根据“中国+1”策略，许多制造企业正在越南建立二级生产基地，以分散供应链风险。",
+      "target_text": "According to the 'China Plus One' strategy, many manufacturing enterprises are establishing secondary production bases in Vietnam to diversify supply chain risks.",
+      "context": "供应链战略分析",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-275",
+      "source_text": "印度尼西亚政府要求对所有进口成品实施清真标记强制化，并设立了分阶段实施的过渡期。",
+      "target_text": "The Indonesian government requires mandatory Halal labeling for all imported finished products and has established a transition period for phased implementation.",
+      "context": "准入强制要求",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-276",
+      "source_text": "泰国政府推出的“十年长期居民签证（LTR）”旨在吸引全球高技能专业人士和富裕投资者。",
+      "target_text": "The '10-Year Long-Term Resident (LTR) Visa' launched by the Thai government aims to attract global highly skilled professionals and wealthy investors.",
+      "context": "投资居留政策",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-277",
+      "source_text": "跨境电子海关单据的标准化互认，是缩短中越陆路口岸车辆排队时间的有效手段。",
+      "target_text": "Standardized mutual recognition of cross-border electronic customs documents is an effective means to shorten vehicle queuing times at China-Vietnam land ports.",
+      "context": "通关效率优化",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-278",
+      "source_text": "新加坡金融管理局（MAS）积极推动区块链技术在跨境贸易融资中的应用，以减少欺诈风险。",
+      "target_text": "The Monetary Authority of Singapore (MAS) actively promotes the application of blockchain technology in cross-border trade finance to reduce fraud risks.",
+      "context": "金融科技创新",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-279",
+      "source_text": "在印尼进行矿产资源开发投资，必须严格遵守关于矿石本地冶炼和深加工的强制规定。",
+      "target_text": "To invest in mineral resource development in Indonesia, one must strictly comply with mandatory regulations on local ore smelting and deep processing.",
+      "context": "资源投资合规",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-280",
+      "source_text": "泰国的林查班港（Laem Chabang）是其主要的深水港，承载了该国绝大部分的集装箱进出口业务。",
+      "target_text": "Laem Chabang Port in Thailand is its main deep-water port, handling the vast majority of the country's container import and export business.",
+      "context": "港口物流实务",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-281",
+      "source_text": "由于越南法律体系的独特性，建议在签署合同时同步准备经公证的越文翻译件。",
+      "target_text": "Due to the uniqueness of the Vietnamese legal system, it is recommended to prepare notarized Vietnamese translations concurrently when signing contracts.",
+      "context": "法律文书规范",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-282",
+      "source_text": "RCEP的原产地声明可以由出口商或生产商基于对产品原产资格的了解自主签发。",
+      "target_text": "The RCEP declaration of origin can be self-issued by the exporter or producer based on their knowledge of the product's originating status.",
+      "context": "原产地自主声明",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-283",
+      "source_text": "马来西亚的绿色投资免税额（GITA）为从事太阳能、生物质能等项目的企业提供显著的税务优惠。",
+      "target_text": "Malaysia's Green Investment Tax Allowance (GITA) provides significant tax incentives for enterprises engaged in solar energy, biomass energy, and similar projects.",
+      "context": "绿色贸易激励",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-284",
+      "source_text": "针对东南亚市场的短视频营销和直播带货，已成为跨境卖家获取流量的新增长点。",
+      "target_text": "Short video marketing and live-stream e-commerce targeting the Southeast Asian market have become new growth points for cross-border sellers to acquire traffic.",
+      "context": "营销模式创新趋势",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-285",
+      "source_text": "印度尼西亚的信用证申请书必须明确货物的到货港，且单证需符合当地中央银行的合规要求。",
+      "target_text": "The Letter of Credit application in Indonesia must clearly specify the port of arrival, and the documents must comply with the compliance requirements of the local central bank.",
+      "context": "金融结算细节",
+      "domain": "payment"
+    },
+    {
+      "alignment_id": "ALIGN-286",
+      "source_text": "通过澜沧江-湄公河水路运输，中国西南地区的化肥和农机可以直达泰国的清盛港。",
+      "target_text": "Through Lancang-Mekong waterway transport, fertilizers and agricultural machinery from Southwest China can reach Thailand's Chiang Saen Port directly.",
+      "context": "水路运输通道",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-287",
+      "source_text": "越南海关近期启用的自动货物放行系统（VASSCM），显著减少了港口提货的人工干预。",
+      "target_text": "The Vietnam Automated System for Seaport Customs Management (VASSCM), recently enabled by Vietnam Customs, has significantly reduced manual intervention in port pickup.",
+      "context": "通关技术应用",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-288",
+      "source_text": "在菲律宾设立区域总部（RHQ），可以享受免除关税以及外籍雇员个人所得税的优惠。",
+      "target_text": "Establishing a Regional Headquarters (RHQ) in the Philippines allows for exemptions from customs duties and incentives on personal income tax for foreign employees.",
+      "context": "企业落户政策",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-289",
+      "source_text": "RCEP区域内的服务贸易负面清单模式，为金融、电信等领域的跨境服务提供了更高透明度。",
+      "target_text": "The negative list model for trade in services within the RCEP region provides higher transparency for cross-border services in sectors such as finance and telecommunications.",
+      "context": "服务贸易规则",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-290",
+      "source_text": "由于东南亚部分地区电力供应不稳定，建设海外仓时需考虑备用发电机组及UPS系统。",
+      "target_text": "Due to unstable power supplies in parts of Southeast Asia, backup generator sets and UPS systems should be considered when building overseas warehouses.",
+      "context": "物流设施建设",
+      "domain": "logistics"
+    },
+    {
+      "alignment_id": "ALIGN-291",
+      "source_text": "出口至新加坡的含糖饮料必须标注分级标签（Nutri-Grade），并遵守关于高糖含量的禁广规定。",
+      "target_text": "Sugar-sweetened beverages exported to Singapore must be labeled with a Nutri-Grade and comply with advertising bans on high sugar content.",
+      "context": "健康合规规范",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-292",
+      "source_text": "印度尼西亚的单一价格政策旨在解决偏远地区燃油和基本生活用品价格过高的问题。",
+      "target_text": "Indonesia's One Price Policy aims to address the issue of excessively high prices for fuel and basic necessities in remote areas.",
+      "context": "宏观价格政策",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-293",
+      "source_text": "中泰互免签证协定的生效，极大地便利了两国商务人员的往来和展会考察。",
+      "target_text": "The entry into force of the China-Thailand mutual visa exemption agreement has greatly facilitated the travel of business personnel and exhibition inspections between the two countries.",
+      "context": "商务便利化",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-294",
+      "source_text": "在印尼进行股权转让，需经过法律和人权部的审批并在当地报纸进行公示。",
+      "target_text": "Transferring equity in Indonesia requires approval from the Ministry of Law and Human Rights and public notice in local newspapers.",
+      "context": "公司治理法务",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-295",
+      "source_text": "越南北部的海防和广宁省，正逐渐成为承接中国电子供应链转移的首选之地。",
+      "target_text": "Hai Phong and Quang Ninh provinces in northern Vietnam are gradually becoming the preferred locations for receiving shifts in China's electronics supply chain.",
+      "context": "产业集群动态",
+      "domain": "trade"
+    },
+    {
+      "alignment_id": "ALIGN-296",
+      "source_text": "马来西亚的电子原产地证（e-CO）已支持通过区块链平台进行实时验证，防止单证伪造。",
+      "target_text": "Malaysia's electronic Certificate of Origin (e-CO) now supports real-time verification through blockchain platforms to prevent document forgery.",
+      "context": "单证安全技术",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-297",
+      "source_text": "出口商应关注印尼关于“强制性标签”的语言要求，通常必须包含印尼语翻译。",
+      "target_text": "Exporters should pay attention to Indonesia's language requirements for 'Mandatory Labeling,' which usually must include Indonesian translations.",
+      "context": "标签语言合规",
+      "domain": "product"
+    },
+    {
+      "alignment_id": "ALIGN-298",
+      "source_text": "中越跨境经济合作区内的“两国一检”模式，旨在实现货物的只查验一次即放行。",
+      "target_text": "The 'Two Countries, One Inspection' model within the China-Vietnam Cross-border Economic Cooperation Zone aims to achieve cargo release after only one inspection.",
+      "context": "口岸管理创新",
+      "domain": "customs"
+    },
+    {
+      "alignment_id": "ALIGN-299",
+      "source_text": "在国际工程承包中，使用新加坡法作为准据法可以为跨国合作提供可预测的法律环境。",
+      "target_text": "In international engineering contracting, using Singapore law as the governing law can provide a predictable legal environment for transnational cooperation.",
+      "context": "法律管辖建议",
+      "domain": "contract"
+    },
+    {
+      "alignment_id": "ALIGN-300",
+      "source_text": "随着RCEP的深入实施，中国与东盟国家之间的产业链韧性将得到进一步增强。",
+      "target_text": "With the in-depth implementation of RCEP, the supply chain resilience between China and ASEAN countries will be further enhanced.",
+      "context": "区域经贸展望",
+      "domain": "trade"
+    }
+  ]
+}

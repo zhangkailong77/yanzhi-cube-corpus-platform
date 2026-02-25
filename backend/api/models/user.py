@@ -2,11 +2,9 @@
 用户数据模型
 """
 from sqlalchemy import Column, Integer, String, Boolean, Enum as SQLEnum, TIMESTAMP
-from sqlalchemy.ext.declarative import declarative_base
 from datetime import datetime
 from enum import Enum as PyEnum
-
-Base = declarative_base()
+from .base import Base
 
 
 class UserRole(str, PyEnum):

@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: corpus-backend
+    ports:
+      - "8001:8001"
+    env_file:
+      - ./backend/.env.production
+    environment:
+      - DB_HOST=host.docker.internal
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on: []
+    restart: unless-stopped
+    networks:
+      - corpus-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        API_BASE_URL: http://112.124.32.196:8001
+        API_URL: http://112.124.32.196:8001/api
+    container_name: corpus-frontend
+    ports:
+      - "3002:3002"
+    restart: unless-stopped
+    networks:
+      - corpus-network
+
+networks:
+  corpus-network:
+    driver: bridge

@@ -1,0 +1,1413 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "process",
+    "language": "en",
+    "domain": "trade",
+    "created_by": "Expert Team",
+    "created_at": "2025-05-20T10:00:00Z",
+    "description": "Cross-border Trade Business Process and Rules"
+  },
+  "data": [
+    {
+      "rule_id": "RULE-001",
+      "scenario": "Customer requests a no-reason return for cross-border goods",
+      "condition": "The goods have completed customs clearance and the request is not related to quality issues",
+      "result": "According to cross-border trade policies, returns without reason are not supported for cleared items",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-002",
+      "scenario": "Customer reports quality defects in cross-border products",
+      "condition": "The product has functional failure and the claim is filed within 7 calendar days of receipt",
+      "result": "Full refund or exchange is supported, and the seller bears all international shipping costs",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-003",
+      "scenario": "Customer requests return with unsealed product packaging",
+      "condition": "The return is for non-quality reasons and the original manufacturer's seal has been broken",
+      "result": "Secondary sales are affected; the system will reject the return request. Please keep original packaging",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-004",
+      "scenario": "Return for goods damaged during cross-border logistics",
+      "condition": "Packaging is obviously damaged upon receipt with a damage certificate from the logistics company",
+      "result": "A fast-track refund channel will be opened, and losses will be covered by insurance and logistics providers",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-005",
+      "scenario": "Customer rejection request due to customs clearance delay",
+      "condition": "The delay caused by customs inspection does not exceed 15 business days",
+      "result": "This is not considered a seller breach; free return requests due to such delays are not supported",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-006",
+      "scenario": "Return request for fresh or perishable cross-border goods",
+      "condition": "The product belongs to the perishable food category and has entered international transit",
+      "result": "Such items do not support mid-transit interception or any form of return once shipped",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-007",
+      "scenario": "Customer requests exchange due to subjective personal reasons",
+      "condition": "Goods are intact and unsealed but the customer wants a different color, size, or specification",
+      "result": "The customer must bear customs duties, logistics fees, and handling charges for both return and reshipping",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-008",
+      "scenario": "Duty liability for goods sent back during return process",
+      "condition": "Non-quality related cross-border return caused by the customer's personal reasons",
+      "result": "Import duties incurred for return must be prepaid by the buyer or deducted from the refund",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-009",
+      "scenario": "Return process due to incorrect item shipment by seller",
+      "condition": "Received goods do not match the specifications or models in the detailed order description",
+      "result": "Automatic system approval; the seller will compensate shipping costs after the buyer returns the item",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-010",
+      "scenario": "Calculation standard for refund amounts with promotions",
+      "condition": "The order includes coupons or promotional discounts and only partial items are returned",
+      "result": "The refund is calculated based on the actual paid proportion after deducting promotional amounts",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-011",
+      "scenario": "Return request for customized trade products",
+      "condition": "Goods were specially customized to buyer specs with no obvious manufacturing quality issues",
+      "result": "Customized goods do not support any form of return; the buyer must fulfill the final payment",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-012",
+      "scenario": "Compensation claim for lost cross-border packages",
+      "condition": "Logistics tracking shows no updates for 30 days and the carrier confirms the loss in transit",
+      "result": "The system determines it as a lost parcel and triggers a full refund and carrier claim",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-013",
+      "scenario": "Status inspection rules for returned commodities",
+      "condition": "Returned goods arrive at the warehouse with signs of human use or visible stains",
+      "result": "The seller has the right to refuse the refund and return the item to the buyer's original address",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-014",
+      "scenario": "Return policy during promotional activities",
+      "condition": "Goods were purchased during 'Buy One Get One' or bundle sales and a return is requested",
+      "result": "The buyer must return both the main item and the gift, otherwise the gift's market value is deducted",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-015",
+      "scenario": "Validity period limitation for return applications",
+      "condition": "The buyer has not initiated any after-sales claim for more than 30 days after confirming receipt",
+      "result": "The after-sales channel will close automatically, and no further return requests will be accepted",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-016",
+      "scenario": "Return inspection for high-value electronic products",
+      "condition": "Electronic products exceeding $1000 in unit price are returned for quality issues",
+      "result": "Official after-sales appraisal and a testing report must be provided to start the return process",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-017",
+      "scenario": "Situations where customs clearance taxes cannot be refunded",
+      "condition": "Goods are returned because the buyer refused to cooperate in providing clearance documents",
+      "result": "The buyer is responsible for round-trip shipping fees and non-refundable paid customs duties",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-018",
+      "scenario": "Return settlement for cross-border distribution channels",
+      "condition": "Downstream distributor initiates a return request after the settlement period has passed",
+      "result": "The commission must be deducted in the next billing cycle before processing the refund difference",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-019",
+      "scenario": "Return process for bonded warehouse shipments",
+      "condition": "Goods shipped from a bonded warehouse are returned by the buyer in unsealed condition",
+      "result": "Goods must return to the designated bonded warehouse; refund is processed after tax cancellation",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-020",
+      "scenario": "Sampling return rules for bulk trade orders",
+      "condition": "Defective items in a large batch purchase are found to exceed the 5% threshold",
+      "result": "Partial refund for that batch or free replenishment for the defective part is supported",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-021",
+      "scenario": "Restrictions on refund payment paths",
+      "condition": "All refund requests are approved and funds are ready for disbursement",
+      "result": "Refunds must return to the original payment account; changing to a third-party account is not allowed",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-022",
+      "scenario": "Refund initiated due to false logistics tracking",
+      "condition": "The tracking number provided by the seller shows no collection record within 7 business days",
+      "result": "The buyer has the right to declare false shipment and the system will issue a full refund",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-023",
+      "scenario": "Requirement for additional accessories during return",
+      "condition": "The product being returned includes manuals, cables, warranty cards, or other accessories",
+      "result": "Missing accessories will result in a cost deduction; please ensure all items are returned intact",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-024",
+      "scenario": "Rejection rules for overseas direct mail goods",
+      "condition": "The buyer refuses to sign for an overseas direct mail package without any legitimate justification",
+      "result": "Buyer must compensate for shipping and clearance fees, deducted directly from the refund",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-025",
+      "scenario": "Risk warning for returns of sensitive goods",
+      "condition": "Goods containing built-in batteries, liquids, or powders are requested for return",
+      "result": "Due to aviation regulations, items cannot be returned; local destruction or compensation is advised",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-026",
+      "scenario": "Refund restriction rules for pre-sale orders",
+      "condition": "Buyer pays a deposit for a pre-sale and wants a refund before the official shipping date",
+      "result": "Deposits serve as a contract guarantee; they are non-refundable unless the seller breaches contract",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-027",
+      "scenario": "Return application due to customs duty adjustments",
+      "condition": "Buyer requests a return because cost increased due to a temporary tax hike in the destination country",
+      "result": "Duty changes are market risks; this is not supported as a valid reason for a free return",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-028",
+      "scenario": "Liability for damage during return transit",
+      "condition": "Goods are damaged during the return trip due to improper packaging by the buyer",
+      "result": "The buyer bears transit risk; the seller may refuse the refund upon receipt of damaged goods",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-029",
+      "scenario": "Handling of returns due to long-term failure to pick up",
+      "condition": "Package stays at the pickup point over 15 days and is forced back to the overseas warehouse",
+      "result": "Considered an abandonment of goods; secondary shipping costs will be deducted from the refund",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-030",
+      "scenario": "Return interruption due to force majeure events",
+      "condition": "War, natural disasters, or strikes prevent the return package from being sent across borders",
+      "result": "The return deadline will be extended, or an alternative compensation plan will be negotiated",
+      "category": "Return Policy"
+    },
+    {
+      "rule_id": "RULE-031",
+      "scenario": "Payment method selection for large trade orders",
+      "condition": "Single contract order exceeds $100,000 and it is the first cooperation between parties",
+      "result": "The use of an Irrevocable Sight Letter of Credit (L/C) is mandatory for settlement",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-032",
+      "scenario": "Staged payment ratio setting rules",
+      "condition": "Procurement of customized production equipment with a production cycle exceeding 3 months",
+      "result": "Adopt a payment model of 30% advance + 40% progress payment + 30% final balance",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-033",
+      "scenario": "Risk avoidance for payment exchange rate fluctuations",
+      "condition": "Contract agreed in USD but the exchange rate fluctuates by more than 3%",
+      "result": "A compensation mechanism is triggered to split the excess exchange loss between buyer and seller",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-034",
+      "scenario": "Liability rules for bank intermediary fees",
+      "condition": "International wire transfer via SWIFT without specified fee-bearing terms in the contract",
+      "result": "Default to SHA mode (shared costs); intermediary bank fees are borne by the remitter",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-035",
+      "scenario": "Calculation rules for overdue payment penalties",
+      "condition": "Buyer fails to complete payment within 5 business days after the contract due date",
+      "result": "A daily penalty of 0.05% of the overdue amount is charged until the funds are received",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-036",
+      "scenario": "Conditions for converting security deposit into payment",
+      "condition": "Buyer has paid a performance bond and all goods have passed arrival inspection",
+      "result": "Buyer may apply to convert the bond directly into the payment for the final batch of goods",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-037",
+      "scenario": "Limit warnings for third-party payment platforms",
+      "condition": "Using PayPal or Stripe to pay for a single order exceeding $5,000",
+      "result": "System will pause payment and require secondary real-name and transaction background verification",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-038",
+      "scenario": "Scope restrictions for Cash on Delivery (COD)",
+      "condition": "Shipping address is in a high-risk area or the product unit price exceeds $500",
+      "result": "COD is not supported; full prepayment must be completed before shipment is arranged",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-039",
+      "scenario": "Access rules for local currency settlement",
+      "condition": "SE Asian buyers apply to settle in local currency like THB or MYR",
+      "result": "Converted based on real-time rates with an additional 1% currency hedging surcharge",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-040",
+      "scenario": "Handling of discrepancies in Letter of Credit (L/C)",
+      "condition": "Bank audit finds minor discrepancies between Bill of Lading and L/C requirements",
+      "result": "Seller must modify documents within 3 business days, or the buyer may refuse acceptance",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-041",
+      "scenario": "Administrative restrictions on returning prepayments",
+      "condition": "Buyer cancels order after paying deposit and requests a return of funds",
+      "result": "Deduct seller's raw material costs plus a 5% administrative fee for breach of contract",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-042",
+      "scenario": "Credit term benefits for long-term partners",
+      "condition": "Continuous cooperation for 2+ years with annual order volume reaching $500,000",
+      "result": "Eligible to apply for OA 30 days (payment 30 days after arrival) settlement mode",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-043",
+      "scenario": "Authenticity verification of payment vouchers",
+      "condition": "Buyer sends a bank slip image via email demanding immediate shipment arrangement",
+      "result": "Shipment only starts after finance confirms the actual arrival of funds in the corporate account",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-044",
+      "scenario": "Payment prerequisites for credit insurance coverage",
+      "condition": "The order is insured by export credit insurance (e.g., SINOSURE)",
+      "result": "Buyer must pay through designated bank accounts, otherwise insurance claims might be invalid",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-045",
+      "scenario": "Monitoring of multiple abnormal small payments",
+      "condition": "A single customer makes over 5 split payments for the same order within 24 hours",
+      "result": "Suspected money laundering risk; system will freeze the account for manual audit",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-046",
+      "scenario": "Handling fee distribution rules during refunds",
+      "condition": "Refund request for a payment error caused by the buyer's misoperation",
+      "result": "Bank wire transfer fees for the refund will be deducted from the original principal amount",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-047",
+      "scenario": "Policy restrictions on cryptocurrency payments",
+      "condition": "Buyer asks if payment in Bitcoin or USDT is supported for the goods",
+      "result": "According to financial regulations, the company strictly prohibits accepting any cryptocurrency",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-048",
+      "scenario": "Discounting of Usance Letters of Credit",
+      "condition": "Seller needs to discount a 90-day Usance L/C due to liquidity constraints",
+      "result": "The resulting discounting interest is borne by the seller and not added to the total price",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-049",
+      "scenario": "Security verification requirements for payment environment",
+      "condition": "Payment attempt detected from a non-compliant IP address or high-risk network",
+      "result": "3D Secure verification is triggered via SMS or email for secondary confirmation",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-050",
+      "scenario": "Internal payment rules for related-party transactions",
+      "condition": "Payment settlements between the head office and overseas subsidiaries",
+      "result": "Implement quarterly Netting to reduce cross-border transaction and handling fees",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-051",
+      "scenario": "Highest alert for changes in payment accounts",
+      "condition": "Seller sends bank change notification via non-official channels like IM apps",
+      "result": "Buyer must verify via phone and email; payment to new accounts is strictly forbidden without it",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-052",
+      "scenario": "Payment conversion for multi-currency credit cards",
+      "condition": "Buyer uses a non-USD credit card to pay on a USD-priced checkout page",
+      "result": "The rate is determined by the issuing bank; buyer bears all foreign exchange conversion fees",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-053",
+      "scenario": "Special channel for small sample order payments",
+      "condition": "Sample orders or small test batches with a unit price below $100",
+      "result": "Recommend using Western Union or rapid credit card payment for faster processing",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-054",
+      "scenario": "Ownership transfer rules under installment payments",
+      "condition": "Contract stipulates four installments and goods have been delivered to buyer's warehouse",
+      "result": "Ownership remains with the seller until the final installment is paid in full",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-055",
+      "scenario": "Payment delays due to anti-money laundering checks",
+      "condition": "Bank conducts routine compliance background checks on specific remitters",
+      "result": "Both parties must provide contract proof; delays during this period are not breaches",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-056",
+      "scenario": "Triggering third-party collection for overdue accounts",
+      "condition": "Buyer owes payment for over 90 days with no effective response to communication",
+      "result": "The system will automatically transfer the debt to a third-party international collection agency",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-057",
+      "scenario": "Tax withholding rules during payment",
+      "condition": "Local laws require the buyer to withhold income tax (WHT) on service fees",
+      "result": "Buyer must provide official tax certificates so the seller can offset accounts in finance",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-058",
+      "scenario": "Validity period for prepaid貨款",
+      "condition": "Buyer prepays but fails to instruct shipping for over 12 months and is unreachable",
+      "result": "Funds are moved to a suspense account; reactivation requires proof of identity",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-059",
+      "scenario": "Issuance requirements for Standby L/C (SBLC)",
+      "condition": "Used as payment guarantee for long-term contracts, covering two months of value",
+      "result": "The issuing bank must be among the top 100 globally or a company-approved first-class bank",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-060",
+      "scenario": "Dynamic adjustment of customer credit score in payment system",
+      "condition": "Buyer has a serious L/C dishonor or unprovoked payment delinquency incident",
+      "result": "System reduces credit rating to lowest; all credit terms are permanently revoked",
+      "category": "Payment Rules"
+    },
+    {
+      "rule_id": "RULE-061",
+      "scenario": "HS Code classification for imported goods",
+      "condition": "Complex product attributes lead to unclear HS codes or declaration disputes",
+      "result": "Must apply for an advance ruling from customs before formal declaration to ensure compliance",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-062",
+      "scenario": "Applying for preferential tariffs under Free Trade Agreements",
+      "condition": "Origin belongs to a member state and the value exceeds the specified limit",
+      "result": "Must submit a formal Certificate of Origin (CO) issued by authorized bodies in paper or digital form",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-063",
+      "scenario": "Limit control for cross-border e-commerce retail imports",
+      "condition": "Single transaction exceeds 5,000 RMB or annual total exceeds 26,000 RMB",
+      "result": "The order cannot be cleared under e-commerce tax; it must convert to general trade declaration",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-064",
+      "scenario": "Cooperation requirements during customs inspections",
+      "condition": "Goods are randomly selected by the system for physical inspection or chemical appraisal",
+      "result": "Customs broker must be present within 24 hours with detailed technical specifications",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-065",
+      "scenario": "Declaration of customs protection for Intellectual Property",
+      "condition": "Exported goods use trademarks registered with the General Administration of Customs",
+      "result": "Formal authorization from the right holder must be submitted, otherwise goods will be detained",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-066",
+      "scenario": "Regulatory rules for temporary import and export goods",
+      "condition": "Goods for exhibition or research must be re-exported in original state within 6 months",
+      "result": "A full tax margin must be paid to customs and the verification procedure completed on time",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-067",
+      "scenario": "Levying of Anti-dumping and Countervailing duties",
+      "condition": "Imported products are on the anti-dumping list from specific countries of origin",
+      "result": "In addition to normal duties, the system will automatically calculate and levy anti-dumping taxes",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-068",
+      "scenario": "Restriction rules for used electromechanical products",
+      "condition": "Products are on the national directory of prohibited used electromechanical imports",
+      "result": "Customs will reject the declaration and order the enterprise to return the goods",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-069",
+      "scenario": "Quarantine permit application for plant and animal products",
+      "condition": "Importing agricultural products not on the prohibited entry list but requiring inspection",
+      "result": "An 'Entry Animal and Plant Quarantine Permit' must be obtained before signing the contract",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-070",
+      "scenario": "Declaration delay due to customs system failure",
+      "condition": "General Administration of Customs system crash prevents electronic data submission",
+      "result": "Contact port customs to start contingency plans for manual mode or offline processing",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-071",
+      "scenario": "Classification rules for low-value express shipments",
+      "condition": "Package value is below 50 RMB and does not involve license-controlled goods",
+      "result": "Can be declared as Category C express for simplified processing and duty exemption",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-072",
+      "scenario": "Verification rules for bonded nuclear injection lists",
+      "condition": "Processing trade enterprise exports finished products and needs to verify raw materials",
+      "result": "Must ensure the item numbers of finished goods match the filing list exactly for verification",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-073",
+      "scenario": "Qualification check for hazardous goods declaration",
+      "condition": "Exported goods are flammable or explosive chemicals in the restricted directory",
+      "result": "Must provide a 'Result List of Inspection of Packaging for Outbound Goods' and hazardous filing",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-074",
+      "scenario": "Application of Customs Self-disclosure policy",
+      "condition": "Enterprise discovers tax underpayment in past declarations and reports in writing",
+      "result": "Can be exempted from late fees and administrative liability upon customs recognition",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-075",
+      "scenario": "Authenticity audit of进出口货物 declared prices",
+      "condition": "Customs considers declared price significantly lower than international market average",
+      "result": "Enterprise must provide price composition, invoices, and payment proof within 10 business days",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-076",
+      "scenario": "Regulatory requirements for transit trade goods",
+      "condition": "Goods transit through China to a third country without entering domestic circulation",
+      "result": "Must enter/exit through designated ports and be monitored via GPS or customs seals",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-077",
+      "scenario": "Usage restriction rules for ATA Carnets",
+      "condition": "Professional equipment uses ATA Carnet for temporary import declaration",
+      "result": "Equipment cannot be leased or sold locally and must be re-exported within the validity period",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-078",
+      "scenario": "Reporting and tax payment for royalties",
+      "condition": "Buyer pays royalties to the seller related to goods and as a condition of sale",
+      "result": "Royalties must be included in the imported dutiable value for customs duty payment",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-079",
+      "scenario": "Strict control over imported waste materials",
+      "condition": "Declared goods belong to the 'foreign garbage' catalog prohibited by the state",
+      "result": "Case will be handled by anti-smuggling departments; importer bears all return and destruction costs",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-080",
+      "scenario": "Facilitation benefits for AEO Advanced Certified Enterprises",
+      "condition": "Enterprise has obtained AEO Advanced Certification with a good credit record",
+      "result": "Enjoys extremely low inspection rates, priority clearance, and mutual recognition benefits",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-081",
+      "scenario": "Tax reduction rules for returned goods",
+      "condition": "Goods returned due to quality issues are re-imported in original state within one year",
+      "result": "Can apply for import duty exemption with original export documents and proof of return",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-082",
+      "scenario": "Mandatory reporting time for import/export goods",
+      "condition": "Imported goods are not declared to customs within 14 days of the carrier's arrival",
+      "result": "Customs will levy a delayed declaration fee of 0.05% of the total value per day",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-083",
+      "scenario": "Fumigation rules for wood packaging materials",
+      "condition": "Imported packaging contains solid wood without the required IPPC mark",
+      "result": "Customs will order mandatory fumigation or destruction at the importer's expense",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-084",
+      "scenario": "Modification rules for export tax rebate declarations",
+      "condition": "Input error leads to discrepancy between declared export amount and settlement amount",
+      "result": "Must submit settlement slips and an explanation to port customs for data modification approval",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-085",
+      "scenario": "Policy for domestic goods entering Bonded Logistics Parks",
+      "condition": "Domestic goods enter the park for export distribution or international transit",
+      "result": "Entry is deemed as export; enterprises can apply for tax rebates early with the entry bill",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-086",
+      "scenario": "Regulatory rules for gifts and samples",
+      "condition": "Free gifts shipped with bulk goods or commercial samples for market promotion",
+      "result": "Must be declared at actual value even if no foreign exchange is received, marked as 'Gift/Sample'",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-087",
+      "scenario": "Compliance access for imported medical devices",
+      "condition": "Products fall under the scope of the Regulations on the Supervision of Medical Devices",
+      "result": "A 'Medical Device Registration Certificate' must be provided for customs clearance",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-088",
+      "scenario": "Transit supervision for multimodal transport goods",
+      "condition": "Goods unloaded at a port and transferred via rail/road to inland customs for clearance",
+      "result": "Must handle transit declaration; vehicles must have customs-supervised transport qualifications",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-089",
+      "scenario": "Hygiene license audit for imported cosmetics",
+      "condition": "First-time import of non-special or special purpose cosmetics",
+      "result": "Must submit the filing certificate or approval number issued by the drug regulatory department",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-090",
+      "scenario": "Import rules for Tariff-Rate Quota (TRQ) managed goods",
+      "condition": "Importing agricultural products like wheat or corn managed by quotas",
+      "result": "Must present a TRQ certificate for low rates; out-of-quota imports will face high tariffs",
+      "category": "Customs Rules"
+    },
+    {
+      "rule_id": "RULE-091",
+      "scenario": "Identification and packaging of hazardous goods in transit",
+      "condition": "Goods include lithium batteries, compressed gases, or flammable chemicals",
+      "result": "Must use international standard hazardous packaging with clear classification labels",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-092",
+      "scenario": "Distribution of international freight insurance obligations",
+      "condition": "Trade contract is concluded under CIF (Cost, Insurance, and Freight) terms",
+      "result": "Seller must arrange insurance and pay the premium, with coverage at 110% of the invoice value",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-093",
+      "scenario": "Calculation rules for chargeable weight in air freight",
+      "condition": "The volumetric weight (L×W×H/6000) of the goods exceeds their actual physical weight",
+      "result": "Airlines will use volumetric weight as the billing basis, resulting in higher freight costs",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-094",
+      "scenario": "Calculation of container demurrage in sea freight",
+      "condition": "Container remains at the destination port beyond the free period (typically 7 days)",
+      "result": "Consignee must pay daily demurrage fees ranging from $50 to $100 per container",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-095",
+      "scenario": "Temperature monitoring rules for cold chain goods",
+      "condition": "Carrying fresh food or vaccines with strict environmental temperature requirements",
+      "result": "Must use temperature recorders and read data upon receipt as a basis for acceptance",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-096",
+      "scenario": "Warehouse entry timing for Less than Container Load (LCL)",
+      "condition": "Small shipments from multiple shippers delivered to the CFS before the cutoff date",
+      "result": "Late delivery will result in failure to load the vessel and additional rescheduling fees",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-097",
+      "scenario": "Real-time synchronization of cross-border logistics status",
+      "condition": "Carrier system detects a change in package status like departure or arrival",
+      "result": "Must sync logistics updates to the e-commerce platform via API within 2 hours for customers",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-098",
+      "scenario": "Special transport arrangements for oversized/overweight goods",
+      "condition": "Single item exceeds 12 meters in length or 30 tons in weight",
+      "result": "Apply for flat rack containers or heavy-lift trucks 15 days early with a surcharge",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-099",
+      "scenario": "Reinforcement and protection standards for logistics packaging",
+      "condition": "Carrying fragile or high-value instruments over a distance exceeding 3,000 km",
+      "result": "Must use wooden pallets and corner protectors, wrapped in at least five layers of film",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-100",
+      "scenario": "Handling of picking errors in overseas warehouse processes",
+      "condition": "Warehouse staff issues wrong items due to scanning errors or instruction mismatch",
+      "result": "Warehouse provider bears all secondary shipping costs and pays delay compensation to the customer",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-101",
+      "scenario": "Responsibility division for international multimodal transport",
+      "condition": "Goods are damaged or affected by moisture during the transition from sea to rail transport",
+      "result": "The multimodal transport operator compensates the cargo owner first, then seeks recourse from the carrier",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-102",
+      "scenario": "Signature verification rules for last-mile express delivery",
+      "condition": "Package value exceeds $200 or contains sensitive commercial contract documents",
+      "result": "The recipient must show ID and provide a handwritten signature; delivery to pick-up points is prohibited",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-103",
+      "scenario": "Requirement for accompanying clearance documents with cargo",
+      "condition": "Goods are shipped to countries with strict customs regulations like Brazil or India",
+      "result": "Original invoices, packing lists, and local tax ID numbers must be physically attached to the goods",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-104",
+      "scenario": "Handling of cargo damage caused by force majeure during transit",
+      "condition": "A cargo ship encounters an extreme typhoon on the high seas resulting in lost containers",
+      "result": "General Average principles apply; losses are shared by the ship owner, cargo owners, and insurers",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-105",
+      "scenario": "Service Level Agreement (SLA) assessment for carriers",
+      "condition": "The quarterly on-time delivery rate of a logistics provider falls below the agreed 95%",
+      "result": "The system automatically reduces order allocation and triggers a penalty deduction per the contract",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-106",
+      "scenario": "Emergency plan for air-to-sea freight conversion",
+      "condition": "Air fuel surcharges skyrocket, causing air freight costs to exceed the budget limit",
+      "result": "Change to fast sea freight with buyer consent, and the seller refunds the freight price difference",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-107",
+      "scenario": "Secondary delivery attempt for abnormal logistics packages",
+      "condition": "First delivery fails due to an incorrect recipient address or the phone being unreachable",
+      "result": "The logistics company must attempt at least two more free deliveries within 3 business days",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-108",
+      "scenario": "Mandatory requirements for palletization of goods",
+      "condition": "Goods are sent to Amazon FBA warehouses or large multinational distribution centers",
+      "result": "Items must be on ISPM 15 compliant wooden pallets with a total height not exceeding 1.8 meters",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-109",
+      "scenario": "Remote area surcharges in cross-border logistics",
+      "condition": "The shipping address is in a mountain, island, or region without permanent express facilities",
+      "result": "The buyer must pay an additional remote area surcharge during checkout to generate the waybill",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-110",
+      "scenario": "Rules for international shipping marks on outer packaging",
+      "condition": "Bulk trade goods enter the terminal yard for loading or transit through a port",
+      "result": "Packaging must have clear marks including destination, box number, weight, and order ID",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-111",
+      "scenario": "Lost parcel determination time in the logistics chain",
+      "condition": "The package shows no dynamic update records for more than 20 consecutive calendar days",
+      "result": "The sender can formally file a lost parcel claim and enter the insurance compensation process",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-112",
+      "scenario": "Monthly billing vs. prepayment rules for logistics costs",
+      "condition": "A long-term trade enterprise with a stable shipping volume exceeding 1,000 parcels per month",
+      "result": "The enterprise can apply for monthly billing to ease liquidity pressure on operating funds",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-113",
+      "scenario": "Selection and liability guarantee of logistics agents",
+      "condition": "Appointing a non-owned freight forwarder for cross-border multimodal transport services",
+      "result": "Must verify the forwarder's Class A qualification and their valid liability insurance policy",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-114",
+      "scenario": "Port entry and loading timing for export goods",
+      "condition": "Goods must enter the terminal before the shipping company's scheduled closing time",
+      "result": "Failure to meet the deadline results in missing the vessel and extra storage or rescheduling fees",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-115",
+      "scenario": "Supervision of international rail transport (China-Europe Railway Express)",
+      "condition": "Goods are transported via rail through multiple transit countries across borders",
+      "result": "Must meet CIM rail consignment note requirements and strictly prohibit magnetic materials",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-116",
+      "scenario": "Extra storage fees incurred during the logistics process",
+      "condition": "Goods are stranded in an overseas warehouse because the buyer failed to obtain a permit",
+      "result": "After a 3-day free period, the buyer pays $5 per cubic meter per day for storage",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-117",
+      "scenario": "Delivery rules for logistics documents like Bills of Lading",
+      "condition": "The payment is settled and the seller has obtained the original Bill of Lading from the carrier",
+      "result": "The seller must mail the original documents to the buyer via international express within 2 days",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-118",
+      "scenario": "Feedback mechanism for logistics complaints and suggestions",
+      "condition": "A customer files a formal complaint regarding staff attitude or transport delays",
+      "result": "The customer service team must investigate within 12 hours and provide a solution within 48 hours",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-119",
+      "scenario": "Diversion of transport due to war in cross-border shipping",
+      "condition": "The original route passes through a country where war or armed conflict suddenly breaks out",
+      "result": "The carrier may divert to ensure safety; additional costs are shared by the cargo owners",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-120",
+      "scenario": "Rules for statistics of logistics carbon emission data",
+      "condition": "An enterprise needs to track the full-link logistics carbon footprint for green compliance",
+      "result": "The logistics provider must provide monthly standardized reports on mileage and CO2 emissions",
+      "category": "Logistics Rules"
+    },
+    {
+      "rule_id": "RULE-121",
+      "scenario": "Order limit for new customers without background checks",
+      "condition": "A customer purchases in bulk for the first time without a deep credit investigation",
+      "result": "The maximum limit for the first order is $10,000; any excess requires full prepayment",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-122",
+      "scenario": "Warning for orders from high-risk countries and regions",
+      "condition": "Shipping address or paying bank is in a region under sanctions or in political turmoil",
+      "result": "The system automatically intercepts the order for manual compliance review by the risk team",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-123",
+      "scenario": "Dynamic downgrade mechanism for customer credit ratings",
+      "condition": "A customer has experienced more than two incidents of malicious payment delinquency in a quarter",
+      "result": "The system drops their rating to Grade D, revokes credit terms, and requires cash on delivery",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-124",
+      "scenario": "Fraud identification for large online credit card payments",
+      "condition": "The same card number attempts multiple payments of varying amounts in a short period",
+      "result": "The anti-fraud model is triggered; the system immediately freezes the card's payment function",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-125",
+      "scenario": "Monitoring of abnormal benefit transfers in related transactions",
+      "condition": "Transaction price deviates from fair market value and parties have an equity relationship",
+      "result": "The transaction is flagged as abnormal; an independent audit report is required for explanation",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-126",
+      "scenario": "Coverage rules for Export Credit Insurance (SINOSURE)",
+      "condition": "The total outstanding balance for a single customer exceeds the bank-approved credit limit",
+      "result": "The risk department stops further shipments until old accounts are settled to release the limit",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-127",
+      "scenario": "Annual prudent verification rules for supplier qualifications",
+      "condition": "A long-term supplier is found to have an expired or revoked business license during review",
+      "result": "Stop signing any new contracts immediately and perform a risk liquidation on open orders",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-128",
+      "scenario": "Anti-Money Laundering (AML) monitoring in cross-border remittances",
+      "condition": "A large remittance is received and the payer name does not match the contract buyer",
+      "result": "Finance suspends the funds; the buyer must provide a legal payment agreement and ID documents",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-129",
+      "scenario": "Impairment risk warning for low inventory turnover rates",
+      "condition": "Electronic goods in a bonded warehouse have been stored for more than 180 calendar days",
+      "result": "Trigger the price-drop reserve process; sales must create a clearance plan within a time limit",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-130",
+      "scenario": "Business continuity risk due to core management resignation",
+      "condition": "The overseas sales director holding core client resources resigns without a formal handover",
+      "result": "The risk team must contact affected clients within 24 hours to reconfirm contract intentions",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-131",
+      "scenario": "Safety assessment of overseas branches during political unrest",
+      "condition": "A branch location experiences serious social unrest or a sudden local policy change",
+      "result": "Activate the Level 1 response; suspend local physical trading and prioritize staff evacuation",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-132",
+      "scenario": "Usage rules for credit reports from third-party agencies",
+      "condition": "Conducting background checks on strategic partners with contracts exceeding $500,000",
+      "result": "Must purchase a comprehensive credit report from agencies like D&B as a decision reference",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-133",
+      "scenario": "Transaction freezing rules due to pending legal litigation",
+      "condition": "A partner is under judicial investigation for suspected major fraud or bankruptcy protection",
+      "result": "Enter risk isolation mode; stop all fund transfers and delivery actions immediately",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-134",
+      "scenario": "Preliminary filtering logic for fake business inquiries",
+      "condition": "An inquiry email lacks a specific company name, phone number, or detailed product parameters",
+      "result": "The system moves such info to a 'To Be Confirmed' pool; it is not counted as a formal lead",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-135",
+      "scenario": "Prevention of leakage for high-value sensitive data",
+      "condition": "An internal employee sends core price lists through an external email in an unauthorized environment",
+      "result": "The DLP system automatically blocks the email and logs the violation for HR synchronization",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-136",
+      "scenario": "Transaction authorization limits for currency hedging tools",
+      "condition": "A finance staff member performs a single foreign exchange forward lock-in operation",
+      "result": "Operations exceeding $2 million must be jointly approved by the CFO and the Board of Directors",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-137",
+      "scenario": "Fraud identification rules for 'Drop-shipping' models",
+      "condition": "Large volumes of different buyer accounts ship goods to the same overseas private residence",
+      "result": "Determined as potential card fraud or brush behavior; the system cancels and refunds the orders",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-138",
+      "scenario": "Supply chain disruption caused by major environmental accidents",
+      "condition": "A core component manufacturer is ordered to stop production indefinitely for environmental violations",
+      "result": "The risk department must activate backup suppliers within 3 days and adjust delivery expectations",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-139",
+      "scenario": "Financial due diligence requirements in overseas M&A projects",
+      "condition": "The company intends to acquire or invest in a majority stake of an overseas trade partner",
+      "result": "Must hire a third-party agency for a minimum 2-month deep financial and legal audit",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-140",
+      "scenario": "Fraud risk defense for 'Prepayment' models with suppliers",
+      "condition": "A supplier requests an increase in prepayment ratio from 30% to 80% due to capital issues",
+      "result": "Direct payment is prohibited; the supplier must provide a bank guarantee of the same amount",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-141",
+      "scenario": "Risk isolation due to employee non-compliant operations",
+      "condition": "An operator account tries to enter sensitive transaction passwords incorrectly from a remote location",
+      "result": "The system locks all permissions for that account immediately and requires offline verification",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-142",
+      "scenario": "Traffic anomaly monitoring during major holidays",
+      "condition": "Transaction volume surges to 5 times the daily average during Chinese New Year or Black Friday",
+      "result": "Trigger server expansion and risk level upgrade; medium-risk orders move to manual audit",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-143",
+      "scenario": "Risk mitigation for 'Buyer Credit' in large-scale trade",
+      "condition": "Providing financing support to the buyer through a third-party financial institution",
+      "result": "The buyer must use core fixed assets or bank deposits as collateral and sign a mortgage contract",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-144",
+      "scenario": "Enforceability risk assessment for international arbitration awards",
+      "condition": "The agreed arbitration seat's laws conflict with the laws of the place of enforcement",
+      "result": "Legal must re-evaluate terms; we suggest changing to a more enforceable neutral jurisdiction",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-145",
+      "scenario": "Business suspension rules due to cyber security attacks",
+      "condition": "The core ERP system suffers a major ransomware attack causing all data to be encrypted",
+      "result": "Cut off all network connections, start offline data recovery, and report to cyber-police",
+      "category": "Risk Control Rules"
+    },
+    {
+      "rule_id": "RULE-146",
+      "scenario": "Compliance screening for Entity Lists and restricted parties",
+      "condition": "A potential client is found on the US or EU restricted entity lists during onboarding",
+      "result": "The legal compliance department will ban the transaction to prevent diversion to restricted uses",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-147",
+      "scenario": "Export declaration for Dual-use Items (civil and military)",
+      "condition": "Exported goods can be used in both civilian scenarios and military or nuclear applications",
+      "result": "Must apply for a dual-use item export license and submit an End-user Undertaking (EUU)",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-148",
+      "scenario": "Requirements for Anti-bribery and compliance audits (FCPA)",
+      "condition": "Signing a contract with an overseas agent involving business with local government agencies",
+      "result": "The agent must sign a compliance statement promising no illegal commissions or kickbacks",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-149",
+      "scenario": "Compliance protection rules for cross-border data transfer",
+      "condition": "Transferring a database containing sensitive customer information to an overseas R&D center",
+      "result": "Must perform a data export security assessment and obtain formal regulatory approval first",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-150",
+      "scenario": "Procurement restrictions for Conflict Minerals",
+      "condition": "Raw materials include tin, tantalum, tungsten, or gold from war-torn mining regions",
+      "result": "Suppliers must provide sourcing reports proving they do not fund illegal armed groups",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-151",
+      "scenario": "Transparent review of end-users and their intended use",
+      "condition": "Selling precision instruments to a new overseas customer in a non-traditional industry",
+      "result": "Conduct due diligence to verify identity and ensure products aren't resold to sanctioned parties",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-152",
+      "scenario": "Local legal compliance audit for advertising language",
+      "condition": "Cross-border e-commerce marketing posters and promo text for the Southeast Asian market",
+      "result": "Must be reviewed by local lawyers to avoid religious sensitive words or misleading claims",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-153",
+      "scenario": "Transfer pricing compliance under anti-tax avoidance agreements",
+      "condition": "Pricing for transactions between cross-border subsidiaries needs an annual audit",
+      "result": "Detailed transfer pricing documentation must be prepared for random tax authority audits",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-154",
+      "scenario": "Monitoring and compliance for international trade embargo zones",
+      "condition": "The UN announces a comprehensive energy or arms embargo on a specific country",
+      "result": "Update the blacklist within 1 hour and automatically cut all online transactions with that country",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-155",
+      "scenario": "Energy efficiency and environmental certification for exports",
+      "condition": "Selling home appliances to the EU market requiring CE or ERP marking",
+      "result": "Must pass RoHS/WEEE testing and ensure certificates are valid and traceable in the system",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-156",
+      "scenario": "Background relationship transparency for trade intermediaries",
+      "condition": "Signing a bulk purchase contract through an offshore company with opaque fund flows",
+      "result": "Demand disclosure of the Ultimate Beneficial Owner (UBO) or no business will be established",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-157",
+      "scenario": "Compliance standards for Country of Origin markings on exports",
+      "condition": "Export goods require 'Made in China' or similar origin information on the packaging",
+      "result": "Markings must be clear, permanent, and not misleading; otherwise, it is a false declaration",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-158",
+      "scenario": "Corporate Social Responsibility (CSR) compliance audit rules",
+      "condition": "Applying to join the global supply chain of a large multinational brand as a supplier",
+      "result": "Must pass a third-party audit for labor rights, environmental safety, and occupational health",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-159",
+      "scenario": "Export management of sensitive technology software and source code",
+      "condition": "Core technology source code needs to be sent to a foreign employee for after-sales support",
+      "result": "Technical export review is required; files must be encrypted and desensitized if necessary",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-160",
+      "scenario": "Identification of 'Wash-trade' behavior for compliance risk",
+      "condition": "Goods from a sanctioned country are repackaged at a transit port with forged origin docs",
+      "result": "Once discovered, compliance will terminate cooperation and report to the regulators",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-161",
+      "scenario": "Compliance timing for foreign exchange verification of exports",
+      "condition": "A trade enterprise fails to complete foreign exchange collection within the time limit after export",
+      "result": "Explain the reason to SAFE and apply for extension, otherwise the enterprise rating drops to B",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-162",
+      "scenario": "Compliance for international aid involving special medical supplies",
+      "condition": "A government or NGO commissions the company to send relief supplies to a disaster-hit area",
+      "result": "Verify local entry policies and obtain humanitarian aid customs clearance tax-free permits",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-163",
+      "scenario": "Marketing rules under Personal Data Protection (GDPR)",
+      "condition": "Sending promotional emails or personalized recommendations to individual EU users",
+      "result": "Must obtain explicit opt-in consent and provide the right to unsubscribe or delete data",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-164",
+      "scenario": "Visa compliance for foreign employees working in China",
+      "condition": "Hiring foreign experts for cross-border trade management and technical support in China",
+      "result": "Must process a legal Foreigner's Work Permit and Residence Permit; illegal employment is banned",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-165",
+      "scenario": "Daily incremental update and screening of Anti-Money Laundering lists",
+      "condition": "International authorities release a new list of individuals/firms involved in terror financing",
+      "result": "Compliance must import this into the system within 24 hours for full customer cross-screening",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-166",
+      "scenario": "Compliance certification for export of timber or endangered species",
+      "condition": "Export furniture contains wood listed under the CITES convention on endangered species",
+      "result": "Must show a CITES permit and undergo strict physical verification by forestry and customs",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-167",
+      "scenario": "Compliance approval for academic exchanges with sensitive regions",
+      "condition": "Inviting researchers from sensitive countries to an industry seminar hosted by the company",
+      "result": "Report agenda and personnel list to authorities in advance to ensure no technology leakage",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-168",
+      "scenario": "Pricing strategy review rules under Anti-monopoly compliance",
+      "condition": "Company intends to reach a pricing agreement for a regional market with major competitors",
+      "result": "This is suspected horizontal monopoly; the compliance officer must reject and report the plan",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-169",
+      "scenario": "Coverage requirements for compliance training for all staff",
+      "condition": "Annual online compliance assessment and certification for all staff in international business",
+      "result": "All personnel must pass with high scores; failed staff will have their operation rights suspended",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-170",
+      "scenario": "Long-term preservation and digital management of compliance archives",
+      "condition": "All communication records and original contracts involving sensitive item exports",
+      "result": "Must be kept for at least 10 years per national law, with an encrypted digital index created",
+      "category": "Compliance Rules"
+    },
+    {
+      "rule_id": "RULE-171",
+      "scenario": "Triggering of Force Majeure clauses in contracts",
+      "condition": "An earthquake, flood, or mandatory government embargo prevents performance on time",
+      "result": "Must send formal written notice within 48 hours and provide proof from an authoritative body",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-172",
+      "scenario": "Jurisdiction rules for resolving contract disputes",
+      "condition": "Both parties agree in the contract on which judicial channel to use for dispute resolution",
+      "result": "The Singapore International Arbitration Centre (SIAC) is chosen as the neutral third-party forum",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-173",
+      "scenario": "Termination for convenience and compensation rules",
+      "condition": "Buyer requests to terminate the contract before delivery without any breach by the seller",
+      "result": "Buyer compensates seller for direct economic losses and pays a 5% penalty of the total amount",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-174",
+      "scenario": "Identification of goods title transfer timing",
+      "condition": "Contract uses DDP terms and has no separate agreement on the transfer of ownership",
+      "result": "Ownership transfers from seller to buyer only after receipt is signed and full payment is made",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-175",
+      "scenario": "Grace period and penalties for late delivery",
+      "condition": "Seller ships later than the agreed date but within a 7-business-day grace period",
+      "result": "No breach is counted; if exceeded, 0.3% of the total price is deducted for each day of delay",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-176",
+      "scenario": "Interpretation order rules for contract languages",
+      "condition": "Contract is signed in both Chinese and English and semantic conflicts arise in clauses",
+      "result": "The version explicitly defined as the 'Governing Language' in the contract shall prevail",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-177",
+      "scenario": "Price adjustment mechanism for drastic cost changes",
+      "condition": "Raw material market price fluctuates by more than the agreed 10% during contract execution",
+      "result": "Both parties can start price negotiations; a written supplementary agreement is required to take effect",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-178",
+      "scenario": "Assignment of contract and third-party payment rules",
+      "condition": "One party intends to transfer all its rights and obligations under the contract to a third party",
+      "result": "Prior written consent from the other party and a tripartite debt transfer agreement are required",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-179",
+      "scenario": "Start and end of quality objection period",
+      "condition": "Buyer receives goods and has objections to appearance or quantity within the agreed period",
+      "result": "Objections must be in writing within 5 days of arrival; otherwise, goods are deemed compliant",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-180",
+      "scenario": "Validity period of Non-Disclosure Agreement (NDA) clauses",
+      "condition": "Technical drawings or secrets in trade need protection after the contract ends",
+      "result": "Confidentiality obligations do not end with the contract; the period is typically 3 years post-expiry",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-181",
+      "scenario": "Territory protection rules in exclusive agency agreements",
+      "condition": "Seller authorizes the buyer as the sole distributor or agent for a specific country or region",
+      "result": "Seller promises not to sell through any other third party or directly to customers in that region",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-182",
+      "scenario": "Liquidation and document return after contract termination",
+      "condition": "Long-term supply contract expires and parties explicitly state they will not renew it",
+      "result": "Parties must clear accounts within 30 days and return or destroy sensitive materials provided",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-183",
+      "scenario": "Disclaimer regarding 'Intellectual Property Infringement'",
+      "condition": "Seller produces goods based on buyer's drawings and is sued by a third party for infringement",
+      "result": "The buyer bears all compensation and legal costs; the seller bears no joint and several liability",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-184",
+      "scenario": "Formal written requirement for contract modifications",
+      "condition": "Business personnel reach an intent to modify the delivery date via oral or IM tools",
+      "result": "This modification is not legally binding; a written document with official stamps is required",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-185",
+      "scenario": "Rules for setting a cap on liability for breach",
+      "condition": "Liquidated damages or compensation for indirect losses under the contract terms",
+      "result": "The maximum cumulative compensation shall not exceed 50% of the total transaction value",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-186",
+      "scenario": "Condition precedent for contract effectiveness",
+      "condition": "Large order contract is signed but the buyer's Letter of Credit is not yet opened",
+      "result": "The contract is pending until the seller confirms receipt of a valid and legal original L/C",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-187",
+      "scenario": "Contract details for 'Partial Shipments' agreement",
+      "condition": "Total quantity of 100,000 units to be sent in five monthly batches by the seller",
+      "result": "Each batch is a separate transaction; a breach in one does not automatically terminate the whole contract",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-188",
+      "scenario": "Definitions of units like 'Piece' vs 'Dozen' in text",
+      "condition": "Difference between shipment and order due to different measurement unit standards",
+      "result": "The contract appendix must specify standards for units (e.g., 1 dozen = 12 pieces, 1 metric ton)",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-189",
+      "scenario": "Legal validity of electronic contracts and signatures",
+      "condition": "Cross-border trade agreements and compliance docs signed via third-party e-signature platforms",
+      "result": "Per the Electronic Signature Law and international treaties, they have same validity as paper",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-190",
+      "scenario": "Price lock commitment during the contract period",
+      "condition": "A one-year framework agreement is signed and seller promises no price changes",
+      "result": "Seller cannot hike prices due to material costs unless a special adjustment clause is triggered",
+      "category": "Contract Rules"
+    },
+    {
+      "rule_id": "RULE-191",
+      "scenario": "Rules for brand LOGO usage in partner promotions",
+      "condition": "A partner needs to display our brand LOGO on their official website for joint promotion",
+      "result": "Must follow the 'Brand Visual Manual' for standard colors and scale; distortion is prohibited",
+      "category": "Other Rules"
+    },
+    {
+      "rule_id": "RULE-192",
+      "scenario": "Quantity and amount limit for free samples",
+      "condition": "Sending non-saleable samples to potential overseas customers to open new markets",
+      "result": "Limit of 3 samples per shipment and total value must be controlled within $50",
+      "category": "Other Rules"
+    },
+    {
+      "rule_id": "RULE-193",
+      "scenario": "Timing for customer satisfaction surveys and follow-ups",
+      "condition": "Within 30 days after a cross-border order is cleared and successfully signed by the customer",
+      "result": "System automatically sends a survey and records real feedback and suggestions in the database",
+      "category": "Other Rules"
+    },
+    {
+      "rule_id": "RULE-194",
+      "scenario": "Regular update mechanism for internal knowledge base data",
+      "condition": "Major adjustments in trade policies or logistics rates cause original guides to be outdated",
+      "result": "The content department must update all corresponding documents in the system within 24 hours",
+      "category": "Other Rules"
+    },
+    {
+      "rule_id": "RULE-195",
+      "scenario": "Communication efficiency and red-line rules for cross-department work",
+      "condition": "Sales reports a customer urgently needs expert support for a technical detail",
+      "result": "R&D and tech departments must give a clear technical response within 4 hours of the ticket",
+      "category": "Other Rules"
+    },
+    {
+      "rule_id": "RULE-196",
+      "scenario": "Audit rules for sensitive operations in office systems",
+      "condition": "Admin account modifies core parameters, user permissions, or database structures",
+      "result": "System must generate audit logs automatically, kept on the server for at least 12 months",
+      "category": "Other Rules"
+    },
+    {
+      "rule_id": "RULE-197",
+      "scenario": "Compliance statement regarding holiday gift giving",
+      "condition": "Giving business gifts to major overseas clients during Christmas or New Year holidays",
+      "result": "Single gift value not to exceed $100; cash or equivalent securities are strictly forbidden",
+      "category": "Other Rules"
+    },
+    {
+      "rule_id": "RULE-198",
+      "scenario": "Shift allocation rules for multi-language customer service",
+      "condition": "Providing 24/7 technical consultation for overseas customers in different time zones",
+      "result": "Dynamic scheduling based on volume ensures Thai, Vietnamese, etc., are covered during peaks",
+      "category": "Other Rules"
+    },
+    {
+      "rule_id": "RULE-199",
+      "scenario": "Protection of company patents in international exhibitions",
+      "condition": "Carrying products with core patent rights to world-renowned industry trade fairs",
+      "result": "Booth must have copies of legal docs and patent numbers must be clearly marked on items",
+      "category": "Other Rules"
+    },
+    {
+      "rule_id": "RULE-200",
+      "scenario": "Announcement and grayscale release during system upgrades",
+      "condition": "Trade platform needs large functional updates or database architecture adjustments",
+      "result": "Announce 72 hours in advance and perform grayscale switching during non-peak hours",
+      "category": "Other Rules"
+    }
+  ]
+}

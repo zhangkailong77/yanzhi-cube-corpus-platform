@@ -1,0 +1,3013 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "case",
+    "language": "ms",
+    "domain": "trade",
+    "created_by": "Pasukan Pakar",
+    "created_at": "2025-05-23T09:00:00Z",
+    "description": "Korpus Kes dan Amalan Perdagangan"
+  },
+  "data": [
+    {
+      "case_id": "CASE-001",
+      "case_title": "Jenama Pakaian Mengurangkan Kos Import di Malaysia Melalui Sijil Tempat Asal RCEP",
+      "case_type": "Kes Kejayaan",
+      "background": "Sebuah jenama fesyen pantas China menjual di platform Shopee Malaysia dengan volum pesanan bulanan melebihi 20,000.",
+      "situation": "Syarikat memohon Sijil Tempat Asal RCEP untuk mengurangkan duti import produk pakaian rajut daripada 10% kepada kadar tarif keutamaan 0%.",
+      "outcome": "Kos purata bagi setiap item menurun sebanyak 5 RMB, menjimatkan 100,000 RMB cukai sebulan, dan margin keuntungan kasar meningkat sebanyak 8%.",
+      "conclusion": "Mengkaji dan memanfaatkan jadual pengurangan tarif negara anggota RCEP adalah kaedah utama untuk meningkatkan daya saing produk e-dagang yang matang.",
+      "tags": [
+        "RCEP",
+        "Malaysia",
+        "Pengoptimuman Tarif",
+        "Pakaian"
+      ]
+    },
+    {
+      "case_id": "CASE-002",
+      "case_title": "Jenama Kecantikan Mencapai Ledakan Jualan di Vietnam Menggunakan Pemasaran KOL TikTok",
+      "case_type": "Kes Kejayaan",
+      "background": "Sebuah jenama kecantikan domestik merancang untuk memasuki pasaran Vietnam, menghadapi persaingan sengit daripada jenama tempatan, Jepun dan Korea.",
+      "situation": "Jenama tersebut bekerjasama dengan 30 KOL teratas Vietnam untuk kempen sebulan yang melibatkan ulasan video pendek dan penstriman langsung (livestream).",
+      "outcome": "Jualan bulan pertama melebihi USD 300,000, dan produk teras memasuki kedudukan Top 3 dalam kategorinya di TikTok Shop Vietnam.",
+      "conclusion": "Golongan muda di Asia Tenggara sangat dipengaruhi oleh media sosial; menggunakan KOL tempatan sebagai pengesahan kepercayaan adalah senjata ampuh untuk jenama baharu.",
+      "tags": [
+        "Vietnam",
+        "TikTok",
+        "E-dagang Sosial",
+        "Kecantikan"
+      ]
+    },
+    {
+      "case_id": "CASE-003",
+      "case_title": "Syarikat Perabot Rumah Menambah Baik Pengalaman Logistik Melalui Gudang Luar Negara di Indonesia",
+      "case_type": "Kes Kejayaan",
+      "background": "Sebuah syarikat mengeksport kerusi pejabat ke Indonesia menghadapi kadar pemulangan sebanyak 15% disebabkan kitaran logistik yang terlalu lama.",
+      "situation": "Syarikat beralih daripada model penghantaran terus kepada model gudang luar negara, mencapai penghantaran 'hari berikutnya' di Jakarta dan 3-5 hari ke seluruh negara.",
+      "outcome": "Masa logistik dipendekkan sebanyak 70%, kadar penilaian pelanggan meningkat kepada 4.9, dan kos operasi keseluruhan menurun sebanyak 20%.",
+      "conclusion": "Bagi barangan besar, penubuhan gudang luar negara bukan sahaja menyelesaikan isu masa tetapi juga merupakan asas untuk membina halangan perkhidmatan jenama.",
+      "tags": [
+        "Indonesia",
+        "Gudang Luar Negara",
+        "Pengoptimuman Logistik",
+        "Perabot"
+      ]
+    },
+    {
+      "case_id": "CASE-004",
+      "case_title": "Jenama Peralatan Kecil Mengoptimumkan Kadar Kejayaan COD di Filipina",
+      "case_type": "Kes Kejayaan",
+      "background": "Pasaran Filipina didominasi oleh Tunai Semasa Penghantaran (COD). Sebuah jenama 'air fryer' menghadapi kadar penolakan sebanyak 25%.",
+      "situation": "Syarikat memperkenalkan sistem pengesahan telefon automatik dan menyertakan nota terima kasih serta panduan pengguna dalam bahasa tempatan di dalam bungkusan.",
+      "outcome": "Kadar kejayaan penghantaran COD meningkat daripada 75% kepada 92%, menurunkan kos pemenuhan pesanan purata secara ketara.",
+      "conclusion": "Di pasaran yang mengutamakan COD, meningkatkan jangkaan pelanggan melalui pengesahan kedua dan pembungkusan emosi berkesan menyelesaikan isu kadar penerimaan.",
+      "tags": [
+        "Filipina",
+        "COD",
+        "Strategi Pembayaran",
+        "Kadar Kejayaan"
+      ]
+    },
+    {
+      "case_id": "CASE-005",
+      "case_title": "Penjual 3C Membina Halangan Pematuhan Melalui Pensijilan SNI Indonesia",
+      "case_type": "Kes Kejayaan",
+      "background": "Indonesia menguatkuasakan pensijilan SNI mandatori untuk barangan elektronik; ramai penjual menghadapi penyahsenaraian produk kerana tiada pensijilan.",
+      "situation": "Sebuah jenama power bank melaburkan dana dan masa enam bulan untuk melengkapkan audit kilang dan ujian sampel bagi mendapatkan sijil SNI.",
+      "outcome": "Semasa pesaing dinyahsenaraikan, penjual ini mendominasi trafik carian untuk kata kunci berkaitan, mencapai peningkatan jualan sebanyak 400%.",
+      "conclusion": "Di pasaran dengan halangan perdagangan tinggi seperti Indonesia, perancangan pematuhan awal mengubah risiko dasar kepada kelebihan daya saing jangka panjang.",
+      "tags": [
+        "Indonesia",
+        "Pensijilan SNI",
+        "Pematuhan",
+        "Elektronik 3C"
+      ]
+    },
+    {
+      "case_id": "CASE-006",
+      "case_title": "Jenama Ibu dan Kanak-kanak Memanfaatkan Pesta Songkran untuk Pemasaran Setempat di Thailand",
+      "case_type": "Kes Kejayaan",
+      "background": "Pasaran Thailand sangat dipengaruhi oleh perayaan. Sebuah jenama pakaian kanak-kanak merancang untuk meningkatkan kesedaran jenama pada bulan April.",
+      "situation": "Jenama melancarkan pakaian kalis air dengan elemen Songkran dan memulakan peraduan 'Kanak-kanak Songkran Paling Comel' di media sosial.",
+      "outcome": "Kempen tersebut mencapai lebih 5 juta pengguna, dan jualan semasa perayaan meningkat 2.5 kali ganda berbanding bulan sebelumnya.",
+      "conclusion": "E-dagang rentas sempadan mesti berintegrasi dengan budaya tempatan untuk mencetuskan resonans emosi melalui produk tersuai dan pemasaran interaktif.",
+      "tags": [
+        "Thailand",
+        "Pemasaran Perayaan",
+        "Setempat",
+        "Ibu dan Kanak-kanak"
+      ]
+    },
+    {
+      "case_id": "CASE-007",
+      "case_title": "Penjual Lampu Meningkatkan Jualan Melalui Pengoptimuman Kedudukan Carian Lazada Thailand",
+      "case_type": "Kes Kejayaan",
+      "background": "Seorang penjual kilang yang baharu di Lazada mempunyai trafik rendah dan bergantung terutamanya pada harga yang sangat rendah untuk mendapatkan pesanan.",
+      "situation": "Mereka menganalisis kata kunci pesaing, mengoptimumkan huraian Listing dalam bahasa Thai, dan menyertai 'Flash Sale' untuk mengumpul ulasan.",
+      "outcome": "Kedudukan carian untuk kata kunci teras meningkat ke lima teratas di halaman pertama; kadar penukaran meningkat sebanyak 3% tanpa pemotongan harga.",
+      "conclusion": "E-dagang platform bergantung pada operasi yang halus; menggunakan alat data untuk penyetempatan kata kunci adalah kunci kepada pertumbuhan trafik organik.",
+      "tags": [
+        "Thailand",
+        "Lazada",
+        "SEO",
+        "Kemahiran Operasi"
+      ]
+    },
+    {
+      "case_id": "CASE-008",
+      "case_title": "Jenama Haiwan Peliharaan Meningkatkan Pengekalan Melalui Operasi Domain Peribadi di Singapura",
+      "case_type": "Kes Kejayaan",
+      "background": "Kos pemerolehan pelanggan yang tinggi di Singapura menyebabkan sebuah jenama makanan kucing menghadapi kesukaran mendapatkan pelanggan baharu.",
+      "situation": "Jenama membina komuniti di Facebook dan WhatsApp, menyediakan perundingan pakar dalam talian dan kupon pembelian semula secara berkala.",
+      "outcome": "Kadar pembelian semula meningkat daripada 12% kepada 45%, dengan saluran domain peribadi menyumbang lebih 30% daripada jumlah hasil.",
+      "conclusion": "Di pasaran dengan kuasa beli tinggi, membina kesetiaan melalui komuniti peribadi mengimbangi kos trafik awam yang mahal.",
+      "tags": [
+        "Singapura",
+        "Domain Peribadi",
+        "Kadar Pembelian Semula",
+        "Produk Haiwan Peliharaan"
+      ]
+    },
+    {
+      "case_id": "CASE-009",
+      "case_title": "Jenama Sukan Meningkatkan Penukaran Melalui Diskaun E-Wallet Mata Wang Tempatan di Vietnam",
+      "case_type": "Kes Kejayaan",
+      "background": "Pengguna Vietnam mempunyai kebimbangan tentang keselamatan pembayaran dalam talian dan lebih mengutamakan e-wallet untuk diskaun.",
+      "situation": "Syarikat bekerjasama dengan e-wallet tempatan seperti MoMo untuk melancarkan kempen 'Diskaun Pesanan Pertama' dan 'Pulangan Tunai'.",
+      "outcome": "Pesanan bukan COD meningkat daripada 10% kepada 35%, dan kadar keciciran semasa peringkat pembayaran menurun sebanyak 18%.",
+      "conclusion": "Menghubungkan dengan alat pembayaran tempatan bukan sahaja menyelesaikan isu kepercayaan tetapi juga memacu pemerolehan pelanggan yang tepat.",
+      "tags": [
+        "Vietnam",
+        "E-wallet",
+        "Pengoptimuman Pembayaran",
+        "Kadar Penukaran"
+      ]
+    },
+    {
+      "case_id": "CASE-010",
+      "case_title": "Penjual Alatan Perkakasan Mengurangkan Kerugian Melalui Ujian Pemulangan Gudang Luar Negara",
+      "case_type": "Kes Kejayaan",
+      "background": "Produk gerudi elektrik yang dihantar ke Malaysia sering dipulangkan kerana penggunaan yang tidak betul, menyebabkan kerugian besar.",
+      "situation": "Bekerjasama dengan gudang luar negara yang mampu membungkus semula dan melakukan pembaikan kecil untuk menguji produk yang dipulangkan.",
+      "outcome": "Kira-kira 70% produk yang dipulangkan berjaya dijual semula selepas diproses, menjimatkan lebih 200,000 RMB setiap tahun.",
+      "conclusion": "Mekanisme logistik terbalik yang teguh adalah penting bagi e-dagang rentas sempadan untuk mengurangkan kerugian tersembunyi.",
+      "tags": [
+        "Malaysia",
+        "Logistik Terbalik",
+        "Gudang Luar Negara",
+        "Kecekapan Kos"
+      ]
+    },
+    {
+      "case_id": "CASE-011",
+      "case_title": "Penjual Aksesori Menyesuaikan Gaya Visual untuk Estetika Pengguna Thailand",
+      "case_type": "Kes Kejayaan",
+      "background": "Sebuah jenama aksesori gaya Cina mempunyai jualan sederhana di Thailand disebabkan gaya visual minimalisnya.",
+      "situation": "Penyelidikan mendapati pengguna Thai lebih suka warna terang dan tepu tinggi; jenama menangkap semula semua foto produk mengikut kesesuaian tersebut.",
+      "outcome": "Kadar Klik-Lalu (CTR) meningkat dua kali ganda di bawah perbelanjaan iklan yang sama, dan pengikut kedudukan melonjak.",
+      "conclusion": "Ekspresi visual adalah halangan pertama dalam perdagangan silang budaya dan mesti disesuaikan dengan tepat mengikut estetika pasaran sasaran.",
+      "tags": [
+        "Thailand",
+        "Pengoptimuman Visual",
+        "Perbezaan Estetika",
+        "Aksesori"
+      ]
+    },
+    {
+      "case_id": "CASE-012",
+      "case_title": "Jenama Peralatan Dapur Memasuki Pasar Raya Malaysia Melalui Pensijilan Halal",
+      "case_type": "Kes Kejayaan",
+      "background": "Jenama ini terjual dengan baik secara dalam talian tetapi sukar memasuki saluran luar talian atau pasar raya tanpa label Halal.",
+      "situation": "Syarikat menaik taraf barisan pengeluaran dan memohon pensijilan Halal JAKIM, mempamerkan logo secara jelas pada pembungkusan.",
+      "outcome": "Berjaya memasuki pasar raya seperti AEON Malaysia, mencapai liputan omni-saluran dan menggandakan jualan.",
+      "conclusion": "Di negara yang mempunyai populasi Muslim yang besar, pensijilan Halal adalah pasport penting untuk penyetempatan jenama dan pengembangan saluran.",
+      "tags": [
+        "Malaysia",
+        "Pensijilan Halal",
+        "Pengembangan Saluran",
+        "Peralatan Dapur"
+      ]
+    },
+    {
+      "case_id": "CASE-013",
+      "case_title": "Penjual Aksesori Digital Mengoptimumkan Kos Melalui Nod Logistik Penghantaran Terakhir di Filipina",
+      "case_type": "Kes Kejayaan",
+      "background": "Penghantaran ke kawasan pedalaman di Filipina terlalu mahal, menyebabkan pesanan tersebut umumnya tidak menguntungkan.",
+      "situation": "Menandatangani perjanjian strategik dengan kurier yang mempunyai kelebihan rangkaian pedalaman dan menetapkan ambang penghantaran percuma dinamik.",
+      "outcome": "Kos logistik sebagai peratusan jualan turun sebanyak 5%, dan bahagian pasaran di kawasan pedalaman meningkat sebanyak 15%.",
+      "conclusion": "Strategi kos logistik yang fleksibel dan perkongsian penghantaran terakhir yang mendalam adalah kunci untuk menembusi pasaran Asia Tenggara.",
+      "tags": [
+        "Filipina",
+        "Kos Logistik",
+        "Penghantaran Terakhir",
+        "Pasaran Bawahan"
+      ]
+    },
+    {
+      "case_id": "CASE-014",
+      "case_title": "Penjual Alat Tulis Meliputi Pelbagai Keperluan Carian Melalui Strategi Berbilang Kedai Shopee",
+      "case_type": "Kes Kejayaan",
+      "background": "Seorang penjual kilang menghadapi kekangan trafik dan sukar untuk menjangkau segmen pengguna yang berbeza.",
+      "situation": "Di Malaysia, mereka membuka Kedai Utama Jenama, Kedai Nilai, dan Kedai Bekalan Pejabat Profesional.",
+      "outcome": "Jumlah jualan meningkat sebanyak 120%, berkesan memintas trafik carian daripada pengguna dengan niat pembelian yang berbeza.",
+      "conclusion": "Mengendalikan matriks kedai dengan kedudukan berbeza memaksimumkan penangkapan trafik dalaman platform.",
+      "tags": [
+        "Malaysia",
+        "Shopee",
+        "Matriks Kedai",
+        "Alat Tulis"
+      ]
+    },
+    {
+      "case_id": "CASE-015",
+      "case_title": "Jenama Luar Bangunan Merendahkan Halangan di Indonesia Melalui Bayaran Ansuran",
+      "case_type": "Kes Kejayaan",
+      "background": "Peralatan perkhemahan berharga tinggi sukar dipromosikan di Indonesia disebabkan tekanan bayaran sekali gus yang tinggi pada pengguna.",
+      "situation": "Kedai menyepadukan alat 'Beli Sekarang Bayar Kemudian' (BNPL), menyokong ansuran tanpa faedah selama 3-6 bulan.",
+      "outcome": "Nilai Pesanan Purata (AOV) meningkat sebanyak 40%, dan kadar penukaran dalam kalangan pelajar dan profesional muda bertambah baik.",
+      "conclusion": "Alat pembayaran kewangan bukan sekadar kaedah transaksi; ia adalah strategi promosi untuk persekitaran ekonomi tertentu.",
+      "tags": [
+        "Indonesia",
+        "BNPL",
+        "Ansuran",
+        "Nilai Pesanan"
+      ]
+    },
+    {
+      "case_id": "CASE-016",
+      "case_title": "Penjual Produk Tersuai Memenangi Pesanan Korporat di Singapura Melalui Tindak Balas Pantas",
+      "case_type": "Kes Kejayaan",
+      "background": "Syarikat Singapura mempunyai keperluan kualiti tinggi untuk hadiah tersuai dan menuntut masa tindak balas komunikasi yang singkat.",
+      "situation": "Syarikat menggaji kakitangan yang fasih dalam bahasa Inggeris profesional dan menjanjikan balasan dalam masa 10 minit dan sampel dalam 5 hari.",
+      "outcome": "Berjaya memperoleh pesanan hadiah tahunan daripada beberapa firma kewangan Singapura, mencapai hasil tahap jutaan.",
+      "conclusion": "Dalam perdagangan rentas sempadan B2B, kelajuan tindak balas profesional dan kemahiran komunikasi selalunya lebih kompetitif daripada harga.",
+      "tags": [
+        "Singapura",
+        "B2B",
+        "Khidmat Pelanggan",
+        "Penyesuaian"
+      ]
+    },
+    {
+      "case_id": "CASE-017",
+      "case_title": "Jenama Penjagaan Rambut Membina Autoriti Melalui Ulasan YouTube Berdurasi Panjang di Thailand",
+      "case_type": "Kes Kejayaan",
+      "background": "Sebuah alat pengeriting rambut profesional berharga jauh lebih tinggi daripada purata pasaran, menjadikannya sukar difahami oleh pengguna.",
+      "situation": "Bekerjasama dengan pendandan rambut profesional Thailand untuk menghasilkan video ulasan dan tutorial selama 15 minit di YouTube.",
+      "outcome": "Video mencapai lebih sejuta tontonan; produk menjadi juara jualan dalam segmen mewah, merealisasikan premium jenama.",
+      "conclusion": "Bagi produk berfungsi atau berteknologi tinggi, pemasaran kandungan yang mendalam berkesan mengatasi halangan harga untuk membina kepercayaan.",
+      "tags": [
+        "Thailand",
+        "Pemasaran Kandungan",
+        "YouTube",
+        "Premium Jenama"
+      ]
+    },
+    {
+      "case_id": "CASE-018",
+      "case_title": "Penjual Mainan Mengamankan Ruang Kargo Udara Menjelang Musim Puncak Vietnam",
+      "case_type": "Kes Kejayaan",
+      "background": "Semasa promosi Disember, ruang penghantaran ke Vietnam adalah terhad dan kadar tambang sering melonjak tinggi.",
+      "situation": "Pada bulan September, syarikat menandatangani perjanjian ruang blok dengan penghantar kargo, membayar deposit untuk mengunci kapasiti dan harga.",
+      "outcome": "Walaupun kadar industri meningkat 30%, penjual ini mengekalkan kos asal dan menghantar 4 hari lebih cepat daripada pesaing.",
+      "conclusion": "Perancangan rantaian bekalan yang proaktif adalah kelebihan daya saing utama dalam mengendalikan risiko musim puncak.",
+      "tags": [
+        "Vietnam",
+        "Rantaian Bekalan",
+        "Perancangan Logistik",
+        "Musim Puncak"
+      ]
+    },
+    {
+      "case_id": "CASE-019",
+      "case_title": "Penjual Produk Rumah Meningkatkan Aktiviti Pelanggan Lama Melalui Interaksi Shopee Feed",
+      "case_type": "Kes Kejayaan",
+      "background": "Seorang penjual mempunyai ramai pengikut tetapi kadar penukaran harian yang rendah dan penglibatan peminat yang merosot.",
+      "situation": "Jenama menyiarkan petua hiasan rumah harian di Shopee Feed dan menggunakan cabutan bertuah untuk membimbing interaksi peminat.",
+      "outcome": "Bahagian trafik organik meningkat daripada 15% kepada 35%, dan kadar penukaran pengikut meningkat hampir dua kali ganda.",
+      "conclusion": "Menggunakan alat sosial terbina dalam platform untuk operasi harian mengekalkan kehangatan jenama dan menggalakkan pembelian semula.",
+      "tags": [
+        "Malaysia",
+        "Shopee Feed",
+        "Penglibatan Peminat",
+        "Kadar Interaksi"
+      ]
+    },
+    {
+      "case_id": "CASE-020",
+      "case_title": "Jenama 3C Berjaya Membuat Rayuan dan Membatalkan Salah Hukum Tiruan di Indonesia",
+      "case_type": "Kes Kejayaan",
+      "background": "Kedai penjual fon kepala asli ditutup selepas aduan tiruan berniat jahat oleh pesaing.",
+      "situation": "Syarikat menyediakan invois perolehan rantaian penuh, kebenaran kilang, dan pensijilan jenama untuk semakan manual.",
+      "outcome": "Selepas 48 jam komunikasi mendesak, kedai dibuka semula dan menerima pampasan trafik daripada platform.",
+      "conclusion": "Dokumentasi yang kukuh dan mekanisme tindak balas rayuan yang pantas adalah keupayaan teras untuk melindungi akaun.",
+      "tags": [
+        "Indonesia",
+        "Rayuan Pematuhan",
+        "Perlindungan Jenama",
+        "Dasar Platform"
+      ]
+    },
+    {
+      "case_id": "CASE-021",
+      "case_title": "Jenama Makanan Menggandakan Jualan Melalui Penyesuaian Pembungkusan Ramadan di Indonesia",
+      "case_type": "Kes Kejayaan",
+      "background": "Seorang pengeksport kacang menyasarkan pasaran Indonesia mahu meningkatkan jualan semasa Ramadan.",
+      "situation": "Syarikat mereka bentuk 'Kotak Hadiah Ramadan' dengan elemen budaya Islam dan menggunakan saiz kecil yang sesuai untuk pemberian Aidilfitri.",
+      "outcome": "Jualan bulanan semasa Ramadan mencapai 3.5 kali ganda volum biasa, dan sebutan jenama di media sosial meningkat sebanyak 120%.",
+      "conclusion": "Penyesuaian pembungkusan yang mendalam untuk perayaan agama adalah cara berkesan untuk jenama makanan memasuki pasaran Muslim.",
+      "tags": [
+        "Indonesia",
+        "Pemasaran Ramadan",
+        "Pembungkusan",
+        "Makanan"
+      ]
+    },
+    {
+      "case_id": "CASE-022",
+      "case_title": "Penjual Kecantikan Meningkatkan Kedudukan Melalui Strategi 'Gudang Luar Negara + Penghantaran Tempatan' di Malaysia",
+      "case_type": "Kes Kejayaan",
+      "background": "Penjual rentas sempadan di Shopee Malaysia mempunyai kelebihan harga tetapi berat carian rendah disebabkan masa logistik.",
+      "situation": "Menyimpan stok produk terlaris di gudang Kuala Lumpur dan mendayakan penghantaran tempatan, memaparkan 'Ship from Local'.",
+      "outcome": "Kedudukan carian mencapai dua halaman pertama, kadar penukaran (CR) meningkat daripada 2% kepada 7%, dan jualan bulanan melebihi 500,000 MYR.",
+      "conclusion": "Menghapuskan kelewatan logistik melalui pergudangan tempatan meningkatkan berat carian dan keyakinan pengguna secara ketara.",
+      "tags": [
+        "Malaysia",
+        "Gudang Luar Negara",
+        "Berat Carian",
+        "Kecantikan"
+      ]
+    },
+    {
+      "case_id": "CASE-023",
+      "case_title": "Penjual Aksesori E-rokok Mengelak Risiko Dasar Melalui Ujian Kotak Kelabu yang Patuh",
+      "case_type": "Kes Kejayaan",
+      "background": "Dasar e-rokok di Asia Tenggara adalah tidak menentu; seorang penjual merancang untuk memasuki pasaran Thailand.",
+      "situation": "Menjalankan ujian pematuhan kelompok kecil, mengikuti peraturan pelabelan tempatan untuk kuasa dan pembungkusan tanpa iklan yang agresif.",
+      "outcome": "Walaupun pesaing dilarang kerana pelanggaran, penjual ini mengekalkan kestabilan kedai sepanjang tempoh turun naik dasar.",
+      "conclusion": "Dalam sektor sensitif dasar, mengekalkan pematuhan sederhana dan ujian kotak kelabu adalah lebih berdaya maju daripada pengembangan melulu.",
+      "tags": [
+        "Thailand",
+        "Pematuhan Dasar",
+        "Barangan Sensitif",
+        "Pengurusan Risiko"
+      ]
+    },
+    {
+      "case_id": "CASE-024",
+      "case_title": "Penjual Alat Ganti Kereta Mengurangkan Pemulangan Melalui Manual Bahasa Vietnam yang Setempat",
+      "case_type": "Kes Kejayaan",
+      "background": "Produk elektronik kereta mempunyai jualan yang baik di Vietnam tetapi kadar pemulangan 12% disebabkan pemasangan yang kompleks.",
+      "situation": "Syarikat menterjemah manual ke dalam bahasa Vietnam yang idiomatik dan menambah video pemasangan bersari kata ke halaman produk.",
+      "outcome": "Kadar pemulangan turun kepada 2%, tekanan khidmat pelanggan jatuh sebanyak 60%, dan penilaian kedai pulih kepada 4.8.",
+      "conclusion": "Halangan bahasa menyebabkan pemulangan tinggi; arahan setempat yang idiomatik dan panduan video berkesan menyelesaikan isu pemasangan.",
+      "tags": [
+        "Vietnam",
+        "Kadar Pemulangan",
+        "Kandungan Setempat",
+        "Alat Ganti Kereta"
+      ]
+    },
+    {
+      "case_id": "CASE-025",
+      "case_title": "Penjual Singapura Meningkatkan Keselamatan Melalui Logistik Milik Lazada",
+      "case_type": "Kes Kejayaan",
+      "background": "Penjual barang kemas perak yang mempunyai nilai tinggi mengalami kehilangan atau kerosakan sekali-sekala dengan mel biasa.",
+      "situation": "Menyepadukan logistik 'Delivered by Lazada' dan menginsuranskan setiap pesanan dengan insurans kargo bernilai tinggi.",
+      "outcome": "Kadar kerosakan/kehilangan turun kepada sifar, dan kadar pembelian semula daripada pelanggan bernilai tinggi meningkat sebanyak 25%.",
+      "conclusion": "Barangan bernilai tinggi harus mengutamakan logistik rasmi platform atau premium untuk mengimbangi risiko melalui premium perkhidmatan.",
+      "tags": [
+        "Singapura",
+        "Barangan Nilai Tinggi",
+        "Insurans Logistik",
+        "Lazada"
+      ]
+    },
+    {
+      "case_id": "CASE-026",
+      "case_title": "Penjual Fesyen Mencapai Trafik Tepat Melalui Kumpulan Facebook Filipina",
+      "case_type": "Kes Kejayaan",
+      "background": "Pengguna Filipina sangat bergantung pada Facebook; seorang penjual fesyen pantas menghadapi kos iklan platform yang tinggi.",
+      "situation": "Menyertai dan mengendalikan 50 kumpulan Facebook fesyen tempatan, menyiarkan foto pembeli sebenar untuk menarik minat.",
+      "outcome": "30% daripada trafik kedai datang dari komuniti Facebook, dengan kos hanya satu perlima daripada iklan dalam platform.",
+      "conclusion": "Di pasaran dengan penembusan media sosial yang tinggi, mengendalikan komuniti tempatan adalah jalan pintas untuk trafik penukaran tinggi.",
+      "tags": [
+        "Filipina",
+        "Pemasaran Facebook",
+        "Suntikan Trafik",
+        "Fesyen Wanita"
+      ]
+    },
+    {
+      "case_id": "CASE-027",
+      "case_title": "Jenama Produk Rumah Menyelesaikan Isu Kepercayaan Melalui Video Unboxing Pempengaruh Indonesia",
+      "case_type": "Kes Kejayaan",
+      "background": "Jenama perkakas rumah pintar baharu di Indonesia mendapati pengguna teragak-agak untuk membeli disebabkan kurang kesedaran jenama.",
+      "situation": "Menghubungi 5 YouTuber teknologi Indonesia untuk menghasilkan video unboxing panjang yang menunjukkan butiran produk.",
+      "outcome": "Dalam masa dua minggu, kegemaran kedai meningkat sebanyak 10,000, dan kelompok pertama 1,000 unit terjual dengan cepat.",
+      "conclusion": "Unboxing pempengaruh bukan sekadar promosi; ia penting untuk pengesahan jenama dan membuang halangan kepercayaan.",
+      "tags": [
+        "Indonesia",
+        "Pemasaran Pempengaruh",
+        "Unboxing",
+        "Perkakas Rumah"
+      ]
+    },
+    {
+      "case_id": "CASE-028",
+      "case_title": "Penjual Bagasi Mencapai Sinergi Berbilang Platform Melalui Pautan Stesen Malaysia",
+      "case_type": "Kes Kejayaan",
+      "background": "Satu jenama mengendalikan Shopee, Lazada, dan TikTok Shop tetapi mempunyai kecekapan rendah disebabkan pasukan yang berpecah.",
+      "situation": "Memperkenalkan sistem ERP untuk inventori bersatu dan menyegerakkan kitaran promosi untuk pasaran Malaysia.",
+      "outcome": "Kecekapan kakitangan meningkat sebanyak 40%, dan pendedahan jenama di Malaysia meningkat tiga kali ganda.",
+      "conclusion": "Operasi matriks berbilang platform memerlukan alat digital untuk menyegerakkan inventori, harga, dan pemasaran.",
+      "tags": [
+        "Malaysia",
+        "Berbilang Platform",
+        "Sistem ERP",
+        "Bagasi"
+      ]
+    },
+    {
+      "case_id": "CASE-029",
+      "case_title": "Penjual Peralatan Sukan Memastikan Kutipan Melalui Sistem COD Vietnam yang Dinaik Taraf",
+      "case_type": "Kes Kejayaan",
+      "background": "Dengan nisbah COD yang tinggi di Vietnam, penjual menghadapi pemulihan modal yang perlahan dan kitaran bil yang huru-hara.",
+      "situation": "Menandatangani kontrak dengan penyedia logistik yang mampu membuat penyelesaian pantas dan membina sistem perdamaian automatik.",
+      "outcome": "Kitaran pemulihan pembayaran dipendekkan sebanyak 5 hari, dan kadar hutang lapuk dalam buku jatuh kepada hampir sifar.",
+      "conclusion": "Daya saing teras dalam model COD ialah ketelusan aliran tunai dan kelajuan; perdamaian yang ketat diperlukan.",
+      "tags": [
+        "Vietnam",
+        "COD",
+        "Pusingan Modal",
+        "Perakaunan"
+      ]
+    },
+    {
+      "case_id": "CASE-030",
+      "case_title": "Jenama Haiwan Peliharaan Mempromosikan Produk Terbiodegradasi Melalui Trend Hijau Singapura",
+      "case_type": "Kes Kejayaan",
+      "background": "Kerajaan dan orang awam Singapura menghargai alam sekitar; bekalan haiwan peliharaan plastik biasa semakin kompetitif.",
+      "situation": "Melancarkan bekas pasir kucing dan beg sisa terbiodegradasi, memaparkan pensijilan eko dan data pengurangan karbon.",
+      "outcome": "Produk dicari-cari walaupun terdapat premium harga 30%, berjaya memasuki komuniti haiwan peliharaan mewah.",
+      "conclusion": "Di pasaran matang, menyelaraskan dengan trend alam sekitar atau ESG tempatan adalah cara terbaik untuk mencapai premium jenama.",
+      "tags": [
+        "Singapura",
+        "Trend Alam Sekitar",
+        "Pembezaan",
+        "Produk Haiwan Peliharaan"
+      ]
+    },
+    {
+      "case_id": "CASE-031",
+      "case_title": "Penjual 3C Meningkatkan Kadar Kejayaan Melalui Logistik Penghantaran Terakhir Filipina yang Dioptimumkan",
+      "case_type": "Kes Kejayaan",
+      "background": "Filipina mempunyai banyak pulau; kadar kejayaan untuk pesanan kawasan pedalaman sangat rendah, menyebabkan kerugian.",
+      "situation": "Berdasarkan data sejarah, menyekat alamat pulau terpencil dengan kadar kejayaan rendah dan memilih kurier terpilih untuk pesanan nilai tinggi.",
+      "outcome": "Kadar kejayaan COD purata meningkat daripada 82% kepada 94%, menjimatkan kira-kira 150,000 RMB setiap tahun.",
+      "conclusion": "Persekitaran logistik Asia Tenggara adalah kompleks; pengurusan wilayah dinamik melalui analisis data adalah perlu.",
+      "tags": [
+        "Filipina",
+        "Kadar Kejayaan",
+        "Pilihan Logistik",
+        "Analisis Data"
+      ]
+    },
+    {
+      "case_id": "CASE-032",
+      "case_title": "Jenama Alat Tulis Mengoptimumkan Listing CTR Melalui Terjemahan Thai yang Setempat",
+      "case_type": "Kes Kejayaan",
+      "background": "Listing jenama pada asalnya menggunakan bahasa Thai terjemahan mesin, yang kekok dan menyebabkan halangan bacaan.",
+      "situation": "Menggaji pelajar Thai untuk memurnikan semua tajuk dan huraian produk, menambah istilah alat tulis tempatan yang popular.",
+      "outcome": "Kadar Klik-Lalu (CTR) carian meningkat sebanyak 50%, dan masa purata pada halaman Listing meningkat sebanyak 45 saat.",
+      "conclusion": "Bahasa idiomatik meningkatkan pertalian produk secara ketara; pemurnian manual sangat diperlukan untuk meningkatkan CTR.",
+      "tags": [
+        "Thailand",
+        "Pengoptimuman Listing",
+        "Bahasa Setempat",
+        "Alat Tulis"
+      ]
+    },
+    {
+      "case_id": "CASE-033",
+      "case_title": "Penjual Ibu dan Kanak-kanak Mencapai Ledakan Promosi Melalui Pemasaran Permainan Shopee",
+      "case_type": "Kes Kejayaan",
+      "background": "Semasa promosi 9.9, sebuah kedai mahu menonjol dalam kalangan persaingan besar untuk menarik pengikut baharu.",
+      "situation": "Mengambil bahagian secara aktif dalam permainan platform (cth., Shopee Candy), memberikan baucar bernilai tinggi sebagai ganjaran.",
+      "outcome": "Pelanggan baharu menyumbang 65% daripada pesanan pada hari besar, dan pertumbuhan pengikut adalah 10 kali lebih tinggi.",
+      "conclusion": "Pengguna Asia Tenggara menyukai membeli-belah yang gamifikasi; menggunakan alat sedia ada platform boleh memperoleh peminat dengan kos rendah.",
+      "tags": [
+        "Malaysia",
+        "Pemasaran Permainan",
+        "Promosi Besar",
+        "Ibu dan Kanak-kanak"
+      ]
+    },
+    {
+      "case_id": "CASE-034",
+      "case_title": "Penjual Produk Rumah Mengurangkan Kos Import Thailand Melalui Penyelesaian LCL yang Dioptimumkan",
+      "case_type": "Kes Kejayaan",
+      "background": "Penjual menjual perabot ringan; kargo udara terlalu mahal, dan FCL tidak dapat mengisi gudang dengan cepat.",
+      "situation": "Bekerjasama dengan penghantar untuk penghantaran Kurang daripada Muatan Kontena (LCL) berjadual dan mengoptimumkan volum kotak.",
+      "outcome": "Kos logistik seunit turun sebanyak 40%, dengan purata masa ketibaan stabil pada sekitar 15 hari.",
+      "conclusion": "Bagi barangan separa berat sederhana hingga besar, penyelesaian LCL yang stabil adalah kunci untuk mengimbangi kos logistik.",
+      "tags": [
+        "Thailand",
+        "LCL",
+        "Kos Logistik",
+        "Perabot"
+      ]
+    },
+    {
+      "case_id": "CASE-035",
+      "case_title": "Jenama Penjagaan Rambut Meningkatkan Penukaran Melalui TikTok Shop Live di Vietnam",
+      "case_type": "Kes Kejayaan",
+      "background": "Sebuah jenama alat pengeriting rambut mempunyai trafik di TikTok Vietnam, tetapi penukaran melalui pautan luar adalah rendah.",
+      "situation": "Membuka TikTok Shop Vietnam, membolehkan transaksi gelung tertutup melalui Bakul Kuning dengan demonstrasi langsung.",
+      "outcome": "Kadar penukaran strim langsung (GPM) meningkat sebanyak 200%, dengan GMV sesi tunggal memecah USD 50,000.",
+      "conclusion": "Pada platform sosial seperti TikTok, memendekkan laluan pembelian dan mencapai transaksi gelung tertutup adalah logik teras.",
+      "tags": [
+        "Vietnam",
+        "TikTok Shop",
+        "Penstriman Langsung",
+        "Penjagaan Rambut"
+      ]
+    },
+    {
+      "case_id": "CASE-036",
+      "case_title": "Penjual Hadiah Menembusi Pasaran Korporat Singapura Melalui Set Hadiah Berbeza",
+      "case_type": "Kes Kejayaan",
+      "background": "Syarikat Singapura mempunyai permintaan besar untuk hadiah perniagaan tetapi kekurangan pembekal sistematik untuk perolehan pukal.",
+      "situation": "Menyediakan kad hadiah tersuai, pembungkusan reben, dan perkhidmatan menulis kad, meletakkan diri sebagai pakar penyelesaian hadiah.",
+      "outcome": "Nilai Pesanan Purata (AOV) meningkat sebanyak 100%, mengamankan perjanjian penyumberan luar hadiah tahunan dengan beberapa MNC.",
+      "conclusion": "Meneroka premium perkhidmatan dengan menukar produk menjadi penyelesaian meningkatkan keuntungan rentas sempadan B2B.",
+      "tags": [
+        "Singapura",
+        "Penyesuaian Hadiah",
+        "B2B",
+        "Perkhidmatan Nilai Tambah"
+      ]
+    },
+    {
+      "case_id": "CASE-037",
+      "case_title": "Penjual Digital Meningkatkan Jualan Melalui Pautan Festival E-Pembayaran Malaysia",
+      "case_type": "Kes Kejayaan",
+      "background": "Kerajaan Malaysia mempromosikan e-wallet; penjual mahu meningkatkan nisbah pesanan bukan COD.",
+      "situation": "Bekerjasama dengan Touch 'n Go eWallet untuk menyediakan acara diskaun e-pembayaran eksklusif di kedai.",
+      "outcome": "Pesanan e-pembayaran meningkat kepada lebih 50%, berkesan mengurangkan tekanan kutipan tunai di hujung logistik.",
+      "conclusion": "Menyelaraskan dengan pendigitalan kewangan tempatan dan menggunakan subsidi e-wallet secara berkesan mengurangkan kos pemasaran.",
+      "tags": [
+        "Malaysia",
+        "E-pembayaran",
+        "Strategi Promosi",
+        "Produk Digital"
+      ]
+    },
+    {
+      "case_id": "CASE-038",
+      "case_title": "Jenama Pakaian Mencapai Pemerolehan Kos Rendah Melalui Matriks 'Micro-Influencer' Indonesia",
+      "case_type": "Kes Kejayaan",
+      "background": "Pempengaruh teratas terlalu mahal; sebuah jenama permulaan mempunyai bajet terhad dan tidak mampu membayar yuran promosi yang tinggi.",
+      "situation": "Menandatangani 50 micro-influencer dengan 50k-100k pengikut untuk menjalankan penyiaran kandungan gaya selimut.",
+      "outcome": "Pulangan Pelaburan (ROI) mencapai 1:8, dan jenama itu membina kesedaran dengan cepat dalam kalangan gaya tertentu.",
+      "conclusion": "Di pasaran dengan kesan ekor panjang yang kuat, matriks micro-influencer selalunya lebih kos efektif daripada satu bintang utama.",
+      "tags": [
+        "Indonesia",
+        "Micro-influencer",
+        "Pemasaran Matriks",
+        "Pakaian"
+      ]
+    },
+    {
+      "case_id": "CASE-039",
+      "case_title": "Penjual Perkakas Kecil Meningkatkan Premium Jenama Melalui Rangkaian Waranti Filipina",
+      "case_type": "Kes Kejayaan",
+      "background": "Perkakas rentas sempadan di Filipina sering dikritik kerana dasar 'tiada pembaikan' atau 'tidak boleh dibaiki'.",
+      "situation": "Bekerjasama dengan rangkaian pembaikan elektrik tempatan untuk melantik mereka sebagai pusat servis jenama, menyediakan waranti tempatan.",
+      "outcome": "Produk terjual dengan baik walaupun dengan kenaikan harga 15%; sebutan 'servis boleh dipercayai' dalam ulasan meningkat tajam.",
+      "conclusion": "Penyetempatan perkhidmatan selepas jualan adalah jalan wajib untuk penjenamaan, menyokong premium jenama secara berkesan.",
+      "tags": [
+        "Filipina",
+        "Khidmat Selepas Jualan",
+        "Premium Jenama",
+        "Perkakas Kecil"
+      ]
+    },
+    {
+      "case_id": "CASE-040",
+      "case_title": "Jenama Perkakas Dapur Memanfaatkan 'Ekonomi Malas' Thailand untuk Periuk Pelbagai Guna",
+      "case_type": "Kes Kejayaan",
+      "background": "Golongan muda bandar Thai yang tinggal bersendirian semakin meningkat, dan tabiat memasak beralih ke arah kaedah cepat dan mudah.",
+      "situation": "Memberi tumpuan kepada mata jualan 'pelbagai fungsi, mati kuasa auto, mudah bersih' dan mempromosikan reka bentuk kompak untuk kondo.",
+      "outcome": "Jualan di Bangkok menyumbang 60% daripada jumlah keseluruhan Thailand; jenama itu menjadi perkakas 'Internet-famous' tempatan.",
+      "conclusion": "Mengenal pasti titik kesakitan kumpulan tertentu (cth., solo bandar) secara mendalam membolehkan kedudukan produk yang tepat.",
+      "tags": [
+        "Thailand",
+        "Ekonomi Malas",
+        "Kedudukan Produk",
+        "Perkakas Dapur"
+      ]
+    },
+    {
+      "case_id": "CASE-041",
+      "case_title": "Jenama Aksesori Meningkatkan Nilai Pesanan Melalui Penjenamaan Bersama IP Singapura",
+      "case_type": "Kes Kejayaan",
+      "background": "Aksesori standard di Singapura menghadapi homogenisasi yang teruk dan persaingan harga yang sengit.",
+      "situation": "Bekerjasama dengan IP budaya tempatan Singapura yang terkenal untuk melancarkan rantai dan pembungkusan edisi terhad.",
+      "outcome": "Harga item tunggal meningkat daripada 20 SGD kepada 55 SGD, dan stok habis dalam minggu pertama pelancaran.",
+      "conclusion": "Menggunakan kuasa premium IP matang tempatan adalah cara berkesan untuk jenama menaik taraf gred dan margin dengan cepat.",
+      "tags": [
+        "Singapura",
+        "Penjenamaan Bersama IP",
+        "Pemasaran Silang",
+        "Aksesori"
+      ]
+    },
+    {
+      "case_id": "CASE-042",
+      "case_title": "Penjual Kecantikan Mengelak Puncak Kastam Melalui Pengoptimuman Batang Logistik Vietnam",
+      "case_type": "Kes Kejayaan",
+      "background": "Sebelum cuti, sempadan darat China-Vietnam sering sesak, dan kadar pemeriksaan meningkat dengan ketara.",
+      "situation": "Menggunakan data besar untuk meramal kitaran kesesakan dan melengkapkan semua pelepasan pukal 10 hari sebelum puncak ke gudang Vietnam.",
+      "outcome": "Tiada pesanan promosi terjejas oleh kelewatan sempadan; kadar Penghantaran Tepat Masa (OTD) mendahului kategori.",
+      "conclusion": "Pemerhatian pasaran yang tajam dan kedudukan awal inventori membolehkan penjual mendapat kelebihan semasa tempoh logistik rapuh.",
+      "tags": [
+        "Vietnam",
+        "Strategi Pelepasan",
+        "Kedudukan Awal",
+        "Kecantikan"
+      ]
+    },
+    {
+      "case_id": "CASE-043",
+      "case_title": "Penjual Mainan Mencapai Pembersihan Stok Pantas Melalui Penstriman Langsung 'Double 12' Malaysia",
+      "case_type": "Kes Kejayaan",
+      "background": "Satu siri mainan akan tamat musim, dengan inventori besar tersangkut di gudang tempatan Malaysia yang memerlukan pencairan.",
+      "situation": "Menjalankan penstriman langsung 24 jam tanpa henti pada 12.12, menggunakan 'Kotak Misteri' dan 'Jualan Kilat' untuk menarik pengguna.",
+      "outcome": "Membersihkan 3 bulan inventori bertakung dalam satu hari, memulihkan lebih USD 100,000 dalam aliran tunai.",
+      "conclusion": "Penstriman langsung ialah alat yang sangat cekap untuk membersihkan stok akhir musim dan mempercepatkan pemulihan modal.",
+      "tags": [
+        "Malaysia",
+        "Pengurusan Inventori",
+        "Penstriman Langsung",
+        "Mainan"
+      ]
+    },
+    {
+      "case_id": "CASE-044",
+      "case_title": "Jenama Alatan Mengoptimumkan Visual Listing untuk Tabiat Tukang Indonesia",
+      "case_type": "Kes Kejayaan",
+      "background": "Gergaji tangan mempunyai jualan yang lemah di Indonesia; Listing asal menunjukkan rupa produk berbanding senario penggunaan.",
+      "situation": "Menangkap semula GIF dan video pendek menunjukkan penghias tempatan Indonesia menggunakan gergaji pada kayu keras tempatan yang biasa.",
+      "outcome": "Kadar penukaran meningkat 3 kali ganda, dan pertanyaan tentang 'bolehkah ia memotong kayu keras' menurun secara ketara.",
+      "conclusion": "Paparan Listing berasaskan senario menangani kebimbangan teras pembeli secara langsung, terutamanya untuk alatan profesional.",
+      "tags": [
+        "Indonesia",
+        "Pemasaran Senario",
+        "Pengoptimuman Listing",
+        "Alatan Perkakasan"
+      ]
+    },
+    {
+      "case_id": "CASE-045",
+      "case_title": "Penjual Singapura Meningkatkan Keputusan Melalui Dasar Pulangan Percuma yang Fleksibel",
+      "case_type": "Kes Kejayaan",
+      "background": "Pengguna Singapura mementingkan perlindungan membeli-belah dan teragak-agak lebih lama pada produk berharga tinggi.",
+      "situation": "Melaksanakan dasar 'Pulangan Percuma Tanpa Sebab 15 Hari' di Singapura, dengan pengambilan di pintu rumah oleh kurier tempatan.",
+      "outcome": "Walaupun kadar pemulangan meningkat sebanyak 1%, jualan keseluruhan meningkat 40%, terutamanya untuk segmen SKU berharga tinggi.",
+      "conclusion": "Di pasaran nilai pesanan tinggi dengan tahap kredit tinggi, perlindungan pemulangan yang kukuh adalah dorongan terakhir untuk penukaran.",
+      "tags": [
+        "Singapura",
+        "Dasar Pemulangan",
+        "Keputusan Pembelian",
+        "Perlindungan Pelanggan"
+      ]
+    },
+    {
+      "case_id": "CASE-046",
+      "case_title": "Jenama Kecantikan Meningkatkan Kecekapan Melalui Plugin Cuba-Pakai AR di Thailand",
+      "case_type": "Kes Kejayaan",
+      "background": "Jenama gincu mempunyai penukaran pertanyaan yang rendah di Thailand kerana pengguna tidak dapat menguji warna dalam talian.",
+      "situation": "Memperkenalkan alat cuba-pakai masa nyata AR di laman web bebas dan kedai Shopee, membolehkan pengguna memilih warna melalui kamera.",
+      "outcome": "Purata masa sesi pengguna meningkat sebanyak 2 minit, dan kadar pembelian untuk SKU berkaitan meningkat sebanyak 22%.",
+      "conclusion": "Memperkasakan membeli-belah melalui teknologi berkesan mengurangkan titik buta dalam talian, terutamanya untuk item sensitif warna.",
+      "tags": [
+        "Thailand",
+        "Teknologi AR",
+        "Kecantikan",
+        "Pengalaman Membeli-belah"
+      ]
+    },
+    {
+      "case_id": "CASE-047",
+      "case_title": "Jenama Rumah Pintar Membina Word-of-Mouth Melalui Kempen Ujian KOL Malaysia",
+      "case_type": "Kes Kejayaan",
+      "background": "Jenama dengan kesedaran rendah menghadapi ujian kepercayaan untuk produk kunci pintar mahalnya di Malaysia.",
+      "situation": "Menjemput 10 blogger rumah Malaysia untuk ujian percuma, memerlukan pemasangan sebenar dan huraian maklum balas jangka panjang.",
+      "outcome": "Mengumpul lebih 500 ulasan pembeli berkualiti tinggi; haba carian jenama meningkat 400% dalam masa satu bulan.",
+      "conclusion": "Kempen ujian ialah 'pemecah ais' untuk ulasan awal dan kepercayaan jenama, terutamanya untuk barangan teknologi berharga tinggi.",
+      "tags": [
+        "Malaysia",
+        "Kempen Ujian",
+        "Kepercayaan Jenama",
+        "Rumah Pintar"
+      ]
+    },
+    {
+      "case_id": "CASE-048",
+      "case_title": "Penjual Pakaian Meletakkan Stok Kelengkapan Hujan Awal untuk Permintaan Bermusim Filipina",
+      "case_type": "Kes Kejayaan",
+      "background": "Filipina mempunyai musim hujan yang panjang dan lebat; permintaan untuk kelengkapan hujan berkualiti tinggi adalah sangat kitaran.",
+      "situation": "Menjalankan ujian pasaran dan menyimpan stok melalui kargo laut dua bulan sebelum musim, memfokuskan pada 'kalis angin' dan 'mudah alih'.",
+      "outcome": "Jualan pada bulan pertama mencapai 150% daripada sasaran; margin keuntungan meningkat disebabkan susun atur awal.",
+      "conclusion": "Menguasai kitaran iklim negara Asia Tenggara untuk penyimpanan stok merentas musim adalah kunci kepada keuntungan berlebihan.",
+      "tags": [
+        "Filipina",
+        "Musim Hujan",
+        "Permintaan Bermusim",
+        "Kelengkapan Hujan"
+      ]
+    },
+    {
+      "case_id": "CASE-049",
+      "case_title": "Jenama Makanan Berjaya Memasuki Rangkaian Pasar Raya Besar di Vietnam Melalui Pensijilan FDA",
+      "case_type": "Kes Kejayaan",
+      "background": "Seorang penjual snek sihat mahu berkembang daripada kedai Shopee dalam talian ke pasar raya mewah Vietnam luar talian.",
+      "situation": "Menghabiskan masa 8 bulan memohon dan mendapatkan pensijilan import FDA Vietnam dan lesen kebersihan yang berkaitan.",
+      "outcome": "Berjaya memasuki pelbagai kedai WinMart di HCMC; saluran luar talian menyumbang 50% daripada jualan jenama.",
+      "conclusion": "Sijil pematuhan ialah halangan keras untuk pengembangan luar talian; pelaburan jangka panjang dalam kelayakan membuka ruang pertumbuhan.",
+      "tags": [
+        "Vietnam",
+        "Pensijilan FDA",
+        "Saluran Pasar Raya Besar",
+        "Makanan"
+      ]
+    },
+    {
+      "case_id": "CASE-050",
+      "case_title": "Jenama Ibu dan Kanak-kanak Menjadi Popular Melalui Pakaian Anti-Nyamuk 'Southeast Asia Special' Tersuai",
+      "case_type": "Kes Kejayaan",
+      "background": "Demam denggi biasa di Asia Tenggara; ibu bapa sangat bimbang tentang perlindungan anti-nyamuk untuk bayi.",
+      "situation": "Membangunkan pakaian pelindung bayi menggunakan fabrik anti-nyamuk khas yang bernafas dan memenuhi estetika tempatan.",
+      "outcome": "Item tunggal itu mendapat sambutan di Indonesia dan Filipina, menjadi juara jualan kategori untuk suku tersebut.",
+      "conclusion": "Membangunkan produk berfungsi untuk risiko alam sekitar tempatan (cth., iklim, penyakit) memberikan kelebihan daya saing.",
+      "tags": [
+        "Indonesia",
+        "Pakaian Berfungsi",
+        "R&D",
+        "Ibu dan Kanak-kanak"
+      ]
+    },
+    {
+      "case_id": "CASE-051",
+      "case_title": "Jenama Penjagaan Rambut Mewah Membina Autoriti Melalui Kerjasama dengan Salon Profesional di Thailand",
+      "case_type": "Kes Kejayaan",
+      "background": "Pengering rambut mewah jenama tersebut menghadapi persaingan harga rendah dalam pasaran dalam talian Thailand.",
+      "situation": "Bekerjasama dengan 10 salon rambut terkemuka di Bangkok sebagai alat penggayaan rasmi dan memaparkan kod QR jenama di kedai.",
+      "outcome": "Kadar penukaran kedai dalam talian meningkat sebanyak 45%; jenama itu berjaya meletakkan dirinya sebagai 'alat profesional', meningkatkan premiumnya secara ketara.",
+      "conclusion": "Sokongan daripada saluran luar talian profesional berkesan meningkatkan gred jenama dalam talian dan mencapai premium yang berbeza.",
+      "tags": [
+        "Thailand",
+        "Pautan O2O",
+        "Sokongan Jenama",
+        "Penjagaan Rambut"
+      ]
+    },
+    {
+      "case_id": "CASE-052",
+      "case_title": "Penjual Perabot Pejabat Meningkatkan Penilaian Melalui Perkhidmatan Pemasangan yang Dioptimumkan di Indonesia",
+      "case_type": "Kes Kejayaan",
+      "background": "Kerusi pejabat yang dieksport ke Indonesia sering menerima ulasan negatif dan pemulangan disebabkan pemasangan yang sukar.",
+      "situation": "Bekerjasama dengan pasukan pemasangan pihak ketiga di bandar-bandar utama Indonesia untuk menyediakan 'pemasangan di tapak' sebagai pilihan nilai tambah.",
+      "outcome": "Kerosakan dan pemulangan disebabkan pemasangan yang tidak betul jatuh sebanyak 80%, dan penilaian kedai meningkat kepada 4.9.",
+      "conclusion": "Bagi produk yang memerlukan pemasangan kompleks, gelung perkhidmatan setempat adalah kunci untuk meningkatkan reputasi dan daya saing teras.",
+      "tags": [
+        "Indonesia",
+        "Setempat",
+        "Perkhidmatan Pemasangan",
+        "Perabot Pejabat"
+      ]
+    },
+    {
+      "case_id": "CASE-053",
+      "case_title": "Penjual Pakaian Kanak-kanak Meningkatkan Penukaran Melalui Khidmat Pelanggan Dwibahasa di Malaysia",
+      "case_type": "Kes Kejayaan",
+      "background": "Asas pengguna yang pelbagai di Malaysia menyukarkan perkhidmatan bahasa Inggeris sahaja untuk memenuhi keperluan masyarakat Cina dan etnik lain.",
+      "situation": "Menempatkan kakitangan yang fasih dalam bahasa Cina dan Inggeris serta menjalankan operasi komuniti yang berbeza untuk komuniti berbahasa Cina.",
+      "outcome": "Kadar pesanan daripada pelanggan berbahasa Cina meningkat sebanyak 35%, dan pertikaian pra-jualan menurun dengan ketara disebabkan komunikasi yang lancar.",
+      "conclusion": "Negara pelbagai budaya memerlukan khidmat pelanggan berbilang bahasa untuk memadankan tabiat komunikasi kumpulan etnik yang berbeza dengan tepat.",
+      "tags": [
+        "Malaysia",
+        "Bahasa",
+        "Pemasaran Ketepatan",
+        "Pakaian Kanak-kanak"
+      ]
+    },
+    {
+      "case_id": "CASE-054",
+      "case_title": "Jenama Haiwan Peliharaan Mencapai Lonjakan Trafik Melalui Pesta Haiwan Peliharaan Tersuai di Singapura",
+      "case_type": "Kes Kejayaan",
+      "background": "Singapura kerap mengadakan pameran haiwan peliharaan berskala besar dengan penyertaan luar talian yang tinggi, tetapi trafik dalam talian kekal berfragmentasi.",
+      "situation": "Membuka 'Booth Maya' di Lazada semasa pameran, menawarkan tawaran rancangan yang sama dan penghantaran pantas.",
+      "outcome": "Lawatan kedai meningkat lima kali ganda semasa acara itu, dan kos pemerolehan pelanggan jatuh sebanyak 40% berbanding biasa.",
+      "conclusion": "Menghubungkan pemasaran dalam talian secara mendalam dengan acara luar talian tempatan yang besar memanfaatkan trafik domain awam untuk pertumbuhan pesat.",
+      "tags": [
+        "Singapura",
+        "Pautan Pameran",
+        "Bekalan Haiwan Peliharaan",
+        "Acara Pemasaran"
+      ]
+    },
+    {
+      "case_id": "CASE-055",
+      "case_title": "Jenama Kecantikan Mencapai Pertumbuhan Virus Melalui Pemasaran Affiliate di Vietnam",
+      "case_type": "Kes Kejayaan",
+      "background": "Satu jenama baharu yang memasuki Vietnam menghadapi berakhirnya dividen trafik dan kos pengiklanan dalam platform yang sangat tinggi.",
+      "situation": "Mendayakan mod affiliate komisen tinggi di TikTok dan Shopee, menarik beribu-ribu pelajar dan ibu untuk menjual produk.",
+      "outcome": "Pesanan bulanan melonjak daripada sifar kepada 5,000 dengan perbelanjaan iklan sifar, sambil mengekalkan margin keuntungan yang sihat.",
+      "conclusion": "Di pasaran dengan kos buruh yang rendah dan pergantungan sosial yang tinggi, model affiliate adalah alat berkuasa untuk penskalaan jenama yang pantas.",
+      "tags": [
+        "Vietnam",
+        "Pemasaran Affiliate",
+        "Pemasaran Virus",
+        "Kecantikan"
+      ]
+    },
+    {
+      "case_id": "CASE-056",
+      "case_title": "Jenama Produk Rumah Mengoptimumkan Logistik Melalui Susun Atur Berbilang Gudang Setempat di Indonesia",
+      "case_type": "Kes Kejayaan",
+      "background": "Disebabkan geografi Indonesia, penjual menghadapi kesukaran mengawal kos dan masa untuk penghantaran ke pulau-pulau luar.",
+      "situation": "Menubuhkan gudang awan di Jawa dan Sumatera, menggunakan pelan laluan pintar untuk menghantar dari lokasi terdekat.",
+      "outcome": "Purata masa penghantaran ke pulau luar dipendekkan sebanyak 4 hari, dan kos tambang turun sebanyak 20% melalui pengedaran wilayah.",
+      "conclusion": "Dalam kepulauan seperti Indonesia, susun atur gudang yang rasional adalah penyelesaian asas kepada titik kesakitan logistik.",
+      "tags": [
+        "Indonesia",
+        "Pergudangan",
+        "Pengoptimuman Logistik",
+        "Barangan Rumah"
+      ]
+    },
+    {
+      "case_id": "CASE-057",
+      "case_title": "Penjual Digital Menyasarkan 'Hari Gaji' dengan Jualan Kilat Berfokus di Thailand",
+      "case_type": "Kes Kejayaan",
+      "background": "Pengguna Thailand mempunyai tabiat 'beli-belah pada hari gaji', dengan trafik dan pembelian impuls mencapai kemuncak pada setiap akhir bulan.",
+      "situation": "Menggunakan iklan berbayar dalam platform digabungkan dengan baucar masa terhad bernilai tinggi semasa tempoh hari gaji tempatan (25-30 haribulan).",
+      "outcome": "Jualan dalam tempoh lima hari terakhir bulan tersebut menyumbang lebih 50% daripada jumlah bulanan, dengan ROI meningkat dua kali ganda.",
+      "conclusion": "Memahami tabiat penggunaan tempatan dan kitaran kewangan secara mendalam membolehkan perbelanjaan pemasaran mencapai lebih banyak dengan kos yang kurang.",
+      "tags": [
+        "Thailand",
+        "Pemasaran Hari Gaji",
+        "Tabiat Pengguna",
+        "Produk Digital"
+      ]
+    },
+    {
+      "case_id": "CASE-058",
+      "case_title": "Penjual Bagasi Menambah Baik Pengiktirafan Melalui Penjenamaan Pembungkusan yang Dioptimumkan di Filipina",
+      "case_type": "Kes Kejayaan",
+      "background": "Penggunaan beg kalis air putih biasa sebelum ini kelihatan murah dan cenderung kepada pengendalian ganas di pusat pengisihan.",
+      "situation": "Beralih kepada kotak berwarna cerah yang ditebalkan dengan logo jenama dan label 'Mudah Pecah' dalam bahasa tempatan.",
+      "outcome": "Kadar kerosakan pakej jatuh sebanyak 30%, dan logo jenama menerima pendedahan ketara dalam video unboxing pembeli.",
+      "conclusion": "Pembungkusan berorientasikan perincian melindungi barangan dan berfungsi sebagai titik sentuh jenama penting di tangan pembeli.",
+      "tags": [
+        "Filipina",
+        "Reka Bentuk Pembungkusan",
+        "Kerugian Logistik",
+        "Bagasi"
+      ]
+    },
+    {
+      "case_id": "CASE-059",
+      "case_title": "Penjual Luar Bangunan Memulakan Kandungan Melalui Topik Taman Negara Malaysia",
+      "case_type": "Kes Kejayaan",
+      "background": "Pasaran luar bangunan di Malaysia adalah besar, tetapi kata kunci generik seperti 'Hiking' terlalu kompetitif.",
+      "situation": "Menerbitkan panduan mendaki untuk Taman Negara Malaysia yang terkenal di blog dan media sosial dengan pautan produk.",
+      "outcome": "Menarik peminat pendakian senior dengan tepat, dengan AOV 20% lebih tinggi daripada penjual biasa.",
+      "conclusion": "Menggunakan pemasaran kandungan geografi profesional dan khusus tempatan berkesan menyasarkan khalayak khusus bernilai tinggi.",
+      "tags": [
+        "Malaysia",
+        "Pemasaran Kandungan",
+        "Trafik Ketepatan",
+        "Kelengkapan Luar Bangunan"
+      ]
+    },
+    {
+      "case_id": "CASE-060",
+      "case_title": "Penjual Fesyen Merendahkan Halangan Melalui Lazada 'Try Now Pay Later' di Singapura",
+      "case_type": "Kes Kejayaan",
+      "background": "Kesukaran menjual pakaian siap pakai mewah secara dalam talian terletak pada ketidaktepatan saiz dan tekstur bahan yang tidak jelas.",
+      "situation": "Menyepadukan perkhidmatan 'Try Now Pay Later', membolehkan pengguna menerima dan mencuba pakaian sebelum memutuskan untuk membayar.",
+      "outcome": "Pusing ganti untuk pakaian wanita AOV sederhana hingga tinggi meningkat sebanyak 30%; kadar pemulangan adalah rendah disebabkan kualiti produk yang tinggi.",
+      "conclusion": "Bagi item yang memerlukan pengalaman fizikal, menggabungkan alat kewangan dengan dasar perkhidmatan adalah berkesan dalam memecahkan rintangan membeli-belah dalam talian.",
+      "tags": [
+        "Singapura",
+        "BNPL",
+        "Pakaian",
+        "Kadar Penukaran"
+      ]
+    },
+    {
+      "case_id": "CASE-061",
+      "case_title": "Jenama Ibu dan Kanak-kanak Mencapai Word-of-Mouth Melalui Pengurusan KOC dalam Kumpulan Ibu Vietnam",
+      "case_type": "Kes Kejayaan",
+      "background": "Keputusan keluarga di Vietnam sering dibuat oleh ibu, yang sangat bergantung pada syor daripada keluarga dan rakan-rakan.",
+      "situation": "Membangunkan ibu setia yang membeli produk sebagai KOC, menggalakkan mereka berkongsi petua keibubapaan dan ulasan sebenar dalam kumpulan sosial.",
+      "outcome": "Pesanan daripada syor mulut ke mulut melebihi 40%; Kos Pemerolehan Pelanggan (CAC) hanya 1/10 daripada iklan langsung.",
+      "conclusion": "Di pasaran ibu dan kanak-kanak berasaskan reputasi, perkongsian KOC adalah lebih meyakinkan daripada iklan rasmi.",
+      "tags": [
+        "Vietnam",
+        "Pemasaran KOC",
+        "Mulut ke Mulut",
+        "Ibu dan Kanak-kanak"
+      ]
+    },
+    {
+      "case_id": "CASE-062",
+      "case_title": "Penjual 3C Membina Halangan Jenama Melalui Pensijilan Rasmi Mall Indonesia",
+      "case_type": "Kes Kejayaan",
+      "background": "Kedai standard di Indonesia menghadapi persaingan harga rendah daripada kuantiti besar produk tiruan.",
+      "situation": "Mendaftarkan syarikat dan tanda dagangan Indonesia, berjaya memohon status Shopee Mall/LazMall rasmi.",
+      "outcome": "Pesanan meningkat dengan stabil walaupun harga 20% lebih tinggi daripada kedai biasa; kesetiaan jenama meningkat dengan ketara.",
+      "conclusion": "Lencana mall rasmi ialah cara paling berkesan untuk menyelesaikan titik kesakitan kepercayaan di Asia Tenggara dan membina asas pertumbuhan jangka panjang.",
+      "tags": [
+        "Indonesia",
+        "Pensijilan Jenama",
+        "Kemasukan Mall",
+        "Elektronik 3C"
+      ]
+    },
+    {
+      "case_id": "CASE-063",
+      "case_title": "Penjual Aksesori Menjadi Popular Melalui Koleksi 'Nasib Baik' Berdasarkan Astrologi Thailand",
+      "case_type": "Kes Kejayaan",
+      "background": "Pengguna Thailand sangat berminat dengan ramalan, astrologi, dan 'Item Tuah'.",
+      "situation": "Bekerjasama dengan ahli astrologi tempatan Thailand untuk membangunkan gelang kristal dengan makna khusus berdasarkan nasib tahunan.",
+      "outcome": "Koleksi itu tular semasa Hari Valentine dan mendahului senarai sohor kini Twitter Thailand beberapa kali.",
+      "conclusion": "Mengintegrasikan produk dengan kepercayaan tempatan atau budaya kecil mewujudkan permintaan yang kuat untuk penggunaan emosi.",
+      "tags": [
+        "Thailand",
+        "Budaya Astrologi",
+        "Nilai Emosi",
+        "Aksesori"
+      ]
+    },
+    {
+      "case_id": "CASE-064",
+      "case_title": "Penjual Bagasi Memanfaatkan Pemasaran 'Saki-baki' Selepas 11.11 di Filipina",
+      "case_type": "Kes Kejayaan",
+      "background": "Trafik dan jualan biasanya merosot selepas promosi besar 11.11 berakhir.",
+      "situation": "Menyasarkan pengguna yang menambah item ke troli tetapi tidak membeli semasa acara tersebut dengan kupon kecil 'Istimewa Selepas Acara'.",
+      "outcome": "Berjaya menukar 30% pengguna berpotensi yang hilang; jualan harian untuk minggu selepas itu kekal dua kali ganda berbanding purata pra-promosi.",
+      "conclusion": "Trafik ekor panjang selepas promosi besar masih berharga; penyasaran semula yang tepat boleh mencapai penukaran saki-baki.",
+      "tags": [
+        "Filipina",
+        "Pasca Promosi",
+        "Penukaran Sekunder",
+        "Bagasi"
+      ]
+    },
+    {
+      "case_id": "CASE-065",
+      "case_title": "Penjual Perkakas Kecil Menyelesaikan Kelewatan Penghantaran Melalui Hab Transshipment Utara-Selatan Vietnam",
+      "case_type": "Kes Kejayaan",
+      "background": "Jarak jauh antara Hanoi dan HCMC sering menyebabkan kelewatan penghantaran merentas wilayah melebihi 7 hari.",
+      "situation": "Menyediakan hab transshipment di bandar-bandar utama utara dan selatan untuk pengedaran setempat.",
+      "outcome": "Purata masa penghantaran ke seluruh negara dipendekkan kepada 48 jam; maklum balas positif tentang 'penghantaran cepat' meningkat sebanyak 200%.",
+      "conclusion": "Kelajuan logistik adalah talian hayat perdagangan; pautan berbilang gudang adalah jalan terbaik untuk mengoptimumkan penghantaran di rupa bumi sempit Vietnam.",
+      "tags": [
+        "Vietnam",
+        "Pengoptimuman Logistik",
+        "Gudang Depan",
+        "Perkakas Kecil"
+      ]
+    },
+    {
+      "case_id": "CASE-066",
+      "case_title": "Penjual Kasut Mengurangkan Pemulangan Melalui Carta Saiz yang Dioptimumkan untuk Malaysia",
+      "case_type": "Kes Kejayaan",
+      "background": "Pengguna Malaysia secara amnya mempunyai kaki yang lebih lebar; menggunakan carta standard China atau Barat membawa kepada kadar pemulangan yang tinggi.",
+      "situation": "Mengumpul maklum balas daripada 5,000 pengguna tempatan dan mencipta carta 'Sentimeter Diukur' yang disesuaikan dengan tabiat tempatan.",
+      "outcome": "Pemulangan berkaitan saiz menurun daripada 15% kepada 4%, menjimatkan kos operasi secara ketara.",
+      "conclusion": "Penyetempatan saiz ialah tugas asas namun penting untuk pakaian dan kasut, yang menjejaskan keuntungan secara langsung.",
+      "tags": [
+        "Malaysia",
+        "Carta Saiz",
+        "Perincian Penyetempatan",
+        "Kasut"
+      ]
+    },
+    {
+      "case_id": "CASE-067",
+      "case_title": "Penjual Bekalan Pembersihan Mencapai Kejayaan Virus Melalui 'Cabaran Suri Rumah' Indonesia",
+      "case_type": "Kes Kejayaan",
+      "background": "Produk pencuci standard sukar untuk menunjukkan hasil yang menakjubkan melalui imej statik di Indonesia.",
+      "situation": "Melancarkan cabaran 'Dirty to Clean' di TikTok, menjemput suri rumah tempatan untuk merakam video pendek hasil pembersihan.",
+      "outcome": "Tag cabaran menerima lebih 100 juta tontonan; jenama itu menjual keseluruhan stok yang diunjurkan setahun dalam satu minggu.",
+      "conclusion": "Video pendek dengan kontras visual yang kuat digabungkan dengan caburan sosial adalah berkuasa untuk produk penjagaan rumah.",
+      "tags": [
+        "Indonesia",
+        "Pemasaran Video Pendek",
+        "Cabaran",
+        "Barangan Rumah"
+      ]
+    },
+    {
+      "case_id": "CASE-068",
+      "case_title": "Jenama Alat Tulis Menyasarkan Musim 'Kembali ke Sekolah' Singapura dengan Tawaran Bundle",
+      "case_type": "Kes Kejayaan",
+      "background": "Januari dan Jun ialah musim sekolah Singapura, apabila ibu bapa biasanya melakukan perolehan sehenti.",
+      "situation": "Melancarkan 'Bundle Kembali ke Sekolah' termasuk beg, botol air, dan set pen penuh pada diskaun 25% berbanding item individu.",
+      "outcome": "Nilai pembelian tunggal meningkat daripada 15 SGD kepada 50 SGD, meningkatkan AOV sebanyak 3.3 kali ganda.",
+      "conclusion": "Mengenal pasti pencapaian sosial tempatan (cth., musim sekolah) dan menyediakan penyelesaian bundle berkesan meningkatkan AOV.",
+      "tags": [
+        "Singapura",
+        "Kembali ke Sekolah",
+        "Strategi Bundle",
+        "Alat Tulis"
+      ]
+    },
+    {
+      "case_id": "CASE-069",
+      "case_title": "Penjual Produk Rumah Mengurangkan Pembatalan Pertengahan Transit Melalui Pengoptimuman Khidmat Pelanggan Filipina",
+      "case_type": "Kes Kejayaan",
+      "background": "Beberapa pengguna Filipina akan membatalkan pesanan secara tiba-tiba semasa barang dalam transit selepas pembelian impulsif.",
+      "situation": "Khidmat pelanggan menghantar pengesahan mesra dalam masa 1 jam pesanan, memaklumkan mereka tentang ETA dan ganjaran tandatangan.",
+      "outcome": "Kadar pembatalan pertengahan transit jatuh sebanyak 50%, mengurangkan kerugian logistik dan pengendalian.",
+      "conclusion": "Pengesahan pra-jualan/dalam-jualan yang tepat pada masanya dan penyelenggaraan emosi mengurangkan pembatalan secara ketara dalam pasaran impulsif.",
+      "tags": [
+        "Filipina",
+        "Pengoptimuman Perkhidmatan",
+        "Kadar Pembatalan",
+        "Barangan Rumah"
+      ]
+    },
+    {
+      "case_id": "CASE-070",
+      "case_title": "Penjual Pakaian Menggunakan Psikologi 'Perbandingan Pelbagai Platform' untuk Pemasaran Balas di Thailand",
+      "case_type": "Kes Kejayaan",
+      "background": "Pengguna Thai suka membandingkan harga merentas platform; penjual bimbang persaingan harga rendah akan merosakkan jenama.",
+      "situation": "Mengekalkan harga yang konsisten tetapi menolak penghantaran percuma di Shopee dan diskaun berperingkat di Lazada, memastikan 'rasa tawaran' pada kedua-duanya.",
+      "outcome": "Jumlah GMV rangkaian berkembang dengan stabil, berkesan mengelakkan perang harga murni.",
+      "conclusion": "Memanfaatkan psikologi perbandingan pembeli melalui tawaran berbeza berbanding pemotongan harga mudah mengekalkan nilai jenama.",
+      "tags": [
+        "Thailand",
+        "Harga Berbeza",
+        "Psikologi Pemasaran",
+        "Pakaian"
+      ]
+    },
+    {
+      "case_id": "CASE-071",
+      "case_title": "Penjual Alatan Perkakasan Menggunakan Kurier Tempatan Indonesia untuk Keperluan Pulau Luar",
+      "case_type": "Kes Kejayaan",
+      "background": "Gergaji elektrik yang dihantar ke pulau terpencil seperti Sulawesi sering menerima aduan disebabkan kelewatan besar.",
+      "situation": "Bekerjasama dengan kurier tempatan seperti J&T untuk membuka perkhidmatan penghantaran terus ke nod teras di pulau-pulau luar.",
+      "outcome": "Penghantaran tepat masa ke pulau luar meningkat melebihi 90%, dan jualan di wilayah tersebut meningkat dua kali ganda dalam tempoh tiga bulan.",
+      "conclusion": "Mengintegrasikan sumber logistik tempatan secara mendalam membolehkan perniagaan penjual menjangkau pasaran tambahan yang lebih luas.",
+      "tags": [
+        "Indonesia",
+        "Penghantaran Terakhir",
+        "Pasaran Pulau Luar",
+        "Alatan Perkakasan"
+      ]
+    },
+    {
+      "case_id": "CASE-072",
+      "case_title": "Jenama Ibu dan Kanak-kanak Meningkatkan Autoriti Melalui Pemasaran Pendidikan Minggu Penyusuan Susu Ibu Malaysia",
+      "case_type": "Kes Kejayaan",
+      "background": "Persaingan tinggi dalam pam susu memerlukan jenama membina kepakaran untuk mendapatkan kepercayaan ibu muda.",
+      "situation": "Menjemput doktor Malaysia untuk seminar dalam talian semasa Minggu Penyusuan Susu Ibu untuk menerangkan penyusuan saintifik dan memperkenalkan produk.",
+      "outcome": "Jenama itu mendapat kemasyhuran dalam kalangan keibubapaan mewah tempatan; jualan untuk model AOV tinggi meningkat sebanyak 30%.",
+      "conclusion": "Pemerkasaan berasaskan pengetahuan ialah jalan teras untuk meningkatkan penukaran bagi produk ibu dan kanak-kanak berteknologi tinggi.",
+      "tags": [
+        "Malaysia",
+        "Pemasaran Profesional",
+        "Peningkatan Jenama",
+        "Ibu dan Kanak-kanak"
+      ]
+    },
+    {
+      "case_id": "CASE-073",
+      "case_title": "Penjual Kecantikan Membangunkan Formula 'Tahan Peluh/Tahan Lama' untuk Pasaran Vietnam",
+      "case_type": "Kes Kejayaan",
+      "background": "Iklim panas dan lembap Vietnam serta kelaziman motosikal menjadikan solekan biasa mudah comot.",
+      "situation": "Memberi tumpuan kepada bedak asas kusyen 'tahan 12 jam, tahan peluh, kawalan minyak' khusus untuk iklim tempatan.",
+      "outcome": "Produk itu menjadi pilihan utama bagi profesional muda di HCMC, dengan kadar pembelian semula bulanan yang mengagumkan sebanyak 20%.",
+      "conclusion": "R&D produk mesti berdasarkan titik kesakitan kehidupan sebenar (iklim, perjalanan) pengguna tempatan.",
+      "tags": [
+        "Vietnam",
+        "Penyetempatan Produk",
+        "Senario Penggunaan",
+        "Kecantikan"
+      ]
+    },
+    {
+      "case_id": "CASE-074",
+      "case_title": "Penjual Aksesori Mengoptimumkan Visual Kedai untuk Gaya Instagram Singapura",
+      "case_type": "Kes Kejayaan",
+      "background": "Pengguna Singapura lebih suka estetika antarabangsa dan minimalis; halaman kedai sebelum ini terlalu berselerak.",
+      "situation": "Merujuk blogger fesyen Singapura tempatan untuk mereka bentuk semula kedai dengan warna Morandi dan fotografi minimalis.",
+      "outcome": "Penukaran tapak bebas meningkat daripada 1.5% kepada 3.2%, dengan peningkatan 20% dalam AOV.",
+      "conclusion": "Gaya visual ialah isyarat pertama penyelarasan jenama-pasaran dan harus diperhalusi secara berulang untuk khalayak sasaran.",
+      "tags": [
+        "Singapura",
+        "Peningkatan Visual",
+        "Penyelarasan Estetika",
+        "Aksesori"
+      ]
+    },
+    {
+      "case_id": "CASE-075",
+      "case_title": "Penjual Bagasi Meningkatkan Pemerolehan Pelanggan Baharu Melalui COD Amaun Kecil di Filipina",
+      "case_type": "Kes Kejayaan",
+      "background": "Pembeli Filipina baharu berwaspada terhadap kedai rentas sempadan dan teragak-agak untuk membayar dalam talian lebih awal.",
+      "situation": "Membuka COD untuk semua pelanggan kali pertama dan menyediakan saluran bayaran balik yang pantas untuk memastikan rasa selamat mereka.",
+      "outcome": "Kelajuan pemerolehan meningkat dua kali ganda; 30% daripada pelanggan ini beralih kepada prabayar untuk pesanan kedua mereka.",
+      "conclusion": "Di pasaran yang sedang membina sistem kredit, COD adalah lebih daripada kaedah pembayaran; ia jambatan untuk mendapatkan kepercayaan.",
+      "tags": [
+        "Filipina",
+        "Pembayaran COD",
+        "Strategi Pemerolehan",
+        "Bagasi"
+      ]
+    },
+    {
+      "case_id": "CASE-076",
+      "case_title": "Jenama Penjagaan Rambut Mencapai Penyebaran Virus Melalui 'Makeover Plan' di Thailand",
+      "case_type": "Kes Kejayaan",
+      "background": "Alat pengeriting rambut jenama itu memerlukan sedikit kemahiran; video pendek standard tidak cukup menarik.",
+      "situation": "Melancarkan 'Cabaran Makeover' di TikTok, menunjukkan transformasi daripada 'biasa' kepada 'dewi'.",
+      "outcome": "Video dikongsi secara meluas; produk itu mendahului kedudukan carian Shopee Thailand selama dua minggu.",
+      "conclusion": "Paparan proses visual berimpak tinggi dan penyertaan orang awam adalah pencetus utama untuk penyebaran virus.",
+      "tags": [
+        "Thailand",
+        "Pemasaran TikTok",
+        "Penyebaran Virus",
+        "Penjagaan Rambut"
+      ]
+    },
+    {
+      "case_id": "CASE-077",
+      "case_title": "Penjual Ibu dan Kanak-kanak Meningkatkan Pemenuhan 11.11 Melalui Saluran Hijau Vietnam Tempatan",
+      "case_type": "Kes Kejayaan",
+      "background": "Semasa 11.11, Vietnam sering menghadapi tunggakan pelepasan disebabkan lonjakan pakej yang diimport.",
+      "situation": "Menandatangani jaminan tahunan dengan ejen pelepasan Vietnam yang besar dan mengisytiharkan senarai item pukal lebih awal.",
+      "outcome": "Walaupun purata kelewatan industri ialah 3 hari, penjual ini mencapai pelepasan hari yang sama dan penghantaran hari berikutnya.",
+      "conclusion": "PR rantaian bekalan yang mendalam dan jaminan perjanjian adalah kunci kepada pengalaman pemenuhan ekstrem semasa jualan besar.",
+      "tags": [
+        "Vietnam",
+        "Pengoptimuman Pelepasan",
+        "Pemenuhan",
+        "Ibu dan Kanak-kanak"
+      ]
+    },
+    {
+      "case_id": "CASE-078",
+      "case_title": "Jenama Aksesori Digital Menambah Nilai Melalui 'Kitar Semula E-sisa' di Singapura",
+      "case_type": "Kes Kejayaan",
+      "background": "Pengguna Singapura sangat sensitif terhadap pencemaran yang disebabkan oleh sisa elektronik.",
+      "situation": "Melancarkan diskaun 'Trade-in' dan 'Kitar Semula Kabel Lama', memasarkan melalui konsep hijau dan alam sekitar.",
+      "outcome": "Berjaya mendapat syor organik daripada kumpulan alam sekitar tempatan, meningkatkan premium dan kesetiaan jenama.",
+      "conclusion": "Menghubungkan tingkah laku jenama dengan kebajikan sosial atau dasar alam sekitar tempatan mencapai penyetempatan yang mendalam.",
+      "tags": [
+        "Singapura",
+        "Pemasaran Alam Sekitar",
+        "Penyetempatan",
+        "Produk Digital"
+      ]
+    },
+    {
+      "case_id": "CASE-079",
+      "case_title": "Jenama Produk Rumah Menyelesaikan Kerumitan Produk Melalui Demo Langsung Bahasa Indonesia",
+      "case_type": "Kes Kejayaan",
+      "background": "Pengguna Indonesia sering teragak-agak disebabkan salah faham tentang fungsi sofa pelbagai fungsi yang besar.",
+      "situation": "Menggaji hos Indonesia tempatan untuk melakukan demo langsung harian tentang transformasi dan pemasangan sofa.",
+      "outcome": "Pesanan langsung daripada strim langsung menyumbang 60% daripada jumlah jualan, dan pertanyaan pemasangan selepas jualan jatuh sebanyak 90%.",
+      "conclusion": "Penstriman langsung adalah lebih daripada menjual; ia adalah 'manual dinamik' yang melenyapkan keraguan pengguna untuk item yang kompleks.",
+      "tags": [
+        "Indonesia",
+        "Pemasaran Langsung",
+        "Demo Produk",
+        "Perabot"
+      ]
+    },
+    {
+      "case_id": "CASE-080",
+      "case_title": "Penjual Pakaian Mengurangkan Kos Komunikasi Melalui Pembantu Saiz Pintar di Malaysia",
+      "case_type": "Kes Kejayaan",
+      "background": "70% daripada pertanyaan pelanggan harian di Malaysia berkaitan dengan pemilihan saiz.",
+      "situation": "Menyertakan kalkulator saiz layan diri dalam tetingkap sembang, mengesyorkan saiz berdasarkan ketinggian dan berat.",
+      "outcome": "Kecekapan kakitangan meningkat sebanyak 50%; pemulangan disebabkan isu saiz jatuh ke tahap terendah sepanjang masa.",
+      "conclusion": "Menggunakan alat digital untuk pertanyaan berulang frekuensi tinggi meningkatkan kecekapan dan mengurangkan kos buruh.",
+      "tags": [
+        "Malaysia",
+        "Alat Digital",
+        "Kecekapan Perkhidmatan",
+        "Pakaian"
+      ]
+    },
+    {
+      "case_id": "CASE-081",
+      "case_title": "Penjual Rentas Sempadan Didenda Berat di Indonesia kerana 'Salah Isytihar Nilai'",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual mengeksport jam tangan pintar dengan harga unit USD 50 ke Indonesia, berjumlah 3,000 unit setiap bulan.",
+      "situation": "Untuk mengelakkan cukai, penjual mengisytiharkan nilai sebagai USD 5 seunit, jauh di bawah harga pasaran yang adil.",
+      "outcome": "Kastam Indonesia menentukannya sebagai salah isytihar sengaja; penjual membayar 300,000 RMB dalam cukai dan denda, dan barang ditahan selama enam bulan.",
+      "conclusion": "Kastam Indonesia sangat ketat terhadap penilaian; syarikat mesti mengisytiharkan dengan jujur dan mengelakkan isytihar nilai yang terlalu rendah.",
+      "tags": [
+        "Indonesia",
+        "Risiko Salah Isytihar",
+        "Pemeriksaan Kastam",
+        "Pematuhan Cukai"
+      ]
+    },
+    {
+      "case_id": "CASE-082",
+      "case_title": "Jenama Kecantikan Didenda oleh FDA Thailand kerana Tuntutan Perubatan Palsu",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual penjagaan kulit di Thailand mempromosikan esen anti-jerawat dengan mendakwa ia 'menyembuhkan penyakit kulit dalam 7 hari'.",
+      "situation": "Produk tersebut hanya mempunyai pendaftaran kosmetik standard tetapi menggunakan istilah perubatan, melanggar peraturan FDA.",
+      "outcome": "Produk telah dikeluarkan, kedai dilarang selama 30 hari, dan denda pentadbiran sebanyak 500,000 THB telah dikenakan.",
+      "conclusion": "Promosi kosmetik mesti mengawal tuntutan pemasaran dengan ketat dan mengelakkan istilah perubatan tanpa kelayakan perubatan.",
+      "tags": [
+        "Thailand",
+        "Pematuhan FDA",
+        "Iklan Palsu",
+        "Kecantikan"
+      ]
+    },
+    {
+      "case_id": "CASE-083",
+      "case_title": "Penjual Menghadapi Penghantaran Balik selepas Mengabaikan Larangan Import Barangan Terpakai Vietnam",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Sebuah syarikat cuba mengeksport kamera digital yang diperbaharui bernilai 200,000 RMB ke Vietnam.",
+      "situation": "Mereka gagal mengesahkan undang-undang Vietnam, yang melarang keras import barangan elektronik pengguna terpakai.",
+      "outcome": "Barangan tidak dapat dibersihkan melalui kastam di HCMC dan dipaksa balik; penjual menanggung 50,000 RMB kos tambang dan yuran pelabuhan.",
+      "conclusion": "Vietnam mempunyai banyak sekatan ke atas produk terpakai; penjual mesti menyemak 'Senarai Import Larangan' sebelum menghantar.",
+      "tags": [
+        "Vietnam",
+        "Larangan Import",
+        "Elektronik Terpakai",
+        "Kegagalan Pelepasan"
+      ]
+    },
+    {
+      "case_id": "CASE-084",
+      "case_title": "Penjual Pakaian Menghadapi Lonjakan Penolakan COD Filipina disebabkan Kelewatan Logistik",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual fesyen pantas mempunyai banyak pesanan COD semasa promosi besar di Filipina.",
+      "situation": "Disebabkan penghantaran yang perlahan dan kesesakan kastam, bungkusan mengambil masa 25 hari untuk sampai ke tangan pembeli.",
+      "outcome": "Kadar penolakan melonjak daripada 10% kepada 45%, mengakibatkan 120,000 RMB kerugian logistik dan stok luar negara yang bertakung.",
+      "conclusion": "Dalam pasaran yang berat dengan COD, kelajuan adalah nyawa; kelewatan secara langsung membawa kepada kehilangan niat pembeli.",
+      "tags": [
+        "Filipina",
+        "COD",
+        "Kadar Penolakan",
+        "Masa Logistik"
+      ]
+    },
+    {
+      "case_id": "CASE-085",
+      "case_title": "Jenama Ibu dan Kanak-kanak Menghadapi Boikot selepas Melanggar Pantang Larang Agama di Malaysia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Satu jenama menjalankan iklan media sosial di Malaysia untuk produk makanan bayi.",
+      "situation": "Poster iklan tersebut secara tidak sengaja memasukkan elemen makanan tidak halal di latar belakang, menyinggung perasaan masyarakat Islam.",
+      "outcome": "Jenama itu menghadapi aduan besar dan boikot di media sosial; jualan bulanan jatuh sebanyak 70%, merosakkan reputasi.",
+      "conclusion": "Pemasaran pasaran Muslim mesti menjalani audit budaya yang ketat; semua elemen visual mesti menghormati ajaran Islam.",
+      "tags": [
+        "Malaysia",
+        "Pantang Larang Agama",
+        "Pemasaran Budaya",
+        "Krisism Jenama"
+      ]
+    },
+    {
+      "case_id": "CASE-086",
+      "case_title": "Penjual 3C Dilarang Kekal di Singapura kerana Pelanggaran Tanda Dagangan Jenama Tempatan",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual menggunakan nama jenama tempatan yang terkenal sebagai kata kunci untuk fon kepala 'white-label' di Singapura.",
+      "situation": "Pemilik jenama memfailkan aduan pelanggaran tanda dagangan dengan platform dan IPOS.",
+      "outcome": "Kedai ditutup secara kekal, dana akaun dibekukan, dan penjual menghadapi kemungkinan tindakan undang-undang.",
+      "conclusion": "Singapura mempunyai sistem perlindungan IP yang matang; penjual rentas sempadan tidak boleh menggunakan istilah jenama tanpa kebenaran dalam Listing.",
+      "tags": [
+        "Singapura",
+        "Pelanggaran Tanda Dagangan",
+        "IP",
+        "Pengurusan Risiko"
+      ]
+    },
+    {
+      "case_id": "CASE-087",
+      "case_title": "Produk Penjual Perkakas Rumah Dirampas selepas Mengabaikan Standard SNI Indonesia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Sebuah syarikat mengeksport mesin kopi ke pengedar Indonesia tanpa pensijilan SNI.",
+      "situation": "Produk tersebut didapati kekurangan pensijilan SNI mandatori semasa pemeriksaan rawak pasaran tempatan.",
+      "outcome": "Semua produk telah dinyahsenarai dan dimusnahkan; pengedar didenda berat dan menamatkan perkongsian.",
+      "conclusion": "Indonesia menguatkuasakan SNI mandatori untuk perkakas; beroperasi tanpanya membawa kepada penalti pematuhan yang teruk.",
+      "tags": [
+        "Indonesia",
+        "Pensijilan SNI",
+        "Kemasukan Pasaran",
+        "Perkakas Kecil"
+      ]
+    },
+    {
+      "case_id": "CASE-088",
+      "case_title": "Penjual Kecantikan Menghadapi Penahanan Jangka Panjang disebabkan Kekurangan Pendaftaran Kosmetik Vietnam (CB)",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual kecantikan menghantar kelompok esen melalui mel udara melebihi had penggunaan peribadi.",
+      "situation": "Penjual kekurangan Proklamasi Kosmetik Vietnam (Kad CB), dan barangan itu dianggap sebagai perdagangan komersial.",
+      "outcome": "Barangan ditahan di lapangan terbang selama lebih 3 bulan dan akhirnya dirampas kerana kekurangan bukti.",
+      "conclusion": "Vietnam mempunyai pelepasan kosmetik yang ketat; jualan pukal memerlukan pendaftaran rasmi dan tidak boleh memintas peraturan.",
+      "tags": [
+        "Vietnam",
+        "Pendaftaran Kosmetik",
+        "Peraturan Pelepasan",
+        "Kecantikan"
+      ]
+    },
+    {
+      "case_id": "CASE-089",
+      "case_title": "Penjual Mainan Menghadapi Isu 'Pesanan Meletup ke Gudang Meletup' disebabkan Puncak Krismas Filipina",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Krismas ialah puncak untuk mainan di Filipina; seorang penjual menerima pesanan beberapa kali ganda lebih tinggi pada bulan November.",
+      "situation": "Gagal mengamankan ruang penghantaran awal, barangan tersangkut di hab Shenzhen dan tiba selepas Krismas.",
+      "outcome": "Item hadiah kehilangan maknanya selepas hari raya; pembeli memfailkan bayaran balik besar-besaran, merugikan lebih 150,000 RMB.",
+      "conclusion": "Untuk produk yang sangat bermusim, logistik mesti dirancang 45 hari lebih awal, atau 'pesanan meletup' membawa kepada bencana.",
+      "tags": [
+        "Filipina",
+        "Pemasaran Krismas",
+        "Rantaian Bekalan Putus",
+        "Perancangan Logistik"
+      ]
+    },
+    {
+      "case_id": "CASE-090",
+      "case_title": "Penjual Digital Mengalami Kerosakan Besar di Thailand disebabkan Pembungkusan yang Lemah",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual mengeksport tablet ke Thailand menggunakan kotak beralun dinding tunggal standard untuk menjimatkan kos.",
+      "situation": "Selepas berbilang pusingan pengisihan dan pengangkutan jarak jauh, kotak luar pecah, merosakkan elektronik di dalam.",
+      "outcome": "Kadar pemulangan mencapai 20%, dengan 80,000 RMB kerugian langsung; penilaian kedai jatuh kepada 3.5 bintang.",
+      "conclusion": "Laluan rentas sempadan adalah panjang dengan banyak transshipment; item berharga mesti menggunakan pembungkusan berkekuatan tinggi.",
+      "tags": [
+        "Thailand",
+        "Kerosakan Pembungkusan",
+        "Salah Tanggap Kos",
+        "Produk Digital"
+      ]
+    },
+    {
+      "case_id": "CASE-091",
+      "case_title": "Penjual Mengalami Kerugian Besar di Indonesia disebabkan Harga Promosi yang Salah",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Semasa promosi 11.11, seorang penjual produk rumah menetapkan diskaun berperingkat di Shopee Indonesia.",
+      "situation": "Disebabkan salah faham tentang perpuluhan IDR dan peraturan tindanan, harga ditetapkan pada 1/10 daripada kos.",
+      "outcome": "3,000 pesanan dibuat dalam masa satu jam; penghantaran akan menyebabkan kerugian 200,000 RMB, manakala pembatalan akan membawa kepada larangan.",
+      "conclusion": "Pemasaran dalam pelbagai mata wang memerlukan pengesahan ketat penetapan harga dan logik tindanan untuk mengelakkan ralat manual.",
+      "tags": [
+        "Indonesia",
+        "Ralat Harga",
+        "Peraturan Promosi",
+        "Kadar Pertukaran"
+      ]
+    },
+    {
+      "case_id": "CASE-092",
+      "case_title": "Jenama Kecantikan Menghadapi Pembatalan Pesanan Global selepas Bahan Terlarang HSA di Singapura",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Satu jenama krim pemutih popular di Singapura, tetapi formulanya mengandungi Hydroquinone yang dilarang.",
+      "situation": "Pihak Berkuasa Sains Kesihatan (HSA) Singapura mendapati bahan haram tersebut semasa ujian rawak.",
+      "outcome": "Produk telah dinyahsenarai, jenama disenaraihitamkan, dan pembeli menuntut bayaran balik besar-besaran, merosakkan reputasi jenama.",
+      "conclusion": "Senarai bahan terlarang untuk kosmetik berbeza mengikut negara; formula mesti dilaraskan untuk peraturan tempatan.",
+      "tags": [
+        "Singapura",
+        "Pemantauan HSA",
+        "Bahan Terlarang",
+        "Pematuhan"
+      ]
+    },
+    {
+      "case_id": "CASE-093",
+      "case_title": "Penjual Sukan Menghadapi Penahanan Kastam kerana Melanggar Peraturan Label Asal Vietnam",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual mengeksport kasut sukan ke Vietnam dengan arahan bahasa Inggeris sahaja dan tiada label Vietnam yang diperlukan.",
+      "situation": "Ini melanggar peraturan pelabelan mandatori Vietnam untuk barangan import (Asal/Kandungan dalam bahasa Vietnam).",
+      "outcome": "Kontena itu ditahan; pelabelan semula di gudang terikat menelan kos 30,000 RMB dalam buruh dan yuran kelewatan.",
+      "conclusion": "Vietnam mempunyai keperluan pelabelan yang teliti; pastikan produk mempunyai label Vietnam sebelum dihantar.",
+      "tags": [
+        "Vietnam",
+        "Pematuhan Pelabelan",
+        "Peraturan Kastam",
+        "Kasut Sukan"
+      ]
+    },
+    {
+      "case_id": "CASE-094",
+      "case_title": "Penjual Didenda oleh Sistem Anti-Penipuan Thailand kerana Menggaji Ulasan Palsu",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual permulaan menggaji ejen 'brushing' untuk ulasan palsu bagi membina kredit dengan cepat di pasaran Thailand.",
+      "situation": "AI platform mengesan trek logistik yang tidak normal dan persekitaran pembayaran yang tidak sahih.",
+      "outcome": "Kedai telah ditandakan untuk penipuan, 1,000 ulasan terkumpul telah dikosongkan, dan kedudukan carian dijatuhkan ke bawah.",
+      "conclusion": "Platform Asia Tenggara telah menaik taraf algoritma anti-penipuan; brushing membawa kepada kehilangan aset.",
+      "tags": [
+        "Thailand",
+        "Penalti Brushing",
+        "Dasar Platform",
+        "Risiko Operasi"
+      ]
+    },
+    {
+      "case_id": "CASE-095",
+      "case_title": "Penjual Aksesori Menghadapi Aduan Besar di Filipina disebabkan Kandungan Plumbum Berlebihan",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Satu jenama kos rendah mengeksport barang kemas kanak-kanak ke Filipina.",
+      "situation": "Produk menggunakan aloi gred rendah dengan tahap plumbum dan nikel yang tinggi, menyebabkan alahan kulit pada kanak-kanak.",
+      "outcome": "Bantahan media sosial yang besar berlaku; penjual membayar 50,000 RMB pampasan perubatan dan dilarang di negara tersebut.",
+      "conclusion": "Pematuhan kualiti ialah garis bawah; produk kanak-kanak mesti memenuhi piawaian logam berat dan alam sekitar tempatan.",
+      "tags": [
+        "Filipina",
+        "Kualiti Produk",
+        "Ujian Pematuhan",
+        "Hubungan Awam"
+      ]
+    },
+    {
+      "case_id": "CASE-096",
+      "case_title": "Pelepasan Penjual Dinafikan selepas Mengabaikan Senarai LARTAS Indonesia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual merancang untuk mengeksport perkakas dapur tertentu yang tergolong dalam senarai LARTAS (Barangan Terhad) Indonesia.",
+      "situation": "Barangan itu dipintas oleh kastam kerana penjual gagal mendapatkan kuota import atau lesen terlebih dahulu.",
+      "outcome": "Barangan dipaksa balik atau dimusnahkan, menyebabkan kerugian 200,000 RMB dan bendera kastam berisiko tinggi.",
+      "conclusion": "Bahagian paling sukar dalam pelepasan Indonesia ialah senarai LARTAS yang berubah; semak kod HS sebelum mengeksport.",
+      "tags": [
+        "Indonesia",
+        "LARTAS",
+        "Kuota Import",
+        "Kegagalan Pelepasan"
+      ]
+    },
+    {
+      "case_id": "CASE-097",
+      "case_title": "Penjual Menghadapi Potongan Kredit kerana Menyalahgunakan Baucar Penghantaran Percuma Shopee Filipina",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual membahagikan bungkusan dan mengarahkan pelanggan membuat banyak pesanan kecil untuk mengeksploitasi subsidi penghantaran.",
+      "situation": "Sistem kawalan rủi ro mengesan sebilangan besar pesanan kecil yang tidak normal ke alamat yang sama dalam masa yang singkat.",
+      "outcome": "Penjual kehilangan 15 mata kredit, hilang kelayakan untuk promosi besar akan datang seperti 12.12.",
+      "conclusion": "Berspekulasi mengenai kelemahan peraturan platform adalah dilarang; melanggar peraturan membawa kepada kehilangan peluang perniagaan.",
+      "tags": [
+        "Filipina",
+        "Eksploitasi Peraturan",
+        "Penalti Platform",
+        "Pematuhan"
+      ]
+    },
+    {
+      "case_id": "CASE-098",
+      "case_title": "Penjual Produk Rumah Mengalami Kulat Inventori di Vietnam disebabkan Kawalan Lembap yang Lemah",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual menyewa gudang standard murah di HCMC untuk menyimpan perabot kayu pemasangan.",
+      "situation": "Semasa musim hujan panjang Vietnam, saliran dan pengudaraan yang lemah menyebabkan kelembapan teruk di gudang.",
+      "outcome": "30% daripada kayu tersebut berkulat dan herot, mengakibatkan 100,000 RMB inventori dilupuskan.",
+      "conclusion": "Negara Asia Tenggara adalah panas dan lembap; pemilihan gudang mesti mengutamakan pencegahan kelembapan dan bencana.",
+      "tags": [
+        "Vietnam",
+        "Risiko Iklim",
+        "Pergudangan",
+        "Pencegahan Kerugian"
+      ]
+    },
+    {
+      "case_id": "CASE-099",
+      "case_title": "Jenama 3C Menghadapi Penyahsenaraian Besar di Thailand disebabkan Kekurangan Pensijilan TISI",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Satu jenama power bank menjadi kegemaran di Lazada Thailand, dengan jualan tahunan tahap jutaan.",
+      "situation": "Thailand menggubal pensijilan TISI mandatori baharu untuk elektronik; penjual gagal mendapatkannya tepat pada masanya.",
+      "outcome": "SKU teras telah dinyahsenarai, menyebabkan mereka terlepas musim puncak Q4; bahagian pasaran diambil oleh pesaing.",
+      "conclusion": "Penjual mesti memantau dasar kemasukan teknikal secara dinamik dan membuat susulan pada pensijilan dengan segera.",
+      "tags": [
+        "Thailand",
+        "Pensijilan TISI",
+        "Akses Pasaran",
+        "Produk Digital"
+      ]
+    },
+    {
+      "case_id": "CASE-100",
+      "case_title": "Penjual Mengalami Ulasan Negatif di Malaysia disebabkan Terjemahan Mesin yang Lemah",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual ibu dan kanak-kanak menggunakan AI asas untuk menterjemah bahasa Cina ke Melayu, menghasilkan kandungan yang kaku.",
+      "situation": "Pengguna percaya kereta dorong mempunyai brek automatik (sebenarnya manual) disebabkan ralat semantik dalam teks.",
+      "outcome": "Pemulangan melonjak kepada 18% dengan aduan 'Huraian Palsu', menjatuhkan penilaian kedai kepada 4.2 bintang.",
+      "conclusion": "Listing adalah satu-satunya pembawa maklumat; ralat terjemahan mengelirukan pembeli; gunakan semakan profesional.",
+      "tags": [
+        "Malaysia",
+        "Ralat Terjemahan",
+        "Pengalaman Pengguna",
+        "Pengoptimuman Listing"
+      ]
+    },
+    {
+      "case_id": "CASE-101",
+      "case_title": "Pengeluaran Dana Penjual Disekat selepas Mengabaikan Peraturan Cukai BIR Filipina",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Filipina memerlukan semua penjual e-dagang mendaftar dengan BIR (Biro Hasil Dalam Negeri) dan membayar VAT.",
+      "situation": "Penjual gagal menyerahkan sijil pematuhan cukai dan cuba membahagikan perolehan melalui beberapa akaun kecil untuk mengelakkan penelitian.",
+      "outcome": "Platform membekukan semua akaun berkaitan di bawah arahan kerajaan, menyebabkan 300,000 RMB dana tidak dapat dikeluarkan.",
+      "conclusion": "Pematuhan cukai e-dagang di Asia Tenggara kini telah menjadi normal; mengelakkan pendaftaran cukai berisiko gangguan aliran modal yang teruk.",
+      "tags": [
+        "Filipina",
+        "Pematuhan Cukai",
+        "Pendaftaran BIR",
+        "Isu Pengeluaran"
+      ]
+    },
+    {
+      "case_id": "CASE-102",
+      "case_title": "Jenama Kecantikan Kehilangan Pelanggan Utama kerana Kekurangan Pensijilan Halal Indonesia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Satu jenama mempromosikan siri pencerahan di Indonesia. Walaupun berkualiti tinggi, ia kekurangan logo Halal.",
+      "situation": "Dalam kalangan demografi wanita Islam yang luas, produk tersebut dipandang curiga, menjadikannya sukar untuk menjana pembelian semula.",
+      "outcome": "Walaupun perbelanjaan pemasaran tinggi, kadar penukaran hanya satu pertiga daripada pesaing yang mempunyai sijil Halal.",
+      "conclusion": "Di pasaran majoriti Muslim, pensijilan Halal bukan sekadar label tetapi asas kepercayaan pasaran.",
+      "tags": [
+        "Indonesia",
+        "Pensijilan Halal",
+        "Psikologi Pengguna",
+        "Kecantikan"
+      ]
+    },
+    {
+      "case_id": "CASE-103",
+      "case_title": "Yuran Pemasaran Penjual Hangus disebabkan MCN yang Tidak Boleh Dipercayai di Thailand",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Sebuah jenama pakaian membayar pendahuluan USD 50,000 kepada MCN kecil di Thailand untuk kerjasama dengan 20 KOL.",
+      "situation": "Agensi tersebut memalsukan jumlah pengikut, menghasilkan video berkualiti rendah, dan beberapa kandungan gagal disiarkan seperti yang dipersetujui.",
+      "outcome": "Jumlah jualan kurang daripada USD 1,000; jenama menghadapi kesukaran menuntut ganti rugi disebabkan kos litigasi rentas sempadan yang tinggi.",
+      "conclusion": "Pemasaran pempengaruh harus mengutamakan agensi rakan kongsi rasmi platform dan menggunakan model pembayaran berasaskan prestasi.",
+      "tags": [
+        "Thailand",
+        "Penipuan Pemasaran",
+        "MCN",
+        "Perlindungan Hak"
+      ]
+    },
+    {
+      "case_id": "CASE-104",
+      "case_title": "Penjual Menghadapi Inversi Kos selepas Mengabaikan Pelarasan Kadar GST Singapura",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Kerajaan Singapura menaikkan GST (Cukai Barangan dan Perkhidmatan) secara berperingkat (daripada 7% kepada 8% dan 9%).",
+      "situation": "Penjual gagal mengemas kini model penetapan harga di sistem belakang, masih mengira keuntungan berdasarkan kadar cukai lama.",
+      "outcome": "Semasa promosi besar, produk menjadi tidak menguntungkan, mengakibatkan kerugian 5% setiap pesanan disebabkan kos cukai dan logistik.",
+      "conclusion": "Perubahan dasar di Asia Tenggara adalah kerap; penjual mesti memantau kemas kini cukai dan melaraskan harga dalam masa nyata.",
+      "tags": [
+        "Singapura",
+        "Kadar GST",
+        "Strategi Harga",
+        "Perubahan Cukai"
+      ]
+    },
+    {
+      "case_id": "CASE-105",
+      "case_title": "Barangan Penjual Dirampas kerana Melanggar Rekod Kastam IP Vietnam",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Sebuah syarikat mengeksport fon kepala Bluetooth dengan reka bentuk yang serupa dengan jenama terkenal ke Vietnam.",
+      "situation": "Pemilik jenama telah merekodkan paten reka bentuk mereka dengan Kastam Vietnam; barangan itu dikesan semasa pemeriksaan rawak.",
+      "outcome": "Keseluruhan kelompok telah dirampas dan dimusnahkan secara fizikal; penjual menghadapi denda dan penyiasatan undang-undang.",
+      "conclusion": "Jangan sesekali mengeksport produk 'copycat' atau tiruan; kastam Asia Tenggara sangat berkesan dalam mengenal pasti pelanggaran IP yang direkodkan.",
+      "tags": [
+        "Vietnam",
+        "Pelanggaran Paten",
+        "Pemeriksaan Kastam",
+        "Elektronik 3C"
+      ]
+    },
+    {
+      "case_id": "CASE-106",
+      "case_title": "Penjual Menghadapi Aduan Tamat Tempoh Makanan disebabkan Kitaran Penghantaran Pulau Filipina",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual menjual snek sihat dengan jangka hayat hanya 3 bulan ke pulau-pulau terpencil di Filipina.",
+      "situation": "Disebabkan ketidaktentuan kargo laut antara pulau, bungkusan menghabiskan masa hampir 45 hari dalam transit.",
+      "outcome": "Pembeli menerima produk yang hampir tamat tempoh, membawa kepada ulasan negatif besar-besaran dan aduan keselamatan makanan.",
+      "conclusion": "Makanan dengan jangka hayat pendek tidak sesuai untuk pulau terpencil dengan logistik yang lemah; pemilihan SKU mesti memadankan radius logistik.",
+      "tags": [
+        "Filipina",
+        "Keselamatan Makanan",
+        "Radius Logistik",
+        "Risiko Jangka Hayat"
+      ]
+    },
+    {
+      "case_id": "CASE-107",
+      "case_title": "Penjual Lampu Menghadapi Tuntutan Profesional di Thailand kerana 'Waranti Seumur Hidup' yang Keterlaluan",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual lampu menggunakan gimik 'Waranti Percuma Seumur Hidup' untuk menarik trafik di Thailand.",
+      "situation": "Enam bulan kemudian, produk menunjukkan kehausan semula jadi; ramai pembeli menuntut pembaikan, tetapi penjual tidak mampu menanggung kos penghantaran.",
+      "outcome": "Pembeli memfailkan aduan bersama dengan OCPB Thai; penjual telah dikeluarkan daripada platform kerana gagal memenuhi janji.",
+      "conclusion": "Janji perkhidmatan mestilah realistik dan mampan; gimik pemasaran yang berlebihan boleh berkembang menjadi liabiliti undang-undang.",
+      "tags": [
+        "Thailand",
+        "Pemasaran Berlebihan",
+        "Risiko Selepas Jualan",
+        "Pematuhan Undang-undang"
+      ]
+    },
+    {
+      "case_id": "CASE-108",
+      "case_title": "Penjual Digital Mengalami Kerugian disebabkan Pesanan Penipuan melalui Alat Pembayaran Indonesia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual tapak web bebas menerima beberapa pesanan besar dari Indonesia menggunakan e-wallet bukan arus perdana.",
+      "situation": "Penjual menghantar segera selepas menerima pemberitahuan 'Pembayaran Berjaya', kemudian mendapati dana adalah daripada kad yang dicuri.",
+      "outcome": "Dana telah dipintas dan dikembalikan; barangan sudah berada di luar negara dan tidak boleh dihentikan, mengakibatkan kerugian besar.",
+      "conclusion": "Di sesetengah pasaran, pesanan berisiko tinggi memerlukan pengesahan manual atau penghantaran lewat untuk mengelakkan penipuan pembayaran.",
+      "tags": [
+        "Indonesia",
+        "Penipuan Pembayaran",
+        "Kawalan Risiko",
+        "Tapak Web Bebas"
+      ]
+    },
+    {
+      "case_id": "CASE-109",
+      "case_title": "Penjual Disoal Siasat oleh Polis Vietnam kerana Aktiviti Cabutan Bertuah Haram",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual rentas sempadan mengadakan cabutan bertuah tunai besar di Facebook di Vietnam untuk mendapatkan pengikut.",
+      "situation": "Mereka gagal melaporkan promosi tersebut kepada Kementerian Perindustrian dan Perdagangan (MoIT), melanggar undang-undang promosi hadiah.",
+      "outcome": "Halaman Facebook telah dilarang, ejen tempatan didenda, dan penjual dimasukkan ke dalam senarai pemerhatian pelanggaran.",
+      "conclusion": "Pemasaran berskala besar atau cabutan bertuah di Asia Tenggara mesti mengikut prosedur pelaporan pentadbiran dengan pihak berkuasa tempatan.",
+      "tags": [
+        "Vietnam",
+        "Pematuhan Promosi",
+        "Risiko Undang-undang",
+        "Media Sosial"
+      ]
+    },
+    {
+      "case_id": "CASE-110",
+      "case_title": "Penjual Menghadapi Pembatalan Besar-besaran disebabkan Penutupan Logistik semasa Ramadan Malaysia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Semasa Hari Raya Aidilfitri di Malaysia, pekerja logistik dan pelabuhan tempatan bercuti panjang, menyebabkan kecekapan berkurangan.",
+      "situation": "Penjual gagal menetapkan tempoh penimbal dan mengekalkan janji masa penghantaran asal.",
+      "outcome": "Beribu-ribu bungkusan tersangkut di hab selama setengah bulan; pelanggan membatalkan pesanan selepas gagal menerima hadiah sebelum raya.",
+      "conclusion": "Seseorang mesti memahami kesan perayaan agama utama terhadap logistik dan menetapkan jangkaan penghantaran yang munasabah.",
+      "tags": [
+        "Malaysia",
+        "Aidilfitri",
+        "Kelewatan Logistik",
+        "Risiko Cuti"
+      ]
+    },
+    {
+      "case_id": "CASE-111",
+      "case_title": "Permohonan Penjual Kecantikan Gagal disebabkan Keperluan Audit Kilang BPOM Indonesia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual melabur banyak dalam esen anti-penuaan dan cuba memohon pensijilan BPOM Indonesia.",
+      "situation": "BPOM memerlukan audit kilang pengeluaran; bagaimanapun, kilang OEM penjual kekurangan pensijilan antarabangsa yang diperlukan.",
+      "outcome": "Proses pensijilan dihentikan, yuran ujian hangus, dan penjual ditandakan kerana kelayakan yang tidak mencukupi.",
+      "conclusion": "Pensijilan BPOM Indonesia adalah isu pematuhan sistemik; pastikan keseluruhan rantaian bekalan memenuhi keperluan rasmi.",
+      "tags": [
+        "Indonesia",
+        "BPOM",
+        "Audit Kilang",
+        "Pematuhan Kecantikan"
+      ]
+    },
+    {
+      "case_id": "CASE-112",
+      "case_title": "Jenama Fesyen Menghadapi Lonjakan Kos Pampasan disebabkan Mengabaikan Perlindungan Pengguna Singapura",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual menjual pakaian sutera di Singapura dengan pembungkusan yang lemah dan tiada arahan basuhan.",
+      "situation": "Seorang pengguna mendapati item tersebut mengecut; keengganan penjual untuk membayar balik berdasarkan 'tempoh pulangan tamat' melanggar undang-undang.",
+      "outcome": "Dilaporkan oleh CASE (Persatuan Pengguna Singapura), penjual dipaksa membayar balik dan membayar yuran ujian produk.",
+      "conclusion": "Singapura mempunyai sistem perlindungan pengguna yang matang; penjual harus memberikan arahan yang jelas dan menghormati hak pemulangan sah.",
+      "tags": [
+        "Singapura",
+        "Perlindungan Pengguna",
+        "Pertikaian Selepas Jualan",
+        "Pematuhan"
+      ]
+    },
+    {
+      "case_id": "CASE-113",
+      "case_title": "Pejabat Penjual Diserbu di Thailand kerana Menggaji Khidmat Pelanggan Sambilan Haram",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Untuk menjimatkan kos, seorang penjual menggaji pelajar asing secara peribadi tanpa permit kerja sebagai khidmat pelanggan di Bangkok.",
+      "situation": "Seorang pesaing melaporkan mereka, dan jabatan buruh Thai melakukan serbuan mengejut ke atas pejabat tersebut.",
+      "outcome": "Pejabat ditutup, semua kakitangan dihantar pulang, dan penjual didenda 100,000 THB dengan peralatan pejabat dirampas.",
+      "conclusion": "Pejabat luar negara mesti mematuhi peraturan buruh dan visa tempatan dengan ketat untuk mengelakkan risiko operasi pasaran kelabu.",
+      "tags": [
+        "Thailand",
+        "Pematuhan Buruh",
+        "Risiko Undang-undang",
+        "Pasukan Tempatan"
+      ]
+    },
+    {
+      "case_id": "CASE-114",
+      "case_title": "Penjual Bagasi Mengalami Kerugian disebabkan Persaingan 'Brushing' semasa 11.11 Filipina",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Semasa promosi 11.11, trafik bagasi di Filipina adalah mahal; penjual menggunakan CPC tinggi untuk merebut slot.",
+      "situation": "Mereka tidak menyedari slot teratas diduduki oleh akaun yang melakukan 'brushing'; trafik tinggi membawa kepada penukaran rendah dan tiada keuntungan.",
+      "outcome": "Perbelanjaan iklan melebihi bajet sebanyak USD 50,000; walaupun GMV tinggi, kerugian bersih melebihi 80,000 RMB.",
+      "conclusion": "Pemasaran mega-promosi memerlukan analisis persaingan; elakkan perang harga berniat jahat dengan strategi yang lebih bijak.",
+      "tags": [
+        "Filipina",
+        "Strategi Iklan",
+        "Kerugian Promosi",
+        "Pengoptimuman ROI"
+      ]
+    },
+    {
+      "case_id": "CASE-115",
+      "case_title": "Kontena Penjual Produk Rumah Dibakar selepas Mengabaikan Sekatan Kod HS Vietnam",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Sebuah syarikat mengeksport beg kacang (bean bags) dengan pengisi tertentu ke Vietnam.",
+      "situation": "Disebabkan klasifikasi kod HS yang salah, produk tersebut sebenarnya mengandungi bahan yang dilarang keras oleh Vietnam atas sebab alam sekitar.",
+      "outcome": "Kastam mengarahkan pembakaran keseluruhan kontena; penjual menanggung semua kos ditambah denda 100,000 RMB.",
+      "conclusion": "Klasifikasi kod HS yang tepat dan penyaringan untuk bahan terhad adalah sangat penting dalam perdagangan pukal.",
+      "tags": [
+        "Vietnam",
+        "Import Larangan",
+        "Peraturan Alam Sekitar",
+        "Kod HS"
+      ]
+    },
+    {
+      "case_id": "CASE-116",
+      "case_title": "Gudang Penjual Mainan Disita kerana Mengabaikan Keperluan SIRIM Malaysia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual menyewa gudang tempatan di Malaysia untuk mainan kawalan jauh dengan bateri.",
+      "situation": "Mereka gagal memohon pensijilan SIRIM mandatori, dan gudang tersebut telah diperiksa oleh kementerian berkaitan.",
+      "outcome": "Inventori bernilai 500,000 RMB telah disita dan dilarang daripada jualan, menunggu denda retroaktif yang berat.",
+      "conclusion": "Malaysia mempunyai keperluan SIRIM yang ketat untuk barangan berkaitan keselamatan; model gudang tempatan mesti memastikan pematuhan penuh.",
+      "tags": [
+        "Malaysia",
+        "Pensijilan SIRIM",
+        "Gudang Tempatan",
+        "Mainan"
+      ]
+    },
+    {
+      "case_id": "CASE-117",
+      "case_title": "Penjual Aksesori Diadili sebagai Penipuan Komersial di Singapura kerana Menyalahgunakan 'Emas Padu 100%'",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual barang kemas kos rendah di Shopee Singapura menggunakan '100% Solid Gold' untuk item bersalut emas.",
+      "situation": "CCCS (Suruhanjaya Persaingan dan Pengguna Singapura) mengambil sampel produk dan mendapati ia mengelirukan.",
+      "outcome": "Jenama itu telah disenaraihitamkan secara terbuka dan kehilangan kelayakan kemasukan untuk semua platform utama Singapura.",
+      "conclusion": "Singapura mempunyai piawaian tinggi untuk kejujuran komersial; tuntutan yang berlebihan membawa kepada penyingkiran kekal daripada pasaran.",
+      "tags": [
+        "Singapura",
+        "Kejujuran Perniagaan",
+        "Garis Merah Undang-undang",
+        "Aksesori"
+      ]
+    },
+    {
+      "case_id": "CASE-118",
+      "case_title": "Penjual 3C Mengalami Kerugian di Thailand disebabkan 'Hak Penarikan Pengguna'",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Undang-undang Thai memberikan pembeli dalam talian hak untuk menarik diri daripada kontrak dan memulangkan barangan dalam tempoh tertentu.",
+      "situation": "Seorang penjual kamera gagal menjelaskan kos susut nilai dan penghantaran dalam terma dan syarat mereka.",
+      "outcome": "Penjual menghadapi gelombang pemulangan daripada penguji 'profesional', mengakibatkan kerugian susut nilai lebih 100,000 RMB.",
+      "conclusion": "Seseorang mesti merancang mekanisme mengimbangi risiko dan terma kontrak yang jelas berdasarkan undang-undang perlindungan pengguna tempatan.",
+      "tags": [
+        "Thailand",
+        "Hak Pengguna",
+        "Risiko Pemulangan",
+        "Kawalan Kos"
+      ]
+    },
+    {
+      "case_id": "CASE-119",
+      "case_title": "Penjual Menghadapi Belanja Melebihi Bajet selepas Mengabaikan THR (Tunjangan Hari Raya) Indonesia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Undang-undang Indonesia memerlukan majikan membayar bonus gaji sebulan (THR) kepada pekerja tempatan sebelum Hari Raya Aidilfitri.",
+      "situation": "Seorang penjual dengan pasukan tempatan gagal memasukkan kos tetap ini dalam bajet tahunan mereka.",
+      "outcome": "Ini membawa kepada krisis aliran tunai sebelum raya, mengakibatkan pemberhentian pekerja dan denda mahkamah buruh yang berat.",
+      "conclusion": "Menubuhkan pasukan luar negara memerlukan penyelidikan menyeluruh tentang undang-undang buruh, termasuk bonus kebajikan agama.",
+      "tags": [
+        "Indonesia",
+        "Bonus THR",
+        "Pematuhan Buruh",
+        "Bajet Kewangan"
+      ]
+    },
+    {
+      "case_id": "CASE-120",
+      "case_title": "Jenama Ibu dan Kanak-kanak Menghadapi Sekatan Gudang Tempatan disebabkan Kekurangan LTO Filipina",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual menjual botol bayi dan peralatan makan di Filipina menggunakan gudang luar negara pihak ketiga.",
+      "situation": "FDA Filipina memerlukan penjual produk ibu dan kanak-kanak memegang Lesen untuk Beroperasi (LTO).",
+      "outcome": "Kastam memintas stok seterusnya, dan stok gudang semasa telah dikunci disebabkan kekurangan lesen.",
+      "conclusion": "Produk ibu dan kanak-kanak yang sensitif sentuhan di Filipina dikawal ketat; dapatkan LTO dan pendaftaran produk terlebih dahulu.",
+      "tags": [
+        "Filipina",
+        "Lesen LTO",
+        "Ibu dan Kanak-kanak",
+        "Kemasukan Pasaran"
+      ]
+    },
+    {
+      "case_id": "CASE-121",
+      "case_title": "Penjual Digital Mengalami Salah Jajaran Trafik disebabkan Kata Kunci Listing Vietnam yang Salah",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual tersalah terjemah 'Bluetooth Speaker' menjadi istilah Vietnam yang kabur dengan konnotasi negatif.",
+      "situation": "Sistem iklan hanya memadankan khalayak yang tidak relevan, dan pembeli melompat keluar segera disebabkan teks yang pelik.",
+      "outcome": "Membelanjakan USD 10,000 untuk iklan dengan hanya 3 pesanan, menerima berbilang ulasan mengejek daripada pembeli.",
+      "conclusion": "Bahasa Vietnam adalah berasaskan konteks; kata kunci mesti disahkan melalui trend enjin carian tempatan.",
+      "tags": [
+        "Vietnam",
+        "Ralat Semantik",
+        "Pembaziran Trafik",
+        "Kegagalan Penyetempatan"
+      ]
+    },
+    {
+      "case_id": "CASE-122",
+      "case_title": "Penjual Aksesori Menghadapi Boikot Awam di Singapura kerana Pembungkusan Plastik Berlebihan",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual membungkus aksesori murah dalam beberapa lapisan filem plastik dan 'bubble wrap' untuk perlindungan.",
+      "situation": "Kumpulan alam sekitar Singapura melancarkan kempen tag 'No Over-packaging', menamakan penjual tersebut secara terbuka.",
+      "outcome": "Ramai pembeli muda membatalkan pesanan dan memberikan penilaian negatif, memaksa penjual melabur dalam pembungkusan eko.",
+      "conclusion": "Pasaran matang seperti Singapura sangat sensitif terhadap isu alam sekitar; pembungkusan berlebihan boleh mencetuskan krisis PR.",
+      "tags": [
+        "Singapura",
+        "Pembungkusan Berlebihan",
+        "Pendapat Awam",
+        "Risiko Jenama"
+      ]
+    },
+    {
+      "case_id": "CASE-123",
+      "case_title": "Penjual Perkakas Rumah Menghadapi Pemulangan Besar-besaran disebabkan Perbezaan Plag dan Voltan Thailand",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual menjual pengisar yang direka untuk pasaran China di kedai Thailand mereka.",
+      "situation": "Walaupun voltan serasi, plag adalah jenis rata 3-pin, dan tiada penyesuai standard Thai disertakan.",
+      "outcome": "Pembeli tidak boleh menggunakan produk, mengakibatkan kadar pemulangan 25% dan kejatuhan mendadak dalam kedudukan carian.",
+      "conclusion": "Elektronik mesti disesuaikan dengan piawaian plag tempatan atau sertakan penyesuai untuk memastikan keserasian.",
+      "tags": [
+        "Thailand",
+        "Standard Plag",
+        "Risiko Keserasian",
+        "Perkakas Kecil"
+      ]
+    },
+    {
+      "case_id": "CASE-124",
+      "case_title": "Penjual Bagasi Mengalami Lonjakan Kos selepas Mengabaikan 'Duti Anti-Lambakan' Indonesia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Indonesia melaksanakan penyiasatan anti-lambakan dan tarif punitif ke atas beberapa beg dan kasut yang diimport dari China.",
+      "situation": "Tidak menyedari, penjual terus mengimport secara pukal dan terkena tarif punitif 40% oleh kastam.",
+      "outcome": "Penjual membayar tambahan 150,000 RMB dalam duti, menukar keuntungan menjadi kerugian dan memaksa penggantungan perniagaan.",
+      "conclusion": "Seseorang mesti memantau dasar perlindungan perdagangan yang menyasarkan barangan industri tertentu di Indonesia.",
+      "tags": [
+        "Indonesia",
+        "Duti Anti-Lambakan",
+        "Halangan Perdagangan",
+        "Lonjakan Kos"
+      ]
+    },
+    {
+      "case_id": "CASE-125",
+      "case_title": "Penjual Mengalami Kerugian Logistik disebabkan Kegagalan Pengesahan Alamat COD Filipina",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual membolehkan COD untuk semua pelanggan di Filipina tanpa sebarang ambang kemasukan.",
+      "situation": "Mereka menerima banyak pesanan dengan alamat yang kabur atau nombor telefon yang tidak sah—kemungkinan pesanan palsu.",
+      "outcome": "Kos penghantaran tidak sah menyumbang 15% daripada jumlah hasil, menghakis keuntungan secara teruk.",
+      "conclusion": "Membolehkan COD di Filipina memerlukan pengesahan alamat pintar atau pemeriksaan telefon pra-jualan untuk menapis pesanan palsu.",
+      "tags": [
+        "Filipina",
+        "Risiko COD",
+        "Pesanan Palsu",
+        "Kerugian Logistik"
+      ]
+    },
+    {
+      "case_id": "CASE-126",
+      "case_title": "Jenama Alatan Menghadapi Liabiliti Undang-undang di Vietnam kerana Ralat Manual Teknikal",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Jenama mesin pemotong tersalah terjemah 'Pemasangan Pelindung Keselamatan' dalam manual Vietnamnya.",
+      "situation": "Seorang pengguna tempatan mengikut arahan yang salah dan mengalami kecederaan pemotongan.",
+      "outcome": "Jenama itu menghadapi saman kecederaan peribadi yang besar, penarikan balik produk total, dan terpaksa keluar dari pasaran Vietnam.",
+      "conclusion": "Manual jentera profesional mesti diterjemah dan disemak oleh pakar teknikal dan keselamatan.",
+      "tags": [
+        "Vietnam",
+        "Kemalangan Keselamatan",
+        "Ralat Terjemahan",
+        "Liabiliti Undang-undang"
+      ]
+    },
+    {
+      "case_id": "CASE-127",
+      "case_title": "Penjual Kecantikan Salah Peruntukan Sumber dengan 'Penstriman Langsung Pra-Subuh' di Indonesia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Penjual menyedari Muslim makan sebelum subuh semasa Ramadan dan menyangka ia masa yang baik untuk penstriman langsung.",
+      "situation": "Mereka melabur dalam penstriman langsung pra-subuh, tidak menyedari pengguna tertumpu pada ritual agama dan keluarga, bukan membeli-belah.",
+      "outcome": "Kadar penukaran adalah kurang daripada 0.1%, membazirkan bayaran kerja lebih masa yang tinggi dan perbelanjaan trafik iklan.",
+      "conclusion": "Pemasaran Ramadan memerlukan wawasan mendalam tentang jadual Muslim; pra-subuh adalah untuk kehangatan, bukan jualan keras.",
+      "tags": [
+        "Indonesia",
+        "Strategi Ramadan",
+        "Ralat Penstriman Langsung",
+        "Tabiat Penggunaan"
+      ]
+    },
+    {
+      "case_id": "CASE-128",
+      "case_title": "Penjual Fesyen Kehilangan Pelanggan selepas Mengabaikan Pergantungan Singapura pada 'Pulangan Mudah'",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Penjual menawarkan pulangan tetapi memerlukan pembeli menghubungi kurier dan memuat naik gambar label secara manual.",
+      "situation": "Pengguna Singapura sudah biasa dengan pengambilan di pintu rumah satu klik atau Drop-off mudah di kedai serbaneka.",
+      "outcome": "Kadar pembelian semula jatuh daripada 30% kepada 5%, dan jenama itu dilabel sebagai 'sukar untuk dipulangkan' di media sosial.",
+      "conclusion": "Persaingan di pasaran matang seperti Singapura adalah mengenai butiran perkhidmatan; gunakan logistik terbalik platform yang dipermudahkan.",
+      "tags": [
+        "Singapura",
+        "Pengalaman Pengguna",
+        "Logistik Terbalik",
+        "Pakaian"
+      ]
+    },
+    {
+      "case_id": "CASE-129",
+      "case_title": "Penjual Menghadapi Pelanggaran Kontrak di Filipina disebabkan Force Majeure Musim Taufan",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Sebuah syarikat dikontrak untuk membekalkan bahan bantuan bencana kepada agensi kerajaan Filipina pada bulan September.",
+      "situation": "Mereka gagal mengambil kira taufan super frekuensi tinggi pada bulan September, yang menutup pelabuhan dan melambatkan penghantaran.",
+      "outcome": "Kekurangan klausa force majeure, bon pelaksanaan telah dirampas, dan penjual telah disenaraihitamkan.",
+      "conclusion": "Kontrak B2B Filipina mesti menyertakan tempoh penimbal untuk bencana iklim dan skop pengecualian undang-undang yang jelas.",
+      "tags": [
+        "Filipina",
+        "Bencana Iklim",
+        "Pelanggaran B2B",
+        "Perlindungan Undang-undang"
+      ]
+    },
+    {
+      "case_id": "CASE-130",
+      "case_title": "Penjual Aksesori Mengalami Stok Terbantut disebabkan Perbezaan Pilihan Tona Kulit di Malaysia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Penjual mempromosikan aksesori tona sejuk di Malaysia yang direka untuk menjadikan kulit kelihatan lebih cerah.",
+      "situation": "Ia terjual dengan baik dalam kalangan orang Cina Malaysia, tetapi kelihatan hambar pada tona kulit komuniti Melayu yang lebih hangat/gelap.",
+      "outcome": "Penukaran adalah sifar dalam saluran yang didominasi Melayu, mengakibatkan stok terbantut yang teruk untuk SKU tertentu.",
+      "conclusion": "Malaysia ialah pasaran pelbagai budaya; R&D harus mengambil kira perbezaan fizikal dan estetika kumpulan etnik yang berbeza.",
+      "tags": [
+        "Malaysia",
+        "Perbezaan Estetika",
+        "Ciri Etnik",
+        "Pengurusan Inventori"
+      ]
+    },
+    {
+      "case_id": "CASE-131",
+      "case_title": "Penjual Mengalami Kerugian Penetapan Harga selepas Mengabaikan 'Cukai Mewah' Thailand ke atas Barangan Nilai Tinggi",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual mengeksport peranti pintar mewah dengan harga unit melebihi USD 1,500 ke Thailand.",
+      "situation": "Mereka gagal mengira cukai mewah tambahan yang dikenakan Thailand ke atas elektronik pengguna bernilai tinggi.",
+      "outcome": "Kastam memerlukan cukai tambahan 15%, menyebabkan margin keuntungan yang dijangka hilang sepenuhnya.",
+      "conclusion": "Sahkan kadar cukai berperingkat Thailand untuk barangan pengguna AOV tinggi sebelum memuktamadkan harga.",
+      "tags": [
+        "Thailand",
+        "Cukai Mewah",
+        "Peraturan Kastam",
+        "Salah Tanggap Kos"
+      ]
+    },
+    {
+      "case_id": "CASE-132",
+      "case_title": "Penjual Kehilangan Pelanggan kepada Pemintas di Vietnam disebabkan Komen Facebook yang Terbuka",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual menjalankan iklan di Facebook Vietnam, menjana banyak komen pertanyaan harga setiap hari.",
+      "situation": "Gagal menyembunyikan komen, mereka membenarkan pesaing menghantar mesej terus kepada pelanggan yang meninggalkan maklumat hubungan.",
+      "outcome": "Kira-kira 50% daripada pesanan berpotensi dipintas oleh pesaing dengan harga lebih rendah; perbelanjaan iklan menguntungkan saingan.",
+      "conclusion": "Pemasaran sosial di Asia Tenggara memerlukan pengurusan komen dan automasi anti-pintasan.",
+      "tags": [
+        "Vietnam",
+        "Persaingan Sosial",
+        "Pintasan",
+        "Kesedaran Risiko"
+      ]
+    },
+    {
+      "case_id": "CASE-133",
+      "case_title": "Penjual Aksesori Menghadapi Kadar Bayaran Balik Tinggi disebabkan Logistik Ganas di Filipina",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Semasa promosi 12.12, seorang penjual melancarkan kotak hadiah kertas yang halus.",
+      "situation": "Semasa puncak logistik, bungkusan telah dihimpit dan basah oleh hujan, merosakkan persembahan kotak hadiah.",
+      "outcome": "Pembeli menolak item sebagai tidak sesuai untuk dihadiahkan; bayaran balik menyumbang 20% daripada jualan bulan itu.",
+      "conclusion": "Logistik semasa promosi Asia Tenggara adalah ganas; pembungkusan hadiah bernilai tinggi mestilah kalis air dan kalis remuk.",
+      "tags": [
+        "Filipina",
+        "Logistik Promosi",
+        "Pembungkusan",
+        "Pengalaman Pengguna"
+      ]
+    },
+    {
+      "case_id": "CASE-134",
+      "case_title": "Telefon Penjual Digital Disekat selepas Mengabaikan Peraturan Pendaftaran IMEI Indonesia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual menghantar terus telefon pintar versi China kepada pembeli di Indonesia.",
+      "situation": "Mereka gagal mendaftarkan IMEI dengan Kastam Indonesia dan membayar duti yang diperlukan.",
+      "outcome": "Telefon tidak dapat menyambung ke isyarat tempatan dan disekat sebagai barangan penyeludupan; pembeli memfailkan tuntutan besar.",
+      "conclusion": "Indonesia mewajibkan pendaftaran IMEI untuk semua telefon import; pastikan pelepasan termasuk langkah ini.",
+      "tags": [
+        "Indonesia",
+        "Pendaftaran IMEI",
+        "Peraturan Telekom",
+        "Sekatan Pelepasan"
+      ]
+    },
+    {
+      "case_id": "CASE-135",
+      "case_title": "Jenama Kecantikan Dinyahsenarai di Thailand kerana Pelabelan SPF Palsu",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual melabelkan produk SPF 50+ tetapi kekurangan laporan daripada agensi ujian yang diiktiraf Thailand.",
+      "situation": "Pesaing melaporkan mereka atas penipuan, dan FDA Thailand menjalankan pemeriksaan kebolehkesanan.",
+      "outcome": "Produk itu telah ditarik balik, kredibiliti jenama hilang, dan ia terpaksa keluar dari platform utama Thai.",
+      "conclusion": "Petunjuk fungsian seperti SPF mesti disokong oleh data makmal yang diiktiraf; jangan melabel produk secara sewenang-wenangnya.",
+      "tags": [
+        "Thailand",
+        "Pensijilan SPF",
+        "Kejujuran Perniagaan",
+        "Kecantikan"
+      ]
+    },
+    {
+      "case_id": "CASE-136",
+      "case_title": "Jenama Ibu dan Kanak-kanak Menghadapi Pintasan Pakej disebabkan Larangan Cecair Udara Malaysia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual cuba menghantar sabun bayi berkapasiti besar ke Malaysia Timur melalui paket kecil mel udara standard.",
+      "situation": "Mereka gagal melaporkan atribut cecair atau menggunakan talian khusus, melanggar had berat udara untuk cecair.",
+      "outcome": "Beribu-ribu bungkusan telah dipintas dan dilupuskan; tambang tidak dikembalikan, kerugian lebih 200,000 RMB.",
+      "conclusion": "Mel udara ke Asia Tenggara mempunyai had ketat pada cecair, serbuk, dan bateri; pilih saluran logistik yang betul.",
+      "tags": [
+        "Malaysia",
+        "Larangan Kargo Udara",
+        "Barangan Sensitif",
+        "Kerugian Logistik"
+      ]
+    },
+    {
+      "case_id": "CASE-137",
+      "case_title": "Penjual Digital Dilarang di Singapura kerana Tuntutan Waranti Mengelirukan pada Barangan Diperbaharui",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual menjual PC diperbaharui di Singapura dengan 'Waranti Tempatan 1-Tahun' yang samar-samar dalam huraian.",
+      "situation": "Apabila pengguna pergi ke pusat pembaikan rasmi, waranti tidak diiktiraf; 'waranti tempatan' itu adalah bengkel kecil.",
+      "outcome": "Platform memutuskan ia sebagai penipuan; kedai dilarang, dan penjual terpaksa membayar balik semua pembeli dari 3 bulan lalu.",
+      "conclusion": "Waranti Singapura mesti membezakan antara waranti 'Pengilang' dan 'Penjual'; elakkan istilah samar.",
+      "tags": [
+        "Singapura",
+        "Penipuan Waranti",
+        "Risiko Kredit",
+        "Elektronik 3C"
+      ]
+    },
+    {
+      "case_id": "CASE-138",
+      "case_title": "Penjual Pakaian Menghadapi Kelewatan Pelepasan disebabkan Had Kuantiti 'Penggunaan Peribadi' Indonesia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang pembeli memesan 20 gaun yang sama dalam satu pesanan sebagai gaun pengiring pengantin.",
+      "situation": "Kastam Indonesia menentukan kuantiti ini melebihi penggunaan peribadi dan memerlukan pelepasan komersial dan lesen.",
+      "outcome": "Barangan tersangkut selama 1 bulan; pembeli menolak selepas terlepas tarikh perkahwinan; penjual rugi yuran penghantaran.",
+      "conclusion": "Paket kecil rentas sempadan harus dibahagikan secara munasabah untuk mengelakkan pertikaian mengenai penggunaan komersial berbanding peribadi.",
+      "tags": [
+        "Indonesia",
+        "Had Guna Peribadi",
+        "Strategi Pembahagian",
+        "Peraturan Kastam"
+      ]
+    },
+    {
+      "case_id": "CASE-139",
+      "case_title": "Penjual Produk Rumah Kehilangan Keuntungan selepas Mengabaikan Surcaj Logistik Kawasan Pedalaman Filipina",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Penjual mengira harga berdasarkan purata yuran logistik ke bandar teras seperti Manila.",
+      "situation": "Mereka menerima banyak pesanan berat dari pulau terpencil seperti Mindanao, di mana kurier menambah surcaj yang mahal.",
+      "outcome": "Dengan penghantaran percuma didayakan, penjual kerugian 50 RMB setiap pesanan dan akhirnya terpaksa membatalkan banyak pesanan.",
+      "conclusion": "Logistik di Asia Tenggara adalah kompleks; tetapkan kadar penghantaran berperingkat mengikut poskod atau sekat item berat di pedalaman.",
+      "tags": [
+        "Filipina",
+        "Tambang Terbalik",
+        "Surcaj Pedalaman",
+        "Ralat Penetapan Harga"
+      ]
+    },
+    {
+      "case_id": "CASE-140",
+      "case_title": "Penjual Mainan Menghadapi Risiko Jenayah selepas Mengabaikan Larangan Vietnam ke atas Glob 'Wilayah'",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual mengeksport glob ke Vietnam yang tidak melaraskan sempadan wilayah mengikut piawaian politik Vietnam.",
+      "situation": "Kastam menentukan produk tersebut membahayakan keselamatan negara dan integriti wilayah.",
+      "outcome": "Barangan dirampas dan dimusnahkan; penjual dan ejen didenda berat dan kehilangan lesen perniagaan Vietnam mereka.",
+      "conclusion": "Penerbitan seperti glob atau peta yang dieksport ke wilayah sensitif mesti menjalani semakan pematuhan politik yang ketat.",
+      "tags": [
+        "Vietnam",
+        "Sensitiviti Politik",
+        "Sekatan Peta",
+        "Risiko Pematuhan"
+      ]
+    },
+    {
+      "case_id": "CASE-141",
+      "case_title": "Penjual Pakaian Menghadapi Kerosakan Reputasi selepas Skandal 'Barangan Tiruan' Pempengaruh Malaysia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual bekerjasama dengan pempengaruh Malaysia yang kemudiannya terdedah kerana menjual barangan tiruan daripada jenama lain.",
+      "situation": "Pengguna menyenaraihitamkan semua jenama yang dikaitkan dengan pempengaruh itu, termasuk pakaian asli penjual.",
+      "outcome": "Reputasi jenama runtuh; pembatalan melonjak, dan kata kunci negatif muncul dalam carian Google untuk jenama tersebut.",
+      "conclusion": "Jalankan ketekunan wajar (DD) yang mendalam terhadap pempengaruh untuk mengelakkan diri daripada terheret oleh imej awam negatif mereka.",
+      "tags": [
+        "Malaysia",
+        "Kekurangan DD",
+        "Risiko Persatuan Jenama",
+        "Pemasaran Pempengaruh"
+      ]
+    },
+    {
+      "case_id": "CASE-142",
+      "case_title": "Penjual Perkakas Kecil Dinyahsenarai di Thailand kerana Kekurangan Ciri Keselamatan 'Auto Power-Off'",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Sebuah jenama cerek elektrik sedang menjual secara dalam talian di Thailand.",
+      "situation": "Produk itu kekurangan cip mati kuasa auto anti-pembakaran kering mandatori yang diperlukan oleh piawaian keselamatan Thai.",
+      "outcome": "Ujian persatuan pengguna melabelkannya sebagai 'bahaya keselamatan utama', membawa kepada larangan seluruh negara dan penyahsenaraian total.",
+      "conclusion": "Ciri keselamatan (cth., mati kuasa, perlindungan kebocoran) untuk kategori tertentu adalah penunjuk teknikal mandatori.",
+      "tags": [
+        "Thailand",
+        "Keselamatan Elektrik",
+        "Spesifikasi Teknikal",
+        "Perkakas Kecil"
+      ]
+    },
+    {
+      "case_id": "CASE-143",
+      "case_title": "Penjual Aksesori Menghadapi Lonjakan Ulasan Negatif selepas Mengabaikan Trend 'Pengurangan Plastik' Singapura",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual menggunakan berlapik-lapik bubble wrap dan pita untuk anting-anting bagi mengelakkan kerosakan transit.",
+      "situation": "Pembeli Singapura mengadu dalam ulasan tentang 'sampah menggunung' dan tingkah laku yang tidak mesra alam.",
+      "outcome": "Penilaian kedai jatuh daripada 4.9 kepada 4.3; mereka kehilangan pelanggan lama dan ditanda sebagai jenama tidak eko.",
+      "conclusion": "Di pasaran standard tinggi, pembungkusan eko ialah elemen operasi teras yang menjejaskan berat carian dan reputasi.",
+      "tags": [
+        "Singapura",
+        "Trend Alam Sekitar",
+        "Pencegahan Ulasan",
+        "Aksesori"
+      ]
+    },
+    {
+      "case_id": "CASE-144",
+      "case_title": "Penjual Diusir Kekal selepas Menggunakan Imej Pemimpin yang Meninggal Dunia di Vietnam",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Satu jenama fesyen pantas menggunakan kolaj artistik tokoh sejarah Vietnam yang sensitif dalam iklan Facebook.",
+      "situation": "Langkah ini mencabar sentimen nasional Vietnam dan undang-undang garis bawah tempatan secara serius.",
+      "outcome": "Pihak berkuasa Vietnam mengarahkan platform menutup akaun dan merampas semua aset; pengurus telah disenaraihitamkan.",
+      "conclusion": "Menghormati pemimpin negara dan sentimen nasional ialah peraturan pertama untuk pergi global; jangan sesekali mencuba 'kreativiti politik'.",
+      "tags": [
+        "Vietnam",
+        "Pantang Larang Politik",
+        "Garis Bawah Pemasaran",
+        "Larangan Perniagaan"
+      ]
+    },
+    {
+      "case_id": "CASE-145",
+      "case_title": "Penjual Bagasi Kehilangan Kawalan Kos disebabkan Mengabaikan Yuran Penghantaran Semula COD Filipina",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Beberapa kurier Filipina mengenakan bayaran tambahan untuk percubaan penghantaran kedua jika pembeli tiada di rumah.",
+      "situation": "Penjual gagal memberi amaran kepada pembeli untuk memastikan telefon dihidupkan, membawa kepada purata dua percubaan penghantaran setiap pesanan.",
+      "outcome": "Bil logistik bulanan adalah 30% lebih tinggi daripada bajet, mengakibatkan kerugian 50,000 RMB untuk bulan tersebut.",
+      "conclusion": "Bimbing pembeli untuk mengekalkan tabiat pemenuhan yang cekap melalui SMS pra-jualan dan peringatan dalam aplikasi di bawah model COD.",
+      "tags": [
+        "Filipina",
+        "Surcaj Logistik",
+        "Kawalan Kos",
+        "COD"
+      ]
+    },
+    {
+      "case_id": "CASE-146",
+      "case_title": "Sijil Jenama Kecantikan Dibatalkan di Thailand disebabkan Data Makmal yang Tidak Diiktiraf",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual menyediakan laporan SPF daripada makmal yang kabur dan tidak diiktiraf di China.",
+      "situation": "FDA Thailand hanya mengiktiraf agensi ujian antarabangsa tertentu atau agensi Thai tempatan yang ditetapkan.",
+      "outcome": "Pendaftaran ditolak, melambatkan pelancaran selama setengah tahun dan kehilangan kelebihan penggerak pertama pasaran.",
+      "conclusion": "Ujian pematuhan mesti dilakukan oleh agensi pihak ketiga yang diiktiraf rasmi; kesahihan domestik dan luar negara berbeza.",
+      "tags": [
+        "Thailand",
+        "Kesahihan Pensijilan",
+        "Pematuhan FDA",
+        "Kecantikan"
+      ]
+    },
+    {
+      "case_id": "CASE-147",
+      "case_title": "Penjual Produk Rumah Menghadapi Yuran Pelepasan Tinggi kerana Mengabaikan Standard 'Bingkai Kayu' Indonesia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Indonesia mempunyai piawaian kuarantin dan tetulang khusus (cth., tanda fumigasi) untuk import kayu besar.",
+      "situation": "Bingkai kayu yang digunakan oleh penjual tidak memenuhi piawaian IPPC dan dilabelkan sebagai pembawa perosak berisiko tinggi.",
+      "outcome": "Barangan telah dikuarantin; penjual membayar yuran pembasmian kuman dan pelabuhan yang mahal, kerugian lebih 40,000 RMB.",
+      "conclusion": "Kargo laut pukal mesti mematuhi piawaian kuarantin pembungkusan dengan ketat untuk mengelakkan kos pelepasan yang besar.",
+      "tags": [
+        "Indonesia",
+        "Pensijilan Fumigasi",
+        "Kuarantin Kastam",
+        "Perabot"
+      ]
+    },
+    {
+      "case_id": "CASE-148",
+      "case_title": "Penjual Digital Menghadapi Bayaran Balik Berniat Jahat selepas Mengabaikan Tabiat 'Pulangan 14-Hari' Singapura",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual menetapkan dasar 'Tiada Pulangan Selepas Dibuka' dalam syarat perkhidmatan mereka.",
+      "situation": "Ini melanggar jangkaan perlindungan pengguna matang Singapura dan diserang di forum teknologi tempatan.",
+      "outcome": "Penukaran jatuh kepada sifar dalam masa dua minggu, dan mereka menerima banyak pesanan bayaran balik berniat jahat.",
+      "conclusion": "Jangan mencabar piawaian perkhidmatan yang ditetapkan dalam pasaran; terma selepas jualan yang tegar sering memakan diri.",
+      "tags": [
+        "Singapura",
+        "Tabiat Perkhidmatan",
+        "Reputasi Jenama",
+        "Elektronik 3C"
+      ]
+    },
+    {
+      "case_id": "CASE-149",
+      "case_title": "Kelompok Penjual Aksesori Dirampas selepas Mengabaikan Larangan Filipina ke atas 'Bahan Karang'",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual mengeksport anting-anting karang buatan ke Filipina.",
+      "situation": "Walaupun tiruan, rupa yang realistik dan kekurangan laporan analisis kimia menyebabkan kastam mengklasifikasikannya sebagai hidupan liar yang diseludup.",
+      "outcome": "Keseluruhan kelompok telah dirampas; penjual telah disenaraihitamkan untuk pemantauan perdagangan spesies terancam.",
+      "conclusion": "Produk yang menyerupai spesies dilindungi (gading, karang, kulit tertentu) mesti mempunyai bukti komposisi kimia penuh.",
+      "tags": [
+        "Filipina",
+        "Pemeriksaan Kastam",
+        "Bukti Komposisi",
+        "Risiko Undang-undang"
+      ]
+    },
+    {
+      "case_id": "CASE-150",
+      "case_title": "Penjual Mainan Menghadapi Larangan kerana Mengabaikan Gangguan Pengeluaran semasa Hari Buruh Vietnam",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual dengan kilang kecil di Vietnam menyertai promosi 5.5.",
+      "situation": "Mereka gagal menyedari bahawa cuti Hari Buruh (30 April – 1 Mei) bermaksud penutupan total dan cuti pekerja.",
+      "outcome": "Pesanan tidak dapat dipenuhi tepat pada masanya; kadar kehabisan stok melebihi 50%, membawa kepada larangan kedai Shopee kekal.",
+      "conclusion": "Pengeluaran tempatan mesti mengambil kira jurang kapasiti semasa cuti kebangsaan dan mempunyai pelan sandaran yang ketat.",
+      "tags": [
+        "Vietnam",
+        "Cuti Berkanun",
+        "Pengurusan Pengeluaran",
+        "Kemalangan Operasi"
+      ]
+    },
+    {
+      "case_id": "CASE-151",
+      "case_title": "Penjual Kecantikan Menghadapi Penolakan Pukal kerana Gagal Menghantar Hadiah Raya Tepat Masa di Indonesia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Pengguna Indonesia membeli produk kecantikan semasa Ramadan untuk kegunaan peribadi atau hadiah semasa Hari Raya Aidilfitri.",
+      "situation": "Banyak pesanan hanya sampai pada hari kedua hari raya, menyebabkan hadiah tersebut kehilangan makna dan kegunaannya.",
+      "outcome": "Kadar penolakan pesanan mencapai 60%, kos penghantaran balik ke China lebih mahal daripada nilai barang, mengakibatkan kerugian besar.",
+      "conclusion": "Bagi permintaan khusus perayaan, jika ketibaan sebelum hari raya tidak dijamin, jualan mesti dihentikan sebelum tarikh akhir pemotongan.",
+      "tags": [
+        "Indonesia",
+        "Masa Perayaan",
+        "Senario Penggunaan",
+        "Risiko Penolakan"
+      ]
+    },
+    {
+      "case_id": "CASE-152",
+      "case_title": "Penjual Perkakas Elektrik Gagal Masuk Kedai Fizikal kerana Tiada Pensijilan ST Malaysia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual merancang untuk berkembang dari kedai Shopee dalam talian ke kedai runcit elektrik fizikal di Kuala Lumpur.",
+      "situation": "Dimaklumkan bahawa semua barangan elektrik yang dijual secara luar talian di Malaysia mesti mempunyai kelulusan keselamatan daripada Suruhanjaya Tenaga (ST).",
+      "outcome": "Pengedar luar talian memulangkan semua barangan; yuran kemasukan dan kos hiasan gerai melebihi 200,000 RMB hangus begitu sahaja.",
+      "conclusion": "Pematuhan luar talian adalah lebih ketat daripada dalam talian; pastikan semua sijil kawal selia tempatan yang mandatori diperoleh sebelum pengembangan.",
+      "tags": [
+        "Malaysia",
+        "Suruhanjaya Tenaga",
+        "Saluran Luar Talian",
+        "Pematuhan Elektrik"
+      ]
+    },
+    {
+      "case_id": "CASE-153",
+      "case_title": "Penjual Beg Mengalami Penurunan Berat Iklan di Thailand kerana Tindak Balas Facebook yang Lambat",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Pengguna Thai biasa memesan melalui Messenger dan mengharapkan maklum balas dalam masa 3 minit.",
+      "situation": "Penjual hanya mengendalikan mesej pada waktu siang, menyebabkan pertanyaan waktu malam tidak dijawab selama purata 8 jam.",
+      "outcome": "Skor penukaran iklan Facebook jatuh mendadak, menyebabkan CPC meningkat dua kali ganda dan menjadikan operasi tidak menguntungkan.",
+      "conclusion": "E-dagang sosial di Thailand adalah berasaskan pemesejan segera; gunakan AI atau perkhidmatan 24/7 untuk mengekalkan berat trafik.",
+      "tags": [
+        "Thailand",
+        "Kecekapan Perkhidmatan",
+        "Berat Iklan",
+        "E-dagang Sosial"
+      ]
+    },
+    {
+      "case_id": "CASE-154",
+      "case_title": "Jenama Kecantikan Menghadapi Gelombang Pemulangan disebabkan Vietnam Menurunkan Ambang Pelepasan Cukai VAT",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Kerajaan Vietnam melaraskan ambang nilai minimum (De Minimis) untuk bưu kiện rentas sempadan yang dikecualikan cukai.",
+      "situation": "Penjual terus membungkus banyak item dalam satu bungkusan mengikut standard lama untuk menjimatkan kos penghantaran.",
+      "outcome": "Hampir semua bungkusan dipintas untuk cukai; pembeli terpaksa membayar tambahan, membawa kepada ulasan negatif dan pemulangan besar-besaran.",
+      "conclusion": "Mesti memantau ambang pengecualian cukai negara destinasi secara dekat untuk melaraskan strategi pembungkusan dan harga.",
+      "tags": [
+        "Vietnam",
+        "Ambang Cukai",
+        "Risiko Cukai",
+        "Kawalan Kos"
+      ]
+    },
+    {
+      "case_id": "CASE-155",
+      "case_title": "Penjual Aksesori Menghadapi Penalti Jenayah kerana Melanggar Larangan Simbol Tentera/Polis Filipina",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Penjual menjual rantai kunci fesyen yang menampilkan reka bentuk lencana polis Filipina.",
+      "situation": "Melanggar undang-undang Filipina yang melarang keras pengeluaran atau perdagangan simbol dan lencana agensi kerajaan tanpa kebenaran.",
+      "outcome": "Polis tempatan menyerbu pengedar; penjual disenaraihitamkan daripada memasuki Filipina dan menghadapi saman antarabangsa.",
+      "conclusion": "Reka bentuk produk eksport mesti mengelakkan simbol kerajaan, tentera, atau polis yang sensitif untuk mengelakkan risiko jenayah.",
+      "tags": [
+        "Filipina",
+        "Pantang Larang Reka Bentuk",
+        "Risiko Undang-undang",
+        "Perlindungan Jenama"
+      ]
+    },
+    {
+      "case_id": "CASE-156",
+      "case_title": "Penjual Melanggar Kontrak di Indonesia kerana Mengabaikan Kesan Waktu Solat Ramadan terhadap Kecekapan",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Penjual menggaji 20 kakitangan tempatan di Indonesia untuk pembungkusan sekunder dan pelabelan.",
+      "situation": "Kakitangan bekerja waktu lebih pendek dan kurang tenaga semasa Ramadan, tetapi penjual tetap menetapkan kuota seperti hari biasa.",
+      "outcome": "Banyak pesanan promosi gagal dihantar tepat pada masanya; penjual dikeluarkan daripada platform dan kehilangan deposit.",
+      "conclusion": "Menguruskan pasukan tempatan memerlukan jadual saintifik berdasarkan kalendar agama, menghormati kitaran biologi kakitangan.",
+      "tags": [
+        "Indonesia",
+        "Operasi Ramadan",
+        "Pengurusan Buruh",
+        "Pematuhan"
+      ]
+    },
+    {
+      "case_id": "CASE-157",
+      "case_title": "Penjual Digital Diadili sebagai Menyesatkan di Singapura kerana Kekurangan Ketelusan Alat Ganti Terpakai",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual menjual telefon pintar '99-baru' di Singapura, di mana komponen dalaman sebenarnya telah diganti dengan skrin tiruan.",
+      "situation": "Gagal menyatakan 'Bahagian bukan asli diganti' secara jelas dalam Listing membawa kepada saman di Tribunal Tuntutan Kecil.",
+      "outcome": "Diarah membayar ganti rugi tiga kali ganda; kedai dilabel secara kekal sebagai 'penjual tidak jujur', merosakkan reputasi jenama.",
+      "conclusion": "Di pasaran yang mempunyai kesedaran undang-undang dan kejujuran yang kuat, sebarang perubahan pada status produk mesti didedahkan sepenuhnya.",
+      "tags": [
+        "Singapura",
+        "Kejujuran Perniagaan",
+        "Barangan Terpakai",
+        "Litigasi"
+      ]
+    },
+    {
+      "case_id": "CASE-158",
+      "case_title": "Penjual Aksesori Kehilangan Kepercayaan kerana Mengabaikan Standard 'Pendedahan Harga Emas' Malaysia",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Penjual menjual barang kemas emas K di Malaysia dengan harga legap dan tiada rujukan kepada tanda aras harga emas harian.",
+      "situation": "Pengguna Malaysia biasa membandingkan harga dengan kadar persatuan tukang emas tempatan dan mendapati harga kedai sangat tinggi.",
+      "outcome": "Jenama itu dilabel sebagai 'penipu harga' di forum tempatan; kadar pembelian semula jatuh kepada sifar, membantutkan perniagaan.",
+      "conclusion": "Kategori bernilai tinggi mesti mengikut tanda aras komersial dan konvensyen ketelusan harga pasaran tempatan.",
+      "tags": [
+        "Malaysia",
+        "Konvensyen Komersial",
+        "Risiko Harga",
+        "Aksesori"
+      ]
+    },
+    {
+      "case_id": "CASE-159",
+      "case_title": "Penjual Bagasi Mengalami Kerugian disebabkan 'Surcaj Berat Volumetrik' Antara Pulau Filipina",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Penjual mempromosikan beg pakaian saiz ekstra besar semasa acara jualan.",
+      "situation": "Penyedia logistik mempunyai had bil berat volumetrik yang ketat untuk kargo laut antara pulau di Filipina.",
+      "outcome": "Yuran logistik sebenar adalah tiga kali ganda daripada anggaran; penjual rugi 100 RMB untuk setiap beg pakaian yang dijual.",
+      "conclusion": "Logistik Asia Tenggara sangat sensitif terhadap volum; item besar mesti menjalani pengiraan berat volumetrik sebelum penetapan harga.",
+      "tags": [
+        "Filipina",
+        "Berat Volumetrik",
+        "Anggaran Tambang",
+        "Analisis Kos"
+      ]
+    },
+    {
+      "case_id": "CASE-160",
+      "case_title": "Penjual Disiasat di Thailand kerana Pemasaran Lucah Menggunakan Warna Diraja",
+      "case_type": "Pengajaran Kegagalan",
+      "background": "Seorang penjual produk dewasa menggunakan warna kuning khusus dan simbol yang mewakili Keluarga Diraja Thai dalam latar belakang iklan.",
+      "situation": "Iklan tersebut dilaporkan kerana menghina monarki dan tidak menghormati budaya tempatan.",
+      "outcome": "Polis Thai memulakan kes, merampas pelayan awan dan stok berkaitan, dan penjual dilarang kekal daripada memasuki negara itu.",
+      "conclusion": "Semua pemasaran mesti menjauhi simbol politik, diraja, dan agama; ini adalah garis merah tertinggi di Asia Tenggara.",
+      "tags": [
+        "Thailand",
+        "Garis Merah Undang-undang",
+        "Hormat Budaya",
+        "Mengelak Risiko"
+      ]
+    },
+    {
+      "case_id": "CASE-161",
+      "case_title": "Migrasi Inventori Penjual E-dagang Sosial Susulan Penutupan Mengejut TikTok Shop Indonesia",
+      "case_type": "Kes Khas",
+      "background": "Pada tahun 2023, kerajaan Indonesia tiba-tiba melarang transaksi terus di media sosial, melumpuhkan banyak penjual TikTok Shop.",
+      "situation": "Seorang penjual kecantikan mempunyai stok bernilai 2 juta RMB di gudang Indonesia dengan saluran jualan utamanya disekat.",
+      "outcome": "Dengan pantas menyambung ke kedai tempatan Shopee/Lazada dan menggunakan akaun TikTok untuk trafik luar, 60% stok dibersihkan dalam sebulan.",
+      "conclusion": "Kebergantungan pada satu platform adalah berisiko tinggi; penjual harus mempunyai perkongsian inventori berbilang saluran.",
+      "tags": [
+        "Indonesia",
+        "Peralihan Dasar",
+        "E-dagang Sosial",
+        "Migrasi Saluran"
+      ]
+    },
+    {
+      "case_id": "CASE-162",
+      "case_title": "Penjual Memastikan Pemenuhan Melalui Peruntukan Stok Berbilang Bandar semasa Banjir Vietnam Tengah",
+      "case_type": "Kes Khas",
+      "background": "Sebelum 11.11, banjir besar di Vietnam Tengah menenggelamkan hab wilayah penjual di Da Nang.",
+      "situation": "Beribu-ribu pesanan menghadapi kekurangan stok, dan logistik di kawasan bencana terputus sepenuhnya, berisiko ulasan negatif.",
+      "outcome": "Menghantar barang dengan segera dari hab Hanoi/HCMC dan menawarkan diskaun atau bayaran balik kepada pembeli terjejas, mengekalkan rating kedai.",
+      "conclusion": "Memandangkan bencana alam yang kerap di Asia Tenggara, pergudangan teragih dan komunikasi krisis yang telus adalah penting.",
+      "tags": [
+        "Vietnam",
+        "Bencana Alam",
+        "Penghantaran Kecemasan",
+        "Pengekalan Pelanggan"
+      ]
+    },
+    {
+      "case_id": "CASE-163",
+      "case_title": "Penjual Digital Nilai Tinggi Menyelesaikan Pertikaian Kod HS melalui Phán quyết trước Kastam",
+      "case_type": "Kes Khas",
+      "background": "Penjual mengeksport peranti boleh pakai pintar baharu ke Thailand; kastam ragu-ragu mengklasifikasikannya sebagai 'Elektronik' atau 'Peranti Perubatan'.",
+      "situation": "Perbezaan tarif ialah 15% antara klasifikasi, dan setiap satu memerlukan lesen import yang berbeza.",
+      "outcome": "Memohon 'Phán quyết trước Kastam' (Advance Ruling) sebelum menghantar, yang mengesahkannya sebagai produk elektronik, menghapuskan risiko pelepasan.",
+      "conclusion": "Bagi produk dengan kategori samar-samar, menggunakan sistem phán quyết trước mengunci kos cukai dan menghapuskan ketidakpastian.",
+      "tags": [
+        "Thailand",
+        "Kod HS",
+        "Phán quyết trước",
+        "Perancangan Tarif"
+      ]
+    },
+    {
+      "case_id": "CASE-164",
+      "case_title": "Penjual Mengelak Kos Trafik Melambung dengan Memotong Bajet semasa Pilihan Raya Umum Filipina",
+      "case_type": "Kes Khas",
+      "background": "Semasa pilihan raya presiden Filipina, kos iklan media sosial melambung tinggi disebabkan perbelanjaan kempen politik.",
+      "situation": "Penjual fesyen mendapati CPC meningkat sebanyak 300%, tetapi penukaran jatuh kerana perhatian orang awam beralih kepada politik.",
+      "outcome": "Menutup kata kunci harga tinggi dan beralih fokus kepada kumpulan peminat peribadi, mengelakkan puncak iklan dan melindungi keuntungan.",
+      "conclusion": "Pemasaran rentas sempadan mesti menjejak kitaran politik/ekonomi tempatan dan melaraskan bajet apabila kos trafik menyimpang.",
+      "tags": [
+        "Filipina",
+        "Kitaran Politik",
+        "Pengoptimuman Iklan",
+        "Kawalan Kos"
+      ]
+    },
+    {
+      "case_id": "CASE-165",
+      "case_title": "Pengendalian Pelepasan Laluan Merah (Red Line) Kastam Indonesia",
+      "case_type": "Kes Khas",
+      "background": "Kastam Indonesia secara berkala memasuki fasa pemeriksaan ketat (Laluan Merah), di mana kadar pemeriksaan hampir 100%.",
+      "situation": "Seorang penjual mempunyai barangan rumah mendesak yang tiba semasa tempoh Laluan Merah, menghadapi risiko kelewatan pelabuhan jangka panjang.",
+      "outcome": "Memohon pemeriksaan unboxing 100% secara sukarela dan menyediakan invois cukai rantaian penuh; pelepasan mengambil masa tambahan 7 hari tetapi selamat.",
+      "conclusion": "Semasa tempoh Laluan Merah Indonesia, pengisytiharan patuh adalah satu-satunya jalan; jangan sesekali mencuba salah isytihar nilai.",
+      "tags": [
+        "Indonesia",
+        "Laluan Merah",
+        "Pemeriksaan Kastam",
+        "Strategi Pelepasan"
+      ]
+    },
+    {
+      "case_id": "CASE-166",
+      "case_title": "Penjual Singapura Mengendalikan Pertikaian Tuntutan Barangan Rosak akibat Panas disebabkan Cuaca Ekstrem",
+      "case_type": "Kes Khas",
+      "background": "Penjual mengeksport coklat mewah ke Singapura; produk cair disebabkan pendedahan lama dalam kontena di khatulistiwa.",
+      "situation": "Penyedia logistik enggan membayar pampasan, memetik 'persekitaran semula jadi'; penjual menghadapi kerugian total.",
+      "outcome": "Penjual menyediakan data daripada perakam suhu, membuktikan pembawa gagal memenuhi perjanjian 'storan sejuk', memenangi tuntutan 80%.",
+      "conclusion": "Produk sensitif suhu mesti mempunyai keperluan terma yang jelas dalam kontrak dan dilengkapi dengan perakam data boleh dikesan.",
+      "tags": [
+        "Singapura",
+        "Rantaian Sejuk",
+        "Tuntutan Insurans",
+        "Pertikaian Kualiti"
+      ]
+    },
+    {
+      "case_id": "CASE-167",
+      "case_title": "Penjual Memintas Risiko Bahan Terlarang semasa Turun Naik Dasar Ganja Thailand",
+      "case_type": "Kes Khas",
+      "background": "Undang-undang Thai mengenai ganja dan derivatifnya melalui beberapa pelonggaran dan pengetatan yang pantas.",
+      "situation": "Penjual peralatan kesihatan mendapati pembekal menyertakan hadiah percuma yang mengandungi kesan minyak ganja.",
+      "outcome": "Memintas hadiah semasa QC pra-eksport, mengelakkan risiko penghantaran diklasifikasikan sebagai pengedaran dadah di sempadan Thai.",
+      "conclusion": "Undang-undang Asia Tenggara tidak menentu; saringan bahan harus merangkumi seluruh rantaian bekalan untuk mengelakkan hadiah menyebabkan pelanggaran.",
+      "tags": [
+        "Thailand",
+        "Turun Naik Dasar",
+        "Bahan Sensitif",
+        "Risiko Rantaian Bekalan"
+      ]
+    },
+    {
+      "case_id": "CASE-168",
+      "case_title": "Pemulihan Dana Kecemasan Penjual semasa Pergolakan Politik di Myanmar",
+      "case_type": "Kes Khas",
+      "background": "Ketidakstabilan politik di Myanmar menyebabkan penutupan sistem perbankan tempatan dan menyekat kiriman wang rentas sempadan.",
+      "situation": "Penjual B2B mempunyai USD 50,000 pembayaran tertunggak dengan pelanggan Myanmar, berisiko kerugian total dana.",
+      "outcome": "Memulihkan dana secara berkelompok melalui perjanjian dengan bank perantara antarabangsa dan alat escrow pihak ketiga yang sah.",
+      "conclusion": "Di pasaran yang tidak stabil, utamakan model L/C atau prabayar pihak ketiga dan wujudkan pelbagai saluran pemulihan pembayaran.",
+      "tags": [
+        "Myanmar",
+        "Keselamatan Dana",
+        "Pemulihan Forex",
+        "Risiko Politik"
+      ]
+    },
+    {
+      "case_id": "CASE-169",
+      "case_title": "Tindak Balas PR Jenama terhadap Pemeriksaan Mengejut oleh Suruhanjaya Tenaga (ST) Malaysia",
+      "case_type": "Kes Khas",
+      "background": "Pegawai ST menjalankan pemeriksaan mengejut ke atas gudang e-dagang, mempersoalkan kesahihan tanda pensijilan pengering rambut.",
+      "situation": "Jika bukti tidak disediakan di tapak, kelompok itu akan disita, menghadapi denda besar dan rampasan.",
+      "outcome": "Pasukan tempatan mendapatkan rekod pangkalan data dalam talian ST dan sijil digital dalam masa sejam, menyelesaikan krisis melalui bukti segera.",
+      "conclusion": "Keupayaan untuk mengakses dokumen pematuhan digital secara segera adalah kunci untuk mengendalikan pemeriksaan luar negara.",
+      "tags": [
+        "Malaysia",
+        "Pensijilan ST",
+        "Pemeriksaan Pentadbiran",
+        "Pengurusan Krisis"
+      ]
+    },
+    {
+      "case_id": "CASE-170",
+      "case_title": "Penjual Mengendalikan Tuntutan Pelbagai Pihak yang Kompleks untuk Bungkusan Hilang di Kepulauan Filipina",
+      "case_type": "Kes Khas",
+      "background": "Kebakaran pada kapal kargo kecil yang bertanggungjawab untuk pengangkutan antara pulau di Filipina merosakkan beribu-ribu bungkusan.",
+      "situation": "Liabiliti adalah kompleks, melibatkan kastam, syarikat perkapalan, dan logistik platform; laluan tuntutan sangat sukar.",
+      "outcome": "Penjual menyertai tindakan kelas dengan pedagang lain; logistik platform membayar dahulu, akhirnya memulihkan 60% kerugian.",
+      "conclusion": "Di wilayah dengan logistik yang rapuh, beli insurans kargo yang mencukupi dan gunakan perlindungan rasmi platform untuk menyebarkan risiko.",
+      "tags": [
+        "Filipina",
+        "Kemalangan Marin",
+        "Tindakan Kelas",
+        "Insurans Logistik"
+      ]
+    },
+    {
+      "case_id": "CASE-171",
+      "case_title": "Pembetulan Pembungkusan Kecemasan Penjual disebabkan Isu 'Peta Sensitif' di Vietnam",
+      "case_type": "Kes Khas",
+      "background": "Kastam Vietnam memeriksa ketat sebarang barangan import yang mengandungi tanda 'Nine-dash line', termasuk corak latar belakang kecil.",
+      "situation": "Satu jenama telah ditahan di pelabuhan Vietnam kerana corak hiasan pada bawah kotak disyaki melibatkan garis wilayah yang sensitif.",
+      "outcome": "Menganjurkan pekerja tempatan di gudang terikat selama 48 jam untuk menutup/memadam corak tersebut, membolehkan barangan dilepaskan.",
+      "conclusion": "Untuk pasaran dengan sensitiviti politik yang tinggi, reka bentuk pembungkusan mesti menjalani audit imej pematuhan oleh pakar tempatan.",
+      "tags": [
+        "Vietnam",
+        "Pematuhan Politik",
+        "Pembetulan Pembungkusan",
+        "Risiko Geopolitik"
+      ]
+    },
+    {
+      "case_id": "CASE-172",
+      "case_title": "Penjual Mengendalikan Rayuan untuk Salah Hukum 'White-hat Brushing' di Indonesia",
+      "case_type": "Kes Khas",
+      "background": "Peningkatan algoritma platform tersalah lapor beberapa pesanan beli berkumpulan yang sah dari IP yang sama sebagai 'brushing'.",
+      "situation": "Seluruh kedai disekat tepat sebelum promosi utama; setiap hari kelewatan bermakna puluhan ribu kerugian hasil.",
+      "outcome": "Membuat rayuan dengan perjanjian beli berkumpulan sebenar, rekod sembang pembeli, dan video tandatangan logistik, mencapai penyahsekat manual dalam 48 jam.",
+      "conclusion": "Apabila menghadapi salah lapor algoritma, rantaian bukti asal yang terperinci (kontrak, log sembang, nota konsainan) adalah satu-satunya senjata.",
+      "tags": [
+        "Indonesia",
+        "Rayuan Platform",
+        "Algoritma Risiko",
+        "Rantaian Bukti"
+      ]
+    },
+    {
+      "case_id": "CASE-173",
+      "case_title": "Pertikaian Undang-undang Penjual Singapura terhadap Penggunaan 'Hak Penarikan Pengguna' Secara Berniat Jahat",
+      "case_type": "Kes Khas",
+      "background": "Seorang penuntut profesional di Singapura mengeksploitasi klausa perlindungan tempatan untuk membeli dan memulangkan projektor mewah demi pampasan 'yuran unboxing'.",
+      "situation": "Jika penjual membayar balik, mereka rugi tambang dan susut nilai; jika tidak, mereka menghadapi saman daripada persatuan pengguna.",
+      "outcome": "Penjual menggunakan video perbandingan nombor siri untuk membuktikan pembeli memulangkan barang yang ditukar, berjaya membuat laporan polis.",
+      "conclusion": "Di pasaran litigasi tinggi, pengawasan anti-pertukaran yang ketat dan rekod 'satu mesin satu kod' adalah berkesan terhadap penuntut berniat jahat.",
+      "tags": [
+        "Singapura",
+        "Bayaran Balik Berniat Jahat",
+        "Perlindungan Undang-undang",
+        "Anti-penipuan"
+      ]
+    },
+    {
+      "case_id": "CASE-174",
+      "case_title": "Pembinaan Semula Model Harga Penjual selepas Pemansuhan 'Ambang VAT Import' Thailand",
+      "case_type": "Kes Khas",
+      "background": "Thailand mengumumkan pemansuhan pengecualian VAT untuk barangan bernilai rendah (bawah 1,500 THB).",
+      "situation": "Aksesori kecil yang sebelum ini bebas cukai melihat kos melonjak sebanyak 7%, ditambah yuran pengendalian pelepasan setiap bungkusan.",
+      "outcome": "Beralih kepada 'Jualan Bundle' untuk meningkatkan AOV dan menyebarkan yuran pengendalian, berjaya memindahkan kos cukai baharu.",
+      "conclusion": "Apabila pengecualian cukai de minimis diperketatkan di Asia Tenggara, penjual mesti beralih kepada logistik pemasaran bundle.",
+      "tags": [
+        "Thailand",
+        "Peraturan Cukai Baharu",
+        "Pelarasan VAT",
+        "Strategi Harga"
+      ]
+    },
+    {
+      "case_id": "CASE-175",
+      "case_title": "Penjual Berjaya Mengelak Kesesakan melalui 'Pelabuhan Pelepasan Sandaran' di Vietnam",
+      "case_type": "Kes Khas",
+      "background": "Semasa 11.11, pintu sempadan Friendship Pass mempunyai barisan melebihi 5 hari, merisikokan barangan ibu dan kanak-kanak yang sensitif masa.",
+      "situation": "Penjual menyedari saluran utama lumpuh; jika mereka terus menunggu, pembatalan pesanan besar-besaran akan berlaku.",
+      "outcome": "Mengaktifkan Pelan B menggunakan pelabuhan Mong Cai untuk pengangkutan pelbagai mod; walaupun 10% lebih mahal, mereka sampai 3 hari lebih awal.",
+      "conclusion": "Mewujudkan sandaran berbilang pelabuhan dan strategi laluan dinamik adalah teras untuk memastikan daya tahan rantaian bekalan.",
+      "tags": [
+        "Vietnam",
+        "Kesesakan Pelabuhan",
+        "Laluan Logistik",
+        "Pelan Pelepasan"
+      ]
+    },
+    {
+      "case_id": "CASE-176",
+      "case_title": "Penjual Melindungi Aset Akaun selepas Rakan Kongsi Tempatan Indonesia 'Hilang Secara Berniat Jahat'",
+      "case_type": "Kes Khas",
+      "background": "Penjual menggunakan agensi tempatan Indonesia untuk mendaftarkan kedai tempatan; agensi tersebut hilang sementara memegang kebenaran induk akaun.",
+      "situation": "Ratusan ribu dana pesanan menghadapi risiko tidak boleh dikeluarkan dan aset jenama dirampas.",
+      "outcome": "Menggunakan perjanjian kebenaran yang disahkan notari sebelum ini untuk menghubungi platform bagi penyahpautan paksa dan disambungkan semula ke entiti patuh.",
+      "conclusion": "Dalam model kedai tempatan, pengesahan notari kontrak undang-undang dan pegangan bebas aset teras (domain, tanda dagangan) adalah kunci.",
+      "tags": [
+        "Indonesia",
+        "Risiko Kedai Tempatan",
+        "Hak Undang-undang",
+        "Keselamatan Akaun"
+      ]
+    },
+    {
+      "case_id": "CASE-177",
+      "case_title": "Pemindahan Pesanan Kecemasan Penjual semasa 'Mogok Kilang' di Malaysia",
+      "case_type": "Kes Khas",
+      "background": "Sebuah kilang OEM tempatan Malaysia tiba-tiba mogok disebabkan pertikaian buruh tepat sebelum Ramadan.",
+      "situation": "Ini adalah tempoh puncak untuk persediaan hadiah Raya; berpuluh ribu pesanan tersuai menghadapi kegagalan penghantaran.",
+      "outcome": "Menggunakan sistem rantaian bekalan digital untuk menghantar reka bentuk ke kilang sandaran di Vietnam, menyiapkan 80% pesanan melalui kargo udara.",
+      "conclusion": "Rantaian bekalan global mesti mempunyai mekanisme 'kilang sandaran', terutamanya di negara Asia Tenggara dengan hubungan buruh sensitif.",
+      "tags": [
+        "Malaysia",
+        "Krisis Mogok",
+        "Redundansi Rantaian Bekalan",
+        "Hari Raya"
+      ]
+    },
+    {
+      "case_id": "CASE-178",
+      "case_title": "Penjual Mengendalikan Krisis Terlebih Jual disebabkan 'Down-time' Pelayan di Filipina",
+      "case_type": "Kes Khas",
+      "background": "Musim kilat Filipina menyebabkan gangguan bekalan elektrik dan down-time untuk penyedia awan tempatan, kehilangan data inventori ERP.",
+      "situation": "Kedai dalam talian masih menjual sementara gudang fizikal kosong, membawa kepada aduan terlebih jual yang besar.",
+      "outcome": "Mendapatkan rekod pangkalan data luar talian tempatan, melakukan penyahsenaraian seluruh platform secara manual, dan memulihkan ketepatan data.",
+      "conclusion": "Data awan mesti mempunyai sandaran merentas wilayah dan pengcached luar talian untuk mengendalikan risiko infrastruktur di Asia Tenggara.",
+      "tags": [
+        "Filipina",
+        "Infrastruktur IT",
+        "Pengurusan Inventori",
+        "Terlebih Jual"
+      ]
+    },
+    {
+      "case_id": "CASE-179",
+      "case_title": "Penarikan Balik PR Kecemasan Penjual selepas Salah Guna Potret Diraja Thai",
+      "case_type": "Kes Khas",
+      "background": "Disebabkan kesilapan pereka, imej kabur ahli Keluarga Diraja Thai muncul dalam latar belakang iklan.",
+      "situation": "Dikesan oleh netizen tempatan, ia mencetuskan bantahan negatif besar-besaran dan berisiko melanggar undang-undang 'Lèse-majesté'.",
+      "outcome": "Menarik balik semua iklan dalam masa 15 minit, mengeluarkan permohonan maaf rasmi, dan menggaji firma PR tempatan untuk bimbingan positif.",
+      "conclusion": "Dalam monarki seperti Thailand, pematuhan visual adalah pematuhan politik; pengauditan manual imej adalah mandatori.",
+      "tags": [
+        "Thailand",
+        "Risiko Politik",
+        "Pematuhan Visual",
+        "PR Krisis"
+      ]
+    },
+    {
+      "case_id": "CASE-180",
+      "case_title": "Penjual Mengendalikan Krisis Penghantaran Terakhir disebabkan Mogok Kurier di Vietnam",
+      "case_type": "Kes Khas",
+      "background": "Sebuah stesen kurier di daerah tertentu di HCMC mogok disebabkan isu gaji, meninggalkan beribu-ribu bungkusan terkandas.",
+      "situation": "Logistik rasmi tiada kemas kini; pembeli menyangka penjual telah melakukan penghantaran palsu.",
+      "outcome": "Penjual menggaji 'runners' bebas tempatan dan rangkaian penghantaran peribadi untuk menghantar semula item mendesak dan membimbing pengambilan sendiri.",
+      "conclusion": "Turun naik penghantaran terakhir adalah biasa; mewujudkan rangkaian penghantaran sandaran yang fleksibel berkesan menyelamatkan reputasi.",
+      "tags": [
+        "Vietnam",
+        "Mogok Logistik",
+        "Penghantaran Terakhir",
+        "Pampasan Perkhidmatan"
+      ]
+    },
+    {
+      "case_id": "CASE-181",
+      "case_title": "Penjual Disiasat dan Didenda oleh Kastam Singapura kerana 'Pembahagian Nilai Pakej'",
+      "case_type": "Kes Khas",
+      "background": "Seorang penjual membahagikan satu pesanan kepada beberapa bungkusan bernilai rendah untuk mengelakkan GST.",
+      "situation": "Kastam Singapura mengenal pasti pesanan kecil frekuensi tinggi daripada pembeli yang sama melalui data besar, memutuskan ia sebagai pengelakan cukai.",
+      "outcome": "Membayar cukai tertunggak ditambah denda 5x; akaun tersebut disenaraihitamkan daripada pelepasan, memerlukan unboxing 100%.",
+      "conclusion": "Kos pematuhan di Singapura adalah rendah sementara kos pelanggaran adalah ekstrem; jangan gunakan strategi pembahagian untuk mengelak cukai.",
+      "tags": [
+        "Singapura",
+        "Pengelakan Cukai",
+        "Pemeriksaan Data Besar",
+        "Pematuhan Cukai"
+      ]
+    },
+    {
+      "case_id": "CASE-182",
+      "case_title": "Pengurusan Krisis Media Sosial Penjual selepas 'Logo Halal Tamat Tempoh' di Indonesia",
+      "case_type": "Kes Khas",
+      "background": "Sijil Halal penjual makanan tamat tempoh semasa Ramadan, dan proses pembaharuan tertangguh.",
+      "situation": "Pesaing mengeksploitasi ini di TikTok, mendakwa produk tersebut 'tidak lagi Halal'.",
+      "outcome": "Penjual mengemukakan surat pelanjutan rasmi BPOM dan video pengeluaran, menjelaskan melalui media berwibawa untuk menenangkan orang awam.",
+      "conclusion": "Tamat tempoh sijil Halal harus diuruskan 6 bulan lebih awal, dengan pelan luar jangka undang-undang dan PR untuk tempoh peralihan.",
+      "tags": [
+        "Indonesia",
+        "Krisis Halal",
+        "Pensijilan",
+        "Perlindungan Jenama"
+      ]
+    },
+    {
+      "case_id": "CASE-183",
+      "case_title": "Lencongan Logistik Penjual berikutan Gempa Bumi Besar di Filipina",
+      "case_type": "Kes Khas",
+      "background": "Gempa bumi kuat melanda Pulau Luzon, merosakkan 80% peralatan kren di Pelabuhan Manila.",
+      "situation": "Tunggakan kargo laut yang besar berlaku tanpa tempoh yang pasti, menyebabkan krisis aliran tunai yang ekstrem.",
+      "outcome": "Menyelaras dengan penghantar untuk melencongkan kargo seterusnya ke Cebu melalui udara dan kemudian pengangkutan darat.",
+      "conclusion": "Redundansi pengangkutan pelbagai mod adalah talian hayat untuk kelangsungan rantaian bekalan semasa bencana geologi ekstrem.",
+      "tags": [
+        "Filipina",
+        "Risiko Gempa Bumi",
+        "Ketahanan Logistik",
+        "Pelbagai Mod"
+      ]
+    },
+    {
+      "case_id": "CASE-184",
+      "case_title": "Maklum Balas Penjual terhadap Audit Cukai disebabkan 'Ketidakpadanan Versi Invois' di Vietnam",
+      "case_type": "Kes Khas",
+      "background": "Kerajaan Vietnam melancarkan versi invois elektronik baharu; penjual gagal mengemas kini dan mengeluarkan invois lama yang tidak sah.",
+      "situation": "Biro cukai mengesyaki pengelakan cukai dan mengancam untuk membekukan akaun kewangan syarikat.",
+      "outcome": "Melalui pelaporan proaktif dan bukti peningkatan teknikal, semua invois dikeluarkan semula dalam masa 7 hari, mendapat penepian cukai.",
+      "conclusion": "Pendigitalan cukai Asia Tenggara adalah pantas; akauntan tempatan profesional mesti digaji untuk audit pematuhan berkala.",
+      "tags": [
+        "Vietnam",
+        "Invois Elektronik",
+        "Audit Cukai",
+        "Peningkatan Pematuhan"
+      ]
+    },
+    {
+      "case_id": "CASE-185",
+      "case_title": "Penjual Mencabar Salah Klasifikasi Barangan Diperbaharui Teknologi Tinggi sebagai 'Produk Terpakai' di Thailand",
+      "case_type": "Kes Khas",
+      "background": "Thailand mempunyai larangan import barangan terpakai yang ketat; kastam sering keliru antara teknologi 'Refurbished' dengan 'Used Electronics'.",
+      "situation": "Satu kelompok PC diperbaharui AOV tinggi diklasifikasikan sebagai e-sisa larangan semasa pelepasan.",
+      "outcome": "Dengan mengemukakan sijil kualiti kilang dan pengesahan rasmi melalui ejen profesional, mereka berjaya dilepaskan sebagai barangan asli.",
+      "conclusion": "Bagi status produk tertentu (diperbaharui, unit paparan), fail sokongan pengilang yang terperinci mesti membezakannya daripada barangan lama.",
+      "tags": [
+        "Thailand",
+        "Refurbished",
+        "Pertikaian Pelepasan",
+        "Peraturan Akses"
+      ]
+    },
+    {
+      "case_id": "CASE-186",
+      "case_title": "Penjual Mengendalikan Pertikaian Dalaman selepas Kakitangan Tidak Sengaja Mengambil Makanan Bukan Halal semasa Ramadan di Malaysia",
+      "case_type": "Kes Khas",
+      "background": "Di sebuah pusat pengisihan kecil di Malaysia, kecuaian pentadbiran menyebabkan minuman beralkohol muncul di dalam peti sejuk biasa.",
+      "situation": "Ini membawa kepada protes keras daripada kakitangan Muslim yang mengancam untuk berhenti kerja dan siasatan jabatan buruh.",
+      "outcome": "Pengurusan mengeluarkan permohonan maaf segera, menyediakan kawasan Halal/Bukan Halal yang berasingan, dan menggaji perunding agama.",
+      "conclusion": "Pasukan luar negara mesti menghormati tabiat agama; kesilapan kecil boleh mencetuskan krisis kepercayaan pasukan yang teruk.",
+      "tags": [
+        "Malaysia",
+        "Hormat Budaya",
+        "Hubungan Kakitangan",
+        "Pematuhan Pengurusan"
+      ]
+    },
+    {
+      "case_id": "CASE-187",
+      "case_title": "Transformasi Model Penjual berikutan 'Larangan Import E-dagang' Indonesia ke atas Kurungan Harga Tertentu",
+      "case_type": "Kes Khas",
+      "background": "Indonesia melarang penjualan barangan siap import dengan harga unit di bawah USD 100 di platform e-dagang.",
+      "situation": "Seorang penjual aksesori digital yang mempunyai SKU AOV rendah semuanya menjadi tidak sah, menyebabkan volum perniagaan merosot.",
+      "outcome": "Beralih kepada 'Model Gudang Tempatan'—mengimport melalui perdagangan am secara pukal sebelum menjual, memintas larangan rentas sempadan.",
+      "conclusion": "Apabila mel terus rentas sempadan disekat oleh dasar, beralih kepada import pukal + pengedaran tempatan adalah satu-satunya cara untuk terus hidup.",
+      "tags": [
+        "Indonesia",
+        "Larangan Rentas Sempadan",
+        "Pusingan Model",
+        "Penyetempatan"
+      ]
+    },
+    {
+      "case_id": "CASE-188",
+      "case_title": "Penjual Mengendalikan Siasatan CCCS terhadap 'Diskaun Palsu' di Singapura",
+      "case_type": "Kes Khas",
+      "background": "CCCS menyiasat seorang penjual kerana penggunaan berterusan 'harga yang dipotong' yang tidak pernah menjadi harga transaksi sebenar.",
+      "situation": "Penjual dituduh melakukan 'Penetapan Harga Asal Palsu', menghadapi denda besar dan pendedahan jenama yang memalukan.",
+      "outcome": "Penjual membuktikan melalui rekod harga masa lalu bahawa ini adalah promosi berperingkat yang sah, berjaya merayu kes tersebut.",
+      "conclusion": "Singapura memantau kejujuran harga secara ketat; penjual mesti menyimpan rekod turun naik harga penuh untuk mengelakkan keputusan palsu.",
+      "tags": [
+        "Singapura",
+        "Kejujuran Harga",
+        "Siasatan CCCS",
+        "Pematuhan Undang-undang"
+      ]
+    },
+    {
+      "case_id": "CASE-189",
+      "case_title": "Penjual Mengendalikan Sekatan Pelepasan disebabkan 'Padanan Nama Senarai Hitam' di Filipina",
+      "case_type": "Kes Khas",
+      "background": "Nama ejen penjual rentas sempadan di Filipina sangat serupa dengan penjenayah dikehendaki tempatan.",
+      "situation": "Ini mencetuskan sistem semakan latar belakang kastam, mengunci kontena selama sebulan untuk siasatan.",
+      "outcome": "Melepaskan sekatan dengan menyediakan kelayakan ejen terperinci dan laporan Pelepasan NBI (semakan latar belakang).",
+      "conclusion": "Ketelusan pentadbiran di Asia Tenggara adalah terhad; memilih rakan kongsi yang bereputasi dan mempunyai fail kelayakan penuh adalah kunci.",
+      "tags": [
+        "Filipina",
+        "Salah Kenal Pasti Senarai Hitam",
+        "Kelayakan",
+        "Kelewatan Pelepasan"
+      ]
+    },
+    {
+      "case_id": "CASE-190",
+      "case_title": "Rayuan Penjual selepas Akaun Media Sosial Ditandakan kerana Terjemahan Lemah di Vietnam",
+      "case_type": "Kes Khas",
+      "background": "Terjemahan auto di Facebook Vietnam menterjemah 'Hot Item' menjadi perkataan dengan konnotasi ganas/agresif.",
+      "situation": "Ini mencetuskan mekanisme larangan auto Facebook Vietnam, menghentikan semua kempen iklan aktif.",
+      "outcome": "Dengan menyerahkan penjelasan semantik manual dan bukti niat jenama, mereka memulihkan akses akaun dan mendapat pampasan.",
+      "conclusion": "Terjemahan AI mempunyai kelemahan dalam bahasa sensitif; salinan pemasaran teras mesti dimuktamadkan oleh penutur asli.",
+      "tags": [
+        "Vietnam",
+        "Salah Terjemah AI",
+        "Rayuan Platform",
+        "Pemasaran Sosial"
+      ]
+    },
+    {
+      "case_id": "CASE-191",
+      "case_title": "Pembetulan Pelabelan Penjual berikutan Pemeriksaan Mengejut untuk 'Pelabelan Thai Mandatori' pada Kosmetik",
+      "case_type": "Kes Khas",
+      "background": "FDA Thailand menjalankan pemeriksaan mengejut ke atas hab e-dagang, memerlukan kosmetik import mempunyai label Thai fizikal pada bungkusan.",
+      "situation": "Penjual sebelum ini hanya meletakkan brosur di dalam bungkusan, yang dianggap sebagai pelanggaran; barangan menghadapi rampasan.",
+      "outcome": "Menggunakan perkhidmatan pelabelan gudang luar negara untuk melengkapkan pelabelan fizikal bagi semua stok dalam masa 24 jam.",
+      "conclusion": "Kawal selia luar negara beralih ke arah pematuhan fizikal; penjual mesti mempunyai keupayaan melabel semula gudang chặng terakhir.",
+      "tags": [
+        "Thailand",
+        "Label FDA",
+        "Pembetulan Chặng Terakhir",
+        "Pematuhan Kosmetik"
+      ]
+    },
+    {
+      "case_id": "CASE-192",
+      "case_title": "Penjual Mengendalikan Tuntutan Rentas Sempadan untuk Barangan Rosak disebabkan Kotak Lembap di Singapura",
+      "case_type": "Kes Khas",
+      "background": "Semasa musim monsun Singapura, kelembapan melampau menyebabkan kotak kadbod standard berubah bentuk di pusat pengisihan.",
+      "situation": "Ini membawa kepada kerosakan instrumen ketepatan dalaman; pembeli menuntut pampasan tiga kali ganda.",
+      "outcome": "Penjual membuktikan melalui ujian pihak ketiga bahawa kerosakan adalah disebabkan persekitaran logistik di bawah piawaian, berkongsi tuntutan dengan syarikat insurans.",
+      "conclusion": "Wilayah hujan tropika memerlukan pembungkusan kalis lembap yang ditebalkan dan bersalut filem serta insurans tambahan untuk kelembapan.",
+      "tags": [
+        "Singapura",
+        "Risiko Persekitaran",
+        "Spesifikasi Pembungkusan",
+        "Tuntutan Insurans"
+      ]
+    },
+    {
+      "case_id": "CASE-193",
+      "case_title": "Pemulihan Trafik Penjual selepas Larangan Kata Kunci Seluruh Negara Secara Tiba-tiba di Indonesia",
+      "case_type": "Kes Khas",
+      "background": "Untuk melindungi industri tempatan, kerajaan Indonesia tiba-tiba menyekat kata kunci seperti 'Import' merentas semua platform.",
+      "situation": "Kedai rentas sempadan yang bergantung pada istilah ini melihat trafik menjunam sebanyak 80% semalaman.",
+      "outcome": "Melaraskan istilah pemasaran untuk memberi tumpuan kepada fungsi produk dan senario gaya hidup tempatan dalam Bahasa, mencapai pemulihan trafik.",
+      "conclusion": "Strategi SEO harus mengelakkan jargon industri yang sensitif dan memberi tumpuan kepada senario pengguna dan kata kunci fungsian.",
+      "tags": [
+        "Indonesia",
+        "Penyekatan Carian",
+        "Pengoptimuman SEO",
+        "Strategi Trafik"
+      ]
+    },
+    {
+      "case_id": "CASE-194",
+      "case_title": "Pengurusan Pampasan dan Kelewatan Penjual semasa 'Gangguan Sistem Kastam' di Vietnam",
+      "case_type": "Kes Khas",
+      "background": "Kegagalan sistem kastam VNACCS Vietnam selama 48 jam berlaku jarang-jarang sekali.",
+      "situation": "Semua pesanan eksport gagal dilepaskan; penjual menghadapi risiko pembatalan platform automatik untuk penghantaran tertunggak.",
+      "outcome": "Menghubungi platform untuk 'pengecualian logistik wilayah' dan menghantar tangkapan skrin gangguan kastam kepada pembeli untuk mendapatkan pemahaman.",
+      "conclusion": "Apabila sistem pentadbiran di negara destinasi gagal, kunci berat platform dengan segera dan lakukan penenangan pelanggan.",
+      "tags": [
+        "Vietnam",
+        "Risiko Pentadbiran",
+        "Pengecualian Platform",
+        "Mekanisme Komunikasi"
+      ]
+    },
+    {
+      "case_id": "CASE-195",
+      "case_title": "Penjual Mengendalikan Pertikaian 'Pertukaran Barang' disebabkan Kesesakan Logistik di Filipina",
+      "case_type": "Kes Khas",
+      "background": "Semasa puncak 12.12, pengisihan tempatan Filipina adalah huru-hara; beberapa elektronik bernilai tinggi ditukar secara berniat jahat dengan batu.",
+      "situation": "Pembeli mengadu; disebabkan rantaian logistik yang kompleks, menetapkan tanggungjawab adalah sukar.",
+      "outcome": "Penjual membentangkan data berat penghantaran berbanding data berat tandatangan untuk membuktikan berat berubah semasa transit, mendapat bayaran balik penuh.",
+      "conclusion": "Data berat hujung-ke-hujung dan video pengawasan adalah bukti objektif teras untuk menyelesaikan pertikaian pertukaran rentas sempadan.",
+      "tags": [
+        "Filipina",
+        "Keselamatan Bungkusan",
+        "Data Berat",
+        "Pertikaian Logistik"
+      ]
+    },
+    {
+      "case_id": "CASE-196",
+      "case_title": "Penjual Mengendalikan Krisis PR di Malaysia selepas Komen Tidak Sesuai Pempengaruh",
+      "case_type": "Kes Khas",
+      "background": "Pempengaruh rakan kongsi jenama membuat kenyataan diskriminasi terhadap kumpulan etnik tertentu semasa strim peribadi.",
+      "situation": "Jenama itu dimasukkan dalam senarai boikot oleh netizen yang marah, dan kedai dalam talian dibanjiri dengan ulasan negatif.",
+      "outcome": "Menamatkan perkongsian dalam masa 2 jam, menderma kepada badan kebajikan etnik tempatan, dan mengesahkan semula nilai keterangkuman jenama.",
+      "conclusion": "Negara pelbagai etnik mempunyai risiko 'kebenaran politik' yang tinggi; pemantauan sentimen masa nyata untuk pempengaruh diperlukan.",
+      "tags": [
+        "Malaysia",
+        "Risiko Pempengaruh",
+        "Krisis PR",
+        "Multikulturalisme"
+      ]
+    },
+    {
+      "case_id": "CASE-197",
+      "case_title": "Penjual Mengendalikan Kelewatan Pengeluaran disebabkan 'Waktu Kerja Dipendekkan semasa Ramadan' di Indonesia",
+      "case_type": "Kes Khas",
+      "background": "Kakitangan Indonesia bekerja kurang jam dan mempunyai kecekapan yang lebih rendah disebabkan berpuasa semasa Ramadan.",
+      "situation": "Volum pesanan meningkat disebabkan perayaan, tetapi output jatuh, membawa kepada krisis pemenuhan.",
+      "outcome": "Menjalankan pengeluaran redundan dua bulan lebih awal dan menggunakan 'bonus lebih masa' untuk memberi insentif kepada kakitangan bukan Muslim.",
+      "conclusion": "Untuk perayaan agama, kapasiti mesti dikhaskan lebih awal, dan pelan kerjasama pasukan rentas agama yang fleksibel harus digunakan.",
+      "tags": [
+        "Indonesia",
+        "Pengurusan Kapasiti",
+        "Operasi Ramadan",
+        "Pengurusan Buruh"
+      ]
+    },
+    {
+      "case_id": "CASE-198",
+      "case_title": "Penjual Mengendalikan Pintasan Pelepasan Kraf Kayu yang Mengandungi 'Bahan Dilindungi' di Singapura",
+      "case_type": "Kes Khas",
+      "background": "Kastam Singapura mengesyaki kelompok perabot kayu menggunakan spesies terancam dan menuntut bukti CITES.",
+      "situation": "Penjual tidak dapat membuktikan punca kayu; barangan menghadapi rampasan dan pemusnahan serta denda.",
+      "outcome": "Menyerahkan permit penebangan sah dan laporan ujian mikroskopik dari biro perhutanan asal, mendapat pelepasan khas.",
+      "conclusion": "Eksport kayu pukal mesti mempunyai hak milik lengkap dan bukti komposisi untuk mengendalikan pemeriksaan alam sekitar yang ketat.",
+      "tags": [
+        "Singapura",
+        "CITES",
+        "Pemeriksaan Alam Sekitar",
+        "Risiko Perabot"
+      ]
+    },
+    {
+      "case_id": "CASE-199",
+      "case_title": "Rayuan Penjual terhadap 'Ulasan 1-Bintang Berniat Jahat' oleh Pesaing di Thailand",
+      "case_type": "Kes Khas",
+      "background": "Dalam tempoh singkat, kedai menerima 50 ulasan 'penghantaran lambat, produk buruk' yang serupa dengan alamat yang sangat tertumpu.",
+      "situation": "Berat kedai merosot, dan platform memberi amaran tentang kemungkinan penyingkiran.",
+      "outcome": "Memadankan nombor telefon ini dengan rekod pesaing dan menyerahkan pautan tersebut kepada pusat anti-penipuan platform, memulihkan skor.",
+      "conclusion": "Menghadapi ulasan berniat jahat profesional, menghubungkan maklumat silang (alamat, telefon, hubungan akaun) adalah kunci untuk melindungi berat.",
+      "tags": [
+        "Thailand",
+        "Ulasan Berniat Jahat",
+        "Anti-penipuan",
+        "Kawalan Risiko"
+      ]
+    },
+    {
+      "case_id": "CASE-200",
+      "case_title": "Penjual Mengendalikan Kerugian Kadar Pertukaran di Vietnam disebabkan Kejatuhan Mata Wang Tiba-tiba",
+      "case_type": "Kes Khas",
+      "background": "Dong Vietnam (VND) tiba-tiba menyusut nilai sebanyak 5% semasa kitaran penyelesaian disebabkan kenaikan kadar Fed AS.",
+      "situation": "Walaupun sasaran jualan dicapai, keuntungan akhir sebahagian besarnya dimakan oleh jurang kadar pertukaran.",
+      "outcome": "Memperkenalkan Forex Swaps (Forwards) untuk mengunci kadar pertukaran masa hadapan, mengelakkan risiko turun naik seterusnya.",
+      "conclusion": "Di pasaran Asia Tenggara dengan mata wang yang tidak menentu, penjual harus mewujudkan lindung nilai forex daripada bergantung pada kadar semula jadi.",
+      "tags": [
+        "Vietnam",
+        "Risiko Forex",
+        "Lindung Nilai",
+        "Pematuhan Kewangan"
+      ]
+    }
+  ]
+}

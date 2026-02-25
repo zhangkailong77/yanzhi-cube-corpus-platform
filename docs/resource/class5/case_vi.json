@@ -1,0 +1,2013 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "case",
+    "language": "vi",
+    "domain": "trade",
+    "created_by": "Expert Team",
+    "created_at": "2024-05-22T09:00:00Z",
+    "description": "Kho ngữ liệu trường hợp thực tế và thực tiễn - Tiếng Việt (Đợt 1: CASE-001 đến CASE-050)"
+  },
+  "data": [
+    {
+      "case_id": "CASE-001",
+      "case_title": "Thương hiệu quần áo giảm chi phí nhập khẩu tại Malaysia nhờ chứng nhận xuất xứ RCEP",
+      "case_type": "Thành công",
+      "background": "Một thương hiệu thời trang nhanh Trung Quốc bán hàng trên Shopee Malaysia, lượng đơn hàng hàng tháng vượt quá 20.000 đơn.",
+      "situation": "Doanh nghiệp xin cấp Giấy chứng nhận xuất xứ RCEP để giảm thuế nhập khẩu các sản phẩm dệt may từ 10% xuống mức thuế ưu đãi 0%.",
+      "outcome": "Chi phí trung bình mỗi sản phẩm giảm 5 Nhân dân tệ, tiết kiệm 100.000 Nhân dân tệ tiền thuế mỗi tháng, biên lợi nhuận gộp tăng 8%.",
+      "conclusion": "Nghiên cứu và tận dụng lộ trình giảm thuế của các quốc gia thành viên RCEP là phương thức then chốt để nâng cao năng lực cạnh tranh cho các sản phẩm thương mại điện tử.",
+      "tags": ["RCEP", "Malaysia", "Tối ưu hóa thuế", "May mặc"]
+    },
+    {
+      "case_id": "CASE-002",
+      "case_title": "Thương hiệu mỹ phẩm bùng nổ doanh số tại Việt Nam nhờ tiếp thị KOL trên TikTok",
+      "case_type": "Thành công",
+      "background": "Một thương hiệu mỹ phẩm nội địa Trung Quốc kế hoạch vào thị trường Việt Nam, đối mặt cạnh tranh gay gắt từ các thương hiệu địa phương, Nhật Bản và Hàn Quốc.",
+      "situation": "Thương hiệu hợp tác với 30 KOL hàng đầu Việt Nam thực hiện chiến dịch đánh giá qua video ngắn và livestream bán hàng trong một tháng.",
+      "outcome": "Doanh thu tháng đầu tiên vượt 300.000 USD, sản phẩm chủ lực lọt vào Top 3 danh mục trên TikTok Shop Việt Nam.",
+      "conclusion": "Nhóm khách hàng trẻ tại Đông Nam Á chịu ảnh hưởng lớn từ mạng xã hội; sử dụng KOL địa phương để bảo chứng niềm tin là vũ khí sắc bén cho thương hiệu mới.",
+      "tags": ["Việt Nam", "TikTok", "Thương mại mạng xã hội", "Mỹ phẩm"]
+    },
+    {
+      "case_id": "CASE-003",
+      "case_title": "Doanh nghiệp đồ gia dụng cải thiện trải nghiệm hậu cần qua kho ngoại quan tại Indonesia",
+      "case_type": "Thành công",
+      "background": "Một doanh nghiệp xuất khẩu ghế văn phòng sang Indonesia, tỷ lệ hoàn đơn lên tới 15% do chu kỳ hậu cần quá dài.",
+      "situation": "Doanh nghiệp chuyển từ mô hình gửi trực tiếp sang kho nước ngoài, thực hiện giao hàng 'ngay ngày mai' tại Jakarta và 3-5 ngày trên toàn quốc.",
+      "outcome": "Thời gian hậu cần rút ngắn 70%, tỷ lệ đánh giá tốt tăng lên 4.9 sao, chi phí vận hành tổng thể giảm 20% do đơn hoàn giảm.",
+      "conclusion": "Đối với hàng hóa cồng kềnh, thiết lập kho nước ngoài không chỉ giải quyết vấn đề thời gian mà còn là nền tảng xây dựng rào cản dịch vụ thương hiệu.",
+      "tags": ["Indonesia", "Kho nước ngoài", "Tối ưu hóa hậu cần", "Đồ gia dụng"]
+    },
+    {
+      "case_id": "CASE-004",
+      "case_title": "Thương hiệu điện máy nhỏ tối ưu hóa tỷ lệ ký nhận đơn hàng COD tại Philippines",
+      "case_type": "Thành công",
+      "background": "Thị trường Philippines chủ yếu thanh toán khi nhận hàng (COD), một thương hiệu nồi chiên không dầu từng đối mặt tỷ lệ từ chối nhận hàng 25%.",
+      "situation": "Doanh nghiệp áp dụng hệ thống xác nhận đơn hàng qua điện thoại tự động và gửi kèm thư cảm ơn, hướng dẫn bằng ngôn ngữ địa phương trong gói hàng.",
+      "outcome": "Tỷ lệ ký nhận đơn hàng COD tăng từ 75% lên 92%, chi phí xử lý đơn hàng trung bình giảm đáng kể.",
+      "conclusion": "Tại thị trường ưu tiên COD, tăng cường kỳ vọng khách hàng qua xác nhận lần hai và bao bì giàu cảm xúc giúp giải quyết hiệu quả điểm đau về tỷ lệ ký nhận.",
+      "tags": ["Philippines", "COD", "Chiến lược thanh toán", "Tỷ lệ ký nhận"]
+    },
+    {
+      "case_id": "CASE-005",
+      "case_title": "Người bán sản phẩm 3C xây dựng rào cản tuân thủ thông qua chứng nhận SNI Indonesia",
+      "case_type": "Thành công",
+      "background": "Indonesia thực hiện chứng nhận SNI bắt buộc đối với đồ điện tử; nhiều người bán bị gỡ sản phẩm do thiếu chứng nhận.",
+      "situation": "Một thương hiệu sạc dự phòng đầu tư kinh phí và nửa năm để hoàn thành kiểm định nhà máy và kiểm tra mẫu để nhận chứng chỉ SNI.",
+      "outcome": "Trong khi đối thủ bị gỡ hàng hàng loạt, người bán này đã độc chiếm lưu lượng từ khóa liên quan, doanh số tăng 400%.",
+      "conclusion": "Tại các thị trường có rào cản thương mại cao như Indonesia, việc chuẩn bị tuân thủ chứng nhận địa phương sớm giúp biến rủi ro chính sách thành lợi thế cạnh tranh dài hạn.",
+      "tags": ["Indonesia", "Chứng nhận SNI", "Tuân thủ pháp lý", "Điện tử 3C"]
+    },
+    {
+      "case_id": "CASE-006",
+      "case_title": "Thương hiệu Mẹ và Bé tận dụng Tết Songkran Thái Lan để tiếp thị bản địa hóa",
+      "case_type": "Thành công",
+      "background": "Thị trường Thái Lan chịu ảnh hưởng lớn từ lễ hội, một thương hiệu quần áo trẻ em muốn tăng nhận diện thương hiệu vào tháng 4.",
+      "situation": "Ra mắt dòng quần áo trẻ em chống thấm nước mang yếu tố Songkran và tổ chức cuộc thi ảnh 'Bé Songkran đáng yêu nhất' trên mạng xã hội.",
+      "outcome": "Chiến dịch tiếp cận hơn 5 triệu người dùng, doanh số trong kỳ lễ tăng 2,5 lần so với cùng kỳ tháng trước.",
+      "conclusion": "Thương mại điện tử xuyên biên giới phải hòa nhập sâu vào văn hóa bản địa qua sản phẩm tùy chỉnh và tiếp thị tương tác để tạo sự cộng hưởng cảm xúc.",
+      "tags": ["Thái Lan", "Tiếp thị lễ hội", "Bản địa hóa", "Mẹ và Bé"]
+    },
+    {
+      "case_id": "CASE-007",
+      "case_title": "Người bán đèn tối ưu hóa thứ hạng tìm kiếm Lazada Thái Lan để tăng trưởng doanh số",
+      "case_type": "Thành công",
+      "background": "Một người bán là nhà máy mới vào Lazada, lưu lượng truy cập thấp, chủ yếu dựa vào phá giá để giành đơn hàng.",
+      "situation": "Phân tích từ khóa đối thủ, tối ưu hóa mô tả Listing tiếng Thái và tham gia chương trình Flash Sale của nền tảng để tích lũy đánh giá.",
+      "outcome": "Thứ hạng tìm kiếm các từ khóa cốt lõi lên Top 5 trang đầu; tỷ lệ chuyển đổi tăng 3% mà không cần giảm giá.",
+      "conclusion": "Nền tảng thương mại điện tử dựa trên vận hành tinh gọn; sử dụng công cụ dữ liệu để bản địa hóa từ khóa là chìa khóa tăng trưởng lưu lượng tự nhiên.",
+      "tags": ["Thái Lan", "Lazada", "SEO", "Kỹ năng vận hành"]
+    },
+    {
+      "case_id": "CASE-008",
+      "case_title": "Thương hiệu thú cưng tại Singapore tăng tỷ lệ mua lại nhờ vận hành cộng đồng riêng",
+      "case_type": "Thành công",
+      "background": "Chi phí thu hút khách hàng tại Singapore cao, thương hiệu thức ăn cho mèo gặp khó khăn trong việc tìm khách mới và giữ khách cũ.",
+      "situation": "Xây dựng cộng đồng trên Facebook và WhatsApp, cung cấp tư vấn chuyên gia trực tuyến và phiếu giảm giá định kỳ.",
+      "outcome": "Tỷ lệ mua lại tăng từ 12% lên 45%, kênh cộng đồng riêng đóng góp hơn 30% doanh thu toàn cửa hàng.",
+      "conclusion": "Tại thị trường có sức mua cao, xây dựng lòng trung thành qua cộng đồng riêng giúp đối phó hiệu quả với chi phí lưu lượng công cộng đắt đỏ.",
+      "tags": ["Singapore", "Cộng đồng riêng", "Tỷ lệ mua lại", "Sản phẩm thú cưng"]
+    },
+    {
+      "case_id": "CASE-009",
+      "case_title": "Thương hiệu thể thao tăng tỷ lệ chuyển đổi nhờ ưu đãi ví điện tử tại Việt Nam",
+      "case_type": "Thành công",
+      "background": "Người tiêu dùng Việt Nam có lo ngại về an toàn thanh toán trực tuyến và ưa chuộng giảm giá qua ví điện tử.",
+      "situation": "Hợp tác với các ví điện tử phổ biến như MoMo để tung ra chương trình 'Giảm giá đơn đầu' và 'Hoàn tiền'.",
+      "outcome": "Tỷ lệ đơn hàng không phải COD tăng từ 10% lên 35%, tỷ lệ rời bỏ ở bước thanh toán giảm 18%.",
+      "conclusion": "Liên kết với các công cụ thanh toán địa phương không chỉ giải quyết vấn đề niềm tin mà còn thu hút khách hàng chính xác từ phía thanh toán.",
+      "tags": ["Việt Nam", "Ví điện tử", "Tối ưu hóa thanh toán", "Tỷ lệ chuyển đổi"]
+    },
+    {
+      "case_id": "CASE-010",
+      "case_title": "Người bán công cụ cơ khí giảm tổn thất nhờ dịch vụ kiểm định hàng hoàn tại kho nước ngoài",
+      "case_type": "Thành công",
+      "background": "Sản phẩm máy khoan điện gửi sang Malaysia thường bị trả hàng do khách dùng sai cách, gây tổn thất lớn.",
+      "situation": "Hợp tác với kho nước ngoài có khả năng đóng gói lại và sửa chữa nhỏ để kiểm tra hàng hoàn trước khi tái niêm yết.",
+      "outcome": "Khoảng 70% hàng hoàn được xử lý để bán lại, cứu vãn tổn thất kinh tế hơn 200.000 Nhân dân tệ mỗi năm.",
+      "conclusion": "Cơ chế hậu cần ngược hoàn thiện là bảo chứng quan trọng để giảm hao hụt ẩn và đạt lợi nhuận bền vững.",
+      "tags": ["Malaysia", "Hậu cần ngược", "Kho nước ngoài", "Tiết kiệm chi phí"]
+    },
+    {
+      "case_id": "CASE-011",
+      "case_title": "Người bán phụ kiện điều chỉnh phong cách hình ảnh phù hợp thẩm mỹ Thái Lan",
+      "case_type": "Thành công",
+      "background": "Một loại phụ kiện phong cách Trung Quốc bán chậm tại Thái Lan do hình ảnh quá đơn giản không hợp gu địa phương.",
+      "situation": "Nghiên cứu thấy người Thái ưa chuộng màu sắc rực rỡ, độ bão hòa cao, từ đó chụp lại toàn bộ ảnh sản phẩm.",
+      "outcome": "Tỷ lệ nhấp (CTR) tăng gấp đôi với cùng mức chi phí quảng cáo, lượng theo dõi cửa hàng tăng vọt.",
+      "conclusion": "Trình bày hình ảnh là cửa ải đầu tiên của thương mại xuyên văn hóa, phải thích ứng chính xác với sự khác biệt thẩm mỹ thị trường mục tiêu.",
+      "tags": ["Thái Lan", "Tối ưu hóa hình ảnh", "Khác biệt thẩm mỹ", "Phụ kiện"]
+    },
+    {
+      "case_id": "CASE-012",
+      "case_title": "Thương hiệu dụng cụ nhà bếp vào siêu thị Malaysia thành công nhờ chứng chỉ Halal",
+      "case_type": "Thành công",
+      "background": "Dù bán tốt trực tuyến nhưng thương hiệu khó tiếp cận kênh ngoại tuyến và siêu thị lớn do thiếu nhãn Halal.",
+      "situation": "Doanh nghiệp cải tạo dây chuyền sản xuất và xin chứng chỉ Halal của JAKIM, in nhãn rõ ràng trên bao bì.",
+      "outcome": "Vào thành công chuỗi siêu thị AEON Malaysia, đạt được độ phủ toàn kênh, doanh số tăng gấp đôi.",
+      "conclusion": "Đối với các nước có dân số Hồi giáo đông, chứng chỉ Halal là giấy thông hành quan trọng để bản địa hóa và thâm nhập kênh bán hàng.",
+      "tags": ["Malaysia", "Chứng chỉ Halal", "Mở rộng kênh", "Dụng cụ nhà bếp"]
+    },
+    {
+      "case_id": "CASE-013",
+      "case_title": "Người bán phụ kiện số tối ưu hóa chi phí qua các nút hậu cần tại Philippines",
+      "case_type": "Thành công",
+      "background": "Phí vận chuyển đến vùng sâu vùng xa ở Philippines quá cao, khiến các đơn hàng này thường bị lỗ.",
+      "situation": "Ký kết thỏa thuận chiến lược với các công ty chuyển phát có lợi thế mạng lưới tại vùng xa và thiết lập ngưỡng miễn phí vận chuyển linh hoạt.",
+      "outcome": "Tỷ lệ chi phí hậu cần trên doanh thu giảm 5 điểm phần trăm, thị phần tại vùng sâu vùng xa tăng 15%.",
+      "conclusion": "Chiến lược đối phó chi phí hậu cần linh hoạt và hợp tác sâu với đơn vị giao hàng chặng cuối là chìa khóa thâm nhập thị trường phân mảnh.",
+      "tags": ["Philippines", "Chi phí hậu cần", "Giao hàng chặng cuối", "Thị trường ngách"]
+    },
+    {
+      "case_id": "CASE-014",
+      "case_title": "Người bán văn phòng phẩm dùng chiến lược đa cửa hàng bao phủ nhu cầu tìm kiếm trên Shopee",
+      "case_type": "Thành công",
+      "background": "Một nhà máy văn phòng phẩm gặp nút thắt về lưu lượng đơn cửa hàng, khó bao phủ các phân khúc khách hàng khác nhau.",
+      "situation": "Tại Malaysia, mở đồng thời cửa hàng flagship thương hiệu, cửa hàng giá rẻ số lượng lớn và cửa hàng chuyên dụng văn phòng.",
+      "outcome": "Qua ma trận cửa hàng, tổng doanh thu tăng 120%, chặn hiệu quả lưu lượng tìm kiếm từ nhiều nhóm khách hàng.",
+      "conclusion": "Vận hành ma trận cửa hàng với định vị khác biệt giúp chiếm lĩnh tối đa các vị trí lưu lượng nội bộ nền tảng.",
+      "tags": ["Malaysia", "Shopee", "Chiến lược đa cửa hàng", "Văn phòng phẩm"]
+    },
+    {
+      "case_id": "CASE-015",
+      "case_title": "Người bán đồ dã ngoại dùng hình thức trả góp để giảm rào cản mua hàng tại Indonesia",
+      "case_type": "Thành công",
+      "background": "Trang bị cắm trại giá cao khó quảng bá tại Indonesia do áp lực thanh toán một lần đối với người trẻ.",
+      "situation": "Tích hợp công cụ 'Mua trước trả sau' (BNPL) vào cửa hàng, hỗ trợ trả góp không lãi suất từ 3-6 tháng.",
+      "outcome": "Giá trị đơn hàng trung bình (AOV) tăng 40%, tỷ lệ chốt đơn của sinh viên và nhân viên văn phòng trẻ cải thiện rõ rệt.",
+      "conclusion": "Áp dụng công cụ tài chính không chỉ là thay đổi cách thanh toán mà còn là chiến lược thúc đẩy tiêu dùng phù hợp môi trường kinh tế.",
+      "tags": ["Indonesia", "BNPL", "Trả góp", "Giá trị đơn hàng"]
+    },
+    {
+      "case_id": "CASE-016",
+      "case_title": "Người bán quà tặng tùy chỉnh thắng đơn hàng doanh nghiệp tại Singapore nhờ phản hồi nhanh",
+      "case_type": "Thành công",
+      "background": "Doanh nghiệp Singapore yêu cầu rất cao về chất lượng quà tặng và thời gian phản hồi cực ngắn.",
+      "situation": "Thuê nhân viên chăm sóc khách hàng thông thạo tiếng Anh chuyên ngành, cam kết phản hồi trong 10 phút và ra mẫu trong 5 ngày.",
+      "outcome": "Giành được đơn hàng quà tặng năm của nhiều doanh nghiệp tài chính Singapore, doanh thu hàng triệu đô.",
+      "conclusion": "Trong thương mại xuyên biên giới B2B, tốc độ phản hồi và năng lực giao tiếp chuyên nghiệp thường cạnh tranh hơn cả giá cả.",
+      "tags": ["Singapore", "B2B", "Chăm sóc khách hàng", "Tùy chỉnh quà tặng"]
+    },
+    {
+      "case_id": "CASE-017",
+      "case_title": "Thương hiệu dụng cụ làm tóc xây dựng uy tín qua video đánh giá dài trên Youtube tại Thái Lan",
+      "case_type": "Thành công",
+      "background": "Một loại máy uốn tóc chuyên nghiệp có giá cao hơn mức trung bình, khách hàng khó hiểu được giá trị cốt lõi.",
+      "situation": "Hợp tác với các nhà tạo mẫu tóc chuyên nghiệp Thái Lan quay video review và hướng dẫn dài 15 phút trên Youtube.",
+      "outcome": "Tổng lượt xem video vượt mốc triệu, sản phẩm đứng đầu phân khúc giá cao, thực hiện được giá trị thặng dư thương hiệu.",
+      "conclusion": "Với sản phẩm có tính năng mạnh hoặc hàm lượng kỹ thuật cao, tiếp thị nội dung chuyên sâu giúp vượt qua rào cản giá cả.",
+      "tags": ["Thái Lan", "Tiếp thị nội dung", "Youtube", "Giá trị thương hiệu"]
+    },
+    {
+      "case_id": "CASE-018",
+      "case_title": "Người bán đồ chơi khóa trước chỗ vận tải hàng không trước mùa cao điểm tại Việt Nam",
+      "case_type": "Thành công",
+      "background": "Vào mùa khuyến mãi tháng 12, tuyến hàng không đi Việt Nam thường xuyên cháy chỗ, giá cước tăng vọt.",
+      "situation": "Doanh nghiệp ký thỏa thuận giữ chỗ với đơn vị vận chuyển từ tháng 9, đặt cọc để chốt giá và tải trọng cố định.",
+      "outcome": "Trong khi giá cước toàn ngành tăng 30%, người bán này vẫn giữ giá cũ và giao hàng nhanh hơn đối thủ 4 ngày.",
+      "conclusion": "Quy hoạch chuỗi cung ứng mang tính dự báo là năng lực cạnh tranh cốt lõi để đối phó rủi ro mùa cao điểm.",
+      "tags": ["Việt Nam", "Quản lý chuỗi cung ứng", "Quy hoạch hậu cần", "Mùa cao điểm"]
+    },
+    {
+      "case_id": "CASE-019",
+      "case_title": "Người bán đồ gia dụng dùng Shopee Feed để tăng tương tác với khách hàng cũ",
+      "case_type": "Thành công",
+      "background": "Cửa hàng có nhiều người theo dõi nhưng tỷ lệ chuyển đổi hàng ngày thấp, độ hoạt động của fan có xu hướng giảm.",
+      "situation": "Kiên trì đăng mẹo trang trí nhà cửa hàng ngày trên Shopee Feed kết hợp với trò chơi trúng thưởng.",
+      "outcome": "Tỷ lệ lưu lượng tự nhiên tăng từ 15% lên 35%, tỷ lệ chuyển đổi từ fan tăng gần gấp đôi.",
+      "conclusion": "Sử dụng công cụ xã hội có sẵn của nền tảng giúp duy trì độ nóng thương hiệu và thúc đẩy mua lại với chi phí thấp.",
+      "tags": ["Malaysia", "Shopee Feed", "Vận hành fan", "Tỷ lệ tương tác"]
+    },
+    {
+      "case_id": "CASE-020",
+      "case_title": "Thương hiệu 3C kháng nghị thành công phán đoán sai hàng giả tại thị trường Indonesia",
+      "case_type": "Thành công",
+      "background": "Một người bán tai nghe chính hãng bị đối thủ chơi xấu, cửa hàng bị nền tảng phán đoán bán hàng giả và khóa.",
+      "situation": "Doanh nghiệp nhanh chóng chuẩn bị chứng từ mua hàng, thư ủy quyền nhà máy và chứng nhận thương hiệu để đối soát thủ công.",
+      "outcome": "Sau 48 giờ liên lạc khẩn cấp, cửa hàng được mở lại và nhận được bồi thường lưu lượng từ nền tảng.",
+      "conclusion": "Lưu trữ đầy đủ chứng từ và cơ chế phản ứng kháng nghị nhanh là năng lực cốt lõi để bảo vệ tài khoản xuyên biên giới.",
+      "tags": ["Indonesia", "Kháng nghị tuân thủ", "Bảo vệ thương hiệu", "Chính sách nền tảng"]
+    },
+    {
+      "case_id": "CASE-021",
+      "case_title": "Thương hiệu thực phẩm gấp đôi doanh số nhờ tùy chỉnh bao bì cho tháng Ramadan tại Indonesia",
+      "case_type": "Thành công",
+      "background": "Một nhà xuất khẩu hạt khô nhắm tới thị trường Indonesia, muốn tăng doanh số trong tháng Ramadan.",
+      "situation": "Thiết kế 'Hộp quà Ramadan' mang phong cách Hồi giáo và đóng gói nhỏ phù hợp làm quà tặng lễ Eid al-Fitr.",
+      "outcome": "Doanh số trong tháng Ramadan tăng gấp 3,5 lần bình thường, tỷ lệ nhắc đến thương hiệu trên mạng xã hội tăng 120%.",
+      "conclusion": "Tùy chỉnh bao bì sâu sắc theo các lễ hội tôn giáo là con đường hiệu quả để thực phẩm thâm nhập thị trường Hồi giáo.",
+      "tags": ["Indonesia", "Tiếp thị Ramadan", "Tùy chỉnh bao bì", "Thực phẩm"]
+    },
+    {
+      "case_id": "CASE-022",
+      "case_title": "Người bán mỹ phẩm dùng chiến lược 'Kho nước ngoài + Giao hàng nội địa' để tăng trọng số tại Malaysia",
+      "case_type": "Thành công",
+      "background": "Người bán trên Shopee Malaysia có lợi thế giá nhưng bị hạn chế bởi thời gian vận chuyển xuyên biên giới, trọng số tìm kiếm thấp.",
+      "situation": "Dự trữ hàng bán chạy tại kho Kuala Lumpur, mở kênh giao hàng nội địa, kết quả tìm kiếm hiển thị 'Ship from Local'.",
+      "outcome": "Thứ hạng tìm kiếm lọt vào top 2 trang đầu, tỷ lệ chuyển đổi tăng từ 2% lên 7%, doanh số tháng vượt 500.000 Ringgit.",
+      "conclusion": "Sử dụng kho bản địa để loại bỏ độ trễ hậu cần giúp tăng đáng kể trọng số tìm kiếm và niềm tin mua hàng.",
+      "tags": ["Malaysia", "Kho nước ngoài", "Trọng số tìm kiếm", "Mỹ phẩm"]
+    },
+    {
+      "case_id": "CASE-023",
+      "case_title": "Người bán phụ kiện thuốc lá điện tử né rủi ro chính sách nhờ thử nghiệm tuân thủ tại Thái Lan",
+      "case_type": "Thành công",
+      "background": "Nhiều nước Đông Nam Á có chính sách thuốc lá điện tử thay đổi liên tục, một người bán muốn vào Thái Lan.",
+      "situation": "Thông qua thử nghiệm tuân thủ lô nhỏ, tuân thủ nghiêm ngặt yêu cầu nhãn mác công suất và bao bì, không quảng bá thái quá.",
+      "outcome": "Khi đối thủ bị khóa hàng loạt do vi phạm, người bán này duy trì được cửa hàng ổn định qua giai đoạn biến động chính sách.",
+      "conclusion": "Trong lĩnh vực nhạy cảm về chính sách, giữ sự thận trọng và thử nghiệm từng bước có khả năng sinh tồn cao hơn mở rộng mù quáng.",
+      "tags": ["Thái Lan", "Tuân thủ chính sách", "Hàng nhạy cảm", "Quản lý rủi ro"]
+    },
+    {
+      "case_id": "CASE-024",
+      "case_title": "Người bán phụ tùng ô tô giảm tỷ lệ hoàn hàng nhờ hướng dẫn sử dụng tiếng Việt chuẩn bản địa",
+      "case_type": "Thành công",
+      "background": "Sản phẩm điện tử ô tô bán tốt tại Việt Nam nhưng tỷ lệ trả hàng do lắp đặt sai lên tới 12%.",
+      "situation": "Doanh nghiệp chuyển hướng dẫn từ tiếng Anh sang tiếng Việt bản địa, quay video lắp đặt có phụ đề tiếng Việt.",
+      "outcome": "Tỷ lệ hoàn hàng giảm xuống còn 2%, áp lực tư vấn sau bán giảm 60%, đánh giá cửa hàng hồi phục lên 4.8 sao.",
+      "conclusion": "Rào cản ngôn ngữ là nguyên nhân phổ biến của hoàn hàng; hướng dẫn bản địa hóa giúp giải quyết triệt để vấn đề lắp đặt.",
+      "tags": ["Việt Nam", "Tỷ lệ hoàn hàng", "Nội dung bản địa hóa", "Phụ tùng ô tô"]
+    },
+    {
+      "case_id": "CASE-025",
+      "case_title": "Người bán Singapore tăng cường an toàn hàng giá trị cao qua dịch vụ hậu cần chuyên biệt của Lazada",
+      "case_type": "Thành công",
+      "background": "Người bán trang sức bạc giá trị cao, trước đây thường xảy ra mất mát hoặc hư hỏng khi gửi chuyển phát thường.",
+      "situation": "Sử dụng dịch vụ 'Delivered by Lazada' và mua bảo hiểm vận chuyển giá trị cao cho từng đơn hàng.",
+      "outcome": "Tỷ lệ thất thoát hàng giảm về 0, tỷ lệ mua lại của khách hàng VIP tăng 25% nhờ hình ảnh chuyên nghiệp.",
+      "conclusion": "Hàng hóa giá trị cao nên ưu tiên hậu cần chính thức hoặc cao cấp để lấy dịch vụ bù đắp rủi ro.",
+      "tags": ["Singapore", "Hàng giá trị cao", "Bảo hiểm hậu cần", "Lazada"]
+    },
+    {
+      "case_id": "CASE-026",
+      "case_title": "Người bán thời trang dùng nhóm Facebook Philippines để thu hút lưu lượng chính xác",
+      "case_type": "Thành công",
+      "background": "Người dùng Philippines phụ thuộc cao vào Facebook, một người bán thời trang nữ đối mặt phí quảng cáo nội sàn tăng cao.",
+      "situation": "Tham gia và vận hành 50 nhóm Facebook về thời trang địa phương, đăng ảnh khách hàng thực tế để 'gieo mầm' (seeding).",
+      "outcome": "30% lưu lượng cửa hàng đến từ nhóm Facebook, chi phí thu hút khách chỉ bằng 1/5 so với quảng cáo nội sàn.",
+      "conclusion": "Tại thị trường mạng xã hội phát triển, vận hành cộng đồng bản địa là lối tắt để có lưu lượng rẻ và chuyển đổi cao.",
+      "tags": ["Philippines", "Tiếp thị Facebook", "Thu hút lưu lượng", "Thời trang nữ"]
+    },
+    {
+      "case_id": "CASE-027",
+      "case_title": "Thương hiệu đồ gia dụng giải quyết vấn đề niềm tin qua video unboxing của Influencer Indonesia",
+      "case_type": "Thành công",
+      "background": "Thương hiệu điện máy thông minh mới vào Indonesia, người tiêu dùng còn xa lạ và chưa dám đặt hàng.",
+      "situation": "Hợp tác với 5 YouTuber công nghệ Indonesia quay video unboxing chi tiết tính năng và quy trình vận hành.",
+      "outcome": "Trong 2 tuần, lượng yêu thích cửa hàng tăng 10.000, lô hàng 1.000 chiếc đầu tiên nhanh chóng cháy hàng.",
+      "conclusion": "Unboxing không chỉ là quảng cáo mà còn là bảo chứng thương hiệu, xóa tan nỗi lo mua hàng xuyên biên giới.",
+      "tags": ["Indonesia", "Tiếp thị Influencer", "Unboxing", "Đồ gia dụng"]
+    },
+    {
+      "case_id": "CASE-028",
+      "case_title": "Người bán túi xách đạt hiệu quả đa nền tảng nhờ đồng bộ hóa các trạm tại Malaysia",
+      "case_type": "Thành công",
+      "background": "Thương hiệu kinh doanh trên Shopee, Lazada và TikTok Shop nhưng đội ngũ phân tán, hiệu quả không cao.",
+      "situation": "Sử dụng hệ thống ERP quản lý kho tập trung và đồng bộ nhịp độ khuyến mãi cho thị trường Malaysia.",
+      "outcome": "Hiệu suất nhân sự tăng 40%, độ phủ thương hiệu tại Malaysia tăng gấp 3 lần nhờ sự cộng hưởng đa nền tảng.",
+      "conclusion": "Vận hành đa nền tảng cần công cụ số hóa để đồng bộ tồn kho, giá cả và chiến dịch tiếp thị.",
+      "tags": ["Malaysia", "Vận hành đa nền tảng", "Hệ thống ERP", "Túi xách"]
+    },
+    {
+      "case_id": "CASE-029",
+      "case_title": "Người bán thiết bị thể thao đảm bảo thu hồi vốn qua nâng cấp hệ thống COD Việt Nam",
+      "case_type": "Thành công",
+      "background": "Tỷ lệ COD tại Việt Nam rất cao, người bán gặp vấn đề thu hồi vốn chậm và đối soát nhầm lẫn.",
+      "situation": "Ký kết với đơn vị hậu cần có năng lực đối soát nhanh và xây dựng hệ thống tự động theo dõi dòng tiền COD.",
+      "outcome": "Chu kỳ thu hồi vốn rút ngắn 5 ngày, tỷ lệ nợ xấu trên sổ sách giảm xuống mức gần bằng 0.",
+      "conclusion": "Năng lực cạnh tranh cốt lõi trong mô hình COD nằm ở tính minh bạch và tốc độ quay vòng vốn.",
+      "tags": ["Việt Nam", "COD", "Quay vòng vốn", "Quản lý tài chính"]
+    },
+    {
+      "case_id": "CASE-030",
+      "case_title": "Thương hiệu thú cưng dùng xu hướng sống xanh tại Singapore để bán sản phẩm phân hủy sinh học",
+      "case_type": "Thành công",
+      "background": "Chính phủ và người dân Singapore cực kỳ coi trọng bảo vệ môi trường, sản phẩm nhựa thông thường cạnh tranh gay gắt.",
+      "situation": "Ra mắt khay vệ sinh mèo và túi rác phân hủy sinh học, hiển thị rõ chứng nhận xanh và dữ liệu giảm thải carbon.",
+      "outcome": "Sản phẩm dù giá cao hơn 30% vẫn cháy hàng, thành công thâm nhập cộng đồng nuôi thú cưng cao cấp.",
+      "conclusion": "Tại thị trường trưởng thành, việc đáp ứng xu hướng môi trường hoặc chính sách ESG là cách tốt để nâng cấp thương hiệu.",
+      "tags": ["Singapore", "Xu hướng bảo vệ môi trường", "Cạnh tranh khác biệt", "Sản phẩm thú cưng"]
+    },
+    {
+      "case_id": "CASE-031",
+      "case_title": "Người bán 3C tăng tỷ lệ ký nhận nhờ tối ưu hóa lựa chọn đơn vị giao hàng tại Philippines",
+      "case_type": "Thành công",
+      "background": "Philippines có nhiều đảo, tỷ lệ ký nhận đơn hàng vùng xa cực thấp, gây lỗ phí vận chuyển hai chiều.",
+      "situation": "Dựa trên dữ liệu lịch sử, chặn các địa chỉ vùng đảo có tỷ lệ ký nhận thấp và chọn đơn vị uy tín nhất cho đơn hàng giá trị cao.",
+      "outcome": "Tỷ lệ ký nhận trung bình tăng từ 82% lên 94%, tiết kiệm hơn 150.000 Nhân dân tệ phí hậu cần vô ích mỗi năm.",
+      "conclusion": "Môi trường hậu cần Đông Nam Á phức tạp, quản lý khu vực động qua phân tích dữ liệu là cần thiết để bảo đảm lợi nhuận.",
+      "tags": ["Philippines", "Tỷ lệ ký nhận", "Lựa chọn hậu cần", "Phân tích dữ liệu"]
+    },
+    {
+      "case_id": "CASE-032",
+      "case_title": "Thương hiệu văn phòng phẩm tối ưu tỷ lệ nhấp Listing nhờ bản địa hóa ngôn ngữ Thái Lan",
+      "case_type": "Thành công",
+      "background": "Listing ban đầu dùng tiếng Thái dịch máy, câu cú lủng củng gây khó khăn cho người mua Thái Lan.",
+      "situation": "Thuê sinh viên bản địa trau chuốt lại tiêu đề và mô tả, thêm các thuật ngữ và tiếng lóng văn phòng phẩm đang hot.",
+      "outcome": "Tỷ lệ nhấp (CTR) tăng 50%, thời gian dừng lại trên trang Listing trung bình tăng thêm 45 giây.",
+      "conclusion": "Ngôn ngữ bản địa chuẩn xác giúp tăng độ gần gũi của sản phẩm, trau chuốt thủ công là bước không thể thiếu.",
+      "tags": ["Thái Lan", "Tối ưu hóa Listing", "Ngôn ngữ bản địa", "Văn phòng phẩm"]
+    },
+    {
+      "case_id": "CASE-033",
+      "case_title": "Người bán Mẹ và Bé bùng nổ doanh số nhờ tiếp thị trò chơi trên Shopee",
+      "case_type": "Thành công",
+      "background": "Trong đợt khuyến mãi 9.9, cửa hàng muốn nổi bật giữa hàng nghìn đối thủ để thu hút khách hàng mới.",
+      "situation": "Tích cực tham gia trò chơi tương tác nền tảng (như Shopee Candy), tặng voucher giá trị cao làm phần thưởng trò chơi.",
+      "outcome": "Lượng khách mới trong ngày khuyến mãi chiếm 65%, tốc độ tăng fan nhanh gấp 10 lần bình thường.",
+      "conclusion": "Người tiêu dùng Đông Nam Á thích mua sắm kiểu giải trí, dùng công cụ tương tác sẵn có giúp thu hút fan chi phí thấp.",
+      "tags": ["Malaysia", "Tiếp thị trò chơi", "Khuyến mãi lớn", "Mẹ và Bé"]
+    },
+    {
+      "case_id": "CASE-034",
+      "case_title": "Người bán đồ gia dụng giảm chi phí nhập khẩu Thái Lan nhờ tối ưu hóa gom hàng lẻ (LCL)",
+      "case_type": "Thành công",
+      "background": "Người bán hàng nội thất nhẹ, phí gửi máy bay quá đắt, gửi nguyên container (FCL) lại không đủ hàng nhanh.",
+      "situation": "Hợp tác với đơn vị vận chuyển gom hàng lẻ (LCL) định kỳ và tối ưu kích thước thùng để tăng tỷ lệ xếp hàng.",
+      "outcome": "Chi phí hậu cần trên mỗi sản phẩm giảm 40%, thời gian giao hàng ổn định khoảng 15 ngày.",
+      "conclusion": "Với hàng hóa cồng kềnh trung bình, tìm kiếm phương án LCL ổn định là chìa khóa cân bằng chi phí và vòng quay kho.",
+      "tags": ["Thái Lan", "Hàng lẻ LCL", "Chi phí hậu cần", "Đồ nội thất"]
+    },
+    {
+      "case_id": "CASE-035",
+      "case_title": "Thương hiệu chăm sóc tóc tăng chuyển đổi nhờ livestream TikTok Shop tại Việt Nam",
+      "case_type": "Thành công",
+      "background": "Thương hiệu máy uốn tóc có lưu lượng trên TikTok Việt Nam nhưng tỷ lệ chuyển đổi qua link ngoài sàn thấp.",
+      "situation": "Mở TikTok Shop Việt Nam, bán hàng trực tiếp qua giỏ hàng trong livestream kèm hướng dẫn sử dụng tức thì.",
+      "outcome": "Tỷ lệ chốt đơn livestream (GPM) tăng 200%, doanh thu một phiên livestream cao nhất đạt 50.000 USD.",
+      "conclusion": "Trên các nền tảng xã hội như TikTok, rút ngắn đường dẫn mua hàng và thực hiện giao dịch khép kín là cốt lõi tăng chuyển đổi.",
+      "tags": ["Việt Nam", "TikTok Shop", "Livestream bán hàng", "Làm đẹp"]
+    },
+    {
+      "case_id": "CASE-036",
+      "case_title": "Người bán quà tặng thâm nhập thị trường doanh nghiệp Singapore qua dịch vụ hộp quà khác biệt",
+      "case_type": "Thành công",
+      "background": "Doanh nghiệp Singapore có nhu cầu lớn về quà tặng đối tác nhưng thường mua lẻ tẻ, thiếu nhà cung cấp hệ thống.",
+      "situation": "Cung cấp thiệp tùy chỉnh, đóng gói nơ tinh tế và dịch vụ viết hộ thiệp, định vị là 'Chuyên gia giải pháp quà tặng một điểm dừng'.",
+      "outcome": "Giá trị đơn hàng trung bình (AOV) tăng 100%, ký được thỏa thuận cung ứng quà tặng năm cho nhiều tập đoàn đa quốc gia.",
+      "conclusion": "Khai thác giá trị thặng dư từ dịch vụ bằng cách biến sản phẩm thành giải pháp là cách tăng lợi nhuận đơn hàng B2B.",
+      "tags": ["Singapore", "Quà tặng tùy chỉnh", "B2B", "Dịch vụ giá trị gia tăng"]
+    },
+    {
+      "case_id": "CASE-037",
+      "case_title": "Người bán kỹ thuật số tăng đơn nhờ liên kết lễ hội thanh toán điện tử Malaysia",
+      "case_type": "Thành công",
+      "background": "Chính phủ Malaysia thúc đẩy ví điện tử, người bán muốn tăng tỷ lệ đơn trả trước để giảm áp lực thu tiền mặt.",
+      "situation": "Hợp tác với Touch 'n Go eWallet tung chương trình giảm giá độc quyền khi thanh toán qua ví tại cửa hàng.",
+      "outcome": "Tỷ lệ đơn thanh toán điện tử tăng lên trên 50%, giảm đáng kể rủi ro và áp lực thu hộ tiền mặt của bên hậu cần.",
+      "conclusion": "Hưởng ứng xu hướng số hóa tài chính địa phương giúp tận dụng trợ giá từ ví điện tử để giảm chi phí tiếp thị.",
+      "tags": ["Malaysia", "Thanh toán điện tử", "Chiến lược khuyến mãi", "Sản phẩm kỹ thuật số"]
+    },
+    {
+      "case_id": "CASE-038",
+      "case_title": "Thương hiệu thời trang thu hút khách giá rẻ qua ma trận 'Micro-influencer' Indonesia",
+      "case_type": "Thành công",
+      "background": "Influencer lớn báo giá quá cao, thương hiệu mới ngân sách hạn hẹp không gánh nổi phí quảng cáo.",
+      "situation": "Ký hợp đồng với 50 Micro-influencer (50k-100k fan) để phủ sóng nội dung trên diện rộng.",
+      "outcome": "Chỉ số ROI đạt 1:8, thương hiệu nhanh chóng tạo được độ nhận diện trong các cộng đồng phong cách riêng biệt.",
+      "conclusion": "Tại thị trường có hiệu ứng đuôi dài rõ rệt, ma trận Micro-influencer thường hiệu quả và tiết kiệm hơn Influencer lớn.",
+      "tags": ["Indonesia", "Micro-influencer", "Tiếp thị ma trận", "Thời trang"]
+    },
+    {
+      "case_id": "CASE-039",
+      "case_title": "Người bán điện máy nhỏ tăng giá trị thương hiệu nhờ mạng lưới bảo hành tại Philippines",
+      "case_type": "Thành công",
+      "background": "Đồ điện gia dụng xuyên biên giới tại Philippines thường bị khách phàn nàn là 'chỉ bán không sửa' hoặc 'không thể bảo hành'.",
+      "situation": "Hợp tác với các trạm sửa chữa điện máy địa phương, ủy quyền làm trung tâm bảo hành chính thức với cam kết bảo hành 1 năm.",
+      "outcome": "Giá bán tăng 15% vẫn đắt hàng, tỷ lệ đánh giá tốt về 'hậu mãi an tâm' tăng vọt.",
+      "conclusion": "Bản địa hóa hệ thống hậu mãi là con đường bắt buộc để xây dựng thương hiệu, hỗ trợ đắc lực cho việc tăng giá bán.",
+      "tags": ["Philippines", "Dịch vụ hậu mãi", "Giá trị thương hiệu", "Điện máy nhỏ"]
+    },
+    {
+      "case_id": "CASE-040",
+      "case_title": "Thương hiệu điện gia dụng tận dụng 'kinh tế lười' tại Thái Lan để bán nồi đa năng",
+      "case_type": "Thành công",
+      "background": "Thanh niên sống đơn thân tại các đô thị Thái Lan tăng nhanh, thói quen nấu nướng chuyển sang nhanh gọn.",
+      "situation": "Đánh vào các điểm bán hàng 'một nồi nhiều năng, tự ngắt điện, dễ vệ sinh' và nhấn mạnh thiết kế nhỏ gọn cho căn hộ chung cư.",
+      "outcome": "Doanh thu tại khu vực Bangkok chiếm 60% tổng doanh thu Thái Lan, thương hiệu trở thành cái tên hot trên mạng xã hội.",
+      "conclusion": "Khai thác sâu điểm đau của nhóm đối tượng cụ thể (như người sống độc thân) giúp định vị chính xác sản phẩm bùng nổ.",
+      "tags": ["Thái Lan", "Kinh tế lười", "Định vị sản phẩm", "Điện gia dụng"]
+    },
+    {
+      "case_id": "CASE-041",
+      "case_title": "Thương hiệu phụ kiện tăng giá trị đơn hàng nhờ hợp tác IP tại Singapore",
+      "case_type": "Thành công",
+      "background": "Phụ kiện thông thường tại Singapore bị bão hòa và cạnh tranh giá gay gắt.",
+      "situation": "Hợp tác với một IP văn hóa nổi tiếng của Singapore ra mắt bộ sưu tập vòng cổ và bao bì giới hạn.",
+      "outcome": "Giá bán lẻ tăng từ 20 SGD lên 55 SGD, hàng cháy ngay trong tuần đầu tiên ra mắt.",
+      "conclusion": "Tận dụng giá trị thặng dư của các IP bản địa đã thành danh là cách nhanh nhất để nâng tầm thương hiệu.",
+      "tags": ["Singapore", "Hợp tác IP", "Tiếp thị chéo", "Phụ kiện"]
+    },
+    {
+      "case_id": "CASE-042",
+      "case_title": "Người bán mỹ phẩm tối ưu hóa tuyến hậu cần Việt Nam để né cao điểm thông quan",
+      "case_type": "Thành công",
+      "background": "Trước mỗi kỳ lễ, các cửa khẩu biên giới Trung - Việt thường xuyên ùn tắc, tỷ lệ kiểm hóa tăng cao.",
+      "situation": "Dùng dữ liệu lớn dự báo chu kỳ ùn tắc, thực hiện thông quan và nhập kho nội địa Việt Nam trước cao điểm 10 ngày.",
+      "outcome": "Trong đợt khuyến mãi, toàn bộ đơn hàng không bị ảnh hưởng bởi tắc biên, tỷ lệ giao hàng đúng hạn dẫn đầu danh mục.",
+      "conclusion": "Năng lực quan sát thị trường và chiến lược dự trữ hàng tiền phương giúp người bán thắng thế trong giai đoạn hậu cần nhạy cảm.",
+      "tags": ["Việt Nam", "Chiến lược thông quan", "Kho tiền phương", "Làm đẹp"]
+    },
+    {
+      "case_id": "CASE-043",
+      "case_title": "Người bán đồ chơi giải phóng tồn kho cực nhanh qua livestream 'Double 12' tại Malaysia",
+      "case_type": "Thành công",
+      "background": "Một dòng đồ chơi sắp hết mùa, tồn kho lớn tại Malaysia cần thu hồi vốn gấp.",
+      "situation": "Livestream liên tục 24h trong ngày 12.12 với các trò chơi 'Hộp mù' và 'Giá sốc chớp nhoáng'.",
+      "outcome": "Dọn sạch tồn kho tích tụ 3 tháng chỉ trong một ngày, thu hồi dòng tiền hơn 100.000 USD.",
+      "conclusion": "Livestream là công cụ hiệu quả để xử lý hàng cuối mùa và đẩy nhanh tốc độ quay vòng vốn.",
+      "tags": ["Malaysia", "Quản lý tồn kho", "Livestream tiếp thị", "Đồ chơi"]
+    },
+    {
+      "case_id": "CASE-044",
+      "case_title": "Thương hiệu dụng cụ cơ khí tối ưu hình ảnh Listing theo thói quen thợ Indonesia",
+      "case_type": "Thành công",
+      "background": "Sản phẩm cưa cầm tay bán chậm tại Indonesia do Listing cũ chỉ khoe vẻ ngoài mà không có cảnh sử dụng thực tế.",
+      "situation": "Chụp lại ảnh động (GIF) và video ngắn quay thợ mộc Indonesia dùng cưa cắt các loại gỗ cứng phổ biến địa phương.",
+      "outcome": "Tỷ lệ chuyển đổi trang sản phẩm tăng gấp 3, các câu hỏi về 'có cắt được gỗ cứng không' giảm hẳn.",
+      "conclusion": "Trình bày Listing theo ngữ cảnh sử dụng giúp giải quyết trực tiếp nỗi lo của người mua, đặc biệt là đồ nghề chuyên dụng.",
+      "tags": ["Indonesia", "Tiếp thị ngữ cảnh", "Tối ưu hóa Listing", "Dụng cụ cơ khí"]
+    },
+    {
+      "case_id": "CASE-045",
+      "case_title": "Người bán Singapore thúc đẩy chốt đơn nhờ chính sách đổi trả linh hoạt",
+      "case_type": "Thành công",
+      "background": "Người tiêu dùng Singapore coi trọng bảo đảm mua sắm, thường do dự lâu với sản phẩm giá cao.",
+      "situation": "Áp dụng chính sách '15 ngày đổi trả miễn phí không cần lý do' và thuê shipper đến tận nhà lấy hàng trả.",
+      "outcome": "Dù tỷ lệ hoàn hàng tăng nhẹ 1% nhưng doanh số tổng tăng tới 40%, đặc biệt các mã hàng giá cao bán rất tốt.",
+      "conclusion": "Tại thị trường có hệ thống tín dụng tốt, bảo đảm đổi trả hoàn thiện là cú hích cuối cùng để chuyển đổi đơn hàng giá trị lớn.",
+      "tags": ["Singapore", "Chính sách đổi trả", "Quyết định mua hàng", "Bảo vệ khách hàng"]
+    },
+    {
+      "case_id": "CASE-046",
+      "case_title": "Thương hiệu mỹ phẩm tăng chuyển đổi nhờ ứng dụng thử son AR tại Thái Lan",
+      "case_type": "Thành công",
+      "background": "Do không được thử màu trực tiếp, tỷ lệ tư vấn xong không mua của một nhãn son tại Thái Lan rất cao.",
+      "situation": "Tích hợp công cụ thử màu AR thời gian thực trên website và gian hàng Shopee, cho khách chọn màu qua camera.",
+      "outcome": "Thời gian khách ở lại trang tăng thêm 2 phút, tỷ lệ mua hàng các mã sản phẩm liên quan tăng 22%.",
+      "conclusion": "Công nghệ hỗ trợ trải nghiệm giúp bù đắp điểm yếu của mua sắm trực tuyến, đặc biệt là các mặt hàng nhạy cảm về màu sắc.",
+      "tags": ["Thái Lan", "Công nghệ AR", "Mỹ phẩm", "Trải nghiệm mua sắm"]
+    },
+    {
+      "case_id": "CASE-047",
+      "case_title": "Thương hiệu nhà thông minh xây dựng uy tín qua chương trình dùng thử của KOL Malaysia",
+      "case_type": "Thành công",
+      "background": "Thương hiệu mới, sản phẩm khóa thông minh giá cao gặp khó khăn trong việc tạo niềm tin tại Malaysia.",
+      "situation": "Mời 10 blogger chuyên về nội thất Malaysia dùng thử miễn phí, yêu cầu đăng phản hồi thực tế về quá trình lắp đặt và sử dụng lâu dài.",
+      "outcome": "Tích lũy được hơn 500 đánh giá chất lượng cao, lượng tìm kiếm thương hiệu tăng 400% trong một tháng.",
+      "conclusion": "Dùng thử là 'máy phá băng' để có những đánh giá đầu tiên và xây dựng niềm tin, đặc biệt hiệu quả với hàng công nghệ giá cao.",
+      "tags": ["Malaysia", "Chương trình dùng thử", "Niềm tin thương hiệu", "Nhà thông minh"]
+    },
+    {
+      "case_id": "CASE-048",
+      "case_title": "Người bán thời trang đi trước thị trường đồ đi mưa theo mùa tại Philippines",
+      "case_type": "Thành công",
+      "background": "Philippines có mùa mưa dài và lượng mưa lớn, nhu cầu đồ đi mưa chất lượng có tính chu kỳ rõ rệt.",
+      "situation": "Trước mùa mưa 2 tháng đã hoàn thành chọn mẫu và chuyển hàng bằng đường biển, đánh vào tính năng 'chống gió mạnh' và 'gọn nhẹ'.",
+      "outcome": "Tháng đầu mùa mưa doanh số đạt 150% kế hoạch, biên lợi nhuận cao nhờ chuẩn bị hàng sớm giá tốt.",
+      "conclusion": "Nắm bắt chu kỳ khí hậu các nước để chuẩn bị hàng sớm là chìa khóa để có lợi nhuận vượt định mức.",
+      "tags": ["Philippines", "Tiếp thị mùa mưa", "Nhu cầu theo mùa", "Đồ đi mưa"]
+    },
+    {
+      "case_id": "CASE-049",
+      "case_title": "Thương hiệu thực phẩm vào chuỗi siêu thị Việt Nam nhờ chứng chỉ FDA",
+      "case_type": "Thành công",
+      "background": "Một người bán đồ ăn vặt muốn mở rộng từ gian hàng Shopee sang hệ thống siêu thị cao cấp ngoại tuyến tại Việt Nam.",
+      "situation": "Mất 8 tháng để đăng ký và nhận được chứng nhận nhập khẩu FDA Việt Nam và các giấy phép vệ sinh liên quan.",
+      "outcome": "Vào thành công nhiều siêu thị WinMart tại TP.HCM, kênh ngoại tuyến đóng góp 50% doanh thu toàn thương hiệu.",
+      "conclusion": "Chứng chỉ tuân thủ là ngưỡng cửa cứng để mở rộng kênh offline, đầu tư dài hạn cho chứng từ giúp mở ra không gian tăng trưởng lớn.",
+      "tags": ["Việt Nam", "Chứng nhận FDA", "Kênh siêu thị", "Thực phẩm"]
+    },
+    {
+      "case_id": "CASE-050",
+      "case_title": "Thương hiệu Mẹ và Bé bùng nổ nhờ dòng quần áo 'đặc chế Đông Nam Á' chống muỗi",
+      "case_type": "Thành công",
+      "background": "Sốt xuất huyết phổ biến ở Đông Nam Á, cha mẹ rất lo lắng về việc chống muỗi cho trẻ nhỏ.",
+      "situation": "Phát triển dòng quần áo trẻ em dùng vải chống muỗi đặc biệt, mỏng nhẹ thoáng khí và hợp thẩm mỹ địa phương.",
+      "outcome": "Sản phẩm cháy hàng tại Indonesia và Philippines, trở thành quán quân doanh số danh mục Mẹ và Bé trong quý.",
+      "conclusion": "Phát triển sản phẩm dựa trên rủi ro môi trường đặc thù (khí hậu, dịch bệnh) tạo ra lợi thế cạnh tranh áp đảo.",
+      "tags": ["Indonesia", "Thời trang tính năng", "Nghiên cứu sản phẩm", "Mẹ và Bé"]
+    },
+    {
+      "case_id": "CASE-051",
+      "case_title": "Thương hiệu dụng cụ tóc cao cấp xây dựng uy tín qua hợp tác với salon chuyên nghiệp tại Thái Lan",
+      "case_type": "Thành công",
+      "background": "Máy sấy tóc cao cấp của thương hiệu đối mặt với cạnh tranh giá rẻ khốc liệt trên thị trường trực tuyến Thái Lan.",
+      "situation": "Hợp tác với 10 salon tóc hàng đầu tại Bangkok để trở thành dụng cụ tạo kiểu được chỉ định và trưng bày mã QR thương hiệu tại cửa hàng.",
+      "outcome": "Tỷ lệ chuyển đổi của gian hàng trực tuyến tăng 45%; thương hiệu định vị thành công là 'dụng cụ chuyên nghiệp', tăng đáng kể giá trị thặng dư.",
+      "conclusion": "Sự bảo chứng từ các kênh ngoại tuyến chuyên nghiệp giúp nâng tầm hình ảnh thương hiệu online và tạo ra sự khác biệt về giá.",
+      "tags": ["Thái Lan", "Liên kết O2O", "Bảo chứng thương hiệu", "Chăm sóc tóc"]
+    },
+    {
+      "case_id": "CASE-052",
+      "case_title": "Người bán nội thất văn phòng cải thiện đánh giá nhờ dịch vụ lắp đặt tận nơi tại Indonesia",
+      "case_type": "Thành công",
+      "background": "Sản phẩm ghế văn phòng xuất khẩu sang Indonesia thường bị đánh giá xấu và hoàn hàng do khó lắp đặt.",
+      "situation": "Hợp tác với các đội ngũ lắp đặt bên thứ ba tại các thành phố lớn ở Indonesia để cung cấp tùy chọn 'lắp đặt tận nơi'.",
+      "outcome": "Hư hỏng và hoàn hàng do lắp đặt sai giảm 80%, điểm đánh giá cửa hàng tăng lên 4.9 sao.",
+      "conclusion": "Đối với các sản phẩm lắp đặt phức tạp, dịch vụ bản địa hóa là chìa khóa để cải thiện uy tín và năng lực cạnh tranh.",
+      "tags": ["Indonesia", "Bản địa hóa", "Dịch vụ lắp đặt", "Nội thất văn phòng"]
+    },
+    {
+      "case_id": "CASE-053",
+      "case_title": "Người bán quần áo trẻ em tăng chuyển đổi nhờ chăm sóc khách hàng song ngữ tại Malaysia",
+      "case_type": "Thành công",
+      "background": "Cơ cấu người tiêu dùng đa dạng tại Malaysia khiến dịch vụ chỉ dùng tiếng Anh khó đáp ứng nhu cầu của cộng đồng người gốc Hoa.",
+      "situation": "Sử dụng nhân viên thành thạo cả tiếng Trung và tiếng Anh, vận hành cộng đồng riêng biệt cho nhóm khách nói tiếng Trung.",
+      "outcome": "Tỷ lệ đặt hàng từ khách gốc Hoa tăng 35%, các tranh chấp trước bán hàng giảm rõ rệt nhờ giao tiếp thông suốt.",
+      "conclusion": "Các quốc gia đa văn hóa cần chú trọng đa ngôn ngữ trong chăm sóc khách hàng để phù hợp với thói quen giao tiếp của từng sắc tộc.",
+      "tags": ["Malaysia", "Ngôn ngữ", "Tiếp thị chính xác", "Thời trang trẻ em"]
+    },
+    {
+      "case_id": "CASE-054",
+      "case_title": "Thương hiệu thú cưng bùng nổ lưu lượng nhờ liên kết với lễ hội thú cưng tại Singapore",
+      "case_type": "Thành công",
+      "background": "Singapore thường xuyên tổ chức triển lãm thú cưng quy mô lớn, thu hút đông đảo người tham gia trực tiếp.",
+      "situation": "Mở 'gian hàng ảo' trên Lazada trong thời gian triển lãm, cung cấp ưu đãi đồng bộ và giao hàng hỏa tốc.",
+      "outcome": "Lượt truy cập cửa hàng tăng gấp 5 lần trong kỳ triển lãm, chi phí thu hút khách mới giảm 40% so với bình thường.",
+      "conclusion": "Liên kết tiếp thị trực tuyến với các sự kiện offline lớn giúp tận dụng lưu lượng công cộng để tăng trưởng đột phá.",
+      "tags": ["Singapore", "Liên kết triển lãm", "Sản phẩm thú cưng", "Sự kiện tiếp thị"]
+    },
+    {
+      "case_id": "CASE-055",
+      "case_title": "Thương hiệu mỹ phẩm tăng trưởng thần tốc qua mô hình Affiliate tại Việt Nam",
+      "case_type": "Thành công",
+      "background": "Thương hiệu mới vào Việt Nam đối mặt với chi phí quảng cáo nội sàn cực đắt đỏ.",
+      "situation": "Kích hoạt chế độ tiếp thị liên kết (Affiliate) hoa hồng cao trên TikTok và Shopee, thu hút hàng nghìn sinh viên và mẹ bỉm sữa tham gia bán hàng.",
+      "outcome": "Doanh số tháng tăng từ 0 lên 5.000 đơn mà không tốn phí quảng cáo trực tiếp, biên lợi nhuận vẫn đảm bảo.",
+      "conclusion": "Tại thị trường có chi phí lao động thấp và độ phụ thuộc xã hội cao, mô hình Affiliate là đòn bẩy để phủ sóng thương hiệu.",
+      "tags": ["Việt Nam", "Tiếp thị liên kết", "Tăng trưởng nóng", "Mỹ phẩm"]
+    },
+    {
+      "case_id": "CASE-056",
+      "case_title": "Thương hiệu đồ gia dụng tối ưu hậu cần qua phân bổ đa kho tại Indonesia",
+      "case_type": "Thành công",
+      "background": "Do địa hình Indonesia, người bán gặp khó khăn khi kiểm soát phí vận chuyển và thời gian đi các đảo xa.",
+      "situation": "Thiết lập kho tại Java và Sumatra, sử dụng định tuyến thông minh để giao hàng từ kho gần nhất.",
+      "outcome": "Thời gian giao hàng trung bình đi các đảo xa rút ngắn 4 ngày, chi phí vận chuyển giảm 20% nhờ phân phối theo vùng.",
+      "conclusion": "Tại quốc gia vạn đảo như Indonesia, bố cục kho hàng hợp lý là giải pháp gốc rễ cho bài toán hậu cần.",
+      "tags": ["Indonesia", "Kho bãi", "Tối ưu hóa hậu cần", "Đồ gia dụng"]
+    },
+    {
+      "case_id": "CASE-057",
+      "case_title": "Người bán kỹ thuật số tận dụng 'Ngày nhận lương' để chạy Flash Sale mục tiêu tại Thái Lan",
+      "case_type": "Thành công",
+      "background": "Người tiêu dùng Thái Lan có thói quen 'nhận lương là mua sắm', lưu lượng và sức mua đạt đỉnh vào cuối tháng.",
+      "situation": "Dùng quảng cáo trả phí kết hợp voucher giới hạn thời gian vào giai đoạn từ ngày 25-30 hàng tháng.",
+      "outcome": "Doanh số 5 ngày cuối tháng chiếm hơn 50% tổng doanh thu tháng, ROI quảng cáo tăng gấp đôi.",
+      "conclusion": "Thấu hiểu chu kỳ tài chính và thói quen tiêu dùng địa phương giúp ngân sách tiếp thị đạt hiệu quả tối ưu.",
+      "tags": ["Thái Lan", "Tiếp thị ngày nhận lương", "Thói quen tiêu dùng", "Sản phẩm số"]
+    },
+    {
+      "case_id": "CASE-058",
+      "case_title": "Người bán túi xách tăng nhận diện qua bao bì in ngôn ngữ bản địa tại Philippines",
+      "case_type": "Thành công",
+      "background": "Sử dụng túi chống thấm trắng thông thường trông rẻ tiền và dễ bị xử lý thô bạo tại trung tâm phân loại.",
+      "situation": "Chuyển sang hộp carton màu sắc rực rỡ có in logo thương hiệu và nhãn 'Hàng dễ vỡ' bằng tiếng Tagalog.",
+      "outcome": "Tỷ lệ hư hỏng gói hàng giảm 30%, logo thương hiệu xuất hiện nổi bật trong các video unboxing của khách.",
+      "conclusion": "Bao bì chỉn chu không chỉ bảo vệ hàng hóa mà còn là điểm chạm thương hiệu quan trọng khi hàng đến tay khách.",
+      "tags": ["Philippines", "Thiết kế bao bì", "Hao hụt hậu cần", "Túi xách"]
+    },
+    {
+      "case_id": "CASE-059",
+      "case_title": "Người bán đồ dã ngoại 'gieo mầm' nội dung qua chủ đề vườn quốc gia tại Malaysia",
+      "case_type": "Thành công",
+      "background": "Thị trường đồ dã ngoại tại Malaysia lớn nhưng cạnh tranh từ khóa 'Hiking' quá gay gắt.",
+      "situation": "Xây dựng các bài hướng dẫn leo núi tại các vườn quốc gia nổi tiếng của Malaysia trên blog và mạng xã hội kèm link sản phẩm.",
+      "outcome": "Thu hút chính xác nhóm khách hàng đam mê leo núi chuyên nghiệp, giá trị đơn hàng cao hơn 20% mức trung bình.",
+      "conclusion": "Sử dụng nội dung chuyên nghiệp mang đặc trưng địa lý bản địa giúp khoanh vùng nhóm khách hàng giá trị cao.",
+      "tags": ["Malaysia", "Tiếp thị nội dung", "Lưu lượng chính xác", "Đồ dã ngoại"]
+    },
+    {
+      "case_id": "CASE-060",
+      "case_title": "Người bán thời trang giảm rào cản mua hàng qua 'Dùng trước trả sau' tại Singapore",
+      "case_type": "Thành công",
+      "background": "Khó khăn khi bán đồ thiết kế online là khách lo ngại sai kích cỡ và chất liệu không như ý.",
+      "situation": "Tích hợp dịch vụ 'Try Now Pay Later' của Lazada, cho phép khách nhận hàng thử đồ trước khi quyết định thanh toán.",
+      "outcome": "Doanh số dòng thời trang nữ cao cấp tăng 30%; tỷ lệ hoàn hàng thấp hơn dự kiến nhờ chất lượng sản phẩm tốt.",
+      "conclusion": "Với mặt hàng cần trải nghiệm, kết hợp công cụ tài chính và chính sách dịch vụ là cách phá vỡ nút thắt mua sắm online.",
+      "tags": ["Singapore", "BNPL", "Thời trang", "Tỷ lệ chuyển đổi"]
+    },
+    {
+      "case_id": "CASE-061",
+      "case_title": "Thương hiệu Mẹ và Bé đạt hiệu quả truyền miệng qua vận hành KOC trong hội nhóm mẹ bỉm Việt Nam",
+      "case_type": "Thành công",
+      "background": "Quyết định mua sắm trong gia đình Việt thường do người mẹ nắm giữ và tin dùng lời khuyên từ người quen.",
+      "situation": "Nuôi dưỡng nhóm khách hàng trung thành thành KOC, khuyến khích chia sẻ kinh nghiệm chăm con thực tế kèm đánh giá sản phẩm.",
+      "outcome": "Đơn hàng từ giới thiệu truyền miệng chiếm hơn 40%, chi phí thu hút khách (CAC) chỉ bằng 1/10 quảng cáo trực tiếp.",
+      "conclusion": "Tại thị trường coi trọng kết nối xã hội, sự chia sẻ thực tế từ KOC có sức thuyết phục hơn quảng cáo chính thống.",
+      "tags": ["Việt Nam", "Tiếp thị KOC", "Truyền miệng", "Mẹ và Bé"]
+    },
+    {
+      "case_id": "CASE-062",
+      "case_title": "Người bán 3C xây dựng rào cản thương hiệu qua chứng nhận gian hàng chính hãng tại Indonesia",
+      "case_type": "Thành công",
+      "background": "Cửa hàng thông thường tại Indonesia đối mặt với hàng giả giá rẻ tràn lan, khiến khách hàng mất lòng tin.",
+      "situation": "Hoàn tất đăng ký công ty và nhãn hiệu tại bản địa, xin gia nhập Shopee Mall/LazMall thành công.",
+      "outcome": "Doanh số tăng trưởng ổn định dù giá cao hơn cửa hàng thường 20%, lòng trung thành thương hiệu tăng rõ rệt.",
+      "conclusion": "Nhãn gian hàng chính hãng là giải pháp hữu hiệu nhất cho bài toán niềm tin tại Đông Nam Á, là nền tảng kinh doanh lâu dài.",
+      "tags": ["Indonesia", "Chứng nhận thương hiệu", "Vào Mall", "Điện tử 3C"]
+    },
+    {
+      "case_id": "CASE-063",
+      "case_title": "Người bán phụ kiện 'cháy hàng' nhờ bộ sưu tập 'vật phẩm may mắn' theo phong thủy Thái Lan",
+      "case_type": "Thành công",
+      "background": "Người tiêu dùng Thái Lan cực kỳ quan tâm đến tử vi, cung hoàng đạo và các vật phẩm mang lại may mắn.",
+      "situation": "Hợp tác với chuyên gia phong thủy địa phương phát triển dòng vòng tay đá theo vận hạn năm.",
+      "outcome": "Sản phẩm liên tục lọt top xu hướng Twitter Thái Lan, doanh số bùng nổ trong dịp lễ tình nhân.",
+      "conclusion": "Kết hợp sản phẩm với tín ngưỡng hoặc văn hóa đặc thù địa phương tạo ra nhu cầu tiêu dùng dựa trên cảm xúc cực mạnh.",
+      "tags": ["Thái Lan", "Văn hóa tâm linh", "Giá trị cảm xúc", "Phụ kiện"]
+    },
+    {
+      "case_id": "CASE-064",
+      "case_title": "Người bán túi xách tận dụng lưu lượng 'vét đuôi' sau đại tiệc 11.11 tại Philippines",
+      "case_type": "Thành công",
+      "background": "Sau đại lễ 11.11, lưu lượng và doanh số thường sụt giảm nghiêm trọng.",
+      "situation": "Nhắm mục tiêu vào những người đã thêm hàng vào giỏ nhưng chưa thanh toán bằng voucher 'Giảm giá hậu kỳ'.",
+      "outcome": "Chuyển đổi thành công 30% khách hàng tiềm năng bị bỏ lỡ, doanh thu tuần sau lễ duy trì gấp đôi mức bình thường.",
+      "conclusion": "Lưu lượng sau khuyến mãi vẫn rất giá trị, tiếp thị lại chính xác có thể khai thác nốt dư chấn của chiến dịch lớn.",
+      "tags": ["Philippines", "Hậu khuyến mãi", "Chuyển đổi lần hai", "Túi xách"]
+    },
+    {
+      "case_id": "CASE-065",
+      "case_title": "Người bán điện máy nhỏ giải quyết chậm trễ giao hàng qua kho trung chuyển Bắc-Nam tại Việt Nam",
+      "case_type": "Thành công",
+      "background": "Khoảng cách Hà Nội - TP.HCM xa khiến giao hàng liên vùng thường mất hơn 7 ngày.",
+      "situation": "Thiết lập kho tiền phương tại cả hai miền, phân bổ hàng dựa trên dự báo đơn hàng khu vực.",
+      "outcome": "Thời gian giao hàng toàn quốc rút ngắn còn trung bình 48h, phản hồi 'giao hàng nhanh' tăng 200%.",
+      "conclusion": "Tốc độ hậu cần là sinh mệnh của thương mại; đa kho liên kết là giải pháp tối ưu cho địa hình hẹp dài của Việt Nam.",
+      "tags": ["Việt Nam", "Tối ưu hóa hậu cần", "Kho tiền phương", "Điện máy nhỏ"]
+    },
+    {
+      "case_id": "CASE-066",
+      "case_title": "Người bán giày giảm hoàn hàng nhờ tối ưu hóa bảng size phù hợp người Malaysia",
+      "case_type": "Thành công",
+      "background": "Người Malaysia có khuôn chân rộng, dùng bảng size chuẩn Trung Quốc hoặc Âu Mỹ thường gây nhầm lẫn.",
+      "situation": "Thu thập phản hồi từ 5.000 khách bản địa để lập bảng size theo 'số đo cm thực tế'.",
+      "outcome": "Tỷ lệ hoàn hàng do sai size giảm từ 15% xuống 4%, tiết kiệm đáng kể chi phí vận hành.",
+      "conclusion": "Bản địa hóa bảng size là việc cơ bản nhưng quan trọng nhất của ngành thời trang, liên quan trực tiếp đến lợi nhuận.",
+      "tags": ["Malaysia", "Tối ưu bảng size", "Bản địa hóa chi tiết", "Giày dép"]
+    },
+    {
+      "case_id": "CASE-067",
+      "case_title": "Người bán nước lau sàn đạt hiệu quả virus qua thử thách 'Dirty to Clean' tại Indonesia",
+      "case_type": "Thành công",
+      "background": "Sản phẩm làm sạch thông thường khó thể hiện hiệu quả qua ảnh tĩnh.",
+      "situation": "Phát động thử thách trên TikTok, mời các bà nội trợ quay video so sánh trước và sau khi dùng sản phẩm.",
+      "outcome": "Lượt xem hashtag vượt mốc trăm triệu, bán sạch lượng hàng dự kiến cho cả năm chỉ trong một tuần.",
+      "conclusion": "Video ngắn có độ tương phản thị giác mạnh kết hợp thử thách mạng xã hội là vũ khí sắc bén cho ngành gia dụng.",
+      "tags": ["Indonesia", "Tiếp thị video ngắn", "Thử thách TikTok", "Đồ gia dụng"]
+    },
+    {
+      "case_id": "CASE-068",
+      "case_title": "Người bán văn phòng phẩm tại Singapore tăng AOV nhờ combo 'Mùa khai trường'",
+      "case_type": "Thành công",
+      "background": "Tháng 1 và tháng 6 là mùa khai trường tại Singapore, phụ huynh có thói quen mua sắm một lần cho đủ bộ.",
+      "situation": "Ra mắt 'Combo khai trường' gồm cặp sách, bình nước, hộp bút và bộ bút đầy đủ với giá ưu đãi 25%.",
+      "outcome": "Giá trị đơn hàng trung bình (AOV) tăng 3.3 lần, đạt mức 50 SGD/đơn.",
+      "conclusion": "Nắm bắt các mốc xã hội địa phương và cung cấp giải pháp trọn gói giúp tăng hiệu quả bán hàng rõ rệt.",
+      "tags": ["Singapore", "Tiếp thị mùa khai trường", "Chiến lược combo", "Văn phòng phẩm"]
+    },
+    {
+      "case_id": "CASE-069",
+      "case_title": "Người bán đồ nội thất giảm hủy đơn giữa chừng qua kịch bản chăm sóc khách hàng tại Philippines",
+      "case_type": "Thành công",
+      "background": "Người tiêu dùng Philippines thường mua sắm ngẫu hứng và hay hủy đơn khi hàng đang trên đường giao.",
+      "situation": "Nhân viên nhắn tin xác nhận tình cảm trong vòng 1 giờ sau khi đặt hàng, thông báo thời gian dự kiến và quà tặng khi ký nhận.",
+      "outcome": "Tỷ lệ hủy đơn giữa chừng giảm 50%, giảm thiểu hao hụt phí vận chuyển và vận hành.",
+      "conclusion": "Xác nhận kịp thời và duy trì kết nối cảm xúc giúp giảm đáng kể tỷ lệ 'bom hàng' tại các thị trường mua sắm theo cảm xúc.",
+      "tags": ["Philippines", "Tối ưu hóa CSKH", "Kiểm soát tỷ lệ hủy đơn", "Nội thất"]
+    },
+    {
+      "case_id": "CASE-070",
+      "case_title": "Người bán thời trang tại Thái Lan dùng tâm lý 'so sánh giá' để tiếp thị ngược",
+      "case_type": "Thành công",
+      "background": "Người Thái cực kỳ thích so giá giữa các sàn, người bán lo ngại cạnh tranh giá rẻ làm hỏng thương hiệu.",
+      "situation": "Giữ giá nhất quán nhưng đẩy mã freeship trên Shopee và mã giảm giá sâu trên Lazada, khiến khách mua ở đâu cũng thấy 'hời'.",
+      "outcome": "Tổng doanh thu toàn mạng lưới tăng trưởng ổn định, tránh được bẫy chiến tranh giá rẻ thuần túy.",
+      "conclusion": "Hiểu và tận dụng tâm lý so giá của khách qua các hình thức ưu đãi khác biệt giúp bảo vệ giá trị thương hiệu.",
+      "tags": ["Thái Lan", "Định giá khác biệt", "Tâm lý tiếp thị", "Thời trang"]
+    },
+    {
+      "case_id": "CASE-071",
+      "case_title": "Người bán công cụ cơ khí tận dụng tuyến vận chuyển đặc biệt đi các đảo ngoại vi Indonesia",
+      "case_type": "Thành công",
+      "background": "Hàng gửi đi các đảo xa như Sulawesi thường bị chậm trễ khiến khách đánh giá xấu.",
+      "situation": "Hợp tác với các đơn vị hậu cần bản địa như J&T để mở tuyến gửi thẳng đi các nút mạng lưới cốt lõi vùng đảo.",
+      "outcome": "Tỷ lệ giao hàng đúng hạn vùng đảo đạt trên 90%, doanh số khu vực này tăng gấp đôi sau 3 tháng.",
+      "conclusion": "Kết nối sâu với tài nguyên hậu cần ưu thế tại địa phương giúp vươn vòi bạch tuộc đến các thị trường ngách xa xôi.",
+      "tags": ["Indonesia", "Hậu cần chặng cuối", "Thị trường vùng đảo", "Công cụ cơ khí"]
+    },
+    {
+      "case_id": "CASE-072",
+      "case_title": "Thương hiệu Mẹ và Bé tăng uy tín qua tiếp thị kiến thức trong tuần lễ nuôi con bằng sữa mẹ tại Malaysia",
+      "case_type": "Thành công",
+      "background": "Cạnh tranh máy hút sữa rất lớn, thương hiệu cần nâng cao tính chuyên nghiệp để chiếm lòng tin của các mẹ trẻ.",
+      "situation": "Mời bác sĩ chuyên khoa Malaysia livestream chia sẻ kiến thức nuôi con khoa học và lồng ghép sản phẩm.",
+      "outcome": "Thương hiệu nổi tiếng trong cộng đồng mẹ bỉm cao cấp, doanh số các dòng máy giá cao tăng 30%.",
+      "conclusion": "Trao giá trị kiến thức là con đường cốt lõi để tăng chuyển đổi cho các sản phẩm mẹ và bé có hàm lượng công nghệ cao.",
+      "tags": ["Malaysia", "Tiếp thị chuyên nghiệp", "Nâng tầm thương hiệu", "Mẹ và Bé"]
+    },
+    {
+      "case_id": "CASE-073",
+      "case_title": "Người bán mỹ phẩm 'cháy hàng' nhờ dòng trang điểm 'chống mồ hôi' cho người đi xe máy tại Việt Nam",
+      "case_type": "Thành công",
+      "background": "Khí hậu Việt Nam nóng ẩm và người dân chủ yếu đi xe máy, lớp trang điểm thông thường rất dễ trôi.",
+      "situation": "Đánh vào nỗi đau khách hàng, ra mắt dòng phấn nước 'kiềm dầu, chống mồ hôi suốt 12h'.",
+      "outcome": "Sản phẩm trở thành lựa chọn hàng đầu của dân văn phòng trẻ tại TP.HCM, tỷ lệ mua lại hàng tháng đạt 20%.",
+      "conclusion": "Nghiên cứu sản phẩm phải dựa trên điểm đau thực tế của địa phương (khí hậu, phương tiện di chuyển).",
+      "tags": ["Việt Nam", "Bản địa hóa sản phẩm", "Ngữ cảnh tiêu dùng", "Mỹ phẩm"]
+    },
+    {
+      "case_id": "CASE-074",
+      "case_title": "Người bán phụ kiện tối ưu hóa cửa hàng theo phong cách Instagram Singapore",
+      "case_type": "Thành công",
+      "background": "Người tiêu dùng Singapore chuộng thẩm mỹ quốc tế, tối giản, trước đây trang cửa hàng quá lòe loẹt.",
+      "situation": "Tham khảo phong cách các blogger thời trang Singapore, chuyển tông màu cửa hàng sang hệ màu Morandi và chụp ảnh tối giản.",
+      "outcome": "Tỷ lệ chuyển đổi web độc lập tăng từ 1.5% lên 3.2%, giá trị đơn hàng trung bình cũng tăng 20%.",
+      "conclusion": "Phong cách hình ảnh là tín hiệu đầu tiên về độ bắt nhịp của thương hiệu với thẩm mỹ địa phương.",
+      "tags": ["Singapore", "Nâng cấp hình ảnh", "Thẩm mỹ bản địa", "Phụ kiện"]
+    },
+    {
+      "case_id": "CASE-075",
+      "case_title": "Người bán túi xách tăng niềm tin khách mới qua hình thức COD giá trị nhỏ tại Philippines",
+      "case_type": "Thành công",
+      "background": "Khách hàng mới Philippines rất e ngại các cửa hàng xuyên biên giới, không muốn trả tiền trước.",
+      "situation": "Mở toàn bộ COD cho khách mua lần đầu và thiết lập kênh khiếu nại hoàn tiền nhanh để khách yên tâm.",
+      "outcome": "Tốc độ thu hút khách mới tăng gấp đôi, 30% khách hàng chuyển sang trả trước ở đơn hàng thứ hai.",
+      "conclusion": "Tại thị trường đang xây dựng hệ thống tín dụng, COD không chỉ là cách thanh toán mà còn là cầu nối niềm tin.",
+      "tags": ["Philippines", "Thanh toán COD", "Chiến lược thu hút khách", "Túi xách"]
+    },
+    {
+      "case_id": "CASE-076",
+      "case_title": "Thương hiệu dụng cụ tóc đạt hiệu quả virus qua thử thách 'Biến hình kiểu tóc' tại Thái Lan",
+      "case_type": "Thành công",
+      "background": "Máy uốn tóc của thương hiệu cần kỹ năng sử dụng, video ngắn thông thường không đủ hấp dẫn.",
+      "situation": "Phát động chiến dịch biến hình trên TikTok, cho thấy quá trình lột xác từ 'vịt hóa thiên nga' nhờ kiểu tóc.",
+      "outcome": "Video được chia sẻ rầm rộ, từ khóa thương hiệu đứng đầu lượt tìm kiếm Shopee Thái Lan trong 2 tuần.",
+      "conclusion": "Sự thể hiện quá trình có tác động thị giác mạnh và sự tham gia của người dùng thực tế là yếu tố kích hoạt virus.",
+      "tags": ["Thái Lan", "Tiếp thị TikTok", "Lan truyền virus", "Làm đẹp"]
+    },
+    {
+      "case_id": "CASE-077",
+      "case_title": "Người bán Mẹ và Bé đảm bảo tỷ lệ hoàn thành đơn 11.11 qua luồng thông quan ưu tiên tại Việt Nam",
+      "case_type": "Thành công",
+      "background": "Dịp 11.11 Việt Nam thường xuyên ùn tắc thông quan do lượng bưu kiện nhập khẩu tăng đột biến.",
+      "situation": "Ký thỏa thuận bảo đảm năm với đại lý thông quan lớn địa phương và khai báo trước danh mục hàng hóa cồng kềnh.",
+      "outcome": "Trong khi toàn ngành chậm trung bình 3 ngày, người bán này thực hiện được thông quan trong ngày, giao hàng hôm sau.",
+      "conclusion": "Quan hệ sâu rộng và thỏa thuận bảo đảm trong chuỗi cung ứng là chìa khóa để duy trì trải nghiệm đỉnh cao dịp lễ lớn.",
+      "tags": ["Việt Nam", "Tối ưu hóa thông quan", "Năng lực thực hiện đơn", "Mẹ và Bé"]
+    },
+    {
+      "case_id": "CASE-078",
+      "case_title": "Thương hiệu phụ kiện số tăng giá trị nhờ chương trình 'Thu gom rác thải điện tử' tại Singapore",
+      "case_type": "Thành công",
+      "background": "Người dân Singapore rất nhạy cảm với ô nhiễm môi trường do thiết bị điện tử bỏ hoang.",
+      "situation": "Ra mắt chương trình 'Thu cũ đổi mới' và 'Thu hồi cáp sạc cũ giảm giá trực tiếp', tiếp thị qua khái niệm sống xanh.",
+      "outcome": "Được các tổ chức môi trường Singapore tự nguyện đề xuất, giá trị thặng dư và lòng trung thành tăng vọt.",
+      "conclusion": "Kết hợp hành vi thương hiệu với phúc lợi xã hội địa phương là con đường hiệu quả để bản địa hóa sâu sắc.",
+      "tags": ["Singapore", "Tiếp thị xanh", "Chiến lược bản địa hóa", "Phụ kiện số"]
+    },
+    {
+      "case_id": "CASE-079",
+      "case_title": "Thương hiệu nội thất giải quyết rào cản sản phẩm cồng kềnh qua livestream tiếng Indonesia",
+      "case_type": "Thành công",
+      "background": "Sản phẩm sofa đa năng giá cao khiến khách hàng Indonesia do dự vì không hiểu cách lắp đặt và biến hình.",
+      "situation": "Thuê host bản địa livestream demo thực tế quá trình lắp ráp và sử dụng sofa trong các ngữ cảnh khác nhau.",
+      "outcome": "Tỷ lệ chốt đơn trực tiếp từ livestream chiếm 60% doanh thu, các thắc mắc về tháo lắp giảm 90%.",
+      "conclusion": "Livestream không chỉ là bán hàng mà còn là 'hướng dẫn sử dụng động', hóa giải nỗi lo cho khách hàng.",
+      "tags": ["Indonesia", "Livestream bán hàng", "Demo sản phẩm", "Nội thất"]
+    },
+    {
+      "case_id": "CASE-080",
+      "case_title": "Người bán thời trang giảm chi phí tư vấn nhờ 'Trợ lý kích cỡ thông minh' tại Malaysia",
+      "case_type": "Thành công",
+      "background": "70% tư vấn mỗi ngày của khách Malaysia liên quan đến việc chọn size.",
+      "situation": "Tích hợp công cụ tính size tự động trong cửa sổ chat, khách chỉ cần nhập chiều cao cân nặng để nhận gợi ý.",
+      "outcome": "Hiệu suất nhân sự tăng 50%, tỷ lệ hoàn hàng do sai size xuống mức thấp kỷ lục.",
+      "conclusion": "Dùng công cụ số hóa giải quyết các thắc mắc lặp lại là con đường tất yếu để tăng hiệu quả và giảm chi phí.",
+      "tags": ["Malaysia", "Công cụ số hóa", "Hiệu suất CSKH", "Thời trang"]
+    },
+    {
+      "case_id": "CASE-081",
+      "case_title": "Người bán xuyên biên giới bị phạt nặng tại Indonesia vì 'khai thấp giá trị hàng hóa'",
+      "case_type": "Bài học thất bại",
+      "background": "Một người bán xuất khẩu đồng hồ thông minh giá 50 USD sang Indonesia, lượng hàng 3.000 chiếc/tháng.",
+      "situation": "Để trốn thuế, người bán khai giá trị chỉ 5 USD/chiếc, thấp hơn nhiều so với giá thị trường.",
+      "outcome": "Hải quan Indonesia xác định là cố ý khai thấp, truy thu thuế và phạt tổng cộng 300.000 Tệ, hàng bị tạm giữ 6 tháng.",
+      "conclusion": "Hải quan Indonesia kiểm soát giá trị hàng cực kỳ nghiêm ngặt, doanh nghiệp nên khai báo trung thực.",
+      "tags": ["Indonesia", "Rủi ro khai thấp giá", "Kiểm hóa", "Tuân thủ thuế"]
+    },
+    {
+      "case_id": "CASE-082",
+      "case_title": "Thương hiệu mỹ phẩm bị FDA Thái Lan phạt nặng do quảng cáo sai sự thật về công dụng y tế",
+      "case_type": "Bài học thất bại",
+      "background": "Một người bán tinh chất trị mụn quảng cáo 'chữa khỏi bệnh da liễu trong 7 ngày' tại Thái Lan.",
+      "situation": "Sản phẩm chỉ là mỹ phẩm thông thường nhưng dùng thuật ngữ y tế, vi phạm quy định của FDA Thái Lan.",
+      "outcome": "Sản phẩm bị gỡ bỏ, cửa hàng bị khóa 30 ngày và đối mặt khoản phạt hành chính 500.000 Baht.",
+      "conclusion": "Quảng bá mỹ phẩm tại Đông Nam Á phải kiểm soát chặt chẽ ngôn từ, nghiêm cấm dùng thuật ngữ y tế khi chưa được cấp phép.",
+      "tags": ["Thái Lan", "Tuân thủ FDA", "Quảng cáo sai sự thật", "Mỹ phẩm"]
+    },
+    {
+      "case_id": "CASE-083",
+      "case_title": "Người bán bị trả hàng toàn bộ do phớt lờ lệnh cấm nhập khẩu hàng cũ của Việt Nam",
+      "case_type": "Bài học thất bại",
+      "background": "Doanh nghiệp cố gắng xuất khẩu lô máy ảnh kỹ thuật số tân trang trị giá 200.000 Tệ sang Việt Nam.",
+      "situation": "Không kiểm tra quy định pháp luật Việt Nam nghiêm cấm nhập khẩu hàng điện tử tiêu dùng đã qua sử dụng.",
+      "outcome": "Hàng đến cảng không thể thông quan, buộc phải tái xuất, người bán chịu toàn bộ phí vận chuyển và lưu kho.",
+      "conclusion": "Việt Nam hạn chế rất nhiều mặt hàng cũ, phải tra cứu 'Danh mục cấm nhập khẩu' trước khi gửi hàng.",
+      "tags": ["Việt Nam", "Cấm nhập khẩu", "Đồ điện tử cũ", "Thông quan thất bại"]
+    },
+    {
+      "case_id": "CASE-084",
+      "case_title": "Người bán quần áo đối mặt tỷ lệ bùng đơn COD tăng vọt do chậm trễ hậu cần tại Philippines",
+      "case_type": "Bài học thất bại",
+      "background": "Sử dụng hình thức COD cho lượng lớn đơn hàng dịp khuyến mãi tại Philippines.",
+      "situation": "Do xử lý kho chậm và tắc biên, gói hàng mất 25 ngày mới đến tay người mua.",
+      "outcome": "Tỷ lệ từ chối nhận hàng (rejection rate) tăng từ 10% lên 45%, tổn thất phí vận chuyển và bao bì nặng nề.",
+      "conclusion": "Tại thị trường COD, thời gian là sinh mệnh; giao chậm sẽ làm mất ý định mua hàng của khách.",
+      "tags": ["Philippines", "COD", "Tỷ lệ bùng đơn", "Thời gian hậu cần"]
+    },
+    {
+      "case_id": "CASE-085",
+      "case_title": "Thương hiệu Mẹ và Bé bị tẩy chay do hình ảnh quảng cáo vi phạm cấm kỵ tôn giáo tại Malaysia",
+      "case_type": "Bài học thất bại",
+      "background": "Quảng cáo sản phẩm thực phẩm bổ sung cho trẻ em trên mạng xã hội Malaysia.",
+      "situation": "Hình ảnh vô tình xuất hiện yếu tố thực phẩm không Halal trong phông nền, gây phẫn nộ trong cộng đồng Hồi giáo.",
+      "outcome": "Thương hiệu bị khiếu nại và tẩy chay quy mô lớn, doanh thu sụt giảm 70% ngay trong tháng.",
+      "conclusion": "Tiếp thị tại thị trường Hồi giáo phải kiểm duyệt văn hóa cực kỳ khắt khe, mọi yếu tố hình ảnh phải tôn trọng giáo luật.",
+      "tags": ["Malaysia", "Cấm kỵ tôn giáo", "Tiếp thị văn hóa", "Khủng hoảng thương hiệu"]
+    },
+    {
+      "case_id": "CASE-086",
+      "case_title": "Người bán 3C bị khóa shop vĩnh viễn tại Singapore vì xâm phạm nhãn hiệu bản địa",
+      "case_type": "Bài học thất bại",
+      "background": "Bán tai nghe không thương hiệu tại Singapore nhưng dùng tên một nhãn hiệu nổi tiếng địa phương làm từ khóa tìm kiếm.",
+      "situation": "Chủ sở hữu nhãn hiệu khiếu nại trực tiếp lên nền tảng và cơ quan sở hữu trí tuệ Singapore.",
+      "outcome": "Cửa hàng bị đóng cửa vĩnh viễn, số dư tài khoản bị đóng băng và đối mặt rủi ro kiện tụng.",
+      "conclusion": "Singapore bảo hộ sở hữu trí tuệ rất nghiêm, người bán tuyệt đối không dùng tên thương hiệu chưa được ủy quyền.",
+      "tags": ["Singapore", "Xâm phạm nhãn hiệu", "Sở hữu trí tuệ", "Phòng ngừa rủi ro"]
+    },
+    {
+      "case_id": "CASE-087",
+      "case_title": "Người bán đồ gia dụng bị tịch thu hàng hóa do thiếu chứng nhận SNI tại Indonesia",
+      "case_type": "Bài học thất bại",
+      "background": "Xuất khẩu máy pha cà phê sang Indonesia thông qua nhà phân phối ngoại tuyến nhưng chưa xin chứng nhận SNI.",
+      "situation": "Bị kiểm tra đột xuất tại thị trường và xác định không đáp ứng tiêu chuẩn quốc gia bắt buộc.",
+      "outcome": "Toàn bộ hàng đang bán bị tịch thu tiêu hủy, nhà phân phối bị phạt nặng và chấm dứt hợp tác.",
+      "conclusion": "Indonesia áp dụng chứng nhận SNI bắt buộc cho đồ điện; kinh doanh không chứng chỉ sẽ chịu phạt cực nặng.",
+      "tags": ["Indonesia", "Chứng nhận SNI", "Rào cản gia nhập", "Điện máy nhỏ"]
+    },
+    {
+      "case_id": "CASE-088",
+      "case_title": "Người bán mỹ phẩm bị kẹt hàng dài ngày do thiếu công bố mỹ phẩm (CB) tại Việt Nam",
+      "case_type": "Bài học thất bại",
+      "background": "Gửi lô tinh chất dưỡng da qua chuyển phát nhanh hàng không vào Việt Nam vượt quá định mức cá nhân.",
+      "situation": "Không làm thủ tục công bố mỹ phẩm (phiếu CB), hàng bị coi là nhập khẩu thương mại thay vì quà biếu.",
+      "outcome": "Hàng bị kẹt tại kho hải quan sân bay hơn 3 tháng, cuối cùng bị tịch thu do không cung cấp được chứng từ.",
+      "conclusion": "Việt Nam kiểm soát mỹ phẩm nhập khẩu rất chặt; bán số lượng lớn phải làm công bố trước.",
+      "tags": ["Việt Nam", "Công bố mỹ phẩm", "Quy tắc thông quan", "Mỹ phẩm"]
+    },
+    {
+      "case_id": "CASE-089",
+      "case_title": "Người bán đồ chơi gặp cảnh 'nổ đơn' thành 'nổ kho' do cao điểm Giáng sinh tại Philippines",
+      "case_type": "Bài học thất bại",
+      "background": "Mùa Giáng sinh Philippines là cao điểm tiêu dùng, người bán nhận lượng đơn gấp nhiều lần ngày thường vào tháng 11.",
+      "situation": "Do không khóa trước tải trọng vận chuyển, hàng tồn đọng tại kho trung chuyển Trung Quốc và đến sau Giáng sinh.",
+      "outcome": "Hàng quà tặng mất ý nghĩa sau lễ, khách hàng yêu cầu hoàn tiền hàng loạt, tổn thất hơn 150.000 Tệ.",
+      "conclusion": "Với hàng mang tính thời vụ mạnh, phải quy hoạch hậu cần trước ít nhất 45 ngày.",
+      "tags": ["Philippines", "Tiếp thị Giáng sinh", "Đứt gãy chuỗi cung ứng", "Quy hoạch hậu cần"]
+    },
+    {
+      "case_id": "CASE-090",
+      "case_title": "Người bán kỹ thuật số tổn thất nặng tại Thái Lan do dùng bao bì kém chất lượng",
+      "case_type": "Bài học thất bại",
+      "background": "Xuất khẩu máy tính bảng sang Thái Lan, để tiết kiệm chi phí đã dùng hộp carton một lớp thông thường.",
+      "situation": "Qua nhiều khâu vận chuyển và phân loại tại Thái Lan, vỏ hộp rách nát làm hỏng linh kiện bên trong.",
+      "outcome": "Tỷ lệ trả hàng cao tới 20%, thiệt hại trực tiếp 80.000 Tệ, đánh giá cửa hàng rơi xuống 3.5 sao.",
+      "conclusion": "Vận chuyển xuyên biên giới dài ngày, sản phẩm điện tử tinh vi bắt buộc dùng bao bì cường độ cao.",
+      "tags": ["Thái Lan", "Hao hụt bao bì", "Sai lầm chi phí", "Sản phẩm số"]
+    },
+    {
+      "case_id": "CASE-091",
+      "case_title": "Người bán lỗ nặng tại Indonesia do thiết lập sai giá khuyến mãi",
+      "case_type": "Bài học thất bại",
+      "background": "Dịp khuyến mãi 11.11, người bán đồ gia dụng thiết lập giảm giá bậc thang trên Shopee Indonesia.",
+      "situation": "Hiểu sai về tỷ giá Rupiah (IDR) và quy tắc cộng dồn ưu đãi, thiết lập giá bán chỉ bằng 1/10 giá vốn.",
+      "outcome": "Phát sinh 3.000 đơn hàng trong một giờ; nếu giao thì lỗ 200.000 Tệ, không giao thì bị sàn phạt nặng.",
+      "conclusion": "Tiếp thị đa tiền tệ phải soát xét kỹ logic định giá để tránh sai sót thủ công gây thâm hụt tài sản.",
+      "tags": ["Indonesia", "Sai sót định giá", "Quy tắc khuyến mãi", "Rủi ro tỷ giá"]
+    },
+    {
+      "case_id": "CASE-092",
+      "case_title": "Thương hiệu mỹ phẩm bị HSA Singapore cảnh báo toàn cầu do chứa thành phần cấm",
+      "case_type": "Bài học thất bại",
+      "background": "Dòng kem dưỡng trắng bán chạy tại Singapore bị phát hiện chứa Hydroquinone bị cấm.",
+      "situation": "Cơ quan Khoa học Y tế Singapore (HSA) lấy mẫu kiểm tra và phát hành cảnh báo công khai.",
+      "outcome": "Bị gỡ bỏ trên toàn mạng, thương hiệu vào danh sách đen nhập khẩu, uy tín bị hủy hoại hoàn toàn.",
+      "conclusion": "Danh mục thành phần cấm mỹ phẩm mỗi nước một khác, phải đối soát kỹ lưỡng trước khi xuất khẩu.",
+      "tags": ["Singapore", "Giám sát HSA", "Thành phần cấm", "Tuân thủ pháp lý"]
+    },
+    {
+      "case_id": "CASE-093",
+      "case_title": "Người bán đồ thể thao bị tạm giữ hàng do vi phạm quy tắc nhãn mác xuất xứ tại Việt Nam",
+      "case_type": "Bài học thất bại",
+      "background": "Xuất khẩu giày thể thao sang Việt Nam nhưng bao bì chỉ có tiếng Anh, thiếu nhãn phụ tiếng Việt bắt buộc.",
+      "situation": "Vi phạm quy định nhãn mác đối với hàng hóa nhập khẩu (phải có thông tin bằng tiếng Việt).",
+      "outcome": "Hàng bị kẹt tại hải quan, phải thuê nhân công dán lại nhãn trong kho giám sát, phát sinh phí lưu kho 30.000 Tệ.",
+      "conclusion": "Việt Nam yêu cầu nhãn mác rất chi tiết; phải đảm bảo dán nhãn phụ tiếng Việt đúng quy định trước khi xuất hàng.",
+      "tags": ["Việt Nam", "Tuân thủ nhãn mác", "Quy tắc hải quan", "Giày thể thao"]
+    },
+    {
+      "case_id": "CASE-094",
+      "case_title": "Người bán tại Thái Lan bị phạt do thuê dịch vụ đánh giá ảo bị hệ thống phát hiện",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán mới muốn tích lũy uy tín nhanh, thuê trung gian thực hiện 'buff đơn' và đánh giá ảo tại Thái Lan.",
+      "situation": "Bị thuật toán AI của sàn nhận diện dựa trên quỹ đạo hậu cần bất thường và môi trường thanh toán không thực.",
+      "outcome": "Cửa hàng bị xác định gian lận, 1.000 đánh giá ảo bị xóa sạch, thứ hạng tìm kiếm bị đưa xuống cuối danh sách.",
+      "conclusion": "Thuật toán chống gian lận của các sàn Đông Nam Á đã nâng cấp mạnh mẽ; nên kiên trì vận hành 'mũ trắng'.",
+      "tags": ["Thái Lan", "Phạt buff đơn", "Chính sách nền tảng", "Rủi ro vận hành"]
+    },
+    {
+      "case_id": "CASE-095",
+      "case_title": "Người bán phụ kiện bị khiếu nại tập thể tại Philippines do hàm lượng chì vượt mức",
+      "case_type": "Bài học thất bại",
+      "background": "Thương hiệu phụ kiện giá rẻ xuất khẩu lô trang sức trẻ em sang Philippines.",
+      "situation": "Sản phẩm dùng hợp kim kém chất lượng, hàm lượng chì và niken vượt chuẩn gây dị ứng da cho trẻ em.",
+      "outcome": "Bùng nổ làn sóng phản đối trên mạng xã hội, người bán phải bồi thường y tế hơn 50.000 Tệ và bị cấm bán vĩnh viễn.",
+      "conclusion": "Tuân thủ chất lượng là lằn ranh đỏ, đặc biệt hàng trẻ em phải đạt chuẩn kiểm nghiệm kim loại nặng địa phương.",
+      "tags": ["Philippines", "Chất lượng sản phẩm", "Kiểm nghiệm tuân thủ", "Khủng hoảng PR"]
+    },
+    {
+      "case_id": "CASE-096",
+      "case_title": "Người bán bị từ chối thông quan do phớt lờ danh mục LARTAS của Indonesia",
+      "case_type": "Bài học thất bại",
+      "background": "Kế hoạch xuất khẩu lô đồ gia dụng nhà bếp thuộc danh mục hàng hóa hạn chế (LARTAS) của Indonesia.",
+      "situation": "Do không xin được hạn ngạch nhập khẩu hoặc giấy phép từ Bộ Công nghiệp trước, hàng bị hải quan chặn lại.",
+      "outcome": "Hàng buộc phải tái xuất hoặc tiêu hủy tại chỗ, gây thiệt hại 200.000 Tệ và bị đưa vào danh sách theo dõi rủi ro.",
+      "conclusion": "Khó khăn nhất khi thông quan Indonesia là danh mục LARTAS thay đổi liên tục, phải kiểm tra mã HS kỹ lưỡng.",
+      "tags": ["Indonesia", "LARTAS", "Hạn ngạch nhập khẩu", "Thông quan thất bại"]
+    },
+    {
+      "case_id": "CASE-097",
+      "case_title": "Người bán bị trừ điểm tín nhiệm do trục lợi mã miễn phí vận chuyển trên Shopee Philippines",
+      "case_type": "Bài học thất bại",
+      "background": "Chia nhỏ gói hàng, dụ khách đặt nhiều đơn nhỏ để chiếm dụng trợ giá vận chuyển (Free Shipping Vouchers) của sàn.",
+      "situation": "Hệ thống kiểm soát rủi ro phát hiện lượng lớn đơn hàng nhỏ bất thường đến cùng một địa chỉ trong thời gian ngắn.",
+      "outcome": "Người bán bị trừ 15 điểm tín nhiệm, mất quyền tham gia các chiến dịch lớn tiếp theo như 12.12.",
+      "conclusion": "Nghiêm cấm trục lợi lỗ hổng quy tắc nền tảng; hành vi đầu cơ sẽ đánh đổi bằng cơ hội kinh doanh dài hạn.",
+      "tags": ["Philippines", "Trục lợi quy tắc", "Phạt nền tảng", "Tuân thủ vận hành"]
+    },
+    {
+      "case_id": "CASE-098",
+      "case_title": "Người bán nội thất bị nấm mốc tồn kho tại Việt Nam do phớt lờ kiểm soát độ ẩm",
+      "case_type": "Bài học thất bại",
+      "background": "Thuê kho bãi giá rẻ tại TP.HCM để lưu trữ lô nội thất gỗ lắp ghép.",
+      "situation": "Rơi vào mùa mưa kéo dài, kho thoát nước kém và thông gió tồi khiến hàng hóa bị ẩm trầm trọng.",
+      "outcome": "30% ván gỗ bị mốc và biến dạng, buộc phải tiêu hủy lượng tồn kho trị giá 100.000 Tệ.",
+      "conclusion": "Các nước Đông Nam Á nóng ẩm mưa nhiều, chọn kho bãi phải tính đến khả năng chống ẩm và thiên tai.",
+      "tags": ["Việt Nam", "Rủi ro khí hậu", "Quản lý kho bãi", "Phòng ngừa tổn thất"]
+    },
+    {
+      "case_id": "CASE-099",
+      "case_title": "Thương hiệu 3C bị gỡ bỏ hàng loạt tại Thái Lan do thiếu chứng nhận TISI",
+      "case_type": "Bài học thất bại",
+      "background": "Thương hiệu sạc dự phòng đang bán rất chạy trên Lazada Thái Lan.",
+      "situation": "Thái Lan ban hành quy định mới về chứng nhận TISI bắt buộc cho đồ điện tử, người bán không kịp bổ sung chứng chỉ.",
+      "outcome": "Toàn bộ SKU cốt lõi bị gỡ bỏ, bỏ lỡ cả mùa bán hàng Q4, thị phần bị đối thủ thâu tóm nhanh chóng.",
+      "conclusion": "Phải giám sát động chính sách kỹ thuật của các nước Đông Nam Á để kịp thời cập nhật chứng nhận.",
+      "tags": ["Thái Lan", "Chứng nhận TISI", "Rào cản gia nhập", "Sản phẩm kỹ thuật số"]
+    },
+    {
+      "case_id": "CASE-100",
+      "case_title": "Người bán văn phòng phẩm nhận 'bão' đánh giá xấu tại Malaysia do Listing dịch máy sai lệch",
+      "case_type": "Bài học thất bại",
+      "background": "Để tiết kiệm, người bán dùng AI dịch máy từ tiếng Trung sang tiếng Malay cho sản phẩm xe đẩy trẻ em.",
+      "situation": "Khách hàng hiểu lầm xe có chức năng phanh tự động (thực tế là phanh tay) do sai sót ngôn ngữ.",
+      "outcome": "Tỷ lệ trả hàng vọt lên 18% kèm khiếu nại 'mô tả sai sự thật', điểm cửa hàng rơi xuống 4.2 sao.",
+      "conclusion": "Listing là vật tải thông tin duy nhất; sai sót dịch thuật sẽ gây hiểu lầm nghiêm trọng, cần được duyệt bởi người bản địa.",
+      "tags": ["Malaysia", "Sai sót dịch thuật", "Trải nghiệm người dùng", "Tối ưu hóa Listing"]
+    },
+    {
+      "case_id": "CASE-101",
+      "case_title": "Người bán bị hạn chế rút tiền do phớt lờ quy định thuế BIR tại Philippines",
+      "case_type": "Bài học thất bại",
+      "background": "Philippines yêu cầu tất cả người bán TMĐT phải đăng ký với Cục Thuế (BIR) và nộp thuế giá trị gia tăng (VAT).",
+      "situation": "Người bán không nộp chứng nhận tuân thủ thuế và cố tình chia nhỏ doanh thu qua nhiều tài khoản để né tránh kiểm tra.",
+      "outcome": "Nền tảng đóng băng tất cả tài khoản liên quan theo lệnh chính phủ, khiến 300.000 Tệ tiền hàng không thể rút ra.",
+      "conclusion": "Tuân thủ thuế TMĐT tại Đông Nam Á đã trở thành bình thường mới; việc trốn tránh đăng ký thuế đối mặt với rủi ro đứt gãy dòng vốn cực lớn.",
+      "tags": ["Philippines", "Tuân thủ thuế", "Đăng ký BIR", "Hạn chế rút tiền"]
+    },
+    {
+      "case_id": "CASE-102",
+      "case_title": "Thương hiệu mỹ phẩm mất tệp khách hàng chủ lưu do thiếu chứng nhận Halal tại Indonesia",
+      "case_type": "Bài học thất bại",
+      "background": "Một thương hiệu quảng bá dòng dưỡng trắng tại Indonesia, sản phẩm chất lượng tốt nhưng thiếu nhãn Halal.",
+      "situation": "Trong cộng đồng phụ nữ Hồi giáo đông đảo, sản phẩm bị coi là 'hàng đáng nghi', khó tạo ra lượt mua lại quy mô lớn.",
+      "outcome": "Dù đầu tư nhiều phí tiếp thị, tỷ lệ chuyển đổi chỉ bằng 1/3 so với các đối thủ có chứng nhận Halal.",
+      "conclusion": "Tại thị trường có dân số Hồi giáo chiếm ưu thế, chứng nhận Halal không chỉ là nhãn mác mà là nền tảng của niềm tin thị trường.",
+      "tags": ["Indonesia", "Chứng nhận Halal", "Tâm lý người tiêu dùng", "Mỹ phẩm"]
+    },
+    {
+      "case_id": "CASE-103",
+      "case_title": "Người bán mất trắng phí tiếp thị do thuê MCN không uy tín tại Thái Lan",
+      "case_type": "Bài học thất bại",
+      "background": "Thương hiệu quần áo trả trước 50.000 USD cho một MCN nhỏ tại Thái Lan để hợp tác với 20 KOL.",
+      "situation": "MCN này không chỉ làm giả lượng fan của KOL mà video sản xuất cũng kém chất lượng, thậm chí không đăng tải đúng hạn.",
+      "outcome": "Doanh thu cuối cùng chưa đến 1.000 USD, thương hiệu khó đòi lại tiền do chi phí kiện tụng xuyên biên giới quá cao.",
+      "conclusion": "Tiếp thị Influencer nên chọn các tổ chức đối tác chính thức của nền tảng và áp dụng mô hình thanh toán theo giai đoạn dựa trên hiệu quả.",
+      "tags": ["Thái Lan", "Gian lận tiếp thị", "MCN", "Bảo vệ quyền lợi"]
+    },
+    {
+      "case_id": "CASE-104",
+      "case_title": "Người bán bị lỗ ngược do phớt lờ điều chỉnh thuế GST tại Singapore",
+      "case_type": "Bài học thất bại",
+      "background": "Chính phủ Singapore tăng thuế GST theo giai đoạn (từ 7% lên 8% và 9%).",
+      "situation": "Người bán không kịp thời điều chỉnh mô hình định giá ở hệ thống quản lý, vẫn tính toán lợi nhuận theo thuế suất cũ.",
+      "outcome": "Trong kỳ khuyến mãi lớn, sản phẩm không những không ra lãi mà còn lỗ 5% trên mỗi đơn do thuế và phí vận chuyển tăng.",
+      "conclusion": "Chính sách tại Đông Nam Á biến động thường xuyên, phải giám sát chặt chẽ thay đổi thuế phí để điều chỉnh chiến lược giá kịp thời.",
+      "tags": ["Singapore", "Thuế suất GST", "Chiến lược định giá", "Biến động thuế"]
+    },
+    {
+      "case_id": "CASE-105",
+      "case_title": "Người bán bị tiêu hủy hàng do vi phạm đăng ký quyền SHTT tại Hải quan Việt Nam",
+      "case_type": "Bài học thất bại",
+      "background": "Doanh nghiệp xuất khẩu lô tai nghe Bluetooth có ngoại hình giống một thương hiệu lớn sang Việt Nam.",
+      "situation": "Thương hiệu đó đã đăng ký bảo hộ kiểu dáng công nghiệp tại Hải quan Việt Nam, lô hàng bị nhận diện vi phạm khi kiểm tra ngẫu nhiên.",
+      "outcome": "Toàn bộ lô hàng bị tịch thu và tiêu hủy vật lý; người bán chịu phạt và bị điều tra pháp lý, tổn thất nặng nề.",
+      "conclusion": "Tuyệt đối không xuất khẩu hàng nhái hoặc hàng xâm quyền; Hải quan các nước ĐNA kiểm soát cực kỳ chính xác đối với các quyền SHTT đã đăng ký.",
+      "tags": ["Việt Nam", "Xâm phạm bằng sáng chế", "Kiểm hóa", "Điện tử 3C"]
+    },
+    {
+      "case_id": "CASE-106",
+      "case_title": "Người bán bị khiếu nại thực phẩm hết hạn do chu kỳ giao hàng vùng đảo Philippines",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán đồ ăn vặt có hạn sử dụng chỉ 3 tháng sang các đảo xa của Philippines.",
+      "situation": "Do tính không xác định của vận tải biển liên đảo, bưu kiện kẹt trên đường tới 45 ngày.",
+      "outcome": "Khách nhận hàng khi sản phẩm đã cận date, gây ra làn sóng khiếu nại an toàn thực phẩm và bị khóa shop.",
+      "conclusion": "Thực phẩm hạn dùng ngắn không phù hợp với vùng sâu vùng xa có hậu cần kém; phải lọc SKU dựa trên bán kính hậu cần.",
+      "tags": ["Philippines", "An toàn thực phẩm", "Bán kính hậu cần", "Rủi ro hạn sử dụng"]
+    },
+    {
+      "case_id": "CASE-107",
+      "case_title": "Người bán bị kiện tại Thái Lan do cam kết 'Bảo hành trọn đời' quá mức",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán đèn dùng cam kết dịch vụ quá đà để hút khách: 'Bảo hành trọn đời miễn phí toàn bộ đèn'.",
+      "situation": "Nửa năm sau sản phẩm hỏng hóc tự nhiên, hàng loạt khách yêu cầu bảo hành, người bán không gánh nổi phí vận chuyển hai chiều.",
+      "outcome": "Khách hàng liên danh khiếu nại lên Cục Bảo vệ người tiêu dùng Thái Lan (OCPB), người bán bị đuổi khỏi sàn do không thực hiện cam kết.",
+      "conclusion": "Cam kết dịch vụ phải thực tế và bền vững; các chiêu trò tiếp thị phi thực tế sẽ biến thành trách nhiệm pháp lý phản tác dụng.",
+      "tags": ["Thái Lan", "Tiếp thị quá đà", "Rủi ro hậu mãi", "Tuân thủ pháp luật"]
+    },
+    {
+      "case_id": "CASE-108",
+      "case_title": "Người bán phụ kiện số mất trắng do đơn hàng lừa đảo qua ví điện tử Indonesia",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán web độc lập nhận được nhiều đơn giá trị lớn từ Indonesia dùng một ví điện tử lạ.",
+      "situation": "Người bán gửi hàng ngay sau khi nhận thông báo 'Thanh toán thành công', sau đó mới biết tiền đến từ thẻ tín dụng bị đánh cắp.",
+      "outcome": "Tiền bị cổng thanh toán thu hồi, hàng đã gửi đi nước ngoài không thể chặn lại, tổn thất hàng chục nghìn USD.",
+      "conclusion": "Tại một số thị trường ĐNA, đơn hàng rủi ro cao cần xác minh thủ công hoặc lùi thời gian giao hàng để phòng ngừa lừa đảo thanh toán.",
+      "tags": ["Indonesia", "Lừa đảo thanh toán", "Kiểm soát rủi ro", "Web độc lập"]
+    },
+    {
+      "case_id": "CASE-109",
+      "case_title": "Người bán bị Công an Việt Nam mời làm việc do tổ chức bốc thăm trúng thưởng vi phạm quy định",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán tổ chức bốc thăm tặng tiền mặt quy mô lớn trên Fanpage Facebook Việt Nam để tăng fan.",
+      "situation": "Không thông báo hoạt động khuyến mại với Bộ Công Thương, vi phạm pháp luật về khuyến mại có thưởng.",
+      "outcome": "Fanpage bị khóa, đại lý tại Việt Nam bị phạt tiền, người bán bị liệt vào danh sách theo dõi kinh doanh vi phạm.",
+      "conclusion": "Tổ chức tiếp thị hoặc bốc thăm quy mô lớn tại ĐNA phải tuân thủ quy trình khai báo hành chính với cơ quan chức năng địa phương.",
+      "tags": ["Việt Nam", "Tuân thủ khuyến mại", "Rủi ro pháp lý", "Mạng xã hội"]
+    },
+    {
+      "case_id": "CASE-110",
+      "case_title": "Người bán bị hủy đơn hàng loạt do phớt lờ việc nghỉ lễ hậu cần đợt Ramadan tại Malaysia",
+      "case_type": "Bài học thất bại",
+      "background": "Trong kỳ lễ Eid al-Fitr, nhân viên hậu cần và cảng biển Malaysia nghỉ lễ dài ngày, hiệu suất giảm mạnh.",
+      "situation": "Người bán không dự lường thời gian đệm, vẫn duy trì cam kết thời gian giao hàng như ngày thường.",
+      "outcome": "Hàng vạn bưu kiện tồn đọng tại trung tâm phân loại nửa tháng, khách không nhận được quà trước lễ nên hủy đơn toàn bộ.",
+      "conclusion": "Phải hiểu sâu sắc tác động của các ngày lễ tôn giáo lớn đối với năng lực hậu cần để thiết lập kỳ vọng giao hàng hợp lý.",
+      "tags": ["Malaysia", "Lễ Eid al-Fitr", "Chậm trễ hậu cần", "Rủi ro ngày lễ"]
+    },
+    {
+      "case_id": "CASE-111",
+      "case_title": "Người bán mỹ phẩm thất bại khi đăng ký BPOM Indonesia do không đáp ứng kiểm định nhà máy",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán chi tiền nghiên cứu tinh chất chống lão hóa, cố gắng xin chứng nhận BPOM để vào siêu thị Indonesia.",
+      "situation": "BPOM yêu cầu kiểm định nhà máy sản xuất, nhưng nhà máy OEM của người bán không đủ chứng chỉ quốc tế phù hợp.",
+      "outcome": "Quy trình bị đình trệ, phí kiểm nghiệm mất trắng, và bị BPOM liệt vào danh sách cơ sở không đủ điều kiện.",
+      "conclusion": "Chứng nhận BPOM Indonesia là tuân thủ mang tính hệ thống, phải đảm bảo chuỗi cung ứng đạt chuẩn GMP hoặc ISO theo yêu cầu.",
+      "tags": ["Indonesia", "BPOM", "Kiểm định nhà máy", "Tuân thủ mỹ phẩm"]
+    },
+    {
+      "case_id": "CASE-112",
+      "case_title": "Thương hiệu thời trang chịu phí bồi thường cao do phớt lờ Luật Bảo vệ người tiêu dùng Singapore",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán đồ lụa trên web độc lập tại Singapore, bao bì sơ sài và không có hướng dẫn giặt là.",
+      "situation": "Khách giặt bị co rút, người bán từ chối hoàn tiền với lý do 'quá hạn đổi trả', vi phạm quy định về quyền lợi khách hàng.",
+      "outcome": "Bị Hiệp hội Người tiêu dùng Singapore (CASE) bêu tên, cuối cùng buộc phải hoàn tiền và bồi thường phí kiểm định sản phẩm.",
+      "conclusion": "Hệ thống bảo vệ người tiêu dùng Singapore rất hoàn thiện, người bán nên cung cấp hướng dẫn đầy đủ và tuân thủ quyền đổi trả.",
+      "tags": ["Singapore", "Luật bảo vệ người tiêu dùng", "Tranh chấp hậu mãi", "Kinh doanh tuân thủ"]
+    },
+    {
+      "case_id": "CASE-113",
+      "case_title": "Người bán bị kiểm tra đột xuất tại Thái Lan do thuê nhân viên CSKH bất hợp pháp",
+      "case_type": "Bài học thất bại",
+      "background": "Để giảm chi phí, người bán tự ý thuê sinh viên nước ngoài không có giấy phép lao động làm CSKH tại Bangkok.",
+      "situation": "Bị đối thủ tố giác, Bộ Lao động Thái Lan đã tiến hành kiểm tra đột xuất văn phòng.",
+      "outcome": "Văn phòng bị đóng cửa, toàn bộ nhân viên bị trục xuất, người bán bị phạt 100.000 Baht và tịch thu thiết bị làm việc.",
+      "conclusion": "Lập văn phòng hoặc đội ngũ tại nước ngoài phải tuân thủ nghiêm ngặt luật lao động và chế độ visa, tránh kinh doanh vùng xám.",
+      "tags": ["Thái Lan", "Tuân thủ lao động", "Rủi ro pháp lý", "Đội ngũ bản địa"]
+    },
+    {
+      "case_id": "CASE-114",
+      "case_title": "Người bán túi xách lỗ nặng do cạnh tranh 'buff đơn' của đối thủ dịp 11.11 Philippines",
+      "case_type": "Bài học thất bại",
+      "background": "Dịp 11.11, lưu lượng ngành túi xách tại Philippines cực đắt, người bán dùng CPC cao để giành vị trí.",
+      "situation": "Không nhận ra các vị trí đầu bảng đã bị các tài khoản 'buff đơn' chiếm giữ, dù giành được chỗ cũng không có chuyển đổi thật.",
+      "outcome": "Chi phí quảng cáo vượt mức 50.000 USD, GMV cao nhưng lỗ ròng hơn 80.000 Tệ.",
+      "conclusion": "Tiếp thị dịp lễ lớn cần phân tích bình tĩnh cục diện cạnh tranh; nếu ngành hàng rơi vào cạnh tranh ảo, nên dùng chiến lược né tránh.",
+      "tags": ["Philippines", "Chiến lược quảng cáo", "Lỗ dịp khuyến mãi", "Tối ưu ROI"]
+    },
+    {
+      "case_id": "CASE-115",
+      "case_title": "Người bán nội thất bị tiêu hủy container do phớt lờ quy định cấm đối với mã HS tại Việt Nam",
+      "case_type": "Bài học thất bại",
+      "background": "Doanh nghiệp xuất khẩu lô sofa lười có chứa vật liệu nhồi đặc thù sang Việt Nam.",
+      "situation": "Do phân loại sai mã HS, sản phẩm thực tế chứa loại vật liệu bị Việt Nam nghiêm cấm vì lý do môi trường.",
+      "outcome": "Hải quan quyết định tiêu hủy toàn bộ container, người bán chịu phí tiêu hủy và khoản phạt thêm 100.000 Tệ.",
+      "conclusion": "Phân loại mã HS chính xác và rà soát vật liệu hạn chế là việc hệ trọng hàng đầu trong thương mại hàng rời.",
+      "tags": ["Việt Nam", "Cấm nhập khẩu", "Quy định môi trường", "Mã HS"]
+    },
+    {
+      "case_id": "CASE-116",
+      "case_title": "Người bán đồ chơi bị niêm phong kho do phớt lờ chứng nhận SIRIM của Malaysia",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán thuê kho tại Malaysia để phát hàng, sản phẩm gồm nhiều đồ chơi điều khiển có pin.",
+      "situation": "Không xin dấu chứng nhận SIRIM bắt buộc, bị Bộ Thương mại và Các vấn đề người tiêu dùng kiểm tra đột xuất.",
+      "outcome": "Tồn kho trị giá 500.000 Tệ bị niêm phong, cấm bán và phải nộp phạt truy thu cực cao.",
+      "conclusion": "Malaysia yêu cầu chứng nhận SIRIM khắt khe cho hàng tiêu dùng liên quan an toàn; mô hình kho nội địa phải đảm bảo tuân thủ.",
+      "tags": ["Malaysia", "Chứng nhận SIRIM", "Tuân thủ kho bản địa", "Đồ chơi"]
+    },
+    {
+      "case_id": "CASE-117",
+      "case_title": "Người bán phụ kiện bị kết tội gian lận thương mại tại Singapore do dùng từ 'Vàng ròng 100%'",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán trang sức giá rẻ tại Singapore dùng mô tả '100% Solid Gold' cho hàng mạ vàng.",
+      "situation": "Bị Ủy ban Cạnh tranh và Người tiêu dùng Singapore (CCCS) lấy mẫu kiểm nghiệm và xác định là cố ý lừa dối.",
+      "outcome": "Công khai hành vi vi phạm toàn mạng, thương hiệu bị liệt vào danh sách đen, mất quyền kinh doanh trên mọi sàn TMĐT Singapore.",
+      "conclusion": "Singapore yêu cầu tính trung thực thương mại cực cao, văn bản quảng cáo phóng đại sẽ dẫn đến việc bị trục xuất vĩnh viễn.",
+      "tags": ["Singapore", "Trung thực kinh doanh", "Lằn ranh đỏ pháp lý", "Phụ kiện"]
+    },
+    {
+      "case_id": "CASE-118",
+      "case_title": "Người bán 3C lỗ nặng do phớt lờ chính sách 'Quyền hủy bỏ của người tiêu dùng' tại Thái Lan",
+      "case_type": "Bài học thất bại",
+      "background": "Luật Thái Lan cho phép người mua online quyền hủy hợp đồng vô điều kiện trong thời gian nhất định.",
+      "situation": "Người bán máy ảnh không nêu rõ phí khấu hao và bên chịu phí vận chuyển trong điều khoản hợp đồng.",
+      "outcome": "Gặp phải nhóm khách 'chuyên gia dùng thử rồi trả', thiệt hại phí vận chuyển và khấu hao máy hơn 100.000 Tệ.",
+      "conclusion": "Phải xây dựng cơ chế đối ứng rủi ro và điều khoản hợp đồng chặt chẽ dựa trên luật bảo vệ người tiêu dùng địa phương.",
+      "tags": ["Thái Lan", "Quyền lợi người tiêu dùng", "Rủi ro trả hàng", "Kiểm soát chi phí"]
+    },
+    {
+      "case_id": "CASE-119",
+      "case_title": "Người bán thâm hụt tài chính do phớt lờ khoản 'Thưởng tôn giáo' (THR) tại Indonesia",
+      "case_type": "Bài học thất bại",
+      "background": "Luật Indonesia quy định chủ lao động phải trả 1 tháng lương thưởng (THR) cho nhân viên trước lễ Eid al-Fitr.",
+      "situation": "Người bán lập đội ngũ tại Indonesia nhưng không đưa khoản chi phí cố định này vào ngân sách năm.",
+      "outcome": "Dẫn đến đứt gãy dòng tiền trước lễ, buộc phải sa thải nhân viên đột ngột và đối mặt phạt kiện tụng lao động.",
+      "conclusion": "Thiết lập đội ngũ tại nước ngoài phải khảo sát kỹ luật lao động, đưa các khoản thưởng tôn giáo vào ngân sách cốt lõi.",
+      "tags": ["Indonesia", "Thưởng THR", "Tuân thủ lao động", "Ngân sách tài chính"]
+    },
+    {
+      "case_id": "CASE-120",
+      "case_title": "Người bán Mẹ và Bé bị chặn hàng tại kho do thiếu giấy phép LTO tại Philippines",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán bình sữa và bộ đồ ăn trẻ em tại Philippines dùng kho ngoại quan bên thứ ba.",
+      "situation": "FDA Philippines yêu cầu người bán sản phẩm mẹ và bé phải có giấy phép vận hành (LTO) mới được phân phối.",
+      "outcome": "Hải quan chặn các lô hàng bổ sung, hàng đang có trong kho bị khóa quyền bán do không xuất trình được giấy phép.",
+      "conclusion": "Hàng tiếp xúc trẻ em tại Philippines bị giám sát cực nghiêm, phải giải quyết chứng chỉ LTO và công bố sản phẩm trước.",
+      "tags": ["Philippines", "Giấy phép LTO", "Sản phẩm mẹ và bé", "Hạn chế gia nhập"]
+    },
+    {
+      "case_id": "CASE-121",
+      "case_title": "Người bán kỹ thuật số mất lưu lượng do dùng sai từ khóa Listing tiếng Việt",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán dịch sai từ 'Loa Bluetooth' thành một từ tiếng Việt rất cổ quái và có nghĩa tiêu cực.",
+      "situation": "Hệ thống quảng cáo phân phối đến sai tệp khách hàng, khách vào trang thấy văn phòng kỳ lạ nên thoát ngay.",
+      "outcome": "Đốt 10.000 USD quảng cáo nhưng chỉ có 3 đơn hàng, nhận về nhiều bình luận chế giễu từ người mua.",
+      "conclusion": "Tiếng Việt cực kỳ chú trọng ngữ cảnh, từ khóa phải được đối soát chính xác qua xu hướng công cụ tìm kiếm địa phương.",
+      "tags": ["Việt Nam", "Sai sót ngữ nghĩa", "Lãng phí lưu lượng", "Thất bại bản địa hóa"]
+    },
+    {
+      "case_id": "CASE-122",
+      "case_title": "Người bán phụ kiện bị tẩy chay tại Singapore do bao bì nhựa quá mức",
+      "case_type": "Bài học thất bại",
+      "background": "Để chống hỏng, người bán quấn nhiều lớp màng nilon và xốp hơi cho từng món phụ kiện rẻ tiền.",
+      "situation": "Các tổ chức môi trường Singapore phát động phong trào 'Chống bao bì thừa' trên mạng, điểm mặt chỉ tên người bán này.",
+      "outcome": "Lượng lớn khách trẻ hủy đơn và đánh giá xấu, buộc người bán phải chi khoản tiền lớn thay đổi bao bì thân thiện môi trường.",
+      "conclusion": "Thị trường phát triển như Singapore cực kỳ nhạy cảm với môi trường, bao bì quá mức gây hại hình ảnh và gây khủng hoảng PR.",
+      "tags": ["Singapore", "Bao bì quá mức", "Dư luận môi trường", "Rủi ro thương hiệu"]
+    },
+    {
+      "case_id": "CASE-123",
+      "case_title": "Người bán gia dụng bị hoàn hàng hàng loạt tại Thái Lan do khác biệt phích cắm và điện áp",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán máy làm sữa hạt thiết kế cho thị trường Trung Quốc trên gian hàng Thái Lan.",
+      "situation": "Dù điện áp khớp nhưng phích cắm là loại 3 chân dẹt, không gửi kèm đầu chuyển đổi chuẩn Thái Lan trong gói hàng.",
+      "outcome": "Khách nhận hàng không dùng được ngay, tỷ lệ hoàn hàng 25% và khiếu nại tràn lan làm rớt hạng cửa hàng.",
+      "conclusion": "Sản phẩm điện tử xuất khẩu phải thích ứng chuẩn phích cắm địa phương hoặc tặng kèm bộ chuyển đổi để đảm bảo sử dụng.",
+      "tags": ["Thái Lan", "Chuẩn phích cắm", "Rủi ro tương thích", "Điện máy nhỏ"]
+    },
+    {
+      "case_id": "CASE-124",
+      "case_title": "Người bán túi xách lỗ nặng do phớt lờ cảnh báo 'Thuế chống bán phá giá' tại Indonesia",
+      "case_type": "Bài học thất bại",
+      "background": "Indonesia áp dụng điều tra chống bán phá giá hoặc thuế trừng phạt với một số mặt hàng giày túi từ Trung Quốc.",
+      "situation": "Người bán không biết, vẫn tiếp tục nhập lô lớn theo mô hình cũ, bị hải quan truy thu thuế lên tới 40%.",
+      "outcome": "Mỗi lô hàng phải đóng thêm 150.000 Tệ tiền thuế, lợi nhuận biến thành lỗ, buộc phải tạm dừng kinh doanh tại Indonesia.",
+      "conclusion": "Phải theo dõi chặt chẽ biến động chính sách bảo hộ thương mại với hàng công nghiệp nhẹ (dệt may, da giày) tại Indonesia.",
+      "tags": ["Indonesia", "Thuế chống bán phá giá", "Rào cản thương mại", "Biến động chi phí"]
+    },
+    {
+      "case_id": "CASE-125",
+      "case_title": "Người bán lỗ phí vận chuyển tại Philippines do không xác thực địa chỉ đơn hàng COD",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán mở toàn bộ hình thức COD tại Philippines mà không thiết lập ngưỡng lọc khách.",
+      "situation": "Nhận được lượng lớn đơn hàng địa chỉ lờ mờ, số điện thoại ảo hoặc đơn hàng do khách 'đặt cho vui'.",
+      "outcome": "Chi phí vận chuyển vô ích chiếm tới 15% tổng doanh thu, bào mòn sạch lợi nhuận của cửa hàng.",
+      "conclusion": "Mở COD tại Philippines phải phối hợp với hệ thống xác thực địa chỉ thông minh hoặc gọi điện xác nhận trước khi gửi.",
+      "tags": ["Philippines", "Rủi ro COD", "Đơn hàng ảo", "Hao hụt hậu cần"]
+    },
+    {
+      "case_id": "CASE-126",
+      "case_title": "Thương hiệu công cụ chịu trách nhiệm pháp lý tại Việt Nam do sai sót thuật ngữ kỹ thuật trong hướng dẫn",
+      "case_type": "Bài học thất bại",
+      "background": "Một thương hiệu máy cắt dịch sai bước 'lắp đặt tấm chắn an toàn' trong sách hướng dẫn tiếng Việt.",
+      "situation": "Người dùng địa phương làm theo chỉ dẫn sai dẫn đến tai nạn đứt tay nghiêm trọng.",
+      "outcome": "Đối mặt vụ kiện đòi bồi thường thân thể cực lớn tại tòa án Việt Nam, sản phẩm bị thu hồi toàn bộ, thương hiệu rời bỏ thị trường.",
+      "conclusion": "Hướng dẫn sử dụng máy móc chuyên nghiệp bắt buộc phải qua biên dịch kỹ thuật và hiệu đính an toàn chuyên nghiệp.",
+      "tags": ["Việt Nam", "Tai nạn an toàn", "Sai sót biên dịch", "Trách nhiệm pháp lý"]
+    },
+    {
+      "case_id": "CASE-127",
+      "case_title": "Người bán mỹ phẩm lãng phí nguồn lực do quan niệm sai lầm về 'Livestream nửa đêm' tại Indonesia",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán thấy dân Hồi giáo dậy ăn đêm lúc 3-4 giờ sáng mùa Ramadan, nghĩ rằng đây là thời điểm tốt để live bán hàng.",
+      "situation": "Đầu tư nhân lực live nửa đêm nhưng không hiểu rằng lúc này người dùng tập trung vào nghi lễ và gia đình hơn là mua sắm.",
+      "outcome": "Livestream tương tác cực thấp, tỷ lệ chuyển đổi chưa đầy 0.1%, lãng phí phí làm thêm giờ và tiền chạy lưu lượng.",
+      "conclusion": "Tiếp thị Ramadan phải thấu hiểu lịch trình sinh hoạt tôn giáo; khung giờ sáng sớm phù hợp cho quảng cáo tình cảm hơn là bán hàng gắt.",
+      "tags": ["Indonesia", "Chiến lược Ramadan", "Sai lầm livestream", "Thói quen tiêu dùng"]
+    },
+    {
+      "case_id": "CASE-128",
+      "case_title": "Người bán thời trang mất khách do phớt lờ sự phụ thuộc của người dùng Singapore vào 'Nhãn đổi trả tiện lợi'",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán cung cấp dịch vụ đổi trả nhưng yêu cầu khách tự liên hệ shipper và chụp ảnh vận đơn gửi lại.",
+      "situation": "Người dùng Singapore đã quen với dịch vụ shipper đến tận nhà lấy hàng hoặc gửi tại các cửa hàng tiện lợi qua một chạm.",
+      "outcome": "Trải nghiệm cực tệ, tỷ lệ mua lại giảm từ 30% xuống 5%, bị gắn mác 'khó đổi trả' trên mạng xã hội.",
+      "conclusion": "Cạnh tranh tại thị trường trưởng thành là cạnh tranh về chi tiết dịch vụ, phải kết nối với hệ thống hậu cần ngược tinh giản.",
+      "tags": ["Singapore", "Trải nghiệm người dùng", "Hậu cần ngược", "Thời trang"]
+    },
+    {
+      "case_id": "CASE-129",
+      "case_title": "Người bán vi phạm hợp đồng tại Philippines do bất khả kháng từ mùa bão",
+      "case_type": "Bài học thất bại",
+      "background": "Doanh nghiệp cung ứng vật tư phòng chống thiên tai cho chính phủ Philippines, ký giao hàng tháng 9.",
+      "situation": "Không tính đến tháng 9 là đỉnh điểm bão mạnh tại Philippines, cảng phong tỏa nửa tháng, hàng đến trễ nghiêm trọng.",
+      "outcome": "Do không quy định rõ điều khoản bất khả kháng, bị tịch thu tiền bảo lãnh thực hiện hợp đồng và liệt vào danh sách đen.",
+      "conclusion": "Hợp đồng B2B lớn tại Philippines phải dự lường đệm thời gian cho thiên tai và làm rõ phạm vi miễn trách pháp lý.",
+      "tags": ["Philippines", "Thiên tai khí hậu", "Vi phạm hợp đồng B2B", "Bảo vệ pháp lý"]
+    },
+    {
+      "case_id": "CASE-130",
+      "case_title": "Người bán phụ kiện kẹt tồn kho do phớt lờ sự khác biệt tông da giữa người gốc Hoa và gốc Malay",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán chủ đạo dòng phụ kiện tông lạnh giúp làm trắng da tại thị trường Malaysia.",
+      "situation": "Sản phẩm bán chạy ở nhóm người gốc Hoa, nhưng nhóm người gốc Malay có tông da ấm và trầm hơn, đeo vào trông rất lạc quẻ.",
+      "outcome": "Tỷ lệ chuyển đổi ở các kênh do người gốc Malay làm chủ bằng không, dẫn đến kẹt hàng nghiêm trọng các mã SKU đặc thù.",
+      "conclusion": "Malaysia là thị trường đa sắc tộc điển hình, nghiên cứu sản phẩm phải tính đến đặc điểm sinh lý và thẩm mỹ khác nhau.",
+      "tags": ["Malaysia", "Khác biệt thẩm mỹ", "Đặc trưng sắc tộc", "Quản lý tồn kho"]
+    },
+    {
+      "case_id": "CASE-131",
+      "case_title": "Người bán lỗ do định giá thiếu sót sau khi phớt lờ 'Thuế xa xỉ' của Hải quan Thái Lan",
+      "case_type": "Bài học thất bại",
+      "background": "Xuất khẩu lô thiết bị thông minh cao cấp giá trên 1.500 USD sang Thái Lan.",
+      "situation": "Không tính toán các khoản thuế tiêu thụ đặc biệt bổ sung mà Thái Lan áp dụng cho đồ điện tử giá trị cao.",
+      "outcome": "Khi thông quan bị yêu cầu nộp thêm 15% thuế, khiến biên lợi nhuận dự kiến ban đầu biến mất hoàn toàn.",
+      "conclusion": "Xuất khẩu hàng tiêu dùng cao cấp phải kiểm tra kỹ mức thuế cụ thể theo từng bậc giá trị của Hải quan Thái Lan.",
+      "tags": ["Thái Lan", "Thuế xa xỉ", "Quy tắc thông quan", "Sai lầm chi phí"]
+    },
+    {
+      "case_id": "CASE-132",
+      "case_title": "Người bán bị đối thủ nẫng tay trên do phớt lờ quản lý bình luận quảng cáo Facebook tại Việt Nam",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán chạy quảng cáo Facebook Việt Nam, mỗi ngày phát sinh rất nhiều bình luận hỏi giá.",
+      "situation": "Không cài đặt tính năng ẩn bình luận tự động, để đối thủ vào nhắn tin riêng cho khách để chào giá thấp hơn.",
+      "outcome": "Khoảng 50% đơn hàng tiềm năng bị đối thủ hớt tay trên, phí quảng cáo vô tình nuôi béo đối thủ.",
+      "conclusion": "Tiếp thị mạng xã hội Đông Nam Á phải có ý thức quản lý bình luận và chống cắt khách, xây dựng hệ thống chuyển đổi kín.",
+      "tags": ["Việt Nam", "Cạnh tranh mạng xã hội", "Hành vi cắt khách", "Ý thức kiểm soát rủi ro"]
+    },
+    {
+      "case_id": "CASE-133",
+      "case_title": "Người bán phụ kiện tăng tỷ lệ hoàn tiền do phớt lờ môi trường vận chuyển thô bạo dịp lễ tại Philippines",
+      "case_type": "Bài học thất bại",
+      "background": "Ra mắt hộp quà giấy tinh xảo trong dịp lễ Double 12 tại Philippines.",
+      "situation": "Hậu cần dịp cao điểm, kiện hàng bị đè nén và dầm mưa dẫn đến hộp quà biến dạng, ẩm mốc.",
+      "outcome": "Khách nhận hàng cho rằng sản phẩm mất tính chất quà tặng, yêu cầu hoàn tiền chiếm tới 20% doanh thu tháng.",
+      "conclusion": "Hậu cần đợt khuyến mãi lớn tại ĐNA rất thô bạo, bao bì hộp quà cao cấp phải tính đến khả năng chống nước và chống nén.",
+      "tags": ["Philippines", "Hậu cần khuyến mãi", "Gia cố bao bì", "Trải nghiệm người dùng"]
+    },
+    {
+      "case_id": "CASE-134",
+      "case_title": "Người bán kỹ thuật số bị khóa máy do phớt lờ quy tắc đăng ký IMEI của Indonesia",
+      "case_type": "Bài học thất bại",
+      "background": "Gửi trực tiếp một lô điện thoại thông minh phiên bản Trung Quốc cho người mua tại Indonesia.",
+      "situation": "Không thực hiện đăng ký mã IMEI và nộp thuế trên hệ thống hải quan Indonesia.",
+      "outcome": "Điện thoại vào Indonesia không thể kết nối mạng viễn thông địa phương, bị coi là máy nhập lậu và bị khóa, khách đòi bồi thường lớn.",
+      "conclusion": "Indonesia áp dụng đăng ký thực danh IMEI cho mọi điện thoại nhập khẩu, người bán phải đảm bảo quy trình thông quan gồm bước kích hoạt IMEI.",
+      "tags": ["Indonesia", "Đăng ký IMEI", "Quy định viễn thông", "Hạn chế thông quan"]
+    },
+    {
+      "case_id": "CASE-135",
+      "case_title": "Thương hiệu mỹ phẩm bị tố cáo ghi khống chỉ số SPF tại thị trường Thái Lan",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán ghi nhãn SPF 50+ trên bao bì nhưng không có báo cáo từ phòng thí nghiệm được Thái Lan công nhận.",
+      "situation": "Đối thủ tại Thái Lan tố cáo số liệu giả, FDA Thái Lan tiến hành kiểm tra truy xuất nguồn gốc.",
+      "outcome": "Sản phẩm bị lệnh thu hồi toàn diện và xin lỗi công khai, thương hiệu mất uy tín và phải rời khỏi các nền tảng chính.",
+      "conclusion": "Các chỉ số chức năng như chống nắng phải có dữ liệu thực nghiệm từ cơ quan được công nhận, không được tùy tiện dán nhãn.",
+      "tags": ["Thái Lan", "Chứng nhận SPF", "Trung thực thương mại", "Mỹ phẩm"]
+    },
+    {
+      "case_id": "CASE-136",
+      "case_title": "Người bán Mẹ và Bé tổn thất do phớt lờ quy định cấm gửi chất lỏng hàng không tại Malaysia",
+      "case_type": "Bài học thất bại",
+      "background": "Cố gắng gửi sữa tắm trẻ em dung tích lớn sang Đông Malaysia qua gói nhỏ hàng không thông thường.",
+      "situation": "Không khai báo thuộc tính chất lỏng hoặc dùng tuyến chuyên dụng, vi phạm hạn chế trọng lượng chất lỏng của an ninh hàng không.",
+      "outcome": "Hàng nghìn bưu kiện bị chặn tiêu hủy, không hoàn phí vận chuyển, tổn thất giá trị hàng hơn 200.000 Tệ.",
+      "conclusion": "Gói nhỏ hàng không ĐNA hạn chế rất nghiêm chất lỏng, bột, pin, phải chọn đúng kênh hậu cần tương ứng.",
+      "tags": ["Malaysia", "Cấm vận hàng không", "Hàng nhạy cảm", "Tổn thất hậu cần"]
+    },
+    {
+      "case_id": "CASE-137",
+      "case_title": "Người bán kỹ thuật số bị khóa tài khoản do phớt lờ yêu cầu minh bạch về 'Bảo hành' tại Singapore",
+      "case_type": "Bài học thất bại",
+      "background": "Bán máy tính cũ tân trang tại Singapore nhưng dùng thuật ngữ mập mờ 'Bảo hành nội địa 1 năm'.",
+      "situation": "Khi khách đến trung tâm sửa chữa chính hãng thì không được chấp nhận, thực chất bảo hành là tại một xưởng nhỏ hợp tác.",
+      "outcome": "Bị nền tảng xác định là cam kết hậu mãi lừa dối, khóa shop và buộc hoàn tiền cho toàn bộ khách mua trong 3 tháng qua.",
+      "conclusion": "Tại Singapore, cam kết hậu mãi phải phân biệt rõ 'Bảo hành hãng' và 'Bảo hành người bán', nghiêm cấm dùng từ gây nhầm lẫn.",
+      "tags": ["Singapore", "Lừa đảo hậu mãi", "Rủi ro tín dụng", "Điện tử 3C"]
+    },
+    {
+      "case_id": "CASE-138",
+      "case_title": "Người bán thời trang bị chậm thông quan do phớt lờ hạn chế 'Số lượng nhập khẩu một lần' tại Indonesia",
+      "case_type": "Bài học thất bại",
+      "background": "Một người mua đặt 20 chiếc váy cùng mẫu trong một đơn hàng để làm váy phù dâu.",
+      "situation": "Hải quan Indonesia cho rằng số lượng này vượt quá mức dùng cá nhân, phải thông quan thương mại và có giấy phép nhập khẩu.",
+      "outcome": "Hàng bị kẹt tại hải quan 1 tháng, khách lỡ ngày cưới nên bùng đơn, người bán lỗ phí vận chuyển hai chiều.",
+      "conclusion": "Gói nhỏ xuyên biên giới phải chia đơn hợp lý để tránh tranh chấp về tính chất thông quan do số lượng hàng trong bưu kiện quá nhiều.",
+      "tags": ["Indonesia", "Hạn chế dùng cá nhân", "Chiến lược chia đơn", "Quy tắc thông quan"]
+    },
+    {
+      "case_id": "CASE-139",
+      "case_title": "Người bán nội thất lỗ vốn do phớt lờ phụ phí vùng sâu vùng xa tại Philippines",
+      "case_type": "Bài học thất bại",
+      "background": "Khi định giá chỉ tính toán phí hậu cần trung bình cho các thành phố lõi như Manila.",
+      "situation": "Nhận được lượng lớn đơn hàng nặng từ đảo Mindanao, đơn vị vận chuyển thu phụ phí vùng xa cực đắt.",
+      "outcome": "Do đã cài đặt miễn phí vận chuyển toàn quốc, mỗi đơn người bán lỗ 50 Tệ, cuối cùng buộc phải hủy hàng loạt đơn.",
+      "conclusion": "Bậc phí hậu cần ĐNA rất phức tạp, phải cài đặt chiến lược phí khác biệt theo mã bưu chính hoặc hạn chế hàng nặng vùng xa.",
+      "tags": ["Philippines", "Lỗ phí vận chuyển", "Phụ phí vùng xa", "Sai sót định giá"]
+    },
+    {
+      "case_id": "CASE-140",
+      "case_title": "Người bán đồ chơi chịu rủi ro hình sự do phớt lờ kiểm duyệt 'Bản đồ lãnh thổ' tại Việt Nam",
+      "case_type": "Bài học thất bại",
+      "background": "Xuất khẩu lô quả địa cầu đồ chơi sang Việt Nam mà bản đồ không điều chỉnh theo chuẩn chính trị Việt Nam.",
+      "situation": "Hải quan xác định sản phẩm vi phạm an ninh quốc gia và chủ quyền lãnh thổ.",
+      "outcome": "Hàng bị tịch thu và tiêu hủy, người bán và đại lý bị phạt nặng và bị thu hồi giấy phép kinh doanh tại Việt Nam.",
+      "conclusion": "Xuất khẩu ấn phẩm, bản đồ sang các nước có nhạy cảm lãnh thổ phải qua khâu kiểm duyệt chính trị cực kỳ nghiêm ngặt.",
+      "tags": ["Việt Nam", "Nhạy cảm chính trị", "Lằn ranh đỏ bản đồ", "Rủi ro tuân thủ"]
+    },
+    {
+      "case_id": "CASE-141",
+      "case_title": "Người bán thời trang tổn hại uy tín do liên đới từ vụ bê bối 'hàng giả' của Influencer Malaysia",
+      "case_type": "Bài học thất bại",
+      "background": "Hợp tác với một streamer nổi tiếng Malaysia, người sau đó bị phanh phui từng bán hàng giả cho nhãn hàng khác.",
+      "situation": "Người tiêu dùng tẩy chay toàn bộ các thương hiệu liên quan đến streamer này, bao gồm cả đồ chính hãng của người bán.",
+      "outcome": "Uy tín thương hiệu tại địa phương sụp đổ, tỷ lệ trả hàng vọt lên, từ khóa thương hiệu bị gắn với các từ tiêu cực trên Google.",
+      "conclusion": "Hợp tác với Influencer nước ngoài phải thẩm định hồ sơ (DUE DILIGENCE) kỹ lưỡng để tránh bị vạ lây từ dư luận tiêu cực của họ.",
+      "tags": ["Malaysia", "Thiếu thẩm định", "Rủi ro liên đới thương hiệu", "Tiếp thị Influencer"]
+    },
+    {
+      "case_id": "CASE-142",
+      "case_title": "Người bán điện máy bị gỡ hàng tại Thái Lan do thiếu tính năng 'Tự ngắt an toàn' bắt buộc",
+      "case_type": "Bài học thất bại",
+      "background": "Một thương hiệu ấm đun nước điện bán online tại Thái Lan.",
+      "situation": "Sản phẩm không trang bị chip bảo vệ tự ngắt khi cạn nước theo tiêu chuẩn an toàn bắt buộc của Thái Lan.",
+      "outcome": "Trong đợt lấy mẫu kiểm tra của hiệp hội người tiêu dùng, bị kết luận là 'nguy cơ an toàn nghiêm trọng', bị cấm bán toàn mạng.",
+      "conclusion": "Các tính năng an toàn bắt buộc cho từng loại hàng điện (như tự ngắt, chống rò điện) phải được coi là chỉ số cứng.",
+      "tags": ["Thái Lan", "An toàn điện", "Quy chuẩn kỹ thuật", "Điện máy nhỏ"]
+    },
+    {
+      "case_id": "CASE-143",
+      "case_title": "Người bán phụ kiện nhận bão đánh giá xấu tại Singapore do phớt lờ xu hướng 'giảm nhựa'",
+      "case_type": "Bài học thất bại",
+      "background": "Dùng nhiều lớp xốp hơi và băng dính để gói đôi khuyên tai rẻ tiền để chống va đập.",
+      "situation": "Khách Singapore phàn nàn trong đánh giá: 'rác thải như núi, cực kỳ không thân thiện môi trường', gây làn sóng phản đối.",
+      "outcome": "Điểm cửa hàng rơi từ 4.9 xuống 4.3, không chỉ mất khách cũ mà còn bị nền tảng đánh dấu nhãn tiêu cực, ảnh hưởng trọng số.",
+      "conclusion": "Tại thị trường dân trí cao, bao bì xanh không chỉ là trách nhiệm xã hội mà còn là yếu tố vận hành cốt lõi ảnh hưởng thứ hạng.",
+      "tags": ["Singapore", "Xu hướng môi trường", "Phòng ngừa đánh giá xấu", "Phụ kiện"]
+    },
+    {
+      "case_id": "CASE-144",
+      "case_title": "Người bán bị trục xuất vĩnh viễn khỏi Việt Nam do dùng hình ảnh lãnh đạo nhạy cảm trong quảng cáo",
+      "case_type": "Bài học thất bại",
+      "background": "Một thương hiệu thời trang nhanh dùng hình ảnh nghệ thuật của một nhân vật lịch sử nhạy cảm Việt Nam trong quảng cáo Facebook.",
+      "situation": "Hành vi này thách thức nghiêm trọng tình cảm dân tộc và lằn ranh đỏ pháp luật Việt Nam.",
+      "outcome": "Chính quyền Việt Nam yêu cầu sàn đóng tài khoản, tịch thu mọi tài sản tại Việt Nam, người phụ trách bị cấm nhập cảnh vĩnh viễn.",
+      "conclusion": "Tôn trọng lãnh đạo và tình cảm dân tộc của nước sở tại là nguyên tắc số 1 khi xuất ngoại, tuyệt đối không thử nghiệm 'sáng tạo chính trị'.",
+      "tags": ["Việt Nam", "Cấm kỵ chính trị", "Lằn ranh đỏ tiếp thị", "Lệnh cấm kinh doanh"]
+    },
+    {
+      "case_id": "CASE-145",
+      "case_title": "Người bán túi xách mất kiểm soát chi phí do phớt lờ phí giao lại đơn COD tại Philippines",
+      "case_type": "Bài học thất bại",
+      "background": "Một số công ty chuyển phát Philippines quy định, nếu giao trượt do khách vắng nhà, lượt giao thứ hai sẽ thu thêm phí.",
+      "situation": "Người bán không nhắc khách giữ điện thoại thông suốt, dẫn đến trung bình mỗi đơn phát sinh 2 lượt giao.",
+      "outcome": "Hóa đơn hậu cần tháng cao hơn ngân sách 30%, do vận hành biên lợi nhuận thấp nên tháng đó bị lỗ gần 50.000 Tệ.",
+      "conclusion": "Phải qua tin nhắn trước bán, tin nhắn trong sàn và nhiều kênh khác để hướng dẫn khách duy trì thói quen nhận hàng hiệu quả.",
+      "tags": ["Philippines", "Phụ phí hậu cần", "Kiểm soát chi phí", "COD"]
+    },
+    {
+      "case_id": "CASE-146",
+      "case_title": "Thương hiệu mỹ phẩm bị bác chứng nhận SPF tại Thái Lan do phòng thí nghiệm không đủ tư cách",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán cung cấp báo cáo kiểm nghiệm SPF từ một phòng lab nội địa Trung Quốc không có tiếng tăm quốc tế.",
+      "situation": "FDA Thái Lan chỉ công nhận báo cáo từ các tổ chức quốc tế trong danh mục hoặc tổ chức chỉ định của Thái Lan.",
+      "outcome": "Hồ sơ công bố bị trả lại, chậm trễ thời điểm ra mắt tốt nhất tới nửa năm, mất cơ hội tiên phong trên thị trường.",
+      "conclusion": "Kiểm nghiệm tuân thủ phải tìm tổ chức bên thứ ba được chính quyền nước sở tại công nhận, không thể lấy chứng nhận trong nước thay thế.",
+      "tags": ["Thái Lan", "Hiệu lực chứng nhận", "Tuân thủ FDA", "Mỹ phẩm"]
+    },
+    {
+      "case_id": "CASE-147",
+      "case_title": "Người bán nội thất chịu phí thông quan cao do phớt lờ tiêu chuẩn 'khung gỗ' của Indonesia",
+      "case_type": "Bài học thất bại",
+      "background": "Indonesia có tiêu chuẩn kiểm dịch và gia cố cụ thể cho bao bì gỗ nhập khẩu (như dấu hun trùng).",
+      "situation": "Do khung gỗ người bán dùng không đạt chuẩn IPPC, bị xác định là vật mang mầm bệnh rủi ro cao.",
+      "outcome": "Hàng bị cách ly tại khu kiểm dịch, phải trả phí tiêu độc và lưu kho đắt đỏ, tổn thất hơn 40.000 Tệ.",
+      "conclusion": "Hàng rời đường biển phải tuân thủ nghiêm ngặt tiêu chuẩn kiểm dịch bao bì, tránh phát sinh phí thông quan khổng lồ do sai sót nhỏ.",
+      "tags": ["Indonesia", "Chứng nhận hun trùng", "Kiểm dịch hải quan", "Nội thất"]
+    },
+    {
+      "case_id": "CASE-148",
+      "case_title": "Người bán kỹ thuật số gặp làn sóng trả hàng ác ý sau khi phớt lờ thói quen '14 ngày đổi trả' tại Singapore",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán cài đặt điều khoản 'đã bóc hộp miễn trả hàng' trong chính sách bảo hành.",
+      "situation": "Vi phạm kỳ vọng bảo vệ người tiêu dùng đã trưởng thành tại Singapore, bị các diễn đàn công nghệ địa phương chỉ trích tập thể.",
+      "outcome": "Tỷ lệ chuyển đổi rơi về 0 trong 2 tuần, đồng thời nhận lượng lớn đơn đòi trả hàng ác ý với lý do lỗi bao bì nhỏ.",
+      "conclusion": "Đừng cố thách thức các tiêu chuẩn dịch vụ đã hình thành tại thị trường sở tại, các điều khoản hậu mãi cứng nhắc thường phản tác dụng.",
+      "tags": ["Singapore", "Thói quen dịch vụ", "Uy tín thương hiệu", "Điện tử 3C"]
+    },
+    {
+      "case_id": "CASE-149",
+      "case_title": "Người bán phụ kiện bị tịch thu toàn bộ do phớt lờ lệnh cấm 'Vật liệu nghi là san hô' của Philippines",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán xuất khẩu lô khuyên tai san hô nhân tạo sang Philippines.",
+      "situation": "Dù là vật liệu tổng hợp nhưng do tay nghề quá tinh xảo và không có báo cáo phân tích hóa học rõ ràng, bị hải quan xác định là buôn lậu động thực vật hoang dã.",
+      "outcome": "Hàng bị tịch thu toàn bộ, người bán bị đưa vào danh sách giám sát buôn bán loài nguy cấp, các lô hàng sau bị kiểm soát gắt gao.",
+      "conclusion": "Với sản phẩm giống hệt sinh vật được bảo tồn (ngà voi, san hô, da đặc thù), phải cung cấp đủ bằng chứng thành phần.",
+      "tags": ["Philippines", "Kiểm hóa hải quan", "Bằng chứng thành phần", "Rủi ro pháp lý"]
+    },
+    {
+      "case_id": "CASE-150",
+      "case_title": "Người bán đồ chơi bị khóa shop do phớt lờ việc gián đoạn sản xuất kỳ nghỉ lễ Lao động Việt Nam",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán có xưởng gia công nhỏ tại Việt Nam và tham gia chiến dịch khuyến mãi 5.5.",
+      "situation": "Không lường được kỳ nghỉ lễ Lao động Việt Nam (30/4-1/5) công nhân nghỉ sạch và xưởng dừng hoạt động hoàn toàn.",
+      "outcome": "Đơn hàng khuyến mãi không kịp sản xuất, tỷ lệ thiếu hàng vượt 50%, dẫn đến shop Shopee bị trừ điểm nặng và khóa vĩnh viễn.",
+      "conclusion": "Sản xuất tại nước ngoài phải dự lường chính xác khoảng trống năng lực sản xuất kỳ nghỉ lễ dài, lập phương án dự phòng nghiêm ngặt.",
+      "tags": ["Việt Nam", "Ngày nghỉ lễ", "Quản lý sản xuất", "Sự cố vận hành"]
+    },
+    {
+      "case_id": "CASE-151",
+      "case_title": "Người bán mỹ phẩm bị từ chối nhận hàng hàng loạt do giao quà lễ Eid al-Fitr muộn tại Indonesia",
+      "case_type": "Bài học thất bại",
+      "background": "Người tiêu dùng Indonesia mua mỹ phẩm dịp Ramadan để làm quà tặng hoặc sử dụng trong ngày lễ Eid al-Fitr.",
+      "situation": "Một lượng lớn đơn hàng đến nơi vào ngày thứ hai của kỳ nghỉ lễ, thời điểm mà quà tặng đã mất đi ý nghĩa quan trọng nhất.",
+      "outcome": "Tỷ lệ từ chối nhận hàng lên tới 60%, phí vận chuyển ngược về Trung Quốc cao hơn giá trị hàng, gây lỗ nặng.",
+      "conclusion": "Đối với nhu cầu đặc thù lễ hội, nếu không đảm bảo hàng đến trước lễ, phải dừng nhận đơn ngay trước ngày cắt đơn quy định.",
+      "tags": ["Indonesia", "Thời gian lễ hội", "Ngữ cảnh tiêu dùng", "Rủi ro bùng đơn"]
+    },
+    {
+      "case_id": "CASE-152",
+      "case_title": "Người bán điện máy không thể vào chuỗi cửa hàng offline do thiếu chứng nhận ST Malaysia",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán kế hoạch mở rộng từ gian hàng Shopee online sang các cửa hàng bán lẻ điện máy tại Kuala Lumpur.",
+      "situation": "Bị thông báo rằng tất cả đồ điện gia dụng bán offline tại Malaysia phải có giấy phép an toàn của Ủy ban Năng lượng (ST).",
+      "outcome": "Nhà phân phối ngoại tuyến trả lại toàn bộ hàng; phí vào sàn và phí trang trí gian hàng hơn 200.000 Tệ mất trắng.",
+      "conclusion": "Quy định tuân thủ ngoại tuyến nghiêm ngặt hơn online; phải chuẩn bị đủ chứng chỉ bắt buộc địa phương trước khi mở rộng kênh vật lý.",
+      "tags": ["Malaysia", "Chứng nhận ST", "Kênh ngoại tuyến", "Tuân thủ đồ điện"]
+    },
+    {
+      "case_id": "CASE-153",
+      "case_title": "Người bán túi xách bị giảm trọng số quảng cáo tại Thái Lan do tốc độ phản hồi Facebook quá chậm",
+      "case_type": "Bài học thất bại",
+      "background": "Người dùng Thái Lan quen đặt hàng qua Messenger và mong muốn được phản hồi trong vòng 3 phút.",
+      "situation": "Người bán chỉ xử lý tin nhắn vào ban ngày, khiến các truy vấn ban đêm bị bỏ bẩn trung bình 8 tiếng mới được trả lời.",
+      "outcome": "Điểm chuyển đổi quảng cáo Facebook cực thấp, khiến giá CPC tăng vọt và vận hành rơi vào thua lỗ.",
+      "conclusion": "Thương mại mạng xã hội Thái Lan bản chất là thương mại qua tin nhắn tức thời; phải triển khai chatbot hoặc trực 24/7.",
+      "tags": ["Thái Lan", "Hiệu suất CSKH", "Trọng số quảng cáo", "Thương mại mạng xã hội"]
+    },
+    {
+      "case_id": "CASE-154",
+      "case_title": "Thương hiệu mỹ phẩm gặp làn sóng trả hàng do Việt Nam hạ ngưỡng miễn thuế VAT nhập khẩu",
+      "case_type": "Bài học thất bại",
+      "background": "Chính phủ Việt Nam điều chỉnh hạ ngưỡng giá trị tối thiểu (De Minimis) đối với bưu kiện xuyên biên giới được miễn thuế.",
+      "situation": "Người bán vẫn đóng gói nhiều sản phẩm trong một bưu kiện theo tiêu chuẩn cũ để tiết kiệm phí vận chuyển.",
+      "outcome": "Gần như toàn bộ bưu kiện bị hải quan chặn thu thuế, khách phải trả thêm tiền mới nhận được hàng, dẫn đến bão đánh giá xấu.",
+      "conclusion": "Phải theo dõi sát sao ngưỡng miễn thuế của nước sở tại để điều chỉnh chiến lược đóng gói và định giá linh hoạt.",
+      "tags": ["Việt Nam", "Thay đổi ngưỡng thuế", "Rủi ro thuế", "Kiểm soát chi phí"]
+    },
+    {
+      "case_id": "CASE-155",
+      "case_title": "Người bán phụ kiện chịu chế tài hình sự do vi phạm lệnh cấm dùng biểu tượng quân cảnh tại Philippines",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán móc khóa thời trang có thiết kế huy hiệu cảnh sát Philippines.",
+      "situation": "Vi phạm pháp luật Philippines nghiêm cấm sản xuất, kinh doanh trái phép các biểu tượng, phù hiệu của cơ quan nhà nước.",
+      "outcome": "Cảnh sát địa phương thu giữ hàng tại nhà phân phối, người bán bị liệt vào danh sách đen nhập cảnh và đối mặt lệnh triệu tập.",
+      "conclusion": "Thiết kế sản phẩm xuất khẩu phải tránh các biểu tượng nhạy cảm của chính phủ, quân đội hoặc cảnh sát để phòng rủi ro hình sự.",
+      "tags": ["Philippines", "Cấm kỵ thiết kế", "Rủi ro pháp lý", "Bảo vệ thương hiệu"]
+    },
+    {
+      "case_id": "CASE-156",
+      "case_title": "Người bán vi phạm hợp đồng tại Indonesia do phớt lờ tác động của giờ cầu nguyện Ramadan đến năng suất",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán thuê 20 nhân viên bản địa tại Indonesia để đóng gói lại và dán nhãn hàng hóa.",
+      "situation": "Mùa Ramadan nhân viên tan làm sớm và kiệt sức do nhịn ăn, nhưng người bán vẫn áp chỉ tiêu như ngày thường.",
+      "outcome": "Dẫn đến lượng lớn đơn hàng khuyến mãi không kịp gửi đi, bị sàn gỡ sản phẩm và tịch thu tiền ký quỹ.",
+      "conclusion": "Quản lý đội ngũ bản địa Đông Nam Á phải sắp xếp lịch làm việc khoa học theo lịch tôn giáo, tôn trọng chu kỳ sinh lý nhân viên.",
+      "tags": ["Indonesia", "Vận hành mùa Ramadan", "Quản lý lao động", "Kinh doanh tuân thủ"]
+    },
+    {
+      "case_id": "CASE-157",
+      "case_title": "Người bán kỹ thuật số bị kết tội lừa dối tại Singapore do thiếu minh bạch về linh kiện tân trang",
+      "case_type": "Bài học thất bại",
+      "background": "Bán điện thoại thông minh 'mới 99%' tại Singapore, nhưng linh kiện bên trong thực tế đã thay màn hình lô chất lượng kém.",
+      "situation": "Không ghi rõ 'đã thay linh kiện không chính hãng' trong Listing, bị khách kiện ra Tòa xử lý khiếu nại nhỏ (Small Claims Tribunal).",
+      "outcome": "Bị phán quyết bồi thường gấp 3 lần; cửa hàng bị gắn nhãn 'người bán không trung thực' vĩnh viễn, uy tín thương hiệu phá sản.",
+      "conclusion": "Tại thị trường có ý thức pháp luật và trung thực cao, bất kỳ khiếm khuyết hay thay đổi nào của sản phẩm cũ phải được công bố đầy đủ.",
+      "tags": ["Singapore", "Trung thực thương mại", "Giao dịch đồ cũ", "Kiện tụng pháp lý"]
+    },
+    {
+      "case_id": "CASE-158",
+      "case_title": "Người bán phụ kiện mất niềm tin khách hàng do phớt lờ tiêu chuẩn 'Công khai giá vàng' tại Malaysia",
+      "case_type": "Bài học thất bại",
+      "background": "Bán trang sức vàng K tại Malaysia nhưng định giá không minh bạch và không tham chiếu giá vàng hàng ngày.",
+      "situation": "Người tiêu dùng Malaysia quen so sánh giá với hiệp hội kim hoàn địa phương và thấy giá shop cao bất thường.",
+      "outcome": "Thương hiệu bị gắn mác 'tiệm đen chặt chém' trên các diễn đàn, tỷ lệ mua lại bằng không, kinh doanh đình trệ.",
+      "conclusion": "Kinh doanh ngành hàng giá trị cao phải tuân thủ các quy ước thương mại và tính minh bạch về giá của thị trường sở tại.",
+      "tags": ["Malaysia", "Quy ước thương mại", "Rủi ro định giá", "Phụ kiện"]
+    },
+    {
+      "case_id": "CASE-159",
+      "case_title": "Người bán túi xách lỗ vốn do phụ phí 'vượt kích thước' giữa các đảo tại Philippines",
+      "case_type": "Bài học thất bại",
+      "background": "Người bán đẩy mạnh khuyến mãi dòng vali du lịch cỡ siêu đại.",
+      "situation": "Đơn vị vận chuyển áp dụng quy định tính phí theo trọng lượng quy đổi (Volumetric Weight) cực nghiêm cho vận tải biển liên đảo.",
+      "outcome": "Phí vận chuyển thực tế cao gấp 3 lần dự kiến, người bán lỗ 100 Tệ trên mỗi chiếc vali bán ra.",
+      "conclusion": "Hậu cần liên đảo Đông Nam Á cực kỳ nhạy cảm với kích thước; hàng cồng kềnh phải đo đạc trọng lượng quy đổi chính xác trước khi định giá.",
+      "tags": ["Philippines", "Trọng lượng quy đổi", "Ước tính cước phí", "Phân tích chi phí"]
+    },
+    {
+      "case_id": "CASE-160",
+      "case_title": "Người bán bị điều tra tại Thái Lan do dùng màu sắc Hoàng gia cho tiếp thị sản phẩm nhạy cảm",
+      "case_type": "Bài học thất bại",
+      "background": "Một người bán sản phẩm người lớn đã dùng tông màu vàng đặc trưng và các biểu tượng liên quan Hoàng gia Thái Lan trong nền quảng cáo.",
+      "situation": "Quảng cáo bị tố cáo là xúc phạm Hoàng gia và không tôn trọng văn hóa địa phương.",
+      "outcome": "Cảnh sát Thái Lan lập án, phong tỏa máy chủ và kho hàng liên quan, người bán bị liệt vào danh sách cấm nhập cảnh vĩnh viễn.",
+      "conclusion": "Mọi hoạt động tiếp thị phải tránh xa biểu tượng chính trị, Hoàng gia và tôn giáo; đây là lằn ranh đỏ cao nhất tại Đông Nam Á.",
+      "tags": ["Thái Lan", "Lằn ranh đỏ pháp lý", "Tôn trọng phong tục", "Né tránh rủi ro"]
+    },
+    {
+      "case_id": "CASE-161",
+      "case_title": "Người bán thương mại mạng xã hội ứng phó việc đóng cửa TikTok Shop Indonesia đột ngột",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Năm 2023 chính phủ Indonesia đột ngột cấm giao dịch trực tiếp trên mạng xã hội, khiến nhiều người bán TikTok Shop bị tê liệt.",
+      "situation": "Một người bán mỹ phẩm tồn kho 2 triệu Tệ tại Indonesia và kênh bán hàng chính bị phong tỏa.",
+      "outcome": "Nhanh chóng kết nối với shop nội địa Shopee/Lazada, dùng tài khoản TikTok dẫn luồng ra ngoài, giải phóng 60% tồn kho trong một tháng.",
+      "conclusion": "Phụ thuộc vào một nền tảng duy nhất có rủi ro cao; người bán nên có khả năng chia sẻ tồn kho đa kênh và chuyển đổi nền tảng nhanh.",
+      "tags": ["Indonesia", "Đột biến chính sách", "Thương mại mạng xã hội", "Chuyển dịch kênh"]
+    },
+    {
+      "case_id": "CASE-162",
+      "case_title": "Người bán đảm bảo thực hiện đơn hàng qua điều phối kho liên vùng trong đại nạn lũ lụt miền Trung Việt Nam",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Trước thềm 11.11, miền Trung Việt Nam lũ lụt nghiêm trọng, kho trung chuyển tại Đà Nẵng bị ngập.",
+      "situation": "Hàng vạn đơn hàng đối mặt nguy cơ thiếu hàng, hậu cần vùng lũ đứt đoạn, rủi ro bão đánh giá xấu tăng cao.",
+      "outcome": "Khẩn cấp điều hàng từ kho Hà Nội/TP.HCM, chủ động liên hệ hoàn tiền hoặc tặng voucher cho khách vùng lũ, giữ vững đánh giá 90%.",
+      "conclusion": "Cần thiết lập bố cục kho phân tán và cơ chế giao tiếp khủng hoảng minh bạch để đối phó với thiên tai thường thấy ở ĐNA.",
+      "tags": ["Việt Nam", "Thiên tai", "Điều phối khẩn cấp", "Duy trì khách hàng"]
+    },
+    {
+      "case_id": "CASE-163",
+      "case_title": "Người bán kỹ thuật số giá trị cao giải quyết tranh chấp mã HS qua cơ chế 'Phán quyết trước'",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Xuất khẩu thiết bị đeo thông minh mới sang Thái Lan, hải quan mập mờ giữa phân loại 'đồ điện tử' hay 'thiết bị y tế'.",
+      "situation": "Thuế suất chênh lệch 15% giữa hai loại và liên quan đến các giấy phép nhập khẩu khác nhau.",
+      "outcome": "DN xin 'Phán quyết trước về mã HS' (Advance Ruling) từ Hải quan Thái Lan trước khi gửi hàng, xác nhận là đồ điện tử, né được rủi ro thuế.",
+      "conclusion": "Với sản phẩm mới có ranh giới phân loại mập mờ, dùng cơ chế phán quyết trước giúp chốt chi phí thuế và xóa bỏ sự không chắc chắn.",
+      "tags": ["Thái Lan", "Mã HS", "Phán quyết hải quan trước", "Quy hoạch thuế"]
+    },
+    {
+      "case_id": "CASE-164",
+      "case_title": "Người bán né phí lưu lượng ảo bằng cách cắt giảm ngân sách trong kỳ bầu cử Philippines",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Trong kỳ bầu cử Tổng thống Philippines, chi phí quảng cáo mạng xã hội tăng vọt do các chiến dịch chính trị.",
+      "situation": "Người bán thời trang thấy CPC tăng 300% nhưng chuyển đổi giảm do sự chú ý của dân chúng dồn vào bầu cử.",
+      "outcome": "Quyết liệt tắt các từ khóa giá cao, chuyển sang chăm sóc cộng đồng fan riêng, bảo toàn được lợi nhuận trong tháng.",
+      "conclusion": "Tiếp thị xuyên biên giới cần theo dõi chu kỳ chính trị địa phương, linh hoạt điều chỉnh ngân sách khi chi phí lưu lượng rời xa giá trị thương mại.",
+      "tags": ["Philippines", "Chu kỳ chính trị", "Tối ưu hóa quảng cáo", "Kiểm soát chi phí"]
+    },
+    {
+      "case_id": "CASE-165",
+      "case_title": "Xử lý thông quan của người bán trong giai đoạn 'Luồng đỏ' (Red Line) của Hải quan Indonesia",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Hải quan Indonesia định kỳ vào giai đoạn kiểm tra nghiêm ngặt (Red Line), tỷ lệ kiểm hóa gần như 100%.",
+      "situation": "Người bán có lô hàng gia dụng cần lên kệ gấp đúng vào kỳ Luồng đỏ, đối mặt nguy cơ kẹt cảng dài ngày.",
+      "outcome": "Chủ động xin kiểm hóa mở thùng 100%, cung cấp đầy đủ hóa đơn chứng từ thuế, thông quan chậm 7 ngày nhưng đảm bảo hàng vào kho an toàn.",
+      "conclusion": "Trong kỳ Luồng đỏ Indonesia, khai báo tuân thủ là con đường duy nhất; tuyệt đối không thử khai thấp giá hoặc thông quan vùng xám.",
+      "tags": ["Indonesia", "Luồng đỏ", "Kiểm hóa hải quan", "Chiến lược thông quan"]
+    },
+    {
+      "case_id": "CASE-166",
+      "case_title": "Người bán Singapore xử lý tranh chấp bồi thường hàng hóa biến chất do nắng nóng cực đoan",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Xuất khẩu lô socola cao cấp đi Singapore, do container phơi nắng quá lâu tại xích đạo khiến sản phẩm tan chảy.",
+      "situation": "Công ty vận chuyển từ chối bồi thường với lý do 'thiên tai môi trường', người bán đối mặt mất trắng.",
+      "outcome": "Người bán đưa ra dữ liệu từ thiết bị ghi ghi nhiệt độ bên trong, chứng minh bên vận tải không làm đúng thỏa thuận 'bảo quản mát', đòi bồi thường được 80%.",
+      "conclusion": "Sản phẩm nhạy cảm nhiệt độ phải có yêu cầu rõ ràng trong hợp đồng và trang bị thiết bị ghi dữ liệu có thể truy xuất.",
+      "tags": ["Singapore", "Chuỗi cung ứng lạnh", "Bồi thường bảo hiểm", "Tranh chấp chất lượng"]
+    },
+    {
+      "case_id": "CASE-167",
+      "case_title": "Người bán chặn đứng rủi ro hàng cấm trong giai đoạn chính sách cần sa Thái Lan biến động",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Quy định về cần sa và các dẫn xuất tại Thái Lan thay đổi liên tục giữa nới lỏng và siết chặt trong thời gian ngắn.",
+      "situation": "Người bán thiết bị sức khỏe phát hiện nhà cung cấp tặng kèm tinh dầu có chứa vi lượng chiết xuất cần sa.",
+      "outcome": "Chặn đứng quà tặng ngay tại khâu kiểm kho trước khi xuất khẩu, tránh được rủi ro hàng bị định tính là buôn lậu ma túy tại cửa khẩu Thái.",
+      "conclusion": "Luật pháp ĐNA biến động nhanh, kiểm duyệt thành phần nhạy cảm phải xuyên suốt chuỗi cung ứng, tránh để quà tặng gây họa.",
+      "tags": ["Thái Lan", "Biến động chính sách", "Thành phần nhạy cảm", "Rủi ro chuỗi cung ứng"]
+    },
+    {
+      "case_id": "CASE-168",
+      "case_title": "Xử lý thu hồi vốn khẩn cấp của người bán trong giai đoạn biến động chính trị tại Myanmar",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Bất ổn chính trị Myanmar dẫn đến hệ thống ngân hàng tê liệt thường xuyên, kênh chuyển tiền xuyên biên giới bị chặn.",
+      "situation": "Người bán B2B còn 50.000 USD tiền hàng chưa thu hồi từ khách Myanmar, đối mặt rủi ro mất vốn.",
+      "outcome": "Thông qua thỏa thuận với ngân hàng trung gian quốc tế và công cụ thanh toán bên thứ ba hợp pháp, hoàn thành thu hồi vốn theo từng đợt.",
+      "conclusion": "Tại thị trường bất ổn, nên ưu tiên tín dụng thư (L/C) trả ngay hoặc trả trước, và lập nhiều kênh thu hối dự phòng.",
+      "tags": ["Myanmar", "An toàn dòng vốn", "Thu hồi ngoại tệ", "Rủi ro chính trị"]
+    },
+    {
+      "case_id": "CASE-169",
+      "case_title": "Phản ứng PR tại hiện trường của thương hiệu khi bị Ủy ban Năng lượng Malaysia (ST) kiểm tra đột xuất",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Quan chức ST kiểm tra đột xuất kho hàng TMĐT, nghi ngờ tính xác thực của nhãn chứng nhận trên máy sấy tóc.",
+      "situation": "Nếu không cung cấp được bằng chứng tại chỗ, toàn bộ lô hàng sẽ bị niêm phong và đối mặt khoản phạt khổng lồ.",
+      "outcome": "Đội ngũ bản địa trong 1 giờ đã truy xuất được dữ liệu trực tuyến của ST và bản điện tử chứng chỉ gốc, hóa giải khủng hoảng tức thì.",
+      "conclusion": "Năng lực truy xuất kỹ thuật số tức thời các văn bản tuân thủ là chìa khóa ứng phó kiểm tra hành chính tại nước ngoài.",
+      "tags": ["Malaysia", "Chứng nhận ST", "Kiểm tra hành chính", "Quản lý khủng hoảng"]
+    },
+    {
+      "case_id": "CASE-170",
+      "case_title": "Người bán xử lý yêu cầu bồi thường đa bên phức tạp vụ 'Mất bưu kiện vùng đảo' Philippines",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Một con tàu chở hàng liên đảo tại Philippines bị hỏa hoạn, khiến hàng nghìn bưu kiện của người bán bị hỏng.",
+      "situation": "Liên quan đến hải quan, hãng tàu, hậu cần nền tảng; lộ trình bồi thường cực kỳ phức tạp.",
+      "outcome": "Người bán liên kết với các chủ hàng khác khởi kiện tập thể, đồng thời yêu cầu hậu cần sàn đền bù trước, thu hồi được 60% tổn thất.",
+      "conclusion": "Tại khu vực hậu cần yếu kém, nên mua đủ bảo hiểm hàng hóa và tận dụng cơ chế bảo đảm chính thức của sàn để phân tán rủi ro.",
+      "tags": ["Philippines", "Tai nạn hàng hải", "Bảo vệ quyền lợi tập thể", "Bảo hiểm hậu cần"]
+    },
+    {
+      "case_id": "CASE-171",
+      "case_title": "Người bán chỉnh sửa bao bì khẩn cấp do vấn đề 'Bản đồ đường lưỡi bò' tại Việt Nam",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Hải quan Việt Nam kiểm tra nghiêm mọi hàng hóa chứa hình ảnh đường lưỡi bò, kể cả hoa văn nhỏ trên bao bì.",
+      "situation": "Thương hiệu bị chặn tại cửa khẩu do hoa văn trang trí dưới đáy hộp bị nghi ngờ liên quan đến đường biên giới nhạy cảm.",
+      "outcome": "Tổ chức nhân công tại kho giám sát hải quan thực hiện 'che phủ/xóa bỏ' liên tục 48 giờ để được thông quan.",
+      "conclusion": "Với thị trường nhạy cảm chính trị, thiết kế bao bì phải qua khâu 'duyệt hình ảnh tuân thủ' từ luật sư hoặc đơn vị chuyên môn bản địa.",
+      "tags": ["Việt Nam", "Tuân thủ chính trị", "Chỉnh sửa bao bì", "Rủi ro địa chính trị"]
+    },
+    {
+      "case_id": "CASE-172",
+      "case_title": "Người bán kháng nghị thành công vụ bị thuật toán Indonesia phán đoán nhầm lỗi 'Buff đơn'",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Nâng cấp thuật toán nền tảng khiến nhiều đơn hàng mua chung (Group Buy) từ cùng IP bị nhận diện nhầm là gian lận.",
+      "situation": "Cửa hàng bị ẩn sản phẩm ngay trước kỳ khuyến mãi lớn, mỗi ngày trì hoãn là một thiệt hại khổng lồ.",
+      "outcome": "Thông qua việc nộp hợp đồng mua chung thật, lịch sử chat và video ký nhận, đã được mở khóa thủ công trong 48 giờ.",
+      "conclusion": "Đối mặt với sai sót của thuật toán, chuỗi bằng chứng gốc chi tiết (hợp đồng, chat, vận đơn) là vũ khí kháng nghị duy nhất.",
+      "tags": ["Indonesia", "Kháng nghị nền tảng", "Thuật toán kiểm soát rủi ro", "Chuỗi bằng chứng"]
+    },
+    {
+      "case_id": "CASE-173",
+      "case_title": "Cuộc chiến pháp lý của người bán Singapore chống lại việc lạm dụng 'Quyền hủy hợp đồng' của khách",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Một 'thợ kiện' chuyên nghiệp tại Singapore lợi dụng điều khoản bảo vệ khách hàng để mua rồi trả máy chiếu cao cấp nhằm trục lợi phí mở hộp.",
+      "situation": "Nếu hoàn tiền, người bán lỗ phí vận chuyển và khấu hao; nếu không, đối mặt với kiện tụng từ hiệp hội tiêu dùng.",
+      "outcome": "Người bán dùng video đối chiếu số serial trước và sau khi gửi/nhận, chứng minh khách tráo hàng, báo cảnh sát và kiện ngược thành công.",
+      "conclusion": "Tại thị trường pháp trị, giám sát tráo hàng nghiêm ngặt và hồ sơ 'mỗi máy một mã' là cách hữu hiệu chống lại kẻ gian.",
+      "tags": ["Singapore", "Hoàn tiền ác ý", "Bảo vệ quyền lợi pháp lý", "Chống tráo hàng"]
+    },
+    {
+      "case_id": "CASE-174",
+      "case_title": "Tái cấu trúc mô hình định giá sau khi Thái Lan bãi bỏ 'Ngưỡng miễn thuế VAT nhập khẩu'",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Thái Lan công bố bãi bỏ miễn thuế VAT cho hàng hóa giá trị thấp (dưới 1.500 Baht).",
+      "situation": "Các phụ kiện nhỏ vốn miễn thuế nay tăng chi phí 7%, cộng thêm phí xử lý thông quan mỗi đơn tăng lên.",
+      "outcome": "Chuyển sang chiến lược 'bán theo combo' để tăng giá trị đơn hàng, chia nhỏ phí xử lý, chuyển dịch thành công chi phí thuế mới.",
+      "conclusion": "Khi chính sách miễn thuế thu hẹp, người bán cần chuyển từ logic bán lẻ từng món sang logic tiếp thị combo để giữ biên lợi nhuận.",
+      "tags": ["Thái Lan", "Quy định thuế mới", "Điều chỉnh VAT", "Chiến lược định giá"]
+    },
+    {
+      "case_id": "CASE-175",
+      "case_title": "Người bán né ùn tắc cửa khẩu thành công qua 'Cửa khẩu thông quan dự phòng' tại Việt Nam",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Dịp 11.11 Cửa khẩu Hữu Nghị ùn tắc xe kéo dài hơn 5 ngày, đe dọa hàng Mẹ và Bé cần giao gấp.",
+      "situation": "Người bán nhận thấy kênh chính tê liệt, nếu tiếp tục chờ sẽ dẫn đến khách hủy đơn hàng loạt.",
+      "outcome": "Kích hoạt phương án B qua Cửa khẩu Móng Cái vận tải đa phương thức, dù phí cao hơn 10% nhưng đến tay khách trước đối thủ 3 ngày.",
+      "conclusion": "Thiết lập dự phòng đa cửa khẩu và chiến lược định tuyến động là cốt lõi đảm bảo tính dẻo dai của chuỗi cung ứng.",
+      "tags": ["Việt Nam", "Ùn tắc cửa khẩu", "Định tuyến hậu cần", "Phương án thông quan"]
+    },
+    {
+      "case_id": "CASE-176",
+      "case_title": "Người bán bảo vệ tài sản tài khoản sau khi công ty đối tác Indonesia 'mất tích ác ý'",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Người bán dùng đơn vị trung gian Indonesia đăng ký shop nội địa, đơn vị này đột ngột mất liên lạc khi đang giữ quyền quản trị cao nhất.",
+      "situation": "Hàng trăm nghìn Tệ tiền hàng đối mặt nguy cơ không thể rút và tài sản thương hiệu bị chiếm đoạt.",
+      "outcome": "Dùng thỏa thuận ủy quyền có công chứng trước đó liên hệ nền tảng cưỡng chế gỡ bỏ liên kết và gắn lại vào pháp nhân hợp quy.",
+      "conclusion": "Trong mô hình shop nội địa, tính pháp lý của hợp đồng công chứng và việc độc lập nắm giữ tài sản cốt lõi là mấu chốt.",
+      "tags": ["Indonesia", "Rủi ro shop nội địa", "Bảo vệ quyền lợi", "An toàn tài khoản"]
+    },
+    {
+      "case_id": "CASE-177",
+      "case_title": "Chuyển đơn khẩn cấp của người bán trong vụ 'Đình công nhà máy' tại Malaysia",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Một nhà máy gia công Malaysia xảy ra tranh chấp lao động và đình công đột ngột ngay trước Ramadan.",
+      "situation": "Đúng vào cao điểm chuẩn bị quà tặng Eid, hàng vạn đơn hàng tùy chỉnh đối mặt nguy cơ không thể giao.",
+      "outcome": "Dùng hệ thống chuỗi cung ứng số hóa chuyển bản thiết kế sang nhà máy dự phòng tại Việt Nam, bù hàng qua đường không để kịp tiến độ.",
+      "conclusion": "Chuỗi cung ứng xuyên biên giới phải có cơ chế 'nhà máy dự phòng', đặc biệt tại các nước ĐNA có quan hệ lao động nhạy cảm.",
+      "tags": ["Malaysia", "Khủng hoảng đình công", "Dự phòng chuỗi cung ứng", "Lễ Eid al-Fitr"]
+    },
+    {
+      "case_id": "CASE-178",
+      "case_title": "Người bán xử lý khủng hoảng bán quá thầu do 'Sét đánh sập máy chủ' tại Philippines",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Mùa dông sét Philippines làm mất điện và sập nhà cung cấp dịch vụ đám mây địa phương, mất dữ liệu tồn kho ERP.",
+      "situation": "Gian hàng online vẫn mở bán nhưng kho vật lý đã hết sạch, đối mặt làn sóng khiếu nại bán hàng ảo.",
+      "outcome": "Truy xuất bản ghi dữ liệu offline, thực hiện gỡ sản phẩm thủ công toàn nền tảng và khôi phục dữ liệu chính xác trong 24 giờ.",
+      "conclusion": "Dữ liệu đám mây phải có cơ chế sao lưu đa vùng và cache offline để đối phó hạ tầng không ổn định tại ĐNA.",
+      "tags": ["Philippines", "Rủi ro hạ tầng IT", "Quản lý tồn kho", "Bán quá thầu"]
+    },
+    {
+      "case_id": "CASE-179",
+      "case_title": "Thu hồi quảng cáo PR khẩn cấp do dùng sai hình ảnh liên quan đến Hoàng gia Thái Lan",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Do sơ suất của thiết kế, một hình ảnh mờ liên quan thành viên Hoàng gia xuất hiện trong phông nền quảng cáo.",
+      "situation": "Bị cư dân mạng Thái Lan phát hiện gây phẫn nộ, đối mặt rủi ro vi phạm luật khi quân hình sự.",
+      "outcome": "Người bán gỡ bỏ quảng cáo toàn mạng trong 15 phút, phát thư xin lỗi chính thức và thuê công ty PR địa phương định hướng dư luận.",
+      "conclusion": "Tại các nước quân chủ như Thái Lan, tuân thủ hình ảnh là tuân thủ chính trị, bắt buộc thực hiện kiểm duyệt thủ công 100%.",
+      "tags": ["Thái Lan", "Né tránh rủi ro chính trị", "Tuân thủ hình ảnh", "PR khủng hoảng"]
+    },
+    {
+      "case_id": "CASE-180",
+      "case_title": "Người bán xử lý khủng hoảng giao hàng chặng cuối do 'Shipper tập thể đình công' tại Việt Nam",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Một trạm giao hàng tại khu vực TP.HCM đình công vì vấn đề lương bổng, hàng nghìn kiện hàng bị kẹt.",
+      "situation": "Hệ thống hậu cần chính thức không cập nhật, người mua tưởng người bán 'treo đầu dê bán thịt chó'.",
+      "outcome": "Liên hệ dịch vụ giao hàng công nghệ và mạng lưới giao hàng tư nhân, tự bỏ phí bù gửi hàng gấp cho khách đang cần gấp.",
+      "conclusion": "Biến động hậu cần chặng cuối là thường trực, xây dựng mạng lưới cứu trợ linh hoạt giúp cứu vãn uy tín thương hiệu.",
+      "tags": ["Việt Nam", "Đình công hậu cần", "Giao hàng chặng cuối", "Bồi thường dịch vụ"]
+    },
+    {
+      "case_id": "CASE-181",
+      "case_title": "Người bán bị Hải quan Singapore điều tra và phạt do 'Chia nhỏ gói hàng né thuế'",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Người bán chia một đơn hàng thành nhiều gói giá trị thấp gửi đến cùng một địa chỉ để né thuế GST.",
+      "situation": "Hải quan Singapore qua Big Data nhận diện được các đơn nhỏ tần suất cao cùng người nhận, kết luận là trốn thuế.",
+      "outcome": "Truy thu thuế và phạt gấp 5 lần; tài khoản bị vào danh sách đen kiểm hóa, mọi bưu kiện sau đó phải mở thùng 100%.",
+      "conclusion": "Chi phí tuân thủ tại Singapore thấp nhưng chi phí vi phạm cực cao; đừng dùng 'mẹo vặt' để né thuế.",
+      "tags": ["Singapore", "Trốn thuế", "Kiểm tra Big Data", "Tuân thủ thuế"]
+    },
+    {
+      "case_id": "CASE-182",
+      "case_title": "Xử lý khủng hoảng truyền thông xã hội do 'Logo Halal hết hạn' tại Indonesia",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Chứng chỉ Halal của một hãng thực phẩm hết hạn đúng mùa Ramadan và quy trình gia hạn bị chậm.",
+      "situation": "Bị đối thủ lợi dụng tung tin trên TikTok rằng sản phẩm 'không còn Halal nữa'.",
+      "outcome": "Đưa ra công văn gia hạn của BPOM và video quy trình sản xuất đúng chuẩn, làm rõ qua báo chí chính thống để trấn an dư luận.",
+      "conclusion": "Quản lý thời hạn chứng chỉ Halal nên bắt đầu trước 6 tháng, chuẩn bị sẵn phương án PR cho giai đoạn chuyển tiếp.",
+      "tags": ["Indonesia", "Khủng hoảng Halal", "Chứng nhận", "Bảo vệ thương hiệu"]
+    },
+    {
+      "case_id": "CASE-183",
+      "case_title": "Điều hướng hậu cần của người bán sau trận động đất mạnh tại Philippines",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Động đất mạnh tại đảo Luzon làm hỏng 80% thiết bị cẩu tại cảng Manila, năng lực bốc dỡ giảm 80%.",
+      "situation": "Hàng loạt đơn đường biển kẹt vô thời hạn, dòng tiền cực kỳ căng thẳng.",
+      "outcome": "Nhanh chóng phối hợp với đơn vị vận chuyển chuyển hàng kế tiếp sang sân bay Cebu rồi vận chuyển đường bộ để không đứt hàng.",
+      "conclusion": "Dự phòng vận tải đa phương thức là phao cứu sinh cho chuỗi cung ứng trong thiên tai địa chất cực đoan.",
+      "tags": ["Philippines", "Rủi ro động đất", "Dẻo dai hậu cần", "Đa phương thức"]
+    },
+    {
+      "case_id": "CASE-184",
+      "case_title": "Người bán ứng phó kiểm tra thuế do 'Sai lệch phiên bản hóa đơn' tại Việt Nam",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Chính phủ Việt Nam triển khai phiên bản hóa đơn điện tử mới, người bán chưa cập nhật hệ thống nên xuất hóa đơn cũ không hiệu lực.",
+      "situation": "Cục Thuế nghi ngờ có hành vi trốn thuế và đe dọa phong tỏa tài khoản tài chính doanh nghiệp.",
+      "outcome": "Chủ động báo cáo xin điều chỉnh và nộp chứng minh nâng cấp kỹ thuật, xuất lại toàn bộ hóa đơn trong 7 ngày để được miễn phạt.",
+      "conclusion": "Số hóa tài chính thuế ĐNA tiến triển rất nhanh, bắt buộc thuê kế toán bản địa kiểm toán định kỳ tính hợp quy của chứng từ.",
+      "tags": ["Việt Nam", "Hóa đơn điện tử", "Kiểm tra thuế", "Nâng cấp tuân thủ"]
+    },
+    {
+      "case_id": "CASE-185",
+      "case_title": "Người bán thách thức việc nhầm lẫn hàng công nghệ tân trang là 'Rác điện tử' tại Thái Lan",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Thái Lan cấm nhập hàng cũ nghiêm ngặt; hải quan thường nhầm hàng Refurbished (tân trang) với đồ cũ nát.",
+      "situation": "Lô máy tính tân trang giá cao bị hải quan giữ lại vì định tính là rác thải điện tử cấm nhập khẩu.",
+      "outcome": "Nộp chứng nhận kiểm định chất lượng từ nhà máy và văn bản xác nhận Refurbished chính thức qua đơn vị thông quan chuyên nghiệp để qua cửa.",
+      "conclusion": "Với trạng thái hàng đặc thù (tân trang, hàng trưng bày), phải chuẩn bị tài liệu chứng thực của hãng để phân biệt với đồ cũ.",
+      "tags": ["Thái Lan", "Hàng Refurbished", "Tranh chấp thông quan", "Quy tắc gia nhập"]
+    },
+    {
+      "case_id": "CASE-186",
+      "case_title": "Người bán xử lý tranh chấp nội bộ vụ 'Nhân viên lỡ ăn đồ không Halal' mùa Ramadan tại Malaysia",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Tại một kho phân loại nhỏ ở Malaysia, do sơ suất hành chính, đồ uống có cồn xuất hiện trong tủ lạnh dùng chung.",
+      "situation": "Dẫn đến nhiều nhân viên Hồi giáo phản đối gay gắt và dọa nghỉ việc tập thể, đối mặt điều tra từ Bộ Lao động.",
+      "outcome": "Quản lý xin lỗi công khai, lập khu lưu trữ Halal/Non-Halal riêng biệt và thuê tư vấn tôn giáo đào tạo nhân viên.",
+      "conclusion": "Thiết lập đội ngũ nước ngoài phải cực kỳ tôn trọng tập quán tôn giáo; sai sót nhỏ có thể gây khủng hoảng niềm tin đội ngũ.",
+      "tags": ["Malaysia", "Tôn trọng văn hóa", "Quan hệ nhân viên", "Tuân thủ quản lý"]
+    },
+    {
+      "case_id": "CASE-187",
+      "case_title": "Chuyển đổi mô hình của người bán sau 'Lệnh cấm nhập khẩu TMĐT' theo khung giá tại Indonesia",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Indonesia cấm sàn TMĐT bán hàng nhập khẩu có đơn giá dưới 100 USD đối với một số nhóm hàng máy móc hoàn chỉnh.",
+      "situation": "Người bán phụ kiện số có các SKU giá thấp bị vô hiệu hóa hoàn toàn, doanh số rơi thẳng đứng.",
+      "outcome": "Điều chỉnh sang 'Mô hình kho nội địa' - nhập hàng lô lớn qua thương mại chính ngạch vào kho rồi mới bán lẻ, lách được lệnh cấm B2C.",
+      "conclusion": "Khi đường tiểu ngạch/gửi thẳng bị chặn bởi chính sách, chuyển sang nhập khẩu chính ngạch + phân phối nội địa là đường sống duy nhất.",
+      "tags": ["Indonesia", "Lệnh cấm xuyên biên giới", "Chuyển đổi mô hình", "Bản địa hóa"]
+    },
+    {
+      "case_id": "CASE-188",
+      "case_title": "Người bán xử lý cuộc điều tra của CCCS Singapore về cáo buộc 'Khuyến mãi ảo'",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "CCCS điều tra người bán thường xuyên dùng 'giá gạch đi' nhưng chưa bao giờ bán với mức giá đó thực tế.",
+      "situation": "Bị định tính là 'Giá gốc giả mạo', đối mặt phạt nặng và công khai danh tính làm xấu hình ảnh thương hiệu.",
+      "outcome": "Cung cấp hồ sơ biến động giá 3 tháng qua, chứng minh đó là các đợt khuyến mãi bậc thang hợp pháp, kháng nghị thành công.",
+      "conclusion": "Singapore kiểm soát tính trung thực của giá cực nghiêm, người bán phải lưu hồ sơ thay đổi giá để đối soát khi cần.",
+      "tags": ["Singapore", "Trung thực về giá", "Điều tra CCCS", "Tuân thủ pháp luật"]
+    },
+    {
+      "case_id": "CASE-189",
+      "case_title": "Người bán xử lý hàng bị kẹt thông quan do 'Trùng tên danh sách đen' tại Philippines",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Tên đại lý của người bán tại Philippines trùng tên với một tội phạm đang bị truy nã địa phương.",
+      "situation": "Kích hoạt hệ thống rà soát lý lịch của hải quan, khiến container bị khóa điều tra suốt 1 tháng.",
+      "outcome": "Cung cấp đầy đủ chứng nhận tư cách đại lý và báo cáo lý lịch tư pháp (NBI Clearance) để giải tỏa nghi ngờ.",
+      "conclusion": "Tính minh bạch hành chính tại ĐNA có hạn, chọn đối tác bản địa lý lịch sạch và chuẩn bị sẵn bộ hồ sơ năng lực là rất quan trọng.",
+      "tags": ["Philippines", "Nhầm lẫn danh sách đen", "Chứng minh tư cách", "Chậm trễ thông quan"]
+    },
+    {
+      "case_id": "CASE-190",
+      "case_title": "Kháng nghị của người bán khi tài khoản MXH bị khóa do dịch thuật sai lệch tại Việt Nam",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Tính năng dịch tự động của Facebook Việt Nam dịch từ 'Hot Item' thành một từ có thiên hướng bạo lực.",
+      "situation": "Kích hoạt cơ chế khóa tự động của Facebook khu vực Việt Nam, các chiến dịch quảng cáo bị dừng đột ngột.",
+      "outcome": "Nộp văn bản giải trình ngữ nghĩa thủ công và bằng chứng ý định thương hiệu, khôi phục quyền truy cập và nhận bồi thường.",
+      "conclusion": "AI dịch thuật có khiếm khuyết với các ngôn ngữ nhạy cảm; văn bản tiếp thị cốt lõi phải được duyệt bởi người bản ngữ.",
+      "tags": ["Việt Nam", "AI dịch sai", "Kháng nghị nền tảng", "Tiếp thị mạng xã hội"]
+    },
+    {
+      "case_id": "CASE-191",
+      "case_title": "Khắc phục dán nhãn khẩn cấp sau đợt kiểm tra đột xuất 'Nhãn tiếng Thái bắt buộc' trên mỹ phẩm",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "FDA Thái Lan kiểm tra đột xuất các kho TMĐT, yêu cầu mỹ phẩm nhập khẩu phải có nhãn tiếng Thái dán vật lý trên vỏ.",
+      "situation": "Người bán trước đây chỉ bỏ tờ rơi vào hộp, bị xác định vi phạm, hàng đối mặt bị niêm phong.",
+      "outcome": "Tận dụng dịch vụ dán nhãn của kho ngoại quan, hoàn thành dán nhãn cho toàn bộ kho hàng trong 24 giờ, vượt qua đợt kiểm tra lại.",
+      "conclusion": "Giám sát nước ngoài đang chuyển sang tuân thủ vật lý; người bán phải có năng lực thao tác tại kho chặng cuối.",
+      "tags": ["Thái Lan", "Nhãn FDA", "Khắc phục chặng cuối", "Tuân thủ mỹ phẩm"]
+    },
+    {
+      "case_id": "CASE-192",
+      "case_title": "Người bán xử lý khiếu nại xuyên biên giới vụ 'Thùng carton ẩm mục hỏng hàng' tại Singapore",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Mùa mưa Singapore độ ẩm cực cao, thùng giấy thường bị biến dạng khi chất đống tại trung tâm phân loại.",
+      "situation": "Dẫn đến thiết bị cơ khí tinh vi bên trong bị đè hỏng, khách đòi bồi thường gấp 3.",
+      "outcome": "Người bán chứng minh qua bên kiểm định thứ ba rằng hư hỏng do môi trường hậu cần không đạt chuẩn, chia sẻ phí bồi thường với bên vận chuyển.",
+      "conclusion": "Khu vực nhiệt đới mưa nhiều phải dùng bao bì chống ẩm cán màng dày và mua bảo hiểm bổ sung cho rủi ro độ ẩm.",
+      "tags": ["Singapore", "Rủi ro môi trường", "Quy cách bao bì", "Bồi thường bảo hiểm"]
+    },
+    {
+      "case_id": "CASE-193",
+      "case_title": "Phục hồi lưu lượng của người bán sau lệnh chặn từ khóa nhập khẩu toàn mạng tại Indonesia",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Để bảo vệ công nghiệp trong nước, chính phủ Indonesia đột ngột chặn các từ khóa như 'Import' trên các sàn.",
+      "situation": "Các shop xuyên biên giới sống nhờ các từ khóa này bị sụt giảm 80% lưu lượng chỉ sau một đêm.",
+      "outcome": "Nhanh chóng điều chỉnh từ khóa sang mô tả công năng và ngữ cảnh đời sống bản địa bằng tiếng Bahasa, lấy lại lưu lượng qua các từ khóa liên quan.",
+      "conclusion": "Chiến lược SEO nên tránh dùng các thuật ngữ ngành nhạy cảm, chuyển sang đào sâu từ khóa công năng và trải nghiệm người dùng.",
+      "tags": ["Indonesia", "Chặn tìm kiếm", "Tối ưu SEO", "Chiến lược lưu lượng"]
+    },
+    {
+      "case_id": "CASE-194",
+      "case_title": "Xử lý bồi thường và chậm trễ do 'Sập hệ thống hải quan' tại Việt Nam",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Hệ thống VNACCS của Hải quan Việt Nam gặp sự cố sập hiếm hoi kéo dài 48 giờ.",
+      "situation": "Mọi đơn hàng xuất khẩu không thể khai báo, người bán đối mặt rủi ro sàn tự động hủy đơn do quá hạn.",
+      "outcome": "Liên hệ sàn xin 'Giai đoạn miễn trách hậu cần khu vực', gửi ảnh chụp màn hình sự cố cho khách để nhận được sự thông cảm.",
+      "conclusion": "Khi hệ thống hành chính nước sở tại gặp sự cố bất khả kháng, phải lập tức liên hệ sàn bảo vệ chỉ số và trấn an khách hàng.",
+      "tags": ["Việt Nam", "Rủi ro hành chính", "Miễn trách nền tảng", "Cơ chế giao tiếp"]
+    },
+    {
+      "case_id": "CASE-195",
+      "case_title": "Người bán xử lý tranh chấp 'Tráo hàng do quá tải kho' dịp cao điểm tại Philippines",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Dịp Double 12, phân loại chuyển phát tại Philippines cực kỳ hỗn loạn, một số đồ điện tử giá cao bị tráo thành đá.",
+      "situation": "Khách nhận hàng khiếu nại; do quy trình hậu cần phức tạp, rất khó xác định trách nhiệm thuộc về ai.",
+      "outcome": "Người bán đưa ra dữ liệu cân nặng lúc gửi so với lúc ký nhận có sự sai lệch lớn, chứng minh hàng bị tráo trên đường đi, được bồi thường toàn bộ.",
+      "conclusion": "Dữ liệu cân nặng toàn trình và video giám sát là bằng chứng khách quan cốt lõi để giải quyết tranh chấp 'tráo hàng'.",
+      "tags": ["Philippines", "An toàn bưu kiện", "Dữ liệu cân nặng", "Tranh chấp hậu cần"]
+    },
+    {
+      "case_id": "CASE-196",
+      "case_title": "Người bán xử lý khủng hoảng PR tại Malaysia do phát ngôn sai lệch của Influencer",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Influencer hợp tác với thương hiệu có phát ngôn kỳ thị sắc tộc trong một buổi livestream riêng.",
+      "situation": "Thương hiệu bị cư dân mạng phẫn nộ đưa vào danh sách tẩy chay, trang chủ bị bão đánh giá 1 sao.",
+      "outcome": "Trong 2 giờ chấm dứt hợp tác, công khai quyên góp cho các tổ chức từ thiện của sắc tộc bị ảnh hưởng, tái khẳng định giá trị bao trùm.",
+      "conclusion": "Quốc gia đa sắc tộc phải cảnh giác cao độ với rủi ro 'chính trị chuẩn xác'; cần hệ thống giám sát dư luận với các Influencer hợp tác.",
+      "tags": ["Malaysia", "Kiểm soát Influencer", "Khủng hoảng PR", "Đa văn hóa"]
+    },
+    {
+      "case_id": "CASE-197",
+      "case_title": "Người bán xử lý cảnh báo chậm sản xuất do 'Rút ngắn giờ làm mùa Ramadan' tại Indonesia",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Nhân viên Indonesia giảm giờ làm và hiệu suất trong tháng nhịn ăn Ramadan.",
+      "situation": "Lượng đơn tăng do lễ hội nhưng sản lượng giảm, đối mặt khủng hoảng thực hiện đơn hàng.",
+      "outcome": "Sản xuất dư thừa trước đó 2 tháng, trong kỳ Ramadan dùng 'phụ cấp tăng ca' để khuyến khích nhân viên phi Hồi giáo hỗ trợ.",
+      "conclusion": "Đối với lễ hội tôn giáo, phải dự trữ năng lực sản xuất trước và có phương án phối hợp đội ngũ đa tôn giáo linh hoạt.",
+      "tags": ["Indonesia", "Quản lý năng lực sản xuất", "Vận hành mùa Ramadan", "Quản lý lao động"]
+    },
+    {
+      "case_id": "CASE-198",
+      "case_title": "Người bán xử lý hàng thủ công mỹ nghệ gỗ bị chặn tại Singapore do nghi chứa 'Vật liệu bảo tồn'",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Hải quan Singapore nghi ngờ lô nội thất gỗ dùng loại cây nguy cấp, yêu cầu trình chứng chỉ CITES.",
+      "situation": "Người bán không chứng minh được nguồn gốc gỗ, hàng đối mặt bị tịch thu tiêu hủy và phạt tiền.",
+      "outcome": "Nộp chứng nhận khai thác hợp pháp của cục lâm nghiệp nước xuất khẩu và báo cáo kiểm nghiệm hiển vi thành phần gỗ để được thông quan.",
+      "conclusion": "Xuất khẩu đồ gỗ lô lớn phải có chứng nhận quyền rừng và thành phần đầy đủ để đối phó với kiểm tra môi trường ngày càng gắt gao.",
+      "tags": ["Singapore", "CITES", "Kiểm tra môi trường", "Rủi ro đồ nội thất"]
+    },
+    {
+      "case_id": "CASE-199",
+      "case_title": "Người bán kháng nghị vụ 'Đối thủ mua hàng đánh giá 1 sao hàng loạt' tại Thái Lan",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Trong thời gian ngắn cửa hàng nhận 50 đánh giá 1 sao cùng nội dung 'giao chậm, hàng đểu' với địa chỉ nhận hàng tập trung bất thường.",
+      "situation": "Trọng số cửa hàng giảm mạnh, nhận cảnh báo có thể bị gỡ khỏi sàn.",
+      "outcome": "Truy xuất liên kết giữa số điện thoại nhận hàng và hồ sơ đối thủ, nộp bằng chứng cho trung tâm chống gian lận của sàn, khôi phục lại điểm số.",
+      "conclusion": "Đối mặt với đánh giá xấu chuyên nghiệp, dùng dữ liệu đa chiều liên kết (địa chỉ, SĐT, quan hệ tài khoản) là cách bảo vệ trọng số.",
+      "tags": ["Thái Lan", "Đánh giá ác ý", "Chống gian lận nền tảng", "Kiểm soát rủi ro cạnh tranh"]
+    },
+    {
+      "case_id": "CASE-200",
+      "case_title": "Người bán xử lý lỗ tỷ giá tại Việt Nam do đồng tiền mất giá đột ngột",
+      "case_type": "Trường hợp đặc biệt",
+      "background": "Do Fed tăng lãi suất, đồng Việt Nam (VND) mất giá 5% ngay trong chu kỳ thanh toán tiền hàng.",
+      "situation": "Dù doanh số đạt chỉ tiêu nhưng lợi nhuận thực tế thu về bị chênh lệch tỷ giá bào mòn gần hết.",
+      "outcome": "Sử dụng công cụ hoán đổi ngoại tệ (Forward) để chốt tỷ giá cho nửa cuối năm, né được rủi ro biến động sau đó.",
+      "conclusion": "Với thị trường ĐNA có biến động tiền tệ mạnh, người bán nên lập cơ chế phòng vệ tỷ giá thay vì phụ thuộc vào tỷ giá tự nhiên.",
+      "tags": ["Việt Nam", "Rủi ro tỷ giá", "Phòng vệ tài chính", "Tuân thủ tài chính"]
+    }
+  ]
+}

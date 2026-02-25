@@ -1,0 +1,1413 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "struction",
+    "language": "en",
+    "domain": "trade",
+    "created_by": "专家团队",
+    "created_at": "2024-05-20T08:00:00Z",
+    "description": "指令生成库 - 英语输出批次（东盟跨境电商场景）"
+  },
+  "data": [
+    {
+      "instruction_id": "INST-001",
+      "instruction_type": "instruction",
+      "task": "用英语给客户写一封订单确认邮件，包含订单号#7890和预计发货时间3天内。",
+      "output": "Dear Customer,\n\nThank you for shopping with us! This email is to confirm that we have received your order #7890. Our team is currently preparing your items for shipment. We expect to dispatch your order within the next 3 business days.\n\nWe will send you another update with tracking information once your package is on its way. Thank you for your patience.\n\nBest regards,\nCustomer Service Team",
+      "tags": ["客服", "订单确认", "英语"]
+    },
+    {
+      "instruction_id": "INST-002",
+      "instruction_type": "instruction",
+      "task": "用英语编写一段产品描述，介绍一款针对东南亚市场的高端防晒霜，强调SPF50+和清爽不油腻。",
+      "output": "Experience ultimate protection with our Premium Sunscreen, specifically formulated for the tropical climate of Southeast Asia. Featuring SPF50+ PA++++, it provides powerful broad-spectrum defense against intense UV rays. The ultra-light, non-greasy formula absorbs instantly, leaving your skin feeling fresh and matte even in high humidity. Perfect for daily wear under makeup.",
+      "tags": ["市场内容", "产品描述", "英语"]
+    },
+    {
+      "instruction_id": "INST-003",
+      "instruction_type": "instruction",
+      "task": "用英语回复客户关于物流查验导致延误的解释，表达歉意并请客户耐心等待。",
+      "output": "Dear Valued Customer,\n\nWe sincerely apologize for the delay in delivering your package. Upon checking, your shipment is currently undergoing a routine customs inspection. This process is mandatory and occasionally takes longer than expected.\n\nPlease rest assured that we are monitoring the status closely. We appreciate your patience and understanding in this matter.\n\nWarm regards,\nLogistics Support",
+      "tags": ["客服", "物流延误", "英语"]
+    },
+    {
+      "instruction_id": "INST-004",
+      "instruction_type": "instruction",
+      "task": "用英语生成一份形式发票（Proforma Invoice）的头部信息，包含卖方ABC Tech和买方XYZ Retail。",
+      "output": "PROFORMA INVOICE\n\nSELLER:\nABC Tech Co., Ltd.\nRoom 501, Innovation Park, Shenzhen, China\nEmail: sales@abctech.com\n\nBUYER:\nXYZ Retail Group\nLevel 10, Menara Prudential, Kuala Lumpur, Malaysia\nAttn: Mr. Ahmad Razak\n\nDate: May 20, 2024\nPI Number: PI-20240520-01",
+      "tags": ["商务文书", "发票", "英语"]
+    },
+    {
+      "instruction_id": "INST-005",
+      "instruction_type": "instruction",
+      "task": "用英语为Facebook广告撰写一段促销文案，针对菲律宾市场的夏季大促，全场5折起。",
+      "output": "Ready for the sun, Philippines? ☀️ Our Summer Grand Sale is here! Grab your favorite styles with discounts up to 50% OFF! From beachwear to summer essentials, we've got everything you need for the perfect vacation. \n\nShop now at [Link] and enjoy FREE shipping on orders over ₱999! Don't miss out – sale ends this Sunday!",
+      "tags": ["市场内容", "社交媒体", "英语"]
+    },
+    {
+      "instruction_id": "INST-006",
+      "instruction_type": "instruction",
+      "task": "用英语礼貌地拒绝客户提出的额外折扣要求，解释目前价格已是最低优惠。",
+      "output": "Dear Customer,\n\nThank you for your interest in our products. Regarding your request for an additional discount, we have carefully reviewed our pricing. Please understand that our current listing price already includes our seasonal promotion, which is the maximum discount we can offer at this time to maintain our quality standards.\n\nWe hope for your understanding and look forward to serving you soon.",
+      "tags": ["客服", "议价回复", "英语"]
+    },
+    {
+      "instruction_id": "INST-007",
+      "instruction_type": "instruction",
+      "task": "用英语撰写一段包裹到港提醒，通知买方准备清关资料。",
+      "output": "Notification: Shipment Arrival\n\nDear Client,\n\nWe would like to inform you that your shipment (AWB: 12345678) has arrived at the Port of Manila. To ensure a smooth delivery, please prepare the necessary customs clearance documents, including the Commercial Invoice and Packing List.\n\nOur local agent will contact you shortly regarding the clearance process. Please stay reachable.",
+      "tags": ["物流", "到港通知", "英语"]
+    },
+    {
+      "instruction_id": "INST-008",
+      "instruction_type": "instruction",
+      "task": "用英语编写一段自动回复消息，告知客户现在是非工作时间，将于工作日回复。",
+      "output": "Hi there! Thank you for reaching out to us. We are currently away for the day. Our office hours are Monday to Friday, 9:00 AM to 6:00 PM (GMT+8). We have received your message and will get back to you as soon as we are back online. Thank you for your patience!",
+      "tags": ["客服", "自动回复", "英语"]
+    },
+    {
+      "instruction_id": "INST-009",
+      "instruction_type": "instruction",
+      "task": "用英语生成一份装箱单（Packing List）的表格表头字段。",
+      "output": "PACKING LIST\n\n| Item No. | Description of Goods | Qty (pcs) | Net Weight (kgs) | Gross Weight (kgs) | Measurement (CBM) | Carton No. |",
+      "tags": ["商务文书", "装箱单", "英语"]
+    },
+    {
+      "instruction_id": "INST-010",
+      "instruction_type": "instruction",
+      "task": "用英语为跨境支付平台撰写一段提醒，要求用户更新受益人银行账户信息。",
+      "output": "Action Required: Update Your Beneficiary Bank Details\n\nDear User,\n\nTo ensure the successful processing of your upcoming payouts, please review and update your bank account information in the 'Payment Settings' section. Incorrect details may lead to transaction failures or delays. \n\nIf you have already updated your info, please ignore this message.",
+      "tags": ["支付", "账户维护", "英语"]
+    },
+    {
+      "instruction_id": "INST-011",
+      "instruction_type": "instruction",
+      "task": "用英语给供应商写一封询盘信，询问关于1000套智能插座的离岸价（FOB价）。",
+      "output": "Dear Supplier,\n\nWe are interested in your Smart Socket (Model: SS-202) and would like to request a quotation. Could you please provide the FOB Shenzhen price for an initial order of 1,000 units? \n\nAdditionally, please let us know the estimated lead time for this quantity and available shipping port details. Looking forward to your prompt reply.",
+      "tags": ["商务文书", "询盘", "英语"]
+    },
+    {
+      "instruction_id": "INST-012",
+      "instruction_type": "instruction",
+      "task": "用英语回复客户收到的货物破损问题，要求其提供照片以便理赔。",
+      "output": "Dear Customer,\n\nWe are very sorry to hear that your order arrived in a damaged condition. This is not the experience we want for you. \n\nTo assist you further and process a claim or replacement, could you please provide us with clear photos of the damaged item and the external packaging (including the shipping label)? Once received, we will resolve this for you immediately.",
+      "tags": ["客服", "售后理赔", "英语"]
+    },
+    {
+      "instruction_id": "INST-013",
+      "instruction_type": "instruction",
+      "task": "用英语撰写一段关于马来西亚免运费政策的社交媒体短文。",
+      "output": "Great News for Malaysia! 🇲🇾 Enjoy FREE SHIPPING on all your favorite tech gadgets starting today! Whether you are in KL or East Malaysia, we'll deliver straight to your doorstep at no extra cost (Min. spend RM150).\n\nDon't wait, fill up your cart now! 🛒 [Link]",
+      "tags": ["市场内容", "免运费", "英语"]
+    },
+    {
+      "instruction_id": "INST-014",
+      "instruction_type": "instruction",
+      "task": "用英语生成一份产品退货政策摘要，包含14天无理由退货和运费承担说明。",
+      "output": "Return Policy Summary:\n- Return Window: We offer a 14-day hassle-free return policy from the date of delivery.\n- Condition: Items must be unused, in their original packaging, and with all tags attached.\n- Return Shipping: Shipping costs for returns are the responsibility of the customer, unless the item is defective or incorrect.\n- Refunds: Refunds will be processed within 5-7 business days after we receive and inspect the returned goods.",
+      "tags": ["客服", "退货政策", "英语"]
+    },
+    {
+      "instruction_id": "INST-015",
+      "instruction_type": "instruction",
+      "task": "用英语解释跨境交易中VAT（增值税）的收取情况。",
+      "output": "Please be advised that in accordance with international trade regulations, your order may be subject to Value Added Tax (VAT) upon arrival in your country. These charges are determined by your local government and are not collected by our store. For more details, please contact your local customs office.",
+      "tags": ["客服", "税务", "英语"]
+    },
+    {
+      "instruction_id": "INST-016",
+      "instruction_type": "instruction",
+      "task": "用英语向长期合作伙伴发送一封节日问候邮件（如开斋节）。",
+      "output": "Dear [Partner Name],\n\nAs the holy month of Ramadan comes to a close, we would like to extend our warmest wishes to you and your team. Selamat Hari Raya Aidilfitri! May this festive season bring joy, peace, and prosperity to you and your loved ones.\n\nWe truly value our partnership and look forward to continuing our successful collaboration. Enjoy the holidays!",
+      "tags": ["商务文书", "节日问候", "英语"]
+    },
+    {
+      "instruction_id": "INST-017",
+      "instruction_type": "instruction",
+      "task": "用英语描述一款空气净化器的卖点，强调高效能和静音设计。",
+      "output": "Breathe pure, live better. Our Air Purifier features a high-efficiency HEPA filter that captures 99.97% of airborne particles, including smoke, dust, and allergens. Designed with advanced noise-reduction technology, it operates as low as 24dB, ensuring a quiet environment for your sleep or work. Compact yet powerful, it's the perfect fit for any modern home.",
+      "tags": ["市场内容", "产品特点", "英语"]
+    },
+    {
+      "instruction_id": "INST-018",
+      "instruction_type": "instruction",
+      "task": "用英语向客户解释由于极端天气导致的物流派送中断。",
+      "output": "Notice: Delivery Delays Due to Extreme Weather\n\nDear Customer,\n\nWe would like to inform you that deliveries in [Region] are currently affected by severe weather conditions (Typhoon/Heavy Flooding). For the safety of our couriers, operations are temporarily suspended. Your package will be delivered as soon as conditions improve. Thank you for your understanding and stay safe.",
+      "tags": ["物流", "天气影响", "英语"]
+    },
+    {
+      "instruction_id": "INST-019",
+      "instruction_type": "instruction",
+      "task": "用英语生成一份授权经销证书的模板文字。",
+      "output": "CERTIFICATE OF AUTHORIZATION\n\nThis is to certify that [Company Name], located at [Address], is an authorized distributor of [Your Brand Name] products for the [Country/Region] market. This authorization is valid from [Start Date] to [End Date]. \n\n[Your Brand Name] guarantees that all products supplied to the authorized distributor are genuine and meet our quality standards.",
+      "tags": ["商务文书", "授权书", "英语"]
+    },
+    {
+      "instruction_id": "INST-020",
+      "instruction_type": "instruction",
+      "task": "用英语提醒买方信用证（L/C）即将到期，请尽快展期。",
+      "output": "Dear [Buyer Name],\n\nWe have noticed that the Letter of Credit (L/C No: 12345) for order #6789 is set to expire on [Date]. However, shipment is scheduled for [Date] due to production delays. We kindly request that you arrange for an extension of the L/C validity for an additional 15 days. Thank you for your cooperation.",
+      "tags": ["商务文书", "支付款项", "英语"]
+    },
+    {
+      "instruction_id": "INST-021",
+      "instruction_type": "instruction",
+      "task": "用英语为一个母婴类产品生成一段SEO友好型网页标题和关键词。",
+      "output": "Title: Best Organic Bamboo Baby Clothes | Soft & Eco-Friendly Newborn Essentials\nKeywords: organic baby clothes, bamboo baby rompers, sustainable baby fashion, newborn clothing set, hypoallergenic baby wear.",
+      "tags": ["市场内容", "SEO", "英语"]
+    },
+    {
+      "instruction_id": "INST-022",
+      "instruction_type": "instruction",
+      "task": "用英语撰写一段欢迎新用户关注店铺的欢迎语。",
+      "output": "Welcome to our store! 🌟 Thank you for following us. As a token of our appreciation, here is a special 10% discount voucher for your first purchase: [CODE: WELCOME10]. Stay tuned for our latest arrivals and exclusive deals. Happy shopping!",
+      "tags": ["客服", "欢迎语", "英语"]
+    },
+    {
+      "instruction_id": "INST-023",
+      "instruction_type": "instruction",
+      "task": "用英语解释跨境电商中“DDP”（完税后交货）的含义给新手买家。",
+      "output": "DDP (Delivered Duty Paid) means that we, the seller, take full responsibility for all shipping costs, risks, and import duties/taxes. The price you see at checkout is final—you won't have to pay any extra fees to customs or the courier when the package arrives at your doorstep.",
+      "tags": ["客服", "贸易术语", "英语"]
+    },
+    {
+      "instruction_id": "INST-024",
+      "instruction_type": "instruction",
+      "task": "用英语撰写一份针对印度尼西亚买家的斋月大促预告邮件。",
+      "output": "Subject: Get Ready for the Ramadan Big Sale! 🌙\n\nDear [Name],\n\nThe most awaited sale of the year is almost here! Prepare for the Ramadan Season with our exclusive deals. Starting next Monday, enjoy up to 70% OFF on home decor, fashion, and gift hampers. \n\nAdd your favorites to the cart now and be the first to grab the deals! [Link]",
+      "tags": ["市场内容", "促销邮件", "英语"]
+    },
+    {
+      "instruction_id": "INST-025",
+      "instruction_type": "instruction",
+      "task": "用英语向物流公司投诉最近几单包裹出现的严重破损情况。",
+      "output": "To [Logistics Company Name] Management,\n\nI am writing to express my dissatisfaction regarding the handling of our recent shipments (Track IDs: 101, 102, 103). All three packages arrived at our customers' locations with severe crushing damage. This reflects poorly on our brand and causes financial loss. We request an immediate investigation into the handling process and a plan for compensation.",
+      "tags": ["物流", "投诉信", "英语"]
+    },
+    {
+      "instruction_id": "INST-026",
+      "instruction_type": "instruction",
+      "task": "用英语编写一段产品Q&A：这款耳机防水吗？",
+      "output": "Q: Is this pair of headphones waterproof?\nA: Yes, these headphones are IPX7 rated waterproof, which means they can withstand immersion in water up to 1 meter for 30 minutes. They are perfect for intense workouts and outdoor use in rainy conditions.",
+      "tags": ["市场内容", "Q&A", "英语"]
+    },
+    {
+      "instruction_id": "INST-027",
+      "instruction_type": "instruction",
+      "task": "用英语向客户确认收货地址是否正确，因为系统提示地址无效。",
+      "output": "Dear Customer,\n\nWhile processing your order, our shipping system flagged your address as 'Invalid'. To avoid any delivery failures or returns, could you please double-check and confirm your shipping address? \n\nCurrent Address: [Address]\n\nPlease reply with the correct details if there are any errors. Thank you!",
+      "tags": ["客服", "物流确认", "英语"]
+    },
+    {
+      "instruction_id": "INST-028",
+      "instruction_type": "instruction",
+      "task": "用英语生成一份样品寄送通知邮件。",
+      "output": "Dear [Partner Name],\n\nWe are pleased to inform you that the samples you requested have been dispatched via DHL today. \n\nTracking Number: 987654321\nItems: 2x Wireless Charger Prototypes\nEstimated Arrival: 3-5 business days\n\nWe look forward to receiving your feedback once you have tested the samples.",
+      "tags": ["商务文书", "样品寄送", "英语"]
+    },
+    {
+      "instruction_id": "INST-029",
+      "instruction_type": "instruction",
+      "task": "用英语告知买方某款商品已售罄，并推荐类似替代款。",
+      "output": "Dear Customer,\n\nWe regret to inform you that the [Product Name] you ordered is currently out of stock due to high demand. We do not have a confirmed restock date yet. \n\nHowever, we highly recommend our [Alternative Product Name], which offers similar features and is currently in stock. Would you like to switch to this item or would you prefer a full refund? Please let us know.",
+      "tags": ["客服", "缺货通知", "英语"]
+    },
+    {
+      "instruction_id": "INST-030",
+      "instruction_type": "instruction",
+      "task": "用英语撰写一段TikTok短视频脚本标题，介绍开箱一款东南亚爆火的折叠电风扇。",
+      "output": "Caption: Stay cool anywhere! 🌬️ Unboxing the viral foldable fan that's taking Southeast Asia by storm. Compact, rechargeable, and a total lifesaver for the summer heat! 🇸🇬🇲🇾🇵🇭 #SummerEssentials #TravelTech #Unboxing",
+      "tags": ["市场内容", "短视频脚本", "英语"]
+    },
+    {
+      "instruction_id": "INST-031",
+      "instruction_type": "instruction",
+      "task": "用英语起草一份简单的独家经销协议条款，规定年度最低采购量。",
+      "output": "Minimum Purchase Obligation:\nTo maintain the exclusive distribution rights for the Territory, the Distributor agrees to purchase a minimum volume of 10,000 units within each calendar year. Failure to meet this minimum requirement may result in the termination of exclusivity or the entire Agreement at the Supplier's discretion.",
+      "tags": ["商务文书", "协议条款", "英语"]
+    },
+    {
+      "instruction_id": "INST-032",
+      "instruction_type": "instruction",
+      "task": "用英语向由于发错货受影响的客户提供补偿方案（退款或补发+优惠券）。",
+      "output": "Dear Customer,\n\nWe have realized that we sent you the wrong item by mistake. We are extremely sorry for the error. \n\nTo make things right, we would like to offer you two options:\n1. We can resend the correct item immediately at no extra cost.\n2. We can provide a full refund for the product.\n\nRegardless of your choice, we have issued a $10 coupon [CODE: SORRY10] to your account for your next purchase. Please let us know how you would like to proceed.",
+      "tags": ["客服", "纠错回复", "英语"]
+    },
+    {
+      "instruction_id": "INST-033",
+      "instruction_type": "instruction",
+      "task": "用英语为公司主页撰写“关于我们”简介，强调专注东南亚跨境贸易10年。",
+      "output": "About Us:\nWith over a decade of expertise, [Company Name] is a leading pioneer in the cross-border e-commerce trade between China and Southeast Asia. We specialize in sourcing high-quality electronics and lifestyle products, bridging the gap between manufacturers and the vibrant markets of ASEAN. Our mission is to provide seamless logistics and trusted service to millions of customers across the region.",
+      "tags": ["市场内容", "品牌介绍", "英语"]
+    },
+    {
+      "instruction_id": "INST-034",
+      "instruction_type": "instruction",
+      "task": "用英语解释为什么国际快递需要收件人的身份证号码（针对越南/印尼等国）。",
+      "output": "According to local customs regulations in your country, all imported personal parcels must be declared with the recipient's National ID or Tax ID number. This information is strictly used for customs clearance purposes only and will be handled securely by the courier service. Providing this now will help speed up the delivery of your package.",
+      "tags": ["客服", "实名认证", "英语"]
+    },
+    {
+      "instruction_id": "INST-035",
+      "instruction_type": "instruction",
+      "task": "用英语撰写一段针对Shopee平台的五星好评返现引导语。",
+      "output": "Love your new items? ✨ Leave us a 5-star rating with photos or a video to help other shoppers! As a thank you, send us a screenshot of your review and we'll send you a special voucher for your next order! We appreciate your support! 🙏",
+      "tags": ["市场内容", "好评引导", "英语"]
+    },
+    {
+      "instruction_id": "INST-036",
+      "instruction_type": "instruction",
+      "task": "用英语生成一份货运保险投保确认书。",
+      "output": "Insurance Confirmation:\nThis document confirms that shipment [Invoice #7788] has been insured under Policy No. INS-4455 for its full commercial value. The coverage includes 'All Risks' of physical loss or damage from any external cause during transit from the warehouse in Ningbo to the final destination in Bangkok. Claim contact: support@insurance.com.",
+      "tags": ["商务文书", "保险", "英语"]
+    },
+    {
+      "instruction_id": "INST-037",
+      "instruction_type": "instruction",
+      "task": "用英语向客户解释其信用卡支付被拒绝的可能原因及解决建议。",
+      "output": "Dear Customer,\n\nIt appears that your payment was declined by the card issuer. This can happen for several reasons: incorrect card details, insufficient funds, or international transaction blocks. \n\nWe suggest:\n1. Contacting your bank to authorize international payments.\n2. Checking if your billing address matches the card records.\n3. Trying an alternative payment method like PayPal. \nIf the issue persists, feel free to contact us.",
+      "tags": ["客服", "支付失败", "英语"]
+    },
+    {
+      "instruction_id": "INST-038",
+      "instruction_type": "instruction",
+      "task": "用英语为一款跨境物流APP撰写一段推送通知，提醒包裹正在派送中。",
+      "output": "Out for Delivery! 🚚 Exciting news! Your package from [Store Name] is with our courier and will be delivered today. Please ensure someone is available to receive it. Track live: [Link]",
+      "tags": ["物流", "APP推送", "英语"]
+    },
+    {
+      "instruction_id": "INST-039",
+      "instruction_type": "instruction",
+      "task": "用英语向工厂要求更改下一批次产品的包装设计。",
+      "output": "Dear Factory Manager,\n\nWe would like to request a minor change to the packaging design for our next order (PO-2024-005). We have attached the updated artwork file. Please ensure the new logo is centered and the font size on the back panel is increased to 10pt. Please confirm if this change is feasible without affecting the lead time.",
+      "tags": ["商务文书", "生产指令", "英语"]
+    },
+    {
+      "instruction_id": "INST-040",
+      "instruction_type": "instruction",
+      "task": "用英语撰写一段退款已完成的通知，告知资金退回路径。",
+      "output": "Dear Customer,\n\nWe have successfully processed your refund for order #12345. The total amount has been credited back to your original payment method. Depending on your bank's processing time, the funds should appear in your account within 3-5 business days. Thank you for your patience.",
+      "tags": ["客服", "退款通知", "英语"]
+    },
+    {
+      "instruction_id": "INST-041",
+      "instruction_type": "instruction",
+      "task": "用英语撰写一段产品安装指南的简要声明，提示用户扫描二维码查看视频。",
+      "output": "Installation Made Easy! 🛠️ Before you begin, we highly recommend watching our step-by-step video tutorial. Simply scan the QR code below with your smartphone camera to access the guide. If you encounter any issues, our technical support team is here to help.",
+      "tags": ["客服", "产品指南", "英语"]
+    },
+    {
+      "instruction_id": "INST-042",
+      "instruction_type": "instruction",
+      "task": "用英语向客户推荐加入店铺会员计划，强调积分抵扣优惠。",
+      "output": "Unlock Exclusive Perks! ✨ Join our VIP Member Club today and earn points with every purchase. Every 100 points can be redeemed for a $5 discount on your future orders! Members also enjoy early access to new launches and special birthday rewards. Sign up for free at [Link].",
+      "tags": ["市场内容", "会员营销", "英语"]
+    },
+    {
+      "instruction_id": "INST-043",
+      "instruction_type": "instruction",
+      "task": "用英语撰写一段针对货运代理的询价邮件，询问从上海到新加坡的20尺柜（20GP）海运费。",
+      "output": "Dear [Forwarder Name],\n\nCould you please provide a freight quote for a 20GP container from Shanghai Port to Singapore? The cargo is general consumer electronics (non-battery). We expect the goods to be ready by June 15th. Please include all local charges at both ends and specify the estimated transit time.",
+      "tags": ["商务文书", "运费询价", "英语"]
+    },
+    {
+      "instruction_id": "INST-044",
+      "instruction_type": "instruction",
+      "task": "用英语生成一份礼品卡的简短说明文字。",
+      "output": "The Gift of Choice! 🎁 This e-gift card can be used to purchase any item in our online store. Simply enter the unique code at checkout. Valid for 12 months from the date of issue. Perfect for birthdays, anniversaries, or just to say thank you!",
+      "tags": ["市场内容", "礼品卡", "英语"]
+    },
+    {
+      "instruction_id": "INST-045",
+      "instruction_type": "instruction",
+      "task": "用英语告知客户由于当地法律限制，某些商品无法寄往其所在国家。",
+      "output": "Dear Customer,\n\nWe regret to inform you that we are unable to ship the [Item Name] to your location. Due to local import regulations and legal restrictions in [Country], this product category is prohibited for international shipping. We have cancelled this item from your order and issued a full refund. We apologize for the inconvenience.",
+      "tags": ["客服", "合规限制", "英语"]
+    },
+    {
+      "instruction_id": "INST-046",
+      "instruction_type": "instruction",
+      "task": "用英语撰写一段参加国际展会后的跟进邮件，发给潜在买家。",
+      "output": "Dear [Name],\n\nIt was a pleasure meeting you at the [Exhibition Name] in Bangkok last week. We enjoyed our conversation regarding your interest in our smart home solutions. As promised, I have attached our latest product catalog and price list for your review. Please let me know if you would like to schedule a brief call to discuss a potential partnership.",
+      "tags": ["商务文书", "展会跟进", "英语"]
+    },
+    {
+      "instruction_id": "INST-047",
+      "instruction_type": "instruction",
+      "task": "用英语编写一段产品洗涤建议文字（针对服装类）。",
+      "output": "Care Instructions: To keep your garment looking its best, we recommend hand washing in cold water with similar colors. Do not bleach. Lay flat to dry in the shade to prevent stretching. If ironing is needed, use a low heat setting. Do not dry clean.",
+      "tags": ["市场内容", "产品说明", "英语"]
+    },
+    {
+      "instruction_id": "INST-048",
+      "instruction_type": "instruction",
+      "task": "用英语为黑色星期五促销活动撰写一个紧急感十足的倒计时口号。",
+      "output": "The Clock is Ticking! ⏰ Only 4 hours left to grab our Black Friday Mega Deals! Save up to 80% across the entire site. Once these items are gone, they're gone for good! SHOP THE FINALE NOW! 🛒✨",
+      "tags": ["市场内容", "大促文案", "英语"]
+    },
+    {
+      "instruction_id": "INST-049",
+      "instruction_type": "instruction",
+      "task": "用英语通知买家物流单号已更新，但由于承运商更换，单号发生了变化。",
+      "output": "Update on Your Shipment:\n\nDear Customer, we have updated the tracking information for your order #5566. Due to a change in the local courier for faster delivery, your new tracking number is [New Number]. You can track the progress here: [Link]. We apologize for any confusion and thank you for your patience.",
+      "tags": ["物流", "单号更新", "英语"]
+    },
+    {
+      "instruction_id": "INST-050",
+      "instruction_type": "instruction",
+      "task": "用英语向客户解释其要求的定制产品需要额外的7天生产时间。",
+      "output": "Dear Customer,\n\nThank you for choosing our customization service! Because each personalized item is crafted with care to meet your specific requirements, please be advised that it requires an additional 7 business days for production before shipment. We appreciate your patience as we ensure the highest quality for your unique order.",
+      "tags": ["客服", "定制服务", "英语"]
+    },
+    {
+      "instruction_id": "INST-051",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户介绍什么是“货到付款”（COD）服务及其流程。",
+      "output": "บริการเก็บเงินปลายทาง (COD) คือคุณสามารถชำระเงินสดกับพนักงานขนส่งได้ทันทีเมื่อได้รับสินค้าที่หน้าบ้าน ขั้นตอนคือ: 1. เลือกวิธีชำระเงินเป็น COD ขณะสั่งซื้อ 2. รอรับสายจากพนักงานขนส่งก่อนเข้าส่ง 3. เตรียมเงินสดให้พอดีและรับสินค้า ช่วยให้คุณช้อปปิ้งได้อย่างมั่นใจและปลอดภัยครับ",
+      "tags": ["客服", "COD", "泰语"]
+    },
+    {
+      "instruction_id": "INST-052",
+      "instruction_type": "instruction",
+      "task": "用泰语为美妆产品撰写一段针对泰国年轻女性的TikTok带货文案，强调白皙透亮。",
+      "output": "อยากผิวดูฉ่ำวาวแบบสาวเกาหลีต้องลองตัวนี้เลย! ✨ เซรั่มสูตรเข้มข้นที่ช่วยให้ผิวดูขาวกระจ่างใสอย่างเป็นธรรมชาติ ซึมไว ไม่เหนียวเหนอะหนะ เหมาะกับอากาศเมืองไทยสุดๆ ทาปุ๊บไบร์ทปั๊บ ใครเห็นก็ต้องทัก สนใจกดลงตะกร้าเลยตอนนี้ มีโปรส่งฟรีด้วยนะ! 💖 #รีวิวบิวตี้ #ผิวขาวใส #TikTokป้ายยา",
+      "tags": ["市场内容", "TikTok", "泰语"]
+    },
+    {
+      "instruction_id": "INST-053",
+      "instruction_type": "instruction",
+      "task": "用泰语生成一份关于宋干节（Songkran）期间物流延迟的公告。",
+      "output": "ประกาศแจ้งเตือนล่าช้าช่วงเทศกาลสงกรานต์ 💦 เนื่องด้วยระหว่างวันที่ 13-16 เมษายน เป็นช่วงวันหยุดเทศกาลสงกรานต์ บริษัทขนส่งส่วนใหญ่จะหยุดทำการ ส่งผลให้การจัดส่งสินค้าอาจล่าช้ากว่าปกติประมาณ 3-5 วันทำการ เราจะกลับมาดำเนินการจัดส่งอย่างรวดเร็วที่สุดตั้งแต่วันที่ 17 เมษายนเป็นต้นไป ขออภัยในความไม่สะดวกและขอให้ทุกท่านมีความสุขในวันสงกรานต์ครับ",
+      "tags": ["物流", "节日公告", "泰语"]
+    },
+    {
+      "instruction_id": "INST-054",
+      "instruction_type": "instruction",
+      "task": "用泰语回复客户关于如何申请全额退款的咨询。",
+      "output": "สำหรับการขอคืนเงินเต็มจำนวน คุณสามารถทำตามขั้นตอนดังนี้ครับ: 1. ไปที่เมนู 'คำสั่งซื้อของฉัน' 2. เลือกสินค้าที่ต้องการคืนและกดปุ่ม 'ขอคืนเงิน/คืนสินค้า' 3. เลือกเหตุผลการคืนและแนบรูปภาพสินค้า 4. เมื่อทางร้านตรวจสอบและอนุมัติ ระบบจะคืนเงินเข้าช่องทางที่คุณชำระเงินภายใน 7-14 วันทำการครับ หากมีข้อสงสัยสอบถามเพิ่มเติมได้ตลอดนะครับ",
+      "tags": ["客服", "退款指导", "泰语"]
+    },
+    {
+      "instruction_id": "INST-055",
+      "instruction_type": "instruction",
+      "task": "用泰语编写一段针对泰国曼谷客户的同城快速配送宣传语。",
+      "output": "ส่งด่วนทันใจคนกรุง! 🛵 สั่งวันนี้ ส่งถึงที่ภายในวันเดียว (Same Day Delivery) สำหรับพื้นที่กรุงเทพฯ และปริมณฑล ไม่ต้องรอนาน ไม่ต้องเสียเวลาเดินทาง สั่งเลยก่อนเที่ยง ได้ของเย็นนี้แน่นอน สะดวก รวดเร็ว เชื่อถือได้ ต้องที่นี่เท่านั้น!",
+      "tags": ["市场内容", "物流服务", "泰语"]
+    },
+    {
+      "instruction_id": "INST-056",
+      "instruction_type": "instruction",
+      "task": "用泰语撰写一份商业合作邀请函，邀请泰国当地KOL进行产品测评合作。",
+      "output": "เรียนคุณ [ชื่อ KOL],\n\nเราคือแบรนด์ [ชื่อแบรนด์] ที่กำลังมองหาพาร์ทเนอร์มาร่วมสร้างสรรค์คอนเทนต์ที่น่าสนใจ เราชื่นชอบสไตล์การนำเสนอของคุณมาก จึงอยากเชิญคุณมาร่วมทำรีวิวสินค้าตัวใหม่ล่าสุดของเรา โดยเราจะส่งสินค้าให้ทดลองใช้ฟรีและมีค่าตอบแทนพิเศษสำหรับความร่วมมือนี้ หากคุณสนใจสามารถตอบกลับอีเมลนี้เพื่อขอรับรายละเอียดเพิ่มเติมได้เลยครับ\n\nหวังเป็นอย่างยิ่งว่าจะได้ร่วมงานกับคุณ\nทีมงาน [ชื่อแบรนด์]",
+      "tags": ["商务文书", "合作邀请", "泰语"]
+    },
+    {
+      "instruction_id": "INST-057",
+      "instruction_type": "instruction",
+      "task": "用泰语提醒客户关注店铺以领取专享优惠券。",
+      "output": "อย่าพลาด! กดติดตามร้านค้าของเราตอนนี้เพื่อรับคูปองส่วนลดพิเศษทันที 20 บาท สำหรับใช้ในการสั่งซื้อครั้งแรก และรับข่าวสารโปรโมชั่นดีๆ ก่อนใคร กดเลยที่ปุ่ม 'ติดตาม' สีส้มด้านบนนะครับ ขอบคุณที่แวะมาอุดหนุนครับ",
+      "tags": ["客服", "关注礼", "泰语"]
+    },
+    {
+      "instruction_id": "INST-058",
+      "instruction_type": "instruction",
+      "task": "用泰语生成一份泰语版的产品保修卡内容摘要。",
+      "output": "รายละเอียดการรับประกันสินค้า:\n1. สินค้ารับประกันความเสียหายจากการผลิตเป็นเวลา 1 ปี นับจากวันที่ซื้อ\n2. การรับประกันไม่ครอบคลุมความเสียหายจากการใช้งานผิดประเภท อุบัติเหตุ หรือการดัดแปลงสินค้า\n3. โปรดเก็บใบเสร็จหรือหลักฐานการสั่งซื้อไว้เพื่อใช้ในการเคลมสินค้า\n4. ติดต่อฝ่ายบริการลูกค้าผ่านทาง Line ID: @support_th เพื่อแจ้งซ่อมหรือเคลมสินค้า",
+      "tags": ["商务文书", "保修政策", "泰语"]
+    },
+    {
+      "instruction_id": "INST-059",
+      "instruction_type": "instruction",
+      "task": "用泰语撰写一段Facebook广告语，宣传一款具有除湿功能的空气加湿器。",
+      "output": "บอกลาความชื้นและฝุ่นละอองในบ้าน! ✨ เครื่องปรับสภาพอากาศ 2-in-1 ทั้งเพิ่มความชุ่มชื้นและกรองฝุ่น ช่วยให้คุณหายใจได้เต็มปอดและหลับสบายยิ่งขึ้น ดีไซน์มินิมอล วางมุมไหนของบ้านก็ดูดี โปรโมชั่นพิเศษลด 30% เฉพาะสัปดาห์นี้เท่านั้น สั่งซื้อเลยที่ [Link]",
+      "tags": ["市场内容", "Facebook广告", "泰语"]
+    },
+    {
+      "instruction_id": "INST-060",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户解释为什么他们的包裹正在接受泰国海关查验。",
+      "output": "ขออภัยในความไม่สะดวกครับ ขณะนี้พัสดุของคุณอยู่ระหว่างการตรวจสอบตามขั้นตอนปกติของกรมศุลกากรประเทศไทย ซึ่งเป็นกระบวนการสุ่มตรวจสินค้าขาเข้าเพื่อตรวจสอบความถูกต้องของประเภทและมูลค่าสินค้า โดยปกติจะใช้เวลาประมาณ 2-3 วันทำการ เมื่อผ่านขั้นตอนแล้ว พัสดุจะถูกส่งต่อให้บริษัทขนส่งในพื้นที่เพื่อนำส่งให้คุณทันทีครับ",
+      "tags": ["客服", "海关查验", "泰语"]
+    },
+    {
+      "instruction_id": "INST-061",
+      "instruction_type": "instruction",
+      "task": "用泰语为扫地机器人生成一份简易故障排查指南。",
+      "output": "คู่มือการแก้ไขปัญหาเบื้องต้น:\n- หุ่นยนต์ไม่ทำงาน: ตรวจสอบว่าเปิดสวิตช์หลักแล้วหรือยัง และแบตเตอรี่เต็มหรือไม่\n- หุ่นยนต์ดูดฝุ่นไม่สะอาด: โปรดทำความสะอาดถังเก็บฝุ่นและแปรงหมุน\n- หุ่นยนต์ไม่กลับแท่นชาร์จ: ตรวจสอบว่าไม่มีสิ่งกีดขวางรอบแท่นชาร์จในระยะ 1 เมตร\nหากยังไม่สามารถใช้งานได้ โปรดติดต่อฝ่ายสนับสนุนทางเทคนิค",
+      "tags": ["客服", "技术支持", "泰语"]
+    },
+    {
+      "instruction_id": "INST-062",
+      "instruction_type": "instruction",
+      "task": "用泰语通知客户包裹已到达代收点，请尽快取货。",
+      "output": "แจ้งเตือนการรับสินค้า: พัสดุของคุณหมายเลข [Tracking Number] ได้มาถึงจุดบริการรับสินค้า (Pick-up Point) เรียบร้อยแล้ว โปรดนำรหัสรับสินค้าที่ได้รับทาง SMS ไปแสดงต่อพนักงานเพื่อรับพัสดุภายใน 48 ชั่วโมง หากไม่สะดวกมารับด้วยตนเอง โปรดติดต่อเจ้าหน้าที่โดยเร็วที่สุดครับ",
+      "tags": ["物流", "取货提醒", "泰语"]
+    },
+    {
+      "instruction_id": "INST-063",
+      "instruction_type": "instruction",
+      "task": "用泰语编写一段针对泰国“双11”购物节的倒计时宣传语。",
+      "output": "นับถอยหลังสู่ปรากฏการณ์ช้อปที่ใหญ่ที่สุดแห่งปี! 11.11 นี้ เตรียมตัวให้พร้อม สินค้าลดกระหน่ำสูงสุด 90% แจกคูปองส่วนลดเพิ่มตลอดทั้งวัน เริ่มเที่ยงคืนนี้เท่านั้น! รีบกดสินค้าลงตะกร้ารอเลย ช้าหมดอดนะจ๊ะ! 🔥🛒",
+      "tags": ["市场内容", "促销文案", "泰语"]
+    },
+    {
+      "instruction_id": "INST-064",
+      "instruction_type": "instruction",
+      "task": "用泰语询问客户是否需要提供增值税发票（Tax Invoice）。",
+      "output": "คุณลูกค้าต้องการรับใบกำกับภาษีเต็มรูปแบบหรือไม่ครับ? หากต้องการ โปรดแจ้งชื่อ-นามสกุล (หรือชื่อบริษัท) ที่อยู่ และเลขประจำตัวผู้เสียภาษีผ่านทางแชทนี้ได้เลยครับ ทางเราจะจัดส่งใบกำกับภาษีไปพร้อมกับสินค้าหรือส่งตามไปทางไปรษณีย์ครับ",
+      "tags": ["客服", "发票咨询", "泰语"]
+    },
+    {
+      "instruction_id": "INST-065",
+      "instruction_type": "instruction",
+      "task": "用泰语描述一款适合泰国炎热天气的丝滑凉感床单卖点。",
+      "output": "สัมผัสความเย็นสบายแม้อากาศร้อนจัด! ❄️ ชุดเครื่องนอนเนื้อผ้าเย็น (Cooling Silk) นวัตกรรมใหม่ที่ช่วยระบายความร้อนได้ดีเยี่ยม ให้ความรู้สึกนุ่มลื่นเย็นสบายผิวทุกครั้งที่สัมผัส ลดการสะสมของแบคทีเรียและไรฝุ่น ช่วยให้คุณหลับลึกตลอดคืนโดยไม่ต้องง้อแอร์แรงๆ มีให้เลือกหลายสี เข้ากับห้องนอนทุกสไตล์",
+      "tags": ["市场内容", "产品介绍", "泰语"]
+    },
+    {
+      "instruction_id": "INST-066",
+      "instruction_type": "instruction",
+      "task": "用泰语回复客户收到的衣物尺码不符问题，并提供更换方案。",
+      "output": "ต้องขออภัยที่คุณได้รับสินค้าขนาดไม่ตรงตามที่ต้องการครับ หากลองสวมใส่แล้วพบว่าเล็กหรือใหญ่ไป คุณสามารถส่งสินค้ากลับมาเปลี่ยนขนาดได้ภายใน 7 วัน โดยสินค้าต้องอยู่ในสภาพเดิมและยังไม่ได้ดึงป้ายออก โปรดแจ้งขนาดที่ต้องการเปลี่ยนผ่านแชทนี้ เพื่อให้เราล็อคสินค้าไว้ให้คุณครับ",
+      "tags": ["客服", "售后处理", "泰语"]
+    },
+    {
+      "instruction_id": "INST-067",
+      "instruction_type": "instruction",
+      "task": "用泰语向泰国供应商发送一封催促发货的商务邮件。",
+      "output": "เรียนฝ่ายจัดส่งสินค้า,\n\nอ้างอิงถึงคำสั่งซื้อเลขที่ [Order ID] เมื่อวันที่ [Date] ขณะนี้เลยกำหนดเวลาจัดส่งมาแล้ว 2 วัน ไม่ทราบว่าสินค้าถูกจัดส่งออกมาหรือยังครับ? เนื่องจากลูกค้าของเราต้องการสินค้าด่วนมาก รบกวนช่วยตรวจสอบสถานะและแจ้งหมายเลขติดตามพัสดุให้ทราบโดยเร็วที่สุดด้วยครับ\n\nขอบคุณครับ",
+      "tags": ["商务文书", "催发货", "泰语"]
+    },
+    {
+      "instruction_id": "INST-068",
+      "instruction_type": "instruction",
+      "task": "用泰语提醒客户在拆包裹时拍摄开箱视频以保护自身权益。",
+      "output": "เพื่อประโยชน์ของคุณลูกค้า โปรดถ่ายวิดีโอขณะเปิดกล่องพัสดุไว้เป็นหลักฐานด้วยนะครับ หากสินค้ามีปัญหา แตกหัก หรือได้รับไม่ครบถ้วน วิดีโอนี้จะเป็นหลักฐานสำคัญในการเคลมสินค้าได้อย่างรวดเร็ว หากไม่มีวิดีโอยืนยัน ทางร้านอาจไม่สามารถดำเนินการเคลมให้ได้ทุกกรณี ขออภัยในความไม่สะดวกครับ",
+      "tags": ["客服", "售后须知", "泰语"]
+    },
+    {
+      "instruction_id": "INST-069",
+      "instruction_type": "instruction",
+      "task": "用泰语为一款泰国常用的支付工具（如PromptPay）生成使用说明。",
+      "output": "ขั้นตอนการชำระเงินผ่าน PromptPay:\n1. บันทึกรูปภาพ QR Code ที่ปรากฏบนหน้าจอ\n2. เปิดแอปพลิเคชันธนาคารของคุณ (Mobile Banking)\n3. เลือกเมนู 'สแกนจ่าย' และเลือกรูปภาพ QR Code จากอัลบั้มภาพ\n4. ตรวจสอบยอดเงินและชื่อผู้รับให้ถูกต้อง แล้วกดยืนยันการชำระเงิน\nระบบจะยืนยันการสั่งซื้อของคุณโดยอัตโนมัติทันทีครับ",
+      "tags": ["支付指导", "PromptPay", "泰语"]
+    },
+    {
+      "instruction_id": "INST-070",
+      "instruction_type": "instruction",
+      "task": "用泰语介绍一款跨境物流APP的实时在线客服功能。",
+      "output": "มีปัญหาเรื่องพัสดุ? ติดต่อเราได้ทันที! แอปพลิเคชันของเรามีระบบแชทสดกับเจ้าหน้าที่คอยให้บริการตลอด 24 ชั่วโมง ไม่ว่าจะเช็คสถานะพัสดุ แจ้งเปลี่ยนที่อยู่ หรือสอบถามค่าบริการ ศุลกากร และอื่นๆ เจ้าหน้าที่ชาวไทยพร้อมดูแลคุณทุกขั้นตอน โหลดเลย ใช้งานง่าย สะดวกสุดๆ",
+      "tags": ["市场内容", "APP功能", "泰语"]
+    },
+    {
+      "instruction_id": "INST-071",
+      "instruction_type": "instruction",
+      "task": "用泰语回复客户询问为何物流信息在“到港”后长时间没有更新。",
+      "output": "สวัสดีครับ สถานะ 'Arrived at destination port' หมายถึงพัสดุถึงประเทศไทยแล้ว แต่กำลังอยู่ในขั้นตอนการคัดแยกที่ศูนย์กระจายสินค้าหลัก หรือรอการตรวจสอบจากศุลกากร ซึ่งในช่วงที่มีพัสดุจำนวนมากอาจใช้เวลา 3-5 วันกว่าสถานะจะเคลื่อนไหวอีกครั้ง ไม่ต้องกังวลนะครับ พัสดุของคุณยังปลอดภัยดี หากมีความคืบหน้าจะรีบแจ้งให้ทราบทันทีครับ",
+      "tags": ["客服", "物流咨询", "泰语"]
+    },
+    {
+      "instruction_id": "INST-072",
+      "instruction_type": "instruction",
+      "task": "用泰语撰写一段推荐客户购买组合套装（Bundling）的营销语。",
+      "output": "ซื้อเป็นเซ็ต คุ้มกว่าเห็นๆ! 🎁 จับคู่ [สินค้า A] และ [สินค้า B] วันนี้ รับส่วนลดพิเศษทันที 15% จากราคาปกติ แถมฟรีของสมนาคุณสุดพรีเมียมในกล่อง ได้ครบชุดพร้อมใช้งาน แถมยังประหยัดเงินในกระเป๋าไปได้เพียบ โปรดีๆ แบบนี้ไม่ได้มีบ่อยๆ นะครับ",
+      "tags": ["市场内容", "组合促销", "泰语"]
+    },
+    {
+      "instruction_id": "INST-073",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户确认因为收件人姓名不完整导致包裹无法派送的问题。",
+      "output": "ขออภัยครับ พัสดุของคุณไม่สามารถจัดส่งได้เนื่องจากชื่อผู้รับไม่ครบถ้วน (ต้องมีทั้งชื่อและนามสกุลจริง) รบกวนคุณลูกค้าช่วยยืนยันชื่อ-นามสกุลที่ถูกต้องอีกครั้งผ่านแชทนี้ เพื่อที่ทางเราจะได้รีบแจ้งประสานงานกับบริษัทขนส่งให้นำพัสดุออกไปส่งให้คุณใหม่อีกครั้งครับ",
+      "tags": ["客服", "物流异常", "泰语"]
+    },
+    {
+      "instruction_id": "INST-074",
+      "instruction_type": "instruction",
+      "task": "用泰语为智能手表生成一段关于健康监测功能的描述。",
+      "output": "ดูแลสุขภาพของคุณได้ตลอด 24 ชั่วโมงด้วยสมาร์ทวอทช์รุ่นใหม่ล่าสุด! มาพร้อมระบบเซนเซอร์อัจฉริยะที่ช่วยวัดอัตราการเต้นของหัวใจ ตรวจสอบคุณภาพการนอนหลับ และวัดระดับออกซิเจนในเลือด (SpO2) ได้อย่างแม่นยำ พร้อมโหมดออกกำลังกายกว่า 100 ประเภท ให้คุณสนุกกับการฟิตหุ่นและติดตามผลลัพธ์ได้ง่ายๆ บนข้อมือคุณ",
+      "tags": ["市场内容", "产品卖点", "泰语"]
+    },
+    {
+      "instruction_id": "INST-075",
+      "instruction_type": "instruction",
+      "task": "用泰语撰写一封关于跨境物流保险（Shipping Insurance）费用的说明。",
+      "output": "เรียนลูกค้า เพื่อความอุ่นใจในการขนส่งพัสดุที่มีมูลค่าสูง เราขอแนะนำ 'ประกันภัยการขนส่ง' ในราคาเพียง 3% ของมูลค่าสินค้า โดยจะคุ้มครองกรณีพัสดุสูญหายหรือเสียหายโดยสิ้นเชิงจากการขนส่ง คุณจะได้รับเงินชดเชยเต็มจำนวนตามมูลค่าที่แจ้งไว้ หากต้องการเพิ่มประกันนี้ โปรดเลือกตัวเลือก 'Shipping Insurance' ในหน้าชำระเงินครับ",
+      "tags": ["商务文书", "物流保险", "泰语"]
+    },
+    {
+      "instruction_id": "INST-076",
+      "instruction_type": "instruction",
+      "task": "用泰语编写一个邀请客户加入Line粉丝福利群的引导文案。",
+      "output": "อยากได้ดีลลับก่อนใคร? แอด Line OA ของเราไว้เลย! คลิก [Link] หรือค้นหาไอดี @[Store_ID] เพื่อเข้ากลุ่มแฟนคลับ รับโค้ดลดราคาเฉพาะสมาชิก ร่วมกิจกรรมแจกของรางวัลทุกเดือน และปรึกษาแอดมินได้โดยตรงแบบส่วนตัว แอดเลยวันนี้รับคูปองส่วนลดเพิ่มทันทีครับ!",
+      "tags": ["市场内容", "私域引流", "泰语"]
+    },
+    {
+      "instruction_id": "INST-077",
+      "instruction_type": "instruction",
+      "task": "用泰语解释由于泰国南部洪水导致的物流派送延误。",
+      "output": "ประกาศสำคัญ: เนื่องด้วยสถานการณ์อุทกภัยในพื้นที่ภาคใต้ของประเทศไทย ทำให้เส้นทางการขนส่งบางจุดถูกตัดขาด การจัดส่งพัสดุไปยังจังหวัดในภาคใต้อาจเกิดความล่าช้ากว่ากำหนด ทางเรากำลังประสานงานกับขนส่งอย่างใกล้ชิดเพื่อหาเส้นทางสำรองที่ปลอดภัยที่สุด ขอบพระคุณสำหรับความเข้าใจและความอดทนรอครับ",
+      "tags": ["客服", "突发状况", "泰语"]
+    },
+    {
+      "instruction_id": "INST-078",
+      "instruction_type": "instruction",
+      "task": "用泰语撰写一份由于仓库搬迁导致的暂停发货公告。",
+      "output": "ประกาศย้ายคลังสินค้า: เพื่อการบริการที่ดียิ่งขึ้น ทางเรากำลังดำเนินการย้ายไปยังคลังสินค้าแห่งใหม่ จึงขอหยุดทำการจัดส่งสินค้าชั่วคราวระหว่างวันที่ [Start Date] ถึง [End Date] คำสั่งซื้อที่เกิดขึ้นในช่วงเวลาดังกล่าวจะถูกทยอยจัดส่งตั้งแต่วันที่ [Resume Date] เป็นต้นไป ขออภัยในความไม่สะดวกและขอขอบคุณที่สนับสนุนเราเสมอมาครับ",
+      "tags": ["物流公告", "仓库搬迁", "泰语"]
+    },
+    {
+      "instruction_id": "INST-079",
+      "instruction_type": "instruction",
+      "task": "用泰语向初次购买跨境产品的客户解释由于国际运输导致的包装轻微变形。",
+      "output": "สวัสดีครับ เนื่องจากการขนส่งสินค้าข้ามพรมแดนในระยะไกลและต้องผ่านการคัดแยกหลายขั้นตอน อาจทำให้กล่องบรรจุภัณฑ์ภายนอกมีรอยบุบหรือรอยพับเล็กน้อยในบางกรณี แต่ทางร้านรับประกันว่าสินค้าภายในได้รับการห่อหุ้มด้วยกันกระแทกอย่างดีและไม่ได้รับความเสียหายแน่นอนครับ หากเปิดออกมาแล้วสินค้ามีปัญหา สามารถติดต่อเราเพื่อเคลมได้ทันทีครับ",
+      "tags": ["客服", "物流沟通", "泰语"]
+    },
+    {
+      "instruction_id": "INST-080",
+      "instruction_type": "instruction",
+      "task": "用泰语为一款泰国流行的零食产品编写一段开箱测评标题。",
+      "output": "รีวิวแกะกล่อง! ลองชิมขนมสุดฮิตส่งตรงจากต่างประเทศ รสชาติจะเด็ดจริงอย่างที่เค้าลือกันมั้ย? วันนี้มาพิสูจน์ให้เห็นกันชัดๆ ทั้งความคุ้มค่าและรสชาติ ใครสายกินต้องดูให้จบนะ! 😋📦 #รีวิวขนม #ของดีบอกต่อ #อร่อยไปแดก",
+      "tags": ["市场内容", "开箱视频", "泰语"]
+    },
+    {
+      "instruction_id": "INST-081",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户确认他们是否收到了快递派送员的联系电话。",
+      "output": "สวัสดีครับ ไม่ทราบว่าวันนี้พนักงานขนส่งได้โทรติดต่อคุณเพื่อเข้าไปส่งพัสดุหรือยังครับ? หากยังไม่ได้รับสาย หรือพนักงานติดต่อไม่ได้ คุณสามารถแจ้งช่วงเวลาที่คุณสะดวกรับสายผ่านทางนี้ได้เลยครับ ผมจะช่วยประสานงานกับทางบริษัทขนส่งให้เป็นกรณีพิเศษครับ",
+      "tags": ["客服", "末端配送", "泰语"]
+    },
+    {
+      "instruction_id": "INST-082",
+      "instruction_type": "instruction",
+      "task": "用泰语介绍一种支持多种货币结算的在线支付平台优势。",
+      "output": "ช้อปทั่วโลกได้อย่างไร้กังวล! แพลตฟอร์มการชำระเงินของเราช่วยให้คุณจ่ายเงินเป็นสกุลบาท (THB) ได้ทันทีโดยไม่ต้องคำนวณอัตราแลกเปลี่ยนเองให้ยุ่งยาก รองรับทั้งบัตรเครดิต, เดบิต และ TrueMoney Wallet พร้อมระบบรักษาความปลอดภัยระดับโลก มั่นใจได้ทุกการใช้จ่าย ประหยัดทั้งเวลาและค่าธรรมเนียม",
+      "tags": ["支付优势", "跨境支付", "泰语"]
+    },
+    {
+      "instruction_id": "INST-083",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户解释为什么他们收到的两个包裹是分开发货的。",
+      "output": "อธิบายเรื่องการแยกส่งพัสดุครับ: เนื่องจากคำสั่งซื้อของคุณประกอบด้วยสินค้าจากคลังสินค้าที่ต่างกัน หรือสินค้าบางรายการมีขนาดใหญ่พิเศษ เราจึงจำเป็นต้องแยกส่งเป็น 2 กล่องเพื่อให้สินค้าถึงมือคุณอย่างปลอดภัยที่สุด พัสดุอีกกล่องกำลังตามมาในเร็วๆ นี้ คุณสามารถเช็คเลขแทร็กกิ้งแยกตามรายการสินค้าในระบบได้เลยครับ",
+      "tags": ["客服", "物流分拆", "泰语"]
+    },
+    {
+      "instruction_id": "INST-084",
+      "instruction_type": "instruction",
+      "task": "用泰语撰写一份关于如何清洗防水面料夹克的保养指南。",
+      "output": "คู่มือการดูแลรักษาแจ็คเก็ตกันน้ำ:\n1. แนะนำให้ซักด้วยมือด้วยน้ำอุณหภูมิปกติเพื่อถนอมสารเคลือบกันน้ำ\n2. ใช้ผงซักฟอกสูตรอ่อนโยน ห้ามใช้สารฟอกขาวหรือน้ำยาปรับผ้านุ่ม\n3. ห้ามขยี้แรงหรือซักแห้ง ให้ล้างน้ำสะอาดแล้วผึ่งลมให้แห้งในที่ร่ม\n4. หลีกเลี่ยงการรีดด้วยความร้อนสูง หากจำเป็นให้ใช้เตารีดไอน้ำระดับต่ำสุด",
+      "tags": ["客服", "保养建议", "泰语"]
+    },
+    {
+      "instruction_id": "INST-085",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户征求对本次购物体验的反馈和建议。",
+      "output": "ความเห็นของคุณมีความหมายต่อเรามาก! 🌟 เราอยากทราบว่าคุณพึงพอใจกับสินค้าและการบริการของเราในครั้งนี้มากน้อยเพียงใด หากมีข้อแนะนำหรือส่วนที่อยากให้เราปรับปรุง โปรดบอกเราได้เลยครับ ทุกคำติชมจะนำไปพัฒนาบริการให้ดียิ่งขึ้น หวังว่าจะได้มีโอกาสให้บริการคุณอีกครั้งนะครับ",
+      "tags": ["客服", "满意度调查", "泰语"]
+    },
+    {
+      "instruction_id": "INST-086",
+      "instruction_type": "instruction",
+      "task": "用泰语为一个针对泰国母婴市场的智能摄像头编写卖点。",
+      "output": "ดูแลลูกน้อยได้ทุกที่ทุกเวลา! กล้องวงจรปิดอัจฉริยะที่ออกแบบมาเพื่อคุณแม่ยุคใหม่ มาพร้อมระบบ AI ตรวจจับเสียงร้องไห้และแจ้งเตือนเข้ามือถือทันที มีโหมดภาพกลางคืนที่คมชัด (Night Vision) และรองรับการพูดคุยโต้ตอบแบบสองทาง ให้คุณรู้สึกเหมือนได้อยู่ใกล้ลูกตลอดเวลา แม้ต้องออกไปทำธุระข้างนอก",
+      "tags": ["市场内容", "产品卖点", "泰语"]
+    },
+    {
+      "instruction_id": "INST-087",
+      "instruction_type": "instruction",
+      "task": "用泰语告知客户由于他们选择的收货区域偏远，需要额外支付偏远地区派送费。",
+      "output": "เรียนคุณลูกค้า เนื่องจากที่อยู่จัดส่งของคุณอยู่ในเขตพื้นที่ห่างไกล (Remote Area) ตามเกณฑ์ของบริษัทขนส่ง จึงมีค่าธรรมเนียมการจัดส่งเพิ่มเติมจำนวน [Amount] บาท คุณสามารถชำระผ่านระบบ หรือโอนเข้าบัญชีร้านค้าแล้วแจ้งสลิปยืนยัน เพื่อให้ทางเราดำเนินการจัดส่งสินค้าให้โดยเร็วที่สุดครับ ต้องขออภัยในความไม่สะดวกด้วยครับ",
+      "tags": ["客服", "物流费用", "泰语"]
+    },
+    {
+      "instruction_id": "INST-088",
+      "instruction_type": "instruction",
+      "task": "用泰语撰写一份针对泰国母亲节（8月12日）的促销活动通知。",
+      "output": "โปรโมชั่นพิเศษต้อนรับวันแม่แห่งชาติ! ✨ มอบของขวัญที่ดีที่สุดให้คุณแม่ด้วยสินค้าเพื่อสุขภาพและความงามจากเรา รับส่วนลดสูงสุด 50% พร้อมบริการห่อของขวัญและเขียนการ์ดอวยพรฟรีทุกออเดอร์ บอกรักแม่ด้วยของขวัญสุดพิเศษตั้งแต่วันนี้ถึง 14 สิงหาคมเท่านั้น สั่งเลยที่นี่!",
+      "tags": ["市场内容", "节日促销", "泰语"]
+    },
+    {
+      "instruction_id": "INST-089",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户确认其订单是否需要进行礼品包装。",
+      "output": "คุณลูกค้าต้องการให้เราห่อของขวัญเป็นกรณีพิเศษสำหรับคำสั่งซื้อนี้ไหมครับ? ทางร้านมีบริการห่อของขวัญด้วยกระดาษพรีเมียมและติดโบว์ให้ฟรี เหมาะสำหรับส่งเป็นของขวัญเซอร์ไพรส์เพื่อนหรือคนพิเศษ หากต้องการ โปรดเลือก 'Gift Wrapping' ในหน้าตะกร้าสินค้า หรือแจ้งข้อความที่ต้องการเขียนบนการ์ดผ่านแชทนี้ได้เลยครับ",
+      "tags": ["客服", "礼品服务", "泰语"]
+    },
+    {
+      "instruction_id": "INST-090",
+      "instruction_type": "instruction",
+      "task": "用泰语编写一个简单的泰国当地退货中心地址卡片。",
+      "output": "ที่อยู่สำหรับส่งคืนสินค้า (Thailand Return Center):\nบริษัท [ชื่อบริษัท] (แผนกคืนสินค้า)\nเลขที่ 123 อาคาร [ชื่ออาคาร] ชั้น 5 ซอยสุขุมวิท 63\nแขวงคลองตันเหนือ เขตวัฒนา กรุงเทพฯ 10110\nโทร: 02-XXX-XXXX\n*โปรดระบุหมายเลขคำสั่งซื้อไว้ที่หน้ากล่องพัสดุ*",
+      "tags": ["售后服务", "退货地址", "泰语"]
+    },
+    {
+      "instruction_id": "INST-091",
+      "instruction_type": "instruction",
+      "task": "用泰语介绍一款便携式果汁机的清洗和充电注意事项。",
+      "output": "คำแนะนำการใช้งานเครื่องปั่นพกพา: 1. การชาร์จ: ก่อนใช้งานครั้งแรกควรชาร์จให้เต็ม (ไฟจะเปลี่ยนจากสีแดงเป็นสีน้ำเงิน) 2. การล้าง: สามารถล้างใบมีดได้โดยใส่น้ำและน้ำยาล้างจานเล็กน้อยแล้วเปิดเครื่องปั่น ห้ามจุ่มส่วนฐานที่มีช่องชาร์จลงในน้ำโดยตรง 3. ข้อควรระวัง: ปิดฝาให้สนิทก่อนเปิดใช้งานทุกครั้งเพื่อความปลอดภัยครับ",
+      "tags": ["客服", "使用说明", "泰语"]
+    },
+    {
+      "instruction_id": "INST-092",
+      "instruction_type": "instruction",
+      "task": "用泰语告知客户其订单因支付系统延迟导致订单状态仍为“待支付”。",
+      "output": "สวัสดีครับ จากการตรวจสอบพบว่ายอดเงินของคุณถูกตัดออกจากบัญชีแล้ว แต่ระบบอาจมีการดีเลย์ทำให้สถานะคำสั่งซื้อยังขึ้นว่า 'Pending Payment' ไม่ต้องกังวลนะครับ รบกวนส่งสลิปการโอนเงินให้ผมทางแชทนี้ เพื่อที่ผมจะรีบตรวจสอบกับฝ่ายบัญชีและปรับสถานะเป็น 'Paid' ให้ทันทีภายใน 1 ชม. ครับ",
+      "tags": ["客服", "支付问题", "泰语"]
+    },
+    {
+      "instruction_id": "INST-093",
+      "instruction_type": "instruction",
+      "task": "用泰语编写一个关于泰国当地仓库“清仓大甩卖”的宣传短句。",
+      "output": "เคลียร์สต็อกครั้งใหญ่! สินค้าคุณภาพดีส่งตรงจากคลังสินค้าไทย ลดราคาล้างสต็อกต่ำกว่าทุน! มีทั้งเครื่องใช้ไฟฟ้า แฟชั่น และของใช้ในบ้าน เริ่มต้นเพียง 9 บาทเท่านั้น หมดแล้วหมดเลย ไม่มีมาเพิ่ม ของดีราคาถูกแบบนี้ พลาดไปเสียดายแย่!",
+      "tags": ["市场内容", "清仓促销", "泰语"]
+    },
+    {
+      "instruction_id": "INST-094",
+      "instruction_type": "instruction",
+      "task": "用泰语解释由于国际航空公司货运舱位紧缺导致的运费上涨。",
+      "output": "เรียนลูกค้า เนื่องจากปัจจุบันมีความต้องการขนส่งสินค้าทางอากาศเพิ่มสูงขึ้นอย่างมาก ทำให้พื้นที่ระวางบนเครื่องบินมีจำกัดและสายการบินได้ปรับขึ้นค่าธรรมเนียมขนส่ง ทางเราจึงจำเป็นต้องปรับราคาค่าขนส่งตามสถานการณ์จริงชั่วคราว เรากำลังพยายามอย่างเต็มที่เพื่อหาพันธมิตรขนส่งรายอื่นเพื่อให้ได้ราคาที่คุ้มค่าที่สุดสำหรับคุณ ขอขอบพระคุณที่เข้าใจครับ",
+      "tags": ["客服", "物流调价", "泰语"]
+    },
+    {
+      "instruction_id": "INST-095",
+      "instruction_type": "instruction",
+      "task": "用泰语询问客户是否对收到的服装颜色满意，因为显示器可能存在色差。",
+      "output": "ได้รับสินค้าแล้ว สีสวยถูกใจไหมครับ? เนื่องจากแสงในการถ่ายภาพและหน้าจอโทรศัพท์แต่ละรุ่นอาจแสดงสีต่างกันเล็กน้อย ทำให้สีของเสื้อผ้าจริงอาจเพี้ยนไปจากในรูปบ้างเล็กน้อย หากคุณลูกค้าไม่พอใจในสีของสินค้า สามารถแจ้งเปลี่ยนหรือคืนได้ตามนโยบายของร้านนะครับ เราอยากให้คุณได้รับสินค้าที่ถูกใจที่สุดครับ",
+      "tags": ["客服", "色差说明", "泰语"]
+    },
+    {
+      "instruction_id": "INST-096",
+      "instruction_type": "instruction",
+      "task": "用泰语为一个针对泰国宠物市场的自动喂食器编写产品描述。",
+      "output": "หมดห่วงเรื่องน้องหมาน้องแมวตอนคุณไม่อยู่บ้าน! เครื่องให้อาหารสัตว์เลี้ยงอัตโนมัติ สั่งงานผ่านแอปได้ทุกที่ ตั้งเวลาและปริมาณอาหารได้แม่นยำ พร้อมระบบบันทึกเสียงเรียกกินข้าว และกล้อง HD ในตัวให้คุณแอบดูเจ้าตัวแสบได้ตลอดเวลา ตัวถังบรรจุได้เยอะ ล้างทำความสะอาดง่าย สะดวกทั้งเจ้าของและสัตว์เลี้ยงครับ",
+      "tags": ["市场内容", "宠物用品", "泰语"]
+    },
+    {
+      "instruction_id": "INST-097",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户道歉由于客服系统故障导致的回复延迟。",
+      "output": "กราบขออภัยอย่างสูงครับ เนื่องจากระบบแชทของเราขัดข้องชั่วคราวเมื่อช่วงเช้าที่ผ่านมา ทำให้เจ้าหน้าที่ไม่ได้รับข้อความของคุณลูกค้าและตอบกลับล่าช้า ขณะนี้ระบบกลับมาใช้งานได้ปกติแล้ว ผมกำลังเร่งตรวจสอบข้อมูลของคุณและจะรีบให้คำตอบโดยเร็วที่สุด ขอบพระคุณที่ยังรอและให้โอกาสเราดูแลครับ",
+      "tags": ["客服", "故障致歉", "泰语"]
+    },
+    {
+      "instruction_id": "INST-098",
+      "instruction_type": "instruction",
+      "task": "用泰语介绍一种支持泰国各大银行APP在线扫码支付的跨境转账方式。",
+      "output": "โอนเงินข้ามประเทศได้ง่ายเหมือนโอนในไทย! บริการใหม่ของเราช่วยให้คุณชำระค่าสินค้าต่างประเทศได้ทันทีผ่านการสแกน QR Code ด้วยแอปธนาคารไทยทุกแห่ง (K-Plus, SCB Easy, Krungthai Next ฯลฯ) เงินเข้าทันที อัตราแลกเปลี่ยนดีเยี่ยม และไม่มีค่าธรรมเนียมแอบแฝง ปลอดภัยและรวดเร็วที่สุดในตอนนี้",
+      "tags": ["支付优势", "扫码支付", "泰语"]
+    },
+    {
+      "instruction_id": "INST-099",
+      "instruction_type": "instruction",
+      "task": "用泰语撰写一份关于如何使用智能香薰机的使用步骤。",
+      "output": "ขั้นตอนการใช้งานเครื่องพ่นอโรมาอัจฉริยะ: 1. เปิดฝาครอบออกแล้วเติมน้ำสะอาดลงในถัง (ไม่เกินขีดที่กำหนด) 2. หยดน้ำมันหอมระเหย 3-5 หยดตามความต้องการ 3. ปิดฝาให้สนิทและเสียบปลั๊ก 4. กดปุ่มเปิดเครื่องเพื่อเริ่มพ่นหมอก และสามารถกดปุ่ม Light เพื่อเปลี่ยนสีไฟ LED ได้ครับ 5. ตั้งเวลาปิดอัตโนมัติได้เพื่อความปลอดภัย",
+      "tags": ["客服", "产品教程", "泰语"]
+    },
+    {
+      "instruction_id": "INST-100",
+      "instruction_type": "instruction",
+      "task": "用泰语向客户确认其收件地址的邮政编码是否正确，因为与所属府（Province）不符。",
+      "output": "ขอสอบถามข้อมูลที่อยู่เพิ่มเติมครับ จากที่ตรวจสอบพบว่า 'รหัสไปรษณีย์' ที่คุณระบุมา ไม่ตรงกับพื้นที่ของ 'จังหวัด' ที่เลือกไว้ รบกวนคุณลูกค้าช่วยเช็คและยืนยันรหัสไปรษณีย์ที่ถูกต้องอีกครั้งครับ เพื่อป้องกันพัสดุถูกตีกลับหรือส่งไปผิดพื้นที่ ขอบคุณมากครับ",
+      "tags": ["客服", "地址校验", "泰语"]
+    },
+    {
+      "instruction_id": "INST-101",
+      "instruction_type": "instruction",
+      "task": "用越南语告知客户，根据海关规定，由于是跨境商品，下单后需提供身份证号（CCCD）进行报关。",
+      "output": "Chào bạn, theo quy định của hải quan đối với hàng hóa xuyên biên giới, bạn vui lòng cung cấp số Căn cước công dân (CCCD) để chúng tôi tiến hành làm thủ tục khai báo hải quan cho đơn hàng này. Thông tin của bạn sẽ được bảo mật tuyệt đối. Cảm ơn sự hợp tác của bạn!",
+      "tags": ["客服", "报关资料", "越南语"]
+    },
+    {
+      "instruction_id": "INST-102",
+      "instruction_type": "instruction",
+      "task": "用越南语解释由于中越边境口岸（如友谊关）拥堵导致的物流延误。",
+      "output": "Xin lỗi bạn vì sự chậm trễ này. Hiện tại, lượng hàng hóa tại cửa khẩu Hữu Nghị đang bị ùn ứ nghiêm trọng, dẫn đến việc thông quan mất nhiều thời gian hơn dự kiến. Đơn hàng của bạn có thể sẽ đến chậm hơn từ 3-5 ngày. Rất mong bạn thông cảm và kiên nhẫn chờ đợi giúp shop nhé!",
+      "tags": ["物流", "口岸拥堵", "越南语"]
+    },
+    {
+      "instruction_id": "INST-103",
+      "instruction_type": "instruction",
+      "task": "用越南语为一款在TikTok Shop Vietnam上热门的电子产品撰写引流文案，强调“正品保障”和“全网最低价”。",
+      "output": "Săn ngay deal hời nhất TikTok Shop hôm nay! 🔥 Sản phẩm điện tử cực hot, cam kết chính hãng 100%, phát hiện hàng giả đền gấp 10. Giá tốt nhất thị trường, không đâu rẻ hơn! Số lượng có hạn, bấm ngay vào giỏ hàng để chốt đơn nhé cả nhà ơi! 🛒✨ #TikTokShopVN #HangChinhHang #GiaReVoDich",
+      "tags": ["市场内容", "TikTok Shop", "越南语"]
+    },
+    {
+      "instruction_id": "INST-104",
+      "instruction_type": "instruction",
+      "task": "用越南语回复客户关于能否使用MoMo或ZaloPay进行支付的咨询。",
+      "output": "Dạ được ạ! Shop có hỗ trợ thanh toán qua các ví điện tử phổ biến như MoMo và ZaloPay để bạn tiện lợi hơn khi mua sắm. Sau khi đặt hàng, bạn chỉ cần quét mã QR hoặc chuyển khoản theo hướng dẫn của hệ thống là xong. Nếu cần hỗ trợ thêm, bạn cứ nhắn shop nhé!",
+      "tags": ["客服", "支付咨询", "越南语"]
+    },
+    {
+      "instruction_id": "INST-105",
+      "instruction_type": "instruction",
+      "task": "用越南语编写一段针对越南“春节”（Tet Holiday）期间的店铺放假及发货安排公告。",
+      "output": "Thông báo nghỉ Tết Nguyên Đán 🧧: Shop xin thông báo sẽ nghỉ Tết từ ngày [Ngày bắt đầu] đến hết ngày [Ngày kết thúc]. Các đơn hàng đặt trong thời gian này sẽ được xử lý và gửi đi bắt đầu từ ngày [Ngày làm lại]. Chúc quý khách một năm mới An Khang Thịnh Vượng - Vạn Sự Như Ý!",
+      "tags": ["客服", "节日公告", "越南语"]
+    },
+    {
+      "instruction_id": "INST-106",
+      "instruction_type": "instruction",
+      "task": "用越南语向客户解释为什么从河内（Hanoi）收货会比胡志明市（HCMC）快两到三天。",
+      "output": "Chào bạn, do kho hàng của shop gần cửa khẩu phía Bắc, nên các đơn hàng vận chuyển về Hà Nội thường sẽ nhanh hơn khu vực TP. Hồ Chí Minh từ 2-3 ngày do quãng đường vận chuyển nội địa ngắn hơn. Rất mong bạn ở miền Nam thông cảm và chờ đợi thêm một chút nhé!",
+      "tags": ["客服", "物流差异", "越南语"]
+    },
+    {
+      "instruction_id": "INST-107",
+      "instruction_type": "instruction",
+      "task": "用越南语撰写一段Facebook小组营销文案，推广一款适合越南夏季穿搭的亚麻衬衫。",
+      "output": "Hè này mặc gì cho mát? ☀️ Shop vừa về mẫu sơ mi đũi cực xịn, chất vải thoáng mát, thấm hút mồ hôi cực tốt, phù hợp với thời tiết nắng nóng tại Việt Nam. Thiết kế trẻ trung, dễ phối đồ, đi làm hay đi chơi đều hợp. Inbox shop ngay để nhận ưu đãi giảm 20% cho 50 khách hàng đầu tiên nhé! 🌿",
+      "tags": ["市场内容", "Facebook营销", "越南语"]
+    },
+    {
+      "instruction_id": "INST-108",
+      "instruction_type": "instruction",
+      "task": "用越南语回复客户关于收到商品后发现包装标签没有越南语说明的质疑。",
+      "output": "Chào bạn, vì đây là hàng nhập khẩu trực tiếp từ nước ngoài (hàng nội địa) nên bao bì gốc sẽ không có tiếng Việt. Tuy nhiên, shop có đính kèm hướng dẫn sử dụng bằng tiếng Việt trong phần mô tả sản phẩm hoặc bạn có thể nhắn tin để shop gửi bản hướng dẫn chi tiết nhé. Cam kết hàng chuẩn chính hãng ạ!",
+      "tags": ["客服", "产品标签", "越南语"]
+    },
+    {
+      "instruction_id": "INST-109",
+      "instruction_type": "instruction",
+      "task": "用越南语生成一份越南语版本的增值税发票（VAT Invoice）索取表单字段。",
+      "output": "Yêu cầu xuất hóa đơn GTGT (VAT):\n1. Tên công ty: \n2. Địa chỉ công ty: \n3. Mã số thuế (MST): \n4. Email nhận hóa đơn điện tử: \n*Lưu ý: Hóa đơn sẽ được xuất và gửi qua email trong vòng 7 ngày làm việc kể từ khi đơn hàng hoàn thành.*",
+      "tags": ["商务文书", "发票", "越南语"]
+    },
+    {
+      "instruction_id": "INST-110",
+      "instruction_type": "instruction",
+      "task": "用越南语提醒客户，收货时如发现包裹封条受损，请拒绝签收并立即拍照联系客服。",
+      "output": "Lưu ý quan trọng: Khi nhận hàng, bạn vui lòng kiểm tra kỹ tình trạng gói hàng. Nếu thấy băng keo niêm phong bị rách hoặc có dấu hiệu bị cạy mở, bạn hãy từ chối nhận hàng và chụp ảnh lại ngay lập tức để gửi cho shop. Shop sẽ hỗ trợ bạn giải quyết với bên vận chuyển nhanh nhất có thể!",
+      "tags": ["客服", "物流安全", "越南语"]
+    },
+    {
+      "instruction_id": "INST-111",
+      "instruction_type": "instruction",
+      "task": "用越南语向越南当地网红（Influencer）发送一封合作邀约，邀请其在Shopee Live进行直播带货。",
+      "output": "Chào bạn, shop đã theo dõi các buổi livestream của bạn và rất ấn tượng với phong cách của bạn. Shop hiện đang có dòng sản phẩm [Tên sản phẩm] rất hot và muốn mời bạn hợp tác livestream trên Shopee Live. Shop sẽ hỗ trợ mức hoa hồng cực kỳ hấp dẫn và các mã giảm giá độc quyền cho fan của bạn. Hy vọng sớm nhận được phản hồi từ bạn!",
+      "tags": ["商务文书", "网红合作", "越南语"]
+    },
+    {
+      "instruction_id": "INST-112",
+      "instruction_type": "instruction",
+      "task": "用越南语解释跨境物流中的“上门派送”流程（针对越南快递如GHN/GHTK）。",
+      "output": "Quy trình giao hàng tận nơi: Sau khi hàng về đến kho tại Việt Nam, đơn hàng sẽ được bàn giao cho đơn vị vận chuyển nội địa (như GHN hoặc GHTK). Shipper sẽ gọi điện cho bạn trước khi giao hàng. Nếu bạn không có nhà, shipper sẽ hỗ trợ giao lại tối đa 3 lần. Bạn hãy chú ý điện thoại nhé!",
+      "tags": ["物流", "派送说明", "越南语"]
+    },
+    {
+      "instruction_id": "INST-113",
+      "instruction_type": "instruction",
+      "task": "用越南语撰写一段针对“越南妇女节”（10月20日）的礼品促销文案。",
+      "output": "Chúc mừng ngày Phụ nữ Việt Nam 20/10! ✨ Hãy dành tặng những điều tuyệt vời nhất cho người phụ nữ bạn yêu thương. Shop giảm giá đến 40% cho tất cả các set quà tặng mỹ phẩm và phụ kiện cao cấp. Tặng kèm thiệp chúc mừng xinh xắn cho mọi đơn hàng. Đặt ngay hôm nay để kịp trao gửi yêu thương nhé!",
+      "tags": ["市场内容", "节日促销", "越南语"]
+    },
+    {
+      "instruction_id": "INST-114",
+      "instruction_type": "instruction",
+      "task": "用越南语向客户介绍如何通过扫描QR码加入Zalo粉丝群获取每日折扣。",
+      "output": "Nhận ngay mã giảm giá mỗi ngày khi tham gia cộng đồng Zalo của shop! Bạn chỉ cần quét mã QR đính kèm hoặc tìm số điện thoại [Số điện thoại] trên Zalo để tham gia group. Tại đây, shop sẽ cập nhật các deal hời, mã giảm giá độc quyền và hỗ trợ giải đáp thắc mắc nhanh nhất dành riêng cho fan cứng!",
+      "tags": ["市场内容", "私域运营", "越南语"]
+    },
+    {
+      "instruction_id": "INST-115",
+      "instruction_type": "instruction",
+      "task": "用越南语回复客户关于跨境订单能否分期付款（Installment）的询问。",
+      "output": "Dạ hiện tại hệ thống có hỗ trợ trả góp 0% qua thẻ tín dụng cho các đơn hàng có giá trị từ [Số tiền] trở lên. Bạn có thể chọn phương thức thanh toán trả góp khi tiến hành thanh toán đơn hàng. Nếu bạn sử dụng các ví điện tử như ShopeePay, cũng có thể có các gói trả góp tùy theo chính sách của ví ạ.",
+      "tags": ["客服", "金融支付", "越南语"]
+    },
+    {
+      "instruction_id": "INST-116",
+      "instruction_type": "instruction",
+      "task": "用越南语生成一份简短的产品规格表，适用于移动电源产品。",
+      "output": "Thông số kỹ thuật:\n- Dung lượng pin: 20.000mAh\n- Loại pin: Lithium Polymer\n- Đầu vào (Input): Micro USB / Type-C (5V/2A)\n- Đầu ra (Output): 2 cổng USB-A (5V/2.1A)\n- Trọng lượng: 350g\n- Kích thước: 140 x 68 x 25 mm\n- Bảo hành: 12 tháng chính hãng.",
+      "tags": ["市场内容", "规格参数", "越南语"]
+    },
+    {
+      "instruction_id": "INST-117",
+      "instruction_type": "instruction",
+      "task": "用越南语告知客户，由于越南当前正值雨季，包裹可能会受潮，建议开箱检视商品。",
+      "output": "Chào bạn, hiện tại Việt Nam đang vào mùa mưa lớn, mặc dù shop đã bọc kỹ bằng màng co nhưng quá trình vận chuyển có thể khiến hộp bên ngoài bị ẩm. Bạn vui lòng kiểm tra kỹ sản phẩm bên trong khi nhận hàng. Nếu sản phẩm bị ảnh hưởng do ẩm ướt, hãy báo ngay cho shop để được hỗ trợ đổi trả nhé!",
+      "tags": ["客服", "物流告知", "越南语"]
+    },
+    {
+      "instruction_id": "INST-118",
+      "instruction_type": "instruction",
+      "task": "用越南语为一个越南语翻译服务或外语培训产品撰写广告语，强调“地道表达”。",
+      "output": "Bạn muốn giao tiếp tự nhiên như người bản xứ? Khóa học của chúng tôi tập trung vào những cách diễn đạt đời thường nhất, giúp bạn xóa bỏ rào cản ngôn ngữ ngay lập tức. Không còn những câu văn sách vở, chỉ có những lời nói chuẩn chỉnh và hợp ngữ cảnh. Đăng ký học thử miễn phí ngay hôm nay!",
+      "tags": ["市场内容", "教育培训", "越南语"]
+    },
+    {
+      "instruction_id": "INST-119",
+      "instruction_type": "instruction",
+      "task": "用越南语回复客户要求更改收货地址，但商品已经离开中国仓库的情况。",
+      "output": "Rất tiếc bạn ơi, đơn hàng của bạn hiện đã được gửi đi và rời khỏi kho tại Trung Quốc nên shop không thể trực tiếp thay đổi địa chỉ trên hệ thống được nữa. Tuy nhiên, khi hàng về đến kho Việt Nam, bạn có thể chủ động liên hệ với shipper hoặc tổng đài vận chuyển để nhờ họ hỗ trợ giao sang địa chỉ mới nhé!",
+      "tags": ["客服", "改地址", "越南语"]
+    },
+    {
+      "instruction_id": "INST-120",
+      "instruction_type": "instruction",
+      "task": "用越南语撰写一份针对越南本土电商平台Lazada VN的店铺客服准则。",
+      "output": "Nguyên tắc CSKH trên Lazada VN:\n1. Phản hồi tin nhắn khách hàng trong vòng 5 phút.\n2. Luôn bắt đầu bằng 'Dạ' và kết thúc bằng 'Cảm ơn'.\n3. Giải quyết khiếu nại với thái độ cầu thị, luôn lắng nghe khách hàng.\n4. Cung cấp thông tin chính xác về tình trạng đơn hàng và thời gian vận chuyển.\n5. Tuyệt đối không sử dụng ngôn từ thiếu văn hóa.",
+      "tags": ["商务文书", "客服准则", "越南语"]
+    },
+    {
+      "instruction_id": "INST-121",
+      "instruction_type": "instruction",
+      "task": "用越南语向客户确认其选择的服装尺码是否参照了亚洲标准（Asian Size）。",
+      "output": "Chào bạn, shop muốn xác nhận lại một chút về kích thước bạn đã chọn. Vì đây là bảng size châu Á nên form sẽ hơi nhỏ hơn so với size Âu Mỹ một chút. Để chắc chắn nhất, bạn có thể cung cấp chiều cao và cân nặng để shop tư vấn size chuẩn nhất cho bạn không ạ? Tránh trường hợp nhận hàng về mặc không vừa thì tiếc lắm.",
+      "tags": ["客服", "尺码建议", "越南语"]
+    },
+    {
+      "instruction_id": "INST-122",
+      "instruction_type": "instruction",
+      "task": "用越南语描述一款手办模型产品的防损包装流程，增强客户信心。",
+      "output": "Quy trình đóng gói chống hư hỏng của shop: Sản phẩm sẽ được quấn 3-5 lớp màng xốp hơi (bubble wrap), đặt trong thùng carton cứng 5 lớp, và các khoảng trống được lấp đầy bằng mút xốp hoặc giấy chống sốc. Cuối cùng, shop sẽ dán băng keo 'Hàng dễ vỡ' bên ngoài để đảm bảo mô hình của bạn nguyên vẹn khi đến tay.",
+      "tags": ["客服", "包装说明", "越南语"]
+    },
+    {
+      "instruction_id": "INST-123",
+      "instruction_type": "instruction",
+      "task": "用越南语撰写一段双11（11.11）凌晨抢购的提醒通知。",
+      "output": "Sẵn sàng chưa cả nhà ơi? Chỉ còn 2 tiếng nữa là đến đại tiệc 11.11! Đừng quên nạp sẵn tiền vào ví, thu thập đủ mã freeship và mã giảm giá 50% ngay lúc này. Đúng 0h đêm nay, hàng ngàn deal sốc sẽ mở bán. Nhanh tay kẻo lỡ, chúc các bạn săn sale thành công nhé! 🚀🔥",
+      "tags": ["市场内容", "大促提醒", "越南语"]
+    },
+    {
+      "instruction_id": "INST-124",
+      "instruction_type": "instruction",
+      "task": "用越南语说明如果包裹退回中国，买家可能需要承担国际运费。",
+      "output": "Lưu ý về việc hoàn hàng: Trong trường hợp bạn từ chối nhận hàng không có lý do chính đáng hoặc cung cấp sai địa chỉ dẫn đến việc bưu kiện bị hoàn về Trung Quốc, bạn sẽ phải chịu phí vận chuyển quốc tế hai chiều. Vì vậy, vui lòng kiểm tra kỹ thông tin và chú ý điện thoại từ shipper bạn nhé!",
+      "tags": ["客服", "退货费用", "越南语"]
+    },
+    {
+      "instruction_id": "INST-125",
+      "instruction_type": "instruction",
+      "task": "用越南语撰写一个关于越南小家电产品使用电压（220V）的温馨提示。",
+      "output": "Thông báo về điện áp: Sản phẩm này sử dụng điện áp 220V, hoàn toàn phù hợp với lưới điện dân dụng tại Việt Nam nên bạn có thể yên tâm sử dụng trực tiếp mà không cần bộ chuyển nguồn. Tuy nhiên, nếu bạn mang đi các nước sử dụng điện 110V thì cần lưu ý nhé.",
+      "tags": ["客服", "使用须知", "越南语"]
+    },
+    {
+      "instruction_id": "INST-126",
+      "instruction_type": "instruction",
+      "task": "用越南语编写一段针对Shopee Vietnam的自动好评回复模板。",
+      "output": "Cảm ơn bạn đã tin tưởng và ủng hộ shop! 💖 Shop rất vui khi bạn hài lòng với sản phẩm. Những đánh giá 5 sao của bạn là động lực rất lớn để shop tiếp tục cải thiện dịch vụ. Hy vọng sẽ sớm được phục vụ bạn trong những đơn hàng tiếp theo. Chúc bạn một ngày tốt lành!",
+      "tags": ["客服", "评价回复", "越南语"]
+    },
+    {
+      "instruction_id": "INST-127",
+      "instruction_type": "instruction",
+      "task": "用越南语向供应商索要针对越南市场的产品测试报告。",
+      "output": "Chào bạn, để đáp ứng các quy định nhập khẩu và kiểm định tại thị trường Việt Nam, phiền bạn cung cấp giúp chúng tôi các bản báo cáo thử nghiệm sản phẩm (test report) và các chứng chỉ chất lượng liên quan (như CE, RoHS...). Chúng tôi cần các bản sao rõ nét để nộp cho cơ quan chức năng. Cảm ơn bạn!",
+      "tags": ["商务文书", "资质要求", "越南语"]
+    },
+    {
+      "instruction_id": "INST-128",
+      "instruction_type": "instruction",
+      "task": "用越南语为一个咖啡机产品撰写一段SEO描述，包含关键词“Cà phê pha máy”。",
+      "output": "Thưởng thức ly cà phê đậm đà ngay tại nhà với máy pha cà phê chuyên nghiệp của chúng tôi. Với áp suất chuẩn, máy giúp chiết xuất trọn vẹn hương vị từ hạt cà phê, tạo lớp crema sánh mịn. Lựa chọn hoàn hảo cho những tín đồ yêu thích 'cà phê pha máy' chất lượng như tại quán. Thiết kế sang trọng, dễ vệ sinh, độ bền cao.",
+      "tags": ["市场内容", "SEO", "越南语"]
+    },
+    {
+      "instruction_id": "INST-129",
+      "instruction_type": "instruction",
+      "task": "用越南语向由于系统故障被重复扣款的客户致歉并承诺退款。",
+      "output": "Shop rất xin lỗi vì sự cố kỹ thuật khiến đơn hàng của bạn bị trừ tiền hai lần. Shop đã ghi nhận trường hợp này và đang phối hợp với phía ngân hàng để hoàn trả lại số tiền dư cho bạn nhanh nhất có thể (thường mất 3-5 ngày làm việc). Mong bạn thông cảm và yên tâm, shop cam kết sẽ hoàn trả đầy đủ ạ.",
+      "tags": ["客服", "支付异常", "越南语"]
+    },
+    {
+      "instruction_id": "INST-130",
+      "instruction_type": "instruction",
+      "task": "用越南语告知客户其订单中含有液体，只能走陆路运输（Road Freight）从而时效较慢。",
+      "output": "Chào bạn, vì trong đơn hàng có chứa chất lỏng nên theo quy định an toàn bay, kiện hàng không thể vận chuyển bằng đường hàng không mà phải chuyển sang đường bộ. Do đó, thời gian nhận hàng sẽ chậm hơn so với thông thường khoảng 4-6 ngày. Rất mong bạn thông cảm vì sự bất tiện này để đảm bảo an toàn cho kiện hàng.",
+      "tags": ["物流", "运输限制", "越南语"]
+    },
+    {
+      "instruction_id": "INST-131",
+      "instruction_type": "instruction",
+      "task": "用越南语撰写一段针对“越南黑五大促”（Black Friday VN）的邮件开头。",
+      "output": "Chương trình Black Friday lớn nhất năm đã chính thức bắt đầu! Đừng bỏ lỡ cơ hội sở hữu những món đồ yêu thích với mức giá 'rẻ sập sàn' chỉ có trong hôm nay. Shop đã chuẩn bị sẵn hàng ngàn ưu đãi độc quyền dành riêng cho bạn. Hãy cùng khám phá ngay những deal hời nhất nhé!",
+      "tags": ["市场内容", "营销邮件", "越南语"]
+    },
+    {
+      "instruction_id": "INST-132",
+      "instruction_type": "instruction",
+      "task": "用越南语向客户介绍如何正确安装和配对蓝牙耳机。",
+      "output": "Hướng dẫn kết nối tai nghe: 1. Lấy cả hai tai nghe ra khỏi hộp sạc đồng thời. 2. Bật Bluetooth trên điện thoại và tìm tên thiết bị [Tên thiết bị]. 3. Nhấn vào tên thiết bị để ghép nối. Khi đèn báo trên tai nghe ngừng nhấp nháy là bạn đã kết nối thành công. Nếu chỉ nghe được một bên, hãy thử đặt lại vào hộp và lấy ra lại nhé!",
+      "tags": ["客服", "操作指南", "越南语"]
+    },
+    {
+      "instruction_id": "INST-133",
+      "instruction_type": "instruction",
+      "task": "用越南语解释为什么收到的商品和主图颜色有轻微差别（色差问题）。",
+      "output": "Chào bạn, về vấn đề màu sắc, do điều kiện ánh sáng khi chụp ảnh và độ hiển thị màu của các loại màn hình điện thoại, máy tính khác nhau nên màu sắc thực tế của sản phẩm có thể chênh lệch khoảng 3-5% so với hình ảnh trên mạng. Mong bạn thông cảm vì sự khác biệt nhỏ này, chất lượng sản phẩm vẫn luôn được đảm bảo tuyệt đối ạ.",
+      "tags": ["客服", "色差问题", "越南语"]
+    },
+    {
+      "instruction_id": "INST-134",
+      "instruction_type": "instruction",
+      "task": "用越南语为一个越南语版本的“满减优惠券”编写说明文案。",
+      "output": "Thông tin mã giảm giá: Giảm ngay [Số tiền] cho đơn hàng có giá trị từ [Số tiền tối thiểu]. Thời hạn sử dụng đến hết ngày [Ngày]. Số lượng mã có hạn, áp dụng cho tất cả các sản phẩm tại shop. Hãy nhanh tay sử dụng mã trước khi thanh toán để được hưởng ưu đãi bạn nhé!",
+      "tags": ["市场内容", "优惠券", "越南语"]
+    },
+    {
+      "instruction_id": "INST-135",
+      "instruction_type": "instruction",
+      "task": "用越南语回复客户询问为什么他的包裹显示正在“胡志明市海关部门”进行查验。",
+      "output": "Chào bạn, trạng thái này có nghĩa là đơn hàng của bạn đang được Chi cục Hải quan TP.HCM kiểm tra định kỳ đối với hàng nhập khẩu. Đây là quy trình nghiệp vụ thông thường để đảm bảo hàng hóa đúng quy định. Quá trình này thường diễn ra từ 1-2 ngày làm việc. Ngay sau khi thông quan xong, hàng sẽ được giao cho bưu cục để phát đến bạn ngay ạ.",
+      "tags": ["客服", "物流查验", "越南语"]
+    },
+    {
+      "instruction_id": "INST-136",
+      "instruction_type": "instruction",
+      "task": "用越南语为一款防晒服撰写卖点，强调UPF 50+和针对越南摩托车骑行者的设计。",
+      "output": "Sản phẩm không thể thiếu cho các 'phượt thủ' và người đi xe máy tại Việt Nam! Áo khoác chống nắng cao cấp với chỉ số UPF 50+ giúp ngăn chặn 98% tia UV gây hại. Thiết kế tay áo dài che kín mu bàn tay và mũ trùm rộng giúp bảo vệ bạn toàn diện dưới cái nắng gắt. Chất vải thun lạnh cực mát, không lo bí bách khi di chuyển trên đường.",
+      "tags": ["市场内容", "产品卖点", "越南语"]
+    },
+    {
+      "instruction_id": "INST-137",
+      "instruction_type": "instruction",
+      "task": "用越南语向客户确认其是否已通过越南税务局的电子税务实名认证。",
+      "output": "Chào bạn, để đảm bảo đơn hàng giá trị cao của bạn được thông quan suôn sẻ, bạn vui lòng xác nhận giúp shop là bạn đã hoàn tất định danh cá nhân trên hệ thống thuế điện tử hoặc ứng dụng VNeID chưa ạ? Việc này sẽ giúp tránh tình trạng đơn hàng bị kẹt tại hải quan do thiếu thông tin định danh người nhận.",
+      "tags": ["客服", "实名认证", "越南语"]
+    },
+    {
+      "instruction_id": "INST-138",
+      "instruction_type": "instruction",
+      "task": "用越南语撰写一段针对越南市场的“退货政策”摘要（7天无理由）。",
+      "output": "Chính sách đổi trả: Shop hỗ trợ đổi trả hàng trong vòng 7 ngày kể từ khi nhận hàng với lý do không vừa ý hoặc đổi size. Yêu cầu sản phẩm còn nguyên tem mác, chưa qua sử dụng và còn đầy đủ bao bì gốc. Đối với lỗi do nhà sản xuất, shop sẽ chịu hoàn toàn chi phí vận chuyển đổi trả. Vui lòng liên hệ CSKH trước khi gửi hàng về.",
+      "tags": ["商务文书", "退货政策", "越南语"]
+    },
+    {
+      "instruction_id": "INST-139",
+      "instruction_type": "instruction",
+      "task": "用越南语向由于缺货不得不取消订单的客户表达诚挚歉意并赠送优惠券。",
+      "output": "Thành thật xin lỗi bạn vì sự cố hết hàng đột xuất đối với sản phẩm bạn đã đặt. Do sơ suất trong khâu cập nhật tồn kho, shop buộc phải hủy đơn hàng này của bạn. Để bù đắp sự bất tiện này, shop xin gửi tặng bạn mã giảm giá [Mã] giảm 15% cho đơn hàng tiếp theo. Rất mong bạn thứ lỗi và tiếp tục ủng hộ shop!",
+      "tags": ["客服", "缺货致歉", "越南语"]
+    },
+    {
+      "instruction_id": "INST-140",
+      "instruction_type": "instruction",
+      "task": "用越南语向客户介绍如何通过Shopee Vietnam的系统在线申请退款。",
+      "output": "Hướng dẫn hoàn tiền trên Shopee: Bạn vào mục 'Tôi' -> 'Đang giao' -> chọn đơn hàng cần trả -> bấm 'Trả hàng/Hoàn tiền'. Bạn chọn lý do tương ứng và đính kèm hình ảnh/video bằng chứng. Sau khi shop xác nhận, tiền sẽ được hoàn về ví ShopeePay hoặc tài khoản ngân hàng của bạn theo quy định của sàn. Nếu cần hỗ trợ thêm hãy gọi tổng đài 19001221.",
+      "tags": ["客服", "售后流程", "越南语"]
+    },
+    {
+      "instruction_id": "INST-141",
+      "instruction_type": "instruction",
+      "task": "用越南语描述一款越南产或针对越南口味研发的坚果零食卖点。",
+      "output": "Món ăn vặt thơm ngon và bổ dưỡng! Hạt điều rang muối cao cấp, hạt to đều, giòn rụm, giữ trọn vị bùi béo tự nhiên. Sản phẩm được chế biến theo công thức truyền thống, ít muối, phù hợp với khẩu vị người Việt và rất tốt cho sức khỏe. Bao bì đóng gói hút chân không sang trọng, thích hợp làm quà biếu hoặc ăn nhẹ hàng ngày.",
+      "tags": ["市场内容", "产品介绍", "越南语"]
+    },
+    {
+      "instruction_id": "INST-142",
+      "instruction_type": "instruction",
+      "task": "用越南语解释由于台风（Typhoon）导致的中越海上航运暂停。",
+      "output": "Thông báo khẩn: Do ảnh hưởng của cơn bão đang đổ bộ vào biển Đông, tất cả các chuyến tàu vận chuyển hàng hóa từ Trung Quốc về Việt Nam đang tạm dừng hoạt động để đảm bảo an toàn. Đơn hàng của bạn sẽ bị chậm trễ so với dự kiến. Shop sẽ cập nhật tình hình ngay khi tuyến vận tải hoạt động trở lại. Mong bạn hết sức thông cảm!",
+      "tags": ["物流", "天气影响", "越南语"]
+    },
+    {
+      "instruction_id": "INST-143",
+      "instruction_type": "instruction",
+      "task": "用越南语为一个跨境支付网关编写关于“安全保障”的描述文案。",
+      "output": "Thanh toán an toàn tuyệt đối với công nghệ bảo mật đa tầng. Mọi giao dịch của bạn đều được mã hóa theo tiêu chuẩn quốc tế PCI DSS, giúp bảo vệ thông tin thẻ và tài khoản khỏi mọi rủi ro xâm nhập. Hệ thống giám sát 24/7 giúp phát hiện và ngăn chặn kịp thời các giao dịch đáng ngờ, mang lại sự an tâm tuyệt đối cho khách hàng.",
+      "tags": ["市场内容", "支付安全", "越南语"]
+    },
+    {
+      "instruction_id": "INST-144",
+      "instruction_type": "instruction",
+      "task": "用越南语告知客户，如果对商品满意，请给5星好评并分享照片到朋友圈或Shopee Feed。",
+      "output": "Nếu hài lòng với sản phẩm, bạn đừng quên dành tặng shop đánh giá 5 sao kèm hình ảnh/video xinh xắn nhé! Bạn cũng có thể chia sẻ niềm vui này lên Shopee Feed hoặc trang cá nhân. Mỗi đánh giá của bạn là động lực rất lớn để shop hoàn thiện hơn. Cảm ơn bạn rất nhiều và chúc bạn luôn xinh đẹp, hạnh phúc!",
+      "tags": ["市场内容", "引导好评", "越南语"]
+    },
+    {
+      "instruction_id": "INST-145",
+      "instruction_type": "instruction",
+      "task": "用越南语说明如果订单被海关没收（如仿品或违禁品），卖家将承担的责任范围。",
+      "output": "Chính sách bảo hiểm hàng hóa: Trong trường hợp đơn hàng bị hải quan tịch thu do lỗi phân loại hoặc giấy tờ từ phía shop, shop cam kết sẽ hoàn trả 100% số tiền đơn hàng cho bạn hoặc gửi lại sản phẩm mới. Tuy nhiên, nếu hàng bị giữ do thuộc danh mục cấm nhập khẩu mà khách hàng vẫn yêu cầu gửi, shop sẽ không chịu trách nhiệm bồi thường.",
+      "tags": ["商务文书", "赔付条款", "越南语"]
+    },
+    {
+      "instruction_id": "INST-146",
+      "instruction_type": "instruction",
+      "task": "用越南语向客户确认为什么包裹正在通过陆路口岸清关，而不是空运。",
+      "output": "Chào bạn, do các mặt hàng trong đơn của bạn thuộc nhóm hàng nhạy cảm hoặc có chứa pin, nên theo quy định hàng không, chúng tôi phải chuyển qua đường bộ để đảm bảo an toàn vận chuyển quốc tế. Việc thanh toán và thông quan sẽ diễn ra tại cửa khẩu đường bộ. Thời gian có thể lâu hơn một chút nhưng sẽ đảm bảo hàng đến tay bạn an toàn.",
+      "tags": ["客服", "物流方式", "越南语"]
+    },
+    {
+      "instruction_id": "INST-147",
+      "instruction_type": "instruction",
+      "task": "用越南语描述一款针对越南护肤市场的“美白淡斑”精华液卖点。",
+      "output": "Giải pháp cho làn da trắng sáng mờ thâm! Tinh chất dưỡng trắng chuyên sâu giúp làm mờ các vết thâm nám, tàn nhang hiệu quả chỉ sau 4 tuần sử dụng. Công thức mỏng nhẹ, thấm cực nhanh vào da, không gây bết rít dưới thời tiết nóng ẩm. Thành phần an toàn, lành tính, phù hợp với mọi loại da của phụ nữ Việt.",
+      "tags": ["市场内容", "产品卖点", "越南语"]
+    },
+    {
+      "instruction_id": "INST-148",
+      "instruction_type": "instruction",
+      "task": "用越南语向由于沟通不畅产生误解的越南买家道歉。",
+      "output": "Rất xin lỗi bạn vì những hiểu lầm trong quá trình trao đổi vừa qua. Có lẽ do rào cản ngôn ngữ nên shop đã chưa giải thích rõ ràng khiến bạn phiền lòng. Shop luôn trân trọng mọi khách hàng và rất mong bạn bỏ qua cho sơ suất này. Shop sẽ cố gắng cải thiện khả năng giao tiếp để phục vụ bạn tốt hơn trong tương lai.",
+      "tags": ["客服", "沟通道歉", "越南语"]
+    },
+    {
+      "instruction_id": "INST-149",
+      "instruction_type": "instruction",
+      "task": "用越南语为跨境卖家编写一段关于越南当地消费者偏好（喜欢赠品）的运营提示。",
+      "output": "Mẹo kinh doanh tại Việt Nam: Người tiêu dùng Việt cực kỳ thích nhận được quà tặng kèm (gift with purchase), dù chỉ là những món quà nhỏ như thun buộc tóc, miếng dán sticker hay thiệp cảm ơn viết tay. Điều này giúp tăng tỷ lệ đánh giá 5 sao và khách hàng sẽ có thiện cảm hơn rất nhiều với thương hiệu của bạn.",
+      "tags": ["商务文书", "运营建议", "越南语"]
+    },
+    {
+      "instruction_id": "INST-150",
+      "instruction_type": "instruction",
+      "task": "用越南语告知客户其收货人电话无法拨通，导致派送失败。",
+      "output": "Thông báo giao hàng không thành công: Shipper báo lại là không thể liên lạc được với bạn qua số điện thoại đã cung cấp. Đơn hàng hiện đang được lưu kho tại bưu cục gần nhất. Bạn vui lòng kiểm tra lại điện thoại và giữ máy để shipper có thể gọi lại cho bạn vào ngày mai nhé, tránh trường hợp hàng bị hoàn về thì rất tiếc ạ!",
+      "tags": ["物流", "派送异常", "越南语"]
+    },
+    {
+      "instruction_id": "INST-151",
+      "instruction_type": "instruction",
+      "task": "用马来语向客户解释马来西亚实行的10%低价商品税（LVG Tax）政策。",
+      "output": "Untuk makluman anda, bermula 1 Januari 2024, kerajaan Malaysia telah melaksanakan Cukai Barang Bernilai Rendah (LVG) sebanyak 10% ke atas barangan import yang berharga di bawah RM500. Cukai ini dikira pada harga barangan tersebut dan dipungut semasa checkout untuk memastikan proses pelepasan kastam yang lebih lancar.",
+      "tags": ["客服", "税务政策", "马来语"]
+    },
+    {
+      "instruction_id": "INST-152",
+      "instruction_type": "instruction",
+      "task": "用马来语告知客户，由于目的地在东马（沙巴/砂拉越），物流费用和时效会与西马不同。",
+      "output": "Harap maklum bahawa disebabkan lokasi penghantaran anda berada di Malaysia Timur (Sabah/Sarawak), kos penghantaran dan tempoh penghantaran akan berbeza berbanding Malaysia Barat. Biasanya, penghantaran ke Sabah dan Sarawak mengambil masa tambahan 3-5 hari bekerja bergantung kepada perkhidmatan kurir.",
+      "tags": ["物流", "地区时效", "马来语"]
+    },
+    {
+      "instruction_id": "INST-153",
+      "instruction_type": "instruction",
+      "task": "用马来语为开斋节（Hari Raya Puasa）撰写一段促销文案，强调“节日新装”和“家庭套装优惠”。",
+      "output": "Persiapan Raya kini lebih bermakna! ✨ Dapatkan koleksi baju Raya sedondon untuk seisi keluarga dengan tawaran eksklusif. Nikmati diskaun sehingga 50% dan baucar tunai untuk setiap pembelian set keluarga. Jom tampil bergaya dan segak di hari lebaran ini! Beli sekarang di [Link].",
+      "tags": ["市场内容", "节日营销", "马来语"]
+    },
+    {
+      "instruction_id": "INST-154",
+      "instruction_type": "instruction",
+      "task": "用马来语回复客户询问是否可以使用Touch 'n Go eWallet或DuitNow进行支付。",
+      "output": "Ya, kami menerima pembayaran melalui Touch 'n Go eWallet dan DuitNow. Anda boleh memilih kaedah pembayaran ini semasa proses pembayaran (checkout). Ia adalah sangat mudah, selamat dan pantas. Jika anda menghadapi sebarang masalah, sila hubungi kami.",
+      "tags": ["客服", "支付咨询", "马来语"]
+    },
+    {
+      "instruction_id": "INST-155",
+      "instruction_type": "instruction",
+      "task": "用马来语编写一段针对马来西亚Shopee平台的自动回复，告知客户客服在线时间。",
+      "output": "Terima kasih kerana menghubungi kami! 🌟 Waktu operasi perkhidmatan pelanggan kami adalah dari Isnin hingga Jumaat, jam 9:00 pagi hingga 6:00 petang. Kami akan membalas mesej anda secepat mungkin sebaik sahaja kami kembali bertugas. Terima kasih atas kesabaran anda!",
+      "tags": ["客服", "自动回复", "马来语"]
+    },
+    {
+      "instruction_id": "INST-156",
+      "instruction_type": "instruction",
+      "task": "用马来语撰写一段产品描述，介绍一款符合Halal（清真）标准的中国产休闲零食。",
+      "output": "Nikmati snek lazat yang dihasilkan dengan teliti! Produk ini diperbuat daripada bahan-bahan berkualiti tinggi dan telah mendapat pensijilan Halal, menjadikannya selamat untuk dinikmati oleh semua. Sesuai sebagai snek santai semasa menonton TV atau berkumpul bersama rakan-rakan. Rasa yang unik dan rangup dalam setiap gigitan!",
+      "tags": ["市场内容", "产品描述", "马来语"]
+    },
+    {
+      "instruction_id": "INST-157",
+      "instruction_type": "instruction",
+      "task": "用马来语向由于季风季节（Monsoon Season）导致东马派送延迟的客户道歉。",
+      "output": "Kami memohon maaf atas kelewatan penghantaran bungkusan anda. Disebabkan musim tengkujuh yang melanda kawasan Malaysia Timur buat masa ini, beberapa laluan penghantaran terjejas oleh cuaca buruk. Kami sedang berusaha bekerjasama dengan pihak kurir untuk memastikan barang anda sampai dengan selamat secepat mungkin.",
+      "tags": ["客服", "天气延迟", "马来语"]
+    },
+    {
+      "instruction_id": "INST-158",
+      "instruction_type": "instruction",
+      "task": "用马来语生成一份针对马来西亚Lazada店群运营的合规声明。",
+      "output": "Kenyataan Pematuhan Kedai: Kami komited untuk mematuhi semua dasar penjual Lazada Malaysia, termasuk memastikan ketulenan produk, penghantaran tepat pada masa, dan memberikan perkhidmatan pelanggan yang cemerlang. Sebarang aktiviti yang melanggar undang-undang perdagangan tempatan adalah dilarang sama sekali di kedai kami.",
+      "tags": ["商务文书", "合规声明", "马来语"]
+    },
+    {
+      "instruction_id": "INST-159",
+      "instruction_type": "instruction",
+      "task": "用马来语告知客户，购买的商品如果超过500令吉，可能涉及SST服务税。",
+      "output": "Sila ambil perhatian bahawa bagi pesanan yang melebihi RM500, bungkusan anda mungkin tertakluk kepada Cukai Jualan dan Perkhidmatan (SST) mengikut peraturan kastam Malaysia. Pihak kastam mungkin akan menghubungi anda untuk urusan bayaran cukai tersebut sebelum barangan dilepaskan.",
+      "tags": ["客服", "税务提醒", "马来语"]
+    },
+    {
+      "instruction_id": "INST-160",
+      "instruction_type": "instruction",
+      "task": "用马来语邀请客户参加双12（12.12）年终大促活动。",
+      "output": "Jualan Akhir Tahun 12.12 kini kembali! 🎉 Bersedia untuk tawaran paling hebat tahun ini dengan potongan harga sehingga 90%, penghantaran percuma tanpa perbelanjaan minimum, dan baucar pulangan tunai (cashback) yang lumayan. Jangan lepaskan peluang keemasan ini untuk membeli-belah barangan impian anda!",
+      "tags": ["市场内容", "大促活动", "马来语"]
+    },
+    {
+      "instruction_id": "INST-161",
+      "instruction_type": "instruction",
+      "task": "用马来语回复客户关于商品是否提供本地保修（Local Warranty）的疑问。",
+      "output": "Untuk makluman anda, produk ini disertakan dengan jaminan antarabangsa selama satu tahun. Walaupun kami belum mempunyai pusat servis fizikal di Malaysia, anda boleh menghubungi pasukan sokongan kami secara dalam talian untuk bantuan teknikal atau urusan penggantian jika terdapat kerosakan kilang.",
+      "tags": ["客服", "保修说明", "马来语"]
+    },
+    {
+      "instruction_id": "INST-162",
+      "instruction_type": "instruction",
+      "task": "用马来语为一个面向马来西亚市场的“穆斯林时尚”品牌撰写简介。",
+      "output": "Ditubuhkan dengan visi untuk menggabungkan kesopanan dan gaya moden, jenama kami menawarkan koleksi busana Muslimah yang elegan dan berkualiti tinggi. Daripada tudung yang selesa hingga jubah yang menawan, setiap rekaan kami mementingkan keselesaan pemakai tanpa mengabaikan trend terkini.",
+      "tags": ["市场内容", "品牌简介", "马来语"]
+    },
+    {
+      "instruction_id": "INST-163",
+      "instruction_type": "instruction",
+      "task": "用马来语生成一份简单的电子产品开箱安全提示。",
+      "output": "Nota Keselamatan Penting: 1. Jangan gunakan objek tajam semasa membuka bungkusan untuk mengelakkan kerosakan produk. 2. Pastikan produk berada pada suhu bilik sebelum dihidupkan. 3. Cas peranti sepenuhnya sebelum penggunaan kali pertama. 4. Sila rakam video unboxing sebagai bukti jika terdapat sebarang masalah.",
+      "tags": ["客服", "安全提示", "马来语"]
+    },
+    {
+      "instruction_id": "INST-164",
+      "instruction_type": "instruction",
+      "task": "用马来语解释为什么通过Pos Laju寄送的包裹在周末没有物流更新。",
+      "output": "Harap maklum bahawa perkhidmatan Pos Laju biasanya beroperasi pada hari bekerja. Status logistik mungkin tidak dikemas kini pada hari Sabtu, Ahad, atau cuti umum di Malaysia. Sila tunggu sehingga hari bekerja berikutnya untuk melihat pergerakan terkini bungkusan anda.",
+      "tags": ["物流", "运营时间", "马来语"]
+    },
+    {
+      "instruction_id": "INST-165",
+      "instruction_type": "instruction",
+      "task": "用马来语向供应商索要针对马来西亚SIRIM认证的测试报告。",
+      "output": "Bolehkan anda membekalkan laporan ujian kualiti produk untuk permohonan pensijilan SIRIM di Malaysia? Kami memerlukan dokumen teknikal ini bagi memastikan produk elektronik kami mematuhi piawaian keselamatan yang ditetapkan oleh Suruhanjaya Tenaga Malaysia sebelum ia dipasarkan.",
+      "tags": ["商务文书", "认证索取", "马来语"]
+    },
+    {
+      "instruction_id": "INST-166",
+      "instruction_type": "instruction",
+      "task": "用马来语描述一款针对马来西亚热带气候设计的便携式迷你风扇。",
+      "output": "Kekal sejuk di mana sahaja anda berada! Kipas mini mudah alih ini sangat sesuai untuk cuaca panas di Malaysia. Dengan reka bentuk yang ringan, bateri tahan lama sehingga 10 jam, dan tiga tahap kelajuan angin, ia adalah peneman terbaik untuk aktiviti luar atau semasa menunggu pengangkutan awam.",
+      "tags": ["市场内容", "产品介绍", "马来语"]
+    },
+    {
+      "instruction_id": "INST-167",
+      "instruction_type": "instruction",
+      "task": "用马来语告知客户，如果对商品不满意，可以寄回我们在雪兰莪州（Selangor）的本地仓库。",
+      "output": "Jika anda tidak berpuas hati dengan pesanan anda, kami menerima pemulangan barang dalam tempoh 15 hari. Anda boleh menghantar semula bungkusan tersebut ke gudang tempatan kami yang terletak di Selangor untuk proses semakan dan bayaran balik yang lebih pantas. Sila hubungi kami untuk mendapatkan alamat penuh.",
+      "tags": ["客服", "本地退货", "马来语"]
+    },
+    {
+      "instruction_id": "INST-168",
+      "instruction_type": "instruction",
+      "task": "用马来语撰写一段Facebook促销贴文，推广一款智能家居摄像头。",
+      "output": "Tingkatkan keselamatan rumah anda hari ini! 🏠 Pantau keadaan rumah secara langsung dari telefon pintar anda dengan Kamera Pintar HD kami. Dilengkapi dengan penglihatan malam, pengesanan gerakan, dan audio dua hala. Sangat mudah dipasang! Dapatkan harga promosi sekarang hanya di [Link]. #RumahPintar #KeselamatanKeluarga",
+      "tags": ["市场内容", "社交媒体", "马来语"]
+    },
+    {
+      "instruction_id": "INST-169",
+      "instruction_type": "instruction",
+      "task": "用马来语提醒客户在下单前仔细核对马来西亚各州（States）的邮政编码。",
+      "output": "Sila pastikan anda menyemak semula poskod dan negeri yang dinyatakan dalam alamat penghantaran anda. Maklumat yang tepat sangat penting untuk mengelakkan bungkusan anda dihantar ke lokasi yang salah atau mengalami kelewatan oleh pihak kurir. Terima kasih atas kerjasama anda.",
+      "tags": ["客服", "地址核对", "马来语"]
+    },
+    {
+      "instruction_id": "INST-170",
+      "instruction_type": "instruction",
+      "task": "用马来语为一款东南亚风味的速食面生成一段SEO关键词列表。",
+      "output": "Kata Kunci SEO: mi segera sedap, ramen pedas Malaysia, snek waktu malam, makanan segera halal, mi goreng asli, harga borong mi segera.",
+      "tags": ["市场内容", "SEO", "马来语"]
+    },
+    {
+      "instruction_id": "INST-171",
+      "instruction_type": "instruction",
+      "task": "用马来语回复客户询问包裹是否已到达马来西亚国际集散中心（IPC）。",
+      "output": "Berdasarkan sistem pengesan kami, bungkusan anda telah sampai di Pusat Pertukaran Antarabangsa (IPC) di Kuala Lumpur. Ia kini sedang melalui proses pengisihan sebelum dihantar ke bưu cục (cawangan pos) berdekatan alamat anda. Status akan dikemas kini dalam masa 24 jam.",
+      "tags": ["客服", "物流进度", "马来语"]
+    },
+    {
+      "instruction_id": "INST-172",
+      "instruction_type": "instruction",
+      "task": "用马来语介绍一种支持马来语界面的跨境ERP系统优势。",
+      "output": "Sistem ERP kami kini menyokong bahasa Melayu sepenuhnya! Uruskan stok, pesanan, dan perakaunan anda dengan lebih mudah tanpa kekeliruan bahasa. Direka khas untuk usahawan Malaysia, sistem ini membantu meningkatkan kecekapan operasi perniagaan跨境 (cross-border) anda secara sistematik.",
+      "tags": ["市场内容", "产品优势", "马来语"]
+    },
+    {
+      "instruction_id": "INST-173",
+      "instruction_type": "instruction",
+      "task": "用马来语告知客户，由于收货地属于偏远地区（如内陆长屋），需要额外派送费用。",
+      "output": "Harap maaf, alamat penghantaran anda dikategorikan sebagai kawasan pedalaman oleh pihak kurir. Oleh itu, terdapat caj penghantaran tambahan sebanyak RM15 diperlukan untuk memastikan bungkusan dapat dihantar terus ke lokasi anda. Kami akan memproses penghantaran setelah bayaran tambahan diterima.",
+      "tags": ["客服", "额外费用", "马来语"]
+    },
+    {
+      "instruction_id": "INST-174",
+      "instruction_type": "instruction",
+      "task": "用马来语撰写一个针对“国庆日”（Hari Merdeka）的促销活动标语。",
+      "output": "Jualan Merdeka! 🇲🇾 Rayakan kebanggaan negara dengan tawaran hebat daripada kami. Nikmati diskaun istimewa 'Harga Merdeka' untuk barangan terpilih sebagai tanda penghargaan kami kepada pelanggan setia di Malaysia. Mari beli-belah dengan penuh semangat patriotik!",
+      "tags": ["市场内容", "节日标语", "马来语"]
+    },
+    {
+      "instruction_id": "INST-175",
+      "instruction_type": "instruction",
+      "task": "用马来语解释为什么跨境商品不接受“货到付款”（COD）支付方式。",
+      "output": "Mohon maaf, pada masa ini kami tidak menyediakan perkhidmatan Bayar Waktu Terima (COD) bagi barangan luar negara. Ini adalah untuk memastikan keselamatan transaksi dan kelancaran proses logistik antarabangsa. Anda boleh menggunakan pilihan pembayaran selamat yang lain seperti perbankan dalam talian atau kad kredit.",
+      "tags": ["客服", "支付说明", "马来语"]
+    },
+    {
+      "instruction_id": "INST-176",
+      "instruction_type": "instruction",
+      "task": "用马来语向马来西亚当地批发商发送一封关于大宗采购（Bulk Purchase）优惠的邮件。",
+      "output": "Tuan/Puan, kami ingin menawarkan harga borong eksklusif untuk pembelian pukal produk kami bagi pasaran Malaysia. Jika anda membuat pesanan melebihi 500 unit, kami sedia memberikan diskaun tambahan sebanyak 20% serta bantuan logistik percuma. Sila hubungi kami untuk sebarang rundingan lanjut.",
+      "tags": ["商务文书", "批发优惠", "马来语"]
+    },
+    {
+      "instruction_id": "INST-177",
+      "instruction_type": "instruction",
+      "task": "用马来语编写一段有关马来西亚“白卡纸箱”环保包装的宣传语。",
+      "output": "Kami peduli tentang alam sekitar! Setiap pesanan anda kini dibungkus menggunakan kotak kadbod kitar semula yang kukuh dan mesra alam. Kami berusaha mengurangkan penggunaan plastik sekali guna tanpa menjejaskan keselamatan barangan anda semasa penghantaran.",
+      "tags": ["市场内容", "环保包装", "马来语"]
+    },
+    {
+      "instruction_id": "INST-178",
+      "instruction_type": "instruction",
+      "task": "用马来语向由于物流公司（如Ninja Van）系统故障导致的单号无效客户致歉。",
+      "output": "Kami memohon maaf kerana nombor pengesan anda menunjukkan status 'Tidak Sah'. Pihak Ninja Van sedang mengalami gangguan sistem teknikal pada waktu ini. Sila cuba semak semula dalam masa 12 jam, atau anda boleh terus menghubungi kami jika status masih tidak berubah. Terima kasih atas kesabaran anda.",
+      "tags": ["客服", "系统故障", "马来语"]
+    },
+    {
+      "instruction_id": "INST-179",
+      "instruction_type": "instruction",
+      "task": "用马来语介绍一款在马来西亚流行的智能空气炸锅的预设菜单功能。",
+      "output": "Memasak kini lebih mudah dengan Air Fryer Pintar kami! Ia dilengkapi dengan 8 menu pratetap untuk masakan popular di Malaysia seperti ayam goreng, ikan bakar, dan kek. Hanya dengan satu sentuhan, suhu dan masa akan dilaraskan secara automatik untuk hasil masakan yang sempurna dan sihat tanpa minyak.",
+      "tags": ["市场内容", "产品功能", "马来语"]
+    },
+    {
+      "instruction_id": "INST-180",
+      "instruction_type": "instruction",
+      "task": "用马来语询问客户是否需要为其购买的电子礼品提供马来语祝福语代写服务。",
+      "output": "Adakah anda ingin kami sertakan nota ucapan dalam bahasa Melayu untuk pesanan hadiah ini? Kami menyediakan perkhidmatan menulis kad ucapan secara percuma. Sila nyatakan mesej anda di ruangan sembang ini dan kami akan mencetaknya dengan cantik untuk penerima anda.",
+      "tags": ["客服", "增值服务", "马来语"]
+    },
+    {
+      "instruction_id": "INST-181",
+      "instruction_type": "instruction",
+      "task": "用马来语解释为什么由于清关程序（Customs Clearance）包裹在吉隆坡（KLIA）滞留了三天。",
+      "output": "Dukacita dimaklumkan bahawa bungkusan anda mengalami sedikit kelewatan di KLIA disebabkan pemeriksaan kastam yang lebih ketat pada minggu ini. Ini adalah prosedur biasa untuk memastikan semua barangan import mematuhi undang-undang Malaysia. Kami menjangkakan bungkusan anda akan dilepaskan dalam masa 1-2 hari lagi.",
+      "tags": ["物流", "清关滞留", "马来语"]
+    },
+    {
+      "instruction_id": "INST-182",
+      "instruction_type": "instruction",
+      "task": "用马来语为一款防水智能手表撰写一段适合在户外运动社交圈分享的介绍。",
+      "output": "Jadikan aktiviti lasak anda lebih bergaya! Jam tangan pintar kalis air ini tahan lasak dan sesuai untuk berenang atau mendaki gunung. Ia menjejak setiap langkah dan degupan jantung anda dengan tepat. Sangat sesuai untuk rakyat Malaysia yang aktif dan gemar bersukan. Jom dapatkan satu hari ini!",
+      "tags": ["市场内容", "产品推广", "马来语"]
+    },
+    {
+      "instruction_id": "INST-183",
+      "instruction_type": "instruction",
+      "task": "用马来语告知客户，如果收到货发现缺件，请在24小时内联系我们并保留外包装。",
+      "output": "Jika terdapat sebarang barangan yang hilang daripada pesanan anda, sila hubungi kami dalam tempoh 24 jam selepas menerima bungkusan. Sila simpan kotak bungkusan dan slip penghantaran asal sebagai bukti untuk memudahkan kami menjalankan siasatan dan memberikan penggantian.",
+      "tags": ["客服", "售后须知", "马来语"]
+    },
+    {
+      "instruction_id": "INST-184",
+      "instruction_type": "instruction",
+      "task": "用马来语撰写一段欢迎加入“Shopee粉丝群”的群规说明。",
+      "output": "Selamat datang ke Grup Peminat Shopee kami! 🛍️ Di sini, kami akan berkongsi kod baucar eksklusif dan tawaran awal. Peraturan kumpulan: 1. Hormati ahli lain. 2. Dilarang spam iklan luar. 3. Sila hubungi admin secara terus untuk bantuan pesanan. Selamat berbelanja dan terima kasih atas sokongan anda!",
+      "tags": ["市场内容", "社群管理", "马来语"]
+    },
+    {
+      "instruction_id": "INST-185",
+      "instruction_type": "instruction",
+      "task": "用马来语说明某款儿童玩具已通过马来西亚安全测试标准（MC标准）。",
+      "output": "Mainan ini telah lulus ujian keselamatan yang ketat dan memiliki tanda MC (Malaysian Conformity). Ia diperbuat daripada bahan bukan toksik yang selamat untuk kanak-kanak. Ibu bapa tidak perlu risau tentang kualiti dan keselamatan produk ini semasa anak-anak bermain.",
+      "tags": ["市场内容", "安全认证", "马来语"]
+    },
+    {
+      "instruction_id": "INST-186",
+      "instruction_type": "instruction",
+      "task": "用马来语回复客户询问为何其包裹显示的重量与下单时不符。",
+      "output": "Perbezaan berat tersebut mungkin disebabkan oleh pembungkusan tambahan yang kami gunakan untuk memastikan keselamatan barang anda semasa penghantaran antarabangsa. Berat yang tertera di label kurir biasanya adalah berat kasar (gross weight) termasuk kotak dan bahan pelindung seperti bubble wrap.",
+      "tags": ["客服", "物流问题", "马来语"]
+    },
+    {
+      "instruction_id": "INST-187",
+      "instruction_type": "instruction",
+      "task": "用马来语向客户推荐一款适合马来西亚职场女性的防紫外线雨伞。",
+      "output": "Lindungi kulit anda daripada sinaran matahari terik di Malaysia! Payung anti-UV kami bukan sahaja kalis air, malah mampu menghalang 99% cahaya matahari yang berbahaya. Dengan reka bentuk yang kompak dan elegan, ia sangat mudah dibawa ke pejabat dan melengkapi gaya profesional anda setiap hari.",
+      "tags": ["市场内容", "产品推荐", "马来语"]
+    },
+    {
+      "instruction_id": "INST-188",
+      "instruction_type": "instruction",
+      "task": "用马来语撰写一份针对由于开斋节长假导致的退款处理缓慢的公告。",
+      "output": "Pengumuman: Berikutan cuti umum Hari Raya Aidilfitri yang panjang, proses bayaran balik (refund) akan mengambil masa sedikit lama daripada biasa. Pasukan kewangan kami akan memproses semua permohonan secara berperingkat selepas cuti tamat. Kami memohon maaf atas sebarang kesulitan yang timbul.",
+      "tags": ["客服", "退款延迟", "马来语"]
+    },
+    {
+      "instruction_id": "INST-189",
+      "instruction_type": "instruction",
+      "task": "用马来语告知客户，如果因为收件人无法联系导致包裹退回，重发需加收费用。",
+      "output": "Jika bungkusan dikembalikan kepada kami kerana kegagalan penghantaran (alamat tidak lengkap atau penerima gagal dihubungi), bayaran penghantaran semula akan dikenakan kepada pelanggan. Sila pastikan maklumat hubungan anda sentiasa aktif untuk mengelakkan kesulitan ini.",
+      "tags": ["客服", "重发规则", "马来语"]
+    },
+    {
+      "instruction_id": "INST-190",
+      "instruction_type": "instruction",
+      "task": "用马来语编写一段针对马来西亚中小企业的数字化营销服务广告。",
+      "output": "Sedia untuk kembangkan perniagaan anda secara digital? Kami menawarkan penyelesaian pemasaran dalam talian yang komprehensif untuk PKS di Malaysia. Daripada pengurusan media sosial hingga iklan Shopee/Lazada, kami bantu anda menjangkau lebih banyak pelanggan dan meningkatkan jualan dengan kos yang efektif!",
+      "tags": ["市场内容", "服务推广", "马来语"]
+    },
+    {
+      "instruction_id": "INST-191",
+      "instruction_type": "instruction",
+      "task": "用马来语介绍一种基于手机号的跨境汇款方式，方便没有信用卡的客户。",
+      "output": "Kini anda boleh membayar tanpa kad kredit! Gunakan kaedah pemindahan wang antarabangsa melalui nombor telefon pintar anda. Sistem kami menyokong integrasi dengan dompet digital tempatan, membolehkan anda membuat bayaran dengan pantas, selamat, dan dengan kadar pertukaran mata wang yang kompetitif.",
+      "tags": ["市场内容", "支付方式", "马来语"]
+    },
+    {
+      "instruction_id": "INST-192",
+      "instruction_type": "instruction",
+      "task": "用马来语回复客户关于商品说明书只有中文而没有马来语的投诉。",
+      "output": "Kami memohon maaf kerana manual fizikal hanya tersedia dalam bahasa Mandarin. Sebagai ganti, kami telah menyediakan versi digital dalam bahasa Melayu/Inggeris untuk memudahkan anda. Sila klik pautan ini [Link] atau imbas kod QR yang kami hantar melalui emel untuk memuat turun manual tersebut.",
+      "tags": ["客服", "语言支持", "马来语"]
+    },
+    {
+      "instruction_id": "INST-193",
+      "instruction_type": "instruction",
+      "task": "用马来语向越南/泰国物流伙伴确认其是否具备马来西亚本土派送网络。",
+      "output": "Bolehkah anda mengesahkan sama ada syarikat logistik anda mempunyai rangkaian penghantaran (last-mile delivery) sendiri di Malaysia? Kami sedang mencari rakan kongsi yang mampu meliputi kawasan bandar dan luar bandar di seluruh Semenanjung Malaysia serta Sabah dan Sarawak.",
+      "tags": ["商务文书", "伙伴确认", "马来语"]
+    },
+    {
+      "instruction_id": "INST-194",
+      "instruction_type": "instruction",
+      "task": "用马来语为一个针对马来西亚市场的汽车配件品牌撰写Slogan。",
+      "output": "Keselesaan Pemanduan, Keutamaan Kami. [Jenama Anda] – Rakan Setia Perjalanan Anda di Jalan Raya Malaysia.",
+      "tags": ["市场内容", "Slogan", "马来语"]
+    },
+    {
+      "instruction_id": "INST-195",
+      "instruction_type": "instruction",
+      "task": "用马来语提醒客户，在开斋节（Raya）期间，为了确保能准时收到新衣，请至少提前一个月下单。",
+      "output": "Pesanan Awal untuk Raya! 🌙 Untuk memastikan baju Raya anda sampai sebelum sambutan Hari Raya, kami mengesyorkan agar pesanan dibuat sekurang-kurangnya sebulan lebih awal. Ini bagi mengelakkan kesesakan logistik pada saat-saat akhir. Rancang pembelian anda sekarang!",
+      "tags": ["市场内容", "购物建议", "马来语"]
+    },
+    {
+      "instruction_id": "INST-196",
+      "instruction_type": "instruction",
+      "task": "用马来语向由于包裹在马来西亚快递网点丢失的客户解释理赔流程。",
+      "output": "Kami amat kesal dengan kejadian bungkusan anda yang hilang semasa di bưu cục. Sila isi borang tuntutan ganti rugi dalam talian kami. Kami akan bekerjasama dengan pihak kurir untuk proses pampasan penuh mengikut nilai barang yang diisytiharkan. Proses ini biasanya mengambil masa 7-14 hari bekerja.",
+      "tags": ["客服", "理赔流程", "马来语"]
+    },
+    {
+      "instruction_id": "INST-197",
+      "instruction_type": "instruction",
+      "task": "用马来语介绍一款适合在马来西亚办公室使用的静音加湿器好处。",
+      "output": "Udara kering di pejabat berhawa dingin? Pelembap udara senyap kami adalah penyelesaiannya! Ia membantu mengekalkan kelembapan kulit dan mengurangkan kerengsaan tekak tanpa mengganggu rakan sekerja anda. Saiznya yang kecil sangat sesuai diletakkan di atas meja kerja anda.",
+      "tags": ["市场内容", "产品卖点", "马来语"]
+    },
+    {
+      "instruction_id": "INST-198",
+      "instruction_type": "instruction",
+      "task": "用马来语告知客户，购买其商品的订单由于地址包含敏感军事区域无法派送。",
+      "output": "Harap maaf, pesanan anda tidak dapat diproses kerana alamat penghantaran yang diberikan merupakan kawasan larangan atau pangkalan tentera yang mempunyai sekatan penghantaran kurir. Sila berikan alamat alternatif (rumah atau pejabat) supaya kami dapat menghantar semula pesanan anda.",
+      "tags": ["客服", "派送限制", "马来语"]
+    },
+    {
+      "instruction_id": "INST-199",
+      "instruction_type": "instruction",
+      "task": "用马来语撰写一个关于店铺升级、感谢老客户支持的简短通知。",
+      "output": "Berita Gembira! Kedai kami sedang melalui proses naik taraf untuk memberikan perkhidmatan yang lebih baik. Terima kasih atas sokongan berterusan anda selama ini. Kami akan memperkenalkan lebih banyak produk menarik dan tawaran eksklusif tidak lama lagi. Nantikannya!",
+      "tags": ["市场内容", "店铺公告", "马来语"]
+    },
+    {
+      "instruction_id": "INST-200",
+      "instruction_type": "instruction",
+      "task": "用马来语向客户确认其订单是否需要附带发票（Invoice）还是仅需收据（Receipt）。",
+      "output": "Bolehkan anda mengesahkan sama ada anda memerlukan Invois Komersial (untuk kegunaan syarikat/cukai) atau sekadar resit rasmi untuk pesanan ini? Sila maklumkan kepada kami butiran yang perlu tertera pada dokumen tersebut sebelum kami menghantar bungkusan anda.",
+      "tags": ["客服", "单据确认", "马来语"]
+    }
+  ]
+}

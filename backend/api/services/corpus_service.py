@@ -6,6 +6,12 @@ from sqlalchemy import select, func, text
 from sqlalchemy.orm import selectinload
 from typing import Optional, List, Dict, Any
 from api.models.corpus import Corpus, Sample, CorpusTag
+from api.models.terminology import TerminologySample
+from api.models.qa import QASample
+from api.models.alignment import AlignmentSample
+from api.models.process import ProcessSample
+from api.models.case import CaseSample
+from api.models.scenario import ScenarioSample
 from api.schemas.corpus import (
     CorpusItem, CorpusListResponse, SampleListResponse,
     CorpusSample, DashboardOverviewResponse, DashboardStatsResponse,
@@ -86,45 +92,212 @@ async def get_corpus_samples(
     limit: int = 10
 ) -> SampleListResponse:
     """获取语料样本列表"""
-    # 查询样本
-    query = select(Sample).where(Sample.corpus_id == corpus_id)
+    # 1. 首先获取语料库信息，确定类型
+    corpus_result = await db.execute(select(Corpus).where(Corpus.id == corpus_id))
+    corpus = corpus_result.scalar_one_or_none()
+    
+    if not corpus:
+        return SampleListResponse(items=[], total=0, page=page, limit=limit)
 
-    # 获取总数
-    count_query = select(func.count()).select_from(query.subquery())
-    total_result = await db.execute(count_query)
-    total = total_result.scalar() or 0
+    # 2. 根据 domain 决定查询哪张表
+    # 如果 domain 是 terminology，则查询 terminology_samples 表
+    if corpus.domain == "terminology":
+        query = select(TerminologySample).where(TerminologySample.corpus_id == corpus_id)
+        
+        # 获取总数
+        count_query = select(func.count()).select_from(query.subquery())
+        total_result = await db.execute(count_query)
+        total = total_result.scalar() or 0
 
-    # 分页
-    query = query.offset((page - 1) * limit).limit(limit)
-    result = await db.execute(query)
-    samples = result.scalars().all()
+        # 分页
+        query = query.offset((page - 1) * limit).limit(limit)
+        result = await db.execute(query)
+        samples = result.scalars().all()
 
-    # 转换为四层标注格式
-    items = []
-    for sample in samples:
-        items.append(CorpusSample(
-            basic_layer={
-                "sentence_id": sample.sentence_id,
-                "timestamp": sample.timestamp.isoformat() if sample.timestamp else None,
-                "platform": sample.platform
-            },
-            language_layer={
-                "source_text_zh": sample.source_text if corpus_id else "",
-                "raw_text_ms": sample.raw_text or "",
-                "normalized_text_ms": sample.normalized_text or "",
-                "english_loanwords": sample.english_loanwords or []
-            },
-            pragmatic_layer={
-                "intent": sample.intent or [],
-                "sentiment": sample.sentiment,
-                "business_scenario": sample.business_scenario
-            },
-            style_layer={
-                "style": sample.style,
-                "contains_rojak": sample.contains_rojak,
-                "abbreviations_handled": sample.abbreviations_handled or {}
-            }
-        ))
+        # 转换为术语类格式 (前端通过 SampleListResponse.items 类型区分)
+        # 注意：这里我们可能需要稍微调整 SampleListResponse 以允许不同格式的 items
+        # 或者在前端通过数据中的特定字段（如 term_id）来判断渲染组件
+        items = []
+        for sample in samples:
+            # 将术语数据平原化或包装成前端容易识别的结构
+            items.append({
+                "type": "terminology",
+                "id": sample.id,
+                "term_id": sample.term_id,
+                "term": sample.term,
+                "abbreviation": sample.abbreviation,
+                "category": sample.category,
+                "definition": sample.definition,
+                "examples": sample.examples or [],
+                "related_terms": sample.related_terms or [],
+                "translations": sample.translations or {},
+                "tags": sample.tags or []
+            })
+    elif corpus.domain == "qa":
+        query = select(QASample).where(QASample.corpus_id == corpus_id)
+        
+        # 获取总数
+        count_query = select(func.count()).select_from(query.subquery())
+        total_result = await db.execute(count_query)
+        total = total_result.scalar() or 0
+
+        # 分页
+        query = query.offset((page - 1) * limit).limit(limit)
+        result = await db.execute(query)
+        samples = result.scalars().all()
+
+        items = []
+        for sample in samples:
+            items.append({
+                "type": "qa",
+                "id": sample.id,
+                "qa_id": sample.qa_id,
+                "question": sample.question,
+                "question_type": sample.question_type,
+                "answer": sample.answer,
+                "keywords": sample.keywords or [],
+                "category": sample.category,
+                "tags": sample.tags or []
+            })
+    elif corpus.domain == "alignment":
+        query = select(AlignmentSample).where(AlignmentSample.corpus_id == corpus_id)
+        
+        # 获取总数
+        count_query = select(func.count()).select_from(query.subquery())
+        total_result = await db.execute(count_query)
+        total = total_result.scalar() or 0
+
+        # 分页
+        query = query.offset((page - 1) * limit).limit(limit)
+        result = await db.execute(query)
+        samples = result.scalars().all()
+
+        items = []
+        for sample in samples:
+            items.append({
+                "type": "alignment",
+                "id": sample.id,
+                "alignment_id": sample.alignment_id,
+                "source_text": sample.source_text,
+                "target_text": sample.target_text,
+                "context": sample.context,
+                "domain": sample.domain
+            })
+    elif corpus.domain == "process":
+        query = select(ProcessSample).where(ProcessSample.corpus_id == corpus_id)
+        
+        # 获取总数
+        count_query = select(func.count()).select_from(query.subquery())
+        total_result = await db.execute(count_query)
+        total = total_result.scalar() or 0
+
+        # 分页
+        query = query.offset((page - 1) * limit).limit(limit)
+        result = await db.execute(query)
+        samples = result.scalars().all()
+
+        items = []
+        for sample in samples:
+            items.append({
+                "type": "process",
+                "id": sample.id,
+                "rule_id": sample.rule_id,
+                "scenario": sample.scenario,
+                "condition": sample.condition,
+                "result": sample.result,
+                "category": sample.category
+            })
+    elif corpus.domain == "case":
+        query = select(CaseSample).where(CaseSample.corpus_id == corpus_id)
+        
+        # 获取总数
+        count_query = select(func.count()).select_from(query.subquery())
+        total_result = await db.execute(count_query)
+        total = total_result.scalar() or 0
+
+        # 分页
+        query = query.offset((page - 1) * limit).limit(limit)
+        result = await db.execute(query)
+        samples = result.scalars().all()
+
+        items = []
+        for sample in samples:
+            items.append({
+                "type": "case",
+                "id": sample.id,
+                "case_id": sample.case_id,
+                "case_title": sample.case_title,
+                "case_type": sample.case_type,
+                "background": sample.background,
+                "situation": sample.situation,
+                "outcome": sample.outcome,
+                "conclusion": sample.conclusion,
+                "tags": sample.tags
+            })
+    elif corpus.domain in ["struction", "scenario"]:
+        query = select(ScenarioSample).where(ScenarioSample.corpus_id == corpus_id)
+        
+        # 获取总数
+        count_query = select(func.count()).select_from(query.subquery())
+        total_result = await db.execute(count_query)
+        total = total_result.scalar() or 0
+
+        # 分页
+        query = query.offset((page - 1) * limit).limit(limit)
+        result = await db.execute(query)
+        samples = result.scalars().all()
+
+        items = []
+        for sample in samples:
+            items.append({
+                "type": "scenario",
+                "id": sample.id,
+                "instruction_id": sample.instruction_id,
+                "instruction_type": sample.instruction_type,
+                "task": sample.task,
+                "output": sample.output,
+                "tags": sample.tags or []
+            })
+    else:
+        # 查询普通样本表
+        query = select(Sample).where(Sample.corpus_id == corpus_id)
+
+        # 获取总数
+        count_query = select(func.count()).select_from(query.subquery())
+        total_result = await db.execute(count_query)
+        total = total_result.scalar() or 0
+
+        # 分页
+        query = query.offset((page - 1) * limit).limit(limit)
+        result = await db.execute(query)
+        samples = result.scalars().all()
+
+        # 转换为四层标注格式
+        items = []
+        for sample in samples:
+            items.append(CorpusSample(
+                basic_layer={
+                    "sentence_id": sample.sentence_id,
+                    "timestamp": sample.timestamp.isoformat() if sample.timestamp else None,
+                    "platform": sample.platform
+                },
+                language_layer={
+                    "source_text_zh": sample.source_text if corpus_id else "",
+                    "raw_text_ms": sample.raw_text or "",
+                    "normalized_text_ms": sample.normalized_text or "",
+                    "english_loanwords": sample.english_loanwords or []
+                },
+                pragmatic_layer={
+                    "intent": sample.intent or [],
+                    "sentiment": sample.sentiment,
+                    "business_scenario": sample.business_scenario
+                },
+                style_layer={
+                    "style": sample.style,
+                    "contains_rojak": sample.contains_rojak,
+                    "abbreviations_handled": sample.abbreviations_handled or {}
+                }
+            ))
 
     return SampleListResponse(
         items=items,
@@ -474,28 +647,37 @@ async def get_corpus_frequency_stats(db, corpus_id: int):
         for word in words:
             if len(word) > 1:
                 total_words += 1
-                if word in stop_words:
-                    continue
+                # 记录所有非停用词和停用词到词表，用于计算 TTR
                 if word not in word_map:
                     word_map[word] = {'count': 0, 'pos': 'other'}
                 word_map[word]['count'] += 1
 
-    # 简易词性标注
+    # 简易词性标注 - 针对马来语特征全面优化
     for word, data in word_map.items():
-        if word.endswith('nya') or word.endswith('an'):
+        # 1. 形容词判定 (最高级前缀 ter- 或 现代马来语借词后缀)
+        if (word.startswith('ter') or 
+            word.endswith(('if', 'ik', 'is', 'al'))):
             data['pos'] = 'adj'
             pos_counts['adj'] += data['count']
-        elif word.endswith('kan') or word.endswith('i'):
+        # 2. 动词判定 (丰富的前缀 + 后缀)
+        elif (word.startswith(('me', 'di', 'ber', 'pe', 'ke')) or 
+              word.endswith(('kan', 'i'))):
+            # 注意：pe/ke 有时也是名词前缀，但在简易逻辑下优先归类为动作/状态
             data['pos'] = 'verb'
             pos_counts['verb'] += data['count']
-        elif word.endswith('nya'):
+        # 3. 名词判定 (典型的名词后缀)
+        elif word.endswith(('an', 'nya')):
             data['pos'] = 'noun'
             pos_counts['noun'] += data['count']
         else:
             pos_counts['other'] += data['count']
 
-    # 排序和取前100
-    sorted_words = sorted(word_map.items(), key=lambda x: x[1]['count'], reverse=True)[:100]
+    # 词表已经建立，记录去重后的全量词数（包含停用词）
+    unique_words_total = len(word_map)
+
+    # 排序并返回几乎全量的去重词汇 (由前端根据 activeTab 过滤)
+    # 取前 5000 个，足以覆盖绝大多数单库去重后的词汇量
+    sorted_words = sorted(word_map.items(), key=lambda x: x[1]['count'], reverse=True)[:5000]
     
     frequency_data = []
     for word, data in sorted_words:
@@ -509,7 +691,7 @@ async def get_corpus_frequency_stats(db, corpus_id: int):
 
     result_dict = {
         'total_words': total_words,
-        'unique_words': len(word_map),
+        'unique_words': unique_words_total,
         'pos_distribution': pos_counts,
         'frequency_data': frequency_data
     }

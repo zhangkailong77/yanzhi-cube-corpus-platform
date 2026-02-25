@@ -80,6 +80,13 @@ const translations: Record<Language, Record<string, string>> = {
     filterMetricRojak: 'Rojak浓度',
     filterScenario: '业务场景',
     filterCategory: '分类',
+    // Categories
+    catTerminology: '术语库',
+    catQA: '问答对',
+    catAlignment: '句对对齐',
+    catProcess: '业务流程',
+    catCase: '典型案例',
+    catInstruction: '场景指令',
     labelSourceLang: '源语言',
     labelTargetLang: '目标语言',
     labelKeyword: '关键词查询',
@@ -104,7 +111,7 @@ const translations: Record<Language, Record<string, string>> = {
     tabAftersales: '客户服务',
     tabLogistics: '运营交付',
     tabReviews: '反馈评价',
-    
+
     txtAnomalyAlert: '异常检测预警',
     txtAnomalyDesc: '过去4小时内 [渠道C/运营] 数据集检测到“愤怒”情绪激增。',
     txtInvestigate: '调查批次',
@@ -253,6 +260,13 @@ const translations: Record<Language, Record<string, string>> = {
     filterMetricRojak: 'Rojak Density',
     filterScenario: 'Scenario',
     filterCategory: 'Classification',
+    // Categories
+    catTerminology: 'Terminology',
+    catQA: 'QA Pairs',
+    catAlignment: 'Alignment',
+    catProcess: 'Business Process',
+    catCase: 'Typical Cases',
+    catInstruction: 'Instructions',
     labelSourceLang: 'Source Language',
     labelTargetLang: 'Target Language',
     labelKeyword: 'Keyword Search',

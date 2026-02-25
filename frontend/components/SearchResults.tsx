@@ -11,9 +11,10 @@ interface SearchResultsProps {
   onPreview?: (id: number) => void;
 }
 
-interface ScenarioTag {
+// Local interface for scenario tags used in this component
+interface UIScenarioTag {
   label: string;
-  type: 'ecommerce' | 'tourism' | 'business' | 'economy' | 'general';
+  type: 'ecommerce' | 'tourism' | 'business' | 'economy' | 'general' | 'terminology' | 'qa' | 'alignment' | 'process' | 'case' | 'struction';
 }
 
 const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, onSearch, onPreview }) => {
@@ -156,6 +157,9 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
           samplesArray
         );
         setImportSuccess(`成功创建语料库 "${result.corpus_name}" 并导入 ${result.imported} 条样本`);
+        if (result.errors && result.errors.length > 0) {
+          setImportError(`部分数据导入失败: ${result.errors.join(', ')}`);
+        }
       } else {
         // 追加模式
         if (!selectedCorpusId) {
@@ -164,6 +168,9 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
         }
         const result = await importSamplesToCorpus(selectedCorpusId, importFile!);
         setImportSuccess(`成功导入 ${result.imported} 条样本`);
+        if (result.errors && result.errors.length > 0) {
+          setImportError(`部分数据导入失败: ${result.errors.join(', ')}`);
+        }
       }
       await refreshData();
       setImportFile(null);
@@ -245,90 +252,92 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
       {/* Search Bar Section */}
       <div className="w-full bg-white border-b border-slate-100 py-6 px-6 md:px-12">
         <div className="max-w-3xl">
-            <div className="flex flex-col sm:flex-row gap-3">
-              {/* Select Source Language */}
-              <div className="relative flex-1 group">
-                <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-slate-400 group-hover:text-primary-600">
-                    <ChevronDown size={16} />
-                </div>
-                <select 
-                    className="block w-full pl-4 pr-10 py-2.5 text-sm border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-lg bg-slate-50 hover:bg-white border transition-all appearance-none text-slate-700 font-mono shadow-sm"
-                    value={localSource}
-                    onChange={(e) => {
-                        setLocalSource(e.target.value);
-                        if (e.target.value === localTarget) {
-                           setLocalTarget(''); 
-                        }
-                    }}
-                >
-                  <option value="" disabled>{t('selectSource')}</option>
-                  {languages.map(lang => (
-                    <option key={`source-${lang.code}`} value={lang.code}>{lang.label}</option>
-                  ))}
-                </select>
+          <div className="flex flex-col sm:flex-row gap-3">
+            {/* Select Source Language */}
+            <div className="relative flex-1 group">
+              <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-slate-400 group-hover:text-primary-600">
+                <ChevronDown size={16} />
               </div>
-
-              {/* Select Target Language */}
-              <div className="relative flex-1 group">
-                <div className={`absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none ${!localSource ? 'text-slate-200' : 'text-slate-400 group-hover:text-primary-600'}`}>
-                    <ChevronDown size={16} />
-                </div>
-                 <select 
-                    className={`block w-full pl-4 pr-10 py-2.5 text-sm border rounded-lg appearance-none font-mono shadow-sm transition-all
-                        ${!localSource 
-                            ? 'bg-slate-50 border-slate-200 text-slate-400 cursor-not-allowed' 
-                            : 'bg-slate-50 border-slate-200 hover:bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 cursor-pointer'
-                        }`}
-                    disabled={!localSource}
-                    value={localTarget}
-                    onChange={(e) => setLocalTarget(e.target.value)}
-                >
-                  <option value="" disabled>
-                      {!localSource ? t('pickSourceFirst') : t('selectTarget')}
-                  </option>
-                  {languages.map(lang => (
-                    <option key={`target-${lang.code}`} value={lang.code}>{lang.label}</option>
-                  ))}
-                </select>
-              </div>
-
-              {/* Search Button */}
-              <button 
-                  onClick={handleSearchClick}
-                  className={`p-2.5 border rounded-lg shadow-sm transition-all flex items-center justify-center min-w-[3rem]
-                  ${localSource && localTarget 
-                    ? 'bg-primary-600 border-primary-600 text-white hover:bg-primary-700 hover:shadow-md cursor-pointer' 
-                    : 'bg-white border-slate-200 text-slate-400 cursor-not-allowed'
-                  }`}
-                  disabled={!localSource || !localTarget}
+              <select
+                className="block w-full pl-4 pr-10 py-2.5 text-sm border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-lg bg-slate-50 hover:bg-white border transition-all appearance-none text-slate-700 font-mono shadow-sm"
+                value={localSource}
+                onChange={(e) => {
+                  setLocalSource(e.target.value);
+                  if (e.target.value === localTarget) {
+                    setLocalTarget('');
+                  }
+                }}
               >
-                <Search size={18} />
-              </button>
+                <option value="" disabled>{t('selectSource')}</option>
+                {languages.map(lang => (
+                  <option key={`source-${lang.code}`} value={lang.code}>{lang.label}</option>
+                ))}
+              </select>
             </div>
 
-            {/* Domain Selector Row */}
-            <div className="mt-3">
-                 <div className="relative group w-full">
-                    <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400">
-                        <Filter size={16} />
-                    </div>
-                    <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-slate-400 group-hover:text-primary-600">
-                        <ChevronDown size={16} />
-                    </div>
-                    <select
-                        className="block w-full pl-10 pr-10 py-2.5 text-sm border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-lg bg-slate-50 hover:bg-white border transition-all appearance-none text-slate-700 font-mono shadow-sm"
-                        value={selectedDomain}
-                        onChange={(e) => setSelectedDomain(e.target.value)}
-                    >
-                        <option value="">{t('domainAll')}</option>
-                        <option value="ecommerce">{t('domainEcommerce')}</option>
-                        <option value="tourism">{t('domainTourism')}</option>
-                        <option value="business">{t('domainBusiness')}</option>
-                        <option value="economy">{t('domainEconomy')}</option>
-                        <option value="general">{t('domainGeneral')}</option>
-                    </select>
-                 </div>
+            {/* Select Target Language */}
+            <div className="relative flex-1 group">
+              <div className={`absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none ${!localSource ? 'text-slate-200' : 'text-slate-400 group-hover:text-primary-600'}`}>
+                <ChevronDown size={16} />
+              </div>
+              <select
+                className={`block w-full pl-4 pr-10 py-2.5 text-sm border rounded-lg appearance-none font-mono shadow-sm transition-all
+                        ${!localSource
+                    ? 'bg-slate-50 border-slate-200 text-slate-400 cursor-not-allowed'
+                    : 'bg-slate-50 border-slate-200 hover:bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 cursor-pointer'
+                  }`}
+                disabled={!localSource}
+                value={localTarget}
+                onChange={(e) => setLocalTarget(e.target.value)}
+              >
+                <option value="" disabled>
+                  {!localSource ? t('pickSourceFirst') : t('selectTarget')}
+                </option>
+                {languages.map(lang => (
+                  <option key={`target-${lang.code}`} value={lang.code}>{lang.label}</option>
+                ))}
+              </select>
             </div>
+
+            {/* Search Button */}
+            <button
+              onClick={handleSearchClick}
+              className={`p-2.5 border rounded-lg shadow-sm transition-all flex items-center justify-center min-w-[3rem]
+                  ${localSource && localTarget
+                  ? 'bg-primary-600 border-primary-600 text-white hover:bg-primary-700 hover:shadow-md cursor-pointer'
+                  : 'bg-white border-slate-200 text-slate-400 cursor-not-allowed'
+                }`}
+              disabled={!localSource || !localTarget}
+            >
+              <Search size={18} />
+            </button>
+          </div>
+
+          {/* Domain Selector Row */}
+          <div className="mt-3">
+            <div className="relative group w-full">
+              <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400">
+                <Filter size={16} />
+              </div>
+              <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-slate-400 group-hover:text-primary-600">
+                <ChevronDown size={16} />
+              </div>
+              <select
+                className="block w-full pl-10 pr-10 py-2.5 text-sm border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-lg bg-slate-50 hover:bg-white border transition-all appearance-none text-slate-700 font-mono shadow-sm"
+                value={selectedDomain}
+                onChange={(e) => setSelectedDomain(e.target.value)}
+              >
+                <option value="">{t('domainAll')}</option>
+                <option value="general">通用文本</option>
+                <option value="terminology">术语 (Terminology)</option>
+                <option value="qa">问答 (QA)</option>
+                <option value="alignment">对齐 (Alignment)</option>
+                <option value="process">规程 (Process)</option>
+                <option value="case">案例 (Case)</option>
+                <option value="struction">指令 (Struction)</option>
+              </select>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -362,11 +371,11 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
       {/* Table Container */}
       <div className="w-full px-6 md:px-12 mt-8">
         <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
-          
+
           {/* Table Header */}
           <div className="grid grid-cols-12 gap-4 px-6 py-4 border-b border-slate-200 bg-slate-50 text-xs font-bold text-slate-500 uppercase tracking-wider font-mono items-center">
             <div className="col-span-3 lg:col-span-2 flex items-center cursor-pointer hover:text-slate-700">
-              {t('headerCorpus')} 
+              {t('headerCorpus')}
             </div>
             <div className="col-span-2 lg:col-span-1 text-right flex items-center justify-end cursor-pointer hover:text-slate-700 group">
               {t('headerSentences')}
@@ -375,7 +384,7 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
             <div className="col-span-2 text-right hidden lg:block">
               {sourceLang.toUpperCase()} {t('headerTokens')}
             </div>
-             <div className="col-span-2 text-right hidden lg:block">
+            <div className="col-span-2 text-right hidden lg:block">
               {targetLang.toUpperCase()} {t('headerTokens')}
             </div>
             <div className="col-span-2 lg:col-span-1 text-center">{t('headerSample')}</div>
@@ -387,7 +396,7 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
           <div className="divide-y divide-slate-100">
             {filteredResults.length > 0 ? filteredResults.map((item, idx) => (
               <div key={item.id} className={`grid grid-cols-12 gap-4 px-6 py-5 items-start hover:bg-blue-50/50 transition-colors ${idx % 2 === 0 ? 'bg-white' : 'bg-slate-50/30'}`}>
-                
+
                 {/* Corpus Name & Tags */}
                 <div className="col-span-3 lg:col-span-2 flex flex-col space-y-2">
                   <div className="font-mono text-sm font-semibold text-slate-800 break-words">
@@ -396,8 +405,8 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
                   {/* Scenario Tags */}
                   <div className="flex flex-wrap gap-1.5">
                     {item.tags && item.tags.map((tag, tagIdx) => (
-                      <span 
-                        key={tagIdx} 
+                      <span
+                        key={tagIdx}
                         className={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-medium border ${getTagStyle(tag.type)}`}
                       >
                         {tag.label}
@@ -423,62 +432,62 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
 
                 {/* Sample */}
                 <div className="col-span-2 lg:col-span-1 flex justify-center mt-1">
-                   <button 
-                     onClick={() => onPreview && onPreview(item.id)}
-                     className="p-2 text-primary-500 hover:text-primary-700 hover:bg-primary-50 rounded-full transition-colors"
-                     title="View Sample"
-                   >
-                     <Eye size={18} />
-                   </button>
+                  <button
+                    onClick={() => onPreview && onPreview(item.id)}
+                    className="p-2 text-primary-500 hover:text-primary-700 hover:bg-primary-50 rounded-full transition-colors"
+                    title="View Sample"
+                  >
+                    <Eye size={18} />
+                  </button>
                 </div>
 
                 {/* Bilingual */}
                 <div className="col-span-3 lg:col-span-2 flex items-center justify-center space-x-2 mt-1">
-                   <div className="relative group/dropdown">
-                      <button className="flex items-center px-3 py-1.5 border border-slate-200 rounded-md bg-white text-xs font-mono text-slate-600 hover:border-primary-300 focus:outline-none">
-                         moses <ChevronDown size={12} className="ml-1" />
-                      </button>
-                      {/* Fake Dropdown content */}
-                      <div className="absolute top-full left-0 w-32 bg-white border border-slate-200 shadow-lg rounded-md mt-1 hidden group-hover/dropdown:block z-10">
-                          <div className="px-3 py-2 hover:bg-slate-50 text-xs font-mono cursor-pointer">tmx</div>
-                          <div className="px-3 py-2 hover:bg-slate-50 text-xs font-mono cursor-pointer">xliff</div>
-                      </div>
-                   </div>
-                   <button className="p-2 text-slate-400 hover:text-primary-600 transition-colors">
-                     <Download size={18} />
-                   </button>
-                    <button className="p-2 text-slate-300 hover:text-primary-600 transition-colors">
-                     <LinkIcon size={16} />
-                   </button>
+                  <div className="relative group/dropdown">
+                    <button className="flex items-center px-3 py-1.5 border border-slate-200 rounded-md bg-white text-xs font-mono text-slate-600 hover:border-primary-300 focus:outline-none">
+                      moses <ChevronDown size={12} className="ml-1" />
+                    </button>
+                    {/* Fake Dropdown content */}
+                    <div className="absolute top-full left-0 w-32 bg-white border border-slate-200 shadow-lg rounded-md mt-1 hidden group-hover/dropdown:block z-10">
+                      <div className="px-3 py-2 hover:bg-slate-50 text-xs font-mono cursor-pointer">tmx</div>
+                      <div className="px-3 py-2 hover:bg-slate-50 text-xs font-mono cursor-pointer">xliff</div>
+                    </div>
+                  </div>
+                  <button className="p-2 text-slate-400 hover:text-primary-600 transition-colors">
+                    <Download size={18} />
+                  </button>
+                  <button className="p-2 text-slate-300 hover:text-primary-600 transition-colors">
+                    <LinkIcon size={16} />
+                  </button>
                 </div>
 
                 {/* Monolingual (Hidden on smaller screens, shown on XL) */}
                 <div className="col-span-2 hidden xl:flex items-center justify-center space-x-2 mt-1">
-                   <div className="relative group/dropdown">
-                      <button className="flex items-center px-3 py-1.5 border border-slate-200 rounded-md bg-white text-xs font-mono text-slate-600 hover:border-primary-300 focus:outline-none">
-                         txt {sourceLang} <ChevronDown size={12} className="ml-1" />
-                      </button>
-                   </div>
-                   <button className="p-2 text-slate-400 hover:text-primary-600 transition-colors">
-                     <Download size={18} />
-                   </button>
-                   <button className="p-2 text-slate-300 hover:text-primary-600 transition-colors">
-                     <LinkIcon size={16} />
-                   </button>
+                  <div className="relative group/dropdown">
+                    <button className="flex items-center px-3 py-1.5 border border-slate-200 rounded-md bg-white text-xs font-mono text-slate-600 hover:border-primary-300 focus:outline-none">
+                      txt {sourceLang} <ChevronDown size={12} className="ml-1" />
+                    </button>
+                  </div>
+                  <button className="p-2 text-slate-400 hover:text-primary-600 transition-colors">
+                    <Download size={18} />
+                  </button>
+                  <button className="p-2 text-slate-300 hover:text-primary-600 transition-colors">
+                    <LinkIcon size={16} />
+                  </button>
                 </div>
 
               </div>
             )) : (
-                <div className="px-6 py-12 text-center text-slate-400 font-mono text-sm">
-                    No results found for this domain filter.
-                </div>
+              <div className="px-6 py-12 text-center text-slate-400 font-mono text-sm">
+                No results found for this domain filter.
+              </div>
             )}
           </div>
 
-           {/* Footer of table */}
-           <div className="px-6 py-4 border-t border-slate-200 bg-slate-50 text-xs text-slate-400 font-mono text-center">
-              End of results
-           </div>
+          {/* Footer of table */}
+          <div className="px-6 py-4 border-t border-slate-200 bg-slate-50 text-xs text-slate-400 font-mono text-center">
+            End of results
+          </div>
         </div>
       </div>
 
@@ -500,22 +509,20 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
               <div className="flex gap-4 mb-6">
                 <button
                   onClick={() => setImportMode('append')}
-                  className={`flex-1 py-3 px-4 rounded-lg border-2 transition-colors ${
-                    importMode === 'append'
-                      ? 'border-primary-500 bg-primary-50 text-primary-700'
-                      : 'border-slate-200 hover:border-slate-300'
-                  }`}
+                  className={`flex-1 py-3 px-4 rounded-lg border-2 transition-colors ${importMode === 'append'
+                    ? 'border-primary-500 bg-primary-50 text-primary-700'
+                    : 'border-slate-200 hover:border-slate-300'
+                    }`}
                 >
                   <div className="font-medium">追加到现有语料库</div>
                   <div className="text-sm text-slate-500 mt-1">选择已有语料库，上传文件追加数据</div>
                 </button>
                 <button
                   onClick={() => setImportMode('create')}
-                  className={`flex-1 py-3 px-4 rounded-lg border-2 transition-colors ${
-                    importMode === 'create'
-                      ? 'border-primary-500 bg-primary-50 text-primary-700'
-                      : 'border-slate-200 hover:border-slate-300'
-                  }`}
+                  className={`flex-1 py-3 px-4 rounded-lg border-2 transition-colors ${importMode === 'create'
+                    ? 'border-primary-500 bg-primary-50 text-primary-700'
+                    : 'border-slate-200 hover:border-slate-300'
+                    }`}
                 >
                   <div className="font-medium">新建语料库</div>
                   <div className="text-sm text-slate-500 mt-1">创建新语料库并导入数据</div>
@@ -593,11 +600,13 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
                       onChange={(e) => setNewCorpus({ ...newCorpus, domain: e.target.value })}
                       className="w-full px-3 py-2 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
                     >
-                      <option value="general">通用</option>
-                      <option value="ecommerce">电商</option>
-                      <option value="tourism">旅游</option>
-                      <option value="business">商业</option>
-                      <option value="economy">经济</option>
+                      <option value="general">通用文本</option>
+                      <option value="terminology">术语 (Terminology)</option>
+                      <option value="qa">问答 (QA)</option>
+                      <option value="alignment">对齐 (Alignment)</option>
+                      <option value="process">规程 (Process)</option>
+                      <option value="case">案例 (Case)</option>
+                      <option value="struction">指令 (Struction)</option>
                     </select>
                   </div>
                   <div>
@@ -633,11 +642,10 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
                     }
                   }}
                   onDragOver={(e) => e.preventDefault()}
-                  className={`border-2 border-dashed rounded-lg p-8 text-center cursor-pointer transition-colors ${
-                    importFile
-                      ? 'border-primary-500 bg-primary-50'
-                      : 'border-slate-300 hover:border-primary-400 hover:bg-slate-50'
-                  }`}
+                  className={`border-2 border-dashed rounded-lg p-8 text-center cursor-pointer transition-colors ${importFile
+                    ? 'border-primary-500 bg-primary-50'
+                    : 'border-slate-300 hover:border-primary-400 hover:bg-slate-50'
+                    }`}
                 >
                   <input
                     id="import-file-input"
@@ -666,7 +674,9 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
               {importError && (
                 <div className="mt-4 p-3 bg-red-50 border border-red-200 rounded-lg flex items-start gap-2">
                   <AlertCircle className="text-red-500 flex-shrink-0" size={16} />
-                  <p className="text-sm text-red-600">{importError}</p>
+                  <p className="text-sm text-red-600">
+                    {typeof importError === 'string' ? importError : JSON.stringify(importError)}
+                  </p>
                 </div>
               )}
               {importSuccess && (
@@ -688,11 +698,10 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
               <button
                 onClick={handleImport}
                 disabled={importing || !importFile || (importMode === 'append' && !selectedCorpusId) || (importMode === 'create' && !newCorpus.name)}
-                className={`px-4 py-2 text-sm font-medium text-white rounded-lg transition-colors ${
-                  (importing || (!importFile) || (importMode === 'create' && !newCorpus.name))
-                    ? 'bg-slate-300 cursor-not-allowed'
-                    : 'bg-primary-500 hover:bg-primary-600'
-                }`}
+                className={`px-4 py-2 text-sm font-medium text-white rounded-lg transition-colors ${(importing || (!importFile) || (importMode === 'create' && !newCorpus.name))
+                  ? 'bg-slate-300 cursor-not-allowed'
+                  : 'bg-primary-500 hover:bg-primary-600'
+                  }`}
               >
                 {importing ? '导入中...' : '开始导入'}
               </button>

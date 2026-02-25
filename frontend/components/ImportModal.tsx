@@ -3,7 +3,7 @@
  */
 import React, { useState, useRef } from 'react';
 import { Upload, FileJson, AlertCircle, CheckCircle, X } from 'lucide-react';
-import { importSamplesToCorpus } from '../../api/import';
+import { importSamplesToCorpus } from '../api/import';
 
 interface ImportModalProps {
   isOpen: boolean;
@@ -106,11 +106,10 @@ export const ImportModal: React.FC<ImportModalProps> = ({
             onDrop={handleDrop}
             onDragOver={(e) => e.preventDefault()}
             onClick={() => fileInputRef.current?.click()}
-            className={`border-2 border-dashed rounded-lg p-8 text-center cursor-pointer transition-colors ${
-              file
-                ? 'border-primary-500 bg-primary-50'
-                : 'border-slate-300 hover:border-primary-400 hover:bg-slate-50'
-            }`}
+            className={`border-2 border-dashed rounded-lg p-8 text-center cursor-pointer transition-colors ${file
+              ? 'border-primary-500 bg-primary-50'
+              : 'border-slate-300 hover:border-primary-400 hover:bg-slate-50'
+              }`}
           >
             <input
               ref={fileInputRef}
@@ -145,7 +144,9 @@ export const ImportModal: React.FC<ImportModalProps> = ({
           {error && (
             <div className="mt-4 p-3 bg-red-50 border border-red-200 rounded-lg flex items-start gap-2">
               <AlertCircle className="text-red-500 flex-shrink-0" size={16} />
-              <p className="text-sm text-red-600">{error}</p>
+              <p className="text-sm text-red-600">
+                {typeof error === 'string' ? error : JSON.stringify(error)}
+              </p>
             </div>
           )}
 
@@ -169,11 +170,10 @@ export const ImportModal: React.FC<ImportModalProps> = ({
           <button
             onClick={handleImport}
             disabled={!file || loading}
-            className={`px-4 py-2 text-sm font-medium text-white rounded-lg transition-colors ${
-              !file || loading
-                ? 'bg-slate-300 cursor-not-allowed'
-                : 'bg-primary-500 hover:bg-primary-600'
-            }`}
+            className={`px-4 py-2 text-sm font-medium text-white rounded-lg transition-colors ${!file || loading
+              ? 'bg-slate-300 cursor-not-allowed'
+              : 'bg-primary-500 hover:bg-primary-600'
+              }`}
           >
             {loading ? '导入中...' : '开始导入'}
           </button>

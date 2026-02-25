@@ -2,7 +2,7 @@
  * 语料库导入 API
  */
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
 
 interface ImportResult {
   imported: number;
@@ -13,6 +13,7 @@ interface CreateCorpusResult {
   corpus_id: number;
   corpus_name: string;
   imported: number;
+  errors?: string[];
 }
 
 interface ApiResponse<T> {
@@ -49,7 +50,11 @@ export async function importSamplesToCorpus(
 
   if (!response.ok) {
     const error = await response.json();
-    throw new Error(error.detail || '导入失败');
+    const detail = error.detail;
+    const message = typeof detail === 'string'
+      ? detail
+      : (Array.isArray(detail) ? detail.map((d: any) => d.msg || JSON.stringify(d)).join('; ') : JSON.stringify(detail));
+    throw new Error(message || '导入失败');
   }
 
   const result: ApiResponse<ImportResult> = await response.json();
@@ -102,7 +107,11 @@ export async function createCorpusWithSamples(
 
   if (!response.ok) {
     const error = await response.json();
-    throw new Error(error.detail || '创建失败');
+    const detail = error.detail;
+    const message = typeof detail === 'string'
+      ? detail
+      : (Array.isArray(detail) ? detail.map((d: any) => d.msg || JSON.stringify(d)).join('; ') : JSON.stringify(detail));
+    throw new Error(message || '创建失败');
   }
 
   const result: ApiResponse<CreateCorpusResult> = await response.json();

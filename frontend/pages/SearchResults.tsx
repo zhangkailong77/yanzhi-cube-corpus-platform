@@ -4,15 +4,16 @@
  */
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import { Eye, Download, Link as LinkIcon, ArrowUpDown, ChevronDown, Search, Tag, Filter, Loader2, Upload, Plus, X, FileJson, AlertCircle } from 'lucide-react';
+import { Eye, Download, Link as LinkIcon, ArrowUpDown, ChevronDown, Search, Filter, Loader2, Upload, X, FileJson, AlertCircle } from 'lucide-react';
 import { useLanguage } from '@/components/LanguageContext';
-import { fetchCorpora, type CorpusItem, type ScenarioTag } from '@/api/corpus';
+import { fetchCorpora, type CorpusItem } from '@/api/corpus';
 import { importSamplesToCorpus, createCorpusWithSamples } from '@/api/import';
 import { encodeId } from '@/router/encoding';
 
-interface ScenarioTag {
+// Local interface for scenario tags used in this component
+interface UIScenarioTag {
   label: string;
-  type: 'ecommerce' | 'tourism' | 'business' | 'economy' | 'general';
+  type: 'ecommerce' | 'tourism' | 'business' | 'economy' | 'general' | 'terminology' | 'qa' | 'alignment' | 'process' | 'case' | 'struction';
 }
 
 const SearchResultsPage: React.FC = () => {
@@ -21,9 +22,9 @@ const SearchResultsPage: React.FC = () => {
   const { t } = useLanguage();
 
   // Get initial params from URL
-  const sourceLang = searchParams.get('source') || 'zh';
-  const targetLang = searchParams.get('target') || 'en';
-  const domainParam = searchParams.get('domain') || undefined;
+  const sourceLang = searchParams.get('source') || '';
+  const targetLang = searchParams.get('target') || '';
+  const domainParam = searchParams.get('domain') || '';
 
   // Data state
   const [corpora, setCorpora] = useState<CorpusItem[]>([]);
@@ -107,13 +108,11 @@ const SearchResultsPage: React.FC = () => {
   };
 
   // Handle search with URL params
-  const handleSearch = (source: string, target: string) => {
+  const handleSearch = (domain: string) => {
     const params = new URLSearchParams();
-    params.set('source', source);
-    params.set('target', target);
-    if (selectedDomain) {
-      params.set('domain', selectedDomain);
-    }
+    if (domain) params.set('domain', domain);
+    if (localSource) params.set('source', localSource);
+    if (localTarget) params.set('target', localTarget);
     navigate(`/search?${params.toString()}`);
   };
 
@@ -161,11 +160,15 @@ const SearchResultsPage: React.FC = () => {
 
     try {
       if (importMode === 'create') {
-        // Read file content
         const content = await importFile!.text();
-        const samples = importFile!.name.endsWith('.jsonl')
+        let samples = importFile!.name.endsWith('.jsonl')
           ? content.split('\n').filter(l => l.trim()).map(l => JSON.parse(l))
           : JSON.parse(content);
+
+        // Handle wrapped format {"meta": ..., "data": [...]}
+        if (!Array.isArray(samples) && (samples as any).data && Array.isArray((samples as any).data)) {
+          samples = (samples as any).data;
+        }
         const samplesArray = Array.isArray(samples) ? samples : [samples];
 
         const result = await createCorpusWithSamples(
@@ -181,14 +184,15 @@ const SearchResultsPage: React.FC = () => {
           samplesArray
         );
         setImportSuccess(`成功创建语料库 "${result.corpus_name}" 并导入 ${result.imported} 条样本`);
-      } else {
-        // Append mode
-        if (!selectedCorpusId) {
-          setImportError('请选择目标语料库');
-          return;
+        if (result.errors && result.errors.length > 0) {
+          setImportError(`部分数据导入失败: ${result.errors.join(', ')}`);
         }
+      } else {
         const result = await importSamplesToCorpus(selectedCorpusId, importFile!);
         setImportSuccess(`成功导入 ${result.imported} 条样本`);
+        if (result.errors && result.errors.length > 0) {
+          setImportError(`部分数据导入失败: ${result.errors.join(', ')}`);
+        }
       }
       await refreshData();
       setImportFile(null);
@@ -229,9 +233,7 @@ const SearchResultsPage: React.FC = () => {
   ];
 
   const handleSearchClick = () => {
-    if (localSource && localTarget) {
-      handleSearch(localSource, localTarget);
-    }
+    handleSearch(selectedDomain);
   };
 
   const getLangName = (code: string) => {
@@ -248,112 +250,106 @@ const SearchResultsPage: React.FC = () => {
   // Helper to get badge styles based on tag type
   const getTagStyle = (type: string) => {
     switch (type) {
-      case 'ecommerce': // Blue for E-commerce (Sales, Logistics)
+      case 'ecommerce':
         return 'bg-blue-100 text-blue-700 border-blue-200';
-      case 'tourism': // Teal/Emerald for Tourism (Culture, Travel)
+      case 'tourism':
         return 'bg-teal-100 text-teal-700 border-teal-200';
-      case 'business': // Indigo/Purple for Business (RCEP, Analysis)
+      case 'business':
         return 'bg-indigo-100 text-indigo-700 border-indigo-200';
-      case 'economy': // Amber/Orange for Low-altitude/Tech
+      case 'economy':
         return 'bg-amber-100 text-amber-700 border-amber-200';
+      case 'terminology':
+        return 'bg-rose-100 text-rose-700 border-rose-200';
+      case 'qa':
+        return 'bg-cyan-100 text-cyan-700 border-cyan-200';
+      case 'alignment':
+        return 'bg-violet-100 text-violet-700 border-violet-200';
+      case 'process':
+        return 'bg-emerald-100 text-emerald-700 border-emerald-200';
+      case 'case':
+        return 'bg-orange-100 text-orange-700 border-orange-200';
+      case 'struction':
+        return 'bg-fuchsia-100 text-fuchsia-700 border-fuchsia-200';
       default:
         return 'bg-slate-100 text-slate-600 border-slate-200';
     }
   };
-
-  // Use API fetched data
-  const filteredResults = corpora;
 
   return (
     <div className="w-full bg-slate-50 min-h-screen pb-20">
 
       {/* Search Bar Section */}
       <div className="w-full bg-white border-b border-slate-200 py-6 px-6 md:px-12">
-        <div className="max-w-3xl">
-            <div className="flex flex-col sm:flex-row gap-3">
-              {/* Select Source Language */}
-              <div className="relative flex-1 group">
-                <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-slate-400 group-hover:text-primary-600">
-                    <ChevronDown size={16} />
-                </div>
-                <select
-                    className="block w-full pl-4 pr-10 py-2.5 text-sm border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-lg bg-slate-50 hover:bg-white border transition-all appearance-none text-slate-700 font-mono shadow-sm"
-                    value={localSource}
-                    onChange={(e) => {
-                        setLocalSource(e.target.value);
-                        if (e.target.value === localTarget) {
-                           setLocalTarget('');
-                        }
-                    }}
-                >
-                  <option value="" disabled>{t('selectSource')}</option>
-                  {languages.map(lang => (
-                    <option key={`source-${lang.code}`} value={lang.code}>{lang.label}</option>
-                  ))}
-                </select>
-              </div>
+        <div className="max-w-4xl">
+          <div className="flex flex-col md:flex-row gap-4">
 
-              {/* Select Target Language */}
-              <div className="relative flex-1 group">
-                <div className={`absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none ${!localSource ? 'text-slate-200' : 'text-slate-400 group-hover:text-primary-600'}`}>
-                    <ChevronDown size={16} />
-                </div>
-                 <select
-                    className={`block w-full pl-4 pr-10 py-2.5 text-sm border rounded-lg appearance-none font-mono shadow-sm transition-all
-                        ${!localSource
-                            ? 'bg-slate-50 border-slate-200 text-slate-400 cursor-not-allowed'
-                            : 'bg-slate-50 border-slate-200 hover:bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 cursor-pointer'
-                        }`}
-                    disabled={!localSource}
-                    value={localTarget}
-                    onChange={(e) => setLocalTarget(e.target.value)}
-                >
-                  <option value="" disabled>
-                      {!localSource ? t('pickSourceFirst') : t('selectTarget')}
-                  </option>
-                  {languages.map(lang => (
-                    <option key={`target-${lang.code}`} value={lang.code}>{lang.label}</option>
-                  ))}
-                </select>
+            {/* Category (Domain) Selector */}
+            <div className="flex-[2] relative group">
+              <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400">
+                <Filter size={18} />
               </div>
-
-              {/* Search Button */}
-              <button
-                  onClick={handleSearchClick}
-                  className={`p-2.5 border rounded-lg shadow-sm transition-all flex items-center justify-center min-w-[3rem]
-                  ${localSource && localTarget
-                    ? 'bg-primary-600 border-primary-600 text-white hover:bg-primary-700 hover:shadow-md cursor-pointer'
-                    : 'bg-white border-slate-200 text-slate-400 cursor-not-allowed'
-                  }`}
-                  disabled={!localSource || !localTarget}
+              <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-slate-400 group-hover:text-primary-600">
+                <ChevronDown size={18} />
+              </div>
+              <select
+                className="block w-full pl-10 pr-10 py-3 text-base border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-xl bg-slate-50 hover:bg-white border transition-all appearance-none text-slate-700 font-mono shadow-sm"
+                value={selectedDomain}
+                onChange={(e) => {
+                  setSelectedDomain(e.target.value);
+                  handleSearch(e.target.value);
+                }}
               >
-                <Search size={18} />
-              </button>
+                <option value="">{t('domainAll')}</option>
+                <option value="terminology">{t('catTerminology')}</option>
+                <option value="qa">{t('catQA')}</option>
+                <option value="alignment">{t('catAlignment')}</option>
+                <option value="process">{t('catProcess')}</option>
+                <option value="case">{t('catCase')}</option>
+                <option value="struction">{t('catInstruction')}</option>
+              </select>
             </div>
 
-            {/* Domain Selector Row */}
-            <div className="mt-3">
-                 <div className="relative group w-full">
-                    <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-slate-400">
-                        <Filter size={16} />
-                    </div>
-                    <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none text-slate-400 group-hover:text-primary-600">
-                        <ChevronDown size={16} />
-                    </div>
-                    <select
-                        className="block w-full pl-10 pr-10 py-2.5 text-sm border-slate-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 rounded-lg bg-slate-50 hover:bg-white border transition-all appearance-none text-slate-700 font-mono shadow-sm"
-                        value={selectedDomain}
-                        onChange={(e) => setSelectedDomain(e.target.value)}
-                    >
-                        <option value="">{t('domainAll')}</option>
-                        <option value="ecommerce">{t('domainEcommerce')}</option>
-                        <option value="tourism">{t('domainTourism')}</option>
-                        <option value="business">{t('domainBusiness')}</option>
-                        <option value="economy">{t('domainEconomy')}</option>
-                        <option value="general">{t('domainGeneral')}</option>
-                    </select>
-                 </div>
+            {/* Optional Language Filters (Simplified) */}
+            <div className="flex-1 flex gap-2">
+              <select
+                className="flex-1 px-3 py-3 text-sm border-slate-200 rounded-xl bg-slate-50 hover:bg-white border focus:outline-none focus:ring-2 focus:ring-primary-500 appearance-none font-mono text-slate-600"
+                value={localSource}
+                onChange={(e) => {
+                  setLocalSource(e.target.value);
+                  const params = new URLSearchParams(searchParams);
+                  if (e.target.value) params.set('source', e.target.value);
+                  else params.delete('source');
+                  navigate(`/search?${params.toString()}`);
+                }}
+              >
+                <option value="">源语言 (任意)</option>
+                {languages.map(lang => <option key={`s-${lang.code}`} value={lang.code}>{lang.label}</option>)}
+              </select>
+
+              <select
+                className="flex-1 px-3 py-3 text-sm border-slate-200 rounded-xl bg-slate-50 hover:bg-white border focus:outline-none focus:ring-2 focus:ring-primary-500 appearance-none font-mono text-slate-600"
+                value={localTarget}
+                onChange={(e) => {
+                  setLocalTarget(e.target.value);
+                  const params = new URLSearchParams(searchParams);
+                  if (e.target.value) params.set('target', e.target.value);
+                  else params.delete('target');
+                  navigate(`/search?${params.toString()}`);
+                }}
+              >
+                <option value="">目标语言 (任意)</option>
+                {languages.map(lang => <option key={`t-${lang.code}`} value={lang.code}>{lang.label}</option>)}
+              </select>
             </div>
+
+            <button
+              onClick={() => handleSearch(selectedDomain)}
+              className="px-6 py-3 bg-primary-600 text-white rounded-xl shadow-md hover:bg-primary-700 transition-all flex items-center justify-center gap-2 font-bold"
+            >
+              <Search size={18} />
+              <span>搜索</span>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -371,7 +367,11 @@ const SearchResultsPage: React.FC = () => {
         ) : (
           <div className="flex items-center justify-between">
             <h2 className="text-2xl md:text-3xl font-bold text-slate-800 font-mono tracking-tight">
-              {t('resourcesFound').replace('{count}', filteredResults.length.toString())}: <span className="text-primary-600">{getLangName(sourceLang)}</span> - <span className="text-primary-600">{getLangName(targetLang)}</span> ({filteredResults.length} found)
+              {t('resourcesFound').replace('{count}', corpora.length.toString())}:
+              {selectedDomain && <span className="text-primary-600 ml-2">[{selectedDomain.toUpperCase()}]</span>}
+              {sourceLang && <span className="text-slate-400 ml-2"> {getLangName(sourceLang)}</span>}
+              {targetLang && <span className="text-slate-400"> - {getLangName(targetLang)}</span>}
+              <span className="text-slate-300 text-lg ml-3">({corpora.length} items)</span>
             </h2>
             <button
               onClick={() => setImportModalOpen(true)}
@@ -400,7 +400,7 @@ const SearchResultsPage: React.FC = () => {
             <div className="col-span-2 text-right hidden lg:block">
               {sourceLang.toUpperCase()} {t('headerTokens')}
             </div>
-             <div className="col-span-2 text-right hidden lg:block">
+            <div className="col-span-2 text-right hidden lg:block">
               {targetLang.toUpperCase()} {t('headerTokens')}
             </div>
             <div className="col-span-2 lg:col-span-1 text-center">{t('headerSample')}</div>
@@ -410,7 +410,7 @@ const SearchResultsPage: React.FC = () => {
 
           {/* Table Body */}
           <div className="divide-y divide-slate-100">
-            {filteredResults.length > 0 ? filteredResults.map((item, idx) => (
+            {corpora.length > 0 ? corpora.map((item, idx) => (
               <div key={item.id} className={`grid grid-cols-12 gap-4 px-6 py-5 items-start hover:bg-blue-50/50 transition-colors ${idx % 2 === 0 ? 'bg-white' : 'bg-slate-50/30'}`}>
 
                 {/* Corpus Name & Tags */}
@@ -420,7 +420,7 @@ const SearchResultsPage: React.FC = () => {
                   </div>
                   {/* Scenario Tags */}
                   <div className="flex flex-wrap gap-1.5">
-                    {item.tags && item.tags.map((tag, tagIdx) => (
+                    {item.tags && item.tags.map((tag: any, tagIdx: number) => (
                       <span
                         key={tagIdx}
                         className={`inline-flex items-center px-2 py-0.5 rounded text-[10px] font-medium border ${getTagStyle(tag.type)}`}
@@ -448,62 +448,62 @@ const SearchResultsPage: React.FC = () => {
 
                 {/* Sample */}
                 <div className="col-span-2 lg:col-span-1 flex justify-center mt-1">
-                   <button
-                     onClick={() => handlePreview(item.id)}
-                     className="p-2 text-primary-500 hover:text-primary-700 hover:bg-primary-50 rounded-full transition-colors"
-                     title="View Sample"
-                   >
-                     <Eye size={18} />
-                   </button>
+                  <button
+                    onClick={() => handlePreview(item.id)}
+                    className="p-2 text-primary-500 hover:text-primary-700 hover:bg-primary-50 rounded-full transition-colors"
+                    title="View Sample"
+                  >
+                    <Eye size={18} />
+                  </button>
                 </div>
 
                 {/* Bilingual */}
                 <div className="col-span-3 lg:col-span-2 flex items-center justify-center space-x-2 mt-1">
-                   <div className="relative group/dropdown">
-                      <button className="flex items-center px-3 py-1.5 border border-slate-200 rounded-md bg-white text-xs font-mono text-slate-600 hover:border-primary-300 focus:outline-none">
-                         tmos <ChevronDown size={12} className="ml-1" />
-                      </button>
-                      {/* Fake Dropdown content */}
-                      <div className="absolute top-full left-0 w-32 bg-white border border-slate-200 shadow-lg rounded-md mt-1 hidden group-hover/dropdown:block z-10">
-                          <div className="px-3 py-2 hover:bg-slate-50 text-xs font-mono cursor-pointer">tmx</div>
-                          <div className="px-3 py-2 hover:bg-slate-50 text-xs font-mono cursor-pointer">xliff</div>
-                      </div>
-                   </div>
-                   <button className="p-2 text-slate-400 hover:text-primary-600 transition-colors">
-                     <Download size={18} />
-                   </button>
-                    <button className="p-2 text-slate-300 hover:text-primary-600 transition-colors">
-                     <LinkIcon size={16} />
-                   </button>
+                  <div className="relative group/dropdown">
+                    <button className="flex items-center px-3 py-1.5 border border-slate-200 rounded-md bg-white text-xs font-mono text-slate-600 hover:border-primary-300 focus:outline-none">
+                      tmos <ChevronDown size={12} className="ml-1" />
+                    </button>
+                    {/* Fake Dropdown content */}
+                    <div className="absolute top-full left-0 w-32 bg-white border border-slate-200 shadow-lg rounded-md mt-1 hidden group-hover/dropdown:block z-10">
+                      <div className="px-3 py-2 hover:bg-slate-50 text-xs font-mono cursor-pointer">tmx</div>
+                      <div className="px-3 py-2 hover:bg-slate-50 text-xs font-mono cursor-pointer">xliff</div>
+                    </div>
+                  </div>
+                  <button className="p-2 text-slate-400 hover:text-primary-600 transition-colors">
+                    <Download size={18} />
+                  </button>
+                  <button className="p-2 text-slate-300 hover:text-primary-600 transition-colors">
+                    <LinkIcon size={16} />
+                  </button>
                 </div>
 
                 {/* Monolingual (Hidden on smaller screens, shown on XL) */}
                 <div className="col-span-2 hidden xl:flex items-center justify-center space-x-2 mt-1">
-                   <div className="relative group/dropdown">
-                      <button className="flex items-center px-3 py-1.5 border border-slate-200 rounded-md bg-white text-xs font-mono text-slate-600 hover:border-primary-300 focus:outline-none">
-                         txt {sourceLang} <ChevronDown size={12} className="ml-1" />
-                      </button>
-                   </div>
-                   <button className="p-2 text-slate-400 hover:text-primary-600 transition-colors">
-                     <Download size={18} />
-                   </button>
-                   <button className="p-2 text-slate-300 hover:text-primary-600 transition-colors">
-                     <LinkIcon size={16} />
-                   </button>
+                  <div className="relative group/dropdown">
+                    <button className="flex items-center px-3 py-1.5 border border-slate-200 rounded-md bg-white text-xs font-mono text-slate-600 hover:border-primary-300 focus:outline-none">
+                      txt {sourceLang} <ChevronDown size={12} className="ml-1" />
+                    </button>
+                  </div>
+                  <button className="p-2 text-slate-400 hover:text-primary-600 transition-colors">
+                    <Download size={18} />
+                  </button>
+                  <button className="p-2 text-slate-300 hover:text-primary-600 transition-colors">
+                    <LinkIcon size={16} />
+                  </button>
                 </div>
 
               </div>
             )) : (
-                <div className="px-6 py-12 text-center text-slate-400 font-mono text-sm">
-                    No results found for this domain filter.
-                </div>
+              <div className="px-6 py-12 text-center text-slate-400 font-mono text-sm">
+                No results found for this domain filter.
+              </div>
             )}
           </div>
 
-           {/* Footer of table */}
-           <div className="px-6 py-4 border-t border-slate-200 bg-slate-50 text-xs text-slate-400 font-mono text-center">
-              End of results
-           </div>
+          {/* Footer of table */}
+          <div className="px-6 py-4 border-t border-slate-200 bg-slate-50 text-xs text-slate-400 font-mono text-center">
+            End of results
+          </div>
         </div>
       </div>
 
@@ -525,22 +525,20 @@ const SearchResultsPage: React.FC = () => {
               <div className="flex gap-4 mb-6">
                 <button
                   onClick={() => setImportMode('append')}
-                  className={`flex-1 py-3 px-4 rounded-lg border-2 transition-colors ${
-                    importMode === 'append'
-                      ? 'border-primary-500 bg-primary-50 text-primary-700'
-                      : 'border-slate-200 hover:border-slate-300'
-                  }`}
+                  className={`flex-1 py-3 px-4 rounded-lg border-2 transition-colors ${importMode === 'append'
+                    ? 'border-primary-500 bg-primary-50 text-primary-700'
+                    : 'border-slate-200 hover:border-slate-300'
+                    }`}
                 >
                   <div className="font-medium">追加到现有语料库</div>
                   <div className="text-sm text-slate-500 mt-1">选择已有语料库，上传文件追加数据</div>
                 </button>
                 <button
                   onClick={() => setImportMode('create')}
-                  className={`flex-1 py-3 px-4 rounded-lg border-2 transition-colors ${
-                    importMode === 'create'
-                      ? 'border-primary-500 bg-primary-50 text-primary-700'
-                      : 'border-slate-200 hover:border-slate-300'
-                  }`}
+                  className={`flex-1 py-3 px-4 rounded-lg border-2 transition-colors ${importMode === 'create'
+                    ? 'border-primary-500 bg-primary-50 text-primary-700'
+                    : 'border-slate-200 hover:border-slate-300'
+                    }`}
                 >
                   <div className="font-medium">新建语料库</div>
                   <div className="text-sm text-slate-500 mt-1">创建新语料库并导入数据</div>
@@ -618,11 +616,13 @@ const SearchResultsPage: React.FC = () => {
                       onChange={(e) => setNewCorpus({ ...newCorpus, domain: e.target.value })}
                       className="w-full px-3 py-2 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
                     >
-                      <option value="general">通用</option>
-                      <option value="ecommerce">电商</option>
-                      <option value="tourism">旅游</option>
-                      <option value="business">商业</option>
-                      <option value="economy">经济</option>
+                      <option value="general">通用文本</option>
+                      <option value="terminology">{t('catTerminology')}</option>
+                      <option value="qa">{t('catQA')}</option>
+                      <option value="alignment">{t('catAlignment')}</option>
+                      <option value="process">{t('catProcess')}</option>
+                      <option value="case">{t('catCase')}</option>
+                      <option value="struction">{t('catInstruction')}</option>
                     </select>
                   </div>
                   <div>
@@ -657,12 +657,22 @@ const SearchResultsPage: React.FC = () => {
                       setImportError(null);
                     }
                   }}
-                  onDragOver={(e) => e.preventDefault()}
-                  className={`border-2 border-dashed rounded-lg p-8 text-center cursor-pointer transition-colors ${
-                    importFile
-                      ? 'border-primary-500 bg-primary-50'
-                      : 'border-slate-300 hover:border-primary-400 hover:bg-slate-50'
-                  }`}
+                  onDrop={(e) => {
+                    e.preventDefault();
+                    const file = e.dataTransfer.files[0];
+                    if (file) {
+                      if (!file.name.endsWith('.json') && !file.name.endsWith('.jsonl')) {
+                        setImportError('请选择 .json 或 .jsonl 文件');
+                        return;
+                      }
+                      setImportFile(file);
+                      setImportError(null);
+                    }
+                  }}
+                  className={`border-2 border-dashed rounded-lg p-8 text-center cursor-pointer transition-colors ${importFile
+                    ? 'border-primary-500 bg-primary-50'
+                    : 'border-slate-300 hover:border-primary-400 hover:bg-slate-50'
+                    }`}
                 >
                   <input
                     id="import-file-input"
@@ -691,7 +701,9 @@ const SearchResultsPage: React.FC = () => {
               {importError && (
                 <div className="mt-4 p-3 bg-red-50 border border-red-200 rounded-lg flex items-start gap-2">
                   <AlertCircle className="text-red-500 flex-shrink-0" size={16} />
-                  <p className="text-sm text-red-600">{importError}</p>
+                  <p className="text-sm text-red-600">
+                    {typeof importError === 'string' ? importError : JSON.stringify(importError)}
+                  </p>
                 </div>
               )}
               {importSuccess && (
@@ -713,11 +725,10 @@ const SearchResultsPage: React.FC = () => {
               <button
                 onClick={handleImport}
                 disabled={importing || !importFile || (importMode === 'append' && !selectedCorpusId) || (importMode === 'create' && !newCorpus.name)}
-                className={`px-4 py-2 text-sm font-medium text-white rounded-lg transition-colors ${
-                  (importing || (!importFile) || (importMode === 'create' && !newCorpus.name))
-                    ? 'bg-slate-300 cursor-not-allowed'
-                    : 'bg-primary-500 hover:bg-primary-600'
-                }`}
+                className={`px-4 py-2 text-sm font-medium text-white rounded-lg transition-colors ${(importing || (!importFile) || (importMode === 'create' && !newCorpus.name))
+                  ? 'bg-slate-300 cursor-not-allowed'
+                  : 'bg-primary-500 hover:bg-primary-600'
+                  }`}
               >
                 {importing ? '导入中...' : '开始导入'}
               </button>

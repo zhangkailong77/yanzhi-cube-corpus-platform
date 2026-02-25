@@ -3,12 +3,9 @@
 """
 from sqlalchemy import Column, Integer, String, Boolean, Enum as SQLEnum, TIMESTAMP, BigInteger, Text, JSON, ForeignKey
 from sqlalchemy.orm import relationship
-from sqlalchemy.ext.declarative import declarative_base
 from datetime import datetime
 from enum import Enum as PyEnum
-
-# 使用独立的 Base，避免循环导入
-Base = declarative_base()
+from .base import Base
 
 
 class DomainEnum(str, PyEnum):
@@ -18,6 +15,12 @@ class DomainEnum(str, PyEnum):
     BUSINESS = "business"
     ECONOMY = "economy"
     GENERAL = "general"
+    TERMINOLOGY = "terminology"
+    QA = "qa"
+    ALIGNMENT = "alignment"
+    PROCESS = "process"
+    CASE = "case"
+    STRUCTION = "struction"
 
 
 class SourceTypeEnum(str, PyEnum):
@@ -65,6 +68,12 @@ class Corpus(Base):
     # 关联
     samples = relationship("Sample", back_populates="corpus", cascade="all, delete-orphan")
     tags = relationship("CorpusTag", back_populates="corpus", cascade="all, delete-orphan")
+    terminology_samples = relationship("TerminologySample", back_populates="corpus", cascade="all, delete-orphan")
+    qa_samples = relationship("QASample", back_populates="corpus", cascade="all, delete-orphan")
+    alignment_samples = relationship("AlignmentSample", back_populates="corpus", cascade="all, delete-orphan")
+    process_samples = relationship("ProcessSample", back_populates="corpus", cascade="all, delete-orphan")
+    case_samples = relationship("CaseSample", back_populates="corpus", cascade="all, delete-orphan")
+    scenario_samples = relationship("ScenarioSample", back_populates="corpus", cascade="all, delete-orphan")
 
     def to_dict(self, include_samples: bool = False) -> dict:
         """转换为字典"""

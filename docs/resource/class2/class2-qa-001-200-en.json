@@ -1,0 +1,3634 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "qa",
+    "language": "en",
+    "domain": "trade",
+    "created_by": "Expert Team",
+    "created_at": "2025-01-15T10:00:00Z",
+    "description": "Cross-border Trade Professional Q&A Database - English"
+  },
+  "data": [
+    {
+      "qa_id": "QA-001",
+      "question": "What is the difference between DDP and DDI terms in cross-border trade?",
+      "question_type": "Comparative Analysis",
+      "answer": "DDP (Delivered Duty Paid) means the seller is responsible for handling import clearance procedures and paying import taxes, delivering the goods to the specified place to the buyer; DDI (Delivered Duty Unpaid) means the seller transports the goods to the destination, but the buyer is responsible for import clearance and tax payment. The main differences are: 1) Different responsibility subjects: Under DDP, the seller bears full responsibility; under DDI, the buyer bears clearance responsibility; 2) Different cost bearing: Under DDP, the seller pays import taxes; under DDI, the buyer pays; 3) Different risk division: DDP carries the highest risk for the seller, while DDI carries higher risk for the buyer. It is recommended that buyers prioritize DDI to reduce risk.",
+      "keywords": [
+        "DDP",
+        "DDI",
+        "Trade Terms",
+        "Responsibility Division",
+        "Incoterms"
+      ],
+      "category": "Trade Terms",
+      "tags": [
+        "Trade Terms",
+        "Responsibility Division",
+        "Risk Control"
+      ]
+    },
+    {
+      "qa_id": "QA-002",
+      "question": "What documents need to be prepared for import customs declaration?",
+      "question_type": "Process Operation",
+      "answer": "Import customs declaration usually requires the following documents: 1) Commercial Invoice: detailing goods name, quantity, price, amount, etc.; 2) Packing List: detailing packaging condition, gross weight, net weight, volume, etc.; 3) Bill of Lading or Air Waybill: documents proving goods transport; 4) Contract: trade contract signed by buyer and seller; 5) Certificate of Origin: if tariff preference is needed; 6) Import License: if goods fall under license management; 7) Insurance Policy: if insured by the seller; 8) Other special documents: such as inspection certificates, fumigation certificates, etc. It is recommended to confirm the required document list before declaration to avoid omissions.",
+      "keywords": [
+        "Customs Declaration",
+        "Documents",
+        "Import",
+        "Customs Clearance",
+        "Document Preparation"
+      ],
+      "category": "Customs Procedures",
+      "tags": [
+        "Customs Declaration",
+        "Documents",
+        "Import Process"
+      ]
+    },
+    {
+      "qa_id": "QA-003",
+      "question": "What is the Letter of Credit payment method? What are its characteristics?",
+      "question_type": "Concept Explanation",
+      "answer": "A Letter of Credit (L/C) is a written payment commitment issued by a bank at the request of the importer, promising to guarantee payment after the exporter submits documents complying with the L/C terms. Characteristics include: 1) High security: Bank credit replaces commercial credit, reducing payment collection risk; 2) Clear terms: All requirements are explicitly listed in the L/C; 3) Documentary transaction: Banks only examine whether documents are compliant, not involving the goods themselves; 4) Higher fees: Issuing fees, notification fees, amendment fees, etc.; 5) Complex process: Involves issuance, notification, negotiation, and other steps. Suitable for first-time cooperation, large amounts, or uncertain buyer creditworthiness.",
+      "keywords": [
+        "Letter of Credit",
+        "L/C",
+        "Payment Method",
+        "Bank",
+        "Documents"
+      ],
+      "category": "Payment Methods",
+      "tags": [
+        "Payment",
+        "Letter of Credit",
+        "Finance",
+        "Bank"
+      ]
+    },
+    {
+      "qa_id": "QA-004",
+      "question": "What are the differences between CIF and FOB trade terms?",
+      "question_type": "Comparative Analysis",
+      "answer": "CIF (Cost, Insurance and Freight) means the seller is responsible for export clearance, paying freight to transport goods to the port of destination and purchasing insurance; delivery is completed when the goods pass the ship's rail at the port of destination. FOB (Free On Board) means the seller completes delivery when the goods pass the ship's rail at the port of loading, after which the buyer bears freight and insurance costs. Main differences: 1) Cost bearing: Under CIF, the seller bears freight and insurance to the port of destination; under FOB, the buyer bears them; 2) Risk division: Under CIF, the seller bears risk until crossing the ship's rail; under FOB, risk transfers to the buyer after delivery at the port of loading; 3) Price composition: CIF includes freight and insurance, FOB does not. It is recommended to choose CIF to reduce buyer risk, and FOB to control transport costs.",
+      "keywords": [
+        "CIF",
+        "FOB",
+        "Trade Terms",
+        "Cost Bearing",
+        "Risk Division"
+      ],
+      "category": "Trade Terms",
+      "tags": [
+        "Trade Terms",
+        "Cost Division",
+        "Risk Division"
+      ]
+    },
+    {
+      "qa_id": "QA-005",
+      "question": "What are the differences between EXW and FCA trade terms?",
+      "question_type": "Comparative Analysis",
+      "answer": "EXW (Ex Works) means the seller places goods at the disposal of the buyer at the seller's premises (factory, warehouse, etc.), and the seller bears all costs and risks until delivering to the buyer; FCA (Free Carrier) means the seller is responsible for delivering the goods to the carrier nominated by the buyer, bearing all costs and risks before handing over to the carrier, after which the carrier is responsible for transport. Main differences: 1) Place of delivery: EXW delivers at seller's premises, FCA delivers at the carrier's location; 2) Transport responsibility: EXW seller need not arrange transport, FCA seller needs to arrange transport; 3) Risk transfer point: EXW transfers upon delivery, FCA transfers upon handing over to the carrier. EXW is more favorable to the buyer, but the buyer must arrange transport and bear transport risk.",
+      "keywords": [
+        "EXW",
+        "FCA",
+        "Trade Terms",
+        "Delivery Method",
+        "Risk Transfer"
+      ],
+      "category": "Trade Terms",
+      "tags": [
+        "Trade Terms",
+        "Delivery Method",
+        "Risk Division"
+      ]
+    },
+    {
+      "qa_id": "QA-006",
+      "question": "What are the differences between T/T and DP payment methods?",
+      "question_type": "Comparative Analysis",
+      "answer": "T/T (Telegraphic Transfer) is a payment method transferring funds directly to the seller's account via a bank, belonging to commercial credit; DP (Documents against Payment) involves the buyer applying to the bank to open a letter of credit or payment guarantee, and after submitting compliant documents, the bank notifies the seller to pay, while the seller hands documents to the bank. Main differences: 1) Security: T/T relies on buyer's credit, higher risk for seller; DP uses bank document control, lower risk for seller; 2) Fees: T/T bank fees are lower, but requires buyer prepayment or credit sales; DP has higher fees like issuance fees; 3) Process complexity: T/T is simple and fast; DP is complex, requiring document preparation and review; 4) Applicable scenarios: T/T for small orders, long-term cooperation; DP for large orders, first-time cooperation. It is recommended sellers choose the appropriate payment method based on buyer credit and order amount.",
+      "keywords": [
+        "T/T",
+        "DP",
+        "Payment Method",
+        "Security",
+        "Process Complexity"
+      ],
+      "category": "Payment Methods",
+      "tags": [
+        "Payment Methods",
+        "Security",
+        "Process Comparison"
+      ]
+    },
+    {
+      "qa_id": "QA-007",
+      "question": "What are the differences between O/A and D/A payment methods?",
+      "question_type": "Comparative Analysis",
+      "answer": "O/A (Open Account) means the seller sends documents to the buyer after shipment, and the buyer pays within the agreed time (e.g., 30, 60, 90 days); D/A (Documents against Acceptance) means the seller hands documents to the bank after shipment, the bank notifies the buyer to pay, and the bank pays the seller after the buyer accepts. Main differences: 1) Risk bearing: O/A risk is borne by the seller (buyer may delay or refuse payment); D/A risk is borne by the bank (bank pays first, buyer cannot refuse); 2) Fees: O/A has no bank fees; D/A has bank acceptance fees; 3) Credit requirement: O/A requires good buyer credit; D/A goes through bank review. It is recommended sellers prioritize D/A to reduce risk, granting O/A for convenience.",
+      "keywords": [
+        "O/A",
+        "D/A",
+        "Payment Method",
+        "Risk Bearing",
+        "Credit Requirement"
+      ],
+      "category": "Payment Methods",
+      "tags": [
+        "Payment Methods",
+        "Risk Comparison",
+        "Credit Requirement"
+      ]
+    },
+    {
+      "qa_id": "QA-008",
+      "question": "What are the differences between revocable and irrevocable letters of credit?",
+      "question_type": "Comparative Analysis",
+      "answer": "A Revocable L/C means the issuing bank can cancel or amend the credit terms after receiving a cancellation notice from the applicant or beneficiary; an Irrevocable L/C means that once issued, it cannot be cancelled or amended unless all parties consent. Main differences: 1) Flexibility: Revocable L/C can be flexibly adjusted; Irrevocable L/C is fixed once issued; 2) Fees: Revocable L/C may need amendment fees; Irrevocable L/C cannot be amended; 3) Applicable scenarios: Revocable L/C for early negotiation stages; Irrevocable L/C for confirmed issuance stages. It is recommended to fully communicate and confirm terms before issuance.",
+      "keywords": [
+        "Revocable Letter of Credit",
+        "Irrevocable Letter of Credit",
+        "L/C",
+        "Flexibility",
+        "Fees"
+      ],
+      "category": "Payment Methods",
+      "tags": [
+        "Letter of Credit",
+        "Revocability",
+        "Flexibility Comparison"
+      ]
+    },
+    {
+      "qa_id": "QA-009",
+      "question": "What are the differences between sight and usance letters of credit?",
+      "question_type": "Comparative Analysis",
+      "answer": "A Sight L/C means the issuing bank pays upon presentation, i.e., the bank reviews immediately after the buyer submits documents, and pays immediately upon approval; a Usance L/C means the issuing bank pays after a certain period from sight, e.g., 60 or 90 days after sight. Main differences: 1) Payment time: Sight L/C pays immediately, Usance L/C delays payment; 2) Interest: Usance L/C requires the buyer to pay interest; 3) Fees: Usance L/C bank fees may be higher; 4) Seller cash flow: Sight L/C allows faster collection, Usance L/C is slower. It is recommended buyers choose the appropriate L/C type based on cash flow needs, and sellers choose based on risk preference.",
+      "keywords": [
+        "Sight Letter of Credit",
+        "Usance Letter of Credit",
+        "Sight L/C",
+        "Usance L/C",
+        "Payment Time"
+      ],
+      "category": "Payment Methods",
+      "tags": [
+        "Letter of Credit",
+        "Payment Time",
+        "Interest Cost"
+      ]
+    },
+    {
+      "qa_id": "QA-010",
+      "question": "What are the differences between a clean bill and a documentary letter of credit?",
+      "question_type": "Comparative Analysis",
+      "answer": "A Clean Bill means the seller draws a draft sent directly to the buyer or bank, who pays upon sight, without bank guarantee; a Documentary Letter of Credit is a draft accompanied by commercial documents, circulating through the banking system with a bank payment guarantee. Main differences: 1) Bank guarantee: Clean bill has no bank guarantee; documentary L/C has bank guarantee; 2) Document requirements: Clean bill requires no attached documents; documentary L/C must be accompanied by documents complying with terms; 3) Security: Documentary L/C is more secure, clean bill carries higher risk; 4) Usage scenarios: Clean bill for small transactions or old customers; documentary L/C for large transactions or new customers. It is recommended buyers prioritize documentary L/C to reduce risk.",
+      "keywords": [
+        "Clean Bill",
+        "Documentary Letter of Credit",
+        "Bank Guarantee",
+        "Document Requirements",
+        "Security"
+      ],
+      "category": "Payment Methods",
+      "tags": [
+        "Letter of Credit",
+        "Security",
+        "Document Requirements"
+      ]
+    },
+    {
+      "qa_id": "QA-011",
+      "question": "What are the differences between a confirmed and a negotiation letter of credit?",
+      "question_type": "Comparative Analysis",
+      "answer": "A Confirmed L/C means the issuing bank guarantees payment at issuance (or after), usually confirmed by the issuing or advising bank; a Negotiation L/C means the issuing bank issues the credit without a payment guarantee, requiring the beneficiary to negotiate, or the issuing bank reserves the right to negotiate. Main differences: 1) Payment guarantee: Confirmed L/C has a bank payment guarantee; Negotiation L/C does not; 2) Negotiation process: Negotiation L/C requires beneficiary negotiation, which is complex and time-consuming; 3) Applicable scenarios: Confirmed L/C for large orders requiring high payment certainty; Negotiation L/C for small orders or good relationships. It is recommended sellers choose based on order amount and buyer credit.",
+      "keywords": [
+        "Confirmed Letter of Credit",
+        "Negotiation Letter of Credit",
+        "Payment Guarantee",
+        "Negotiation Process"
+      ],
+      "category": "Payment Methods",
+      "tags": [
+        "Letter of Credit",
+        "Payment Guarantee",
+        "Negotiation Process"
+      ]
+    },
+    {
+      "qa_id": "QA-012",
+      "question": "What are the differences between a banker's acceptance and a commercial acceptance letter of credit?",
+      "question_type": "Comparative Analysis",
+      "answer": "A Banker's Acceptance L/C means the issuing bank guarantees acceptance, i.e., the issuing bank promises payment, usually accepting itself; a Commercial Acceptance L/C means the issuing bank issues the credit but does not guarantee payment, requiring confirmation from another bank or importer, with the issuing bank only notifying. Main differences: 1) Accepting subject: Banker's Acceptance L/C is accepted by the issuing bank itself; Commercial Acceptance L/C by another bank or importer; 2) Acceptance obligation: Banker's Acceptance L/C has absolute payment obligation; Commercial Acceptance L/C may reserve the right to accept; 3) Process: Banker's Acceptance L/C is simpler; Commercial Acceptance L/C requires notification and confirmation. It is recommended to prioritize Banker's Acceptance L/C to reduce risk.",
+      "keywords": [
+        "Banker's Acceptance Letter of Credit",
+        "Commercial Acceptance Letter of Credit",
+        "Accepting Subject",
+        "Acceptance Obligation"
+      ],
+      "category": "Payment Methods",
+      "tags": [
+        "Letter of Credit",
+        "Acceptance Type",
+        "Risk Comparison"
+      ]
+    },
+    {
+      "qa_id": "QA-013",
+      "question": "What are the differences between a transferable and a non-transferable letter of credit?",
+      "question_type": "Comparative Analysis",
+      "answer": "A Transferable L/C means the beneficiary can transfer the credit rights to a third party; a Non-transferable L/C means the beneficiary cannot transfer credit rights. Main differences: 1) Flexibility: Transferable L/C is highly flexible; Non-transferable L/C is inflexible, beneficiary must use it personally; 2) Applicable scenarios: Transferable L/C for financing or discounting needs; Non-transferable L/C for no financing needs; 3) Risk: Transferable L/C transfers risk away from original beneficiary; Non-transferable L/C risk remains. It is recommended to choose based on financing needs.",
+      "keywords": [
+        "Transferable Letter of Credit",
+        "Non-transferable Letter of Credit",
+        "Flexibility",
+        "Financing Needs"
+      ],
+      "category": "Payment Methods",
+      "tags": [
+        "Letter of Credit",
+        "Transferability",
+        "Financing Needs"
+      ]
+    },
+    {
+      "qa_id": "QA-014",
+      "question": "What are the differences between a revolving and a standby letter of credit?",
+      "question_type": "Comparative Analysis",
+      "answer": "A Revolving L/C means the credit amount can be restored after payment, keeping the total amount unchanged; a Standby L/C means the amount is not restored after payment, reducing the total. Main differences: 1) Usage method: Revolving L/C can be reused, improving capital efficiency; Standby L/C is one-time use; 2) Applicable scenarios: Revolving L/C for long-term stable cooperation; Standby L/C for one-time orders; 3) Seller risk: Standby L/C has lower seller risk; Revolving L/C has higher seller risk. It is recommended to choose based on cooperation model.",
+      "keywords": [
+        "Revolving Letter of Credit",
+        "Standby Letter of Credit",
+        "Usage Method",
+        "Applicable Scenarios"
+      ],
+      "category": "Payment Methods",
+      "tags": [
+        "Letter of Credit",
+        "Revolving Use",
+        "Standby Type"
+      ]
+    },
+    {
+      "qa_id": "QA-015",
+      "question": "What are the differences between deferred payment and installment payment?",
+      "question_type": "Comparative Analysis",
+      "answer": "Deferred Payment means the seller allows the buyer to pay after an agreed date (e.g., 30, 60, 90 days after shipment), usually with no or low interest; Installment Payment means the buyer pays in several installments at agreed times and amounts, usually with interest. Main differences: 1) Payment method: Deferred payment is a one-time payment; installment is multiple payments; 2) Financial pressure: Installment has lower pressure for the buyer; deferred payment requires a lump sum; 3) Seller risk: Deferred payment has higher seller risk; installment has lower risk; 4) Interest cost: Deferred payment has low interest cost; installment has high interest cost. It is recommended sellers choose based on order amount and buyer credit.",
+      "keywords": [
+        "Deferred Payment",
+        "Installment Payment",
+        "Financial Pressure",
+        "Interest Cost"
+      ],
+      "category": "Payment Methods",
+      "tags": [
+        "Payment Methods",
+        "Financial Pressure",
+        "Interest Comparison"
+      ]
+    },
+    {
+      "qa_id": "QA-016",
+      "question": "What are the differences between open account and installment payment?",
+      "question_type": "Comparative Analysis",
+      "answer": "Open Account (O/A) means the seller ships goods and allows payment within a certain period, without buyer providing guarantee; Installment Payment means the buyer pays in batches. Main differences: 1) Credit requirement: O/A requires good buyer credit; installment may have bank or third-party guarantee; 2) Process complexity: O/A is simple; installment is complex, requiring review each period; 3) Applicable scenarios: O/A for old customers, small orders; installment for large orders, new customers; 4) Risk bearing: O/A has higher seller risk; installment has lower risk. It is recommended sellers choose based on buyer credit and order amount.",
+      "keywords": [
+        "Open Account",
+        "Installment Payment",
+        "Credit Requirement",
+        "Applicable Scenarios"
+      ],
+      "category": "Payment Methods",
+      "tags": [
+        "Payment Methods",
+        "Credit Requirement",
+        "Risk Bearing"
+      ]
+    },
+    {
+      "qa_id": "QA-017",
+      "question": "What are the differences between a back-to-back and a transferable letter of credit?",
+      "question_type": "Comparative Analysis",
+      "answer": "A Back-to-Back L/C means the issuing bank needs confirmation from another bank (confirming bank) at issuance; a Transferable L/C means the beneficiary can directly transfer the credit without issuing bank consent. Main differences: 1) Flexibility: Transferable L/C is more flexible; Back-to-Back requires consent, less flexible; 2) Security: Back-to-Back is more secure; Transferable L/C has higher risk; 3) Process complexity: Back-to-Back requires double confirmation, complex process; 4) Applicable scenarios: Back-to-Back for high-risk transactions; Transferable L/C for financing needs. It is recommended to choose based on transaction risk.",
+      "keywords": [
+        "Back-to-Back Letter of Credit",
+        "Transferable Letter of Credit",
+        "Security",
+        "Flexibility"
+      ],
+      "category": "Payment Methods",
+      "tags": [
+        "Letter of Credit",
+        "Back-to-Back",
+        "Transferability"
+      ]
+    },
+    {
+      "qa_id": "QA-018",
+      "question": "What are the differences between a red clause and a green clause letter of credit?",
+      "question_type": "Comparative Analysis",
+      "answer": "A Red Clause L/C imposes strict restrictions on the beneficiary, requiring all documents to fully comply with terms; any discrepancy can result in refusal. A Green Clause L/C has looser requirements, allowing minor discrepancies, with banks handling flexibly. Main differences: 1) Strictness: Red Clause is strict and inflexible; Green Clause is loose and flexible; 2) Rejection risk: Red Clause has high rejection risk; Green Clause has low risk; 3) Applicable scenarios: Red Clause for uncertain buyer credit; Green Clause for good buyer credit. It is recommended sellers choose based on buyer credit.",
+      "keywords": [
+        "Red Clause Letter of Credit",
+        "Green Clause Letter of Credit",
+        "Strictness",
+        "Rejection Risk"
+      ],
+      "category": "Payment Methods",
+      "tags": [
+        "Letter of Credit",
+        "Clause Type",
+        "Rejection Risk"
+      ]
+    },
+    {
+      "qa_id": "QA-019",
+      "question": "What are the differences between a commercial invoice and a proforma invoice?",
+      "question_type": "Comparative Analysis",
+      "answer": "A Commercial Invoice is a formal invoice issued after the transaction, containing goods details, price, payment terms, serving as an accounting voucher. A Proforma Invoice is an estimated invoice issued by the seller before the transaction for the buyer to confirm the order. Main differences: 1) Function: Proforma confirms the order; Commercial settles payment; 2) Legal validity: Proforma has no legal validity; Commercial has legal validity; 3) Price nature: Proforma is estimated, may change; Commercial is final; 4) Payment request: Proforma usually requests prepayment; Commercial settles per L/C or O/A. It is recommended to clarify invoice types in the contract.",
+      "keywords": [
+        "Commercial Invoice",
+        "Proforma Invoice",
+        "Legal Validity",
+        "Usage Scenarios"
+      ],
+      "category": "Documentation Requirements",
+      "tags": [
+        "Invoice",
+        "Proforma Invoice",
+        "Commercial Invoice"
+      ]
+    },
+    {
+      "qa_id": "QA-020",
+      "question": "What are the differences between a packing list and a weight list?",
+      "question_type": "Comparative Analysis",
+      "answer": "A Packing List details packaging conditions, including name, quantity, packaging method, gross/net weight, volume, marks, etc. A Weight List only lists total weight, without detailed packaging. Main differences: 1) Detail level: Packing list is detailed, facilitating customs inspection; Weight list is simple, only for weight verification; 2) Applicable scenarios: Packing list for all imports/exports; Weight list for goods charged by weight; 3) Production requirements: Packing list needs detailed packaging info; Weight list only needs weight. It is recommended to provide both to meet different needs.",
+      "keywords": [
+        "Packing List",
+        "Weight List",
+        "Information Detail",
+        "Applicable Scenarios"
+      ],
+      "category": "Documentation Requirements",
+      "tags": [
+        "Packing List",
+        "Weight List",
+        "Document Comparison"
+      ]
+    },
+    {
+      "qa_id": "QA-021",
+      "question": "What are the differences between a clean bill of lading and an unclean bill of lading?",
+      "question_type": "Comparative Analysis",
+      "answer": "A Clean Bill of Lading has no adverse remarks like 'surface stained' or 'packaging damaged'. An Unclean Bill of Lading (Claused B/L) contains such remarks. Main differences: 1) Appearance condition: Clean B/L implies good condition; Unclean B/L implies potential issues; 2) Cargo damage risk: Clean B/L has lower risk; Unclean B/L has higher risk; 3) Disputes: Clean B/L has fewer disputes; Unclean B/L easily leads to disputes. Suggestion: Clean B/L is more favorable to the seller; ensure good packaging to obtain it.",
+      "keywords": [
+        "Clean Bill of Lading",
+        "Unclean Bill of Lading",
+        "Appearance Condition",
+        "Cargo Damage Risk"
+      ],
+      "category": "Documentation Requirements",
+      "tags": [
+        "Bill of Lading",
+        "Clean Bill of Lading",
+        "Unclean Bill of Lading"
+      ]
+    },
+    {
+      "qa_id": "QA-022",
+      "question": "What are the differences between a shipped on board B/L and a received for shipment B/L?",
+      "question_type": "Comparative Analysis",
+      "answer": "A Shipped on Board B/L is issued after goods are actually loaded, with date and captain's signature, proving loading. A Received for Shipment B/L is issued when goods are received but not yet loaded, without a loading date. Main differences: 1) Loading proof: Shipped B/L proves actual loading; Received B/L only proves receipt; 2) Legal validity: Shipped B/L is stronger as a document of title; 3) Applicable scenarios: Shipped B/L for L/C negotiation; Received B/L for O/A. It is recommended to choose based on business needs.",
+      "keywords": [
+        "Shipped on Board B/L",
+        "Received for Shipment B/L",
+        "Loading Proof",
+        "Legal Validity"
+      ],
+      "category": "Documentation Requirements",
+      "tags": [
+        "Bill of Lading",
+        "Shipped Bill of Lading",
+        "Received Bill of Lading"
+      ]
+    },
+    {
+      "qa_id": "QA-023",
+      "question": "What are the differences between an original bill of lading and a copy bill of lading?",
+      "question_type": "Comparative Analysis",
+      "answer": "An Original Bill of Lading is the one handed to the bank or buyer, with carrier signature and shipping company seal, used for L/C negotiation. A Copy Bill of Lading is a photocopy used for retention or other procedures. Main differences: 1) Usage: Original for bank negotiation; Copy for buyer retention; 2) Quantity: Usually one original, multiple copies; 3) Legal validity: Both have the same legal validity; 4) Importance: Original is most important, copy is backup. It is recommended to make multiple copies for the buyer.",
+      "keywords": [
+        "Original Bill of Lading",
+        "Copy Bill of Lading",
+        "Usage",
+        "Quantity"
+      ],
+      "category": "Documentation Requirements",
+      "tags": [
+        "Bill of Lading",
+        "Original Bill of Lading",
+        "Copy Bill of Lading"
+      ]
+    },
+    {
+      "qa_id": "QA-024",
+      "question": "What are the differences between a straight bill of lading and an order bill of lading?",
+      "question_type": "Comparative Analysis",
+      "answer": "A Straight Bill of Lading specifies the consignee's name, who claims goods with the B/L. An Order Bill of Lading (or To Order B/L) writes 'To Order' or 'To Order of Bank', not specifying the consignee, determined by bank or buyer instruction. Main differences: 1) Privacy: Order B/L protects consignee privacy; Straight B/L does not; 2) Flexibility: Straight B/L is non-negotiable; Order B/L is negotiable via endorsement; 3) Applicable scenarios: Order B/L for large orders; Straight B/L for small orders; 4) Risk: Order B/L has lower seller risk; Straight B/L has higher risk. It is recommended to choose based on order amount and privacy needs.",
+      "keywords": [
+        "Straight Bill of Lading",
+        "Order Bill of Lading",
+        "Privacy Protection",
+        "Transferability"
+      ],
+      "category": "Documentation Requirements",
+      "tags": [
+        "Bill of Lading",
+        "Straight Bill of Lading",
+        "Order Bill of Lading"
+      ]
+    },
+    {
+      "qa_id": "QA-025",
+      "question": "What are the differences between an order bill of lading and a blank endorsed order bill of lading?",
+      "question_type": "Comparative Analysis",
+      "answer": "An Order Bill of Lading specifies the consignee or destination; the bank pays directly to the consignee. A Blank Endorsed Order Bill of Lading writes 'To Order', allowing the bank or buyer to designate the consignee later. Main differences: 1) Control: Order B/L gives control to bank/buyer; Blank Endorsed is more flexible; 2) Security: Blank Endorsed is more secure; 3) Applicable scenarios: Order B/L when consignee is uncertain; Blank Endorsed when determined; 4) Seller risk: Blank Endorsed has lower risk. It is recommended to choose based on consignee certainty.",
+      "keywords": [
+        "Order Bill of Lading",
+        "Blank Endorsed Order Bill of Lading",
+        "Control Right",
+        "Security"
+      ],
+      "category": "Documentation Requirements",
+      "tags": [
+        "Bill of Lading",
+        "Order Bill of Lading",
+        "Blank Endorsement"
+      ]
+    },
+    {
+      "qa_id": "QA-026",
+      "question": "What are the differences between a long form bill of lading and a short form bill of lading?",
+      "question_type": "Comparative Analysis",
+      "answer": "A Long Form Bill of Lading contains all terms and conditions, including detailed description, price, weight, volume, terms, payment conditions. A Short Form Bill of Lading contains only basic info like name, quantity, weight. Main differences: 1) Detail level: Long form is detailed and comprehensive; Short form is brief; 2) Complexity: Long form is complex; Short form is simple; 3) Applicable scenarios: Long form for large complex transactions; Short form for small simple ones; 4) Production cost: Long form is higher; Short form is lower. It is recommended to choose based on transaction complexity.",
+      "keywords": [
+        "Long Form Bill of Lading",
+        "Short Form Bill of Lading",
+        "Content Detail",
+        "Production Cost"
+      ],
+      "category": "Documentation Requirements",
+      "tags": [
+        "Bill of Lading",
+        "Long Form Bill of Lading",
+        "Short Form Bill of Lading"
+      ]
+    },
+    {
+      "qa_id": "QA-027",
+      "question": "What are the differences between an ocean bill of lading and an air waybill?",
+      "question_type": "Comparative Analysis",
+      "answer": "An Ocean Bill of Lading is for sea transport, issued by the shipping company. An Air Waybill is for air transport, issued by the airline. Main differences: 1) Transport mode: Ocean for sea; Air for air; 2) Issuer: Ocean by shipping company; Air by airline; 3) Applicable goods: Ocean for bulk, liquids; Air for high-value, fragile, urgent goods; 4) Time: Ocean is longer; Air is shorter; 5) Freight: Ocean is lower; Air is higher. It is recommended to choose based on goods characteristics, urgency, and budget.",
+      "keywords": [
+        "Ocean Bill of Lading",
+        "Air Waybill",
+        "Transport Mode",
+        "Applicable Goods"
+      ],
+      "category": "Documentation Requirements",
+      "tags": [
+        "Bill of Lading",
+        "Sea Transport",
+        "Air Transport",
+        "Transport Mode"
+      ]
+    },
+    {
+      "qa_id": "QA-028",
+      "question": "What are the differences between a rail waybill and a road waybill?",
+      "question_type": "Comparative Analysis",
+      "answer": "A Rail Waybill is for rail transport, issued by the railway department. A Road Waybill (CMR) is for road transport, issued by the freight company. Main differences: 1) Transport mode: Rail for railway; Road for highway; 2) Issuer: Rail by railway dept; Road by freight company; 3) Applicable scenarios: Rail for bulk, inland transport; Road for short-distance, flexible distribution; 4) Time: Rail may be longer; Road is flexible; 5) Freight calculation: Rail by weight/volume; Road by mileage. It is recommended to choose based on distance, goods, and urgency.",
+      "keywords": [
+        "Rail Waybill",
+        "Road Waybill",
+        "Transport Mode",
+        "Applicable Scenarios"
+      ],
+      "category": "Documentation Requirements",
+      "tags": [
+        "Waybill",
+        "Rail",
+        "Road",
+        "Transport Mode"
+      ]
+    },
+    {
+      "qa_id": "QA-029",
+      "question": "What are the differences between a multimodal transport bill of lading and a single transport bill of lading?",
+      "question_type": "Comparative Analysis",
+      "answer": "A Multimodal Transport Bill of Lading is used when goods are transported by two or more modes (e.g., sea+land). A Single Transport Bill of Lading is for one mode. Main differences: 1) Transport mode: Multimodal for complex scenarios; Single for simple; 2) Process complexity: Multimodal involves multiple carriers, complex process; Single involves one carrier; 3) Risk division: Multimodal has higher risk, requires clear liability; Single has lower risk; 4) Document requirements: Multimodal needs to satisfy multiple mode requirements. It is recommended to choose based on transport needs.",
+      "keywords": [
+        "Multimodal Transport Bill of Lading",
+        "Single Transport Bill of Lading",
+        "Transport Mode",
+        "Process Complexity"
+      ],
+      "category": "Documentation Requirements",
+      "tags": [
+        "Bill of Lading",
+        "Multimodal Transport",
+        "Single Transport"
+      ]
+    },
+    {
+      "qa_id": "QA-030",
+      "question": "What basic documents need to be prepared for import customs declaration?",
+      "question_type": "Process Operation",
+      "answer": "Import customs declaration usually requires: 1) Commercial Invoice: detailing name, quantity, price, currency, terms, payment; 2) Packing List: packaging, name, quantity, gross/net weight, volume, marks; 3) Bill of Lading/Air Waybill: ship name/flight, ports, freight; 4) Contract: trade contract; 5) Certificate of Origin: for tariff preference; 6) Import License: if applicable. It is recommended to confirm the list beforehand to avoid omissions.",
+      "keywords": [
+        "Customs Declaration",
+        "Documents",
+        "Import",
+        "Basic Documents",
+        "Commercial Invoice"
+      ],
+      "category": "Customs Procedures",
+      "tags": [
+        "Customs Declaration",
+        "Document Preparation",
+        "Import Declaration"
+      ]
+    },
+    {
+      "qa_id": "QA-031",
+      "question": "What is the basic process for import customs declaration?",
+      "question_type": "Process Operation",
+      "answer": "The basic process: 1) Document preparation: invoice, packing list, B/L, contract; 2) Declaration: submit declaration to customs with HS code, quantity, value; 3) Inspection: customs inspects goods based on risk control; 4) Tax payment: pay tariffs and VAT based on tax bills; 5) Release: customs releases goods after tax payment; 6) Pickup: extract goods after release. Usually takes 1-3 working days. Recommend preparing documents early and using correct HS codes.",
+      "keywords": [
+        "Customs Declaration",
+        "Process",
+        "Declaration",
+        "Inspection",
+        "Tax Payment",
+        "Release"
+      ],
+      "category": "Customs Procedures",
+      "tags": [
+        "Import Declaration",
+        "Declaration Process",
+        "Customs Inspection"
+      ]
+    },
+    {
+      "qa_id": "QA-032",
+      "question": "What is the basic process for export customs declaration?",
+      "question_type": "Process Operation",
+      "answer": "The basic process: 1) Document preparation: invoice, packing list, B/L, contract, origin certificate; 2) Declaration: submit documents; 3) Inspection: customs inspects goods; 4) Tax payment: pay export tariff if applicable; 5) Release: customs releases goods; 6) Shipment: goods loaded onto vessel. Takes 1-2 working days. Recommend confirming destination requirements and accurate documentation.",
+      "keywords": [
+        "Customs Declaration",
+        "Process",
+        "Declaration",
+        "Inspection",
+        "Tax Payment",
+        "Release"
+      ],
+      "category": "Customs Procedures",
+      "tags": [
+        "Export Declaration",
+        "Declaration Process",
+        "Customs Inspection"
+      ]
+    },
+    {
+      "qa_id": "QA-033",
+      "question": "How to query the HS code of goods?",
+      "question_type": "Process Operation",
+      "answer": "Methods to query HS codes: 1) Official materials: Import/Export Tariff Schedule, classification decisions; 2) Customs tools: online classification query systems; 3) Consult customs: apply for advance ruling for difficult cases; 4) Reference cases: similar product classifications; 5) Professional help: consult customs brokers or classifiers. Accurate HS code is vital; errors may lead to back taxes or fines. Recommend double-checking important goods.",
+      "keywords": [
+        "HS Code",
+        "Classification",
+        "Query Methods",
+        "Advance Ruling"
+      ],
+      "category": "Customs Procedures",
+      "tags": [
+        "HS Code",
+        "Product Classification",
+        "Customs Classification"
+      ]
+    },
+    {
+      "qa_id": "QA-034",
+      "question": "How to apply for a certificate of origin?",
+      "question_type": "Process Operation",
+      "answer": "Process: 1) Confirm goods meet origin rules (e.g., RVC 40%); 2) Prepare proof: product description, process flow, material list; 3) Apply to issuing body (CCPIT, Chamber of Commerce); 4) Approval: body issues certificate after review; 5) Usage: submit certificate at declaration for tariff preference. Recommend understanding target market rules and preparing materials early.",
+      "keywords": [
+        "Certificate of Origin",
+        "RCEP",
+        "FTA",
+        "Tariff Preference",
+        "Application Process"
+      ],
+      "category": "Customs Procedures",
+      "tags": [
+        "Certificate of Origin",
+        "Tariff Preference",
+        "Application Process"
+      ]
+    },
+    {
+      "qa_id": "QA-035",
+      "question": "How to apply for an import license?",
+      "question_type": "Process Operation",
+      "answer": "Process: 1) Check if required (Import License Management Catalogue); 2) Prepare materials: business qualification, application report, contract, product specs; 3) Fill application form; 4) Submit to issuing authority; 5) Await approval; 6) Collect license; 7) Use at declaration. Recommend confirming requirements early and allowing time for approval.",
+      "keywords": [
+        "Import License",
+        "License",
+        "Application Process",
+        "Issuing Authority"
+      ],
+      "category": "Customs Procedures",
+      "tags": [
+        "Import License",
+        "License Application",
+        "Import Permission"
+      ]
+    },
+    {
+      "qa_id": "QA-036",
+      "question": "What are the common reasons for customs inspection?",
+      "question_type": "Process Operation",
+      "answer": "Common reasons: 1) HS code issues: errors or ambiguity; 2) Price issues: declared too low or high; 3) Quantity discrepancies; 4) Document issues: incomplete or incorrect; 5) Sensitive goods: monitored or controlled items; 6) Risk control: high-risk goods flagged by system; 7) Random checks; 8) Tip-offs. Recommend truthful declaration and complete documents to avoid delays.",
+      "keywords": [
+        "Inspection Reasons",
+        "HS Code",
+        "Price Declaration",
+        "Document Issues",
+        "Control"
+      ],
+      "category": "Customs Procedures",
+      "tags": [
+        "Customs Inspection",
+        "Inspection Reasons",
+        "Declaration Risk"
+      ]
+    },
+    {
+      "qa_id": "QA-037",
+      "question": "How long does customs inspection take?",
+      "question_type": "Process Operation",
+      "answer": "Time varies: 1) X-ray: 1-2 hours; 2) Manual inspection: 1-3 days; 3) Container opening: 1-2 days; 4) Lab testing: 3-7 days; 5) Special cases: longer if samples needed; 6) Green lane: low risk, ~1 day. Recommend planning logistics based on urgency.",
+      "keywords": [
+        "Inspection Time",
+        "X-ray Inspection",
+        "Manual Inspection",
+        "Green Lane"
+      ],
+      "category": "Customs Procedures",
+      "tags": [
+        "Customs Inspection",
+        "Inspection Time",
+        "Clearance Time"
+      ]
+    },
+    {
+      "qa_id": "QA-038",
+      "question": "How to handle customs inspections?",
+      "question_type": "Process Operation",
+      "answer": "Recommendations: 1) Prepare in advance: complete supplementary documents; 2) Cooperate actively: respond timely to requests; 3) Communicate: explain doubts to customs; 4) Facilitate: provide convenient conditions for inspection; 5) Problem solving: rectify issues if found; 6) Record keeping: save records for improvement. Good cooperation speeds up clearance.",
+      "keywords": [
+        "Inspection",
+        "Handling Measures",
+        "Cooperate with Customs",
+        "Record Keeping"
+      ],
+      "category": "Customs Procedures",
+      "tags": [
+        "Customs Inspection",
+        "Inspection Cooperation",
+        "Clearance Efficiency"
+      ]
+    },
+    {
+      "qa_id": "QA-039",
+      "question": "What are the consequences of failing customs inspection?",
+      "question_type": "Process Operation",
+      "answer": "Consequences: 1) Delay: goods detained, affecting delivery; 2) Extra costs: storage, demurrage fees; 3) Back taxes: tariff, VAT, late fees; 4) Administrative penalty: fines; 5) Credit impact: lower credit rating, higher future inspection rate; 6) Goods disposal: confiscation for severe violations. Recommend truthful declaration and active cooperation.",
+      "keywords": [
+        "Inspection Failure",
+        "Consequences",
+        "Clearance Delay",
+        "Administrative Penalty"
+      ],
+      "category": "Customs Procedures",
+      "tags": [
+        "Customs Inspection",
+        "Inspection Consequences",
+        "Compliance Risk"
+      ]
+    },
+    {
+      "qa_id": "QA-040",
+      "question": "How to avoid customs inspections?",
+      "question_type": "Process Operation",
+      "answer": "Measures: 1) Accurate declaration: correct HS code, price, quantity; 2) Complete documents: all required paperwork; 3) Know the rules: customs regulations; 4) Low risk choice: green lane for compliant traders; 5) Pre-communicate: consult customs for difficult items; 6) History: maintain good import/export record. Avoidance speeds up clearance and lowers costs.",
+      "keywords": [
+        "Avoid Inspection",
+        "Accurate Declaration",
+        "Complete Documents",
+        "Green Lane"
+      ],
+      "category": "Customs Procedures",
+      "tags": [
+        "Customs Inspection",
+        "Avoid Inspection",
+        "Declaration Optimization"
+      ]
+    },
+    {
+      "qa_id": "QA-041",
+      "question": "What are the basic steps for opening a letter of credit?",
+      "question_type": "Process Operation",
+      "answer": "Steps: 1) Sign contract: buyer and seller sign trade contract; 2) Apply: buyer applies to issuing bank; 3) Submit materials: contract, import license; 4) Bank review: checks buyer qualification and transaction authenticity; 5) Amend terms: adjust if needed, confirmed by both; 6) Issuance: bank issues L/C; 7) Notify beneficiary: bank notifies seller. Takes 1-2 weeks. Recommend preparing materials early.",
+      "keywords": [
+        "Letter of Credit",
+        "L/C",
+        "Opening Process",
+        "Bank Review"
+      ],
+      "category": "Payment Process",
+      "tags": [
+        "Letter of Credit",
+        "Opening Process",
+        "Bank Issuance"
+      ]
+    },
+    {
+      "qa_id": "QA-042",
+      "question": "How long does L/C document examination take?",
+      "question_type": "Process Operation",
+      "answer": "Time varies: 1) Standard: 1-2 working days for simple L/C; 2) Complex: 3-5 days; 3) High risk: longer; 4) Holidays extend time; 5) Expedited: available for extra fee. Recommend confirming time with bank to avoid delays.",
+      "keywords": [
+        "Letter of Credit",
+        "Examination Time",
+        "Bank Review",
+        "Holidays"
+      ],
+      "category": "Payment Process",
+      "tags": [
+        "Letter of Credit",
+        "Examination Time",
+        "Bank Review"
+      ]
+    },
+    {
+      "qa_id": "QA-043",
+      "question": "What to do if an L/C discrepancy leads to refusal?",
+      "question_type": "Process Operation",
+      "answer": "Handling: 1) Analyze discrepancy: read refusal notice; 2) Evaluate: judge if reasonable and fixable; 3) Correct documents: amend and resubmit if possible; 4) Communicate: negotiate with issuing bank if disputed; 5) Backup plan: prepare other payment methods; 6) Professional help: consult bank or lawyer. Recommend pre-judging discrepancy risks.",
+      "keywords": [
+        "Letter of Credit",
+        "Discrepancy",
+        "Refusal",
+        "Discrepancy Handling"
+      ],
+      "category": "Payment Process",
+      "tags": [
+        "Letter of Credit",
+        "Discrepancy",
+        "Refusal Handling"
+      ]
+    },
+    {
+      "qa_id": "QA-044",
+      "question": "What is the L/C negotiation process?",
+      "question_type": "Process Operation",
+      "answer": "Negotiation involves the bank purchasing drafts/documents from the beneficiary. Process: 1) Draft sent: issuing bank sends draft; 2) Negotiation: beneficiary submits documents to negotiating bank; 3) Review: bank checks documents; 4) Payment: bank pays beneficiary (usually with recourse). Recommend ensuring documents are compliant.",
+      "keywords": [
+        "Letter of Credit",
+        "Negotiation",
+        "Issuing Bank",
+        "Term Negotiation"
+      ],
+      "category": "Payment Process",
+      "tags": [
+        "Letter of Credit",
+        "Negotiation Process",
+        "Term Negotiation"
+      ]
+    },
+    {
+      "qa_id": "QA-045",
+      "question": "How to choose a suitable issuing bank?",
+      "question_type": "Process Operation",
+      "answer": "Factors: 1) Reputation: internationally known, good standing; 2) Fees: issuance, amendment, notification fees; 3) Service quality: speed, professionalism, network; 4) Network: presence in target market; 5) Expertise: industry knowledge; 6) Negotiation ability: flexibility; 7) History: past cooperation. Recommend comprehensive evaluation.",
+      "keywords": [
+        "Issuing Bank",
+        "Selection Criteria",
+        "Bank Reputation",
+        "Service Quality"
+      ],
+      "category": "Payment Process",
+      "tags": [
+        "Letter of Credit",
+        "Issuing Bank",
+        "Bank Selection"
+      ]
+    },
+    {
+      "qa_id": "QA-046",
+      "question": "What are the precautions for L/C document submission?",
+      "question_type": "Process Operation",
+      "answer": "Precautions: 1) Consistency: all documents must match L/C terms; 2) Timeliness: submit within validity; 3) Completeness: full set of originals; 4) Accuracy: no spelling/number errors; 5) Cleanliness: no adverse remarks; 6) Format: meets bank requirements; 7) Method: bank system or courier; 8) Records: keep copies. Recommend using a checklist.",
+      "keywords": [
+        "Letter of Credit",
+        "Document Submission",
+        "Document Consistency",
+        "Document Cleanliness"
+      ],
+      "category": "Payment Process",
+      "tags": [
+        "Letter of Credit",
+        "Submission Precautions",
+        "Document Requirements"
+      ]
+    },
+    {
+      "qa_id": "QA-047",
+      "question": "How to handle an expired letter of credit?",
+      "question_type": "Process Operation",
+      "answer": "Handling depends on bank rules: 1) Auto-extension: some banks extend 3-6 months; 2) Amendment/Cancellation: beneficiary applies, bank approves; 3) Unused cancellation: bank cancels automatically; 4) Early repayment: apply if applicable; 5) Overdue fees: high interest/penalties may apply. Recommend planning ahead to avoid expiry.",
+      "keywords": [
+        "Letter of Credit",
+        "Expiry Handling",
+        "Auto Extension",
+        "Overdue Fees"
+      ],
+      "category": "Payment Process",
+      "tags": [
+        "Letter of Credit",
+        "Expiry Handling",
+        "L/C Extension"
+      ]
+    },
+    {
+      "qa_id": "QA-048",
+      "question": "What is the specific process for T/T remittance?",
+      "question_type": "Process Operation",
+      "answer": "Process: 1) Choose bank: one with forex privileges; 2) Fill application: beneficiary info, amount, purpose; 3) Forex purchase: buy forex at current rate; 4) Fill memo: state purpose; 5) Submit: give application to bank; 6) Bank review: bank checks and executes; 7) Notify seller: bank confirms transfer. Recommend choosing reliable banks with reasonable fees.",
+      "keywords": [
+        "T/T",
+        "Telegraphic Transfer",
+        "Process",
+        "Bank Review"
+      ],
+      "category": "Payment Process",
+      "tags": [
+        "Telegraphic Transfer",
+        "Remittance Process",
+        "Bank Review"
+      ]
+    },
+    {
+      "qa_id": "QA-049",
+      "question": "What is the process for O/A (Open Account) transactions?",
+      "question_type": "Process Operation",
+      "answer": "Process: 1) Agreement: buyer and seller agree on O/A terms; 2) Shipment: seller ships, sends documents; 3) Submit documents: seller submits invoice to bank; 4) Notification: bank notifies seller, credit period starts; 5) Reminder: bank reminds buyer before due date; 6) Payment: buyer pays; 7) Settlement: bank pays seller. Recommend clear terms and record keeping.",
+      "keywords": [
+        "O/A",
+        "Open Account",
+        "Shipment",
+        "Credit Period"
+      ],
+      "category": "Payment Process",
+      "tags": [
+        "Open Account",
+        "O/A",
+        "Payment Process"
+      ]
+    },
+    {
+      "qa_id": "QA-050",
+      "question": "How to choose a suitable payment method?",
+      "question_type": "Process Operation",
+      "answer": "Factors: 1) Amount: Large amounts favor L/C for security; small amounts favor T/T for speed. 2) Buyer credit: New/uncertain buyers -> L/C; Established/good credit -> O/A, D/A. 3) Frequency: Frequent trade -> convenient methods; One-off -> secure methods. 4) Cash flow: Seller needs cash fast -> quick payment; Buyer has pressure -> flexible payment. 5) Risk tolerance: Low tolerance -> safe methods. Recommend comprehensive assessment.",
+      "keywords": [
+        "Payment Method",
+        "Selection Criteria",
+        "Transaction Amount",
+        "Buyer Credit"
+      ],
+      "category": "Payment Process",
+      "tags": [
+        "Payment Methods",
+        "Payment Selection",
+        "Risk Management"
+      ]
+    },
+    {
+      "qa_id": "QA-051",
+      "question": "How to apply for cross-border e-commerce import commodity filing?",
+      "question_type": "Process Category",
+      "answer": "Process: 1) Enterprise registration: complete e-commerce enterprise filing at customs; 2) Commodity info: prepare name, specs, brand, origin; 3) Submit application: via Single Window; 4) Customs review: checks info and materials; 5) Approval: receive filing number; 6) Listing: goods can be sold. Note: Filing must be done before listing. Valid for 1 year after import.",
+      "keywords": [
+        "Cross-border E-commerce",
+        "Commodity Filing",
+        "Single Window",
+        "Customs Review"
+      ],
+      "category": "Cross-border E-commerce",
+      "tags": [
+        "Commodity Filing",
+        "Import Process",
+        "Customs Filing"
+      ]
+    },
+    {
+      "qa_id": "QA-052",
+      "question": "How to handle intellectual property complaints in cross-border e-commerce?",
+      "question_type": "Response Category",
+      "answer": "Process: 1) Receive complaint: from platform or rights holder; 2) Verify: check if infringement exists; 3) Delist: remove product if infringing; 4) Appeal: prepare evidence if non-infringing; 5) Contact rights holder: seek settlement or license; 6) Legal advice: consult lawyer if needed; 7) Improve: strengthen selection review. Recommend establishing IP review mechanisms.",
+      "keywords": [
+        "Intellectual Property",
+        "Infringement Complaint",
+        "Delist Product",
+        "Appeal Handling"
+      ],
+      "category": "Intellectual Property",
+      "tags": [
+        "Cross-border E-commerce",
+        "Infringement Handling",
+        "Legal Protection"
+      ]
+    },
+    {
+      "qa_id": "QA-053",
+      "question": "How to calculate the total cost of cross-border e-commerce goods?",
+      "question_type": "Knowledge Category",
+      "answer": "Calculation: 1) Procurement cost; 2) International freight; 3) Tariff; 4) VAT (13%); 5) Consumption tax (if applicable); 6) Platform fees (commission, ads); 7) Operation costs (warehousing, labor); 8) Others (insurance, returns, exchange loss). Total Cost = Procurement + Freight + Tariff + VAT + Tax + Platform + Ops + Others. Accurate costing is key to pricing and profit.",
+      "keywords": [
+        "Cost Calculation",
+        "Procurement Cost",
+        "Freight",
+        "Tax Cost",
+        "Platform Fees"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Cost Accounting",
+        "Profit Analysis"
+      ]
+    },
+    {
+      "qa_id": "QA-054",
+      "question": "What mandatory certification documents are required for imported food?",
+      "question_type": "Regulation Category",
+      "answer": "Documents: 1) Official health certificate from origin; 2) Certificate of origin; 3) Test report (pesticides, heavy metals, microbes); 4) Nutrition facts table; 5) Allergen info; 6) Chinese label filing proof; 7) Enterprise filing proof; 8) Overseas manufacturer registration. Special categories like meat/dairy need specific quarantine licenses.",
+      "keywords": [
+        "Imported Food",
+        "Mandatory Certification",
+        "Health Certificate",
+        "Label Filing"
+      ],
+      "category": "Food Import",
+      "tags": [
+        "Compliance Documents",
+        "Food Safety",
+        "Qualification Certification"
+      ]
+    },
+    {
+      "qa_id": "QA-055",
+      "question": "How to handle return customs clearance for cross-border e-commerce goods?",
+      "question_type": "Operation Category",
+      "answer": "Process: 1) Consumer applies for return; 2) Merchant confirms; 3) Fill return declaration; 4) Contact customs for return filing; 5) Provide original import declaration number; 6) Customs approval allows return overseas; 7) Must apply within 30 days of release. Note: Taxed goods need tax refund processing; used goods usually not accepted.",
+      "keywords": [
+        "Cross-border E-commerce",
+        "Return Clearance",
+        "Return Declaration",
+        "Customs Review"
+      ],
+      "category": "Cross-border E-commerce",
+      "tags": [
+        "Return Process",
+        "Customs Formalities",
+        "After-sales Service"
+      ]
+    },
+    {
+      "qa_id": "QA-056",
+      "question": "How is the customs inspection rate calculated?",
+      "question_type": "Knowledge Category",
+      "answer": "It is a dynamic risk assessment based on: 1) Enterprise credit (AEOs have lower rates); 2) HS code accuracy; 3) Commodity risk level; 4) Trade country; 5) Declared price rationality; 6) Logistics route; 7) Historical violations. General rate is 3%-10%, specific categories may exceed 30%.",
+      "keywords": [
+        "Inspection Rate",
+        "Risk Assessment",
+        "Enterprise Credit",
+        "Commodity Risk"
+      ],
+      "category": "Customs Supervision",
+      "tags": [
+        "Risk Calculation",
+        "Supervision Policy",
+        "Credit Management"
+      ]
+    },
+    {
+      "qa_id": "QA-057",
+      "question": "How to respond to anti-dumping investigations on exported goods?",
+      "question_type": "Response Category",
+      "answer": "Strategies: 1) Form professional team (lawyer, accountant); 2) Fill questionnaire with cost/price info; 3) Prepare financial records as evidence; 4) Apply for market economy status; 5) Strive for individual rate; 6) Coordinate with industry associations; 7) Adjust export strategy; 8) Administrative review if necessary. Quick response and cooperation are key.",
+      "keywords": [
+        "Anti-dumping",
+        "Investigation Response",
+        "Rate Application",
+        "Market Adjustment"
+      ],
+      "category": "Trade Remedy",
+      "tags": [
+        "Anti-dumping Duty",
+        "Appeal Protection",
+        "Market Strategy"
+      ]
+    },
+    {
+      "qa_id": "QA-058",
+      "question": "What is the difference between a bonded warehouse and a general trade warehouse?",
+      "question_type": "Comparison Category",
+      "answer": "Differences: 1) Supervision: Bonded warehouses are under special customs supervision (tax deferred); General warehouses are tax-paid. 2) Tax policy: Bonded goods pay tax upon exit; General goods pay tax upon entry. 3) Usage: Bonded for display, e-commerce, transit; General for domestic sales. 4) Process: Bonded requires customs declaration; General is more flexible. 5) Cost: Bonded has higher op costs but lower capital lock-up; General is opposite.",
+      "keywords": [
+        "Bonded Warehouse",
+        "General Trade Warehouse",
+        "Supervision Mode",
+        "Tax Policy"
+      ],
+      "category": "Warehousing Logistics",
+      "tags": [
+        "Warehouse Type",
+        "Tax Difference",
+        "Usage Scenario"
+      ]
+    },
+    {
+      "qa_id": "QA-059",
+      "question": "How to apply for AEO Advanced Certification?",
+      "question_type": "Process Category",
+      "answer": "Process: 1) Self-assessment against standards; 2) Prepare materials (internal control, finance, compliance, security); 3) Submit to local customs; 4) Customs file review; 5) On-site audit; 6) Publicity of result; 7) Certificate issuance (valid 3 years). Cycle: 3-6 months. Recommend starting preparation 6 months early.",
+      "keywords": [
+        "AEO Certification",
+        "Advanced Certification",
+        "Application Process",
+        "Customs Certification"
+      ],
+      "category": "Qualification Certification",
+      "tags": [
+        "Enterprise Credit",
+        "Customs Facilitation",
+        "Certification Standards"
+      ]
+    },
+    {
+      "qa_id": "QA-060",
+      "question": "How to determine origin rules for imported machinery?",
+      "question_type": "Regulation Category",
+      "answer": "Methods: 1) Wholly obtained: produced entirely in one country; 2) Substantial transformation: process changes HS code; 3) Value-added: domestic value reaches percentage (usually 35%-50%); 4) Processing procedure: specific process causes transformation; 5) Check FTA rules; 6) Prepare origin proof (Form A/E); 7) Note 1-year validity. Correct determination yields tariff reductions.",
+      "keywords": [
+        "Origin Rules",
+        "Substantial Transformation",
+        "Value Percentage",
+        "Origin Proof"
+      ],
+      "category": "Origin",
+      "tags": [
+        "Rule Determination",
+        "Tariff Reduction",
+        "Trade Agreement"
+      ]
+    },
+    {
+      "qa_id": "QA-061",
+      "question": "What is the difference between Cross-border E-commerce B2B Direct Export (9710) and B2B Export to Overseas Warehouse (9810)?",
+      "question_type": "Comparison Category",
+      "answer": "Differences: 1) Mode: 9710 is direct transaction between enterprises; 9810 exports to overseas warehouse first, then sells. 2) Logistics: 9710 direct shipment; 9810 involves two legs. 3) Code: 9710 is one-time declaration; 9810 is segmented supervision. 4) Scenario: 9710 for wholesale; 9810 for localized distribution. 5) Tax: Both enjoy e-commerce benefits, but 9810 has warehouse costs.",
+      "keywords": [
+        "Cross-border E-commerce",
+        "9710",
+        "9810",
+        "Export Mode"
+      ],
+      "category": "Cross-border E-commerce",
+      "tags": [
+        "Customs Code",
+        "Export Mode",
+        "Logistics Difference"
+      ]
+    },
+    {
+      "qa_id": "QA-062",
+      "question": "How to conduct quality appraisal for import commodity disputes?",
+      "question_type": "Operation Category",
+      "answer": "Process: 1) Collect evidence (samples, packaging, reports); 2) Agree on third-party agency; 3) Define testing plan; 4) Sampling and sealing; 5) Testing per standards; 6) Issue report; 7) Negotiate or litigate based on result. Note: Fees usually borne by liable party. Define dispute mechanism in contract.",
+      "keywords": [
+        "Quality Dispute",
+        "Quality Appraisal",
+        "Third-party Testing",
+        "Dispute Resolution"
+      ],
+      "category": "Quality Management",
+      "tags": [
+        "Quality Dispute",
+        "Test Report",
+        "Legal Protection"
+      ]
+    },
+    {
+      "qa_id": "QA-063",
+      "question": "What vouchers are needed for export tax rebate declaration?",
+      "question_type": "Regulation Category",
+      "answer": "Vouchers: 1) Export Declaration Form (rebate copy); 2) Export Invoice; 3) VAT Special Invoice (deduction copy); 4) Verification form (if applicable); 5) Agent export proof; 6) Re-export tax payment proof; 7) Processing invoice; 8) Other tax bureau requirements. Must be true, complete, consistent. Deadline: Before April 30 of the following year.",
+      "keywords": [
+        "Export Tax Rebate",
+        "Declaration Vouchers",
+        "VAT Invoice",
+        "Declaration Form"
+      ],
+      "category": "Export Tax Rebate",
+      "tags": [
+        "Rebate Declaration",
+        "Tax Vouchers",
+        "Policy Regulation"
+      ]
+    },
+    {
+      "qa_id": "QA-064",
+      "question": "How to apply for a customs classification advance ruling?",
+      "question_type": "Process Category",
+      "answer": "Process: 1) Confirm goods not yet imported; 2) Prepare materials (specs, composition, use, photos); 3) Submit application to direct customs; 4) Customs technical review; 5) Issuance of ruling; 6) Validity: 3 years. Fee: ~800 CNY. Time: 60-90 days. Ruling is binding nationally.",
+      "keywords": [
+        "Classification Advance Ruling",
+        "HS Classification",
+        "Ruling Application",
+        "Customs Review"
+      ],
+      "category": "Classification Recognition",
+      "tags": [
+        "Compliance Risk",
+        "Code Determination",
+        "Application Process"
+      ]
+    },
+    {
+      "qa_id": "QA-065",
+      "question": "What special procedures are required for importing hazardous chemicals?",
+      "question_type": "Regulation Category",
+      "answer": "Procedures: 1) Safety info publicity (Chinese label, SDS); 2) Registration certificate; 3) Test report; 4) Compliant packaging; 5) Transport filing; 6) Warehouse license; 7) Emergency plan. Non-compliance results in import ban and penalties.",
+      "keywords": [
+        "Hazardous Chemicals",
+        "Safety Info",
+        "SDS",
+        "Emergency Filing"
+      ],
+      "category": "Hazardous Chemicals",
+      "tags": [
+        "Dangerous Goods Import",
+        "Safety Supervision",
+        "Compliance Procedures"
+      ]
+    },
+    {
+      "qa_id": "QA-066",
+      "question": "How to respond to customs price questioning?",
+      "question_type": "Response Category",
+      "answer": "Strategies: 1) Proof materials: invoice, contract, payment, insurance, freight; 2) Comparable price info; 3) Explain pricing strategy; 4) Cost breakdown; 5) Price consultation if needed; 6) Administrative review if disputed. Key: Truthful declaration with commercial rationale and evidence.",
+      "keywords": [
+        "Price Questioning",
+        "Customs Valuation",
+        "Price Proof",
+        "Price Consultation"
+      ],
+      "category": "Customs Valuation",
+      "tags": [
+        "Price Dispute",
+        "Valuation Response",
+        "Evidence Preparation"
+      ]
+    },
+    {
+      "qa_id": "QA-067",
+      "question": "How to obtain a preferential certificate of origin under FTAs?",
+      "question_type": "Process Category",
+      "answer": "Process: 1) Confirm origin rules; 2) Prepare materials (exporter declaration, invoice, B/L, product details); 3) Apply to issuing body (CCPIT/Customs); 4) Electronic or paper application; 5) Issuance after review; 6) Validity: 1 year; 7) Use for tariff reduction. Notes: Apply within 30 days before or after export; no alterations; info must match declaration.",
+      "keywords": [
+        "FTA",
+        "Certificate of Origin",
+        "Preferential Tariff",
+        "Issuing Body"
+      ],
+      "category": "Origin",
+      "tags": [
+        "Tariff Reduction",
+        "Agreement Trade",
+        "Certificate Processing"
+      ]
+    },
+    {
+      "qa_id": "QA-068",
+      "question": "What are the list restrictions for cross-border e-commerce imports?",
+      "question_type": "Regulation Category",
+      "answer": "Restrictions: 1) Positive list: only listed goods allowed (food, supplements, cosmetics, etc.); 2) Single transaction limit: 5000 CNY; 3) Annual limit: 26000 CNY; 4) Prohibited goods; 5) Restricted goods (special rules); 6) Single item limit: 2000 CNY (excess treated as general trade); 7) Labeling: Chinese label required. Excess/Non-listed goods follow general trade rules.",
+      "keywords": [
+        "Cross-border E-commerce",
+        "Positive List",
+        "Transaction Limit",
+        "Import Restriction"
+      ],
+      "category": "Cross-border E-commerce",
+      "tags": [
+        "Import Policy",
+        "List Management",
+        "Limit Regulation"
+      ]
+    },
+    {
+      "qa_id": "QA-069",
+      "question": "How are port demurrage charges calculated?",
+      "question_type": "Knowledge Category",
+      "answer": "Rules: 1) Free period: 7-10 days for general cargo; 3-5 days for special cargo; 2) Container free time: 7-14 days; 3) Rates: ~50-100 CNY/day for 20ft, 100-150 for 40ft; 4) Progressive rates after free time; 5) Special equipment higher; 6) Holidays may affect; 7) Port differences. Recommend timely pickup and appointment.",
+      "keywords": [
+        "Demurrage",
+        "Free Storage Period",
+        "Free Time",
+        "Port Charges"
+      ],
+      "category": "Port Logistics",
+      "tags": [
+        "Port Charges",
+        "Logistics Cost",
+        "Time Management"
+      ]
+    },
+    {
+      "qa_id": "QA-070",
+      "question": "How to file intellectual property rights for exported goods?",
+      "question_type": "Process Category",
+      "answer": "Process: 1) Trademark registration; 2) Patent registration; 3) Copyright registration; 4) Customs filing: record IP info with Customs; 5) Proof documents; 6) Fee: 800 CNY/item; 7) Validity: 10 years for trademark/patent. After filing, Customs can detain suspected infringing goods.",
+      "keywords": [
+        "Intellectual Property",
+        "Customs Filing",
+        "Trademark Patent",
+        "Copyright Registration"
+      ],
+      "category": "Intellectual Property",
+      "tags": [
+        "IP Protection",
+        "Infringement Prevention",
+        "Customs Protection"
+      ]
+    },
+    {
+      "qa_id": "QA-071",
+      "question": "How is the annual cross-border e-commerce individual quota calculated and managed?",
+      "question_type": "Knowledge Category",
+      "answer": "Management: 1) Limit: 26000 CNY/year; 2) Accumulation: all cross-border purchases; 3) Query: via Customs or public service platform; 4) Sharing: same ID across platforms; 5) Excess: treated as general trade with full tax; 6) Reset: Jan 1 annually; 7) Transfer: not allowed. Recommend planning purchases.",
+      "keywords": [
+        "Annual Quota",
+        "26000 CNY",
+        "Quota Query",
+        "Limit Management"
+      ],
+      "category": "Cross-border E-commerce",
+      "tags": [
+        "Individual Quota",
+        "Policy Regulation",
+        "Tax Burden Management"
+      ]
+    },
+    {
+      "qa_id": "QA-072",
+      "question": "Do exported electromechanical products require 3C certification?",
+      "question_type": "Regulation Category",
+      "answer": "Requirements: 1) Domestic sales: Yes, mandatory; 2) Export: Usually no Chinese 3C needed, but must meet destination requirements (CE, UL, etc.); 3) Special cases: Some countries may accept 3C as reference; 4) Conversion: 3C may simplify other certifications; 5) Consultation: verify destination requirements. Note: 3C is mandatory for domestic sales.",
+      "keywords": [
+        "3C Certification",
+        "Electromechanical Products",
+        "Export Certification",
+        "Target Market"
+      ],
+      "category": "Product Certification",
+      "tags": [
+        "Mandatory Certification",
+        "Export Compliance",
+        "International Certification"
+      ]
+    },
+    {
+      "qa_id": "QA-073",
+      "question": "How to handle failed inspection and quarantine for imported goods?",
+      "question_type": "Response Category",
+      "answer": "Handling: 1) Isolation on site; 2) Sampling for lab test; 3) Notify enterprise; 4) Rectification (return, destroy, treat); 5) Request re-inspection if disputed; 6) Administrative penalty; 7) Credit impact. Severe cases (epidemics, contraband) lead to entry ban and legal action.",
+      "keywords": [
+        "Inspection and Quarantine",
+        "Failure Handling",
+        "Return Destroy",
+        "Administrative Penalty"
+      ],
+      "category": "Inspection and Quarantine",
+      "tags": [
+        "Quarantine Compliance",
+        "Emergency Handling",
+        "Risk Management"
+      ]
+    },
+    {
+      "qa_id": "QA-074",
+      "question": "What are the pros and cons of cross-border e-commerce overseas warehouses?",
+      "question_type": "Comparison Category",
+      "answer": "Pros: 1) Fast delivery (1-3 days); 2) Lower freight; 3) Better customer experience; 4) Flexible marketing; 5) Avoid peak season jams. Cons: 1) High capital lock-up; 2) Inventory risk; 3) High op costs; 4) Complex compliance; 5) Policy risk. Suitable for stable markets and best-sellers.",
+      "keywords": [
+        "Overseas Warehouse",
+        "Pros and Cons",
+        "Logistics Speed",
+        "Capital Occupation"
+      ],
+      "category": "Warehousing Logistics",
+      "tags": [
+        "Overseas Warehouse Operation",
+        "Cost Analysis",
+        "Risk Management"
+      ]
+    },
+    {
+      "qa_id": "QA-075",
+      "question": "How to calculate FOB, CIF, and CFR prices?",
+      "question_type": "Knowledge Category",
+      "answer": "Calculation: 1) FOB = Cost + Domestic fees + Profit; 2) CFR = FOB + International freight; 3) CIF = CFR + Insurance; 4) Insurance = CIF × Rate × (1+10%); 5) Domestic fees: packing, inland transport, customs clearance; 6) Freight: weight/volume/lane; 7) Profit: usually 5%-15%. Recommend clarifying price structure in contract.",
+      "keywords": [
+        "Trade Terms",
+        "FOB",
+        "CIF",
+        "CFR"
+      ],
+      "category": "Trade Terms",
+      "tags": [
+        "Price Calculation",
+        "Trade Cost",
+        "International Trade"
+      ]
+    },
+    {
+      "qa_id": "QA-076",
+      "question": "What procedures are required for the return of exported goods?",
+      "question_type": "Process Category",
+      "answer": "Process: 1) Confirm reason; 2) Sign return agreement; 3) Prepare documents (original export declaration); 4) Apply to customs; 5) Customs review; 6) Pay tax if refunded previously; 7) Goods return; 8) Re-export or domestic sale. Note: Apply within 1 year of original release.",
+      "keywords": [
+        "Export Return",
+        "Return Declaration",
+        "Customs Review",
+        "Tax Repayment"
+      ],
+      "category": "Return Process",
+      "tags": [
+        "Return Procedures",
+        "Customs Regulation",
+        "Compliant Operation"
+      ]
+    },
+    {
+      "qa_id": "QA-077",
+      "question": "What are the differences between cross-border e-commerce supervision codes 9610, 1210, and 1239?",
+      "question_type": "Comparison Category",
+      "answer": "Differences: 9610 (Direct Purchase Import): Direct shipment from overseas, uses postal tax. 1210 (Bonded E-commerce): Goods stored in bonded warehouse, shipped upon order, uses cross-border tax. 1239 (Bonded E-commerce A): Similar to 1210 but limited to pilot cities like Zhengzhou. Key difference: 9610 is direct mail, 1210/1239 are bonded; 1210 and 1239 differ by city scope.",
+      "keywords": [
+        "9610",
+        "1210",
+        "1239",
+        "Supervision Code"
+      ],
+      "category": "Cross-border E-commerce",
+      "tags": [
+        "Customs Code",
+        "Supervision Mode",
+        "Import Method"
+      ]
+    },
+    {
+      "qa_id": "QA-078",
+      "question": "What special proof documents are required for imported cosmetics?",
+      "question_type": "Regulation Category",
+      "answer": "Documents: 1) NMPA filing (general cosmetics); 2) Approval number (special cosmetics like sunscreen/whitening); 3) Origin certificate; 4) Free sale certificate; 5) Manufacturer hygiene license; 6) Full ingredient list; 7) Toxicology assessment; 8) Chinese label draft; 9) Test report; 10) Agency agreement. Filing takes 3-6 months.",
+      "keywords": [
+        "Imported Cosmetics",
+        "NMPA Filing",
+        "Special Use",
+        "Safety Assessment"
+      ],
+      "category": "Cosmetics",
+      "tags": [
+        "Cosmetics Import",
+        "Product Filing",
+        "Safety Proof"
+      ]
+    },
+    {
+      "qa_id": "QA-079",
+      "question": "How to manage export credit risk?",
+      "question_type": "Response Category",
+      "answer": "Strategies: 1) Credit investigation; 2) Strict contract; 3) Safe payment (L/C); 4) Credit insurance (SINOSURE); 5) Control credit limit; 6) Track receivables; 7) Legal action if needed. Credit risk management is vital.",
+      "keywords": [
+        "Credit Risk",
+        "Credit Investigation",
+        "Credit Insurance",
+        "Payment Security"
+      ],
+      "category": "Credit Management",
+      "tags": [
+        "Risk Control",
+        "Receivables",
+        "Insurance Protection"
+      ]
+    },
+    {
+      "qa_id": "QA-080",
+      "question": "What are the methods for cross-border payment?",
+      "question_type": "Knowledge Category",
+      "answer": "Methods: 1) International wire (SWIFT): large amount, higher fee, 2-5 days; 2) L/C: bank guarantee; 3) Collection: commercial credit, high risk; 4) Third-party (PayPal, Payoneer): fast, ~1-3% fee; 5) RMB settlement: avoids forex risk; 6) Crypto: compliance issues; 7) Local payment. Choice depends on amount, security, speed, cost.",
+      "keywords": [
+        "Cross-border Payment",
+        "Wire Transfer",
+        "Letter of Credit",
+        "Third-party Payment"
+      ],
+      "category": "Cross-border Payment",
+      "tags": [
+        "Payment Methods",
+        "Fund Security",
+        "International Settlement"
+      ]
+    },
+    {
+      "qa_id": "QA-081",
+      "question": "How to correct an error in customs classification for imported goods?",
+      "question_type": "Operation Category",
+      "answer": "Process: 1) Self-discovery: apply voluntarily; 2) Prepare materials (original declaration, correct classification basis); 3) Submit correction application; 4) Customs review; 5) Pay tax or get refund; 6) Mitigate credit impact; 7) Prevent recurrence. If customs finds it, penalties apply.",
+      "keywords": [
+        "Classification Error",
+        "Correction Application",
+        "Customs Review",
+        "Tax Repayment"
+      ],
+      "category": "Classification Recognition",
+      "tags": [
+        "Declaration Correction",
+        "Compliance Rectification",
+        "Risk Management"
+      ]
+    },
+    {
+      "qa_id": "QA-082",
+      "question": "What are the benefits of the RCEP agreement for cross-border e-commerce?",
+      "question_type": "Knowledge Category",
+      "answer": "Benefits: 1) Tariff reduction: >90% goods zero tariff; 2) Simplified origin rules: regional accumulation; 3) Trade facilitation: simpler clearance; 4) E-commerce chapter: consumer protection; 5) Lower logistics cost; 6) Market access: 30% of global GDP/population; 7) IP protection. Enterprises should leverage RCEP.",
+      "keywords": [
+        "RCEP",
+        "Tariff Reduction",
+        "Origin Rules",
+        "E-commerce Chapter"
+      ],
+      "category": "Trade Agreement",
+      "tags": [
+        "Free Trade Agreement",
+        "Market Opportunity",
+        "Cost Reduction"
+      ]
+    },
+    {
+      "qa_id": "QA-083",
+      "question": "How do cross-border e-commerce enterprises conduct tax registration?",
+      "question_type": "Process Category",
+      "answer": "Process: 1) Business license; 2) Tax registration; 3) E-commerce filing; 4) Bank account; 5) E-port filing (IC card); 6) Tax type verification; 7) Invoice application; 8) Regular filing. Recommend consulting a tax professional.",
+      "keywords": [
+        "Tax Registration",
+        "E-commerce Filing",
+        "Business License",
+        "E-port"
+      ],
+      "category": "Tax Management",
+      "tags": [
+        "Enterprise Setup",
+        "Tax Compliance",
+        "Administrative Procedures"
+      ]
+    },
+    {
+      "qa_id": "QA-084",
+      "question": "What are the key audit points for export tax rebates?",
+      "question_type": "Knowledge Category",
+      "answer": "Points: 1) Document consistency; 2) Transaction authenticity; 3) Forex verification; 4) Invoice compliance; 5) Qualification; 6) Timeline; 7) Goods attribute; 8) Related-party transactions. Tax authorities focus on high-risk/large amounts.",
+      "keywords": [
+        "Export Tax Rebate",
+        "Audit Points",
+        "Document Consistency",
+        "Forex Verification"
+      ],
+      "category": "Export Tax Rebate",
+      "tags": [
+        "Rebate Compliance",
+        "Tax Audit",
+        "Risk Management"
+      ]
+    },
+    {
+      "qa_id": "QA-085",
+      "question": "How to review labels for imported goods?",
+      "question_type": "Operation Category",
+      "answer": "Process: 1) Identify product category; 2) Prepare draft (Chinese & Original); 3) Check against standards; 4) Key points: name, ingredients, nutrition, dates, origin, dealer, warnings; 5) Filing; 6) On-site check; 7) Rectification. Recommend completing review before import.",
+      "keywords": [
+        "Label Review",
+        "Chinese Label",
+        "Food Safety",
+        "Compliance Check"
+      ],
+      "category": "Label Management",
+      "tags": [
+        "Label Compliance",
+        "Product Filing",
+        "Regulatory Requirement"
+      ]
+    },
+    {
+      "qa_id": "QA-086",
+      "question": "How is cross-border e-commerce import tax calculated?",
+      "question_type": "Knowledge Category",
+      "answer": "Calculation: 1) Comprehensive tax = Tariff + VAT + Consumption tax. Simplified: (Price + Freight + Insurance) × Rate. 2) Rate: Tariff 0%, VAT 9.1% (70% of 13%), Consumption tax varies. 3) Example: 110 × 9.1% = 10.01. 4) Limit: <5000 single, <26000 annual. 5) Excess: General trade rules apply.",
+      "keywords": [
+        "Cross-border E-commerce",
+        "Comprehensive Tax",
+        "Rate Calculation",
+        "Annual Limit"
+      ],
+      "category": "Cross-border E-commerce",
+      "tags": [
+        "Tax Policy",
+        "Tax Calculation",
+        "Limit Regulation"
+      ]
+    },
+    {
+      "qa_id": "QA-087",
+      "question": "How to choose the most favorable trade agreement for export goods?",
+      "question_type": "Knowledge Category",
+      "answer": "Method: 1) Identify partner agreements; 2) Compare tariff rates; 3) Check origin rules; 4) Validity; 5) Apply for certificate; 6) Analyze total cost; 7) Track updates. Recommend using Customs databases.",
+      "keywords": [
+        "Trade Agreement",
+        "Preferential Rate",
+        "Origin Rules",
+        "Tariff Reduction"
+      ],
+      "category": "Trade Agreement",
+      "tags": [
+        "Agreement Selection",
+        "Cost Strategy",
+        "Market Expansion"
+      ]
+    },
+    {
+      "qa_id": "QA-088",
+      "question": "What is the registration process for imported medical devices?",
+      "question_type": "Process Category",
+      "answer": "Process: 1) Classify risk (I, II, III); 2) Appoint agent; 3) Prepare materials (tech file, clinical eval, risk analysis, QMS, label); 4) Submit to NMPA; 5) Technical review; 6) QMS audit; 7) Approval; 8) Post-market supervision. Cycle: I (3-6 mo), II (6-12 mo), III (1-2 yr).",
+      "keywords": [
+        "Medical Device",
+        "NMPA Registration",
+        "Risk Classification",
+        "Technical Review"
+      ],
+      "category": "Medical Devices",
+      "tags": [
+        "Medical Device Import",
+        "Registration Process",
+        "Regulatory Requirement"
+      ]
+    },
+    {
+      "qa_id": "QA-089",
+      "question": "How to select products for cross-border e-commerce platforms?",
+      "question_type": "Operation Category",
+      "answer": "Strategy: 1) Market research; 2) Data tools (Google Trends, Jungle Scout); 3) Profit analysis; 4) Compliance assessment; 5) Differentiation; 6) Supply chain audit; 7) Test sales; 8) Continuous optimization. Product selection is core competitiveness.",
+      "keywords": [
+        "Product Selection Strategy",
+        "Market Research",
+        "Data Tools",
+        "Profit Analysis"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Selection Method",
+        "Data Analysis"
+      ]
+    },
+    {
+      "qa_id": "QA-090",
+      "question": "What is the operation process for export letters of credit?",
+      "question_type": "Process Category",
+      "answer": "Process: 1) Sign contract (L/C payment); 2) Buyer applies to bank; 3) Bank notifies seller; 4) Seller reviews L/C; 5) Shipment and document prep; 6) Negotiation; 7) Buyer pays to retrieve documents; 8) Buyer picks up goods. Secure but complex.",
+      "keywords": [
+        "Letter of Credit",
+        "Issuance",
+        "Negotiation",
+        "Document Review"
+      ],
+      "category": "Payment Methods",
+      "tags": [
+        "International Settlement",
+        "Bank Credit",
+        "Trade Finance"
+      ]
+    },
+    {
+      "qa_id": "QA-091",
+      "question": "How to optimize logistics costs for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Strategies: 1) Choose optimal mode (Sea/Air/Rail); 2) Consolidate shipments; 3) Optimize packaging; 4) Use overseas warehouses; 5) Integrate logistics providers; 6) Manage inventory; 7) Tariff planning; 8) Dynamic monitoring. Logistics is 30-40% of cost.",
+      "keywords": [
+        "Logistics Cost",
+        "Transport Mode",
+        "Overseas Warehouse",
+        "Packaging Optimization"
+      ],
+      "category": "Logistics Management",
+      "tags": [
+        "Cost Control",
+        "Supply Chain Optimization",
+        "Logistics Strategy"
+      ]
+    },
+    {
+      "qa_id": "QA-092",
+      "question": "How to handle returns and exchanges for imported goods?",
+      "question_type": "Operation Category",
+      "answer": "Process: 1) Confirm reason; 2) Negotiate solution (refund/replace/repair); 3) Return clearance if back to overseas; 4) Tax refund/repayment; 5) Replacement import; 6) Determine liability; 7) Cost allocation; 8) Record management.",
+      "keywords": [
+        "Returns and Exchanges",
+        "Return Process",
+        "Tax Refund",
+        "Liability"
+      ],
+      "category": "After-sales Management",
+      "tags": [
+        "Return Handling",
+        "Customer Service",
+        "Process Management"
+      ]
+    },
+        {
+      "qa_id": "QA-093",
+      "question": "What content is generally checked during a customs audit?",
+      "question_type": "Knowledge Category",
+      "answer": "Customs audit inspection content includes: 1) Document consistency: consistency between the declaration, invoice, contract, and bill of lading; 2) Price truthfulness: whether the declared price is real and if there is under-reporting; 3) Classification accuracy: whether the product tariff classification is accurate; 4) Origin compliance: whether the certificate of origin is authentic and valid; 5) Quantity verification: consistency between actual import/export quantities and declarations; 6) Internal controls: whether internal management is standardized and documents are completely preserved; 7) Financial audit: whether financial data matches import/export business; 8) Intellectual property: whether goods infringe on IP rights. Audits generally trace back import/export business within 3 years; violations will be handled according to law.",
+      "keywords": [
+        "Customs Audit",
+        "Document Review",
+        "Price Truthfulness",
+        "Classification Accuracy"
+      ],
+      "category": "Customs Supervision",
+      "tags": [
+        "Compliance Check",
+        "Risk Control",
+        "Audit Content"
+      ]
+    },
+    {
+      "qa_id": "QA-094",
+      "question": "How to conduct market research for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Cross-border e-commerce market research methods: 1) Target market selection: analyze market size, growth potential, competition level, and regulatory environment; 2) Consumer profiling: analyze target user age, gender, income, habits, and preferences; 3) Competitor analysis: research competitor products, prices, marketing strategies, and user reviews; 4) Data analysis: use tools like Google Analytics, SimilarWeb to analyze traffic and behavior; 5) Surveys: conduct market research via platforms like SurveyMonkey; 6) Social media: follow trends and hot topics in target markets; 7) Field visits: visit the local market environment if necessary; 8) Continuous tracking: update information regularly and track changes. Market research is the foundation for successfully expanding overseas.",
+      "keywords": [
+        "Market Research",
+        "Consumer Analysis",
+        "Competitor Research",
+        "Data Analysis"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Market Analysis",
+        "Data Tools"
+      ]
+    },
+    {
+      "qa_id": "QA-095",
+      "question": "How to handle certificate of origin for export goods?",
+      "question_type": "Process Category",
+      "answer": "Process for export goods certificate of origin: 1) Confirm applicable agreement: determine the applicable trade agreement based on destination; 2) Prepare materials: commercial invoice, B/L, product details, production records; 3) Online declaration: log in to the Single Window or issuing authority website; 4) Fill certificate info: exporter, importer, goods description, transport method, origin standard; 5) Submit for review: submit application to the issuing authority; 6) Collect certificate: receive electronic or paper certificate after approval; 7) Submit to buyer: send certificate to importer for clearance and tariff preference; 8) Certificate management: retain stubs for verification. Common certificates include GSP Form A, ASEAN Form E, etc.",
+      "keywords": [
+        "Certificate of Origin",
+        "Origin Certificate",
+        "Issuing Authority",
+        "Tariff Preference"
+      ],
+      "category": "Origin",
+      "tags": [
+        "Export Documents",
+        "Tariff Reduction",
+        "Trade Agreement"
+      ]
+    },
+    {
+      "qa_id": "QA-096",
+      "question": "What proof documents are required for importing pet food?",
+      "question_type": "Regulation Category",
+      "answer": "Import pet food document requirements: 1) MOA Registration: apply for 'Registration Certificate for Imported Feed and Feed Additives' from the Ministry of Agriculture; 2) Certificate of origin: official certificate from origin country; 3) Health certificate: official health certificate proving compliance with hygiene standards; 4) Ingredient analysis: detailed list of ingredients and nutritional indicators; 5) Test report: third-party reports on heavy metals, microorganisms, prohibited substances; 6) Production license: overseas manufacturer must be registered with China Customs; 7) Chinese label: compliant with 'Regulations on Feed and Feed Additives'; 8) Sales certificate: Certificate of Free Sales from origin country. Import is prohibited without a registration certificate.",
+      "keywords": [
+        "Pet Food",
+        "Import Registration",
+        "Health Certificate",
+        "Test Report"
+      ],
+      "category": "Food Import",
+      "tags": [
+        "Pet Supplies",
+        "Feed Import",
+        "Compliance Documents"
+      ]
+    },
+    {
+      "qa_id": "QA-097",
+      "question": "How to choose a logistics service provider for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Key points for choosing a provider: 1) Service scope: covers target market, provides first-leg, clearance, warehousing, last-mile delivery; 2) Timeliness: promised and actual transit times; 3) Price competitiveness: comprehensive cost of freight, clearance, storage; 4) Clearance capability: professional team familiar with destination regulations; 5) Tracking service: real-time tracking and customer service; 6) Security: cargo safety measures and insurance; 7) Technical capability: WMS API integration, automatic order processing; 8) Reputation: customer reviews and industry reputation. Recommend comparing 3-5 providers and testing small batches before long-term cooperation.",
+      "keywords": [
+        "Logistics Service Provider",
+        "Clearance Capability",
+        "Timeliness Guarantee",
+        "Cost Comparison"
+      ],
+      "category": "Logistics Management",
+      "tags": [
+        "Provider Selection",
+        "Supply Chain Management",
+        "Service Evaluation"
+      ]
+    },
+    {
+      "qa_id": "QA-098",
+      "question": "How to handle goods detained by customs?",
+      "question_type": "Response Category",
+      "answer": "Handling process for detained goods: 1) Understand reason: ask customs about the reason (classification dispute, price doubt, suspected infringement, inspection failure); 2) Prepare proof: prepare documents based on the reason; 3) Submit appeal: submit written appeal and evidence; 4) Cooperate with investigation: provide supplementary materials or samples; 5) Negotiate solution: communicate with customs for a compliant solution; 6) Legal channels: apply for administrative reconsideration or litigation if disagreed; 7) Goods disposal: goods may be released, confiscated, returned, or destroyed; 8) Credit repair: rectify issues to restore credit. Storage fees apply during detention.",
+      "keywords": [
+        "Customs Detention",
+        "Appeal Materials",
+        "Administrative Reconsideration",
+        "Goods Disposal"
+      ],
+      "category": "Customs Supervision",
+      "tags": [
+        "Detention Response",
+        "Compliance Rectification",
+        "Legal Protection"
+      ]
+    },
+    {
+      "qa_id": "QA-099",
+      "question": "How to promote brands in cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Brand promotion strategies: 1) Social media marketing: content marketing on Facebook, Instagram, TikTok; 2) SEO: optimize for natural search rankings; 3) SEM: precise advertising like Google Ads; 4) Influencer marketing: collaborate with local KOLs; 5) Content marketing: blogs, videos providing value; 6) Email marketing: send newsletters and promotions; 7) Platform ads: use tools on Amazon, eBay; 8) Community operation: build user groups for retention; 9) Data analysis: analyze results using tools like Google Analytics. Brand promotion is a long-term investment requiring annual budget and strategy.",
+      "keywords": [
+        "Brand Promotion",
+        "Social Media",
+        "SEO",
+        "Influencer Marketing"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Digital Marketing",
+        "Brand Building"
+      ]
+    },
+    {
+      "qa_id": "QA-100",
+      "question": "How to operate the export tax rebate declaration system?",
+      "question_type": "Operation Category",
+      "answer": "Operation process: 1) Log in: access the Electronic Tax Bureau or Golden Tax System; 2) Select module: enter export tax rebate declaration; 3) Data collection: collect declaration forms, invoices, forex vouchers; 4) Data review: system checks completeness and logic; 5) Generate forms: generate 'Export Goods Tax Rebate Declaration Details'; 6) Submit: submit to tax authority; 7) Track progress: monitor audit status in real-time; 8) Receive rebate: funds transferred to enterprise account after approval; 9) Handle issues: provide supplementary materials if flagged. Recommend using professional software and backing up data.",
+      "keywords": [
+        "Export Tax Rebate",
+        "Declaration System",
+        "Electronic Tax Bureau",
+        "Golden Tax System"
+      ],
+      "category": "Export Tax Rebate",
+      "tags": [
+        "Rebate Operation",
+        "System Usage",
+        "Tax Declaration"
+      ]
+    },
+    {
+      "qa_id": "QA-101",
+      "question": "How to handle customs clearance procedures for imported cars?",
+      "question_type": "Process Category",
+      "answer": "Import car clearance process: 1) Import license: apply for 'Automatic Import License' from Ministry of Commerce; 2) 3C Certification: must comply with China Compulsory Certification; 3) Prepare documents: B/L, invoice, contract, origin certificate, technical specs, test report; 4) Declaration: submit declaration and documents to customs; 5) Pay taxes: pay tariff (based on displacement), VAT, and consumption tax; 6) Inspection: check emissions and safety standards; 7) Vehicle查验: verify VIN and configuration; 8) Release: pickup after procedures; 9) Registration: apply for license plate at vehicle management office. Note: Parallel imports must also meet CCC requirements.",
+      "keywords": [
+        "Imported Cars",
+        "Clearance Procedures",
+        "3C Certification",
+        "Automatic Import License"
+      ],
+      "category": "Car Import",
+      "tags": [
+        "Vehicle Import",
+        "License",
+        "Product Certification"
+      ]
+    },
+    {
+      "qa_id": "QA-102",
+      "question": "How to manage inventory for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Inventory management strategies: 1) Safety stock: set based on sales speed and replenishment cycle; 2) Stock alert: set thresholds for automatic replenishment alerts; 3) Classification: manage by sales speed (A/B/C classification); 4) Turnover: accelerate turnover to reduce dead stock; 5) Multi-warehouse coordination: optimize layout between overseas, bonded, and domestic warehouses; 6) Seasonal adjustment: adjust strategy based on seasonality; 7) Dead stock handling: promote, clear, or transfer slow-moving goods; 8) Data-driven: use WMS for real-time monitoring. Good management can reduce storage costs by 20%-30%.",
+      "keywords": [
+        "Inventory Management",
+        "Safety Stock",
+        "Stock Alert",
+        "Inventory Turnover"
+      ],
+      "category": "Warehousing Logistics",
+      "tags": [
+        "Cross-border E-commerce",
+        "Supply Chain Management",
+        "Cost Control"
+      ]
+    },
+    {
+      "qa_id": "QA-103",
+      "question": "How to handle a returned export tax rebate declaration?",
+      "question_type": "Response Category",
+      "answer": "Handling returned declarations: 1) Check reason: view the tax authority's explanation in the system; 2) Common reasons: incomplete documents, data errors, logic contradictions, late filing, non-receipt of forex; 3) Correction: prepare supplementary or corrected materials; 4) Modify declaration: correct data in the system; 5) Resubmit: re-submit after correction; 6) Track progress: monitor audit status; 7) Communicate: contact tax authority if complex; 8) Consult: seek help from tax agents if necessary. Timely response is key.",
+      "keywords": [
+        "Export Tax Rebate",
+        "Declaration Returned",
+        "Document Correction",
+        "Tax Communication"
+      ],
+      "category": "Export Tax Rebate",
+      "tags": [
+        "Rebate Handling",
+        "Tax Issues",
+        "Declaration Correction"
+      ]
+    },
+    {
+      "qa_id": "QA-104",
+      "question": "What procedures are required for importing alcohol?",
+      "question_type": "Process Category",
+      "answer": "Import alcohol procedures: 1) Provide origin certificate and health certificate; 2) Apply for 'Registration of Overseas Production Enterprises'; 3) Prepare Chinese label draft and file with General Administration of Customs; 4) Submit product test reports (methanol, heavy metals, plasticizers); 5) Prepare trade documents (invoice, packing list, B/L); 6) Declare import and pay taxes (Tariff ~14%-30%, VAT 13%); 7) Customs inspection and sampling; 8) Issue 'Entry-Exit Inspection and Quarantine Certificate' after passing; 9) Apply Chinese labels for sale. Note: Baijiu requires 'Liquor Circulation Filing Registration Certificate'.",
+      "keywords": [
+        "Imported Alcohol",
+        "Product Registration",
+        "Chinese Label",
+        "Inspection and Quarantine"
+      ],
+      "category": "Food Import",
+      "tags": [
+        "Alcohol Import",
+        "Product Filing",
+        "Quality Testing"
+      ]
+    },
+    {
+      "qa_id": "QA-105",
+      "question": "How to select a target market for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Selection criteria: 1) Market size: population, GDP, e-commerce penetration; 2) Spending power: disposable income, consumption habits; 3) Competition level: number of competitors and market concentration; 4) Policy environment: trade policy, tariffs, forex controls; 5) Logistics conditions: routes, speed, cost; 6) Payment habits: popular methods, credit card penetration; 7) Cultural differences: language, culture, religion; 8) Legal risks: IP protection, consumer protection laws. Suggest starting with blue ocean markets like Southeast Asia, Middle East, or Latin America.",
+      "keywords": [
+        "Target Market",
+        "Market Selection",
+        "Market Size",
+        "Competition Analysis"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Market Expansion",
+        "Strategic Planning"
+      ]
+    },
+    {
+      "qa_id": "QA-106",
+      "question": "What are the special customs supervision zones?",
+      "question_type": "Knowledge Category",
+      "answer": "Special customs supervision zones include: 1) Bonded Zone: mainly for bonded warehousing and transit trade; 2) Bonded Port Area: combines port and bonded functions; 3) Comprehensive Bonded Zone: overlapping functions, currently the main type; 4) Bonded Logistics Park: specifically for bonded logistics; 5) Export Processing Zone: for export manufacturing; 6) Cross-border Industrial Zone: 'inside the territory, outside the customs'; 7) Pilot Free Trade Zone: pilot reforms, flexible policies; 8) Hainan Free Trade Port: highest level of openness. Enterprises should choose based on business needs; cross-border e-commerce often uses Comprehensive Bonded Zones.",
+      "keywords": [
+        "Special Supervision Zones",
+        "Bonded Zone",
+        "Comprehensive Bonded Zone",
+        "Free Trade Pilot Zone"
+      ],
+      "category": "Customs Supervision",
+      "tags": [
+        "Customs Policy",
+        "Bonded Park",
+        "Functional Classification"
+      ]
+    },
+    {
+      "qa_id": "QA-107",
+      "question": "How is the export tax rebate rate determined?",
+      "question_type": "Knowledge Category",
+      "answer": "Determination method: 1) Product classification: based on HS code; 2) Policy regulations: rates set uniformly by the state; 3) Rate tiers: generally 0%, 5%, 9%, 11%, 13%, 15%, 16%, 17%, etc.; 4) Adjustments: dynamic adjustments based on industrial policy; 5) Query method: via State Taxation Administration website or declaration system; 6) Special cases: some goods have 0% rate (no rebate); 7) Difference: rebate rate may be lower than VAT rate; the difference is non-refundable. Enterprises must classify accurately to ensure correct rates.",
+      "keywords": [
+        "Export Tax Rebate",
+        "Rebate Rate",
+        "Product Classification",
+        "Policy Regulation"
+      ],
+      "category": "Export Tax Rebate",
+      "tags": [
+        "Rate Determination",
+        "Rebate Policy",
+        "Product Classification"
+      ]
+    },
+    {
+      "qa_id": "QA-108",
+      "question": "How to handle tax compliance for cross-border e-commerce?",
+      "question_type": "Regulation Category",
+      "answer": "Tax compliance points: 1) Registration: business license and tax registration; 2) Customs filing: complete enterprise filing; 3) Tax declaration: pay VAT, tariff, consumption tax as required; 4) Invoice management: issue standard invoices and retain stubs; 5) Bookkeeping: maintain complete accounting books and records; 6) Forex management: handle receipts and payments per regulations; 7) Policy tracking: stay updated on tax changes; 8) Training: regular staff training. Recommend hiring professional tax advisors to build a compliance system.",
+      "keywords": [
+        "Tax Compliance",
+        "Tax Registration",
+        "Tax Declaration",
+        "Forex Management"
+      ],
+      "category": "Tax Management",
+      "tags": [
+        "Cross-border E-commerce",
+        "Tax Risk",
+        "Compliance Management"
+      ]
+    },
+    {
+      "qa_id": "QA-109",
+      "question": "How to conduct inspection and quarantine for imported mechanical equipment?",
+      "question_type": "Process Category",
+      "answer": "Process: 1) Prepare documents: contract, invoice, B/L, specs, test reports; 2) Declaration: submit inspection application to customs; 3) On-site inspection: appearance check and quantity verification at port; 4) Sampling: lab testing for safety performance; 5) Installation testing: operational tests after installation; 6) Issue certificate: 'Entry-Exit Inspection and Quarantine Certificate' upon passing; 7) Follow-up: regular supervision during use. Note: Special equipment needs 'Special Equipment Use Registration Certificate'; used equipment needs 'Used Mechanical and Electrical Products Import Filing'.",
+      "keywords": [
+        "Mechanical Equipment",
+        "Inspection and Quarantine",
+        "Safety Performance",
+        "Test Report"
+      ],
+      "category": "Inspection and Quarantine",
+      "tags": [
+        "Equipment Import",
+        "Safety Testing",
+        "Product Certification"
+      ]
+    },
+    {
+      "qa_id": "QA-110",
+      "question": "What are the RCEP rules of origin?",
+      "question_type": "Knowledge Category",
+      "answer": "RCEP origin rules core content: 1) Wholly obtained: goods completely produced in RCEP members; 2) Substantial transformation: Change in Tariff Classification (CTC), Regional Value Content (RVC), process requirements; 3) Cumulative rules: materials from RCEP members count as originating; 4) RVC standard: generally requires 40% regional value content; 5) De minimis rule: allows small amounts of non-originating materials; 6) Certificate of origin: issued by authorized bodies, valid for 1 year; 7) Back-to-back proof: allows multiple shipments under one certificate. RCEP rules are more flexible, making it easier to qualify for preferences.",
+      "keywords": [
+        "RCEP",
+        "Rules of Origin",
+        "Regional Cumulation",
+        "Certificate of Origin"
+      ],
+      "category": "Trade Agreement",
+      "tags": [
+        "Free Trade Agreement",
+        "Tariff Preference",
+        "Rule Interpretation"
+      ]
+    },
+    {
+      "qa_id": "QA-111",
+      "question": "How to prevent fraud risks in cross-border e-commerce?",
+      "question_type": "Response Category",
+      "answer": "Prevention measures: 1) Customer verification: verify identity and payment info; 2) Address verification: check consistency of billing and shipping addresses; 3) Payment verification: use 3D Secure, CVV; 4) Order monitoring: set risk rules for amount, frequency, region; 5) Blacklist management: block suspicious customers; 6) Logistics verification: choose services with signature confirmation; 7) Insurance: purchase transaction insurance like PayPal Seller Protection; 8) Data analysis: analyze history to refine risk models. Fraud requires a multi-layered control system.",
+      "keywords": [
+        "Fraud Risk",
+        "Customer Verification",
+        "Payment Verification",
+        "Risk Rules"
+      ],
+      "category": "Risk Management",
+      "tags": [
+        "Cross-border E-commerce",
+        "Transaction Security",
+        "Risk Prevention"
+      ]
+    },
+    {
+      "qa_id": "QA-112",
+      "question": "How are customs credit ratings classified?",
+      "question_type": "Knowledge Category",
+      "answer": "Customs enterprise credit ratings: 1) Advanced Certified Enterprise (AA): highest credit, low inspection rate, facilitation, valid 3 years; 2) General Certified Enterprise (A): higher credit, moderate inspection, some facilitation; 3) General Credit Enterprise (B): default rating, standard supervision; 4) Discredited Enterprise (C): low credit, high inspection, strict supervision, restricted clearance. Certification standards include internal control, finance, compliance, trade security. Advanced certified enterprises can have inspection rates as low as 1%. Enterprises should strive for higher ratings.",
+      "keywords": [
+        "Credit Rating",
+        "Advanced Certification",
+        "Inspection Rate",
+        "Clearance Facilitation"
+      ],
+      "category": "Customs Supervision",
+      "tags": [
+        "Credit Management",
+        "Enterprise Certification",
+        "Supervision Policy"
+      ]
+    },
+    {
+      "qa_id": "QA-113",
+      "question": "How to provide customer service for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Customer service system: 1) Multilingual support: service in target market languages; 2) Omnichannel: email, chat, phone, social media; 3) Time zone coverage: 24/7 support; 4) Knowledge base: build FAQs and self-service portals; 5) Return policy: clear and strictly enforced; 6) Follow-up: proactively check satisfaction; 7) Tech support: provide usage guides and troubleshooting; 8) Localization: adapt to local culture and habits. Good service boosts retention and word-of-mouth.",
+      "keywords": [
+        "Customer Service",
+        "Multilingual",
+        "Omnichannel",
+        "Return Policy"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "After-sales Service",
+        "User Experience"
+      ]
+    },
+    {
+      "qa_id": "QA-114",
+      "question": "How to arrange insurance for export goods?",
+      "question_type": "Process Category",
+      "answer": "Insurance process: 1) Choose insurer: select reputable company or broker; 2) Determine type: FPA, WPA, All Risks, etc.; 3) Fill application: provide goods info, route, insured amount; 4) Pay premium: calculated based on value, mode, route; 5) Get policy: insurer issues the policy as proof; 6) Transfer policy: endorse to bank or buyer if needed; 7) Report loss: notify insurer immediately upon damage; 8) Claim preparation: collect proof materials for claims. Premiums are typically 0.5%-2% of cargo value.",
+      "keywords": [
+        "Cargo Insurance",
+        "Insurance Process",
+        "Insurance Policy",
+        "Claim Application"
+      ],
+      "category": "Insurance",
+      "tags": [
+        "Export Insurance",
+        "Risk Management",
+        "Cargo Transport"
+      ]
+    },
+    {
+      "qa_id": "QA-115",
+      "question": "How to conduct data analysis for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Data analysis methods: 1) Sales data: sales volume, orders, AOV, repurchase rate; 2) Product data: sales volume, conversion rate, return rate, reviews; 3) User data: demographics, location, behavior; 4) Traffic data: sources, conversion funnel, bounce rate; 5) Marketing data: ROI, CTR, CPA; 6) Inventory data: turnover, stockout rate, dead stock rate; 7) Competitive data: competitor prices, sales, strategies; 8) Forecasting: predict trends based on history. Use tools like Google Analytics or Shopify Analytics.",
+      "keywords": [
+        "Data Analysis",
+        "Sales Data",
+        "User Data",
+        "Conversion Rate"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Data-driven",
+        "Decision Support"
+      ]
+    },
+    {
+      "qa_id": "QA-116",
+      "question": "What filings are required for imported health products?",
+      "question_type": "Regulation Category",
+      "answer": "Requirements: 1) Health food filing: apply for 'Health Food Filing Certificate' from SAMR; 2) Registration or filing: choose based on product function; 3) Overseas manufacturer registration: register with GACC; 4) Provide origin certificate and health certificate; 5) Test reports: efficacy ingredients, heavy metals, microorganisms; 6) Chinese label draft: include health functions, dosage, suitable population; 7) Formula and ingredient list; 8) Manual and packaging design. Cycle is 3-6 months, valid for 5 years.",
+      "keywords": [
+        "Imported Health Products",
+        "Product Filing",
+        "Overseas Enterprise Registration",
+        "Chinese Label"
+      ],
+      "category": "Food Import",
+      "tags": [
+        "Health Food",
+        "Product Certification",
+        "Compliance Documents"
+      ]
+    },
+    {
+      "qa_id": "QA-117",
+      "question": "How to build a brand in cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Brand building strategies: 1) Positioning: define brand positioning and core value proposition; 2) Visual identity: unified logo, colors, packaging (VI); 3) Brand story: tell stories to build emotional connection; 4) Content marketing: high-quality content delivering value; 5) User reputation: encourage reviews and sharing; 6) Social media: establish brand image on local platforms; 7) KOL collaboration: work with influencers; 8) Customer experience: excellent service to enhance loyalty. Brand building is a long-term investment.",
+      "keywords": [
+        "Brand Building",
+        "Brand Positioning",
+        "Brand Story",
+        "Content Marketing"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Brand Marketing",
+        "Brand Strategy"
+      ]
+    },
+    {
+      "qa_id": "QA-118",
+      "question": "How to pick up goods after customs release?",
+      "question_type": "Operation Category",
+      "answer": "Pickup process: 1) Confirm release: verify customs release instruction; 2) Pay fees: port charges, storage, tally fees; 3) Exchange D/O: exchange B/L for Delivery Order at shipping agent; 4) Appointment: schedule with logistics/trucking company; 5) Pickup: go to designated warehouse with D/O and ID; 6) Check: verify quantity and condition; 7) Load: load goods for transport; 8) Sign: consignee signs for receipt. Note: Pickup must be within free storage period to avoid demurrage.",
+      "keywords": [
+        "Customs Release",
+        "Pickup Process",
+        "Delivery Order",
+        "Port Charges"
+      ],
+      "category": "Port Logistics",
+      "tags": [
+        "Pickup Procedures",
+        "Port Operation",
+        "Logistics Delivery"
+      ]
+    },
+    {
+      "qa_id": "QA-119",
+      "question": "How to deal with exchange rate fluctuations in cross-border e-commerce?",
+      "question_type": "Response Category",
+      "answer": "Strategies: 1) Rate lock: use forward foreign exchange contracts; 2) Currency selection: price in stable currencies; 3) Local currency pricing: transfer risk to buyer; 4) Price adjustment: dynamic pricing based on rates; 5) Diversification: accept multiple currencies; 6) Financial tools: use options or futures; 7) Shorten cycle: reduce accounts receivable period; 8) Natural hedging: match income and expense currencies. Fluctuations directly impact profit, requiring a management system.",
+      "keywords": [
+        "Exchange Rate Fluctuation",
+        "Rate Lock",
+        "Forward Contract",
+        "Risk Hedging"
+      ],
+      "category": "Risk Management",
+      "tags": [
+        "Cross-border E-commerce",
+        "Financial Risk",
+        "Exchange Rate Management"
+      ]
+    },
+    {
+      "qa_id": "QA-120",
+      "question": "How to reinforce packaging for export goods?",
+      "question_type": "Operation Category",
+      "answer": "Packaging reinforcement points: 1) Choose material: cartons, wooden cases, pallets based on goods; 2) Zoning: group same category/destination goods; 3) Weight distribution: heavy at bottom, light on top, even distribution; 4) Fill voids: use bubble wrap, foam to prevent movement; 5) Strapping: use packing straps, corner protectors, wooden bars; 6) Moisture proof: use moisture bags, desiccants; 7) Marking: clear labels for name, specs, destination, handling; 8) Photo record: take photos after packing for claims. Good reinforcement reduces damage rates significantly.",
+      "keywords": [
+        "Packaging Reinforcement",
+        "Packaging Materials",
+        "Cargo Securing",
+        "Moisture Proofing"
+      ],
+      "category": "Logistics Management",
+      "tags": [
+        "Export Packaging",
+        "Cargo Safety",
+        "Logistics Operation"
+      ]
+    },
+    {
+      "qa_id": "QA-121",
+      "question": "How to conduct multi-platform operations for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Multi-platform strategies: 1) Platform selection: choose based on market and product; 2) Product strategy: differentiate products to avoid internal competition; 3) Price strategy: set different prices for different platforms; 4) Inventory management: unified system to prevent overselling; 5) Order management: use ERP to integrate orders; 6) Customer management: unified database for marketing; 7) Data analysis: compare data across platforms; 8) Team division: assign dedicated teams per platform. Reduces dependency risk but increases management cost.",
+      "keywords": [
+        "Multi-platform Operation",
+        "Platform Selection",
+        "Product Strategy",
+        "Order Management"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Platform Management",
+        "Operation Strategy"
+      ]
+    },
+    {
+      "qa_id": "QA-122",
+      "question": "How to return goods that fail import inspection?",
+      "question_type": "Process Category",
+      "answer": "Return process: 1) Confirm failure: receive failure notice from customs/inspection agency; 2) Apply: submit return application stating reasons; 3) Prepare materials: original declaration, failure notice, return agreement; 4) Tax handling: process tax refund if taxes were paid; 5) Return declaration: fill return form stating reason; 6) Customs review: review application; 7) Shipment: load goods for return; 8) Follow-up: negotiate with supplier for return, exchange, or compensation. Application must be within 30 days of release. Severe failures may result in destruction.",
+      "keywords": [
+        "Failed Inspection Return",
+        "Return Application",
+        "Customs Review",
+        "Goods Return"
+      ],
+      "category": "Inspection and Quarantine",
+      "tags": [
+        "Return Process",
+        "Failure Handling",
+        "Customs Procedures"
+      ]
+    },
+    {
+      "qa_id": "QA-123",
+      "question": "How to plan marketing campaigns for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Campaign planning: 1) Objectives: define goals (sales, followers, clearance); 2) Theme: design attractive themes and creatives; 3) Offer scheme: discounts, bundles, gifts, free shipping; 4) Channels: select social media, email, ads; 5) Timing: choose holidays, shopping festivals; 6) Budget: detailed cost control; 7) Monitoring: real-time data monitoring; 8) Review: analyze results for optimization. Successful campaigns need careful planning, starting 1-2 months early.",
+      "keywords": [
+        "Marketing Campaign",
+        "Campaign Planning",
+        "Offer Scheme",
+        "Effect Monitoring"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Digital Marketing",
+        "Promotion Strategy"
+      ]
+    },
+    {
+      "qa_id": "QA-124",
+      "question": "How to resolve customs classification disputes?",
+      "question_type": "Response Category",
+      "answer": "Resolution paths: 1) Internal communication: explain reasoning to customs officer; 2) Submit proof: provide specs, ingredients, function details; 3) Advance ruling: apply for classification ruling; 4) Level appeal: appeal to higher customs authority; 5) Administrative reconsideration: apply to Customs General Administration; 6) Litigation: file administrative lawsuit; 7) Expert advice: consult classification experts. Disputes affect rates and regulation; handle promptly. Enterprises should strengthen classification knowledge.",
+      "keywords": [
+        "Classification Dispute",
+        "Classification Ruling",
+        "Administrative Reconsideration",
+        "Legal Protection"
+      ],
+      "category": "Classification Recognition",
+      "tags": [
+        "Classification Dispute",
+        "Dispute Resolution",
+        "Legal Channels"
+      ]
+    },
+    {
+      "qa_id": "QA-125",
+      "question": "How to conduct localized operations for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Localization strategies: 1) Language: local language for descriptions, UI, support; 2) Currency: price in local currency; 3) Content: adapt content to local culture and preferences; 4) Logistics: local warehousing and delivery; 5) Customer service: local language support; 6) Payment: support local payment methods; 7) Marketing: use local social media and channels; 8) Compliance: obey local laws. Localization improves user experience and conversion.",
+      "keywords": [
+        "Localization",
+        "Language Localization",
+        "Currency Localization",
+        "Logistics Localization"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Localization Strategy",
+        "Market Adaptation"
+      ]
+    },
+    {
+      "qa_id": "QA-126",
+      "question": "What is the time limit for export tax rebate declaration?",
+      "question_type": "Knowledge Category",
+      "answer": "Declaration time limit: 1) Basic limit: before April 30th of the following year during VAT declaration periods; 2) Special limit: within 90 days after foreign exchange collection; 3) Extension: apply for extension (max 3 months) for force majeure; 4) Consequence: late filing may result in refusal; 5) Early filing: recommend 1-2 months after export; 6) Tracking: set up reminders; 7) Preparation: prepare documents early. Enterprises should establish a process to avoid losses.",
+      "keywords": [
+        "Export Tax Rebate",
+        "Declaration Time Limit",
+        "April 30th",
+        "Declaration Reminder"
+      ],
+      "category": "Export Tax Rebate",
+      "tags": [
+        "Rebate Time Limit",
+        "Declaration Cycle",
+        "Compliance Requirement"
+      ]
+    },
+    {
+      "qa_id": "QA-127",
+      "question": "How to conduct user persona analysis for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Analysis methods: 1) Demographics: age, gender, income, education, job; 2) Geography: country, city, region; 3) Behavior: browsing, purchasing, keywords; 4) Interests: hobbies, brand preference, product preference; 5) Spending power: AOV, frequency, repurchase rate; 6) Device data: mobile/PC, OS, browser; 7) Social data: social media behavior; 8) Lifecycle: new, active, dormant, churned. Use tools like Google Analytics, Mixpanel for data.",
+      "keywords": [
+        "User Persona",
+        "Demographics",
+        "Behavior Data",
+        "Spending Analysis"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "User Analysis",
+        "Data Mining"
+      ]
+    },
+    {
+      "qa_id": "QA-128",
+      "question": "How to select suppliers for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Selection criteria: 1) Qualification: necessary production certifications; 2) Capacity: scale, capacity, equipment; 3) Quality: QC system, sample quality, reviews; 4) Price: compare for cost advantage; 5) Delivery: lead time and on-time rate; 6) Service: pre-sales/after-sales response; 7) Financial stability: avoid cooperation risks; 8) Social responsibility: environmental, labor conditions. Recommend factory audits and trial orders.",
+      "keywords": [
+        "Supplier Selection",
+        "Qualification Certification",
+        "Quality Assurance",
+        "Price Competitiveness"
+      ],
+      "category": "Supply Chain Management",
+      "tags": [
+        "Supplier Management",
+        "Procurement Strategy",
+        "Supply Chain Optimization"
+      ]
+    },
+    {
+      "qa_id": "QA-129",
+      "question": "How to handle logistics exceptions in cross-border e-commerce?",
+      "question_type": "Response Category",
+      "answer": "Exception handling process: 1) Identification: monitor system for delays, loss, damage; 2) Communication: contact logistics provider immediately; 3) Notify customer: inform of situation and solution; 4) Investigate: coordinate with provider to find cause; 5) Solution: reship, refund, or compensate; 6) Quick resolution: minimize wait time; 7) Follow-up: ensure satisfaction; 8) Record: log cases to optimize processes. Exceptions are inevitable; the key is rapid resolution.",
+      "keywords": [
+        "Logistics Exceptions",
+        "Exception Handling",
+        "Customer Communication",
+        "Problem Solving"
+      ],
+      "category": "Logistics Management",
+      "tags": [
+        "Logistics Management",
+        "Exception Response",
+        "Customer Service"
+      ]
+    },
+    {
+      "qa_id": "QA-130",
+      "question": "How to handle customs inspection exceptions?",
+      "question_type": "Response Category",
+      "answer": "Handling exceptions: 1) Understand reason: ask customs for specific cause; 2) Prepare materials: prepare supplementary proof; 3) Cooperate: assist with inspection requirements; 4) Explain: clarify business situation and declaration basis; 5) Rectify: correct declaration errors; 6) Negotiate: seek compliant solution; 7) Legal path: apply for reconsideration if disputed; 8) Improve: analyze causes to improve processes. Exceptions affect clearance time and credit rating.",
+      "keywords": [
+        "Customs Inspection",
+        "Inspection Exception",
+        "Supplementary Materials",
+        "Administrative Reconsideration"
+      ],
+      "category": "Customs Supervision",
+      "tags": [
+        "Inspection Handling",
+        "Exception Response",
+        "Compliance Rectification"
+      ]
+    },
+    {
+      "qa_id": "QA-131",
+      "question": "How to calculate costs for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Cost calculation methods: 1) Product cost: procurement and packaging; 2) Transport: international and last-mile; 3) Platform fees: commission, ads, tech fees; 4) Taxes: tariff, VAT, consumption tax; 5) Warehousing: rent, labor, management; 6) Operations: salaries, office, marketing; 7) Others: insurance, returns, exchange loss; 8) Profit: revenue minus total cost. Costing is basis for pricing. Use Excel or ERP for real-time monitoring.",
+      "keywords": [
+        "Cost Calculation",
+        "Product Cost",
+        "Transport Cost",
+        "Tax Cost"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Cost Control",
+        "Profit Analysis"
+      ]
+    },
+    {
+      "qa_id": "QA-132",
+      "question": "What are the special requirements for importing meat?",
+      "question_type": "Regulation Category",
+      "answer": "Special requirements: 1) Access list: check if exporting country is on the approved list; 2) Enterprise registration: overseas meat enterprises must be registered with China Customs; 3) Quarantine permit: apply for 'Entry Animal and Plant Quarantine Permit'; 4) Official certificates: health and quarantine certificates from origin; 5) Test reports: drug residues, heavy metals; 6) Packaging: meet 'Inspection and Quarantine Supervision Requirements for Imported Meat'; 7) Cold chain: temperature control throughout; 8) Designated port: must enter via designated ports; 9) Chinese label: origin, shelf life, etc. Non-compliant meat is refused or destroyed.",
+      "keywords": [
+        "Imported Meat",
+        "Quarantine Permit",
+        "Enterprise Registration",
+        "Cold Chain Transport"
+      ],
+      "category": "Food Import",
+      "tags": [
+        "Meat Import",
+        "Inspection and Quarantine",
+        "Access Management"
+      ]
+    },
+    {
+      "qa_id": "QA-133",
+      "question": "How to formulate a pricing strategy for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Pricing strategies: 1) Cost-based: cost plus profit margin; 2) Competition-based: price relative to competitors; 3) Value-based: price based on perceived value; 4) Psychological: use prices like 9.99; 5) Dynamic: adjust based on demand, inventory, season; 6) Localized: adjust for local purchasing power; 7) Promotional: temporary discounts; 8) Brand premium: higher prices for strong brands. Consider cost, competition, market, and brand; review regularly.",
+      "keywords": [
+        "Pricing Strategy",
+        "Cost-based Pricing",
+        "Competition-based Pricing",
+        "Dynamic Pricing"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Price Strategy",
+        "Market Pricing"
+      ]
+    },
+    {
+      "qa_id": "QA-134",
+      "question": "What are the common issues with export tax rebate declarations?",
+      "question_type": "Knowledge Category",
+      "answer": "Common issues: 1) Incomplete documents: missing declaration, invoice, contract; 2) Data errors: inconsistencies or input errors; 3) Late filing: past deadline; 4) Non-receipt of forex: forex not received or non-compliant; 5) Classification error: wrong HS code leading to wrong rate; 6) False invoices: using fake invoices (illegal); 7) Related-party transactions: pricing questioned; 8) Non-genuine business: fake trade, circular trading. Strengthen internal controls to avoid failures or penalties.",
+      "keywords": [
+        "Export Tax Rebate",
+        "Declaration Issues",
+        "Incomplete Documents",
+        "Data Errors"
+      ],
+      "category": "Export Tax Rebate",
+      "tags": [
+        "Rebate Issues",
+        "Common Errors",
+        "Risk Warning"
+      ]
+    },
+    {
+      "qa_id": "QA-135",
+      "question": "How to conduct competitor analysis for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Analysis steps: 1) Identify competitors: determine main and potential rivals; 2) Product comparison: compare specs, functions, quality; 3) Price analysis: analyze pricing and promotions; 4) Marketing strategy: study ads, content, social media; 5) User reviews: analyze feedback; 6) Traffic analysis: use tools to estimate traffic sources; 7) Sales data: estimate sales and market share; 8) SWOT: analyze strengths, weaknesses, opportunities, threats. Helps find differentiation strategies.",
+      "keywords": [
+        "Competitor Analysis",
+        "Product Comparison",
+        "Price Analysis",
+        "Marketing Strategy"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Market Analysis",
+        "Competition Analysis"
+      ]
+    },
+    {
+      "qa_id": "QA-136",
+      "question": "What are the mandatory requirements for imported food labels?",
+      "question_type": "Regulation Category",
+      "answer": "Mandatory requirements: 1) Food name: standard name; 2) Ingredient list: listed in descending order; 3) Nutrition facts: energy, protein, fat, carbs, sodium; 4) Dates: production date and shelf life; 5) Origin: country of origin; 6) Importer info: name, address, contact of importer/distributor; 7) Storage: storage conditions and instructions; 8) Allergens: potential allergens; 9) Warnings: warnings for specific groups. Must comply with GB 7718. Non-compliant labels must be rectified or destroyed.",
+      "keywords": [
+        "Food Label",
+        "Ingredient List",
+        "Nutrition Facts",
+        "Mandatory Requirements"
+      ],
+      "category": "Label Management",
+      "tags": [
+        "Food Import",
+        "Label Compliance",
+        "National Standards"
+      ]
+    },
+    {
+      "qa_id": "QA-137",
+      "question": "How to conduct email marketing for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Email marketing strategies: 1) List building: collect customer emails; 2) Segmentation: categorize by behavior/preference; 3) Content: provide value (offers, news, tips); 4) Personalization: use names/history; 5) Subject lines: optimize for open rates; 6) Timing: send at appropriate times; 7) A/B testing: test versions for optimization; 8) Compliance: obey anti-spam laws, provide unsubscribe option. Low cost and effective; a key marketing tool.",
+      "keywords": [
+        "Email Marketing",
+        "Email List",
+        "Personalization",
+        "A/B Testing"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Digital Marketing",
+        "EDM Marketing"
+      ]
+    },
+    {
+      "qa_id": "QA-138",
+      "question": "Does export tax rebate require tax payment?",
+      "question_type": "Knowledge Category",
+      "answer": "Tax rebate policy: 1) VAT: export goods enjoy zero VAT rate, refunding paid VAT; 2) Consumption tax: refunding paid consumption tax; 3) Tariff: exports generally exempt from tariffs; 4) Calculation: Rebate = (FOB price - RMB FOB price) × Refund rate; 5) Non-refundable: no valid invoice, export to non-tax-free areas; 6) Rebate vs Exemption: refund returns paid tax; exemption means no tax due; 7) Late filing: no refund if late; 8) Income tax: rebate income is enterprise income, subject to corporate income tax. A key policy to encourage exports.",
+      "keywords": [
+        "Export Tax Rebate",
+        "VAT",
+        "Consumption Tax",
+        "Zero Rate"
+      ],
+      "category": "Export Tax Rebate",
+      "tags": [
+        "Rebate Policy",
+        "Tax Incentive",
+        "VAT Refund"
+      ]
+    },
+    {
+      "qa_id": "QA-139",
+      "question": "How to conduct social media marketing for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Social media strategies: 1) Platform selection: choose main platforms (Facebook, Instagram, TikTok, YouTube) based on target market; 2) Content creation: high-quality video, images, articles; 3) Regular posting: maintain frequency and activity; 4) Interaction: reply to comments/messages; 5) Ads: precise targeting via ad systems; 6) Influencer collaboration: work with influencers; 7) Campaigns: contests, challenges to boost engagement; 8) Data analysis: analyze fans, content performance. A key channel to connect with overseas users.",
+      "keywords": [
+        "Social Media",
+        "Content Creation",
+        "Ad Placement",
+        "Influencer Collaboration"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Social Marketing",
+        "Digital Marketing"
+      ]
+    },
+    {
+      "qa_id": "QA-140",
+      "question": "How to conduct search marketing for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Search marketing strategies: 1) SEO: optimize content/structure for organic ranking; 2) Keyword research: research user search terms; 3) SEM: use Google Ads for search ads; 4) Landing page optimization: improve design/content for conversion; 5) Quality score: improve score to lower click cost; 6) A/B testing: test ad copy and landing pages; 7) Data analysis: analyze ad data/user behavior; 8) Localization: use local language/culture. High precision and conversion; key for traffic.",
+      "keywords": [
+        "Search Marketing",
+        "SEO",
+        "SEM",
+        "Keyword Research"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Digital Marketing",
+        "Search Engine Marketing"
+      ]
+    },
+    {
+      "qa_id": "QA-141",
+      "question": "How long does the audit for export tax rebate declaration take?",
+      "question_type": "Knowledge Category",
+      "answer": "Audit cycle: 1) Standard: generally 20-30 working days; 2) Fast track: 10-15 working days for A/AA enterprises; 3) High risk: up to 60 working days for C enterprises; 4) Complex cases: longer for related-party transactions or large amounts; 5) Issue verification: longer if issues need investigation; 6) Progress check: track via Electronic Tax Bureau; 7) Preparation: prepare documents early to avoid delays. Enterprises should improve credit rating for faster service.",
+      "keywords": [
+        "Export Tax Rebate",
+        "Audit Cycle",
+        "Fast Track",
+        "Credit Rating"
+      ],
+      "category": "Export Tax Rebate",
+      "tags": [
+        "Rebate Time",
+        "Audit Efficiency",
+        "Credit Management"
+      ]
+    },
+    {
+      "qa_id": "QA-142",
+      "question": "How to conduct affiliate marketing for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Affiliate marketing strategies: 1) Platform selection: choose platforms like ShareASale, CJ Affiliate; 2) Policy: set commission rates, rules, settlement cycle; 3) Recruitment: recruit quality affiliates; 4) Materials: provide ads, coupons, product info; 5) Tracking: monitor affiliate performance; 6) Incentives: extra rewards for top performers; 7) Compliance: follow platform rules; 8) Analysis: analyze ROI to optimize. Pay-for-performance model with low cost and high efficiency.",
+      "keywords": [
+        "Affiliate Marketing",
+        "Commission Policy",
+        "Affiliates",
+        "Performance Tracking"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Digital Marketing",
+        "Marketing Model"
+      ]
+    },
+    {
+      "qa_id": "QA-143",
+      "question": "How to conduct content marketing for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Content marketing strategies: 1) Planning: create a content calendar; 2) Types: blogs, videos, images, live streams; 3) Value: provide useful content (reviews, tutorials, news); 4) SEO: optimize content with keywords; 5) Distribution: distribute on website, blog, social media; 6) Interaction: encourage comments/shares; 7) Analysis: analyze performance data; 8) Updates: keep content fresh. Builds brand awareness and user stickiness.",
+      "keywords": [
+        "Content Marketing",
+        "Content Planning",
+        "SEO Optimization",
+        "User Interaction"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Digital Marketing",
+        "Content Strategy"
+      ]
+    },
+        {
+      "qa_id": "QA-144",
+      "question": "How to conduct live streaming marketing for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Live streaming marketing strategies: 1) Platform selection: choose suitable platforms like TikTok, Instagram, YouTube; 2) Host selection: choose hosts that fit the brand image and have influence; 3) Planning: plan content and flow, prepare product demos and interaction segments; 4) Product display: fully demonstrate features and usage; 5) Interaction design: design lotteries, Q&A to boost engagement; 6) Promotion scheme: set exclusive offers and limited-time discounts to stimulate conversion; 7) Technical support: ensure stable network and functioning equipment; 8) Data analysis: analyze live data and sales results to optimize strategies. Live streaming has strong interaction and high conversion rates.",
+      "keywords": [
+        "Live Streaming Marketing",
+        "Host",
+        "Interaction Design",
+        "Promotion Scheme"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Digital Marketing",
+        "Video Marketing"
+      ]
+    },
+    {
+      "qa_id": "QA-145",
+      "question": "How to conduct community marketing for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Community marketing strategies: 1) Positioning: define community positioning and target users; 2) Platform selection: choose platforms like Facebook Groups, Discord, Telegram; 3) Content planning: plan content to provide valuable information; 4) Member management: review applications to maintain quality; 5) Interaction operation: organize regular discussions, Q&A, events; 6) Rule setting: set rules to maintain a good atmosphere; 7) KOL cultivation: cultivate opinion leaders within the community; 8) Conversion guidance: recommend products and guide conversion at appropriate times. Community marketing builds loyal user groups and increases repurchase rates.",
+      "keywords": [
+        "Community Marketing",
+        "Community Positioning",
+        "Member Management",
+        "Interaction Operation"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Community Operation",
+        "User Operation"
+      ]
+    },
+    {
+      "qa_id": "QA-146",
+      "question": "What does the zero tax rate for export tax rebate mean?",
+      "question_type": "Knowledge Category",
+      "answer": "Meaning of zero tax rate: 1) Definition: zero tax rate means the VAT rate for export goods is 0%; 2) Rebate policy: export goods enjoy zero rate, refunding paid VAT; 3) Difference from exemption: zero rate means not only exemption but also refund; exemption means no tax payment without refund; 4) Tax principle: export goods consumed overseas should not be taxed domestically; 5) International practice: zero rate is a common international policy to encourage exports; 6) Scope: general trade exports, processing with imported materials, etc.; 7) Non-applicable: exports treated as domestic sales, tax-exempt exports; 8) Method: processed via 'exemption, credit, and refund' or 'exemption and refund'. Zero rate lowers costs and boosts competitiveness.",
+      "keywords": [
+        "Zero Tax Rate",
+        "VAT",
+        "Rebate Policy",
+        "Export Encouragement"
+      ],
+      "category": "Export Tax Rebate",
+      "tags": [
+        "Rebate Principle",
+        "Tax Policy",
+        "International Practice"
+      ]
+    },
+    {
+      "qa_id": "QA-147",
+      "question": "How to protect brands in cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Brand protection strategies: 1) Trademark registration: register in target market countries; 2) Copyright registration: register website content, images, videos; 3) Patent application: apply for patents on innovative products; 4) Customs filing: record IP information with customs; 5) Platform complaints: establish IP complaint channels on platforms; 6) Infringement monitoring: regularly monitor market and platforms for infringement; 7) Legal rights protection: send cease and desist letters or file lawsuits; 8) Insurance: purchase IP insurance to lower enforcement costs. Brand protection is long-term work requiring a sound IP system.",
+      "keywords": [
+        "Brand Protection",
+        "Trademark Registration",
+        "Copyright Registration",
+        "Intellectual Property Protection"
+      ],
+      "category": "Intellectual Property",
+      "tags": [
+        "Cross-border E-commerce",
+        "Intellectual Property",
+        "Brand Rights Protection"
+      ]
+    },
+    {
+      "qa_id": "QA-148",
+      "question": "How to query the export tax rebate rate?",
+      "question_type": "Operation Category",
+      "answer": "Query methods: 1) State Taxation Administration website: check the latest rebate rate library; 2) Electronic Tax Bureau: log in to the local tax bureau's online system; 3) Single Window: query via the International Trade Single Window; 4) Declaration system: auto-matched in the rebate system; 5) Consult tax authority: ask the local tax bureau; 6) Consult professionals: ask tax agents or customs brokers; 7) Classification first: determine HS code before querying the rate; 8) Track updates: rates may adjust, check regularly. Accurate query is the basis for correct declaration.",
+      "keywords": [
+        "Rebate Rate Query",
+        "State Taxation Administration",
+        "Electronic Tax Bureau",
+        "Product Classification"
+      ],
+      "category": "Export Tax Rebate",
+      "tags": [
+        "Rebate Query",
+        "Rate Information",
+        "Declaration Tool"
+      ]
+    },
+    {
+      "qa_id": "QA-149",
+      "question": "How to achieve user growth in cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "User growth strategies: 1) Traffic acquisition: acquire traffic via SEO, SEM, social media, ads; 2) Conversion optimization: optimize landing pages, shopping flow, payment experience; 3) User retention: retain users via email, SMS, push notifications; 4) Repurchase promotion: use membership, points, coupons to boost repurchase; 5) Referral mechanism: design rewards for old customers bringing new ones; 6) Data analysis: analyze behavior data to optimize strategies; 7) A/B testing: continuously test and optimize strategies; 8) Omnichannel integration: integrate online and offline channels. Growth requires multi-dimensional strategy coordination and continuous iteration.",
+      "keywords": [
+        "User Growth",
+        "Traffic Acquisition",
+        "Conversion Optimization",
+        "User Retention"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Growth Strategy",
+        "User Operation"
+      ]
+    },
+    {
+      "qa_id": "QA-150",
+      "question": "How to manage the supply chain for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Supply chain management strategies: 1) Supplier management: select quality suppliers, build long-term relationships; 2) Inventory management: optimize levels to balance stockouts and overstock; 3) Logistics planning: choose optimal solutions balancing time and cost; 4) Demand forecasting: predict sales based on historical data; 5) Information integration: use ERP or WMS to integrate info; 6) Risk management: identify risks and formulate response plans; 7) Collaboration: cooperate with suppliers and logistics partners; 8) Continuous optimization: regularly evaluate and optimize processes. Efficient supply chain management can reduce operating costs by 20%-30% and is a core competitiveness.",
+      "keywords": [
+        "Supply Chain Management",
+        "Supplier Management",
+        "Inventory Management",
+        "Logistics Planning"
+      ],
+      "category": "Supply Chain Management",
+      "tags": [
+        "Cross-border E-commerce",
+        "Supply Chain Optimization",
+        "Operational Efficiency"
+      ]
+    },
+    {
+      "qa_id": "QA-151",
+      "question": "What are common errors in export tax rebate declarations?",
+      "question_type": "Knowledge Category",
+      "answer": "Common errors: 1) Inconsistent document info: declaration, invoice, contract info does not match; 2) Classification error: wrong HS code leads to wrong rebate rate; 3) Amount error: inconsistency between upper/lower case or calculation errors; 4) Late filing: past the deadline; 5) Declaring before collection: declaring rebate before receiving forex; 6) False invoices: using fake invoices (illegal); 7) Related-party pricing: unreasonable pricing questioned; 8) Missing documents: lacking necessary declaration documents. Enterprises should strengthen training and review to avoid failures or penalties.",
+      "keywords": [
+        "Declaration Errors",
+        "Document Inconsistency",
+        "Classification Error",
+        "Late Filing"
+      ],
+      "category": "Export Tax Rebate",
+      "tags": [
+        "Rebate Errors",
+        "Common Issues",
+        "Risk Warning"
+      ]
+    },
+    {
+      "qa_id": "QA-152",
+      "question": "How to choose a data analysis platform for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Platform selection: 1) Google Analytics: free, powerful for website traffic analysis; 2) Google Data Studio: free data visualization tool; 3) Mixpanel: user behavior analysis, supports funnel and retention; 4) Amplitude: product analysis, deep user behavior insights; 5) Shopify Analytics: built-in tool for e-commerce platforms; 6) Hotjar: user behavior heatmaps and session recordings; 7) Tableau: professional data visualization tool; 8) Self-built systems: large enterprises can build custom systems. Choose based on scale, needs, and budget; multiple tools can be combined.",
+      "keywords": [
+        "Data Analysis",
+        "Google Analytics",
+        "Data Visualization",
+        "Tool Selection"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Data Tools",
+        "Platform Selection"
+      ]
+    },
+    {
+      "qa_id": "QA-153",
+      "question": "How to avoid being audited for export tax rebates?",
+      "question_type": "Response Category",
+      "answer": "Strategies to avoid audit: 1) Genuine business: ensure export business is real, no fake trade; 2) Complete documents: prepare complete declaration, invoice, contract, forex vouchers; 3) Consistent info: ensure all document info matches; 4) Timely collection: collect forex promptly per regulations; 5) Standardized operation: follow prescribed processes; 6) Internal control: establish sound control and review mechanisms; 7) Good credit: maintain good enterprise credit rating; 8) Professional consultation: consult tax agents for complex business. Tax authorities focus on large rebates, frequent changes, and abnormal declarations.",
+      "keywords": [
+        "Rebate Audit",
+        "Genuine Business",
+        "Complete Documents",
+        "Enterprise Credit"
+      ],
+      "category": "Export Tax Rebate",
+      "tags": [
+        "Risk Prevention",
+        "Compliance Management",
+        "Audit Response"
+      ]
+    },
+    {
+      "qa_id": "QA-154",
+      "question": "How to conduct A/B testing for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Implementation steps: 1) Define objective: determine goal (e.g., boost conversion rate, CTR); 2) Design plan: design variables like titles, images, prices; 3) Create versions: create control version A and test version B; 4) Traffic allocation: split traffic 50:50 or other ratio; 5) Collect data: run test for at least 1-2 weeks; 6) Statistical analysis: use tools to ensure significance; 7) Draw conclusion: determine which version performs better; 8) Apply optimization: apply the winner to actual operations. Use tools like Google Optimize or Optimizely.",
+      "keywords": [
+        "A/B Testing",
+        "Conversion Rate Optimization",
+        "Data Analysis",
+        "Traffic Allocation"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Data-driven",
+        "Testing Method"
+      ]
+    },
+    {
+      "qa_id": "QA-155",
+      "question": "How long does it take to receive the export tax rebate after declaration?",
+      "question_type": "Knowledge Category",
+      "answer": "Time to account: 1) Standard time: 5-10 working days after approval; 2) Fast track: 3-5 working days for AA-level enterprises; 3) Bank processing: may take 1-2 working days; 4) Exceptions: extended if doubts exist or materials needed; 5) Holidays: may be delayed; 6) Track progress: check via Electronic Tax Bureau; 7) Confirmation: verify amount upon receipt, contact tax authority if disputed. Time is influenced by credit, declaration quality, and bank processing.",
+      "keywords": [
+        "Rebate Receipt",
+        "Time to Account",
+        "Approval",
+        "Enterprise Credit"
+      ],
+      "category": "Export Tax Rebate",
+      "tags": [
+        "Rebate Time",
+        "Receipt Cycle",
+        "Rebate Process"
+      ]
+    },
+    {
+      "qa_id": "QA-156",
+      "question": "How to segment users in cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Segmentation methods: 1) RFM model: segment by Recency, Frequency, Monetary; 2) Value segmentation: high, medium, low value by spend; 3) Behavior segmentation: new, active, dormant, churned by behavior; 4) Lifecycle segmentation: introduction, growth, maturity, decline stages; 5) Preference segmentation: by product or channel preference; 6) Geographic segmentation: by region; 7) RFM+K-means: combine RFM with clustering algorithms for finer segmentation. Segmentation aids precise marketing and personalization.",
+      "keywords": [
+        "User Segmentation",
+        "RFM Model",
+        "Value Segmentation",
+        "Behavior Segmentation"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "User Analysis",
+        "Data Mining"
+      ]
+    },
+    {
+      "qa_id": "QA-157",
+      "question": "What are the export tax rebate declaration systems?",
+      "question_type": "Knowledge Category",
+      "answer": "Declaration systems: 1) Single Window: International Trade Single Window, national standard; 2) Electronic Tax Bureau: State Taxation Administration's online platform; 3) Golden Tax Phase III/IV: core tax system platform; 4) Commercial software: e.g., Aisino, Baiwang; 5) Local systems: some provinces/cities have specific systems; 6) ERP systems: some ERPs integrate declaration functions; 7) Self-service terminals: available at some tax bureaus. Recommend Single Window or Electronic Tax Bureau for free and stable service.",
+      "keywords": [
+        "Rebate System",
+        "Single Window",
+        "Electronic Tax Bureau",
+        "Declaration Software"
+      ],
+      "category": "Export Tax Rebate",
+      "tags": [
+        "System Tools",
+        "Rebate Declaration",
+        "Platform Selection"
+      ]
+    },
+    {
+      "qa_id": "QA-158",
+      "question": "How to conduct customer satisfaction surveys for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Survey methods: 1) Online questionnaires: use SurveyMonkey, Wenjuanxing; 2) Email surveys: send links via email; 3) Phone surveys: call key customers; 4) Post-purchase surveys: send after order completion; 5) Social media: launch polls on social platforms; 6) Service records: collect feedback from support chats; 7) Third-party research: hire professional agencies; 8) NPS: calculate Net Promoter Score to gauge loyalty. Conduct regular surveys to improve products and services.",
+      "keywords": [
+        "Satisfaction Survey",
+        "Online Questionnaire",
+        "NPS",
+        "Customer Feedback"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Customer Management",
+        "Service Evaluation"
+      ]
+    },
+    {
+      "qa_id": "QA-159",
+      "question": "What documents are required for export tax rebate declaration?",
+      "question_type": "Regulation Category",
+      "answer": "Required documents: 1) Export Goods Declaration Form (rebate copy); 2) Export Invoice (Commercial Invoice); 3) VAT Special Invoice (deduction copy); 4) Export Forex Verification Form (if applicable); 5) Agent Export Certificate (if exported via agent); 6) Proof of Tax Payment for Returned Goods (if returned); 7) Processing Fee Invoice (for processed export goods); 8) Other materials required by tax authorities. All must be authentic, complete, consistent. Deadline: before April 30th of the following year.",
+      "keywords": [
+        "Rebate Documents",
+        "Declaration Form",
+        "VAT Invoice",
+        "Export Invoice"
+      ],
+      "category": "Export Tax Rebate",
+      "tags": [
+        "Declaration Materials",
+        "Document Requirements",
+        "Rebate Files"
+      ]
+    },
+    {
+      "qa_id": "QA-160",
+      "question": "How to monitor competitors in cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Monitoring methods: 1) Regular visits: check competitor websites and social media; 2) Price monitoring: use tools to track price changes; 3) Ad monitoring: use tools to track ad placements; 4) New product tracking: monitor new launches; 5) Activity monitoring: track promotions and marketing strategies; 6) User reviews: analyze competitor reviews and feedback; 7) Data tools: use SimilarWeb, SEMrush; 8) Set alerts: set alerts for price, new products, etc. Monitoring helps detect market changes and adjust strategies.",
+      "keywords": [
+        "Competitor Monitoring",
+        "Price Monitoring",
+        "Ad Monitoring",
+        "Data Tools"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Competition Analysis",
+        "Market Monitoring"
+      ]
+    },
+    {
+      "qa_id": "QA-161",
+      "question": "How to operate private domain traffic for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Operation strategies: 1) Channel setup: build official site, APP, mini-programs, official accounts; 2) User accumulation: guide users to private channels via events/offers; 3) Community operation: build user communities to enhance stickiness; 4) Content marketing: provide valuable content on private channels; 5) Membership system: build tiers and points systems; 6) Data operation: collect data for precise marketing; 7) Repurchase promotion: boost repurchase via private channels; 8) Word of mouth: encourage sharing and referral. Private domain traffic lowers acquisition costs and increases LTV.",
+      "keywords": [
+        "Private Domain Traffic",
+        "Community Operation",
+        "Membership System",
+        "User Accumulation"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Traffic Operation",
+        "User Management"
+      ]
+    },
+    {
+      "qa_id": "QA-162",
+      "question": "How to handle failed export tax rebate declarations?",
+      "question_type": "Response Category",
+      "answer": "Handling methods: 1) Check reason: log in to view failure reason and error prompt; 2) Common reasons: incomplete documents, data errors, late filing, non-receipt of forex; 3) Correct materials: prepare supplementary or corrected materials; 4) Modify data: correct errors in the system; 5) Resubmit: submit again after correction; 6) Contact tax authority: consult if complex; 7) Professional help: consult tax agents if necessary; 8) Track progress: monitor status after resubmission. Failure is common; timely response is key.",
+      "keywords": [
+        "Declaration Failure",
+        "Failure Reason",
+        "Correct Materials",
+        "Resubmit"
+      ],
+      "category": "Export Tax Rebate",
+      "tags": [
+        "Rebate Issues",
+        "Declaration Errors",
+        "Problem Solving"
+      ]
+    },
+    {
+      "qa_id": "QA-163",
+      "question": "How to manage user lifecycle in cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Lifecycle management: 1) Introduction: acquire new users via marketing, guide first purchase; 2) Growth: provide quality products/service to promote repurchase; 3) Maturity: maintain loyalty via membership/exclusive offers; 4) Decline: identify churn risk, conduct recovery campaigns; 5) Churn: analyze reasons, optimize products/processes; 6) Operation strategy: formulate specific strategies for each stage; 7) Data analysis: track data and conversion rates by stage; 8) Continuous optimization: optimize strategies based on feedback. Lifecycle management improves retention and LTV.",
+      "keywords": [
+        "Lifecycle Management",
+        "User Retention",
+        "Repurchase Rate",
+        "Churn Rate"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "User Operation",
+        "Customer Management"
+      ]
+    },
+    {
+      "qa_id": "QA-164",
+      "question": "How to analyze marketing ROI for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "ROI analysis methods: 1) Data collection: collect cost and effect data per channel; 2) Attribution: use models like first-click, last-click, linear; 3) Formula: ROI = (Revenue - Cost) / Cost × 100%; 4) Channel comparison: compare ROI across channels; 5) Segmentation: analyze by product, region, audience; 6) Time analysis: analyze ROI changes over time; 7) A/B testing: test ROI of different strategies; 8) Optimization: adjust budget allocation based on ROI. ROI analysis is crucial for evaluating effectiveness and optimizing spend.",
+      "keywords": [
+        "ROI Analysis",
+        "Attribution",
+        "Channel Comparison",
+        "Data Optimization"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Marketing Effectiveness",
+        "Data Analysis"
+      ]
+    },
+    {
+      "qa_id": "QA-165",
+      "question": "How to analyze user retention in cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Analysis methods: 1) Retention metrics: calculate D1, D7, D30 retention; 2) Retention curve: plot curve to analyze trends; 3) Cohort analysis: analyze retention differences by user characteristics/behavior; 4) Prediction: use models to predict retention probability; 5) Churn analysis: analyze characteristics of churned users; 6) Optimization: formulate strategies for low-retention groups; 7) Evaluation: assess effectiveness of measures; 8) Monitoring: monitor metrics regularly. Retention analysis helps identify churn issues and improve LTV.",
+      "keywords": [
+        "User Retention",
+        "Retention Rate",
+        "Churn Analysis",
+        "Retention Optimization"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "User Analysis",
+        "Data Metrics"
+      ]
+    },
+    {
+      "qa_id": "QA-166",
+      "question": "How to conduct conversion funnel analysis for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Funnel analysis steps: 1) Define funnel: define conversion path and key nodes; 2) Data collection: collect behavior data at each node; 3) Calculate rate: calculate conversion rate at each node and total; 4) Identify bottleneck: find the node with lowest conversion rate; 5) Segmentation: analyze funnel by user attribute/source; 6) Comparison: compare funnel data across time periods; 7) Optimization: formulate measures for bottlenecks; 8) Verification: verify effect of measures. Funnel analysis identifies conversion issues and boosts rates.",
+      "keywords": [
+        "Conversion Funnel",
+        "Conversion Rate",
+        "Bottleneck Analysis",
+        "Conversion Optimization"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Data Mining",
+        "Conversion Analysis"
+      ]
+    },
+    {
+      "qa_id": "QA-167",
+      "question": "How to analyze user behavior in cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Behavior analysis methods: 1) Event tracking: design tracking plan for key behaviors; 2) Path analysis: analyze browsing paths in website/APP; 3) Click heatmaps: use tools like Hotjar; 4) Scroll depth: analyze scrolling and time on page; 5) Interaction analysis: analyze clicks, scrolls, searches; 6) Segmentation: analyze behavior differences by user groups; 7) Funnel analysis: analyze behavior in conversion path; 8) Prediction: use ML to predict behavior. Behavior analysis optimizes UX and conversion.",
+      "keywords": [
+        "User Behavior",
+        "Path Analysis",
+        "Click Heatmap",
+        "Interaction Analysis"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "User Analysis",
+        "Behavior Data"
+      ]
+    },
+    {
+      "qa_id": "QA-168",
+      "question": "How to optimize recommendation algorithms for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Optimization methods: 1) Data collection: collect behavior, item attributes, context; 2) Feature engineering: extract user, item, context features; 3) Algorithm selection: choose collaborative filtering, content-based, deep learning; 4) Model training: train on historical data; 5) Offline evaluation: evaluate using AUC, Precision, Recall; 6) Online testing: A/B test for real-world effect; 7) Real-time optimization: update results based on feedback; 8) Multi-objective: balance CTR, CVR, diversity. Algorithms improve UX and sales.",
+      "keywords": [
+        "Recommendation Algorithm",
+        "Collaborative Filtering",
+        "A/B Testing",
+        "Model Training"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Algorithm Optimization",
+        "Personalized Recommendation"
+      ]
+    },
+    {
+      "qa_id": "QA-169",
+      "question": "How to manage user tags for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Tag management methods: 1) Classification: basic, behavioral, preference, predictive tags; 2) Basic tags: age, gender, region, device; 3) Behavioral tags: browsing, purchase, favorite, share; 4) Preference tags: product preference, brand preference, price sensitivity; 5) Predictive tags: churn risk, purchase potential, value level; 6) Weight: set weight based on frequency/importance; 7) Update: update tags regularly for real-time accuracy; 8) Application: apply tags for precise marketing/personalization. Tag management is the foundation of precise operation.",
+      "keywords": [
+        "User Tags",
+        "Tag Classification",
+        "Tag Weight",
+        "Precise Marketing"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "User Persona",
+        "Data Management"
+      ]
+    },
+    {
+      "qa_id": "QA-170",
+      "question": "How to implement user recall strategies for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Recall strategies: 1) Churn identification: identify users inactive for a long time; 2) Prediction: use models to predict potential churners; 3) Channels: email, SMS, push, social media; 4) Content: personalized offers, recommendations, event invites; 5) Timing: send at user active times; 6) A/B testing: test content and channels; 7) Evaluation: assess recall rate, repurchase rate; 8) Optimization: optimize based on data. Recall reduces churn and increases LTV.",
+      "keywords": [
+        "User Recall",
+        "Churn Prediction",
+        "Recall Channel",
+        "Personalized Offer"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "User Operation",
+        "Churn Recovery"
+      ]
+    },
+    {
+      "qa_id": "QA-171",
+      "question": "How to implement marketing automation for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Implementation: 1) Platform selection: HubSpot, Mailchimp, ActiveCampaign; 2) User journey: design journey and marketing flow; 3) Trigger rules: set triggers like registration, purchase, browsing; 4) Automatic flow: design automated email/push flows; 5) Content library: build library for personalized content; 6) A/B testing: test different content; 7) Data analysis: analyze automation effectiveness; 8) Optimization: optimize strategies based on data. Automation improves efficiency and lowers labor costs.",
+      "keywords": [
+        "Marketing Automation",
+        "Trigger Rules",
+        "Automatic Flow",
+        "Content Library"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Digital Marketing",
+        "Automation Tool"
+      ]
+    },
+    {
+      "qa_id": "QA-172",
+      "question": "How to make data-driven decisions for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Methods: 1) Data collection: collect comprehensive business data; 2) Data warehouse: integrate multi-source data; 3) Data analysis: use BI tools like Tableau, Power BI; 4) Metric system: establish KPI system; 5) Visualization: visualize data via charts; 6) Insight discovery: find business insights and opportunities; 7) Decision making: make decisions based on insights; 8) Evaluation: evaluate results, optimize continuously. Data-driven decision making avoids subjectivity and improves quality.",
+      "keywords": [
+        "Data-driven",
+        "Data Analysis",
+        "BI Tools",
+        "Metric System"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Data Decision",
+        "Business Intelligence"
+      ]
+    },
+    {
+      "qa_id": "QA-173",
+      "question": "How to evaluate user value for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Evaluation methods: 1) CLV calculation: calculate Customer Lifetime Value; 2) RFM analysis: evaluate based on Recency, Frequency, Monetary; 3) ARPU: calculate Average Revenue Per User; 4) ARPPU: calculate Average Revenue Per Paying User; 5) Segmentation: classify high, medium, low value users; 6) Prediction: use ML to predict future value; 7) Value change: track value changes over time; 8) Strategy application: formulate strategies for different value users. Value evaluation is the basis for precise marketing and resource allocation.",
+      "keywords": [
+        "User Value",
+        "CLV",
+        "RFM Analysis",
+        "ARPU"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "User Analysis",
+        "Value Evaluation"
+      ]
+    },
+    {
+      "qa_id": "QA-174",
+      "question": "How to implement user segmentation strategies for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Segmentation strategies: 1) Demographic: age, gender, income, education; 2) Geographic: country, city, region; 3) Behavioral: purchase frequency, browsing, keywords; 4) Psychographic: lifestyle, values, interests; 5) Value: by spend and value level; 6) Lifecycle: by lifecycle stage; 7) Needs: by needs and pain points; 8) Hybrid: combine multiple dimensions. Segmentation aids precise positioning and personalized services.",
+      "keywords": [
+        "User Segmentation",
+        "Demographic",
+        "Behavioral Segmentation",
+        "Value Segmentation"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "User Analysis",
+        "Market Segmentation"
+      ]
+    },
+    {
+      "qa_id": "QA-175",
+      "question": "How to optimize the marketing funnel for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Optimization methods: 1) Funnel definition: define full funnel from awareness to conversion; 2) Data monitoring: monitor conversion rates at nodes in real-time; 3) Identify bottleneck: find nodes with lowest rates; 4) Content optimization: optimize content and creatives at nodes; 5) Landing page optimization: improve design and UX; 6) A/B testing: test key elements; 7) Process simplification: simplify flow to reduce loss; 8) Iteration: continuously monitor and optimize nodes. Funnel optimization improves overall efficiency.",
+      "keywords": [
+        "Marketing Funnel",
+        "Conversion Rate",
+        "Bottleneck Optimization",
+        "A/B Testing"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Conversion Optimization",
+        "Marketing Strategy"
+      ]
+    },
+    {
+      "qa_id": "QA-176",
+      "question": "How to implement user growth strategies for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Growth strategies: 1) Acquisition: SEO, SEM, social media, ads; 2) Activation: optimize onboarding, boost first purchase; 3) Retention: email, push, membership; 4) Monetization: optimize pricing, boost ARPU; 5) Referral: design rewards for bringing new users; 6) Viral: leverage social networks for viral spread; 7) Data-driven: optimize based on data; 8) Omnichannel: integrate online/offline. Growth requires multi-strategy coordination and iteration.",
+      "keywords": [
+        "User Growth",
+        "Acquisition Strategy",
+        "Retention Strategy",
+        "Referral Mechanism"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Growth Strategy",
+        "User Operation"
+      ]
+    },
+    {
+      "qa_id": "QA-177",
+      "question": "How to evaluate marketing channels for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Evaluation methods: 1) ROI analysis: calculate return on investment per channel; 2) Conversion rate: compare rates across channels; 3) CAC: compare Customer Acquisition Cost; 4) User value: compare LTV of users from different channels; 5) User quality: compare retention and repurchase rates; 6) Scale potential: assess size and growth potential; 7) Competition: assess intensity; 8) Risk: assess uncertainty. Comprehensive evaluation determines optimal channel mix and budget.",
+      "keywords": [
+        "Channel Evaluation",
+        "ROI Analysis",
+        "Acquisition Cost",
+        "User Value"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Marketing Analysis",
+        "Channel Management"
+      ]
+    },
+    {
+      "qa_id": "QA-178",
+      "question": "How to manage user feedback for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Management methods: 1) Collection: collect via surveys, reviews, support, social media; 2) Classification: categorize by type (product, service, logistics); 3) Prioritization: assess by impact and urgency; 4) Quick response: respond to urgent feedback quickly; 5) Closed-loop: ensure issues are resolved; 6) Regular analysis: find common issues; 7) Optimization: improve based on feedback; 8) Communication: inform customers of results to boost satisfaction.",
+      "keywords": [
+        "User Feedback",
+        "Feedback Collection",
+        "Closed-loop Management",
+        "Product Optimization"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Customer Service",
+        "Quality Improvement"
+      ]
+    },
+    {
+      "qa_id": "QA-179",
+      "question": "How to optimize marketing creatives for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Optimization methods: 1) Testing: A/B test titles, copy, images, videos; 2) Data analysis: analyze CTR, CVR; 3) User insight: design based on personas and preferences; 4) Competitor analysis: study competitors for differentiation; 5) Trends: leverage hot topics and trends; 6) Multiple versions: create versions for testing; 7) Iteration: optimize continuously based on data; 8) Library management: build library to reuse success cases. Excellent creatives boost marketing effectiveness.",
+      "keywords": [
+        "Creative Optimization",
+        "A/B Testing",
+        "User Insight",
+        "Competitor Analysis"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Digital Marketing",
+        "Creative Strategy"
+      ]
+    },
+    {
+      "qa_id": "QA-180",
+      "question": "How to cultivate user loyalty for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Loyalty cultivation strategies: 1) Membership system: tiered system with differentiated benefits; 2) Points system: accumulation and redemption mechanisms; 3) Exclusive offers: special deals for existing customers; 4) Personalized service: recommendations and service; 5) Community operation: build groups for belonging; 6) Emotional connection: brand stories and content; 7) Customer care: holiday greetings, birthday wishes; 8) Feedback mechanism: involve users in improvement. Loyal users have high repurchase rates and word-of-mouth.",
+      "keywords": [
+        "User Loyalty",
+        "Membership System",
+        "Points System",
+        "Personalized Service"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "User Operation",
+        "Customer Loyalty"
+      ]
+    },
+        {
+      "qa_id": "QA-181",
+      "question": "How to manage the marketing budget for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Marketing budget management methods: 1) Budget formulation: set budget based on annual sales targets and historical data; 2) Channel allocation: allocate budget based on channel ROI and past performance; 3) Time allocation: consider seasonality and allocate by time; 4) Reserve fund: set aside a contingency budget for sudden opportunities; 5) Real-time monitoring: monitor budget consumption across channels in real-time; 6) Performance evaluation: evaluate channel effectiveness and adjust dynamically; 7) ROI assessment: use ROI as the core metric to optimize allocation; 8) Annual review: review execution annually to optimize next year's budget. Scientific budget management improves marketing ROI.",
+      "keywords": [
+        "Budget Management",
+        "ROI Assessment",
+        "Channel Allocation",
+        "Performance Evaluation"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Financial Management",
+        "Marketing Management"
+      ]
+    },
+    {
+      "qa_id": "QA-182",
+      "question": "How to conduct a marketing campaign review for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Campaign review methods: 1) Goal review: recall goals and compare with actual achievements; 2) Data analysis: analyze traffic, conversion, sales, ROI; 3) Success summary: summarize successful experiences and highlights; 4) Problem analysis: analyze issues and shortcomings; 5) Attribution analysis: analyze key factors affecting results; 6) Knowledge documentation: document lessons learned for future reference; 7) Optimization suggestions: propose improvements for future campaigns; 8) Team sharing: share results with the team for collective improvement. Reviews are crucial for continuously enhancing marketing capabilities.",
+      "keywords": [
+        "Campaign Review",
+        "Data Analysis",
+        "Knowledge Documentation",
+        "Optimization Suggestions"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Marketing Management",
+        "Continuous Improvement"
+      ]
+    },
+    {
+      "qa_id": "QA-183",
+      "question": "How to adjust marketing strategies for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Strategy adjustment methods: 1) Data monitoring: monitor marketing data and effects in real-time; 2) Regular evaluation: regularly assess channel and strategy performance; 3) Market changes: track changes in market, competition, and user needs; 4) Quick response: respond and adjust to market changes rapidly; 5) Iterative testing: verify via small-scale tests before large-scale rollout; 6) Multi-dimensional optimization: optimize product, price, channel, and promotion; 7) User feedback: collect and analyze feedback to guide adjustments; 8) Continuous iteration: establish a mechanism for ongoing optimization.",
+      "keywords": [
+        "Strategy Adjustment",
+        "Data Monitoring",
+        "Market Changes",
+        "Quick Response"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Marketing Strategy",
+        "Agile Optimization"
+      ]
+    },
+    {
+      "qa_id": "QA-184",
+      "question": "How to conduct marketing attribution for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Attribution methods: 1) Attribution model: choose first-click, last-click, linear, time decay models; 2) Multi-touch tracking: track user behavior across multiple touchpoints; 3) Path analysis: analyze the complete path from exposure to conversion; 4) Data aggregation: collect ad and conversion data from all channels; 5) Attribution tools: use tools like Google Attribution, AppsFlyer; 6) Attribution analysis: analyze the contribution of each touchpoint; 7) Model optimization: optimize models based on business characteristics; 8) Decision support: optimize marketing spend based on analysis. Accurate attribution aids scientific budget allocation.",
+      "keywords": [
+        "Attribution",
+        "Attribution Model",
+        "Multi-touch Tracking",
+        "Path Analysis"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Data Analysis",
+        "Marketing Analysis"
+      ]
+    },
+    {
+      "qa_id": "QA-185",
+      "question": "How to manage the marketing team for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Team management methods: 1) Team building: build a diverse team covering market, content, tech; 2) Goal setting: set clear team and individual goals; 3) KPI management: establish a sound KPI system; 4) Training: organize regular training to improve professional skills; 5) Tool support: provide professional tools to boost efficiency; 6) Collaboration mechanism: establish cross-departmental workflows; 7) Incentives: create fair incentive and assessment mechanisms; 8) Culture building: foster a positive team culture. An excellent team is the cornerstone of marketing success.",
+      "keywords": [
+        "Team Management",
+        "KPI Management",
+        "Training",
+        "Collaboration Mechanism"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Team Building",
+        "Management Methods"
+      ]
+    },
+    {
+      "qa_id": "QA-186",
+      "question": "How to analyze marketing trends for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Trend analysis methods: 1) Industry reports: read reports from authoritative organizations; 2) Data analysis: analyze proprietary and market data; 3) Competitor research: study leading enterprises and rivals; 4) Social media: follow hot topics and trends on social platforms; 5) Tech development: monitor new tech like AI, AR/VR; 6) Consumer trends: study changes in target market consumption; 7) Policy environment: track trade and tax policy changes; 8) Cross-industry learning: learn from innovations in other sectors. Trend analysis helps seize opportunities and plan ahead.",
+      "keywords": [
+        "Trend Analysis",
+        "Industry Reports",
+        "Competitor Research",
+        "Tech Development"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Market Trends",
+        "Strategic Planning"
+      ]
+    },
+    {
+      "qa_id": "QA-187",
+      "question": "How to control marketing risks for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Risk control methods: 1) Compliance risk: ensure content complies with local laws; 2) Brand risk: avoid damaging brand image; 3) Budget risk: control spending to avoid overruns; 4) Channel risk: reduce reliance on a single channel; 5) Data risk: protect user data and comply with privacy laws; 6) Fraud risk: prevent ad fraud and fake orders; 7) Competition risk: monitor rivals and respond timely; 8) Crisis planning: formulate PR contingency plans. Effective risk control minimizes losses.",
+      "keywords": [
+        "Risk Control",
+        "Compliance Risk",
+        "Brand Risk",
+        "Budget Risk"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Risk Management",
+        "Compliance Management"
+      ]
+    },
+    {
+      "qa_id": "QA-188",
+      "question": "How to practice marketing innovation for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Innovation practices: 1) Tech application: apply AI, AR/VR, big data; 2) Format innovation: try live streaming, short video, metaverse; 3) Content innovation: create creative, fun, valuable content; 4) Channel innovation: explore emerging channels and platforms; 5) Co-branding: collaborate with other brands/IPs; 6) User co-creation: invite users to participate in design and marketing; 7) Data-driven: innovate strategies based on data insights; 8) Rapid trial and error: test small before scaling. Innovation keeps marketing dynamic.",
+      "keywords": [
+        "Marketing Innovation",
+        "Tech Application",
+        "Content Innovation",
+        "Co-branding"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Marketing Strategy",
+        "Innovation Practice"
+      ]
+    },
+    {
+      "qa_id": "QA-189",
+      "question": "How to forecast marketing effectiveness for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Forecasting methods: 1) Historical analysis: analyze past data to find patterns; 2) Prediction models: use time series, machine learning; 3) A/B testing: predict results of different strategies; 4) Competitor reference: reference results of similar campaigns; 5) Market research: survey to predict market reaction; 6) Expert judgment: combine expert experience; 7) Multi-plan preparation: prepare multiple plans for adjustment; 8) Dynamic adjustment: adjust forecasts based on real data. Accurate forecasting aids scientific decision-making.",
+      "keywords": [
+        "Effect Forecasting",
+        "Prediction Model",
+        "A/B Testing",
+        "Historical Analysis"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Data Analysis",
+        "Forecasting Methods"
+      ]
+    },
+    {
+      "qa_id": "QA-190",
+      "question": "How to integrate marketing resources for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Resource integration methods: 1) Internal resources: integrate product, tech, service teams; 2) External resources: integrate suppliers, logistics, agencies; 3) Channel resources: consolidate omni-channel resources; 4) Data resources: unify data from multiple platforms; 5) Content resources: build a content library from all channels; 6) User resources: unify user data for a single view; 7) Budget resources: allocate and optimize spend; 8) Partner resources: share resources for mutual benefit. Integration improves efficiency and results.",
+      "keywords": [
+        "Resource Integration",
+        "Channel Resources",
+        "Data Resources",
+        "Content Resources"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Resource Management",
+        "Integration Strategy"
+      ]
+    },
+    {
+      "qa_id": "QA-191",
+      "question": "How to standardize marketing management for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Standardization methods: 1) SOP formulation: set standard procedures and norms; 2) Template library: build a library of marketing templates; 3) Brand guidelines: define visual, tone, and style standards; 4) Data standards: unify definitions and metrics; 5) Process standardization: standardize planning, execution, and review; 6) Quality control: establish content review mechanisms; 7) Training system: systematic training for the team; 8) Tool support: provide standardized tools. Standardization boosts efficiency, lowers costs, and ensures quality.",
+      "keywords": [
+        "Standardized Management",
+        "SOP Formulation",
+        "Brand Guidelines",
+        "Process Standards"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Management Methods",
+        "Process Optimization"
+      ]
+    },
+    {
+      "qa_id": "QA-192",
+      "question": "How to evaluate marketing performance for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Evaluation methods: 1) KPI system: establish a comprehensive system; 2) Data collection: collect all marketing and performance data; 3) Regular evaluation: review KPI achievements periodically; 4) Comparative analysis: compare with history, targets, and benchmarks; 5) Attribution analysis: identify key performance drivers; 6) Team evaluation: assess team and individual performance; 7) Feedback mechanism: provide timely feedback for improvement; 8) Incentive system: link incentives to performance. Scientific evaluation drives continuous improvement.",
+      "keywords": [
+        "Performance Evaluation",
+        "KPI System",
+        "Data Collection",
+        "Attribution Analysis"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Performance Management",
+        "Data Analysis"
+      ]
+    },
+    {
+      "qa_id": "QA-193",
+      "question": "How to formulate competitive marketing strategies for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Competitive strategies: 1) Competition analysis: deeply analyze rivals' strengths and weaknesses; 2) Differentiation: find unique positioning to avoid head-on competition; 3) Pricing strategy: set competitive prices based on the market; 4) Product strategy: gain advantage through innovation; 5) Channel strategy: explore uncovered or weak channels; 6) Marketing innovation: use innovative methods to stand out; 7) User operation: improve stickiness via superior service; 8) Quick response: react rapidly to challenges. Strategies must adapt to market changes.",
+      "keywords": [
+        "Competitive Strategy",
+        "Differentiation",
+        "Pricing Strategy",
+        "Marketing Innovation"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Competition Analysis",
+        "Market Strategy"
+      ]
+    },
+    {
+      "qa_id": "QA-194",
+      "question": "How to manage marketing goals for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Goal management methods: 1) Goal setting: use SMART principles for clarity; 2) Breakdown: break annual goals into quarterly, monthly, weekly targets; 3) Responsibility: assign clear owners for each goal; 4) Progress tracking: track achievement in real-time; 5) Variance analysis: analyze reasons for deviations; 6) Adjustment: modify goals and strategies based on reality; 7) Incentives: link rewards to goal achievement; 8) Review: summarize regularly for optimization. Effective management drives the team to achieve targets.",
+      "keywords": [
+        "Goal Management",
+        "SMART Principles",
+        "Progress Tracking",
+        "Incentive Mechanism"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Goal Setting",
+        "Management Methods"
+      ]
+    },
+    {
+      "qa_id": "QA-195",
+      "question": "How to optimize marketing processes for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Process optimization methods: 1) Mapping: map existing processes; 2) Bottleneck identification: find inefficiencies and blocks; 3) Data analysis: use data to spot issues; 4) Simplification: remove unnecessary steps; 5) Standardization: establish standard operating procedures; 6) Tool support: introduce tools to automate parts; 7) Continuous improvement: establish an improvement mechanism; 8) Training: train the team to implement changes. Optimization significantly boosts efficiency.",
+      "keywords": [
+        "Process Optimization",
+        "Bottleneck Identification",
+        "Process Simplification",
+        "Tool Support"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Process Management",
+        "Efficiency Improvement"
+      ]
+    },
+    {
+      "qa_id": "QA-196",
+      "question": "How to manage marketing collaboration for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Collaboration management methods: 1) Cross-department: build mechanisms for marketing, product, tech, service teams; 2) Tools: use tools like Feishu, DingTalk; 3) Communication: establish regular meetings and updates; 4) Information sharing: ensure transparency via shared platforms; 5) Goal alignment: align goals across departments for synergy; 6) Process connection: ensure seamless handovers; 7) Responsibility clarity: clear division of labor; 8) Performance assessment: evaluate cross-department collaboration. Effective collaboration boosts overall efficiency.",
+      "keywords": [
+        "Collaboration Management",
+        "Cross-department Collaboration",
+        "Information Sharing",
+        "Goal Alignment"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Team Collaboration",
+        "Management Methods"
+      ]
+    },
+    {
+      "qa_id": "QA-197",
+      "question": "How to manage marketing knowledge for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Knowledge management methods: 1) Knowledge base: build a base for experience and methodologies; 2) Document management: manage marketing documents normatively; 3) Case library: build libraries of successes and failures; 4) Training materials: compile learning resources; 5) Experience sharing: encourage team sharing sessions; 6) Regular updates: keep the base current; 7) Retrieval: create easy search mechanisms; 8) Inheritance: ensure knowledge transfer to prevent loss. Knowledge management ensures continuous improvement.",
+      "keywords": [
+        "Knowledge Management",
+        "Knowledge Base",
+        "Case Library",
+        "Experience Sharing"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Knowledge Accumulation",
+        "Experience Inheritance"
+      ]
+    },
+    {
+      "qa_id": "QA-198",
+      "question": "How to implement digital transformation for cross-border e-commerce marketing?",
+      "question_type": "Operation Category",
+      "answer": "Digital transformation methods: 1) Data platform: build a unified platform for multi-source data; 2) Tech tools: introduce AI, big data, cloud computing; 3) Automation: automate marketing processes; 4) Intelligence: use AI for recommendations and service; 5) Omnichannel: integrate online and offline; 6) Real-time: enable real-time monitoring and decisions; 7) Personalization: implement precise personalization based on data; 8) Talent building: cultivate digital marketing talent. Transformation greatly enhances efficiency and results.",
+      "keywords": [
+        "Digital Transformation",
+        "Data Platform",
+        "Automation",
+        "Intelligence"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Digitalization",
+        "Technology Upgrade"
+      ]
+    },
+    {
+      "qa_id": "QA-199",
+      "question": "How to build marketing organizational capabilities for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Capability building methods: 1) Structure: design an org structure fitting business development; 2) Recruitment: hire professional marketing talent; 3) Training: establish a systematic training system; 4) Assessment: create scientific performance mechanisms; 5) Culture: foster a positive team culture; 6) Incentives: build competitive incentive schemes; 7) Knowledge management: systematize experience; 8) Continuous learning: encourage adaptation to market changes. Strong organizational capability is the foundation of success.",
+      "keywords": [
+        "Organizational Capability",
+        "Recruitment",
+        "Training",
+        "Team Culture"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Team Building",
+        "Capability Building"
+      ]
+    },
+    {
+      "qa_id": "QA-200",
+      "question": "How to conduct marketing strategic planning for cross-border e-commerce?",
+      "question_type": "Operation Category",
+      "answer": "Strategic planning methods: 1) Market analysis: analyze size, competition, trends; 2) Competition analysis: analyze rivals' strategies and strengths; 3) User insight: understand needs and pain points; 4) Goal setting: define clear targets and direction; 5) Strategy formulation: develop product, price, channel, promotion strategies; 6) Resource allocation: allocate budget and resources reasonably; 7) Implementation plan: create detailed timelines; 8) Evaluation and adjustment: review regularly and adjust. Strategic planning is the top-level design determining long-term direction.",
+      "keywords": [
+        "Strategic Planning",
+        "Market Analysis",
+        "Competition Analysis",
+        "Goal Setting"
+      ],
+      "category": "Selection Operation",
+      "tags": [
+        "Cross-border E-commerce",
+        "Strategic Management",
+        "Long-term Planning"
+      ]
+    }
+  ]
+}

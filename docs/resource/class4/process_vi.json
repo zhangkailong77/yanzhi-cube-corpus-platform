@@ -1,0 +1,1413 @@
+{
+  "meta": {
+    "version": "1.0",
+    "corpus_type": "process",
+    "language": "vi",
+    "domain": "trade",
+    "created_by": "Đội ngũ chuyên gia",
+    "created_at": "2025-05-20T10:00:00Z",
+    "description": "Cơ sở dữ liệu quy trình và quy tắc kinh doanh thương mại xuyên biên giới"
+  },
+  "data": [
+    {
+      "rule_id": "RULE-001",
+      "scenario": "Khách hàng yêu cầu trả hàng xuyên biên giới không vì lý do cụ thể",
+      "condition": "Hàng hóa đã hoàn tất thủ tục thông quan hải quan và không gặp vấn đề về lỗi chất lượng",
+      "result": "Theo chính sách thương mại xuyên biên giới, hàng đã thông quan không hỗ trợ trả hàng không lý do",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-002",
+      "scenario": "Khách hàng phản hồi sản phẩm xuyên biên giới gặp lỗi chất lượng",
+      "condition": "Sản phẩm bị lỗi chức năng và khiếu nại được đưa ra trong vòng 7 ngày kể từ khi nhận hàng",
+      "result": "Hỗ trợ hoàn tiền toàn bộ hoặc đổi hàng, người bán chịu mọi chi phí vận chuyển quốc tế phát sinh",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-003",
+      "scenario": "Khách hàng yêu cầu trả hàng khi bao bì sản phẩm đã bị bóc mở",
+      "condition": "Trả hàng không vì lý do chất lượng và niêm phong gốc của nhà sản xuất đã bị phá vỡ",
+      "result": "Ảnh hưởng đến việc bán lại; hệ thống sẽ từ chối yêu cầu trả hàng này. Vui lòng giữ nguyên bao bì gốc",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-004",
+      "scenario": "Trả hàng do hàng hóa bị hư hỏng trong quá trình vận chuyển quốc tế",
+      "condition": "Bao bì ngoài bị hư hỏng rõ ràng khi nhận hàng kèm biên bản xác nhận của công ty logistics",
+      "result": "Mở kênh hoàn tiền nhanh, các tổn thất sẽ do công ty bảo hiểm và đơn vị vận chuyển chi trả",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-005",
+      "scenario": "Khách hàng từ chối nhận hàng do chậm trễ trong việc thông quan hải quan",
+      "condition": "Sự chậm trễ do kiểm tra hải quan nhưng không vượt quá thời gian 15 ngày làm việc",
+      "result": "Không được coi là lỗi của người bán; không hỗ trợ yêu cầu trả hàng miễn phí do chậm thông quan",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-006",
+      "scenario": "Yêu cầu trả hàng đối với thực phẩm tươi sống hoặc hàng mau hỏng",
+      "condition": "Sản phẩm thuộc danh mục thực phẩm dễ hỏng và đã đi vào quy trình vận chuyển quốc tế",
+      "result": "Loại hàng này không hỗ trợ chặn giao giữa chừng hoặc bất kỳ hình thức trả hàng nào sau khi gửi",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-007",
+      "scenario": "Khách hàng yêu cầu đổi hàng vì lý do chủ quan cá nhân",
+      "condition": "Hàng còn nguyên vẹn chưa mở nhưng khách muốn đổi màu sắc, kích thước hoặc thông số khác",
+      "result": "Khách hàng phải chịu thuế hải quan, phí logistics và phí xử lý cho cả hai chiều gửi trả và gửi lại",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-008",
+      "scenario": "Trách nhiệm chịu thuế đối với hàng hóa gửi trả lại trong quy trình",
+      "condition": "Trả hàng xuyên biên giới không do lỗi chất lượng mà do lý do cá nhân của khách hàng",
+      "result": "Thuế nhập khẩu phát sinh từ việc trả hàng phải do người mua trả trước hoặc trừ vào số tiền hoàn",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-009",
+      "scenario": "Quy trình trả hàng do người bán gửi sai sản phẩm cho khách",
+      "condition": "Sản phẩm thực tế nhận được không khớp với thông số hoặc mẫu mã mô tả chi tiết trong đơn hàng",
+      "result": "Hệ thống tự động phê duyệt; người bán sẽ bồi hoàn phí vận chuyển sau khi người mua gửi trả hàng",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-010",
+      "scenario": "Tiêu chuẩn tính toán số tiền hoàn trả cho đơn hàng có khuyến mãi",
+      "condition": "Đơn hàng có áp dụng mã giảm giá hoặc ưu đãi và chỉ thực hiện trả hàng một phần",
+      "result": "Tiền hoàn được tính dựa trên tỷ lệ thanh toán thực tế sau khi trừ đi số tiền ưu đãi tương ứng",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-011",
+      "scenario": "Yêu cầu trả hàng đối với các sản phẩm đặt sản xuất theo yêu cầu",
+      "condition": "Hàng hóa được sản xuất riêng theo thông số của người mua và không có lỗi sản xuất rõ ràng",
+      "result": "Hàng đặt làm riêng không hỗ trợ bất kỳ hình thức trả hàng nào; người mua phải thanh toán nốt hợp đồng",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-012",
+      "scenario": "Khiếu nại bồi thường cho kiện hàng xuyên biên giới bị thất lạc",
+      "condition": "Theo dõi logistics không có cập nhật mới sau 30 ngày và đơn vị vận chuyển xác nhận mất hàng",
+      "result": "Hệ thống xác định là mất bưu kiện và kích hoạt quy trình hoàn tiền đầy đủ và khiếu nại bảo hiểm",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-013",
+      "scenario": "Quy tắc kiểm tra trạng thái hàng hóa khi được trả về kho",
+      "condition": "Hàng trả về tới kho phát hiện có dấu hiệu đã qua sử dụng hoặc có vết bẩn do con người gây ra",
+      "result": "Người bán có quyền từ chối hoàn tiền và sẽ gửi trả lại sản phẩm về địa chỉ gốc của người mua",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-014",
+      "scenario": "Chính sách trả hàng trong thời gian diễn ra các hoạt động khuyến mãi",
+      "condition": "Hàng mua trong đợt 'Mua một tặng một' hoặc mua theo bộ và khách yêu cầu trả hàng",
+      "result": "Người mua phải trả lại cả hàng chính và quà tặng, nếu không sẽ trừ giá trị thị trường của quà tặng",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-015",
+      "scenario": "Giới hạn thời gian hiệu lực cho các đơn yêu cầu đổi trả sau nhận hàng",
+      "condition": "Người mua không đưa ra bất kỳ yêu cầu hậu mãi nào sau 30 ngày kể từ khi xác nhận nhận hàng",
+      "result": "Kênh hậu mãi sẽ tự động đóng lại, hệ thống không chấp nhận thêm bất kỳ yêu cầu đổi trả nào nữa",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-016",
+      "scenario": "Kiểm tra trả hàng đối với các sản phẩm điện tử có giá trị cao",
+      "condition": "Sản phẩm điện tử có đơn giá trên 1000 USD được yêu cầu trả lại do lỗi chất lượng",
+      "result": "Phải có giám định hậu mãi chính thức và báo cáo thử nghiệm mới có thể bắt đầu quy trình trả hàng",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-017",
+      "scenario": "Tình huống các khoản thuế thông quan không được hoàn lại cho khách",
+      "condition": "Hàng bị trả lại do người mua từ chối phối hợp cung cấp tài liệu thông quan cần thiết",
+      "result": "Người mua chịu trách nhiệm phí vận chuyển hai chiều và các khoản thuế hải quan đã nộp không hoàn lại",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-018",
+      "scenario": "Quyết toán trả hàng cho các kênh phân phối xuyên biên giới",
+      "condition": "Nhà phân phối cấp dưới gửi yêu cầu trả hàng sau khi kỳ quyết toán tài chính đã kết thúc",
+      "result": "Phải khấu trừ hoa hồng trong kỳ thanh toán tiếp theo trước khi xử lý phần chênh lệch hoàn tiền",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-019",
+      "scenario": "Quy trình trả hàng cho hàng hóa gửi từ kho ngoại quan (Bonded Warehouse)",
+      "condition": "Hàng gửi từ kho ngoại quan bị trả lại bởi người mua trong tình trạng bao bì đã mở",
+      "result": "Hàng phải quay lại đúng kho ngoại quan chỉ định; tiền hoàn được xử lý sau khi hủy tờ khai thuế",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-020",
+      "scenario": "Quy tắc trả hàng kiểm mẫu cho các đơn hàng thương mại số lượng lớn",
+      "condition": "Tỷ lệ hàng lỗi trong lô hàng mua số lượng lớn được phát hiện vượt quá ngưỡng 5% đã thỏa thuận",
+      "result": "Hỗ trợ hoàn tiền một phần cho lô đó hoặc bổ sung hàng thay thế miễn phí cho phần bị lỗi",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-021",
+      "scenario": "Hạn chế về phương thức nhận tiền hoàn của khách hàng",
+      "condition": "Tất cả các yêu cầu hoàn tiền đã được phê duyệt và tiền đã sẵn sàng để chi trả",
+      "result": "Tiền hoàn phải trả về đúng tài khoản thanh toán ban đầu; không được đổi sang tài khoản bên thứ ba",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-022",
+      "scenario": "Hoàn tiền do phát hiện thông tin theo dõi logistics giả mạo",
+      "condition": "Mã vận đơn người bán cung cấp không có bản ghi lấy hàng thực tế trong vòng 7 ngày làm việc",
+      "result": "Người mua có quyền tuyên bố người bán giao hàng ảo và hệ thống sẽ thực hiện hoàn tiền đầy đủ",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-023",
+      "scenario": "Yêu cầu về các phụ kiện đi kèm khi thực hiện quy trình trả hàng",
+      "condition": "Sản phẩm trả lại bao gồm sách hướng dẫn, dây cáp, thẻ bảo hành hoặc các phụ kiện khác",
+      "result": "Thiếu phụ kiện sẽ dẫn đến việc khấu trừ chi phí tương ứng; vui lòng đảm bảo trả lại đầy đủ",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-024",
+      "scenario": "Quy tắc từ chối nhận đối với hàng gửi trực tiếp từ nước ngoài (Direct Mail)",
+      "condition": "Người mua từ chối ký nhận bưu kiện gửi trực tiếp từ nước ngoài mà không có lý do chính đáng",
+      "result": "Người mua phải bồi thường phí vận chuyển và phí thông quan, trừ trực tiếp vào số tiền hoàn lại",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-025",
+      "scenario": "Cảnh báo rủi ro khi trả lại các loại hàng hóa nhạy cảm",
+      "condition": "Sản phẩm có chứa pin tích hợp, chất lỏng hoặc dạng bột được yêu cầu gửi trả lại",
+      "result": "Do quy định an ninh hàng không, hàng không thể gửi trả; khuyến nghị tiêu hủy tại chỗ hoặc đền bù",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-026",
+      "scenario": "Quy tắc hạn chế hoàn tiền đối với các đơn hàng đặt trước (Pre-sale)",
+      "condition": "Người mua trả tiền đặt cọc cho đơn hàng đặt trước và muốn hoàn tiền trước ngày giao hàng",
+      "result": "Tiền đặt cọc đóng vai trò đảm bảo hợp đồng; sẽ không được hoàn lại trừ khi người bán vi phạm",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-027",
+      "scenario": "Yêu cầu trả hàng do có sự điều chỉnh thuế hải quan đột ngột",
+      "condition": "Người mua muốn trả hàng vì chi phí tăng do thuế tại quốc gia đến bất ngờ tăng cao",
+      "result": "Thay đổi thuế là rủi ro thị trường; lý do này không được hỗ trợ để trả hàng miễn phí",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-028",
+      "scenario": "Trách nhiệm đối với hư hỏng phát sinh trong quá trình gửi trả hàng",
+      "condition": "Hàng bị hỏng trong quá trình gửi trả do người mua đóng gói không đúng quy cách",
+      "result": "Người mua chịu rủi ro vận chuyển; người bán có quyền từ chối hoàn tiền khi nhận được hàng hỏng",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-029",
+      "scenario": "Xử lý hàng trả về do khách hàng không nhận trong thời gian dài",
+      "condition": "Bưu kiện nằm tại điểm nhận quá 15 ngày và bị buộc quay lại kho ở nước ngoài",
+      "result": "Được coi là từ bỏ hàng hóa; phí vận chuyển chiều về sẽ được khấu trừ vào tiền hoàn lại",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-030",
+      "scenario": "Gián đoạn quy trình trả hàng do các sự cố bất khả kháng",
+      "condition": "Chiến tranh, thiên tai hoặc đình công ngăn cản việc gửi bưu kiện trả hàng xuyên biên giới",
+      "result": "Thời hạn trả hàng sẽ được gia hạn hoặc hai bên đàm phán phương án bồi thường thay thế",
+      "category": "Chính sách đổi trả"
+    },
+    {
+      "rule_id": "RULE-031",
+      "scenario": "Lựa chọn phương thức thanh toán cho đơn hàng thương mại giá trị lớn",
+      "condition": "Đơn hàng hợp đồng đơn lẻ vượt quá 100.000 USD và là lần hợp tác đầu tiên giữa hai bên",
+      "result": "Bắt buộc phải sử dụng Thư tín dụng trả ngay không thể hủy ngang (L/C) để thanh toán",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-032",
+      "scenario": "Quy tắc thiết lập tỷ lệ thanh toán theo từng giai đoạn",
+      "condition": "Mua sắm thiết bị sản xuất theo yêu cầu với chu kỳ sản xuất vượt quá 3 tháng",
+      "result": "Áp dụng mô hình thanh toán: 30% tạm ứng + 40% theo tiến độ + 30% thanh toán số dư cuối cùng",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-033",
+      "scenario": "Phòng ngừa rủi ro do biến động tỷ giá hối đoái khi thanh toán",
+      "condition": "Hợp đồng thỏa thuận thanh toán bằng USD nhưng tỷ giá biến động mạnh vượt quá 3%",
+      "result": "Kích hoạt cơ chế bù đắp để chia sẻ phần lỗ chênh lệch tỷ giá giữa người mua và người bán",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-034",
+      "scenario": "Quy tắc chịu trách nhiệm phí ngân hàng trung gian quốc tế",
+      "condition": "Chuyển khoản điện tín quốc tế qua hệ thống SWIFT mà không ghi rõ điều khoản phí trong hợp đồng",
+      "result": "Mặc định theo chế độ SHA (phí chia sẻ); phí ngân hàng trung gian do bên chuyển tiền chịu",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-035",
+      "scenario": "Quy tắc tính phí phạt đối với các khoản thanh toán chậm trễ",
+      "condition": "Người mua không hoàn thành thanh toán trong vòng 5 ngày làm việc kể từ ngày đến hạn",
+      "result": "Tính phí phạt hàng ngày ở mức 0,05% trên số tiền quá hạn cho đến khi nhận đủ tiền",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-036",
+      "scenario": "Điều kiện để chuyển tiền bảo lãnh thực hiện hợp đồng thành tiền thanh toán",
+      "condition": "Người mua đã nộp tiền bảo lãnh và tất cả hàng hóa đã vượt qua đợt kiểm tra cuối cùng",
+      "result": "Người mua có thể đề nghị chuyển trực tiếp tiền bảo lãnh này thành tiền thanh toán lô hàng cuối",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-037",
+      "scenario": "Cảnh báo hạn mức thanh toán đối với các nền tảng bên thứ ba",
+      "condition": "Sử dụng PayPal hoặc Stripe để thanh toán cho đơn hàng đơn lẻ vượt quá 5.000 USD",
+      "result": "Hệ thống sẽ tạm dừng thanh toán và yêu cầu xác thực danh tính cũng như bối cảnh giao dịch",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-038",
+      "scenario": "Hạn chế phạm vi áp dụng cho hình thức Thanh toán khi nhận hàng (COD)",
+      "condition": "Địa chỉ giao hàng thuộc khu vực rủi ro cao hoặc đơn giá sản phẩm vượt quá 500 USD",
+      "result": "Không hỗ trợ hình thức COD; bắt buộc phải thanh toán trước toàn bộ trước khi sắp xếp giao hàng",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-039",
+      "scenario": "Quy tắc tiếp nhận thanh toán bằng các loại nội tệ quốc gia",
+      "condition": "Người mua tại Đông Nam Á đề nghị thanh toán bằng nội tệ của họ như THB hoặc MYR",
+      "result": "Quy đổi dựa trên tỷ giá thời gian thực với phí phòng ngừa rủi ro tiền tệ bổ sung là 1%",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-040",
+      "scenario": "Xử lý các sai sót trong Thư tín dụng (Letter of Credit)",
+      "condition": "Ngân hàng phát hiện sai sót nhỏ giữa Vận đơn và yêu cầu của Thư tín dụng (L/C)",
+      "result": "Người bán phải sửa đổi tài liệu trong 3 ngày làm việc, nếu không người mua có quyền từ chối",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-041",
+      "scenario": "Hạn chế hành chính đối với việc hoàn trả khoản tạm ứng trước",
+      "condition": "Người mua hủy đơn hàng sau khi đã đặt cọc và yêu cầu hoàn trả lại số tiền đã đặt",
+      "result": "Khấu trừ chi phí nguyên vật liệu của người bán cộng với 5% phí hành chính do vi phạm hợp đồng",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-042",
+      "scenario": "Ưu đãi thời hạn tín dụng cho các đối tác chiến lược dài hạn",
+      "condition": "Hợp tác liên tục trên 2 năm với khối lượng đơn hàng hàng năm đạt 500.000 USD",
+      "result": "Đủ điều kiện áp dụng chế độ thanh toán tài khoản mở (OA) 30 ngày sau khi hàng đến",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-043",
+      "scenario": "Xác thực tính xác thực của chứng từ chuyển tiền từ ngân hàng",
+      "condition": "Người mua gửi ảnh chụp biên lai ngân hàng qua email yêu cầu sắp xếp giao hàng ngay",
+      "result": "Giao hàng chỉ bắt đầu sau khi bộ phận tài chính xác nhận tiền đã vào tài khoản công ty",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-044",
+      "scenario": "Điều kiện tiên quyết thanh toán để bảo hiểm tín dụng có hiệu lực",
+      "condition": "Đơn hàng được bảo hiểm bởi bảo hiểm tín dụng xuất khẩu (ví dụ: SINOSURE)",
+      "result": "Người mua phải thanh toán qua các tài khoản ngân hàng chỉ định để đảm bảo quyền lợi bảo hiểm",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-045",
+      "scenario": "Giám sát các hành vi thanh toán nhỏ lẻ nhiều lần bất thường",
+      "condition": "Một khách hàng thực hiện hơn 5 lần thanh toán lẻ cho cùng một đơn hàng trong 24 giờ",
+      "result": "Nghi ngờ rủi ro rửa tiền; hệ thống sẽ đóng băng tài khoản để thực hiện kiểm toán thủ công",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-046",
+      "scenario": "Quy tắc phân bổ phí xử lý trong quá trình thực hiện hoàn tiền",
+      "condition": "Yêu cầu hoàn tiền do lỗi thanh toán xuất phát từ sự nhầm lẫn của chính người mua",
+      "result": "Phí chuyển khoản điện tín của ngân hàng để hoàn tiền sẽ được trừ vào số tiền gốc ban đầu",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-047",
+      "scenario": "Hạn chế chính sách đối với việc thanh toán bằng tiền mã hóa",
+      "condition": "Người mua hỏi liệu có hỗ trợ thanh toán bằng Bitcoin hoặc USDT cho hàng hóa hay không",
+      "result": "Theo quy định tài chính, công ty nghiêm cấm chấp nhận bất kỳ hình thức thanh toán tiền mã hóa nào",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-048",
+      "scenario": "Chiết khấu Thư tín dụng trả chậm (Usance Letter of Credit)",
+      "condition": "Người bán cần chiết khấu Thư tín dụng (L/C) trả chậm 90 ngày do hạn chế về thanh khoản",
+      "result": "Lãi suất chiết khấu phát sinh do người bán chịu và không được tính vào tổng giá hợp đồng",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-049",
+      "scenario": "Yêu cầu xác thực bảo mật cho môi trường thực hiện thanh toán",
+      "condition": "Phát hiện nỗ lực thanh toán từ địa chỉ IP không tuân thủ hoặc mạng có rủi ro cao",
+      "result": "Xác thực 3D Secure được kích hoạt qua SMS hoặc email để xác nhận danh tính lần thứ hai",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-050",
+      "scenario": "Quy tắc thanh toán nội bộ cho các giao dịch giữa các bên liên quan",
+      "condition": "Thanh toán giao dịch giữa trụ sở chính và các công ty con tại nước ngoài",
+      "result": "Thực hiện cơ chế bù trừ (Netting) hàng quý để giảm phí giao dịch xuyên biên giới",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-051",
+      "scenario": "Cảnh báo cao nhất về việc thay đổi tài khoản ngân hàng thanh toán",
+      "condition": "Người bán gửi thông báo đổi ngân hàng qua các kênh không chính thức như ứng dụng chat",
+      "result": "Người mua phải xác minh qua điện thoại và email; nghiêm cấm chuyển tiền vào tài khoản mới khi chưa rõ",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-052",
+      "scenario": "Chuyển đổi thanh toán cho thẻ tín dụng đa ngoại tệ",
+      "condition": "Người mua dùng thẻ không phải USD để thanh toán trên trang thanh toán niêm yết bằng USD",
+      "result": "Tỷ giá do ngân hàng phát hành thẻ quyết định; người mua chịu mọi phí chuyển đổi ngoại tệ",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-053",
+      "scenario": "Kênh đặc biệt dành cho thanh toán các đơn hàng mẫu giá trị nhỏ",
+      "condition": "Đơn hàng mẫu hoặc lô thử nghiệm nhỏ với đơn giá sản phẩm dưới 100 USD",
+      "result": "Khuyến nghị sử dụng Western Union hoặc thanh toán thẻ tín dụng nhanh để xử lý tức thì",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-054",
+      "scenario": "Quy tắc chuyển giao quyền sở hữu khi thực hiện thanh toán trả góp",
+      "condition": "Hợp đồng quy định bốn đợt thanh toán và hàng đã được giao đến kho của người mua",
+      "result": "Quyền sở hữu thuộc về người bán cho đến khi đợt thanh toán cuối cùng được hoàn tất",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-055",
+      "scenario": "Chậm trễ thanh toán do quy trình kiểm tra chống rửa tiền của ngân hàng",
+      "condition": "Ngân hàng tiến hành kiểm tra tuân thủ định kỳ đối với một số người chuyển tiền cụ thể",
+      "result": "Cả hai bên phải cung cấp bằng chứng hợp đồng; sự chậm trễ này không bị coi là vi phạm",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-056",
+      "scenario": "Kích hoạt thu hồi nợ qua bên thứ ba đối với các tài khoản quá hạn",
+      "condition": "Người mua nợ thanh toán trên 90 ngày mà không có phản hồi hiệu quả với liên lạc",
+      "result": "Hệ thống tự động chuyển khoản nợ sang công ty thu hồi nợ quốc tế bên thứ ba để xử lý",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-057",
+      "scenario": "Quy tắc khấu trừ thuế trong quá trình thực hiện thanh toán dịch vụ",
+      "condition": "Luật địa phương yêu cầu người mua khấu trừ thuế nhà thầu (WHT) trên phí dịch vụ",
+      "result": "Người mua phải cung cấp chứng từ thuế chính thức để người bán hạch toán bù trừ tài chính",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-058",
+      "scenario": "Thời hạn hiệu lực đối với các khoản tiền hàng đã tạm ứng trước",
+      "condition": "Người mua đã trả trước nhưng không yêu cầu giao hàng sau 12 tháng và không thể liên lạc",
+      "result": "Tiền được chuyển vào tài khoản tạm giữ; việc kích hoạt lại yêu cầu bằng chứng danh tính",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-059",
+      "scenario": "Yêu cầu phát hành Thư tín dụng dự phòng (Standby L/C)",
+      "condition": "Dùng làm bảo lãnh thanh toán cho hợp đồng dài hạn, bao phủ giá trị hàng hóa trong hai tháng",
+      "result": "Ngân hàng phát hành phải nằm trong top 100 thế giới hoặc ngân hàng hạng nhất được phê duyệt",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-060",
+      "scenario": "Điều chỉnh động điểm tín dụng của khách hàng trong hệ thống thanh toán",
+      "condition": "Người mua có hành vi vi phạm Thư tín dụng (L/C) nghiêm trọng hoặc nợ đọng không lý do",
+      "result": "Hệ thống hạ xếp hạng tín dụng xuống mức thấp nhất; các điều khoản tín dụng bị hủy vĩnh viễn",
+      "category": "Quy tắc thanh toán"
+    },
+    {
+      "rule_id": "RULE-061",
+      "scenario": "Xác nhận phân loại mã HS cho hàng hóa nhập khẩu",
+      "condition": "Thuộc tính hàng hóa phức tạp dẫn đến mã HS không rõ ràng hoặc có tranh chấp khai báo",
+      "result": "Phải xin văn bản xác định trước mã số của cơ quan hải quan trước khi khai báo chính thức",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-062",
+      "scenario": "Áp dụng thuế suất ưu đãi theo Hiệp định Thương mại Tự do (FTA)",
+      "condition": "Xuất xứ thuộc quốc gia thành viên hiệp định và giá trị vượt quá hạn mức quy định",
+      "result": "Bắt buộc nộp Giấy chứng nhận xuất xứ (C/O) chính thức bản giấy hoặc bản điện tử hợp lệ",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-063",
+      "scenario": "Kiểm soát hạn mức nhập khẩu bán lẻ thương mại điện tử xuyên biên giới",
+      "condition": "Giao dịch đơn lẻ vượt quá 5.000 RMB hoặc tổng giá trị hàng năm vượt quá 26.000 RMB",
+      "result": "Đơn hàng không được thông quan theo thuế thương mại điện tử; phải chuyển sang loại hình thương mại am",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-064",
+      "scenario": "Yêu cầu phối hợp trong quá trình kiểm hóa của cơ quan hải quan",
+      "condition": "Hàng hóa bị hệ thống lựa chọn ngẫu nhiên để kiểm tra thực tế hoặc kiểm định hóa lý",
+      "result": "Đại lý hải quan phải có mặt trong vòng 24 giờ cùng các tài liệu kỹ thuật chi tiết sản phẩm",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-065",
+      "scenario": "Khai báo bảo hộ quyền sở hữu trí tuệ tại cơ quan hải quan",
+      "condition": "Hàng hóa xuất khẩu sử dụng nhãn hiệu đã đăng ký bảo hộ tại Tổng cục Hải quan",
+      "result": "Phải nộp văn bản ủy quyền chính thức từ chủ sở hữu, nếu không hàng sẽ bị tạm giữ",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-066",
+      "scenario": "Quy định quản lý đối với hàng hóa tạm nhập tái xuất",
+      "condition": "Hàng tham gia triển lãm hoặc nghiên cứu phải tái xuất nguyên trạng trong vòng 6 tháng",
+      "result": "Phải nộp tiền bảo lãnh thuế và hoàn tất thủ tục thanh khoản đúng thời gian quy định",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-067",
+      "scenario": "Áp dụng thuế chống bán phá giá và thuế chống trợ cấp",
+      "condition": "Sản phẩm nhập khẩu nằm trong danh mục chống bán phá giá từ các quốc gia cụ thể",
+      "result": "Ngoài thuế nhập khẩu thông thường, hệ thống tự động tính và áp thuế chống bán phá giá",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-068",
+      "scenario": "Quy tắc hạn chế đối với máy móc thiết bị điện cơ đã qua sử dụng",
+      "condition": "Sản phẩm thuộc danh mục máy móc thiết bị điện cơ cũ bị cấm nhập khẩu của quốc gia",
+      "result": "Hải quan sẽ từ chối tờ khai và yêu cầu doanh nghiệp thực hiện tái xuất hàng hóa đó",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-069",
+      "scenario": "Xin giấy phép kiểm dịch đối với các sản phẩm động thực vật",
+      "condition": "Nhập khẩu nông sản không nằm trong danh mục cấm nhưng yêu cầu kiểm dịch nghiêm ngặt",
+      "result": "Phải có Giấy phép kiểm dịch động thực vật nhập khẩu trước khi ký kết hợp đồng mua bán",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-070",
+      "scenario": "Chậm trễ khai báo do sự cố hệ thống của cơ quan hải quan",
+      "condition": "Hệ thống của Tổng cục Hải quan gặp sự cố khiến dữ liệu điện tử không thể truyền đi",
+      "result": "Liên hệ hải quan cửa khẩu để kích hoạt phương án dự phòng xử lý thủ công hoặc ngoại tuyến",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-071",
+      "scenario": "Quy tắc khai báo đối với hàng chuyển phát nhanh giá trị thấp",
+      "condition": "Giá trị bưu kiện dưới mức quy định và không thuộc hàng hóa quản lý theo giấy phép",
+      "result": "Có thể khai báo theo loại hình chuyển phát nhanh Nhóm C để được đơn giản hóa thủ tục",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-072",
+      "scenario": "Quy tắc quyết toán đối với danh mục hàng hóa kho ngoại quan",
+      "condition": "Doanh nghiệp gia công xuất khẩu sản phẩm hoàn thiện và cần quyết toán nguyên liệu",
+      "result": "Phải đảm bảo mã nguyên liệu trên sản phẩm xuất khẩu khớp hoàn toàn với danh mục đã đăng ký",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-073",
+      "scenario": "Kiểm tra điều kiện đối với khai báo hàng hóa nguy hiểm",
+      "condition": "Hàng hóa xuất khẩu là hóa chất dễ cháy nổ nằm trong danh mục quản lý đặc biệt",
+      "result": "Phải cung cấp Kết quả kiểm tra bao bì hàng hóa xuất khẩu nguy hiểm và các chứng nhận liên quan",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-074",
+      "scenario": "Áp dụng chính sách tự nguyện khắc phục (Self-disclosure) của hải quan",
+      "condition": "Doanh nghiệp tự phát hiện sai sót về thuế trong quá khứ và chủ động báo cáo bằng văn bản",
+      "result": "Có thể được miễn tiền chậm nộp và trách nhiệm hành chính sau khi hải quan xác nhận",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-075",
+      "scenario": "Kiểm tra tính xác thực của giá trị khai báo hàng hóa xuất nhập khẩu",
+      "condition": "Hải quan nghi ngờ giá khai báo thấp hơn đáng kể so với giá trung bình thị trường quốc tế",
+      "result": "Doanh nghiệp phải cung cấp giải trình cấu thành giá, hóa đơn và chứng từ thanh toán trong 10 ngày",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-076",
+      "scenario": "Yêu cầu quản lý đối với hàng hóa thương mại quá cảnh",
+      "condition": "Hàng hóa quá cảnh qua lãnh thổ để sang nước thứ ba mà không vào lưu thông nội địa",
+      "result": "Phải đi đúng tuyến đường cửa khẩu quy định và được giám sát bằng GPS hoặc seal hải quan",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-077",
+      "scenario": "Quy tắc hạn chế sử dụng đối với sổ tạm quản ATA Carnet",
+      "condition": "Sử dụng sổ ATA làm chứng từ khai báo tạm nhập cho các thiết bị chuyên dụng",
+      "result": "Thiết bị không được cho thuê, bán hoặc chuyển nhượng và phải tái xuất đúng thời hạn hiệu lực",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-078",
+      "scenario": "Khai báo và nộp thuế đối với phí bản quyền hàng hóa",
+      "condition": "Người mua trả phí bản quyền cho người bán liên quan đến hàng hóa và là điều kiện để bán hàng",
+      "result": "Phải cộng phí bản quyền vào trị giá tính thuế nhập khẩu để tính thuế hải quan chính xác",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-079",
+      "scenario": "Kiểm soát nghiêm ngặt đối với rác thải nhập khẩu (Foreign Garbage)",
+      "condition": "Hàng hóa khai báo thuộc danh mục phế liệu gây ô nhiễm bị quốc gia nghiêm cấm",
+      "result": "Trường hợp vi phạm sẽ bị chuyển cơ quan điều tra; nhà nhập khẩu chịu mọi chi phí tiêu hủy",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-080",
+      "scenario": "Ưu đãi dành cho doanh nghiệp ưu tiên hải quan (AEO)",
+      "condition": "Doanh nghiệp đã được cấp chứng nhận AEO và có lịch sử tuân thủ pháp luật tốt",
+      "result": "Hưởng tỷ lệ kiểm hóa cực thấp, ưu tiên làm thủ tục và các thỏa thuận công nhận lẫn nhau",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-081",
+      "scenario": "Quy tắc giảm thuế đối với hàng hóa bị trả về (Returned Goods)",
+      "condition": "Hàng bị trả về do lỗi chất lượng và tái nhập khẩu nguyên trạng trong vòng một năm",
+      "result": "Có thể xin miễn thuế nhập khẩu kèm hồ sơ xuất khẩu ban đầu và bằng chứng bị trả hàng",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-082",
+      "scenario": "Thời hạn bắt buộc khai báo đối với hàng hóa xuất nhập khẩu",
+      "condition": "Hàng nhập khẩu không được khai báo sau 14 ngày kể từ ngày phương tiện vận tải đến cửa khẩu",
+      "result": "Hải quan sẽ thu phí chậm làm thủ tục mức 0,05% tổng trị giá hàng hóa mỗi ngày quá hạn",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-083",
+      "scenario": "Quy tắc hun trùng đối với vật liệu đóng gói bằng gỗ (Wood Packaging)",
+      "condition": "Bao bì nhập khẩu có chứa gỗ tự nhiên nhưng không có dấu ký hiệu IPPC theo quy định",
+      "result": "Cơ quan hải quan yêu cầu hun trùng cưỡng chế hoặc tiêu hủy bao bì với chi phí tự túc",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-084",
+      "scenario": "Quy tắc sửa đổi tờ khai hoàn thuế xuất khẩu cho doanh nghiệp",
+      "condition": "Lỗi nhập liệu dẫn đến chênh lệch giữa số tiền xuất khẩu khai báo và tiền thực thu",
+      "result": "Phải nộp chứng từ thanh toán và giải trình cho hải quan cửa khẩu để được phê duyệt sửa đổi",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-085",
+      "scenario": "Chính sách đối với hàng nội địa vào khu logistics ngoại quan",
+      "condition": "Hàng từ nội địa đưa vào khu để phục vụ phân phối xuất khẩu hoặc chuyển khẩu quốc tế",
+      "result": "Hàng vào khu được coi như đã xuất khẩu; doanh nghiệp được làm thủ tục hoàn thuế sớm",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-086",
+      "scenario": "Quy tắc quản lý của hải quan đối với quà tặng và hàng mẫu",
+      "condition": "Quà tặng miễn phí gửi kèm hàng lô hoặc hàng mẫu thương mại để quảng bá thị trường",
+      "result": "Phải khai báo theo trị giá thực tế ngay cả khi không thu tiền, ghi rõ 'Quà tặng/Hàng mẫu'",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-087",
+      "scenario": "Tuân thủ tiếp cận đối với các thiết bị y tế nhập khẩu",
+      "condition": "Sản phẩm nằm trong phạm vi điều chỉnh của Nghị định quản lý trang thiết bị y tế",
+      "result": "Phải cung cấp Giấy phép nhập khẩu hoặc Số lưu hành thiết bị y tế để thông quan hàng hóa",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-088",
+      "scenario": "Giám sát chuyển cảng đối với hàng hóa vận tải đa phương thức",
+      "condition": "Hàng dỡ tại cảng biển rồi chuyển bằng đường sắt/bộ về hải quan nội địa để thông quan",
+      "result": "Phải làm thủ tục vận chuyển độc lập; phương tiện phải có chứng nhận đủ điều kiện vận tải",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-089",
+      "scenario": "Kiểm tra giấy phép vệ sinh đối với mỹ phẩm nhập khẩu",
+      "condition": "Lần đầu nhập khẩu mỹ phẩm thông thường hoặc mỹ phẩm có công dụng đặc biệt",
+      "result": "Phải nộp Phiếu công bố sản phẩm mỹ phẩm do cơ quan quản lý dược phẩm cấp phép hợp lệ",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-090",
+      "scenario": "Quy tắc nhập khẩu hàng hóa quản lý theo hạn ngạch thuế quan (TRQ)",
+      "condition": "Nhập khẩu nông sản như lúa mì, ngô hoặc đường thuộc diện quản lý hạn ngạch",
+      "result": "Phải xuất trình Giấy chứng nhận hạn ngạch thuế quan để hưởng thuế thấp; ngoài sẽ chịu thuế cao",
+      "category": "Quy tắc hải quan"
+    },
+    {
+      "rule_id": "RULE-091",
+      "scenario": "Nhận biết và đóng gói hàng nguy hiểm trong vận chuyển xuyên biên giới",
+      "condition": "Hàng hóa chứa pin lithium, khí nén hoặc các hóa chất dễ cháy nổ khác",
+      "result": "Phải sử dụng bao bì chuyên dụng cho hàng nguy hiểm theo tiêu chuẩn quốc tế và dán nhãn phân loại rõ ràng",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-092",
+      "scenario": "Phân bổ nghĩa vụ bảo hiểm vận tải quốc tế giữa các bên",
+      "condition": "Hợp đồng thương mại được ký kết theo điều kiện CIF (Tiền hàng, Bảo hiểm và Cước phí)",
+      "result": "Người bán phải mua bảo hiểm vận tải và trả phí, mức bảo hiểm tối thiểu là 110% giá trị hóa đơn",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-093",
+      "scenario": "Quy tắc tính trọng lượng tính cước (chargeable weight) trong vận tải hàng không",
+      "condition": "Trọng lượng thể tích (D×R×C/6000) của hàng hóa lớn hơn trọng lượng thực tế của chúng",
+      "result": "Hãng hàng không sẽ lấy trọng lượng thể tích làm cơ sở tính cước, dẫn đến phí vận chuyển cao hơn",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-094",
+      "scenario": "Tính phí lưu container (demurrage) tại cảng trong vận tải biển",
+      "condition": "Container nằm tại cảng đích vượt quá thời gian miễn phí cho phép (thường là 7 ngày)",
+      "result": "Người nhận hàng phải trả phí lưu container hàng ngày từ 50 đến 100 USD cho mỗi đơn vị container",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-095",
+      "scenario": "Quy tắc giám sát nhiệt độ đối với hàng hóa chuỗi lạnh (cold chain)",
+      "condition": "Vận chuyển thực phẩm tươi sống hoặc vắc-xin có yêu cầu khắt khe về nhiệt độ môi trường",
+      "result": "Bắt buộc dùng thiết bị ghi nhiệt độ xuyên suốt và kiểm tra dữ liệu khi nhận làm căn cứ nghiệm thu",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-096",
+      "scenario": "Yêu cầu thời gian nhập kho đối với hàng lẻ (LCL)",
+      "condition": "Các lô hàng nhỏ từ nhiều người gửi được tập kết tại kho CFS trước ngày tàu cắt máng",
+      "result": "Giao hàng muộn dẫn đến không kịp đóng container và phát sinh chi phí đổi chuyến tàu kế tiếp",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-097",
+      "scenario": "Đồng bộ hóa thời gian thực trạng thái logistics xuyên biên giới",
+      "condition": "Hệ thống đơn vị vận chuyển phát hiện thay đổi trạng thái kiện hàng như đã rời cảng hoặc đến đích",
+      "result": "Phải cập nhật thông tin lên nền tảng thương mại điện tử qua API trong vòng 2 giờ cho khách hàng",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-098",
+      "scenario": "Sắp xếp vận tải đặc biệt cho hàng hóa siêu trường siêu trọng",
+      "condition": "Một kiện hàng đơn lẻ có chiều dài vượt quá 12 mét hoặc trọng lượng vượt quá 30 tấn",
+      "result": "Phải đăng ký container Flat Rack hoặc xe tải hạng nặng trước 15 ngày kèm phụ phí tương ứng",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-099",
+      "scenario": "Tiêu chuẩn gia cố và bảo vệ bao bì trong quy trình logistics",
+      "condition": "Vận chuyển thiết bị dễ vỡ hoặc giá trị cao trên quãng đường dài trên 3.000 km",
+      "result": "Phải dùng pallet gỗ và nẹp góc bảo vệ, quấn ít nhất năm lớp màng co để đảm bảo an toàn",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-100",
+      "scenario": "Xử lý lỗi lấy nhầm hàng tại quy trình kho hàng ở nước ngoài",
+      "condition": "Nhân viên kho phát sai hàng do lỗi quét mã hoặc nhầm lẫn chỉ thị xuất kho",
+      "result": "Đơn vị vận hành kho chịu toàn bộ phí vận chuyển gửi lại và bồi thường chậm trễ cho khách hàng",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-101",
+      "scenario": "Phân chia trách nhiệm trong vận tải đa phương thức quốc tế",
+      "condition": "Hàng hóa bị hư hỏng hoặc ẩm mốc trong quá trình chuyển giao từ đường biển sang đường sắt",
+      "result": "Người kinh doanh vận tải đa phương thức bồi thường cho chủ hàng trước, sau đó truy đòi người vận tải thực tế",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-102",
+      "scenario": "Quy tắc xác nhận chữ ký khi giao hàng chuyển phát nhanh chặng cuối",
+      "condition": "Giá trị bưu kiện vượt quá 200 USD hoặc chứa các tài liệu hợp đồng thương mại nhạy cảm",
+      "result": "Người nhận phải xuất trình giấy tờ tùy thân và ký tên trực tiếp; nghiêm cấm để hàng tại điểm gửi đồ",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-103",
+      "scenario": "Yêu cầu về bộ chứng từ thông quan đi kèm cùng hàng hóa vận chuyển",
+      "condition": "Hàng được gửi đến các quốc gia có kiểm soát hải quan nghiêm ngặt như Brazil hoặc Ấn Độ",
+      "result": "Hóa đơn gốc, phiếu đóng gói và mã số thuế địa phương phải được dán trực tiếp lên kiện hàng",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-104",
+      "scenario": "Xử lý hư hỏng hàng hóa do sự cố bất khả kháng trong quá trình vận chuyển",
+      "condition": "Tàu chở hàng gặp siêu bão ngoài khơi dẫn đến việc các container bị rơi xuống biển và mất tích",
+      "result": "Áp dụng nguyên tắc tổn thất chung; chủ tàu, chủ hàng và công ty bảo hiểm cùng phân bổ tổn thất",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-105",
+      "scenario": "Quy tắc đánh giá thỏa thuận mức độ dịch vụ (SLA) của đơn vị vận chuyển",
+      "condition": "Tỷ lệ giao hàng đúng hạn hàng quý của nhà cung cấp dịch vụ thấp hơn mức 95% đã thỏa thuận",
+      "result": "Hệ thống tự động giảm trọng số phân bổ đơn hàng và kích hoạt khấu trừ tiền phạt theo hợp đồng",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-106",
+      "scenario": "Phương án khẩn cấp khi chuyển đổi vận tải từ đường hàng không sang đường biển",
+      "condition": "Phụ phí nhiên liệu hàng không tăng vọt khiến chi phí vận chuyển vượt quá ngân sách cho phép",
+      "result": "Chuyển sang vận tải đường biển nhanh sau khi được người mua đồng ý, người bán hoàn lại phần chênh lệch",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-107",
+      "scenario": "Nỗ lực giao hàng lần thứ hai đối với các kiện hàng có trạng thái bất thường",
+      "condition": "Giao hàng lần đầu thất bại do địa chỉ người nhận sai hoặc không thể liên lạc qua điện thoại",
+      "result": "Công ty logistics phải thử giao lại miễn phí ít nhất hai lần trong 3 ngày làm việc trước khi hoàn trả",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-108",
+      "scenario": "Yêu cầu bắt buộc về việc đóng pallet cho hàng hóa thương mại",
+      "condition": "Hàng hóa được gửi đến kho Amazon FBA hoặc trung tâm phân phối của các tập đoàn đa quốc gia",
+      "result": "Hàng phải được đặt trên pallet gỗ tuân thủ tiêu chuẩn ISPM 15 và chiều cao không quá 1,8 mét",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-109",
+      "scenario": "Phụ phí khu vực vùng sâu vùng xa trong logistics xuyên biên giới",
+      "condition": "Địa chỉ nhận hàng thuộc vùng núi, hải đảo hoặc khu vực không có bưu cục thường trực",
+      "result": "Người mua phải trả thêm phụ phí vùng sâu vùng xa khi thanh toán để hệ thống tạo mã vận đơn",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-110",
+      "scenario": "Quy tắc về ký mã hiệu vận chuyển quốc tế (Shipping Mark) trên bao bì ngoài",
+      "condition": "Hàng thương mại lô lớn vào bãi cảng chờ xếp lên tàu hoặc đi qua cảng chuyển tải",
+      "result": "Bao bì ngoài phải in ký mã hiệu rõ ràng bao gồm điểm đến, số kiện, trọng lượng và số đơn hàng",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-111",
+      "scenario": "Xác định thời điểm hàng hóa bị coi là thất lạc trong chuỗi vận chuyển",
+      "condition": "Bưu kiện không có bất kỳ cập nhật trạng thái động nào trong hơn 20 ngày dương lịch liên tiếp",
+      "result": "Người gửi có thể chính thức nộp đơn khiếu nại mất hàng và bắt đầu quy trình bồi thường bảo hiểm",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-112",
+      "scenario": "Quy tắc thanh toán cước phí logistics theo tháng đối với khách hàng ký hợp đồng",
+      "condition": "Doanh nghiệp thương mại có lượng gửi hàng ổn định trên 1.000 kiện mỗi tháng",
+      "result": "Có thể yêu cầu mở tính năng thanh toán cước phí theo tháng để giảm áp lực dòng tiền hoạt động",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-113",
+      "scenario": "Lựa chọn và bảo đảm trách nhiệm của các đại lý giao nhận trung gian",
+      "condition": "Ủy thác cho đại lý giao nhận bên thứ ba thực hiện dịch vụ vận tải đa phương thức xuyên biên giới",
+      "result": "Phải xác minh đại lý có giấy phép hoạt động hạng A và đơn bảo hiểm trách nhiệm còn hiệu lực",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-114",
+      "scenario": "Thời hạn tập kết hàng tại cảng và xếp hàng lên tàu xuất khẩu",
+      "condition": "Hàng hóa phải vào cảng trước thời điểm cắt máng (Closing Time) của hãng tàu quy định",
+      "result": "Việc vào cảng muộn sẽ dẫn đến rớt tàu, người mua chịu phí lưu kho và phí đổi chuyến phát sinh",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-115",
+      "scenario": "Giám sát vận tải đường sắt quốc tế (Tuyến đường sắt Trung Quốc - Châu Âu)",
+      "condition": "Hàng hóa được vận chuyển bằng đường sắt đi qua nhiều quốc gia quá cảnh xuyên biên giới",
+      "result": "Phải tuân thủ yêu cầu của vận đơn đường sắt CIM và nghiêm cấm mang theo các chất có từ tính",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-116",
+      "scenario": "Chi phí lưu kho bổ sung phát sinh trong quá trình vận chuyển logistics",
+      "condition": "Hàng bị kẹt tại kho nước ngoài của đơn vị vận chuyển do người mua chưa có giấy phép nhập khẩu",
+      "result": "Sau 3 ngày miễn phí, người mua trả phí lưu kho mức 5 USD trên mỗi mét khối hàng cho mỗi ngày",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-117",
+      "scenario": "Quy tắc bàn giao chứng từ logistics như Vận đơn đường biển gốc",
+      "condition": "Thanh toán đã hoàn tất và người bán đã nhận được vận đơn gốc từ đơn vị vận chuyển",
+      "result": "Người bán phải gửi chứng từ gốc cho người mua qua chuyển phát nhanh quốc tế trong vòng 2 ngày",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-118",
+      "scenario": "Cơ chế phản hồi và xử lý các khiếu nại về dịch vụ logistics của khách hàng",
+      "condition": "Khách hàng gửi khiếu nại chính thức về thái độ của nhân viên hoặc sự chậm trễ vận chuyển",
+      "result": "Đội ngũ dịch vụ khách hàng phải điều tra trong 12 giờ và đưa ra giải pháp trong vòng 48 giờ",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-119",
+      "scenario": "Chuyển hướng vận tải xuyên biên giới do các sự cố chiến tranh bất ngờ",
+      "condition": "Tuyến đường vận chuyển ban đầu đi qua khu vực đột ngột xảy ra chiến tranh hoặc xung đột vũ trang",
+      "result": "Người vận tải có quyền đổi tuyến để đảm bảo an toàn; chi phí phát sinh do chủ hàng cùng phân bổ",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-120",
+      "scenario": "Quy tắc thống kê dữ liệu phát thải carbon trong chuỗi cung ứng logistics",
+      "condition": "Doanh nghiệp cần theo dõi dấu chân carbon toàn chuỗi để đáp ứng yêu cầu về thương mại xanh",
+      "result": "Đơn vị vận chuyển phải cung cấp báo cáo hàng tháng về quãng đường và lượng khí thải CO2 tiêu chuẩn",
+      "category": "Quy tắc logistics"
+    },
+    {
+      "rule_id": "RULE-121",
+      "scenario": "Giới hạn hạn mức đơn hàng đối với khách hàng mới chưa có lịch sử giao dịch",
+      "condition": "Khách hàng lần đầu thực hiện mua sắm số lượng lớn mà chưa qua thẩm định nền tảng chuyên sâu",
+      "result": "Hạn mức tối đa cho đơn hàng đầu tiên là 10.000 USD, phần vượt quá phải thanh toán trước 100%",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-122",
+      "scenario": "Cảnh báo đối với các đơn hàng đến từ quốc gia hoặc khu vực rủi ro cao",
+      "condition": "Địa chỉ giao hàng hoặc ngân hàng thanh toán nằm trong danh sách cấm vận hoặc bất ổn chính trị",
+      "result": "Hệ thống tự động chặn đơn hàng để đội ngũ rủi ro tiến hành kiểm tra tuân thủ thủ công",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-123",
+      "scenario": "Cơ chế tự động hạ bậc xếp hạng tín dụng của khách hàng một cách linh hoạt",
+      "condition": "Khách hàng hiện tại để xảy ra hơn hai lần nợ đọng thanh toán ác ý trong một quý gần nhất",
+      "result": "Hệ thống hạ xếp hạng tín dụng xuống mức D, hủy mọi điều khoản nợ và yêu cầu trả bằng tiền mặt",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-124",
+      "scenario": "Nhận diện hành vi gian lận đối với thanh toán trực tuyến bằng thẻ tín dụng lớn",
+      "condition": "Cùng một số thẻ thực hiện nhiều lần thử thanh toán các số tiền khác nhau trong thời gian ngắn",
+      "result": "Kích hoạt mô hình chống gian lận; hệ thống đóng băng chức năng thanh toán của thẻ đó ngay lập tức",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-125",
+      "scenario": "Giám sát các hành vi chuyển dịch lợi ích bất thường trong giao dịch liên kết",
+      "condition": "Giá giao dịch lệch đáng kể so với giá thị trường và hai bên có mối quan hệ sở hữu chéo",
+      "result": "Giao dịch bị gắn cờ bất thường; yêu cầu cung cấp báo cáo kiểm toán độc lập để giải trình chi tiết",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-126",
+      "scenario": "Quy tắc phạm vi bảo hiểm của Bảo hiểm Tín dụng Xuất khẩu (SINOSURE)",
+      "condition": "Tổng số dư nợ của một khách hàng duy nhất vượt quá hạn mức tín dụng mà bảo hiểm phê duyệt",
+      "result": "Bộ phận rủi ro dừng giao hàng tiếp cho đến khi các khoản nợ cũ được thanh toán để giải phóng hạn mức",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-127",
+      "scenario": "Kiểm tra định kỳ hàng năm về tư cách pháp nhân của các nhà cung cấp",
+      "condition": "Nhà cung cấp hợp tác lâu năm bị phát hiện giấy phép kinh doanh đã hết hạn hoặc bị thu hồi",
+      "result": "Ngừng ký kết mọi hợp đồng mới ngay lập tức và tiến hành rà soát rủi ro các đơn hàng đang thực hiện",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-128",
+      "scenario": "Giám sát chống rửa tiền (AML) trong các giao dịch chuyển tiền xuyên biên giới",
+      "condition": "Nhận được khoản tiền lớn nhưng tên người chuyển không khớp với tên người mua trong hợp đồng",
+      "result": "Tài chính tạm giữ khoản tiền; yêu cầu người mua cung cấp thỏa thuận thanh toán hộ hợp pháp",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-129",
+      "scenario": "Cảnh báo rủi ro giảm giá trị hàng tồn kho do tỷ lệ quay vòng quá thấp",
+      "condition": "Hàng điện tử trong kho ngoại quan đã được lưu trữ quá 180 ngày dương lịch mà chưa xuất kho",
+      "result": "Kích hoạt quy trình trích lập dự phòng giảm giá hàng tồn kho và lập kế hoạch xả hàng gấp",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-130",
+      "scenario": "Rủi ro gián đoạn kinh doanh do nhân sự quản lý cấp cao đột ngột nghỉ việc",
+      "condition": "Giám đốc bán hàng nước ngoài nắm giữ tài nguyên khách hàng cốt lõi nghỉ việc không bàn giao",
+      "result": "Đội ngũ rủi ro phải liên hệ các khách hàng bị ảnh hưởng trong 24 giờ để xác nhận lại hợp đồng",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-131",
+      "scenario": "Đánh giá an toàn các chi nhánh nước ngoài khi xảy ra bất ổn chính trị địa phương",
+      "condition": "Khu vực chi nhánh xảy ra bạo động nghiêm trọng hoặc chính sách địa phương thay đổi đột ngột",
+      "result": "Kích hoạt phản ứng cấp độ 1; tạm dừng giao dịch thực tế và ưu tiên sơ tán nhân viên an toàn",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-132",
+      "scenario": "Quy tắc sử dụng báo cáo tín nhiệm từ các tổ chức đánh giá bên thứ ba",
+      "condition": "Thực hiện thẩm định đối tác chiến lược cho các hợp đồng có giá trị trên 500.000 USD",
+      "result": "Phải mua báo cáo tín nhiệm chi tiết từ các tổ chức như D&B để làm căn cứ tham khảo quyết định",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-133",
+      "scenario": "Quy tắc đóng băng giao dịch do đối tác liên quan đến các vụ kiện pháp lý",
+      "condition": "Đối tác đang bị điều tra tư pháp vì nghi ngờ gian lận lớn hoặc đang trong quá trình phá sản",
+      "result": "Chuyển sang chế độ cách ly rủi ro; ngừng mọi giao dịch chuyển tiền và giao hàng ngay lập tức",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-134",
+      "scenario": "Logic sàng lọc sơ bộ đối với các yêu cầu hỏi hàng giả mạo (Fake Inquiry)",
+      "condition": "Email hỏi hàng thiếu tên công ty cụ thể, số điện thoại liên lạc hoặc các thông số sản phẩm",
+      "result": "Hệ thống xếp thông tin này vào kho 'Chờ xác nhận'; không tính là cơ hội kinh doanh chính thức",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-135",
+      "scenario": "Phòng ngừa rủi ro rò rỉ các dữ liệu nội bộ nhạy cảm có giá trị cao",
+      "condition": "Nhân viên gửi danh sách báo giá cốt lõi qua email cá nhân trong môi trường không được phép",
+      "result": "Hệ thống DLP tự động ngăn chặn và ghi lại hành vi vi phạm để chuyển cho bộ phận nhân sự xử lý",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-136",
+      "scenario": "Hạn mức phê duyệt giao dịch đối với các công cụ phòng ngừa rủi ro tỷ giá",
+      "condition": "Nhân viên tài chính thực hiện nghiệp vụ chốt tỷ giá kỳ hạn (Forward) cho một giao dịch",
+      "result": "Các giao dịch vượt quá 2 triệu USD phải được sự phê duyệt chung của CFO và Hội đồng quản trị",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-137",
+      "scenario": "Quy tắc nhận diện gian lận trong mô hình kinh doanh 'Drop-shipping'",
+      "condition": "Nhiều tài khoản người mua khác nhau cùng gửi hàng về một địa chỉ nhà riêng ở nước ngoài",
+      "result": "Được xác định là hành vi gian lận thẻ tiềm ẩn; hệ thống tự động hủy đơn và hoàn tiền cho khách",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-138",
+      "scenario": "Gián đoạn chuỗi cung ứng do các sự cố nghiêm trọng về môi trường",
+      "condition": "Nhà sản xuất linh kiện cốt lõi bị buộc ngừng sản xuất vô thời hạn do vi phạm quy định môi trường",
+      "result": "Bộ phận rủi ro phải kích hoạt nhà cung cấp dự phòng trong 3 ngày và điều chỉnh kỳ vọng giao hàng",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-139",
+      "scenario": "Yêu cầu thẩm định tài chính chuyên sâu trong các dự án M&A ở nước ngoài",
+      "condition": "Công ty có ý định mua lại hoặc đầu tư nắm quyền kiểm soát một đối tác thương mại nước ngoài",
+      "result": "Thuê đơn vị bên thứ ba thực hiện kiểm toán tài chính và pháp lý chi tiết trong ít nhất 2 tháng",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-140",
+      "scenario": "Phòng vệ rủi ro gian lận trong mô hình 'Thanh toán trước' với nhà cung cấp",
+      "condition": "Nhà cung cấp yêu cầu tăng tỷ lệ tạm ứng từ 30% lên 80% với lý do thiếu hụt dòng vốn sản xuất",
+      "result": "Nghiêm cấm thanh toán trực tiếp; yêu cầu cung cấp bảo lãnh ngân hàng tương ứng với số tiền tạm ứng",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-141",
+      "scenario": "Cách ly rủi ro hệ thống do thao tác không tuân thủ của nhân viên nội bộ",
+      "condition": "Một tài khoản nhân viên cố gắng nhập sai mật khẩu giao dịch nhạy cảm nhiều lần từ địa chỉ lạ",
+      "result": "Khóa mọi quyền hạn của tài khoản đó ngay lập tức; yêu cầu xác minh danh tính trực tiếp tại quầy",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-142",
+      "scenario": "Giám sát lưu lượng giao dịch bất thường trong các dịp lễ tết lớn",
+      "condition": "Khối lượng giao dịch tăng vọt lên gấp 5 lần mức trung bình ngày trong dịp Tết hoặc Black Friday",
+      "result": "Tự động mở rộng máy chủ và nâng cấp mức độ kiểm soát rủi ro; đơn hàng nghi ngờ sẽ duyệt thủ công",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-143",
+      "scenario": "Giảm thiểu rủi ro cho 'Tín dụng người mua' trong các giao dịch lớn",
+      "condition": "Hỗ trợ tài chính cho người mua thông qua định chế tài chính bên thứ ba để thúc đẩy giao dịch",
+      "result": "Yêu cầu người mua dùng tài sản cố định hoặc tiền gửi làm tài sản thế chấp và ký hợp đồng thế chấp",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-144",
+      "scenario": "Đánh giá rủi ro thi hành án đối với các phán quyết trọng tài quốc tế",
+      "condition": "Luật của địa điểm trọng tài thỏa thuận xung đột với luật của địa điểm thi hành án thực tế",
+      "result": "Pháp chế phải đánh giá lại điều khoản; đề xuất đổi sang khu vực trung lập có tính thi hành cao hơn",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-145",
+      "scenario": "Quy tắc tạm dừng kinh doanh do các cuộc tấn công an ninh mạng quy mô lớn",
+      "condition": "Hệ thống ERP cốt lõi bị tấn công bởi mã độc tống tiền khiến toàn bộ dữ liệu bị mã hóa",
+      "result": "Ngắt kết nối mạng ngay lập tức, khởi động quy trình khôi phục dữ liệu ngoại tuyến và báo cảnh sát",
+      "category": "Quy tắc kiểm soát rủi ro"
+    },
+    {
+      "rule_id": "RULE-146",
+      "scenario": "Kiểm tra tuân thủ đối với danh sách các thực thể bị hạn chế (Entity List)",
+      "condition": "Khách hàng tiềm năng nằm trong danh sách đen bị hạn chế của Hoa Kỳ hoặc Liên minh Châu Âu",
+      "result": "Bộ phận tuân thủ pháp chế sẽ cấm giao dịch này để ngăn sản phẩm bị dùng vào mục đích hạn chế",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-147",
+      "scenario": "Khai báo xuất khẩu đối với các mặt hàng lưỡng dụng (Dual-use Items)",
+      "condition": "Hàng xuất khẩu có thể dùng cho mục đích dân sự lẫn quân sự hoặc công nghiệp hạt nhân",
+      "result": "Phải xin giấy phép xuất khẩu hàng lưỡng dụng và nộp cam kết của người sử dụng cuối cùng",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-148",
+      "scenario": "Yêu cầu về kiểm toán tuân thủ và chống hối lộ (ví dụ: luật FCPA)",
+      "condition": "Ký hợp đồng với đại lý nước ngoài có liên quan đến các giao dịch với cơ quan chính phủ",
+      "result": "Đại lý phải ký cam kết tuân thủ hứa không thực hiện bất kỳ hình thức hoa hồng bất hợp pháp nào",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-149",
+      "scenario": "Quy tắc bảo vệ tuân thủ khi chuyển giao dữ liệu xuyên biên giới",
+      "condition": "Cần chuyển cơ sở dữ liệu chứa thông tin nhạy cảm của khách hàng ra trung tâm R&D nước ngoài",
+      "result": "Phải thực hiện đánh giá an ninh xuất khẩu dữ liệu và nhận được phê duyệt chính thức từ cơ quan quản lý",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-150",
+      "scenario": "Hạn chế thu mua đối với các loại khoáng sản xung đột (Conflict Minerals)",
+      "condition": "Nguyên liệu mua vào chứa thiếc, tantalum, vonfram hoặc vàng từ các vùng chiến sự bất ổn",
+      "result": "Nhà cung cấp phải cung cấp báo cáo truy xuất nguồn gốc chứng minh không hỗ trợ nhóm vũ trang",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-151",
+      "scenario": "Kiểm tra xuyên suốt đối với người sử dụng cuối cùng và mục đích sử dụng",
+      "condition": "Bán các thiết bị phân tích chính xác cho khách hàng mới ở nước ngoài trong lĩnh vực lạ",
+      "result": "Thực hiện thẩm định danh tính và đảm bảo sản phẩm không được bán lại cho đối tượng bị trừng phạt",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-152",
+      "scenario": "Kiểm tra tính tuân thủ pháp luật địa phương của các ngôn ngữ quảng cáo",
+      "condition": "Các poster tiếp thị thương mại điện tử xuyên biên giới cho thị trường Đông Nam Á",
+      "result": "Cần được luật sư địa phương xem xét để tránh từ ngữ nhạy cảm tôn giáo hoặc quảng cáo sai sự thật",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-153",
+      "scenario": "Tuân thủ giá chuyển nhượng theo các thỏa thuận chống xói mòn thuế",
+      "condition": "Xác định giá giao dịch giữa các công ty con xuyên biên giới trong cùng một tập đoàn",
+      "result": "Phải chuẩn bị tài liệu giá chuyển nhượng chi tiết để phục vụ các đợt kiểm tra thuế ngẫu nhiên",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-154",
+      "scenario": "Giám sát thời gian thực và tuân thủ các vùng cấm vận thương mại",
+      "condition": "Liên Hợp Quốc công nhận lệnh cấm vận năng lượng hoặc vũ khí toàn diện đối với một quốc gia",
+      "result": "Hệ thống cập nhật danh sách đen trong 1 giờ và tự động cắt mọi giao dịch trực tuyến với vùng đó",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-155",
+      "scenario": "Chứng nhận hiệu suất năng lượng và bảo vệ môi trường cho hàng xuất khẩu",
+      "condition": "Bán đồ điện gia dụng vào thị trường EU yêu cầu phải có dán nhãn chứng nhận CE hoặc ERP",
+      "result": "Phải vượt qua các bài kiểm tra RoHS/WEEE và đảm bảo chứng chỉ còn hạn trên hệ thống quản lý",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-156",
+      "scenario": "Tính minh bạch về mối quan hệ của các trung gian thương mại quốc tế",
+      "condition": "Ký hợp đồng mua sắm lớn thông qua công ty offshore có dòng tiền không minh bạch về chủ sở hữu",
+      "result": "Yêu cầu tiết lộ chủ sở hữu hưởng lợi cuối cùng (UBO), nếu không sẽ không thiết lập quan hệ kinh doanh",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-157",
+      "scenario": "Tiêu chuẩn tuân thủ đối với nhãn mác xuất xứ hàng hóa xuất khẩu",
+      "condition": "Hàng xuất khẩu bắt buộc phải ghi thông tin 'Made in China' hoặc thông tin tương tự trên bao bì",
+      "result": "Dòng chữ phải rõ ràng, khó tẩy xóa; nếu không sẽ bị coi là khai báo xuất xứ hàng hóa sai sự thật",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-158",
+      "scenario": "Quy tắc kiểm toán tuân thủ trách nhiệm xã hội doanh nghiệp (CSR)",
+      "condition": "Làm nhà cung cấp cho các thương hiệu đa quốc gia lớn trong chuỗi cung ứng toàn cầu",
+      "result": "Phải vượt qua đợt kiểm toán bên thứ ba về quyền lao động, an toàn môi trường và sức khỏe nghề nghiệp",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-159",
+      "scenario": "Quản lý xuất khẩu các phần mềm công nghệ nhạy cảm và mã nguồn cốt lõi",
+      "condition": "Mã nguồn công nghệ cần được gửi cho nhân viên nước ngoài để hỗ trợ kỹ thuật sau bán hàng",
+      "result": "Phải qua xét duyệt xuất khẩu công nghệ; các tệp tin phải được mã hóa và xóa dữ liệu nhạy cảm",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-160",
+      "scenario": "Nhận diện hành vi 'Wash-trade' để phòng tránh các rủi ro tuân thủ",
+      "condition": "Hàng từ nước bị cấm vận được đóng gói lại tại cảng trung chuyển và làm giả giấy tờ xuất xứ",
+      "result": "Nếu phát hiện, bộ phận tuân thủ sẽ chấm dứt hợp tác ngay và báo cáo cho cơ quan quản lý nhà nước",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-161",
+      "scenario": "Thời hạn tuân thủ đối với việc quyết toán ngoại tệ xuất nhập khẩu",
+      "condition": "Doanh nghiệp không hoàn thành thu ngoại tệ trong thời gian quy định sau khi hàng đã xuất khẩu",
+      "result": "Phải giải trình với cơ quan quản lý ngoại hối để xin gia hạn, nếu không sẽ bị hạ bậc doanh nghiệp",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-162",
+      "scenario": "Tuân thủ đối với việc viện trợ quốc tế các vật tư y tế đặc biệt",
+      "condition": "Chính phủ hoặc tổ chức phi chính phủ ủy thác gửi hàng cứu trợ đến các vùng thiên tai nước ngoài",
+      "result": "Cần xác minh chính sách nhập khẩu tạm thời và làm thủ tục miễn thuế viện trợ nhân đạo đặc biệt",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-163",
+      "scenario": "Quy tắc tiếp thị theo luật Bảo vệ dữ liệu cá nhân (ví dụ: luật GDPR)",
+      "condition": "Gửi email quảng cáo hoặc gợi ý sản phẩm cá nhân hóa cho người dùng tại Liên minh Châu Âu",
+      "result": "Phải có sự đồng ý rõ ràng của người dùng và cung cấp quyền hủy đăng ký hoặc xóa dữ liệu dễ dàng",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-164",
+      "scenario": "Tuân thủ visa và giấy phép lao động cho nhân viên nước ngoài tại Việt Nam",
+      "condition": "Thuê chuyên gia nước ngoài làm việc dài hạn trong quản lý thương mại và hỗ trợ kỹ thuật",
+      "result": "Bắt buộc phải làm Giấy phép lao động và Thẻ tạm trú hợp pháp; nghiêm cấm sử dụng lao động chui",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-165",
+      "scenario": "Cập nhật và kiểm tra danh sách chống rửa tiền hàng ngày trên hệ thống",
+      "condition": "Cơ quan quốc tế công bố danh sách mới các cá nhân hoặc tổ chức liên quan đến tài trợ khủng bố",
+      "result": "Bộ phận tuân thủ phải cập nhật vào hệ thống trong 24 giờ để đối soát toàn bộ danh sách khách hàng",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-166",
+      "scenario": "Chứng nhận tuân thủ xuất khẩu gỗ hoặc các loài động thực vật nguy cấp",
+      "condition": "Đồ nội thất xuất khẩu chứa loại gỗ nằm trong danh mục phụ lục của công ước CITES",
+      "result": "Phải xuất trình giấy phép CITES và qua kiểm tra thực tế nghiêm ngặt từ kiểm lâm và hải quan",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-167",
+      "scenario": "Phê duyệt tuân thủ đối với trao đổi học thuật với các khu vực nhạy cảm",
+      "condition": "Mời các nhà nghiên cứu từ quốc gia nhạy cảm tham gia hội thảo công nghệ do công ty tổ chức",
+      "result": "Cần báo cáo chương trình và danh sách nhân sự cho cơ quan chức năng để đảm bảo không lộ bí mật",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-168",
+      "scenario": "Quy tắc xem xét chiến lược giá theo luật tuân thủ chống độc quyền",
+      "condition": "Công ty có ý định thỏa thuận giá thị trường khu vực với các đối thủ cạnh tranh chính",
+      "result": "Hành vi này nghi ngờ độc quyền theo chiều ngang; bộ phận tuân thủ phải bác bỏ và báo cáo cấp trên",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-169",
+      "scenario": "Yêu cầu về đào tạo tuân thủ đối với toàn bộ nhân viên công ty",
+      "condition": "Thực hiện kiểm tra và cấp chứng chỉ tuân thủ trực tuyến hàng năm cho nhân viên kinh doanh quốc tế",
+      "result": "Mọi nhân sự phải đạt điểm giỏi; những người không đạt sẽ bị tạm dừng quyền thao tác nghiệp vụ",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-170",
+      "scenario": "Lưu trữ dài hạn và quản lý số hóa các hồ sơ tài liệu tuân thủ",
+      "condition": "Các hồ sơ giao dịch và hợp đồng gốc liên quan đến các mặt hàng xuất khẩu nhạy cảm",
+      "result": "Phải lưu trữ ít nhất 10 năm theo quy định và thiết lập chỉ mục kỹ thuật số có mã hóa an toàn",
+      "category": "Quy tắc tuân thủ"
+    },
+    {
+      "rule_id": "RULE-171",
+      "scenario": "Kích hoạt điều khoản bất khả kháng (Force Majeure) trong hợp đồng",
+      "condition": "Động đất, lũ lụt hoặc lệnh cấm vận của chính phủ khiến hợp đồng không thể thực hiện đúng hạn",
+      "result": "Phải gửi thông báo bằng văn bản cho đối tác trong 48 giờ kèm giấy xác nhận của cơ quan thẩm quyền",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-172",
+      "scenario": "Quy tắc xác định thẩm quyền giải quyết tranh chấp hợp đồng thương mại",
+      "condition": "Hai bên thỏa thuận trong hợp đồng về con đường tư pháp để giải quyết khi xảy ra tranh chấp",
+      "result": "Mặc định chọn Trung tâm Trọng tài Quốc tế Singapore (SIAC) làm tổ chức trung gian giải quyết",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-173",
+      "scenario": "Quyền chấm dứt hợp đồng đơn phương và quy tắc bồi thường thiệt hại",
+      "condition": "Người mua yêu cầu chấm dứt hợp đồng trước khi giao hàng mà người bán không có lỗi vi phạm",
+      "result": "Người mua bồi thường thiệt hại kinh tế trực tiếp và trả phí phạt 5% tổng giá trị hợp đồng",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-174",
+      "scenario": "Xác định thời điểm chuyển giao quyền sở hữu hàng hóa giao dịch",
+      "condition": "Hợp đồng theo điều kiện DDP và không có thỏa thuận riêng về việc chuyển giao quyền sở hữu",
+      "result": "Quyền sở hữu chuyển từ người bán sang người mua sau khi ký nhận hàng và thanh toán đầy đủ tiền",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-175",
+      "scenario": "Thiết lập thời gian gia hạn và mức phạt khi chậm trễ giao hàng",
+      "condition": "Người bán giao hàng muộn hơn ngày hẹn nhưng trong thời gian gia hạn 7 ngày làm việc",
+      "result": "Không tính là vi phạm; nếu quá hạn sẽ khấu trừ 0,3% tổng giá trị hợp đồng cho mỗi ngày chậm",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-176",
+      "scenario": "Quy tắc thứ tự ưu tiên giải thích ngôn ngữ của văn bản hợp đồng",
+      "condition": "Hợp đồng được ký bằng cả tiếng Việt và tiếng Anh nhưng có sự mâu thuẫn về mặt ngữ nghĩa",
+      "result": "Lấy phiên bản ngôn ngữ được xác định là 'Ngôn ngữ chủ đạo' trong hợp đồng làm căn cứ pháp lý",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-177",
+      "scenario": "Cơ chế điều chỉnh giá hợp đồng khi chi phí nguyên liệu biến động mạnh",
+      "condition": "Giá nguyên liệu thị trường tăng hoặc giảm vượt mức 10% so với thỏa thuận ban đầu",
+      "result": "Hai bên có quyền đàm phán lại giá; thỏa thuận bổ sung phải được ký bằng văn bản mới có hiệu lực",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-178",
+      "scenario": "Chuyển nhượng hợp đồng và quy tắc thanh toán qua bên thứ ba",
+      "condition": "Một bên muốn chuyển nhượng toàn bộ quyền và nghĩa vụ hợp đồng cho một đơn vị thứ ba",
+      "result": "Phải có sự đồng ý bằng văn bản của bên còn lại và ký thỏa thuận chuyển nhượng ba bên",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-179",
+      "scenario": "Thời hạn bắt đầu và kết thúc quyền khiếu nại về chất lượng hàng",
+      "condition": "Người mua nhận hàng và có ý kiến về ngoại quan hoặc số lượng trong thời hạn thỏa thuận",
+      "result": "Phải khiếu nại bằng văn bản trong 5 ngày làm việc; quá hạn coi như hàng đạt tiêu chuẩn",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-180",
+      "scenario": "Thời hạn hiệu lực của các điều khoản bảo mật thông tin (NDA)",
+      "condition": "Các bản vẽ kỹ thuật hoặc bí mật kinh doanh cần được bảo vệ sau khi hợp đồng chấm dứt",
+      "result": "Nghĩa vụ bảo mật không mất đi theo hợp đồng; thời hạn bảo vệ thường là 3 năm sau khi hết hạn",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-181",
+      "scenario": "Quy tắc bảo vệ khu vực trong các thỏa thuận đại lý độc quyền",
+      "condition": "Người bán ủy quyền cho người mua làm nhà phân phối độc quyền tại một quốc gia cụ thể",
+      "result": "Người bán cam kết không bán qua bất kỳ bên thứ ba nào khác hoặc bán trực tiếp vào vùng đó",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-182",
+      "scenario": "Yêu cầu quyết toán và hoàn trả tài liệu sau khi chấm dứt hợp đồng",
+      "condition": "Hợp đồng cung ứng dài hạn hết hạn và hai bên xác nhận không ký tiếp các thỏa thuận mới",
+      "result": "Hai bên hoàn tất đối soát công nợ trong 30 ngày và trả lại hoặc tiêu hủy tài liệu nhạy cảm",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-183",
+      "scenario": "Điều khoản miễn trừ trách nhiệm về 'Vi phạm quyền sở hữu trí tuệ'",
+      "condition": "Người mua cung cấp bản thiết kế để người bán gia công và bị bên thứ ba kiện vi phạm",
+      "result": "Người mua chịu toàn bộ trách nhiệm bồi thường và án phí; người bán không chịu trách nhiệm liên đới",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-184",
+      "scenario": "Yêu cầu văn bản chính thức đối với mọi thay đổi trong hợp đồng",
+      "condition": "Nhân viên hai bên đạt được thỏa thuận miệng hoặc qua tin nhắn về việc đổi ngày giao hàng",
+      "result": "Thay đổi này không có hiệu lực pháp lý; phải có văn bản ký đóng dấu bởi người đại diện có thẩm quyền",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-185",
+      "scenario": "Quy tắc thiết lập giới hạn tối đa cho trách nhiệm vi phạm hợp đồng",
+      "condition": "Các khoản tiền phạt, bồi thường thiệt hại gián tiếp phát sinh theo các điều khoản hợp đồng",
+      "result": "Tổng số tiền bồi thường tích lũy tối đa không vượt quá 50% tổng giá trị giao dịch của hợp đồng",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-186",
+      "scenario": "Điều kiện tiên quyết (Condition Precedent) để hợp đồng có hiệu lực",
+      "condition": "Hợp đồng đơn hàng lớn đã ký nhưng Thư tín dụng (L/C) của người mua chưa được mở xong",
+      "result": "Hợp đồng ở trạng thái chờ hiệu lực cho đến khi người bán nhận được bản gốc L/C hợp lệ",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-187",
+      "scenario": "Quy định chi tiết trong hợp đồng về việc 'Giao hàng nhiều đợt'",
+      "condition": "Tổng số lượng 100.000 sản phẩm và người bán thực hiện gửi hàng chia làm năm đợt hàng tháng",
+      "result": "Mỗi đợt được coi là một giao dịch độc lập; vi phạm ở một đợt không làm hủy bỏ toàn bộ hợp đồng",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-188",
+      "scenario": "Định nghĩa các đơn vị tính trong văn bản hợp đồng thương mại",
+      "condition": "Sự khác biệt về tiêu chuẩn đo lường dẫn đến sai lệch giữa hàng giao và yêu cầu đơn hàng",
+      "result": "Phụ lục hợp đồng phải nêu rõ tiêu chuẩn đơn vị (ví dụ: 1 tá = 12 chiếc, 1 tấn mét hệ, v.v.)",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-189",
+      "scenario": "Công nhận giá trị pháp lý của hợp đồng và chữ ký điện tử",
+      "condition": "Hợp đồng thương mại được ký qua các nền tảng ký số bên thứ ba được cấp phép hợp pháp",
+      "result": "Theo luật giao dịch điện tử và các điều ước quốc tế, văn bản này có giá trị như bản giấy",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-190",
+      "scenario": "Quy tắc cam kết giữ giá trong thời hạn hiệu lực của hợp đồng khung",
+      "condition": "Ký hợp đồng khung thời hạn một năm và người bán cam kết không thay đổi giá sản phẩm",
+      "result": "Người bán không được tăng giá do nguyên liệu tăng trừ khi kích hoạt điều khoản điều chỉnh đặc biệt",
+      "category": "Quy tắc hợp đồng"
+    },
+    {
+      "rule_id": "RULE-191",
+      "scenario": "Quy tắc sử dụng bộ nhận diện thương hiệu (LOGO) trong quảng bá",
+      "condition": "Đối tác cần hiển thị logo công ty trên trang web chính thức để quảng bá chung",
+      "result": "Phải tuân thủ đúng màu sắc và tỷ lệ trong 'Cẩm nang thương hiệu'; nghiêm cấm làm biến dạng",
+      "category": "Khác"
+    },
+    {
+      "rule_id": "RULE-192",
+      "scenario": "Tiêu chuẩn giới hạn số lượng và giá trị đối với hàng mẫu miễn phí",
+      "condition": "Gửi hàng mẫu không nhằm mục đích bán cho khách hàng tiềm năng để mở rộng thị trường",
+      "result": "Số lượng mẫu mỗi lần không quá 3 chiếc và tổng giá trị phải kiểm soát dưới 50 USD",
+      "category": "Khác"
+    },
+    {
+      "rule_id": "RULE-193",
+      "scenario": "Thời điểm thực hiện khảo sát mức độ hài lòng của khách hàng",
+      "condition": "Trong vòng 30 ngày sau khi đơn hàng hoàn tất thông quan và khách ký nhận thành công",
+      "result": "Hệ thống tự động gửi phiếu khảo sát và ghi lại các phản hồi thực tế của khách vào kho dữ liệu",
+      "category": "Khác"
+    },
+    {
+      "rule_id": "RULE-194",
+      "scenario": "Cơ chế cập nhật định kỳ dữ liệu trong kho kiến thức nội bộ công ty",
+      "condition": "Chính sách thương mại hoặc giá cước logistics thay đổi lớn khiến hướng dẫn cũ bị lỗi thời",
+      "result": "Bộ phận nội dung phải cập nhật mọi tài liệu tương ứng trên hệ thống trong vòng 24 giờ",
+      "category": "Khác"
+    },
+    {
+      "rule_id": "RULE-195",
+      "scenario": "Hiệu suất giao tiếp và quy tắc ranh giới đỏ khi phối hợp liên bộ phận",
+      "condition": "Bộ phận bán hàng phản hồi khách cần hỗ trợ kỹ thuật gấp về một chi tiết sản phẩm",
+      "result": "Bộ phận R&D và kỹ thuật phải đưa ra câu trả lời rõ ràng trong vòng 4 giờ kể từ khi nhận yêu cầu",
+      "category": "Khác"
+    },
+    {
+      "rule_id": "RULE-196",
+      "scenario": "Quy tắc kiểm toán các thao tác nhạy cảm trên hệ thống văn phòng",
+      "condition": "Tài khoản quản trị sửa đổi các thông số cốt lõi, quyền người dùng hoặc cấu trúc dữ liệu",
+      "result": "Hệ thống phải tự động tạo nhật ký kiểm toán và lưu giữ trên máy chủ ít nhất 12 tháng",
+      "category": "Khác"
+    },
+    {
+      "rule_id": "RULE-197",
+      "scenario": "Tuyên bố tuân thủ về việc tặng quà trong các dịp lễ tết quốc tế",
+      "condition": "Tặng quà kinh doanh cho các khách hàng lớn ở nước ngoài dịp Giáng sinh hoặc năm mới",
+      "result": "Giá trị mỗi phần quà không quá 100 USD; nghiêm cấm tặng tiền mặt hoặc các loại ngân phiếu",
+      "category": "Khác"
+    },
+    {
+      "rule_id": "RULE-198",
+      "scenario": "Quy tắc phân ca trực cho đội ngũ chăm sóc khách hàng đa ngôn ngữ",
+      "condition": "Cung cấp tư vấn kỹ thuật trực tuyến 24/7 cho khách ở các múi giờ khác nhau trên thế giới",
+      "result": "Sắp xếp ca linh hoạt đảm bảo các tiếng Thái, Việt, v.v. luôn có người trực vào giờ cao điểm",
+      "category": "Khác"
+    },
+    {
+      "rule_id": "RULE-199",
+      "scenario": "Bảo hộ bằng sáng chế của công ty tại các triển lãm quốc tế lớn",
+      "condition": "Mang các sản phẩm có quyền sở hữu trí tuệ cốt lõi tham gia triển lãm ngành hàng cầu",
+      "result": "Gian hàng phải chuẩn bị sẵn bản sao giấy tờ pháp lý và ghi rõ số bằng sáng chế tại vị trí dễ thấy",
+      "category": "Khác"
+    },
+    {
+      "rule_id": "RULE-200",
+      "scenario": "Thông báo và phát hành thử nghiệm khi nâng cấp hệ thống giao dịch",
+      "condition": "Nền tảng thương mại cần cập nhật chức năng lớn hoặc điều chỉnh kiến trúc cơ sở dữ liệu",
+      "result": "Phải thông báo trước 72 giờ và thực hiện chuyển đổi vào khung giờ thấp điểm kinh doanh",
+      "category": "Khác"
+    }
+  ]
+}
