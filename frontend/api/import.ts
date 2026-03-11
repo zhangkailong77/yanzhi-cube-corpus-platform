@@ -117,3 +117,62 @@ export async function createCorpusWithSamples(
   const result: ApiResponse<CreateCorpusResult> = await response.json();
   return result.data;
 }
+
+/**
+ * 通过上传文件创建语料库并导入样本（支持 parquet）
+ */
+export async function createCorpusWithFile(
+  name: string,
+  description: string,
+  sourceLang: string,
+  targetLang: string,
+  sourceName: string,
+  targetName: string,
+  domain: string = 'general',
+  sourceType: string = 'official',
+  isPublic: boolean = true,
+  file?: File
+): Promise<CreateCorpusResult> {
+  if (!file) {
+    throw new Error('请选择文件');
+  }
+
+  const token = localStorage.getItem('auth_token');
+  const headers: HeadersInit = {};
+  if (token) {
+    headers['Authorization'] = `Bearer ${token}`;
+  }
+
+  const formData = new FormData();
+  formData.append('name', name);
+  formData.append('description', description);
+  formData.append('source_lang', sourceLang);
+  formData.append('target_lang', targetLang);
+  formData.append('source_name', sourceName);
+  formData.append('target_name', targetName);
+  formData.append('domain', domain);
+  formData.append('source_type', sourceType);
+  formData.append('is_public', String(isPublic));
+  formData.append('file', file);
+
+  const response = await fetch(
+    `${API_BASE_URL}/corpus/create-with-file`,
+    {
+      method: 'POST',
+      headers,
+      body: formData,
+    }
+  );
+
+  if (!response.ok) {
+    const error = await response.json();
+    const detail = error.detail;
+    const message = typeof detail === 'string'
+      ? detail
+      : (Array.isArray(detail) ? detail.map((d: any) => d.msg || JSON.stringify(d)).join('; ') : JSON.stringify(detail));
+    throw new Error(message || '创建失败');
+  }
+
+  const result: ApiResponse<CreateCorpusResult> = await response.json();
+  return result.data;
+}

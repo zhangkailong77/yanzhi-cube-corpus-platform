@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Eye, Download, Link as LinkIcon, ArrowUpDown, ChevronDown, Search, Tag, Filter, Loader2, Upload, Plus, X, FileJson, AlertCircle } from 'lucide-react';
 import { useLanguage } from './LanguageContext';
 import { fetchCorpora, type CorpusItem, type ScenarioTag } from '../api/corpus';
-import { importSamplesToCorpus, createCorpusWithSamples } from '../api/import';
+import { importSamplesToCorpus, createCorpusWithFile } from '../api/import';
 
 interface SearchResultsProps {
   sourceLang: string;
@@ -14,7 +14,7 @@ interface SearchResultsProps {
 // Local interface for scenario tags used in this component
 interface UIScenarioTag {
   label: string;
-  type: 'ecommerce' | 'tourism' | 'business' | 'economy' | 'general' | 'terminology' | 'qa' | 'alignment' | 'process' | 'case' | 'struction';
+  type: 'ecommerce' | 'tourism' | 'business' | 'economy' | 'general' | 'terminology' | 'qa' | 'alignment' | 'process' | 'case' | 'struction' | 'audio';
 }
 
 const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, onSearch, onPreview }) => {
@@ -105,8 +105,8 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (file) {
-      if (!file.name.endsWith('.json') && !file.name.endsWith('.jsonl')) {
-        setImportError('请选择 .json 或 .jsonl 文件');
+      if (!file.name.endsWith('.json') && !file.name.endsWith('.jsonl') && !file.name.endsWith('.parquet')) {
+        setImportError('请选择 .json / .jsonl / .parquet 文件');
         return;
       }
       setImportFile(file);
@@ -137,14 +137,7 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
 
     try {
       if (importMode === 'create') {
-        // 读取文件内容
-        const content = await importFile!.text();
-        const samples = importFile!.name.endsWith('.jsonl')
-          ? content.split('\n').filter(l => l.trim()).map(l => JSON.parse(l))
-          : JSON.parse(content);
-        const samplesArray = Array.isArray(samples) ? samples : [samples];
-
-        const result = await createCorpusWithSamples(
+        const result = await createCorpusWithFile(
           newCorpus.name,
           newCorpus.description,
           newCorpus.source_lang,
@@ -154,7 +147,7 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
           newCorpus.domain,
           newCorpus.source_type,
           newCorpus.is_public,
-          samplesArray
+          importFile
         );
         setImportSuccess(`成功创建语料库 "${result.corpus_name}" 并导入 ${result.imported} 条样本`);
         if (result.errors && result.errors.length > 0) {
@@ -208,6 +201,7 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
     { code: 'th', label: t('langThai') },
     { code: 'vi', label: t('langVietnamese') },
     { code: 'ms', label: t('langMalay') },
+    { code: 'id', label: t('langIndonesian') },
   ];
 
   const handleSearchClick = () => {
@@ -223,6 +217,7 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
       case 'th': return 'Thai (th)';
       case 'vi': return 'Vietnamese (vi)';
       case 'ms': return 'Malay (ms)';
+      case 'id': return 'Indonesian (id)';
       default: return code;
     }
   };
@@ -335,6 +330,7 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
                 <option value="process">规程 (Process)</option>
                 <option value="case">案例 (Case)</option>
                 <option value="struction">指令 (Struction)</option>
+                <option value="audio">{t('catAudio')}</option>
               </select>
             </div>
           </div>
@@ -607,6 +603,7 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
                       <option value="process">规程 (Process)</option>
                       <option value="case">案例 (Case)</option>
                       <option value="struction">指令 (Struction)</option>
+                      <option value="audio">{t('catAudio')}</option>
                     </select>
                   </div>
                   <div>
@@ -626,15 +623,15 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
 
               {/* 文件上传 */}
               <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">选择 JSON 文件 *</label>
+                <label className="block text-sm font-medium text-slate-700 mb-2">选择文件 *</label>
                 <div
                   onClick={() => document.getElementById('import-file-input')?.click()}
                   onDrop={(e) => {
                     e.preventDefault();
                     const file = e.dataTransfer.files[0];
                     if (file) {
-                      if (!file.name.endsWith('.json') && !file.name.endsWith('.jsonl')) {
-                        setImportError('请选择 .json 或 .jsonl 文件');
+                      if (!file.name.endsWith('.json') && !file.name.endsWith('.jsonl') && !file.name.endsWith('.parquet')) {
+                        setImportError('请选择 .json / .jsonl / .parquet 文件');
                         return;
                       }
                       setImportFile(file);
@@ -650,7 +647,7 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
                   <input
                     id="import-file-input"
                     type="file"
-                    accept=".json,.jsonl"
+                    accept=".json,.jsonl,.parquet"
                     onChange={handleFileChange}
                     className="hidden"
                   />
@@ -664,7 +661,7 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
                     <div className="flex flex-col items-center">
                       <Upload className="text-slate-400 mb-2" size={32} />
                       <p className="text-sm text-slate-600">点击选择文件或拖拽到此处</p>
-                      <p className="text-xs text-slate-400 mt-1">支持 .json 或 .jsonl 格式</p>
+                      <p className="text-xs text-slate-400 mt-1">支持 .json / .jsonl / .parquet 格式</p>
                     </div>
                   )}
                 </div>

@@ -33,6 +33,28 @@ async def get_corpora(
     current_user = Depends(security.get_current_user_optional)
 ):
     """获取语料库列表"""
+    if domain == "audio" and corpus_service.get_minio_audio_config().get("enabled"):
+        # 规则：只要没有显式选择非 id 语言，就显示（任意也显示）
+        source_match = (source_lang is None) or (source_lang == "id")
+        target_match = (target_lang is None) or (target_lang == "id")
+        if not (source_match and target_match):
+            result = CorpusListResponse(
+                items=[],
+                total=0,
+                page=page,
+                limit=limit
+            )
+            return ApiResponse(success=True, message="获取成功", data=result)
+
+        virtual_item = corpus_service.get_minio_audio_virtual_corpus_item()
+        result = CorpusListResponse(
+            items=[virtual_item],
+            total=1,
+            page=page,
+            limit=limit
+        )
+        return ApiResponse(success=True, message="获取成功", data=result)
+
     # 所有人都能看到语料库列表（私有语料库会显示但无法访问）
     is_public_filter = is_public
 
@@ -56,6 +78,13 @@ async def get_corpus_detail(
     current_user = Depends(security.get_current_user_optional)
 ):
     """获取语料库详情"""
+    if corpus_id == corpus_service.MINIO_AUDIO_CORPUS_ID:
+        return ApiResponse(
+            success=True,
+            message="获取成功",
+            data=corpus_service.get_minio_audio_virtual_corpus_detail()
+        )
+
     from sqlalchemy import select
     from api.models.corpus import Corpus
 
@@ -110,6 +139,10 @@ async def get_corpus_samples(
     current_user = Depends(security.get_current_user_optional)
 ):
     """获取语料样本列表"""
+    if corpus_id == corpus_service.MINIO_AUDIO_CORPUS_ID:
+        result = corpus_service.get_minio_audio_samples(page=page, limit=limit)
+        return ApiResponse(success=True, message="获取成功", data=result)
+
     # 检查语料库访问权限
     from sqlalchemy import select
     from api.models.corpus import Corpus

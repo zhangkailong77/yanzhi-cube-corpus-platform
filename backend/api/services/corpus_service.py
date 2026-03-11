@@ -1,6 +1,11 @@
 """
 语料库服务层
 """
+import hashlib
+import io
+import json
+import os
+from pathlib import Path
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, func, text
 from sqlalchemy.orm import selectinload
@@ -12,12 +17,260 @@ from api.models.alignment import AlignmentSample
 from api.models.process import ProcessSample
 from api.models.case import CaseSample
 from api.models.scenario import ScenarioSample
+from api.models.audio import AudioSample
 from api.schemas.corpus import (
     CorpusItem, CorpusListResponse, SampleListResponse,
     CorpusSample, DashboardOverviewResponse, DashboardStatsResponse,
     CategoryStat, ScenarioTag, KWICResponse, KWICResultItem
 )
-from datetime import datetime
+from datetime import datetime, timedelta
+
+
+MINIO_AUDIO_CORPUS_ID = -1
+_minio_audio_cache: Dict[str, Any] = {
+    "manifest_key": None,
+    "manifest": None,
+}
+
+
+def get_minio_audio_config() -> dict:
+    return {
+        "endpoint": os.getenv("MINIO_AUDIO_ENDPOINT", "112.124.32.196:9000"),
+        "access_key": os.getenv("MINIO_AUDIO_ACCESS_KEY", "admin"),
+        "secret_key": os.getenv("MINIO_AUDIO_SECRET_KEY", "Yanzhi2026."),
+        "secure": os.getenv("MINIO_AUDIO_SECURE", "false").lower() in ("1", "true", "yes"),
+        "bucket": os.getenv("MINIO_AUDIO_BUCKET", "indonesian-voice"),
+        "object_name": os.getenv("MINIO_AUDIO_OBJECT", "octava/indonesian-voice-transcription-1.0/data/train-00000-of-00023.parquet"),
+        "cache_prefix": os.getenv("MINIO_AUDIO_CACHE_PREFIX", "cache/minio-audio-preview"),
+        "enabled": os.getenv("MINIO_AUDIO_ENABLED", "true").lower() in ("1", "true", "yes")
+    }
+
+
+def get_minio_audio_virtual_corpus_item() -> CorpusItem:
+    cfg = get_minio_audio_config()
+    corpus_name = Path(cfg["object_name"]).name or "MinIO Audio Preview"
+    return CorpusItem(
+        id=MINIO_AUDIO_CORPUS_ID,
+        name=corpus_name,
+        sentences="--",
+        sTok="--",
+        tTok="--",
+        tags=[],
+        domain="audio",
+        source_type="official",
+        is_public=True
+    )
+
+
+def get_minio_audio_virtual_corpus_detail() -> dict:
+    cfg = get_minio_audio_config()
+    corpus_name = Path(cfg["object_name"]).name or "MinIO Audio Preview"
+    sentence_count = 0
+    try:
+        manifest = _load_or_build_minio_audio_manifest()
+        sentence_count = int(manifest.get("total", 0))
+    except Exception:
+        logger.exception("Failed to load MinIO audio manifest for detail")
+    return {
+        "id": MINIO_AUDIO_CORPUS_ID,
+        "name": corpus_name,
+        "description": f"Live preview from MinIO: {cfg['bucket']}/{cfg['object_name']}",
+        "source_lang": "id",
+        "target_lang": "id",
+        "source_name": "Indonesian",
+        "target_name": "Indonesian",
+        "sentence_count": sentence_count,
+        "source_token_count": 0,
+        "target_token_count": 0,
+        "domain": "audio",
+        "source_type": "official",
+        "is_public": True,
+    }
+
+
+def _get_minio_client(cfg: dict):
+    from minio import Minio
+
+    return Minio(
+        cfg["endpoint"],
+        access_key=cfg["access_key"],
+        secret_key=cfg["secret_key"],
+        secure=cfg["secure"]
+    )
+
+
+def _is_supported_audio_ext(ext: str) -> bool:
+    return ext in [".wav", ".mp3", ".flac", ".ogg", ".m4a", ".aac", ".opus"]
+
+
+def _pick_transcript_for_minio_row(row: dict) -> str:
+    for key in ["sentence", "transcript", "text", "raw_text", "target_text", "output"]:
+        val = row.get(key)
+        if isinstance(val, str) and val.strip():
+            return val
+    return ""
+
+
+def _build_minio_cache_prefix(cfg: dict, etag: str) -> str:
+    cache_hash = hashlib.md5(f"{cfg['bucket']}/{cfg['object_name']}:{etag}".encode("utf-8")).hexdigest()[:16]
+    return f"{cfg['cache_prefix'].rstrip('/')}/{cache_hash}"
+
+
+def _load_or_build_minio_audio_manifest() -> dict:
+    cfg = get_minio_audio_config()
+    if not cfg["enabled"]:
+        return {"total": 0, "items": []}
+
+    client = _get_minio_client(cfg)
+    source_stat = client.stat_object(cfg["bucket"], cfg["object_name"])
+    source_etag = str(source_stat.etag or "")
+    cache_base = _build_minio_cache_prefix(cfg, source_etag)
+    manifest_object_name = f"{cache_base}/manifest.json"
+
+    if (
+        _minio_audio_cache["manifest"] is not None and
+        _minio_audio_cache["manifest_key"] == manifest_object_name
+    ):
+        return _minio_audio_cache["manifest"]
+
+    try:
+        manifest_resp = client.get_object(cfg["bucket"], manifest_object_name)
+        try:
+            manifest = json.loads(manifest_resp.read().decode("utf-8"))
+            _minio_audio_cache["manifest"] = manifest
+            _minio_audio_cache["manifest_key"] = manifest_object_name
+            return manifest
+        finally:
+            manifest_resp.close()
+            manifest_resp.release_conn()
+    except Exception:
+        # 缓存不存在，走首次构建
+        pass
+
+    import pandas as pd
+
+    response = client.get_object(cfg["bucket"], cfg["object_name"])
+    try:
+        raw_data = response.read()
+    finally:
+        response.close()
+        response.release_conn()
+
+    df = pd.read_parquet(io.BytesIO(raw_data))
+    rows = df.to_dict(orient="records")
+    uploaded_cache_keys: set[str] = set()
+    items: List[dict] = []
+
+    for idx, row in enumerate(rows, start=1):
+        if not isinstance(row, dict):
+            continue
+
+        audio_obj = row.get("audio")
+        transcript = _pick_transcript_for_minio_row(row)
+        audio_id = f"AUDIO-{idx}"
+
+        item = {
+            "audio_id": audio_id,
+            "transcript": transcript,
+            "language": "id",
+        }
+
+        if isinstance(audio_obj, dict):
+            audio_bytes = audio_obj.get("bytes")
+            audio_path = audio_obj.get("path")
+
+            if isinstance(audio_bytes, (bytes, bytearray)) and audio_bytes:
+                ext = ".wav"
+                if isinstance(audio_path, str) and "." in audio_path:
+                    ext_candidate = Path(audio_path).suffix.lower()
+                    if _is_supported_audio_ext(ext_candidate):
+                        ext = ext_candidate
+
+                digest = hashlib.md5(bytes(audio_bytes)).hexdigest()
+                cache_audio_object = f"{cache_base}/audio/{digest}{ext}"
+                item["audio_object"] = cache_audio_object
+
+                if cache_audio_object not in uploaded_cache_keys:
+                    body = bytes(audio_bytes)
+                    client.put_object(
+                        cfg["bucket"],
+                        cache_audio_object,
+                        io.BytesIO(body),
+                        length=len(body),
+                        content_type="audio/mpeg" if ext == ".mp3" else "audio/wav"
+                    )
+                    uploaded_cache_keys.add(cache_audio_object)
+
+            elif isinstance(audio_path, str) and audio_path.startswith(("http://", "https://")):
+                item["external_audio_url"] = audio_path
+
+        if "audio_object" in item or "external_audio_url" in item:
+            items.append(item)
+
+    manifest = {
+        "version": 1,
+        "source": {
+            "bucket": cfg["bucket"],
+            "object_name": cfg["object_name"],
+            "etag": source_etag
+        },
+        "cache_base": cache_base,
+        "total": len(items),
+        "items": items
+    }
+
+    manifest_bytes = json.dumps(manifest, ensure_ascii=False).encode("utf-8")
+    client.put_object(
+        cfg["bucket"],
+        manifest_object_name,
+        io.BytesIO(manifest_bytes),
+        length=len(manifest_bytes),
+        content_type="application/json"
+    )
+
+    _minio_audio_cache["manifest"] = manifest
+    _minio_audio_cache["manifest_key"] = manifest_object_name
+    return manifest
+
+
+def get_minio_audio_samples(page: int = 1, limit: int = 10) -> SampleListResponse:
+    cfg = get_minio_audio_config()
+    manifest = _load_or_build_minio_audio_manifest()
+    rows = manifest.get("items", [])
+    total = int(manifest.get("total", len(rows)))
+    start = max(0, (page - 1) * limit)
+    end = min(total, start + limit)
+    page_rows = rows[start:end]
+
+    client = _get_minio_client(cfg)
+    items: List[dict] = []
+    for idx, row in enumerate(page_rows, start=start + 1):
+        if not isinstance(row, dict):
+            continue
+
+        audio_url = row.get("external_audio_url")
+        if not audio_url and row.get("audio_object"):
+            audio_url = client.get_presigned_url(
+                "GET",
+                cfg["bucket"],
+                row["audio_object"],
+                expires=timedelta(hours=12)
+            )
+
+        if not audio_url:
+            continue
+
+        items.append({
+            "type": "audio",
+            "id": idx,
+            "audio_id": row.get("audio_id", f"AUDIO-{idx}"),
+            "audio_url": audio_url,
+            "transcript": row.get("transcript", ""),
+            "duration_seconds": None,
+            "language": row.get("language", "id")
+        })
+
+    return SampleListResponse(items=items, total=total, page=page, limit=limit)
 
 
 def format_number(num: int) -> str:
@@ -258,6 +511,28 @@ async def get_corpus_samples(
                 "output": sample.output,
                 "tags": sample.tags or []
             })
+    elif corpus.domain == "audio":
+        query = select(AudioSample).where(AudioSample.corpus_id == corpus_id)
+
+        count_query = select(func.count()).select_from(query.subquery())
+        total_result = await db.execute(count_query)
+        total = total_result.scalar() or 0
+
+        query = query.offset((page - 1) * limit).limit(limit)
+        result = await db.execute(query)
+        samples = result.scalars().all()
+
+        items = []
+        for sample in samples:
+            items.append({
+                "type": "audio",
+                "id": sample.id,
+                "audio_id": sample.audio_id,
+                "audio_url": sample.audio_url,
+                "transcript": sample.transcript,
+                "duration_seconds": sample.duration_seconds,
+                "language": sample.language
+            })
     else:
         # 查询普通样本表
         query = select(Sample).where(Sample.corpus_id == corpus_id)
@@ -345,7 +620,8 @@ async def get_overview_stats(db: AsyncSession) -> DashboardOverviewResponse:
         "tourism": "Travel & Tourism",
         "business": "Business Communication",
         "economy": "Economy & Finance",
-        "general": "General"
+        "general": "General",
+        "audio": "Audio Corpus"
     }
     for domain, count in domain_stats:
         categories.append(CategoryStat(
@@ -516,6 +792,9 @@ async def get_kwic_analysis(
     elif corpus.domain in ["struction", "scenario"]:
         model = ScenarioSample
         text_fields = ['task', 'output']
+    elif corpus.domain == "audio":
+        model = AudioSample
+        text_fields = ['transcript']
 
     # 构建基础查询
     query = select(model).where(model.corpus_id == corpus_id)
@@ -577,7 +856,7 @@ async def get_kwic_analysis(
             sample_detail["sentence_id"] = row.sentence_id
         else:
             # 针对扩展表，构造一个虚拟的 ID 或使用主键
-            uid_field = next((f for f in ['term_id', 'qa_id', 'alignment_id', 'rule_id', 'case_id', 'instruction_id'] if hasattr(row, f)), 'id')
+            uid_field = next((f for f in ['term_id', 'qa_id', 'alignment_id', 'rule_id', 'case_id', 'instruction_id', 'audio_id'] if hasattr(row, f)), 'id')
             sample_detail["sentence_id"] = str(getattr(row, uid_field))
 
         kwic_results.append(KWICResultItem(
@@ -636,6 +915,9 @@ async def get_sample_page_number(
     elif corpus.domain in ["struction", "scenario"]:
         model = ScenarioSample
         id_field_name = 'instruction_id'
+    elif corpus.domain == "audio":
+        model = AudioSample
+        id_field_name = 'audio_id'
 
     # 获取该语料库所有样本的 id 列表（按默认排序，通常是 ID 升序）
     id_attr = getattr(model, id_field_name)
@@ -707,6 +989,9 @@ async def get_corpus_frequency_stats(db, corpus_id: int):
     elif corpus.domain in ["struction", "scenario"]:
         model = ScenarioSample
         text_fields = ['task', 'output']
+    elif corpus.domain == "audio":
+        model = AudioSample
+        text_fields = ['transcript']
 
     # 4. 从数据库加载所有样本计算频次 (耗时操作)
     from sqlalchemy.inspection import inspect

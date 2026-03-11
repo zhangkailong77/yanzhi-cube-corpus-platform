@@ -5,6 +5,7 @@ import os
 from pathlib import Path
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from contextlib import asynccontextmanager
 
 from api.api import api_router
@@ -19,13 +20,18 @@ load_dotenv(env_path)
 APP_NAME = os.getenv('APP_NAME', '语料库管理平台')
 DEBUG = os.getenv('DEBUG', 'True').lower() in ('true', '1', 'yes')
 ALLOWED_ORIGINS = os.getenv('ALLOWED_ORIGINS', 'http://localhost:3001').split(',')
+AUTO_INIT_DATABASE = os.getenv(
+    'AUTO_INIT_DATABASE',
+    'False' if DEBUG else 'True'
+).lower() in ('true', '1', 'yes')
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """应用生命周期管理"""
-    # 启动时初始化数据库
-    await init_database()
+    # 开发模式默认跳过自动初始化，避免误写生产数据库
+    if AUTO_INIT_DATABASE:
+        await init_database()
     yield
     # 关闭时清理资源（如需要）
 
@@ -52,6 +58,11 @@ app.add_middleware(
 
 # 注册路由
 app.include_router(api_router, prefix="/api")
+
+# 挂载本地媒体目录（音频预览）
+media_path = Path(__file__).parent.parent / "media"
+media_path.mkdir(parents=True, exist_ok=True)
+app.mount("/media", StaticFiles(directory=str(media_path)), name="media")
 
 # 健康检查
 @app.get("/health")

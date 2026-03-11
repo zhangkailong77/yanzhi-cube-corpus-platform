@@ -10,5 +10,6 @@ from .alignment import AlignmentSample
 from .process import ProcessSample
 from .case import CaseSample
 from .scenario import ScenarioSample
+from .audio import AudioSample
 
-__all__ = ['Base', 'User', 'UserRole', 'Corpus', 'Sample', 'CorpusTag', 'StatisticsCache', 'TerminologySample', 'QASample', 'AlignmentSample', 'ProcessSample', 'CaseSample', 'ScenarioSample']
+__all__ = ['Base', 'User', 'UserRole', 'Corpus', 'Sample', 'CorpusTag', 'StatisticsCache', 'TerminologySample', 'QASample', 'AlignmentSample', 'ProcessSample', 'CaseSample', 'ScenarioSample', 'AudioSample']

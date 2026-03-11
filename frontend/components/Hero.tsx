@@ -19,6 +19,7 @@ const Hero: React.FC = () => {
     { code: 'process', label: t('catProcess') },
     { code: 'case', label: t('catCase') },
     { code: 'struction', label: t('catInstruction') },
+    { code: 'audio', label: t('catAudio') },
   ];
 
   const handleSearchClick = () => {

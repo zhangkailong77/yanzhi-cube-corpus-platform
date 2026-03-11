@@ -8,6 +8,7 @@ import AlignmentCard from './AlignmentCard';
 import ProcessCard from './ProcessCard';
 import CaseCard from './CaseCard';
 import ScenarioCard from './ScenarioCard';
+import AudioCard from './AudioCard';
 
 // Tab 类型定义
 export type TabType = 'detail' | 'kwic' | 'statistics';
@@ -404,6 +405,7 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
     { code: 'th', label: t('langThai') },
     { code: 'vi', label: t('langVietnamese') },
     { code: 'ms', label: t('langMalay') },
+    { code: 'id', label: t('langIndonesian') },
   ];
 
   // 客户端过滤逻辑
@@ -817,7 +819,7 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
               </button>
 
               {/* Tab 2: KWIC 分析 (术语库隐藏) */}
-              {corpusInfo?.domain !== 'terminology' && (
+              {corpusInfo?.domain !== 'terminology' && corpusInfo?.domain !== 'audio' && (
                 <button
                   onClick={() => setActiveTab('kwic')}
                   className={`flex-1 flex items-center justify-center gap-2 px-6 py-4 text-sm font-medium transition-all duration-200 border-b-2 cursor-pointer ${activeTab === 'kwic'
@@ -835,6 +837,7 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
 
               {/* Tab 3: 词频统计 (针对特定类别/语言隐藏) */}
               {corpusInfo?.domain !== 'terminology' &&
+                corpusInfo?.domain !== 'audio' &&
                 !(corpusInfo?.domain === 'alignment' && corpusInfo?.target_lang === 'th') &&
                 !(['process', 'case', 'struction', 'scenario'].includes(corpusInfo?.domain || '') && (corpusInfo?.source_lang === 'zh' || corpusInfo?.source_lang === 'th' || corpusInfo?.target_lang === 'zh' || corpusInfo?.target_lang === 'th')) && (
                   <button
@@ -889,6 +892,7 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
                             it.type === 'process' ? it.rule_id :
                               it.type === 'case' ? it.case_id :
                                 it.type === 'scenario' ? it.instruction_id :
+                                  it.type === 'audio' ? it.audio_id :
                                   it.basic_layer?.sentence_id;
                       return id === selectedSentenceId;
                     };
@@ -1011,6 +1015,26 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
                             </div>
                           ) : (
                             <ScenarioCard scenarioData={item} />
+                          )}
+                        </div>
+                      );
+                    }
+
+                    if (item.type === 'audio' || corpusInfo?.domain === 'audio') {
+                      return (
+                        <div
+                          key={item.audio_id || item.id || index}
+                          ref={isSelected(item) ? selectedCardRef : null}
+                          className={isSelected(item) ? highlightClass : ""}
+                        >
+                          {showJson ? (
+                            <div className="bg-slate-900 rounded-xl overflow-hidden mb-6">
+                              <pre className="p-6 text-xs md:text-sm font-mono text-green-400 leading-relaxed overflow-x-auto">
+                                {JSON.stringify(item, null, 2)}
+                              </pre>
+                            </div>
+                          ) : (
+                            <AudioCard audio={item} />
                           )}
                         </div>
                       );

@@ -21,6 +21,7 @@ class DomainEnum(str, PyEnum):
     PROCESS = "process"
     CASE = "case"
     STRUCTION = "struction"
+    AUDIO = "audio"
 
 
 class SourceTypeEnum(str, PyEnum):
@@ -74,6 +75,7 @@ class Corpus(Base):
     process_samples = relationship("ProcessSample", back_populates="corpus", cascade="all, delete-orphan")
     case_samples = relationship("CaseSample", back_populates="corpus", cascade="all, delete-orphan")
     scenario_samples = relationship("ScenarioSample", back_populates="corpus", cascade="all, delete-orphan")
+    audio_samples = relationship("AudioSample", back_populates="corpus", cascade="all, delete-orphan")
 
     def to_dict(self, include_samples: bool = False) -> dict:
         """转换为字典"""

@@ -62,7 +62,7 @@ CREATE TABLE `corpora` (
   `sentence_count` BIGINT UNSIGNED NOT NULL DEFAULT 0 COMMENT '句子数',
   `source_token_count` BIGINT UNSIGNED NOT NULL DEFAULT 0 COMMENT '源语言 token 数',
   `target_token_count` BIGINT UNSIGNED NOT NULL DEFAULT 0 COMMENT '目标语言 token 数',
-  `domain` ENUM('ecommerce', 'tourism', 'business', 'economy', 'general', 'terminology', 'qa', 'alignment', 'process', 'case', 'struction') NOT NULL DEFAULT 'general' COMMENT '业务域',
+  `domain` ENUM('ecommerce', 'tourism', 'business', 'economy', 'general', 'terminology', 'qa', 'alignment', 'process', 'case', 'struction', 'audio') NOT NULL DEFAULT 'general' COMMENT '业务域',
   `source_type` ENUM('official', 'community', 'synthetic') NOT NULL DEFAULT 'official' COMMENT '数据来源类型',
   `is_public` BOOLEAN NOT NULL DEFAULT TRUE COMMENT '是否公开',
   `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
@@ -120,7 +120,7 @@ CREATE TABLE `corpus_tags` (
   `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `corpus_id` INT UNSIGNED NOT NULL COMMENT '语料库ID',
   `tag_label` VARCHAR(50) NOT NULL COMMENT '标签名称',
-  `tag_type` ENUM('ecommerce', 'tourism', 'business', 'economy', 'general', 'terminology', 'qa', 'alignment', 'process', 'case', 'struction') NOT NULL COMMENT '标签类型',
+  `tag_type` ENUM('ecommerce', 'tourism', 'business', 'economy', 'general', 'terminology', 'qa', 'alignment', 'process', 'case', 'struction', 'audio') NOT NULL COMMENT '标签类型',
   PRIMARY KEY (`id`),
   KEY `idx_corpus_id` (`corpus_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -148,6 +148,26 @@ CREATE TABLE `terminology_samples` (
   KEY `idx_corpus_id` (`corpus_id`),
   CONSTRAINT `fk_term_corpus_id` FOREIGN KEY (`corpus_id`) REFERENCES `corpora` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='术语语料样本表';
+
+-- ============================================
+-- 音频语料样本表
+-- ============================================
+DROP TABLE IF EXISTS `audio_samples`;
+
+CREATE TABLE `audio_samples` (
+  `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT COMMENT 'ID',
+  `corpus_id` INT UNSIGNED NOT NULL COMMENT '所属语料库ID',
+  `audio_id` VARCHAR(100) NOT NULL COMMENT '音频唯一标识',
+  `audio_url` TEXT NOT NULL COMMENT '音频访问地址',
+  `transcript` TEXT DEFAULT NULL COMMENT '转写文本',
+  `duration_seconds` VARCHAR(30) DEFAULT NULL COMMENT '音频时长（秒）',
+  `language` VARCHAR(20) DEFAULT NULL COMMENT '语言代码',
+  `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_audio_corpus_id` (`corpus_id`, `audio_id`),
+  KEY `idx_audio_corpus_id` (`corpus_id`),
+  CONSTRAINT `fk_audio_corpus_id` FOREIGN KEY (`corpus_id`) REFERENCES `corpora` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='音频语料样本表';
 
 -- ============================================
 -- 统计概览缓存表

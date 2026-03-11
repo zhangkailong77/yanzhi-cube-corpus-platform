@@ -7,13 +7,13 @@ import { useNavigate, useSearchParams } from 'react-router-dom';
 import { Eye, Download, Link as LinkIcon, ArrowUpDown, ChevronDown, Search, Filter, Loader2, Upload, X, FileJson, AlertCircle } from 'lucide-react';
 import { useLanguage } from '@/components/LanguageContext';
 import { fetchCorpora, type CorpusItem } from '@/api/corpus';
-import { importSamplesToCorpus, createCorpusWithSamples } from '@/api/import';
+import { importSamplesToCorpus, createCorpusWithFile } from '@/api/import';
 import { encodeId } from '@/router/encoding';
 
 // Local interface for scenario tags used in this component
 interface UIScenarioTag {
   label: string;
-  type: 'ecommerce' | 'tourism' | 'business' | 'economy' | 'general' | 'terminology' | 'qa' | 'alignment' | 'process' | 'case' | 'struction';
+  type: 'ecommerce' | 'tourism' | 'business' | 'economy' | 'general' | 'terminology' | 'qa' | 'alignment' | 'process' | 'case' | 'struction' | 'audio';
 }
 
 const SearchResultsPage: React.FC = () => {
@@ -134,8 +134,8 @@ const SearchResultsPage: React.FC = () => {
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (file) {
-      if (!file.name.endsWith('.json') && !file.name.endsWith('.jsonl')) {
-        setImportError('请选择 .json 或 .jsonl 文件');
+      if (!file.name.endsWith('.json') && !file.name.endsWith('.jsonl') && !file.name.endsWith('.parquet')) {
+        setImportError('请选择 .json / .jsonl / .parquet 文件');
         return;
       }
       setImportFile(file);
@@ -166,18 +166,7 @@ const SearchResultsPage: React.FC = () => {
 
     try {
       if (importMode === 'create') {
-        const content = await importFile!.text();
-        let samples = importFile!.name.endsWith('.jsonl')
-          ? content.split('\n').filter(l => l.trim()).map(l => JSON.parse(l))
-          : JSON.parse(content);
-
-        // Handle wrapped format {"meta": ..., "data": [...]}
-        if (!Array.isArray(samples) && (samples as any).data && Array.isArray((samples as any).data)) {
-          samples = (samples as any).data;
-        }
-        const samplesArray = Array.isArray(samples) ? samples : [samples];
-
-        const result = await createCorpusWithSamples(
+        const result = await createCorpusWithFile(
           newCorpus.name,
           newCorpus.description,
           newCorpus.source_lang,
@@ -187,7 +176,7 @@ const SearchResultsPage: React.FC = () => {
           newCorpus.domain,
           newCorpus.source_type,
           newCorpus.is_public,
-          samplesArray
+          importFile
         );
         setImportSuccess(`成功创建语料库 "${result.corpus_name}" 并导入 ${result.imported} 条样本`);
         if (result.errors && result.errors.length > 0) {
@@ -236,6 +225,7 @@ const SearchResultsPage: React.FC = () => {
     { code: 'th', label: t('langThai') },
     { code: 'vi', label: t('langVietnamese') },
     { code: 'ms', label: t('langMalay') },
+    { code: 'id', label: t('langIndonesian') },
   ];
 
   const handleSearchClick = () => {
@@ -249,6 +239,7 @@ const SearchResultsPage: React.FC = () => {
       case 'th': return 'Thai (th)';
       case 'vi': return 'Vietnamese (vi)';
       case 'ms': return 'Malay (ms)';
+      case 'id': return 'Indonesian (id)';
       default: return code;
     }
   };
@@ -276,6 +267,8 @@ const SearchResultsPage: React.FC = () => {
         return 'bg-orange-100 text-orange-700 border-orange-200';
       case 'struction':
         return 'bg-fuchsia-100 text-fuchsia-700 border-fuchsia-200';
+      case 'audio':
+        return 'bg-sky-100 text-sky-700 border-sky-200';
       default:
         return 'bg-slate-100 text-slate-600 border-slate-200';
     }
@@ -312,6 +305,7 @@ const SearchResultsPage: React.FC = () => {
                 <option value="process">{t('catProcess')}</option>
                 <option value="case">{t('catCase')}</option>
                 <option value="struction">{t('catInstruction')}</option>
+                <option value="audio">{t('catAudio')}</option>
               </select>
             </div>
 
@@ -613,6 +607,7 @@ const SearchResultsPage: React.FC = () => {
                       <option value="process">{t('catProcess')}</option>
                       <option value="case">{t('catCase')}</option>
                       <option value="struction">{t('catInstruction')}</option>
+                      <option value="audio">{t('catAudio')}</option>
                     </select>
                   </div>
                   <div>
@@ -632,15 +627,15 @@ const SearchResultsPage: React.FC = () => {
 
               {/* 文件上传 */}
               <div>
-                <label className="block text-sm font-medium text-slate-700 mb-2">选择 JSON 文件 *</label>
+                <label className="block text-sm font-medium text-slate-700 mb-2">选择文件 *</label>
                 <div
                   onClick={() => document.getElementById('import-file-input')?.click()}
                   onDragOver={(e) => {
                     e.preventDefault();
                     const file = e.dataTransfer.files[0];
                     if (file) {
-                      if (!file.name.endsWith('.json') && !file.name.endsWith('.jsonl')) {
-                        setImportError('请选择 .json 或 .jsonl 文件');
+                      if (!file.name.endsWith('.json') && !file.name.endsWith('.jsonl') && !file.name.endsWith('.parquet')) {
+                        setImportError('请选择 .json / .jsonl / .parquet 文件');
                         return;
                       }
                       setImportFile(file);
@@ -651,8 +646,8 @@ const SearchResultsPage: React.FC = () => {
                     e.preventDefault();
                     const file = e.dataTransfer.files[0];
                     if (file) {
-                      if (!file.name.endsWith('.json') && !file.name.endsWith('.jsonl')) {
-                        setImportError('请选择 .json 或 .jsonl 文件');
+                      if (!file.name.endsWith('.json') && !file.name.endsWith('.jsonl') && !file.name.endsWith('.parquet')) {
+                        setImportError('请选择 .json / .jsonl / .parquet 文件');
                         return;
                       }
                       setImportFile(file);
@@ -667,7 +662,7 @@ const SearchResultsPage: React.FC = () => {
                   <input
                     id="import-file-input"
                     type="file"
-                    accept=".json,.jsonl"
+                    accept=".json,.jsonl,.parquet"
                     onChange={handleFileChange}
                     className="hidden"
                   />
@@ -681,7 +676,7 @@ const SearchResultsPage: React.FC = () => {
                     <div className="flex flex-col items-center">
                       <Upload className="text-slate-400 mb-2" size={32} />
                       <p className="text-sm text-slate-600">点击选择文件或拖拽到此处</p>
-                      <p className="text-xs text-slate-400 mt-1">支持 .json 或 .jsonl 格式</p>
+                      <p className="text-xs text-slate-400 mt-1">支持 .json / .jsonl / .parquet 格式</p>
                     </div>
                   )}
                 </div>
