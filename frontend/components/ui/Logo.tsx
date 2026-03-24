@@ -29,7 +29,7 @@ const Logo: React.FC<LogoProps> = ({ size = 'small' }) => {
   return (
     <div className="flex items-center gap-4 select-none">
       <span className="text-[25px] font-semibold tracking-wide text-slate-700 whitespace-nowrap">
-        桂海私语产业学院
+        桂海丝语产业学院
       </span>
       <div className="relative flex items-center justify-center w-[200px] h-[80px] overflow-hidden">
         <img src="/logo3.png" alt="logo3" className="w-[200px] h-[80px] object-contain" />

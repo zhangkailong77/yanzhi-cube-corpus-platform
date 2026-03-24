@@ -31,7 +31,7 @@ interface EditNoteItem {
 const WORD_EDITOR_STYLE_ID = 'audio-word-editor-fx-style';
 const WORD_EDITOR_STYLE_TEXT = `
 .yz-word-editor-shell {
-  width: 248px;
+  width: 320px;
   transform-origin: 50% 100%;
   animation: yzTooltipPopIn 0.3s cubic-bezier(0.22, 0.61, 0.36, 1) both;
 }
@@ -44,16 +44,9 @@ const WORD_EDITOR_STYLE_TEXT = `
   position: relative;
   overflow: hidden;
   border-radius: 18px;
-  border: 1px solid rgba(226, 232, 240, 0.55);
-  background:
-    linear-gradient(150deg, rgba(148, 163, 184, 0.34), rgba(100, 116, 139, 0.28)),
-    radial-gradient(120% 120% at 20% 10%, rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0));
-  box-shadow:
-    0 18px 34px rgba(15, 23, 42, 0.2),
-    inset 0 1px 0 rgba(255, 255, 255, 0.35),
-    inset 0 -1px 0 rgba(71, 85, 105, 0.24);
-  backdrop-filter: blur(16px) saturate(140%);
-  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  border: 1px solid #e2e8f0;
+  background: #ffffff;
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.16);
   padding: 10px 11px;
 }
 
@@ -62,7 +55,7 @@ const WORD_EDITOR_STYLE_TEXT = `
   position: absolute;
   inset: 0;
   border-radius: inherit;
-  background: rgba(15, 23, 42, 0.2);
+  background: transparent;
   pointer-events: none;
 }
 
@@ -73,9 +66,9 @@ const WORD_EDITOR_STYLE_TEXT = `
 }
 
 .yz-word-editor-strong-text {
-  color: #ffffff;
+  color: #1e293b;
   font-weight: 700;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: none;
 }
 
 .yz-word-editor-arrow {
@@ -88,12 +81,12 @@ const WORD_EDITOR_STYLE_TEXT = `
 
 .yz-word-editor-arrow.down {
   bottom: -7px;
-  border-top: 7px solid rgba(120, 133, 152, 0.86);
+  border-top: 7px solid #ffffff;
 }
 
 .yz-word-editor-arrow.up {
   top: -7px;
-  border-bottom: 7px solid rgba(120, 133, 152, 0.86);
+  border-bottom: 7px solid #ffffff;
 }
 
 @keyframes yzCoolfadeIn {
@@ -670,12 +663,13 @@ const AudioCard: React.FC<AudioCardProps> = ({ audio, corpusId }) => {
                 ref={editorInputRef}
                 value={draftWord}
                 onChange={(event) => setDraftWord(event.target.value)}
-                className="w-full rounded-xl border border-white/55 bg-white/30 px-2.5 py-1.5 text-sm text-slate-800 placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-300"
+                className="w-full rounded-xl border border-slate-200 bg-white px-2.5 py-1.5 text-sm text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-200"
               />
-              <input
+              <textarea
                 value={draftExplanation}
                 onChange={(event) => setDraftExplanation(event.target.value)}
-                className="mt-2 w-full rounded-xl border border-white/55 bg-white/30 px-2.5 py-1.5 text-sm text-slate-800 placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-slate-300"
+                rows={2}
+                className="mt-2 min-h-16 w-full resize-none rounded-xl border border-slate-200 bg-white px-2.5 py-1.5 text-sm leading-5 text-slate-800 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-200"
                 placeholder="词性解释（可选）"
               />
               <div className="mt-3 flex items-center justify-between gap-3">
@@ -683,7 +677,7 @@ const AudioCard: React.FC<AudioCardProps> = ({ audio, corpusId }) => {
                   type="button"
                   onClick={handleSaveWord}
                   disabled={saving}
-                  className="yz-word-editor-strong-text w-24 px-3 py-1.5 text-xs bg-white/16 border border-white/45 rounded-lg backdrop-blur-sm hover:bg-white/26 disabled:opacity-60 disabled:cursor-not-allowed"
+                  className="yz-word-editor-strong-text w-24 rounded-lg border border-slate-200 bg-slate-100 px-3 py-1.5 text-xs hover:bg-slate-200 disabled:cursor-not-allowed disabled:opacity-60"
                 >
                   {saving ? '保存中...' : '保存'}
                 </button>
@@ -691,12 +685,12 @@ const AudioCard: React.FC<AudioCardProps> = ({ audio, corpusId }) => {
                   type="button"
                   onClick={closeEditor}
                   disabled={saving}
-                  className="yz-word-editor-strong-text w-24 px-3 py-1.5 text-xs bg-white/12 border border-white/40 rounded-lg backdrop-blur-sm hover:bg-white/20 disabled:opacity-60 disabled:cursor-not-allowed"
+                  className="yz-word-editor-strong-text w-24 rounded-lg border border-slate-200 bg-white px-3 py-1.5 text-xs hover:bg-slate-100 disabled:cursor-not-allowed disabled:opacity-60"
                 >
                   取消
                 </button>
               </div>
-              {saveError && <p className="mt-2 text-right text-xs text-red-100">{saveError}</p>}
+              {saveError && <p className="mt-2 text-right text-xs text-red-600">{saveError}</p>}
             </div>
           </div>
         </div>,
