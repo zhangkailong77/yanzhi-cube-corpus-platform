@@ -400,7 +400,7 @@ const AudioCard: React.FC<AudioCardProps> = ({ audio, corpusId }) => {
       Math.max(viewportPadding, preferredLeft),
       window.innerWidth - popupWidth - viewportPadding
     );
-    const preferredTop = tokenRect.top - popupHeight + 15;
+    const preferredTop = tokenRect.top - popupHeight - 10;
     const isTop = preferredTop > viewportPadding;
     const top = isTop
       ? preferredTop
