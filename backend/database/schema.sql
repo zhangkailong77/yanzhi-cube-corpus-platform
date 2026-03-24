@@ -17,6 +17,7 @@ DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `id` INT UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '用户ID',
   `username` VARCHAR(50) NOT NULL COMMENT '用户名',
+  `display_name` VARCHAR(100) DEFAULT NULL COMMENT '显示姓名',
   `password_hash` VARCHAR(255) NOT NULL COMMENT '密码哈希（bcrypt）',
   `email` VARCHAR(100) DEFAULT NULL COMMENT '邮箱',
   `role` ENUM('admin', 'member') NOT NULL DEFAULT 'member' COMMENT '角色：admin-超级管理员，member-普通成员',
@@ -38,9 +39,10 @@ CREATE TABLE `users` (
 -- 密码: Yanzhi2026
 -- bcrypt 哈希 (cost=12)
 
-INSERT INTO `users` (`username`, `password_hash`, `email`, `role`)
+INSERT INTO `users` (`username`, `display_name`, `password_hash`, `email`, `role`)
 VALUES (
     'admin',
+    '系统管理员',
     '$2b$12$rZoA.3yTmjtiKhKzaTRr3OFcrrkx9OyNMaKHeFmSSIsu75kdcejhm',
     'admin@yanzhi.com',
     'admin'

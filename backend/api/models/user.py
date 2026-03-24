@@ -19,6 +19,7 @@ class User(Base):
 
     id = Column(Integer, primary_key=True, autoincrement=True, comment="用户ID")
     username = Column(String(50), unique=True, nullable=False, comment="用户名")
+    display_name = Column(String(100), nullable=True, comment="显示姓名")
     password_hash = Column(String(255), nullable=False, comment="密码哈希")
     email = Column(String(100), unique=True, nullable=True, comment="邮箱")
     role = Column(String(50), default="member", nullable=False, comment="角色")
@@ -32,6 +33,7 @@ class User(Base):
         return {
             "id": self.id,
             "username": self.username,
+            "display_name": self.display_name,
             "email": self.email,
             "role": self.role.value if isinstance(self.role, PyEnum) else self.role,
             "is_active": self.is_active,

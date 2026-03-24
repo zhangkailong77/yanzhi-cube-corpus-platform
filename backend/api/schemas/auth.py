@@ -25,6 +25,7 @@ class LoginRequest(BaseModel):
 
 class RegisterRequest(BaseModel):
     """注册请求（管理员功能）"""
+    display_name: str = Field(..., min_length=1, max_length=100, description="姓名")
     username: str = Field(..., min_length=3, max_length=50, description="用户名")
     password: str = Field(..., min_length=6, max_length=100, description="密码")
     email: Optional[EmailStr] = Field(None, description="邮箱")
@@ -33,6 +34,7 @@ class RegisterRequest(BaseModel):
     class Config:
         json_schema_extra = {
             "example": {
+                "display_name": "张三",
                 "username": "newuser",
                 "password": "password123",
                 "email": "user@example.com",
@@ -77,6 +79,7 @@ class UserInfo(BaseModel):
     """用户信息"""
     id: int
     username: str
+    display_name: Optional[str] = None
     email: Optional[str] = None
     role: UserRole
     is_active: bool
@@ -89,6 +92,7 @@ class UserInfo(BaseModel):
             "example": {
                 "id": 1,
                 "username": "admin",
+                "display_name": "系统管理员",
                 "email": "admin@yanzhi.com",
                 "role": "admin",
                 "is_active": True,

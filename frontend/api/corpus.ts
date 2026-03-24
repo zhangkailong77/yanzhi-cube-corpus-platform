@@ -341,3 +341,43 @@ export async function fetchCorpusFrequencyStats(
   const endpoint = `/corpus/${corpusId}/statistics/frequency`;
   return apiRequest<CorpusFrequencyStatsResponse>(endpoint);
 }
+
+/**
+ * 保存音频转写文本
+ */
+export async function saveAudioTranscript(
+  corpusId: number,
+  audioId: string,
+  transcript: string,
+  annotatedBy?: string,
+  editNote?: { from_word: string; to_word: string; explanation?: string }
+): Promise<{
+  audio_id: string;
+  language: string;
+  text_file: string;
+  transcript: string;
+  annotated?: boolean;
+  annotated_by?: string;
+  annotated_at?: string;
+  annotation_date?: string;
+  edit_notes?: Array<{ from_word: string; to_word: string; explanation?: string }>;
+}> {
+  const endpoint = `/corpus/${corpusId}/audio-samples/${encodeURIComponent(audioId)}/transcript`;
+  return apiRequest<{
+    audio_id: string;
+    language: string;
+    text_file: string;
+    transcript: string;
+    annotated?: boolean;
+    annotated_by?: string;
+    annotated_at?: string;
+    annotation_date?: string;
+    edit_notes?: Array<{ from_word: string; to_word: string; explanation?: string }>;
+  }>(
+    endpoint,
+    {
+      method: 'POST',
+      body: JSON.stringify({ transcript, annotated_by: annotatedBy, edit_note: editNote })
+    }
+  );
+}

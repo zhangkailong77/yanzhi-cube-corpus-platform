@@ -1034,7 +1034,7 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
                               </pre>
                             </div>
                           ) : (
-                            <AudioCard audio={item} />
+                            <AudioCard audio={item} corpusId={corpusId || 0} />
                           )}
                         </div>
                       );

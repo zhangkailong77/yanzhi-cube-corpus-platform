@@ -2,6 +2,7 @@
 语料库 API 路由
 """
 from fastapi import APIRouter, Depends, Query
+from pydantic import BaseModel
 from sqlalchemy.ext.asyncio import AsyncSession
 from typing import Optional
 from database.connection import get_db
@@ -19,6 +20,17 @@ from api.utils import security
 
 router = APIRouter(prefix="/corpus", tags=["语料库"])
 
+class AudioEditNoteRequest(BaseModel):
+    from_word: str
+    to_word: str
+    explanation: Optional[str] = None
+
+
+class UpdateAudioTranscriptRequest(BaseModel):
+    transcript: str
+    annotated_by: Optional[str] = None
+    edit_note: Optional[AudioEditNoteRequest] = None
+
 
 @router.get("", response_model=ApiResponse[CorpusListResponse])
 async def get_corpora(
@@ -33,23 +45,18 @@ async def get_corpora(
     current_user = Depends(security.get_current_user_optional)
 ):
     """获取语料库列表"""
-    if domain == "audio" and corpus_service.get_minio_audio_config().get("enabled"):
-        # 规则：只要没有显式选择非 id 语言，就显示（任意也显示）
-        source_match = (source_lang is None) or (source_lang == "id")
-        target_match = (target_lang is None) or (target_lang == "id")
-        if not (source_match and target_match):
-            result = CorpusListResponse(
-                items=[],
-                total=0,
-                page=page,
-                limit=limit
-            )
-            return ApiResponse(success=True, message="获取成功", data=result)
-
-        virtual_item = corpus_service.get_minio_audio_virtual_corpus_item()
+    if domain == "audio":
+        virtual_items = corpus_service.get_virtual_audio_corpus_items(
+            source_lang=source_lang,
+            target_lang=target_lang
+        )
+        total = len(virtual_items)
+        start = max(0, (page - 1) * limit)
+        end = start + limit
+        paged_items = virtual_items[start:end]
         result = CorpusListResponse(
-            items=[virtual_item],
-            total=1,
+            items=paged_items,
+            total=total,
             page=page,
             limit=limit
         )
@@ -78,11 +85,11 @@ async def get_corpus_detail(
     current_user = Depends(security.get_current_user_optional)
 ):
     """获取语料库详情"""
-    if corpus_id == corpus_service.MINIO_AUDIO_CORPUS_ID:
+    if corpus_service.is_virtual_audio_corpus(corpus_id):
         return ApiResponse(
             success=True,
             message="获取成功",
-            data=corpus_service.get_minio_audio_virtual_corpus_detail()
+            data=corpus_service.get_virtual_audio_corpus_detail(corpus_id)
         )
 
     from sqlalchemy import select
@@ -139,8 +146,8 @@ async def get_corpus_samples(
     current_user = Depends(security.get_current_user_optional)
 ):
     """获取语料样本列表"""
-    if corpus_id == corpus_service.MINIO_AUDIO_CORPUS_ID:
-        result = corpus_service.get_minio_audio_samples(page=page, limit=limit)
+    if corpus_service.is_virtual_audio_corpus(corpus_id):
+        result = corpus_service.get_virtual_audio_samples(corpus_id=corpus_id, page=page, limit=limit)
         return ApiResponse(success=True, message="获取成功", data=result)
 
     # 检查语料库访问权限
@@ -175,6 +182,42 @@ async def get_corpus_samples(
         limit=limit
     )
     return ApiResponse(success=True, message="获取成功", data=result)
+
+
+@router.post("/{corpus_id}/audio-samples/{audio_id}/transcript", response_model=ApiResponse[dict])
+async def update_audio_sample_transcript(
+    corpus_id: int,
+    audio_id: str,
+    request: UpdateAudioTranscriptRequest,
+    current_user=Depends(security.get_current_user_optional)
+):
+    """更新本地音频语料转写文本（写入 voicedatas 对应 txt 文件）"""
+    from fastapi import HTTPException
+    if not corpus_service.is_virtual_audio_corpus(corpus_id):
+        raise HTTPException(status_code=400, detail="该语料不支持文本编辑")
+
+    try:
+        annotator = None
+        if current_user is not None and getattr(current_user, "username", None):
+            annotator = current_user.username
+        elif request.annotated_by:
+            annotator = request.annotated_by
+
+        data = corpus_service.update_virtual_audio_transcript(
+            corpus_id=corpus_id,
+            audio_id=audio_id,
+            transcript=request.transcript,
+            annotated_by=annotator,
+            edit_note=request.edit_note.model_dump() if request.edit_note else None
+        )
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=str(exc))
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc))
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"保存失败: {str(exc)}")
+
+    return ApiResponse(success=True, message="保存成功", data=data)
 
 
 # ===================== 样本定位路由 =====================

@@ -10,6 +10,7 @@ export type UserRole = 'admin' | 'member';
 export interface User {
   id: number;
   username: string;
+  display_name?: string | null;
   email: string | null;
   role: UserRole;
   is_active: boolean;
@@ -23,7 +24,7 @@ export interface AuthContextValue {
   isAuthenticated: boolean;
   isLoading: boolean;
   login: (username: string, password: string) => Promise<void>;
-  register: (username: string, password: string, email?: string) => Promise<void>;
+  register: (displayName: string, username: string, password: string, email?: string) => Promise<void>;
   logout: () => void;
 }
 
@@ -53,6 +54,34 @@ export function AuthProvider({ children }: AuthProviderProps) {
       setToken(storedToken);
       setUser(JSON.parse(storedUser));
     }
+  }, []);
+
+  // 同步服务端最新用户信息（例如 display_name 更新后无需重新登录）
+  useEffect(() => {
+    const syncLatestUser = async (): Promise<void> => {
+      const storedToken = localStorage.getItem('auth_token');
+      if (!storedToken) return;
+
+      try {
+        const response = await fetch(`${API_BASE_URL}/api/auth/verify`, {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${storedToken}`,
+          },
+        });
+
+        if (!response.ok) return;
+        const latestUser = await response.json();
+        setToken(storedToken);
+        setUser(latestUser);
+        localStorage.setItem('auth_user', JSON.stringify(latestUser));
+      } catch (error) {
+        console.error('Sync latest user failed:', error);
+      }
+    };
+
+    syncLatestUser();
   }, []);
 
   // 登录函数
@@ -90,7 +119,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
   };
 
   // 注册函数
-  const register = async (username: string, password: string, email?: string): Promise<void> => {
+  const register = async (displayName: string, username: string, password: string, email?: string): Promise<void> => {
     setIsLoading(true);
 
     try {
@@ -99,7 +128,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ username, password, email }),
+        body: JSON.stringify({ display_name: displayName, username, password, email }),
       });
 
       if (!response.ok) {

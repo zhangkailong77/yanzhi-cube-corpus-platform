@@ -104,7 +104,14 @@ class AuthService:
         await session.commit()
 
     @staticmethod
-    async def create_user(session: AsyncSession, username: str, password: str, email: Optional[str] = None, role: UserRole = UserRole.MEMBER) -> User:
+    async def create_user(
+        session: AsyncSession,
+        username: str,
+        password: str,
+        display_name: str,
+        email: Optional[str] = None,
+        role: UserRole = UserRole.MEMBER
+    ) -> User:
         """创建新用户"""
         # 检查用户名是否已存在
         existing = await AuthService.get_user_by_username(session, username)
@@ -115,6 +122,7 @@ class AuthService:
         hashed_password = AuthService.get_password_hash(password)
         user = User(
             username=username,
+            display_name=display_name,
             password_hash=hashed_password,
             email=email,
             role=role,
@@ -130,6 +138,7 @@ class AuthService:
         return UserInfo(
             id=user.id,
             username=user.username,
+            display_name=(user.display_name or user.username),
             email=user.email,
             role=user.role,
             is_active=user.is_active,

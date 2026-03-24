@@ -1,0 +1,32 @@
+{
+  "MS-train_000249": {
+    "annotated": true,
+    "annotated_by": "学生1",
+    "annotated_at": "2026-03-24T09:49:28+08:00",
+    "annotation_date": "2026-03-24",
+    "edit_notes": [
+      {
+        "from_word": "untuk",
+        "to_word": "untunk",
+        "explanation": "介词，表示“为了/用于”"
+      },
+      {
+        "from_word": "yang",
+        "to_word": "yanga",
+        "explanation": "测试"
+      }
+    ]
+  },
+  "MS-train_000339": {
+    "annotated": true,
+    "annotated_by": "学生1",
+    "annotated_at": "2026-03-24T09:05:58+08:00",
+    "annotation_date": "2026-03-24"
+  },
+  "MS-train_000341": {
+    "annotated": true,
+    "annotated_by": "学生1",
+    "annotated_at": "2026-03-24T09:06:05+08:00",
+    "annotation_date": "2026-03-24"
+  }
+}

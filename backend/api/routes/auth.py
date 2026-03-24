@@ -7,7 +7,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from database.connection import get_db
 from api.schemas.auth import LoginRequest, LoginResponse, UserInfo, ApiResponse, RegisterRequest
-from api.services.auth_service import AuthService
+from api.services.auth_service import AuthService, ACCESS_TOKEN_EXPIRE_MINUTES
 from api.utils.security import get_current_user, get_current_user_optional, User
 from api.models.user import UserRole
 
@@ -40,7 +40,7 @@ async def login(
     await AuthService.update_last_login(db, user)
 
     # 生成 token
-    access_token_expires = timedelta(minutes=30)
+    access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
     access_token = AuthService.create_access_token(
         data={"sub": str(user.id), "username": user.username, "role": user.role},
         expires_delta=access_token_expires
@@ -49,7 +49,7 @@ async def login(
     return LoginResponse(
         access_token=access_token,
         token_type="bearer",
-        expires_in=30 * 60,  # 30 分钟，单位秒
+        expires_in=ACCESS_TOKEN_EXPIRE_MINUTES * 60,
         user=AuthService.user_to_info(user)
     )
 
@@ -108,6 +108,7 @@ async def register(
     用户注册接口
 
     - **username**: 用户名（唯一）
+    - **display_name**: 姓名（必填）
     - **password**: 密码
     - **email**: 邮箱（可选，唯一）
 
@@ -135,12 +136,13 @@ async def register(
         db,
         username=register_data.username,
         password=register_data.password,
+        display_name=register_data.display_name,
         email=register_data.email,
         role=UserRole.MEMBER  # 普通用户角色
     )
 
     # 生成 token
-    access_token_expires = timedelta(minutes=30)
+    access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
     access_token = AuthService.create_access_token(
         data={"sub": str(new_user.id), "username": new_user.username, "role": new_user.role},
         expires_delta=access_token_expires
@@ -149,6 +151,6 @@ async def register(
     return LoginResponse(
         access_token=access_token,
         token_type="bearer",
-        expires_in=30 * 60,
+        expires_in=ACCESS_TOKEN_EXPIRE_MINUTES * 60,
         user=AuthService.user_to_info(new_user)
     )

@@ -19,6 +19,7 @@ export function LoginModal({ isOpen, onClose, onSuccess }: LoginModalProps) {
   const { login, register, isLoading } = useAuth();
   const [isLoginMode, setIsLoginMode] = useState(true); // true=登录, false=注册
   const [username, setUsername] = useState('');
+  const [displayName, setDisplayName] = useState('');
   const [password, setPassword] = useState('');
   const [email, setEmail] = useState('');
   const [error, setError] = useState('');
@@ -34,6 +35,12 @@ export function LoginModal({ isOpen, onClose, onSuccess }: LoginModalProps) {
     }
 
     // 注册模式下，邮箱必填
+    if (!isLoginMode && !displayName.trim()) {
+      setError('请输入姓名');
+      return;
+    }
+
+    // 注册模式下，邮箱必填
     if (!isLoginMode && !email.trim()) {
       setError('请输入邮箱');
       return;
@@ -43,7 +50,7 @@ export function LoginModal({ isOpen, onClose, onSuccess }: LoginModalProps) {
       if (isLoginMode) {
         await login(username, password);
       } else {
-        await register(username, password, email);
+        await register(displayName, username, password, email);
       }
       onSuccess?.();
       handleClose();
@@ -54,6 +61,7 @@ export function LoginModal({ isOpen, onClose, onSuccess }: LoginModalProps) {
 
   const handleClose = () => {
     setUsername('');
+    setDisplayName('');
     setPassword('');
     setEmail('');
     setError('');
@@ -110,6 +118,32 @@ export function LoginModal({ isOpen, onClose, onSuccess }: LoginModalProps) {
 
             {/* 登录表单 */}
             <form onSubmit={handleSubmit} className="px-8 pb-8 space-y-5">
+              {/* 用户名输入 */}
+              {!isLoginMode && (
+                <div className="space-y-2">
+                  <label
+                    htmlFor="modal-display-name"
+                    className="block text-sm font-medium text-slate-700"
+                  >
+                    姓名
+                  </label>
+                  <div className="relative">
+                    <User className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-slate-400 pointer-events-none" />
+                    <input
+                      id="modal-display-name"
+                      type="text"
+                      value={displayName}
+                      onChange={(e) => setDisplayName(e.target.value)}
+                      className="w-full pl-10 pr-4 py-3 bg-slate-50/50 border border-slate-200/50 rounded-xl focus:ring-2 focus:ring-primary-500/50 focus:border-primary-500/50 transition-all placeholder:text-slate-400"
+                      placeholder="请输入姓名"
+                      disabled={isLoading}
+                      autoComplete="name"
+                      required={!isLoginMode}
+                    />
+                  </div>
+                </div>
+              )}
+
               {/* 用户名输入 */}
               <div className="space-y-2">
                 <label

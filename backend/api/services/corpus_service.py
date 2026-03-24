@@ -4,6 +4,7 @@
 import hashlib
 import io
 import json
+import logging
 import os
 from pathlib import Path
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -25,12 +26,366 @@ from api.schemas.corpus import (
 )
 from datetime import datetime, timedelta
 
+logger = logging.getLogger(__name__)
 
 MINIO_AUDIO_CORPUS_ID = -1
 _minio_audio_cache: Dict[str, Any] = {
     "manifest_key": None,
     "manifest": None,
 }
+
+VIRTUAL_AUDIO_CORPORA: List[Dict[str, Any]] = [
+    {"id": -101, "lang": "vi", "name": "AUDIO-vi", "source_name": "Vietnamese"},
+    {"id": -102, "lang": "ms", "name": "AUDIO-ms", "source_name": "Malay"},
+    {"id": -103, "lang": "th", "name": "AUDIO-th", "source_name": "Thai"},
+]
+_VIRTUAL_AUDIO_CORPUS_MAP: Dict[int, Dict[str, Any]] = {
+    item["id"]: item for item in VIRTUAL_AUDIO_CORPORA
+}
+_local_audio_manifest_cache: Dict[str, Dict[str, Any]] = {}
+
+
+def is_virtual_audio_corpus(corpus_id: int) -> bool:
+    return corpus_id in _VIRTUAL_AUDIO_CORPUS_MAP
+
+
+def _get_local_voicedatas_root() -> Path:
+    override = os.getenv("LOCAL_AUDIO_VOICEDATAS_DIR")
+    if override:
+        return Path(override)
+    project_root = Path(__file__).resolve().parents[3]
+    return project_root / "frontend" / "public" / "voicedatas"
+
+
+def _pick_transcript_for_local_row(row: dict) -> str:
+    for key in ["text", "transcript", "sentence", "raw_text", "target_text", "output"]:
+        val = row.get(key)
+        if isinstance(val, str) and val.strip():
+            return val.strip()
+    return ""
+
+
+def _get_local_annotation_meta_path(lang: str) -> Path:
+    root = _get_local_voicedatas_root()
+    return root / lang / "annotations.json"
+
+
+def _load_local_annotation_map(lang: str) -> Dict[str, Dict[str, Any]]:
+    path = _get_local_annotation_meta_path(lang)
+    if not path.exists() or not path.is_file():
+        return {}
+
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+
+    if not isinstance(payload, dict):
+        return {}
+
+    return {
+        str(key): value
+        for key, value in payload.items()
+        if isinstance(value, dict)
+    }
+
+
+def _save_local_annotation_map(lang: str, annotation_map: Dict[str, Dict[str, Any]]) -> None:
+    path = _get_local_annotation_meta_path(lang)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(annotation_map, ensure_ascii=False, indent=2),
+        encoding="utf-8"
+    )
+
+
+def _normalize_edit_notes(raw_notes: Any) -> List[Dict[str, str]]:
+    if not isinstance(raw_notes, list):
+        return []
+    normalized: List[Dict[str, str]] = []
+    for item in raw_notes:
+        if not isinstance(item, dict):
+            continue
+        from_word = str(item.get("from_word") or "").strip()
+        to_word = str(item.get("to_word") or "").strip()
+        explanation = str(item.get("explanation") or "").strip()
+        if not from_word or not to_word:
+            continue
+        normalized.append({
+            "from_word": from_word,
+            "to_word": to_word,
+            "explanation": explanation
+        })
+    return normalized
+
+
+def _upsert_edit_note(edit_notes: List[Dict[str, str]], note: Dict[str, str]) -> List[Dict[str, str]]:
+    from_word = str(note.get("from_word") or "").strip()
+    to_word = str(note.get("to_word") or "").strip()
+    explanation = str(note.get("explanation") or "").strip()
+    if not from_word or not to_word or from_word == to_word:
+        return edit_notes
+
+    next_notes = [item for item in edit_notes if not (
+        item.get("from_word") == from_word and item.get("to_word") == to_word
+    )]
+    next_notes.append({
+        "from_word": from_word,
+        "to_word": to_word,
+        "explanation": explanation
+    })
+    return next_notes[-20:]
+
+
+def _load_local_audio_manifest(lang: str) -> Dict[str, Any]:
+    root = _get_local_voicedatas_root()
+    manifest_path = root / lang / "manifest.jsonl"
+    if not manifest_path.exists():
+        return {"total": 0, "items": []}
+
+    cache_key = f"{lang}:{manifest_path}"
+    mtime = manifest_path.stat().st_mtime
+    cached = _local_audio_manifest_cache.get(cache_key)
+    if cached and cached.get("mtime") == mtime:
+        return cached["manifest"]
+
+    annotation_map = _load_local_annotation_map(lang)
+    items: List[dict] = []
+    with open(manifest_path, "r", encoding="utf-8") as fp:
+        for idx, line in enumerate(fp, start=1):
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                row = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if not isinstance(row, dict):
+                continue
+
+            audio_file = row.get("audio_file")
+            if not isinstance(audio_file, str) or not audio_file.strip():
+                continue
+
+            audio_rel = audio_file.strip().lstrip("/")
+            audio_url = f"/voicedatas/{lang}/{audio_rel}"
+            audio_stem = Path(audio_rel).stem
+
+            original_transcript = _pick_transcript_for_local_row(row)
+            transcript = ""
+            text_file = row.get("text_file")
+            if isinstance(text_file, str) and text_file.strip():
+                text_path = root / lang / text_file.strip().lstrip("/")
+                if text_path.exists() and text_path.is_file():
+                    try:
+                        transcript = text_path.read_text(encoding="utf-8").strip()
+                    except Exception:
+                        transcript = ""
+            if not transcript:
+                transcript = original_transcript
+
+            duration_val = row.get("duration_sec")
+            duration = str(duration_val) if duration_val is not None else None
+
+            audio_id = f"{lang.upper()}-{audio_stem}"
+            annotation_meta = annotation_map.get(audio_id, {})
+            edited = transcript.strip() != original_transcript.strip()
+            annotated = bool(annotation_meta.get("annotated")) or edited
+            annotated_by = str(annotation_meta.get("annotated_by") or "").strip()
+            annotated_at = str(annotation_meta.get("annotated_at") or "").strip()
+            annotation_date = str(annotation_meta.get("annotation_date") or "").strip()
+            edit_notes = _normalize_edit_notes(annotation_meta.get("edit_notes"))
+
+            items.append({
+                "audio_id": audio_id,
+                "audio_url": audio_url,
+                "transcript": transcript,
+                "original_transcript": original_transcript,
+                "duration_seconds": duration,
+                "language": lang,
+                "annotated": annotated,
+                "annotated_by": annotated_by,
+                "annotated_at": annotated_at,
+                "annotation_date": annotation_date,
+                "edit_notes": edit_notes,
+                "sort_index": idx
+            })
+
+    manifest = {
+        "total": len(items),
+        "items": items
+    }
+    _local_audio_manifest_cache[cache_key] = {"mtime": mtime, "manifest": manifest}
+    return manifest
+
+
+def get_virtual_audio_corpus_items(
+    source_lang: Optional[str] = None,
+    target_lang: Optional[str] = None
+) -> List[CorpusItem]:
+    items: List[CorpusItem] = []
+    for cfg in VIRTUAL_AUDIO_CORPORA:
+        lang = cfg["lang"]
+        if source_lang and source_lang != lang:
+            continue
+        if target_lang and target_lang != lang:
+            continue
+
+        manifest = _load_local_audio_manifest(lang)
+        total = int(manifest.get("total", 0))
+        items.append(
+            CorpusItem(
+                id=cfg["id"],
+                name=cfg["name"],
+                sentences=format_number(total),
+                sTok="--",
+                tTok="--",
+                tags=[],
+                domain="audio",
+                source_type="official",
+                is_public=True
+            )
+        )
+    return items
+
+
+def get_virtual_audio_corpus_detail(corpus_id: int) -> dict:
+    cfg = _VIRTUAL_AUDIO_CORPUS_MAP[corpus_id]
+    lang = cfg["lang"]
+    manifest = _load_local_audio_manifest(lang)
+    total = int(manifest.get("total", 0))
+    return {
+        "id": cfg["id"],
+        "name": cfg["name"],
+        "description": f"Local voice dataset: voicedatas/{lang}",
+        "source_lang": lang,
+        "target_lang": lang,
+        "source_name": cfg["source_name"],
+        "target_name": cfg["source_name"],
+        "sentence_count": total,
+        "source_token_count": 0,
+        "target_token_count": 0,
+        "domain": "audio",
+        "source_type": "official",
+        "is_public": True,
+    }
+
+
+def get_virtual_audio_samples(corpus_id: int, page: int = 1, limit: int = 10) -> SampleListResponse:
+    cfg = _VIRTUAL_AUDIO_CORPUS_MAP[corpus_id]
+    lang = cfg["lang"]
+    manifest = _load_local_audio_manifest(lang)
+    rows = manifest.get("items", [])
+    total = int(manifest.get("total", len(rows)))
+    start = max(0, (page - 1) * limit)
+    end = min(total, start + limit)
+    page_rows = rows[start:end]
+
+    items: List[dict] = []
+    for idx, row in enumerate(page_rows, start=start + 1):
+        if not isinstance(row, dict):
+            continue
+        items.append({
+            "type": "audio",
+            "id": idx,
+            "audio_id": row.get("audio_id", f"{lang.upper()}-{idx}"),
+            "audio_url": row.get("audio_url", ""),
+            "transcript": row.get("transcript", ""),
+            "original_transcript": row.get("original_transcript", ""),
+            "duration_seconds": row.get("duration_seconds"),
+            "language": row.get("language", lang),
+            "annotated": bool(row.get("annotated", False)),
+            "annotated_by": row.get("annotated_by", ""),
+            "annotated_at": row.get("annotated_at", ""),
+            "annotation_date": row.get("annotation_date", ""),
+            "edit_notes": row.get("edit_notes", [])
+        })
+
+    return SampleListResponse(items=items, total=total, page=page, limit=limit)
+
+
+def _invalidate_local_audio_manifest_cache(lang: str) -> None:
+    for key in list(_local_audio_manifest_cache.keys()):
+        if key.startswith(f"{lang}:"):
+            _local_audio_manifest_cache.pop(key, None)
+
+
+def update_virtual_audio_transcript(
+    corpus_id: int,
+    audio_id: str,
+    transcript: str,
+    annotated_by: Optional[str] = None,
+    edit_note: Optional[Dict[str, Any]] = None
+) -> Dict[str, Any]:
+    if corpus_id not in _VIRTUAL_AUDIO_CORPUS_MAP:
+        raise ValueError("语料库不是可编辑的本地音频语料")
+
+    cfg = _VIRTUAL_AUDIO_CORPUS_MAP[corpus_id]
+    lang = cfg["lang"]
+    root = _get_local_voicedatas_root()
+
+    manifest = _load_local_audio_manifest(lang)
+    target = next((item for item in manifest.get("items", []) if item.get("audio_id") == audio_id), None)
+    if not target:
+        raise FileNotFoundError(f"未找到音频样本: {audio_id}")
+
+    audio_url = str(target.get("audio_url", ""))
+    stem = Path(audio_url).stem
+    if not stem:
+        raise ValueError("音频样本路径无效")
+
+    txt_path = root / lang / "txt" / f"{stem}.txt"
+    txt_path.parent.mkdir(parents=True, exist_ok=True)
+    txt_path.write_text(transcript, encoding="utf-8")
+
+    original_transcript = str(target.get("original_transcript") or "").strip()
+    edited = transcript.strip() != original_transcript
+    annotation_map = _load_local_annotation_map(lang)
+    current_time = datetime.now().astimezone()
+    existing_meta = annotation_map.get(audio_id, {})
+    edit_notes = _normalize_edit_notes(existing_meta.get("edit_notes"))
+    if isinstance(edit_note, dict):
+        edit_notes = _upsert_edit_note(edit_notes, {
+            "from_word": str(edit_note.get("from_word") or ""),
+            "to_word": str(edit_note.get("to_word") or ""),
+            "explanation": str(edit_note.get("explanation") or "")
+        })
+
+    if edited:
+        annotator = (annotated_by or "").strip() or "未知用户"
+        annotation_meta = {
+            "annotated": True,
+            "annotated_by": annotator,
+            "annotated_at": current_time.isoformat(timespec="seconds"),
+            "annotation_date": current_time.strftime("%Y-%m-%d"),
+            "edit_notes": edit_notes
+        }
+        annotation_map[audio_id] = annotation_meta
+    else:
+        annotation_map.pop(audio_id, None)
+        annotation_meta = {
+            "annotated": False,
+            "annotated_by": "",
+            "annotated_at": "",
+            "annotation_date": "",
+            "edit_notes": []
+        }
+
+    _save_local_annotation_map(lang, annotation_map)
+
+    _invalidate_local_audio_manifest_cache(lang)
+
+    return {
+        "audio_id": audio_id,
+        "language": lang,
+        "text_file": str(txt_path.relative_to(root)),
+        "transcript": transcript,
+        "annotated": bool(annotation_meta.get("annotated")),
+        "annotated_by": str(annotation_meta.get("annotated_by") or ""),
+        "annotated_at": str(annotation_meta.get("annotated_at") or ""),
+        "annotation_date": str(annotation_meta.get("annotation_date") or ""),
+        "edit_notes": _normalize_edit_notes(annotation_meta.get("edit_notes"))
+    }
 
 
 def get_minio_audio_config() -> dict:
