@@ -11,7 +11,9 @@ services:
     env_file:
       - ./backend/.env.production
     environment:
-      - DB_HOST=host.docker.internal
+      - LOCAL_AUDIO_VOICEDATAS_DIR=/app/voicedatas
+    volumes:
+      - ./frontend/public/voicedatas:/app/voicedatas:ro
     extra_hosts:
       - "host.docker.internal:host-gateway"
     depends_on: []
