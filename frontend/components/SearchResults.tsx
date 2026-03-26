@@ -201,6 +201,8 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
     { code: 'th', label: t('langThai') },
     { code: 'vi', label: t('langVietnamese') },
     { code: 'ms', label: t('langMalay') },
+    { code: 'khm', label: t('langKhmer') },
+    { code: 'my', label: t('langMyanmar') },
     { code: 'id', label: t('langIndonesian') },
   ];
 
@@ -217,9 +219,29 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
       case 'th': return 'Thai (th)';
       case 'vi': return 'Vietnamese (vi)';
       case 'ms': return 'Malay (ms)';
+      case 'khm': return 'Khmer (khm)';
+      case 'my': return 'Myanmar (my)';
       case 'id': return 'Indonesian (id)';
       default: return code;
     }
+  };
+
+  const getCorpusDisplayName = (name: string) => {
+    const match = name.match(/^AUDIO-([a-z]+)$/i);
+    if (!match) return name;
+
+    const code = match[1].toLowerCase();
+    const labelMap: Record<string, string> = {
+      vi: '越南语',
+      ms: '马来语',
+      th: '泰语',
+      khm: '柬埔寨语',
+      my: '缅甸语'
+    };
+
+    const zhLabel = labelMap[code];
+    if (!zhLabel) return name;
+    return `${name}-${zhLabel}`;
   };
 
   // Helper to get badge styles based on tag type
@@ -396,7 +418,7 @@ const SearchResults: React.FC<SearchResultsProps> = ({ sourceLang, targetLang, o
                 {/* Corpus Name & Tags */}
                 <div className="col-span-3 lg:col-span-2 flex flex-col space-y-2">
                   <div className="font-mono text-sm font-semibold text-slate-800 break-words">
-                    {item.name}
+                    {getCorpusDisplayName(item.name)}
                   </div>
                   {/* Scenario Tags */}
                   <div className="flex flex-wrap gap-1.5">

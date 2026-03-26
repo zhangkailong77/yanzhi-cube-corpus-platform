@@ -405,6 +405,8 @@ const SamplePreview: React.FC<SamplePreviewProps> = ({ corpusId, onBack, onError
     { code: 'th', label: t('langThai') },
     { code: 'vi', label: t('langVietnamese') },
     { code: 'ms', label: t('langMalay') },
+    { code: 'khm', label: t('langKhmer') },
+    { code: 'my', label: t('langMyanmar') },
     { code: 'id', label: t('langIndonesian') },
   ];
 

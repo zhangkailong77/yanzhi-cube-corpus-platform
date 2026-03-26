@@ -34,19 +34,24 @@ _minio_audio_cache: Dict[str, Any] = {
     "manifest": None,
 }
 
-VIRTUAL_AUDIO_CORPORA: List[Dict[str, Any]] = [
-    {"id": -101, "lang": "vi", "name": "AUDIO-vi", "source_name": "Vietnamese"},
-    {"id": -102, "lang": "ms", "name": "AUDIO-ms", "source_name": "Malay"},
-    {"id": -103, "lang": "th", "name": "AUDIO-th", "source_name": "Thai"},
-]
-_VIRTUAL_AUDIO_CORPUS_MAP: Dict[int, Dict[str, Any]] = {
-    item["id"]: item for item in VIRTUAL_AUDIO_CORPORA
+_VIRTUAL_AUDIO_LEGACY_IDS: Dict[str, int] = {
+    "vi": -101,
+    "ms": -102,
+    "th": -103,
+    "khm": -104,
+}
+_VIRTUAL_AUDIO_LANGUAGE_NAMES: Dict[str, str] = {
+    "vi": "Vietnamese",
+    "ms": "Malay",
+    "th": "Thai",
+    "khm": "Khmer",
+    "my": "Myanmar",
 }
 _local_audio_manifest_cache: Dict[str, Dict[str, Any]] = {}
 
 
 def is_virtual_audio_corpus(corpus_id: int) -> bool:
-    return corpus_id in _VIRTUAL_AUDIO_CORPUS_MAP
+    return corpus_id in _get_virtual_audio_corpus_map()
 
 
 def _get_local_voicedatas_root() -> Path:
@@ -55,6 +60,50 @@ def _get_local_voicedatas_root() -> Path:
         return Path(override)
     project_root = Path(__file__).resolve().parents[3]
     return project_root / "frontend" / "public" / "voicedatas"
+
+
+def _generate_virtual_audio_id(lang: str, used_ids: set[int]) -> int:
+    base = int(hashlib.md5(lang.encode("utf-8")).hexdigest()[:8], 16)
+    corpus_id = -1000 - (base % 900000)
+    while corpus_id in used_ids or corpus_id == MINIO_AUDIO_CORPUS_ID:
+        corpus_id -= 1
+    return corpus_id
+
+
+def _get_virtual_audio_corpora() -> List[Dict[str, Any]]:
+    root = _get_local_voicedatas_root()
+    if not root.exists() or not root.is_dir():
+        return []
+
+    languages: List[str] = []
+    for entry in root.iterdir():
+        if not entry.is_dir():
+            continue
+        if not (entry / "manifest.jsonl").exists():
+            continue
+        languages.append(entry.name)
+
+    languages.sort()
+    corpora: List[Dict[str, Any]] = []
+    used_ids: set[int] = set()
+    for lang in languages:
+        corpus_id = _VIRTUAL_AUDIO_LEGACY_IDS.get(lang)
+        if corpus_id is None:
+            corpus_id = _generate_virtual_audio_id(lang, used_ids)
+        used_ids.add(corpus_id)
+        source_name = _VIRTUAL_AUDIO_LANGUAGE_NAMES.get(lang, lang.upper())
+        corpora.append({
+            "id": corpus_id,
+            "lang": lang,
+            "name": f"AUDIO-{lang}",
+            "source_name": source_name,
+        })
+
+    return corpora
+
+
+def _get_virtual_audio_corpus_map() -> Dict[int, Dict[str, Any]]:
+    return {item["id"]: item for item in _get_virtual_audio_corpora()}
 
 
 def _pick_transcript_for_local_row(row: dict) -> str:
@@ -224,7 +273,7 @@ def get_virtual_audio_corpus_items(
     target_lang: Optional[str] = None
 ) -> List[CorpusItem]:
     items: List[CorpusItem] = []
-    for cfg in VIRTUAL_AUDIO_CORPORA:
+    for cfg in _get_virtual_audio_corpora():
         lang = cfg["lang"]
         if source_lang and source_lang != lang:
             continue
@@ -250,7 +299,7 @@ def get_virtual_audio_corpus_items(
 
 
 def get_virtual_audio_corpus_detail(corpus_id: int) -> dict:
-    cfg = _VIRTUAL_AUDIO_CORPUS_MAP[corpus_id]
+    cfg = _get_virtual_audio_corpus_map()[corpus_id]
     lang = cfg["lang"]
     manifest = _load_local_audio_manifest(lang)
     total = int(manifest.get("total", 0))
@@ -272,7 +321,7 @@ def get_virtual_audio_corpus_detail(corpus_id: int) -> dict:
 
 
 def get_virtual_audio_samples(corpus_id: int, page: int = 1, limit: int = 10) -> SampleListResponse:
-    cfg = _VIRTUAL_AUDIO_CORPUS_MAP[corpus_id]
+    cfg = _get_virtual_audio_corpus_map()[corpus_id]
     lang = cfg["lang"]
     manifest = _load_local_audio_manifest(lang)
     rows = manifest.get("items", [])
@@ -317,10 +366,11 @@ def update_virtual_audio_transcript(
     annotated_by: Optional[str] = None,
     edit_note: Optional[Dict[str, Any]] = None
 ) -> Dict[str, Any]:
-    if corpus_id not in _VIRTUAL_AUDIO_CORPUS_MAP:
+    corpus_map = _get_virtual_audio_corpus_map()
+    if corpus_id not in corpus_map:
         raise ValueError("语料库不是可编辑的本地音频语料")
 
-    cfg = _VIRTUAL_AUDIO_CORPUS_MAP[corpus_id]
+    cfg = corpus_map[corpus_id]
     lang = cfg["lang"]
     root = _get_local_voicedatas_root()
 

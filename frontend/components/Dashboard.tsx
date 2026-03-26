@@ -70,6 +70,8 @@ const Dashboard: React.FC = () => {
       { code: 'th', label: t('langThai') },
       { code: 'vi', label: t('langVietnamese') },
       { code: 'ms', label: t('langMalay') },
+      { code: 'khm', label: t('langKhmer') },
+      { code: 'my', label: t('langMyanmar') },
    ];
 
    const handleSwapLanguages = () => {
