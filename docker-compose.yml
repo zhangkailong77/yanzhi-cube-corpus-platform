@@ -13,7 +13,7 @@ services:
     environment:
       - LOCAL_AUDIO_VOICEDATAS_DIR=/app/voicedatas
     volumes:
-      - ./frontend/public/voicedatas:/app/voicedatas:ro
+      - ./frontend/public/voicedatas:/app/voicedatas:rw
     extra_hosts:
       - "host.docker.internal:host-gateway"
     depends_on: []

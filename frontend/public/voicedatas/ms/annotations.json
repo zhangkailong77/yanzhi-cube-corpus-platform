@@ -1,9 +1,9 @@
 {
   "MS-train_000249": {
     "annotated": true,
-    "annotated_by": "学生1",
-    "annotated_at": "2026-03-24T09:49:28+08:00",
-    "annotation_date": "2026-03-24",
+    "annotated_by": "18250636865",
+    "annotated_at": "2026-03-26T13:36:28+08:00",
+    "annotation_date": "2026-03-26",
     "edit_notes": [
       {
         "from_word": "untuk",
@@ -14,6 +14,11 @@
         "from_word": "yang",
         "to_word": "yanga",
         "explanation": "测试"
+      },
+      {
+        "from_word": "melihat",
+        "to_word": "melihats",
+        "explanation": ""
       }
     ]
   },
