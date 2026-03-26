@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
   return (
     <div className="w-full bg-white py-16 border-b border-slate-100">
       <div className="w-full px-6 md:px-12">
-        <div className="flex flex-col md:flex-row items-start md:items-center space-y-8 md:space-y-0 md:space-x-12">
+        <div className="flex flex-col md:flex-row items-start md:items-center space-y-8 md:space-y-0 md:space-x-6">
 
           {/* Logo Section */}
           <div className="flex-shrink-0">
@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
 
           {/* Search/Actions Section */}
           <div className="flex-grow w-full max-w-3xl pt-2">
-            <h1 className="text-3xl font-bold text-slate-900 mb-6 tracking-tight font-mono">
+            <h1 className="text-3xl font-bold text-slate-900 mb-6 tracking-tight font-mono whitespace-nowrap">
               {t('findCorpora')}
             </h1>
 
